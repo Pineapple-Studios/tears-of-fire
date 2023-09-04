@@ -10,15 +10,11 @@ public class Enemy : MonoBehaviour
     private float _damageOnTouch = 35f;
     [SerializeField]
     private float _life = 35f;
+    [SerializeField]
+    private Collider2D _col;
 
     private PlayerProps _pp;
-    private Collider2D _col;
     private bool _isDisabledColliders = false;
-
-    private void Start()
-    {
-        _col = GetComponent<Collider2D>();
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

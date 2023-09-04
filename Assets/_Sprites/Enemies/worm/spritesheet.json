@@ -1,0 +1,515 @@
+{
+	"frames": {
+		"InimgoRastejador_IDDLE_WALK_ATACK0001.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0002.png": {
+			"frame": {
+				"x": 867,
+				"y": 1,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0003.png": {
+			"frame": {
+				"x": 1733,
+				"y": 1,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0004.png": {
+			"frame": {
+				"x": 2599,
+				"y": 1,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0005.png": {
+			"frame": {
+				"x": 1,
+				"y": 803,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0006.png": {
+			"frame": {
+				"x": 867,
+				"y": 803,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0007.png": {
+			"frame": {
+				"x": 1733,
+				"y": 803,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0008.png": {
+			"frame": {
+				"x": 2599,
+				"y": 803,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0009.png": {
+			"frame": {
+				"x": 1,
+				"y": 1605,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0010.png": {
+			"frame": {
+				"x": 867,
+				"y": 1605,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0011.png": {
+			"frame": {
+				"x": 1733,
+				"y": 1605,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0012.png": {
+			"frame": {
+				"x": 2599,
+				"y": 1605,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0013.png": {
+			"frame": {
+				"x": 1,
+				"y": 2407,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0014.png": {
+			"frame": {
+				"x": 867,
+				"y": 2407,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0015.png": {
+			"frame": {
+				"x": 1733,
+				"y": 2407,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0016.png": {
+			"frame": {
+				"x": 2599,
+				"y": 2407,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0017.png": {
+			"frame": {
+				"x": 1,
+				"y": 3209,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0018.png": {
+			"frame": {
+				"x": 867,
+				"y": 3209,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0019.png": {
+			"frame": {
+				"x": 1733,
+				"y": 3209,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0020.png": {
+			"frame": {
+				"x": 2599,
+				"y": 3209,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0021.png": {
+			"frame": {
+				"x": 3465,
+				"y": 1,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0022.png": {
+			"frame": {
+				"x": 3465,
+				"y": 803,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0023.png": {
+			"frame": {
+				"x": 3465,
+				"y": 1605,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0024.png": {
+			"frame": {
+				"x": 3465,
+				"y": 2407,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		},
+		"InimgoRastejador_IDDLE_WALK_ATACK0025.png": {
+			"frame": {
+				"x": 3465,
+				"y": 3209,
+				"w": 864,
+				"h": 800
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 864,
+				"h": 800
+			},
+			"sourceSize": {
+				"w": 864,
+				"h": 800
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 4330,
+			"h": 4010
+		},
+		"scale": "1"
+	}
+}

@@ -201,9 +201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 6327985370641442998}
-  _dashDuration: 0.5
+  _dashDuration: 0.1
   _dashRecall: 0.5
-  _dashMultiplyer: 3
+  _dashMultiplyer: 6
   IsDashed: 0
 --- !u!114 &6389035521201139887
 MonoBehaviour:
@@ -475,7 +475,7 @@ MonoBehaviour:
   MoveSpeed: 15
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
-  JumpSpeed: 22
+  JumpSpeed: 25
   JumpDelay: 0.25
   JumpTimer: 0
   GravityScale: 5

@@ -75,6 +75,7 @@ public class PlayerController : MonoBehaviour
         // Inputs
         Direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Input.GetButtonDown("Jump")) JumpTimer = Time.time + JumpDelay;
+        if (Input.GetButtonUp("Jump") && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
         // Condicionais
         _onGround = 

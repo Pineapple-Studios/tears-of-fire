@@ -29,7 +29,7 @@ public class CameraFollowObject : MonoBehaviour
     {
         if (_playerTransform == null) return;
 
-        transform.position = _playerTransform.position;
+        transform.position = Vector3.Lerp(transform.position, _playerTransform.position, Time.deltaTime);
     }
 
     public void CallTurn()

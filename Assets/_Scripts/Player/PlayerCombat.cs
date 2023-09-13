@@ -36,7 +36,8 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R)) Attack();       
+        if (Input.GetKeyDown(KeyCode.R)) Attack();
+        if (Input.GetKeyUp(KeyCode.R)) IsAttacking = false;
     }
 
     private void Attack()

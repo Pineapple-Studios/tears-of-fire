@@ -45,7 +45,7 @@ public class PlayerProps : MonoBehaviour
     {
         IsTakingDamage = true;
         _life -= damage;
-        BackImpulse();
+        BackImpulse(); // Deve ser melhorado
         onChangePlayerLife(_life);
 
         StartCoroutine(EndOfEffects());

@@ -1112,7 +1112,7 @@ PrefabInstance:
       objectReference: {fileID: 1061380748}
     - target: {fileID: 2971402333164002789, guid: c0e82bcfaf2da434c8654d639a007423, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.69578
+      value: 13.743721
       objectReference: {fileID: 0}
     - target: {fileID: 6017143748421614766, guid: c0e82bcfaf2da434c8654d639a007423, type: 3}
       propertyPath: m_BoundingShape2D

@@ -36,14 +36,15 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R)) Attack();       
+        if (Input.GetKeyDown(KeyCode.R)) Attack();
+        if (Input.GetKeyUp(KeyCode.R)) IsAttacking = false;
     }
 
     private void Attack()
     {
         // Play an attack animation
         IsAttacking = true;
-        
+
         // Detect enemies in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
         

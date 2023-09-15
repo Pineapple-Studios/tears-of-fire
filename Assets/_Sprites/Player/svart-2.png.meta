@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b190e17326ede634494cc9c41ceb8dc3
+guid: 1ae8c110e17c53c46af8815468d29fce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,211 +123,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SAVARTWALK0029
+      name: SVARTIDLE0006
       rect:
         serializedVersion: 2
         x: 1
-        y: 1583
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 784
+        width: 241
+        height: 425
+      alignment: 9
+      pivot: {x: 0.5020747, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d3966b61c009bd43b03416d25e57fb6
-      internalID: -2017786167
+      spriteID: 4b6b9ae5b5582a7409a7d9b841a4b183
+      internalID: -659774061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0030
+      name: SVARTIDLE0007
       rect:
         serializedVersion: 2
-        x: 285
-        y: 1583
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 489
+        y: 1199
+        width: 241
+        height: 425
+      alignment: 9
+      pivot: {x: 0.5020747, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e35d9693d2ca99745a485b80a17303b2
-      internalID: 1239616184
+      spriteID: 8b3e893ee7c88364f8d4c5a179d31b39
+      internalID: -296327942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0031
+      name: SVARTIDLE0009
       rect:
         serializedVersion: 2
-        x: 569
-        y: 1583
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 482
+        y: 764
+        width: 232
+        height: 433
+      alignment: 9
+      pivot: {x: 0.50431037, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b2d6478c735b724495880a12ce6dbc0
-      internalID: -321045989
+      spriteID: 8ae5bc7bdb52c664cbed82492ecaecf7
+      internalID: 487859531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0032
+      name: SVARTIDLE0019
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1117
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 244
+        y: 793
+        width: 236
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5127119, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57cc231c116fef943a1d91c1f4bb688b
-      internalID: -530688344
+      spriteID: 3acd7c68cf521854da4360cb56cbb5f8
+      internalID: 129468879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0033
+      name: SVARTWALK0003
       rect:
         serializedVersion: 2
-        x: 285
-        y: 1117
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 248
+        y: 1626
+        width: 243
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a5f11523cf56340a8183cba7ae5bcd
-      internalID: -1542292079
+      spriteID: e64b6843b3bbdf54a9dd16f645107237
+      internalID: 882599523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0034
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 1117
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3072f0248af4e084c93427371296d457
-      internalID: 1299129586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAVARTWALK0035
+      name: SVARTWALK0004
       rect:
         serializedVersion: 2
         x: 1
-        y: 651
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 1211
+        width: 242
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af30a592c82ce74cbc307e0d78bdcb7
-      internalID: -87352594
+      spriteID: 5b4d8058629db1d4a83aae734bfe1dbe
+      internalID: 1134333465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0036
+      name: SVARTWALK0017
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 387
+        width: 231
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5367965, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d73a83a361d8942b7df02f504592ff
+      internalID: 132087770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTWALK0020
       rect:
         serializedVersion: 2
         x: 1
-        y: 185
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 1634
+        width: 245
+        height: 413
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee8ecb603a983874d9ee723a0abca16f
-      internalID: -290113124
+      spriteID: ed7702a5d1988fb4bb4cfdb037220691
+      internalID: 52006695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0037
+      name: SVARTWALK0021
       rect:
         serializedVersion: 2
-        x: 285
-        y: 651
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 493
+        y: 1626
+        width: 242
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22aa295c47f5f3e4d92f900939569734
-      internalID: 2134810620
+      spriteID: 8654ce7b0be748f4493c3bc18df918e1
+      internalID: 1178839620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAVARTWALK0038
+      name: SVARTWALK0022
       rect:
         serializedVersion: 2
-        x: 569
-        y: 651
-        width: 282
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 737
+        y: 1626
+        width: 242
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b79f2f0755137a40b04316bb72d4224
-      internalID: 1551093195
+      spriteID: c8db1ed195b74d14fb9fd1e2fb563bb3
+      internalID: 1160351257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTWALK0023
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1203
+        width: 242
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414b2d62248fde3478ef007d6cb6c56d
+      internalID: -1141803725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTWALK0036
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 378
+        width: 231
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5367965, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4de631edd4db9a44b71137cf67e18db
+      internalID: -1046946007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTWALK0037
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 818
+        width: 233
+        height: 402
+      alignment: 9
+      pivot: {x: 0.54077256, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c0b31f70d95e14199bc3e5b09d9949
+      internalID: 1229799992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTWALK0038
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1222
+        width: 234
+        height: 402
+      alignment: 9
+      pivot: {x: 0.54273504, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfde88937ce69c4788073c6fd3145bd
+      internalID: 1101167098
       vertices: []
       indices: 
       edges: []
@@ -335,7 +419,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e1fea282423a3d243a305a5295921d27
+    spriteID: 4117eda841a284d4ab0f5f285eb49918
     internalID: 0
     vertices: []
     indices: 
@@ -343,16 +427,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SAVARTWALK0029: -2017786167
-      SAVARTWALK0030: 1239616184
-      SAVARTWALK0031: -321045989
-      SAVARTWALK0032: -530688344
-      SAVARTWALK0033: -1542292079
-      SAVARTWALK0034: 1299129586
-      SAVARTWALK0035: -87352594
-      SAVARTWALK0036: -290113124
-      SAVARTWALK0037: 2134810620
-      SAVARTWALK0038: 1551093195
+      SVARTIDLE0006: -659774061
+      SVARTIDLE0007: -296327942
+      SVARTIDLE0009: 487859531
+      SVARTIDLE0019: 129468879
+      SVARTWALK0003: 882599523
+      SVARTWALK0004: 1134333465
+      SVARTWALK0017: 132087770
+      SVARTWALK0020: 52006695
+      SVARTWALK0021: 1178839620
+      SVARTWALK0022: 1160351257
+      SVARTWALK0023: -1141803725
+      SVARTWALK0036: -1046946007
+      SVARTWALK0037: 1229799992
+      SVARTWALK0038: 1101167098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

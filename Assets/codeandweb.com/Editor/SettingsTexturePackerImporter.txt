@@ -1,13 +1,16 @@
 version: 2
 tpsheetFileNames:
-- Assets/_Sprites/Player/svartWalk-0.tpsheet
-- Assets/_Sprites/Player/svartWalk-1.tpsheet
+- Assets/_Sprites/Player/svart-0.tpsheet
+- Assets/_Sprites/Player/svart-1.tpsheet
+- Assets/_Sprites/Player/svart-2.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
-- Assets/_Sprites/Player/svartWalk-0.png
-- Assets/_Sprites/Player/svartWalk-1.png
+- Assets/_Sprites/Player/svart-0.png
+- Assets/_Sprites/Player/svart-1.png
+- Assets/_Sprites/Player/svart-2.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png

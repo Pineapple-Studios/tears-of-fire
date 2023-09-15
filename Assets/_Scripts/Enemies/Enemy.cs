@@ -66,4 +66,8 @@ public class Enemy : MonoBehaviour
         // Remove enemy
         Destroy(gameObject);
     }
+    public float GetDamagePoints()
+    {
+        return _damageOnTouch;
+    }
 }

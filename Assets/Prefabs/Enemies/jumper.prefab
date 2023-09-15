@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6496182989528619243}
   - component: {fileID: 5499353704844550646}
-  m_Layer: 0
+  - component: {fileID: 5005368612453330068}
+  m_Layer: 7
   m_Name: Engines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,6 +57,21 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &5005368612453330068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4498587196222265946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7257cdc0c87f7fc43bc770c3d87e5d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damageOnTouch: 35
+  _life: 35
+  _col: {fileID: 6551439617773291691}
 --- !u!1 &5747332784605191920
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,7 +83,7 @@ GameObject:
   - component: {fileID: 1529573762000620621}
   - component: {fileID: 4535131776417336942}
   - component: {fileID: 6551439617773291691}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: jumper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8599559221276477487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FeedbackAndDebug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2678409791824294229}
   - component: {fileID: 8828011600915883385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,8 +14,24 @@ public class MovimentBetweenPointsElement : MonoBehaviour
     private bool _isGoAndBack = false;
     [SerializeField]
     private bool _isHorizontalMoviment = true;
+    [SerializeField]
+    private bool _isManagingParent = false;
 
     private bool _isGoingToSomewhere = false;
+    private Transform _activeTransform = null;
+
+    private void Start()
+    {
+        if (_isManagingParent)
+        {
+            // Utilizando o transform do elemento pai
+            _activeTransform = transform.parent.transform;
+        }
+        else
+        {
+            _activeTransform = transform;
+        }
+    }
 
     private void Update()
     {
@@ -24,20 +40,20 @@ public class MovimentBetweenPointsElement : MonoBehaviour
         if (!_isGoAndBack)
         {
             // Entou mais a direita do ponto final
-            if (transform.position.x >= EndPoint.transform.position.x)
+            if (_activeTransform.position.x >= EndPoint.transform.position.x)
             {
                 GoToLeft();
-                if (transform.position.x <= EndPoint.transform.position.x)
+                if (_activeTransform.position.x <= EndPoint.transform.position.x)
                 {
                     RestartElement();
                 }
             }
 
             // Entou mais a esquerda do ponto final
-            if (transform.position.x <= EndPoint.transform.position.x)
+            if (_activeTransform.position.x <= EndPoint.transform.position.x)
             {
                 GoToRight();
-                if (transform.position.x >= EndPoint.transform.position.x)
+                if (_activeTransform.position.x >= EndPoint.transform.position.x)
                 {
                     RestartElement();
                 }
@@ -45,12 +61,12 @@ public class MovimentBetweenPointsElement : MonoBehaviour
         }
         else
         {
-            if (transform.position == EndPoint.transform.position)
+            if (_activeTransform.position == EndPoint.transform.position)
             {
                 _isGoingToSomewhere = false;
                 Flip();
             }
-            if (transform.position == StartPoint.transform.position)
+            if (_activeTransform.position == StartPoint.transform.position)
             {
                 _isGoingToSomewhere = true;
                 Flip();
@@ -65,36 +81,36 @@ public class MovimentBetweenPointsElement : MonoBehaviour
     {
         if (_isHorizontalMoviment)
         {
-            if (transform.rotation.y == 1)
+            if (_activeTransform.rotation.y == 1)
             {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
+                _activeTransform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else
             {
-                transform.rotation = Quaternion.Euler(0, 180, 0);
+                _activeTransform.rotation = Quaternion.Euler(0, 180, 0);
             }
         } 
         else
         {
-            if (transform.rotation.x == 1)
+            if (_activeTransform.rotation.x == 1)
             {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
+                _activeTransform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else
             {
-                transform.rotation = Quaternion.Euler(180, 0, 0);
+                _activeTransform.rotation = Quaternion.Euler(180, 0, 0);
             }
         }
     }
 
     private void GoToLeft()
     {
-        transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, _timeToTravel * Time.deltaTime);
+        _activeTransform.position = Vector3.MoveTowards(_activeTransform.position, EndPoint.position, _timeToTravel * Time.deltaTime);
     }
 
     private void GoToRight()
     {
-        transform.position = Vector3.MoveTowards(EndPoint.position, transform.position, _timeToTravel * Time.deltaTime);
+        _activeTransform.position = Vector3.MoveTowards(EndPoint.position, _activeTransform.position, _timeToTravel * Time.deltaTime);
     }
 
     private void RestartElement()
@@ -105,11 +121,11 @@ public class MovimentBetweenPointsElement : MonoBehaviour
 
     private void GoToStart()
     {
-        transform.position = Vector3.MoveTowards(transform.position, StartPoint.position, _timeToTravel * Time.deltaTime);
+        _activeTransform.position = Vector3.MoveTowards(_activeTransform.position, StartPoint.position, _timeToTravel * Time.deltaTime);
     }
 
     private void GoToEnd()
     {
-        transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, _timeToTravel * Time.deltaTime);
+        _activeTransform.position = Vector3.MoveTowards(_activeTransform.position, EndPoint.position, _timeToTravel * Time.deltaTime);
     }
 }

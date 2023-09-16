@@ -27,7 +27,7 @@ public class PlayerDash : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F) && canDash)
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             Debug.Log("Dash");
             StartCoroutine(Dash());

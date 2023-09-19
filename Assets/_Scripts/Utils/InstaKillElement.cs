@@ -11,7 +11,7 @@ public class InstaKillElement : MonoBehaviour
     {
         if (collision.gameObject.layer == 3) // Layer 3 é a layer do player
         {
-            _pp = collision.gameObject.GetComponent<PlayerProps>();
+            _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
             InstantKill();
         }
     }

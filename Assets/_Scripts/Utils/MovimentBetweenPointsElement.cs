@@ -115,8 +115,8 @@ public class MovimentBetweenPointsElement : MonoBehaviour
 
     private void RestartElement()
     {
-        gameObject.SetActive(false);
-        gameObject.transform.position = StartPoint.position;
+        _activeTransform.gameObject.SetActive(false);
+        _activeTransform.position = StartPoint.position;
     }
 
     private void GoToStart()

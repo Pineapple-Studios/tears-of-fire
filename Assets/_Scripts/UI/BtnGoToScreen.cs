@@ -13,7 +13,7 @@ public class BtnGoToScreen : MonoBehaviour
 
     void Awake()
     {
-        PlayerPrefs.SetString("@tof/SceneName", SceneName);
+        //PlayerPrefs.SetString("@tof/SceneName", SceneName);
     }
 
     private void OnEnable()
@@ -38,6 +38,7 @@ public class BtnGoToScreen : MonoBehaviour
     {
         Debug.Log("AAAAAAAAAAAAAAA");
         //transition.SetBool("is_FireTr", true);
+        PlayerPrefs.SetString("@tof/SceneName", SceneName);
         transition.Play("tion_FireTransition");
     }
 }

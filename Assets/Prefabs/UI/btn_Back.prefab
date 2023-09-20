@@ -271,3 +271,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: MainMenu
+  _goToScreenButton: {fileID: 2536324892518281150}
+  transition: {fileID: 2616355237192331533, guid: b932aa88e50bd274d9337555231e3cba, type: 3}

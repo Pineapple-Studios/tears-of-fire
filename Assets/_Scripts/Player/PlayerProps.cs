@@ -11,6 +11,9 @@ public class PlayerProps : MonoBehaviour
     [Tooltip("Vida do personagem")]
     private float _life = 100f;
     [SerializeField]
+    [Tooltip("Vida máxima do personagem")]
+    private float _maxLife = 100f;
+    [SerializeField]
     [Tooltip("Dano do personagem")]
     private float _hitDamage = 35f;
     [SerializeField]
@@ -52,6 +55,20 @@ public class PlayerProps : MonoBehaviour
     }
 
     /// <summary>
+    /// Método responsável por recuperar vida do personagem
+    /// </summary>
+    /// <param name="amount">Heal de vida</param>
+    public void HealLife(float amount)
+    {
+        // Não executa a ação de recuperar vida caso a vida estiver cheia
+        if (_life == _maxLife) return;
+
+        _life += amount;
+        Debug.Log($"Heal to {_life}");
+        onChangePlayerLife(_life);
+    }
+
+    /// <summary>
     /// Empurra o personagem no sentido contrário ao da caminhada
     /// </summary>
     private void BackImpulse()
@@ -79,7 +96,7 @@ public class PlayerProps : MonoBehaviour
     {
         if (_life <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject.transform.parent.gameObject);
             onPlayerDead();
         }
     }

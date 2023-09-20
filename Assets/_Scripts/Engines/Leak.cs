@@ -1,39 +1,52 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using UnityEngine;
 
 public class Leak : MonoBehaviour
 {
-    [Header("Casting")]
+    [Header("Controls")]
     [SerializeField]
-    private Transform _start;
+    private Transform _startPoint;
     [SerializeField]
-    private Transform _end;
+    private float _cooldownInSeconds = 0.5f;
 
-    [Header("Drop")]
+    [Header("Polling elements")]
     [SerializeField]
-    private GameObject _dropPrefab;
+    private GameObject _prefabDrop;
     [SerializeField]
-    private float _dropSpeed;
-    [SerializeField]
-    private float _respownTime;
-    [SerializeField]
-    private float _damage = 20;
+    private int _pollingSize;
 
+    private Stack<GameObject> _instancesStack = new Stack<GameObject>();
+
+    private GameObject _tmpElement;
 
     private void Start()
     {
-        StartCoroutine(EmitDrop());
+        // Criando poll
+        for (int i = 0; i < _pollingSize; i++)
+        {
+            _tmpElement = Instantiate(_prefabDrop, _startPoint);
+            _tmpElement.SetActive(false);
+            _instancesStack.Push(_tmpElement);
+        }
+
+        StartCoroutine(StartDroping());
     }
 
-    private IEnumerator EmitDrop()
+    private IEnumerator StartDroping()
     {
-        GameObject obj = Instantiate(_dropPrefab, _start);
-        obj.transform.parent = null;
-        obj.transform.localScale = Vector3.one;
-        Drop _dp = obj.GetComponentInChildren<Drop>();
-        _dp.Init(_dropSpeed, _damage);
-        yield return new WaitForSeconds(_respownTime);
-        StartCoroutine(EmitDrop());
+        foreach (var instance in _instancesStack)
+        {
+            if (instance.activeSelf == false)
+            {
+                instance.SetActive(true);
+                break;
+            }
+        }
+
+        yield return new WaitForSeconds(_cooldownInSeconds);
+        StartCoroutine(StartDroping());
     }
 }

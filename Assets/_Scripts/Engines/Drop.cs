@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,27 +6,41 @@ using UnityEngine;
 public class Drop : MonoBehaviour
 {
     [SerializeField]
-    private LayerMask _target;
+    private LayerMask _leakLayer;
+    [SerializeField]
+    private LayerMask _targetLayer;
 
-    private float _speed;
-    private float _damage;
-
-    private Transform _root;
+    private Vector3 _initialPosition;
 
     private void Start()
     {
-        _root = transform.parent.gameObject.transform;
-        _root.position = Vector3.zero;
+        _initialPosition = new Vector3(
+            gameObject.transform.position.x, 
+            gameObject.transform.position.y, 
+            gameObject.transform.position.z
+        );
     }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        _root.position += new Vector3(_root.position.x, _root.position.y + (_speed * Time.deltaTime),1);
+        if ((((1 << collision.gameObject.layer) & _leakLayer) != 0))
+        {
+            Restart();
+        }
+
+        if ((((1 << collision.gameObject.layer) & _targetLayer) != 0))
+        {
+            Debug.Log(collision.gameObject.name);
+            PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
+            if (_pp != null) _pp.TakeDamage(20f); // Dano da gota
+
+            Restart();
+        }
     }
 
-    public void Init(float speed, float damage)
+    private void Restart()
     {
-        _damage = damage;
-        _speed = speed; 
+        gameObject.SetActive(false);
+        transform.position = _initialPosition;
     }
 }

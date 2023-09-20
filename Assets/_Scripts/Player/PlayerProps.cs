@@ -96,7 +96,7 @@ public class PlayerProps : MonoBehaviour
     {
         if (_life <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject.transform.parent.gameObject);
             onPlayerDead();
         }
     }

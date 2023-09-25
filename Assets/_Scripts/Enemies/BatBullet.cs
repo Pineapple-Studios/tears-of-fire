@@ -42,7 +42,7 @@ public class BatBullet : MonoBehaviour
         if ((((1 << collision.gameObject.layer) & _targetLayer) != 0))
         {
             Debug.Log(collision.gameObject.name);
-            PlayerProps _pp = collision.gameObject.GetComponent<PlayerProps>();
+            PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
             if (_pp != null) _pp.TakeDamage(_damage);
 
             Destroy(gameObject);

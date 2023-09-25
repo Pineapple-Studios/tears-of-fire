@@ -257,8 +257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b8168174533b74497d53b23640da5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rangeToBullet: 5
-  _targetComponent: PlayerDool
+  _rangeToBullet: 20
+  _targetComponent: Player
   _reloadTime: 2
   _bulletPrefab: {fileID: 173585051193226979, guid: 5293dca7919850a429a093367d63d5fd, type: 3}
   _bulletTarget:
@@ -393,5 +393,5 @@ Transform:
   - {fileID: 1211733528425542687}
   - {fileID: 3447082469268380978}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

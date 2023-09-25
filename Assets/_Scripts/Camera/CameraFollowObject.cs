@@ -61,4 +61,9 @@ public class CameraFollowObject : MonoBehaviour
         if (_isFacingRight) return 180f;
         else return 0f;
     }
+
+    public void SetFollowTo(Transform trans)
+    {
+        _playerTransform = trans;
+    }
 }

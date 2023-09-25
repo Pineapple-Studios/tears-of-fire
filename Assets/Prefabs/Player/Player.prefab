@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _life: 100
+  _maxLife: 100
   _hitDamage: 35
   _recallTime: 0.2
   RecallColliderTime: 1
@@ -197,7 +198,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5127031463221335106}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86b26544619448e4ab5cc918f944b6a4, type: 3}
   m_Name: 

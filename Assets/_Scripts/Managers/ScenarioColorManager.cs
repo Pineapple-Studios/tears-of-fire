@@ -59,7 +59,7 @@ public class ScenarioColorManager : MonoBehaviour
         if (transform.position.x != _followTo.position.x)
         {
             transform.position = new Vector3(_followTo.position.x, transform.position.y, transform.position.z);
-            Debug.Log("Position changed");
+            // Debug.Log("Position changed");
         }
     }
 
@@ -83,5 +83,10 @@ public class ScenarioColorManager : MonoBehaviour
         if (!light.color.Equals(_characterGlowColor)) light.color = _characterGlowColor;
         if (!light.range.Equals(_characterGlowRange)) light.range = _characterGlowRange;
         if (!light.intensity.Equals(_characterGlowIntensity)) light.intensity = _characterGlowIntensity;
+    }
+
+    public void SetFollowTo(Transform element)
+    {
+        _followTo = element;
     }
 }

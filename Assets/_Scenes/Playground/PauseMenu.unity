@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: SceneName
       value: Settings
       objectReference: {fileID: 0}
+    - target: {fileID: 8354039863919229451, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 836141411}
     - target: {fileID: 8735296138295157479, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -351,6 +355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: btn_Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 8354039863919229451, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 836141411}
     - target: {fileID: 8735296138295157479, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -566,6 +574,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b932aa88e50bd274d9337555231e3cba, type: 3}
+--- !u!95 &836141411 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2616355237192331533, guid: b932aa88e50bd274d9337555231e3cba, type: 3}
+  m_PrefabInstance: {fileID: 836141410}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1014588467
 GameObject:
   m_ObjectHideFlags: 0

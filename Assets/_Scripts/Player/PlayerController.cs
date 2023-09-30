@@ -1,9 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static Action onPlayerJumping;
+    public static Action onPlayerFalling;
+    public static Action onPlayerGround;
+
     [Header("Horizontal movement")]
     public float MoveSpeed = 10f;
     public Vector2 Direction;
@@ -14,6 +17,12 @@ public class PlayerController : MonoBehaviour
     public float JumpDelay = 0.25f;
     public float JumpTimer = 0f;
     public float GravityScale = 50f;
+
+    [Header("Jump props")]
+    [SerializeField]
+    private float _horizontalVelocityMultiplayerOnAir = 0.6f;
+    [SerializeField]
+    private float _fallVelocityMultiplayer = 1.2f;
 
     [Header("Collision")]
     [SerializeField]
@@ -40,6 +49,7 @@ public class PlayerController : MonoBehaviour
     private bool _canJump = true;
     private CameraFollowObject _cameraFollowObject;
     private float _fallSpeedYDampingChangeThreshold;
+    private bool isFalling = false;
 
     private void OnDrawGizmos()
     {
@@ -89,6 +99,26 @@ public class PlayerController : MonoBehaviour
 
         // Efeitos dependentes do Player
         CameraFollower();
+
+        // Desacelerando player enquanto está no ar
+        if (!_onGround) _rb.velocity = new Vector2(_rb.velocity.x * _horizontalVelocityMultiplayerOnAir, _rb.velocity.y);
+        
+        if (_onGround) _rb.gravityScale = GravityScale;
+
+        // Ajustando velocidade da queda
+        if (_rb.velocity.y < 0 && !_onGround)
+        {
+            if (!isFalling) onPlayerFalling();
+            _rb.gravityScale = GravityScale + _fallVelocityMultiplayer;
+            isFalling = true;
+        }
+
+        if (isFalling && _onGround)
+        {
+            onPlayerGround();
+            isFalling = false;
+            _rb.velocity = Vector2.zero;
+        }
     }
 
     private void FixedUpdate()
@@ -132,6 +162,7 @@ public class PlayerController : MonoBehaviour
     {
         _rb.AddForce(Vector2.up * JumpSpeed, ForceMode2D.Impulse);
         _rb.gravityScale = GravityScale;
+        onPlayerJumping();
 
         JumpTimer = 0;
     }

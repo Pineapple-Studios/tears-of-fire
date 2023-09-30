@@ -9,7 +9,9 @@ using System;
 
 public class PauseManager : MonoBehaviour
 {
+    [Header("Inputs")]
     [SerializeField] Canvas pauseMenu;
+    [SerializeField] string sceneName;
     //[SerializeField] public GameObject eventSystem;
     [Header("Actions")]
     [SerializeField] public InputActionAsset Actions;
@@ -17,6 +19,10 @@ public class PauseManager : MonoBehaviour
     void Awake()
     {
         Actions.FindActionMap("UI").FindAction("Pause").performed += OnPause;
+        if (sceneName == "")
+        {
+            sceneName = SceneManager.GetActiveScene().name;
+        }
     }
 
     public void OnEnable()
@@ -31,7 +37,7 @@ public class PauseManager : MonoBehaviour
 
     void OnPause(InputAction.CallbackContext context)
     {
-        if (SceneManager.GetActiveScene().name.Contains("PauseMenu"))
+        if (SceneManager.GetActiveScene().name.Contains(sceneName))
         {
             if (pauseMenu.gameObject.activeSelf)
             {

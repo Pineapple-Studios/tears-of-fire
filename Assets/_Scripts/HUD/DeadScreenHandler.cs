@@ -23,7 +23,7 @@ public class DeadScreenHandler : MonoBehaviour
         _restartButton.onClick.RemoveListener(RestartScene);
     }
 
-    private void ActiveDeadScreen()
+    private void ActiveDeadScreen(GameObject obj)
     {
         _deadPanel.SetActive(true);
     }

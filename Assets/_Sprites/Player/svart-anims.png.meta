@@ -1,0 +1,1900 @@
+fileFormatVersion: 2
+guid: 4fef651a713dedd4ab8d16ec6db5e025
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SVART_Attack01
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 248
+        width: 230
+        height: 417
+      alignment: 9
+      pivot: {x: 0.50869566, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cced67ebf82af4cbb1dc07a66c3d59
+      internalID: -1019116300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack02
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 739
+        width: 236
+        height: 429
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981d891c85e7cf743a280194fdec2435
+      internalID: 1879992509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack03
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 209
+        width: 231
+        height: 456
+      alignment: 9
+      pivot: {x: 0.5064935, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc4a8ce95dfa9a448d87e507633968d
+      internalID: -1313884795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 739
+        width: 252
+        height: 468
+      alignment: 9
+      pivot: {x: 0.50793654, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c4f574b2fe2b341bd0f1004e6f3fe6
+      internalID: -1783198105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack05
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 710
+        width: 234
+        height: 453
+      alignment: 9
+      pivot: {x: 0.5106838, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a1979cbd991cd4db26fd1836f1fccf
+      internalID: 864366438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack06
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 709
+        width: 235
+        height: 454
+      alignment: 9
+      pivot: {x: 0.50851065, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c15ffbc013bf742b95c4b0f6fd7968
+      internalID: -588300588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack07
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 812
+        width: 255
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5019608, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c717c1d5029f2e2439da63b96f21b8a8
+      internalID: -784702891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack08
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1165
+        width: 267
+        height: 414
+      alignment: 9
+      pivot: {x: 0.50187266, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e81284e105cce4dab53755f911ccd9
+      internalID: 1596957019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Attack09
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 785
+        width: 276
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5072464, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f12f61f24536414e855ffc1d2cedc62
+      internalID: -301807076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 189
+        width: 223
+        height: 476
+      alignment: 9
+      pivot: {x: 0.38340807, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e827a571580ca43b3ed3162b1037e6
+      internalID: -824973125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 189
+        width: 223
+        height: 476
+      alignment: 9
+      pivot: {x: 0.38340807, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf930fdd17620204d8f4cd0a68a270d9
+      internalID: 1453143865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0003
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1209
+        width: 363
+        height: 463
+      alignment: 9
+      pivot: {x: 0.46143252, y: 0.075593956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e9f3138df14ed4d816cc97202a7ed9
+      internalID: 269749583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0004
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1209
+        width: 363
+        height: 463
+      alignment: 9
+      pivot: {x: 0.46143252, y: 0.075593956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de388f9afd4bd4f4089e7b00676b5215
+      internalID: -435978192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0005
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1302
+        width: 427
+        height: 468
+      alignment: 9
+      pivot: {x: 0.45550352, y: 0.01923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30060a1ab70afab4dbac94a345727d39
+      internalID: -1580031863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0006
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1302
+        width: 427
+        height: 468
+      alignment: 9
+      pivot: {x: 0.45550352, y: 0.01923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99ba9b681f7bf942ae91f730c199063
+      internalID: 1838531877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0007
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1020
+        width: 348
+        height: 280
+      alignment: 9
+      pivot: {x: 0.30028737, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afdf98a9e5862b448f8abcaa5642c0b
+      internalID: 193253106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0008
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1020
+        width: 348
+        height: 280
+      alignment: 9
+      pivot: {x: 0.30028737, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a73c9ab98638742b0c2d7a0addb0d5
+      internalID: -1571367829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0009
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1674
+        width: 598
+        height: 373
+      alignment: 9
+      pivot: {x: 0.50083613, y: 0.21715818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcfcf4d23874a449ab7d4e8d618681a
+      internalID: -1336056314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0010
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1674
+        width: 598
+        height: 373
+      alignment: 9
+      pivot: {x: 0.50083613, y: 0.21715818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ee99c4737df6e418a699b77045e262
+      internalID: -1866310342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1581
+        width: 669
+        height: 466
+      alignment: 9
+      pivot: {x: 0.5, y: 0.015021459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a6ddfa0e28a44498d9577328e92ce2
+      internalID: 941670729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_DEATH0012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1581
+        width: 669
+        height: 466
+      alignment: 9
+      pivot: {x: 0.5, y: 0.015021459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56614030b1fd6754bbcd25c0c77e79bd
+      internalID: -238626871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 100
+        height: 19
+      alignment: 9
+      pivot: {x: 0.235, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabf79d81dd05614fa8f1b7230671571
+      internalID: 299884775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 100
+        height: 19
+      alignment: 9
+      pivot: {x: 0.235, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bd7ea59e656f74483abcf2b2a5291e
+      internalID: 1423768454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 668
+        width: 96
+        height: 69
+      alignment: 9
+      pivot: {x: 0.265625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd5aee916e0cb1418f3037eca5bdc08
+      internalID: 1437821588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 668
+        width: 96
+        height: 69
+      alignment: 9
+      pivot: {x: 0.265625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28310a8b33c7ac44f88b3225dd492fa3
+      internalID: -1559821297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0005
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 667
+        width: 93
+        height: 116
+      alignment: 9
+      pivot: {x: 0.30645162, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95d581c4ef80c74bb148fb5c238dd17
+      internalID: 621179996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0006
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 667
+        width: 93
+        height: 116
+      alignment: 9
+      pivot: {x: 0.30645162, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee28a8273a4c51e47993e3ac1e768613
+      internalID: -218066161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0007
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1463
+        width: 139
+        height: 116
+      alignment: 9
+      pivot: {x: 0.54316545, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf1f160d1ff9b4d82b48fb64e13795
+      internalID: 335725232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0008
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1463
+        width: 139
+        height: 116
+      alignment: 9
+      pivot: {x: 0.54316545, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08422b381fe33740905bec08e5c0ba0
+      internalID: 729080242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0009
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1610
+        width: 177
+        height: 203
+      alignment: 9
+      pivot: {x: 0.63559324, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f11e2d32c081e84183df6413e0e4b45
+      internalID: 1615997076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0010
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1610
+        width: 177
+        height: 203
+      alignment: 9
+      pivot: {x: 0.63559324, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec06e8cfd755044863fd6c9ef65ed9
+      internalID: -648847404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0011
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1815
+        width: 180
+        height: 232
+      alignment: 9
+      pivot: {x: 0.6027778, y: -0.060344826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f6c3abafb16f842a7015164c1719d1
+      internalID: -1541087419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0012
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1815
+        width: 180
+        height: 232
+      alignment: 9
+      pivot: {x: 0.6027778, y: -0.060344826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314ceade2fee1b44bbf14da92b41713c
+      internalID: -1045603072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0013
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1075
+        width: 175
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5114286, y: -0.16535433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2193ccbd1ba191345b896c2f754e4b63
+      internalID: -525383947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0014
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1075
+        width: 175
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5114286, y: -0.16535433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79564fd5c254a1a4ca63d2ff83b1addd
+      internalID: -1142166093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0015
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 126
+        width: 167
+        height: 146
+      alignment: 9
+      pivot: {x: 0.36227545, y: -0.33561644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12343e3c6070ca74bba1c4e748eec18f
+      internalID: 657957504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0016
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 276
+        width: 167
+        height: 146
+      alignment: 9
+      pivot: {x: 0.35628742, y: -0.33561644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a553b3a647fbdf42ad475a9a760d30f
+      internalID: -556524519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0017
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 351
+        width: 156
+        height: 134
+      alignment: 9
+      pivot: {x: 0.35576922, y: -0.3880597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b68514fcc62b4042a6398b72dbb262c
+      internalID: 22839671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0018
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 600
+        width: 165
+        height: 137
+      alignment: 9
+      pivot: {x: 0.37272727, y: -0.35036495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea02e5488d28aad4fa159d3a795bb3b2
+      internalID: 1427017298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0019
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 628
+        width: 166
+        height: 140
+      alignment: 9
+      pivot: {x: 0.36445785, y: -0.32142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4277cc5744b05d94a85aa9d25da7d788
+      internalID: 2048734663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0020
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1638
+        width: 158
+        height: 132
+      alignment: 9
+      pivot: {x: 0.38291138, y: -0.4090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2d46284d26c8e499a1404e97e97fdc
+      internalID: 2050950552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0021
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 392
+        width: 151
+        height: 132
+      alignment: 9
+      pivot: {x: 0.35430464, y: -0.4090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67d74eb7479b4e44afacfaa7f08a454
+      internalID: -458919971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0022
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 327
+        width: 150
+        height: 130
+      alignment: 9
+      pivot: {x: 0.35666665, y: -0.41538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9622483e87bd243428dd975a6cc724c2
+      internalID: 41668617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0023
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 459
+        width: 159
+        height: 139
+      alignment: 9
+      pivot: {x: 0.37421384, y: -0.36690646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32014a025c8ea6545b1dded18d77dd16
+      internalID: 1444907323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0024
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 487
+        width: 160
+        height: 139
+      alignment: 9
+      pivot: {x: 0.371875, y: -0.35971224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f47d29818f91254c84c6849eada1756
+      internalID: -39297561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0025
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 526
+        width: 160
+        height: 139
+      alignment: 9
+      pivot: {x: 0.340625, y: -0.37410071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fab46348049dc4d969e8c3aca5cfc0
+      internalID: 861667033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0026
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 93
+        width: 160
+        height: 153
+      alignment: 9
+      pivot: {x: 0.359375, y: -0.35947713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473d51f781550774aac7b4cf1d26702a
+      internalID: 1726184959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0027
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1170
+        width: 157
+        height: 150
+      alignment: 9
+      pivot: {x: 0.38535032, y: -0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e772812c242334cb677cde1ccf718e
+      internalID: 297000607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0028
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1322
+        width: 157
+        height: 154
+      alignment: 9
+      pivot: {x: 0.34713376, y: -0.35064936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba3e993d9c31194781c285e7a82072d
+      internalID: 1478383337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0029
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 274
+        width: 150
+        height: 148
+      alignment: 9
+      pivot: {x: 0.35, y: -0.3716216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c113a0b4ded96459c79bd7c91790b1
+      internalID: -153297767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 162
+        height: 158
+      alignment: 9
+      pivot: {x: 0.33641976, y: -0.33544305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2538304bf9e5fe94cbd56280df59285c
+      internalID: 1192822996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0031
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 271
+        width: 150
+        height: 151
+      alignment: 9
+      pivot: {x: 0.35, y: -0.33774835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fe660eb464f724da8e2b2a527797ff
+      internalID: 1728419938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0032
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1478
+        width: 157
+        height: 158
+      alignment: 9
+      pivot: {x: 0.3598726, y: -0.3164557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a5878448cba754b9ce8433203ef71b
+      internalID: 124832366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0033
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 31
+        width: 160
+        height: 156
+      alignment: 9
+      pivot: {x: 0.384375, y: -0.32051283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec3ccf312a45e43b686855c9711dcd
+      internalID: 811464311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0034
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 119
+        width: 161
+        height: 150
+      alignment: 9
+      pivot: {x: 0.35714287, y: -0.37333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc492611476b3242bd568e8ad2f886d
+      internalID: 479453527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0035
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 92
+        width: 167
+        height: 154
+      alignment: 9
+      pivot: {x: 0.35628742, y: -0.33116883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdac051e605b5d40ac11a836258a887
+      internalID: -946859285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0036
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 667
+        width: 169
+        height: 154
+      alignment: 9
+      pivot: {x: 0.36982247, y: -0.33766234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9361cf83e12cf4398ca40e956d82fa
+      internalID: -369177350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0037
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 52
+        width: 166
+        height: 155
+      alignment: 9
+      pivot: {x: 0.35240963, y: -0.32903227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cc1d76e06e19a4f8ddc1b8a2d660f6
+      internalID: -203695569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0038
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 445
+        width: 206
+        height: 292
+      alignment: 9
+      pivot: {x: 0.41990292, y: -0.10616438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53e10dbb3a602c428453a0b8f2a30ec
+      internalID: -642453184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0039
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 445
+        width: 206
+        height: 292
+      alignment: 9
+      pivot: {x: 0.41990292, y: -0.10616438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1deb547b474593d4492c8be7f02415ce
+      internalID: -1733090110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0040
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 445
+        width: 206
+        height: 292
+      alignment: 9
+      pivot: {x: 0.41990292, y: -0.10616438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908a9bd6901630c4e9834a09d95f8f05
+      internalID: 60021943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0041
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1331
+        width: 175
+        height: 277
+      alignment: 9
+      pivot: {x: 0.37428573, y: -0.010830325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b66abdfa25d99e45a78f0a324f5b181
+      internalID: -1880736528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0042
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1331
+        width: 175
+        height: 277
+      alignment: 9
+      pivot: {x: 0.37428573, y: -0.010830325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce217e1d6dfd409479c0b63b2685f764
+      internalID: 1598104019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0043
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1331
+        width: 175
+        height: 277
+      alignment: 9
+      pivot: {x: 0.37428573, y: -0.010830325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59eda00256c66e4398c0133877f385b
+      internalID: 1654219572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0044
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 6
+        width: 198
+        height: 196
+      alignment: 9
+      pivot: {x: 0.50252527, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee11b12cebff5db48a9bbc1032c54e13
+      internalID: -2017929853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0045
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 6
+        width: 198
+        height: 196
+      alignment: 9
+      pivot: {x: 0.50252527, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117f18cec9615b43b166ff6274621de
+      internalID: -741991696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0046
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 6
+        width: 198
+        height: 196
+      alignment: 9
+      pivot: {x: 0.50252527, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5fb439fca75a74ebe4e2bc483f4305
+      internalID: -2060701382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0047
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 823
+        width: 172
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5261628, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c09a4c2e0f58d644a8308e9c49420c4
+      internalID: -898427220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0048
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 823
+        width: 172
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5261628, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fe7544660630a4c89f86fe66d5930a
+      internalID: -1857762161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0049
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 823
+        width: 172
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5261628, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8031dc26bb610c4bbd9ebba44edaff0
+      internalID: 1609259323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 209
+        height: 278
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726b2e9b10a963548b52b78c66dfd384
+      internalID: 1960661860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0051
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 209
+        height: 278
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b7744035b68944ab6d1c811c3f0fc1
+      internalID: -598356232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0052
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 209
+        height: 278
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf9beb24c49d484aaf120a895981d62
+      internalID: 1351801424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0053
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1208
+        width: 232
+        height: 464
+      alignment: 9
+      pivot: {x: 0.51508623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338036e2edbb96a45aabbc87ace45b80
+      internalID: -1964137702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0054
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1208
+        width: 232
+        height: 464
+      alignment: 9
+      pivot: {x: 0.51508623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c21369a29b2e354894f24290e1afe28
+      internalID: -2027116542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVART_Respawn0055
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1208
+        width: 232
+        height: 464
+      alignment: 9
+      pivot: {x: 0.51508623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7540524e45af9b4bbc2ab47bb760ed2
+      internalID: 1737301782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTDASH
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1772
+        width: 587
+        height: 275
+      alignment: 9
+      pivot: {x: 0.19250426, y: 0.18545455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b9ea780e58f2341bcffe7bfa5f94e5
+      internalID: 1282680108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTHIT
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 204
+        width: 220
+        height: 461
+      alignment: 9
+      pivot: {x: 0.5068182, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdd26c506a6bd848b8b0cf87dfcf42e
+      internalID: 861252719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTJUMPDown
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 424
+        width: 229
+        height: 386
+      alignment: 9
+      pivot: {x: 0.5021834, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ff6b69e61295c40a01bd73ed1d558d
+      internalID: -2074948398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SVARTJUMPup
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 770
+        width: 275
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5018182, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b897cefe8dc2c604aaca2ef2ab56c11a
+      internalID: 294138743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 72dca1a81e5fd7247bbaa975a56eb92d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SVARTDASH: 1282680108
+      SVARTHIT: 861252719
+      SVARTJUMPDown: -2074948398
+      SVARTJUMPup: 294138743
+      SVART_Attack01: -1019116300
+      SVART_Attack02: 1879992509
+      SVART_Attack03: -1313884795
+      SVART_Attack04: -1783198105
+      SVART_Attack05: 864366438
+      SVART_Attack06: -588300588
+      SVART_Attack07: -784702891
+      SVART_Attack08: 1596957019
+      SVART_Attack09: -301807076
+      SVART_DEATH0001: -824973125
+      SVART_DEATH0002: 1453143865
+      SVART_DEATH0003: 269749583
+      SVART_DEATH0004: -435978192
+      SVART_DEATH0005: -1580031863
+      SVART_DEATH0006: 1838531877
+      SVART_DEATH0007: 193253106
+      SVART_DEATH0008: -1571367829
+      SVART_DEATH0009: -1336056314
+      SVART_DEATH0010: -1866310342
+      SVART_DEATH0011: 941670729
+      SVART_DEATH0012: -238626871
+      SVART_Respawn0001: 299884775
+      SVART_Respawn0002: 1423768454
+      SVART_Respawn0003: 1437821588
+      SVART_Respawn0004: -1559821297
+      SVART_Respawn0005: 621179996
+      SVART_Respawn0006: -218066161
+      SVART_Respawn0007: 335725232
+      SVART_Respawn0008: 729080242
+      SVART_Respawn0009: 1615997076
+      SVART_Respawn0010: -648847404
+      SVART_Respawn0011: -1541087419
+      SVART_Respawn0012: -1045603072
+      SVART_Respawn0013: -525383947
+      SVART_Respawn0014: -1142166093
+      SVART_Respawn0015: 657957504
+      SVART_Respawn0016: -556524519
+      SVART_Respawn0017: 22839671
+      SVART_Respawn0018: 1427017298
+      SVART_Respawn0019: 2048734663
+      SVART_Respawn0020: 2050950552
+      SVART_Respawn0021: -458919971
+      SVART_Respawn0022: 41668617
+      SVART_Respawn0023: 1444907323
+      SVART_Respawn0024: -39297561
+      SVART_Respawn0025: 861667033
+      SVART_Respawn0026: 1726184959
+      SVART_Respawn0027: 297000607
+      SVART_Respawn0028: 1478383337
+      SVART_Respawn0029: -153297767
+      SVART_Respawn0030: 1192822996
+      SVART_Respawn0031: 1728419938
+      SVART_Respawn0032: 124832366
+      SVART_Respawn0033: 811464311
+      SVART_Respawn0034: 479453527
+      SVART_Respawn0035: -946859285
+      SVART_Respawn0036: -369177350
+      SVART_Respawn0037: -203695569
+      SVART_Respawn0038: -642453184
+      SVART_Respawn0039: -1733090110
+      SVART_Respawn0040: 60021943
+      SVART_Respawn0041: -1880736528
+      SVART_Respawn0042: 1598104019
+      SVART_Respawn0043: 1654219572
+      SVART_Respawn0044: -2017929853
+      SVART_Respawn0045: -741991696
+      SVART_Respawn0046: -2060701382
+      SVART_Respawn0047: -898427220
+      SVART_Respawn0048: -1857762161
+      SVART_Respawn0049: 1609259323
+      SVART_Respawn0050: 1960661860
+      SVART_Respawn0051: -598356232
+      SVART_Respawn0052: 1351801424
+      SVART_Respawn0053: -1964137702
+      SVART_Respawn0054: -2027116542
+      SVART_Respawn0055: 1737301782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

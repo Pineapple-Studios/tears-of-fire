@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-[RequireComponent(typeof(Enemy))]
 public class Bat : MonoBehaviour
 {
     [Header("Casting props")]
@@ -23,16 +22,27 @@ public class Bat : MonoBehaviour
     private GameObject _target;
     private bool _isShooting = false;
     private Enemy _enemy;
+    private bool _canShoot = false;
 
     private void Start()
     {
         _target = GameObject.Find(_targetComponent);
-        _enemy = GetComponent<Enemy>();
+        _enemy = GetComponentInParent<Enemy>();
+    }
+
+    private void OnBecameVisible()
+    {
+        _canShoot = true;
+    }
+    private void OnBecameInvisible()
+    {
+        _canShoot = false;
     }
 
     private void Update()
     {
         if (_target == null) return;
+        if (!_canShoot) return;
 
         float dist = Vector3.Distance(transform.position, _target.transform.position);
         if (dist <= _rangeToBullet * 2 && !_isShooting)

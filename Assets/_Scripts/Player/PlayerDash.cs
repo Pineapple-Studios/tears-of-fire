@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerDash : MonoBehaviour
 {
+    public static Action onPlayerDashing;
+
     [Header("Física")]
     [SerializeField]
     private Rigidbody2D _rb;
@@ -36,6 +38,7 @@ public class PlayerDash : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        onPlayerDashing();
         canDash = false;
         IsDashed = true;
         Vector2 prevVelocity = _rb.velocity;

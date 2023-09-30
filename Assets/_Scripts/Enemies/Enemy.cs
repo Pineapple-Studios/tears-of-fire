@@ -11,10 +11,14 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float _life = 35f;
     [SerializeField]
+    private float _damageColldown = 1f;
+    [SerializeField]
     private Collider2D _col;
 
     private PlayerProps _pp;
     private bool _isDisabledColliders = false;
+    private bool _isDamaging = false;
+    private float _counter = 0f;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -22,19 +26,28 @@ public class Enemy : MonoBehaviour
         {
             _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
             if (_pp == null) return;
-                
+
+            _isDamaging = true;
+            Debug.Log("Damage");
             _pp.TakeDamage(_damageOnTouch);
         }
     }
 
     private void Update()
     {
+        if (_isDamaging && _counter < _damageColldown) _counter += Time.deltaTime;
+        else
+        {
+            _isDamaging = false;
+            _counter = 0f;
+        }
+
         if (_pp == null || _col == null) return;
 
         // Desabilitando colisor do inimigo após levar um dano
         if (_pp.IsTakingDamage && _isDisabledColliders == false)
         {
-            _col.enabled = false;
+            // _col.enabled = false;
             _isDisabledColliders = true;
 
             StartCoroutine(EnableCollider());
@@ -50,7 +63,6 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float hit)
     {
-        Debug.Log("Damaged me");
         _life -= hit;
 
         if (_life <= 0)
@@ -63,8 +75,15 @@ public class Enemy : MonoBehaviour
     {
         // Start damaged animation
 
+        // Going to main parent
+        GameObject tmpObj = gameObject;
+        while (tmpObj.transform.parent != null)
+        {
+            tmpObj = tmpObj.transform.parent.gameObject;
+        }
+
         // Remove enemy
-        Destroy(gameObject);
+        Destroy(tmpObj);
     }
     public float GetDamagePoints()
     {

@@ -9,19 +9,16 @@ public class LevelDataManager : MonoBehaviour
     [SerializeField]
     private LevelDataScriptableObject _levelData;
 
-    [Header("Respawn Elements")]
+    [Header("Screen FX")]
     [SerializeField]
-    private GameObject _player;
+    private GameObject _deathTransition;
     [SerializeField]
-    private CameraFollowObject _cameraFollowObject;
-    [SerializeField]
-    private CinemachineVirtualCamera _virtualCamera;
-    [SerializeField]
-    private ScenarioColorManager _colorManager;
+    private float _waitTransitionSeconds;
 
     public GameObject CurrentPlayerObject;
 
     public static LevelDataManager Instance { get; private set; }
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -34,6 +31,11 @@ public class LevelDataManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void Start()
+    {
+        _deathTransition.SetActive(false);
     }
 
 
@@ -49,24 +51,36 @@ public class LevelDataManager : MonoBehaviour
         PlayerProps.onPlayerDead -= Respawn;
     }
 
-    private void Respawn()
+    private void Respawn(GameObject obj)
     {
         _levelData.TimesDied += 1;
-        // TODO: Criar transição de morte aqui
-        GameObject obj = Instantiate(_player, _levelData.lastCheckpoint, Quaternion.identity);
-        CurrentPlayerObject = obj;
-        AddReferenceToRequiredElements(obj);
+        
+        // TODO: Criar transição de morte do SVART
+        
+        obj.SetActive(false);
+        // Reinicializando o svart
+        obj.GetComponentInChildren<Animator>().Play("idle");
+
+        StartCoroutine(HandleRespawnAnimationPlayer(obj));
     }
 
-    private void AddReferenceToRequiredElements(GameObject obj)
+    private IEnumerator HandleRespawnAnimationPlayer(GameObject player)
     {
-        // Define a referencia pro gerenciador de cores/luz do cenário
-        _colorManager.SetFollowTo(obj.transform);
-        // Define a referencia do elemento que a camera está definindo como meio da tela
-        _cameraFollowObject.SetFollowTo(obj.transform);
-        // Definindo a referência na câmera virtual
-        _virtualCamera.Follow = obj.transform;
+        _deathTransition.SetActive(true);
+        yield return new WaitForSeconds(_waitTransitionSeconds / 2);
+
+        // Mudando a localização do jogador quando a tela está escura
+        player.transform.position = _levelData.lastCheckpoint;
+        // Mostrando a vida
+        player.GetComponentInChildren<PlayerProps>().FullHeal();
+
+        yield return new WaitForSeconds(_waitTransitionSeconds / 2);
+        _deathTransition.SetActive(false);
+
+        player.SetActive(true);
     }
+
+
 
     private void SetLastCheckpoint(Vector3 trans)
     {

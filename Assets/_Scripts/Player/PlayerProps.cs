@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerProps : MonoBehaviour
 {
     public static Action<float> onChangePlayerLife;
-    public static Action onPlayerDead;
+    public static Action<GameObject> onPlayerDead;
+    public static Action onPlayerDamaged;
 
     [SerializeField]
     [Tooltip("Vida do personagem")]
@@ -50,6 +51,7 @@ public class PlayerProps : MonoBehaviour
         _life -= damage;
         BackImpulse(); // Deve ser melhorado
         onChangePlayerLife(_life);
+        onPlayerDamaged();
 
         StartCoroutine(EndOfEffects());
     }
@@ -96,14 +98,19 @@ public class PlayerProps : MonoBehaviour
     {
         if (_life <= 0)
         {
-            Destroy(gameObject.transform.parent.gameObject);
-            onPlayerDead();
+            onPlayerDead(gameObject.transform.parent.gameObject);
         }
     }
 
     public float GetLife()
     {
         return _life;
+    }
+
+    public void FullHeal()
+    {
+        _life = _maxLife;
+        onChangePlayerLife(_life);
     }
 
     public float GetCurrentDamage()

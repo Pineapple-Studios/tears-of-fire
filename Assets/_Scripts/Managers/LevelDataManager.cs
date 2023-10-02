@@ -9,6 +9,10 @@ public class LevelDataManager : MonoBehaviour
     [SerializeField]
     private LevelDataScriptableObject _levelData;
 
+    [Header("Camera")]
+    [SerializeField]
+    public CinemachineVirtualCamera MainCamera;
+
     [Header("Screen FX")]
     [SerializeField]
     private GameObject _deathTransition;

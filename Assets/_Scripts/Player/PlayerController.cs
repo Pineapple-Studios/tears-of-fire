@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     public static Action onPlayerJumping;
     public static Action onPlayerFalling;
     public static Action onPlayerGround;
+    public static Action onPlayerRunning;
 
     [Header("Horizontal movement")]
     public float MoveSpeed = 10f;
@@ -14,9 +15,11 @@ public class PlayerController : MonoBehaviour
 
     [Header("Vertical Movement")]
     public float JumpSpeed = 15f;
-    public float JumpDelay = 0.25f;
+    public float CoyoteTime = 0.25f;
     public float JumpTimer = 0f;
     public float GravityScale = 50f;
+    [SerializeField]
+    private float _maxFallVelocity = 30f;
 
     [Header("Jump props")]
     [SerializeField]
@@ -50,6 +53,7 @@ public class PlayerController : MonoBehaviour
     private CameraFollowObject _cameraFollowObject;
     private float _fallSpeedYDampingChangeThreshold;
     private bool isFalling = false;
+    private float _coyoteCounter = 0f;
 
     private void OnDrawGizmos()
     {
@@ -83,13 +87,12 @@ public class PlayerController : MonoBehaviour
         if (_playerDash.IsDashed) return;
 
         // Inputs
-        Direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (Input.GetButtonDown("Jump")) JumpTimer = Time.time + JumpDelay;
+        Direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
+        if (Input.GetButtonDown("Jump")) JumpTimer = Time.time + CoyoteTime;
         if (Input.GetButtonUp("Jump") && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
         // Condicionais
-        _onGround = 
-            Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) || 
+        _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
         // Aplicando mecânicas
@@ -100,19 +103,34 @@ public class PlayerController : MonoBehaviour
         // Efeitos dependentes do Player
         CameraFollower();
 
-        // Desacelerando player enquanto está no ar
-        if (!_onGround) _rb.velocity = new Vector2(_rb.velocity.x * _horizontalVelocityMultiplayerOnAir, _rb.velocity.y);
+        if (!_onGround)
+        {
+            // Desacelerando player enquanto está no ar 
+            _rb.velocity = new Vector2(_rb.velocity.x * _horizontalVelocityMultiplayerOnAir, _rb.velocity.y);
+            // Aumentando o coyote timer
+            _coyoteCounter += Time.deltaTime;
+        }
         
-        if (_onGround) _rb.gravityScale = GravityScale;
+        if (_onGround)
+        {
+            // Alterando velocidade no ar
+            _rb.gravityScale = GravityScale;
+            // Zerando o coyote timer
+            _coyoteCounter = 0f;
+        }
 
         // Ajustando velocidade da queda
         if (_rb.velocity.y < 0 && !_onGround)
         {
-            if (!isFalling) onPlayerFalling();
+            onPlayerFalling();
             _rb.gravityScale = GravityScale + _fallVelocityMultiplayer;
+            // Definindo velocidade máxima da queda, a multiplicação por -1 é porq a velocidade de queda é
+            // negativa
+            if (_rb.velocity.y < (_maxFallVelocity * -1)) _rb.velocity = new Vector2(_rb.velocity.x, _maxFallVelocity * -1);
             isFalling = true;
         }
 
+        // Se o personagem cair no chão 
         if (isFalling && _onGround)
         {
             onPlayerGround();
@@ -123,7 +141,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _canJump = JumpTimer > Time.time && _onGround;
+        _canJump = JumpTimer > Time.time && _onGround || (JumpTimer > Time.time && !_onGround && _coyoteCounter < CoyoteTime);
 
         if (_canJump) Jump();
     }
@@ -134,6 +152,8 @@ public class PlayerController : MonoBehaviour
     void MoveCharacter()
     {
         float horizontal = Direction.x;
+        if (horizontal != 0 && _onGround) onPlayerRunning();
+        if (horizontal == 0 && _onGround) onPlayerGround();
 
         _rb.velocity = new Vector2(horizontal * MoveSpeed, _rb.velocity.y);
         

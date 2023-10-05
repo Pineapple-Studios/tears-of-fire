@@ -17,15 +17,14 @@ public class PlayerAnimationController : MonoBehaviour
     private const string JUMP = "isJump";
     private const string FALL = "isFalling";
     private const string DASH = "isDashing";
-
-    // Variáveis de controle
-    private bool _isRunning;
+    private const string DAMEGED = "isDamaged";
 
     private void OnEnable()
     {
         PlayerProps.onPlayerDamaged += StartDamage;
         PlayerController.onPlayerJumping += StartJump;
         PlayerController.onPlayerFalling += StartFall;
+        PlayerController.onPlayerRunning += StartRun;
         PlayerController.onPlayerGround += ClearAllStates;
         PlayerDash.onPlayerDashing += StartDash;
     }
@@ -35,8 +34,14 @@ public class PlayerAnimationController : MonoBehaviour
         PlayerProps.onPlayerDamaged -= StartDamage;
         PlayerController.onPlayerJumping -= StartJump;
         PlayerController.onPlayerFalling -= StartFall;
+        PlayerController.onPlayerRunning -= StartRun;
         PlayerController.onPlayerGround -= ClearAllStates;
         PlayerDash.onPlayerDashing -= StartDash;
+    }
+
+    private void Start()
+    {
+        ClearAllStates();
     }
 
 
@@ -47,17 +52,6 @@ public class PlayerAnimationController : MonoBehaviour
             TriggerAttackAnimation();
             return;
         }
-
-        if (_rb.velocity.x != 0 && !_isRunning) _isRunning = true;
-        if (_rb.velocity.x == 0 && _isRunning) _isRunning = false;
-
-        SetIsRunningAnimation();
-    }
-
-    private void SetIsRunningAnimation()
-    {
-        if (_isRunning == _animator.GetBool(RUN)) return;
-        _animator.SetBool(RUN, _isRunning);
     }
 
     private void TriggerAttackAnimation()
@@ -73,35 +67,51 @@ public class PlayerAnimationController : MonoBehaviour
         _animator.SetBool(JUMP, false);
         _animator.SetBool(FALL, false);
         _animator.SetBool(DASH, false);
+        _animator.SetBool(DAMEGED, false);
     }
 
     private void StartRun()
     {
+        // Evitando chamar o mesmo estado mais de uma vez
+        if (_animator.GetBool(RUN) == true) return;
+
         ClearAllStates();
         _animator.SetBool(RUN, true);
     }
 
     private void StartJump()
     {
+        // Evitando chamar o mesmo estado mais de uma vez
+        if (_animator.GetBool(JUMP) == true) return;
+
         ClearAllStates();
         _animator.SetBool(JUMP, true);
     }
 
     private void StartFall()
     {
+        // Evitando chamar o mesmo estado mais de uma vez
+        if (_animator.GetBool(FALL) == true) return;
+
         ClearAllStates();
         _animator.SetBool(FALL, true);
     }
 
     private void StartDash()
     {
+        // Evitando chamar o mesmo estado mais de uma vez
+        if (_animator.GetBool(DASH) == true) return;
+
         ClearAllStates();
         _animator.SetBool(DASH, true);
     }
 
     private void StartDamage()
     {
+        // Evitando chamar o mesmo estado mais de uma vez
+        if (_animator.GetBool(DAMEGED) == true) return;
+
         ClearAllStates();
-        _animator.SetBool("isDamaged", true);
+        _animator.SetBool(DAMEGED, true);
     }
 }

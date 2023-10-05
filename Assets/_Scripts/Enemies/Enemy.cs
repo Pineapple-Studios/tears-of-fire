@@ -31,6 +31,12 @@ public class Enemy : MonoBehaviour
             Debug.Log("Damage");
             _pp.TakeDamage(_damageOnTouch);
         }
+
+        // Ignorando colisoes entre elementos com a mesma tag
+        if (((1 << collision.gameObject.layer) & gameObject.layer) != 0)
+        {
+            Physics2D.IgnoreCollision(collision.collider, gameObject.GetComponent<Collider2D>());
+        }
     }
 
     private void Update()

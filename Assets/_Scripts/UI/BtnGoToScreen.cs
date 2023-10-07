@@ -11,6 +11,8 @@ public class BtnGoToScreen : MonoBehaviour
     [SerializeField] Button _goToScreenButton;
     [SerializeField] public Animator transition;
 
+    [SerializeField] GameObject overlaidText;
+
     void Awake()
     {
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
@@ -38,7 +40,13 @@ public class BtnGoToScreen : MonoBehaviour
     {
         Debug.Log("AAAAAAAAAAAAAAA");
         //transition.SetBool("is_FireTr", true);
+        HandleBtn();
         PlayerPrefs.SetString("@tof/SceneName", SceneName);
         transition.Play("tion_FireTransition");
+    }
+
+    public void HandleBtn()
+    {
+        overlaidText.SetActive(false);
     }
 }

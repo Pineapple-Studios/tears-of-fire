@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "LevelData", menuName = "DataStorage/LevelData", order = 1)]
+[CreateAssetMenu(fileName = "LevelData", menuName = "DataStorage/LevelData", order = 2)]
 
 public class LevelDataScriptableObject : ScriptableObject
 {

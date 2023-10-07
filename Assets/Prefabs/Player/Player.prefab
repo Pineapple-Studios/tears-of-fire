@@ -204,6 +204,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 6327985370641442998}
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   _dashDuration: 0.13
   _dashRecall: 1
   _dashMultiplyer: 6
@@ -223,11 +226,14 @@ MonoBehaviour:
   animator: {fileID: 68879158681924596}
   AttackPoint: {fileID: 7639587385293568735}
   _distanceToPlayer: 3
-  IsAttacking: 0
-  AttackRange: 1.5
-  EnemyLayers:
+  _enemyLayer:
     serializedVersion: 2
     m_Bits: 128
+  _breakableBlockLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  IsAttacking: 0
+  AttackRange: 1.5
 --- !u!114 &4084587884178894665
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -48,7 +48,7 @@ public class PlayerProps : MonoBehaviour
     public void TakeDamage(float damage)
     {
         IsTakingDamage = true;
-        _life -= damage;
+        if (!FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
         BackImpulse(); // Deve ser melhorado
         onChangePlayerLife(_life);
         onPlayerDamaged();

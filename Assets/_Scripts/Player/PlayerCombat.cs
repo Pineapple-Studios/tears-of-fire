@@ -14,11 +14,16 @@ public class PlayerCombat : MonoBehaviour
     [Header("Props")]
     [SerializeField]
     private float _distanceToPlayer = 2f;
+    [SerializeField]
+    private LayerMask _enemyLayer;
+    [SerializeField]
+    private LayerMask _breakableBlockLayer;
 
+    // Isso está exposto
     public static PlayerCombat instance;
     public bool IsAttacking = false;
     public float AttackRange = 0.5f;
-    public LayerMask EnemyLayers;
+    
 
     private PlayerProps _pp;
     private Vector2 _attackDirection;
@@ -71,15 +76,39 @@ public class PlayerCombat : MonoBehaviour
         // Play an attack animation
         IsAttacking = true;
 
+        EnemyHit();
+
+        HitBlock();
+    }
+
+    /// <summary>
+    /// Verifica se a área de dano tem algum inimigo e executa o dano no inimigo
+    /// </summary>
+    private void EnemyHit()
+    {
         // Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
-        
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _enemyLayer);
+
         // Damage them
-        foreach(Collider2D enemy in hitEnemies)
+        foreach (Collider2D enemy in hitEnemies)
         {
             Debug.Log($"Hit {enemy.name} with damage {_pp.GetCurrentDamage()}");
             Enemy e = enemy.GetComponent<Enemy>();
             if (e != null) e.TakeDamage(_pp.GetCurrentDamage());
+        }
+    }
+
+    /// <summary>
+    /// Verifica se a área de dano tem alguma parede quebrável e executa um hit
+    /// </summary>
+    private void HitBlock()
+    {
+        Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _breakableBlockLayer);
+
+        foreach (Collider2D block in hitBlocks)
+        {
+            BreakableBlock b = block.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            if (b != null) b.HitWall();
         }
     }
 }

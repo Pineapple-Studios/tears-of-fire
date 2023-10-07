@@ -845,6 +845,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 864334263}
+    - target: {fileID: 8354039863919229451, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+      propertyPath: overlaidText
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8735296138295157479, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

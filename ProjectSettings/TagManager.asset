@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DashBoss
   - HiddenPath
+  - PuzzleElement
   layers:
   - Default
   - TransparentFX

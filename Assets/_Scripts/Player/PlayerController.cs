@@ -78,8 +78,11 @@ public class PlayerController : MonoBehaviour
         _playerProps = GetComponentInChildren<PlayerProps>();
 
         // Camera
-        _cameraFollowObject = _cameraFollowGameObject.GetComponent<CameraFollowObject>();
-        _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
+        if (_cameraFollowGameObject != null)
+        {
+            _cameraFollowObject = _cameraFollowGameObject.GetComponent<CameraFollowObject>();
+            _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
+        }
     }
 
     private void Update()
@@ -172,7 +175,7 @@ public class PlayerController : MonoBehaviour
         IsFacingRight = !IsFacingRight;
         transform.rotation = Quaternion.Euler(0, IsFacingRight ? 0 : 180, 0);
 
-        _cameraFollowObject.CallTurn();
+        if (_cameraFollowObject != null) _cameraFollowObject.CallTurn();
     }
 
     /// <summary>
@@ -192,6 +195,8 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void CameraFollower()
     {
+        if (_cameraFollowGameObject == null) return;
+
         // Falling
         if (
             _rb.velocity.y < _fallSpeedYDampingChangeThreshold && 

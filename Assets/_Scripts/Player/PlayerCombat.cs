@@ -79,6 +79,12 @@ public class PlayerCombat : MonoBehaviour
         EnemyHit();
 
         HitBlock();
+        HitPuzzleElement();
+    }
+
+    private void HitPuzzleElement()
+    {
+        // Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange);
     }
 
     /// <summary>

@@ -417,7 +417,7 @@ SpriteRenderer:
   m_Size: {x: 0.41, y: 0.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &1197495683
@@ -436,6 +436,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 1563860364}
+    - target: {fileID: 8354039863919229451, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+      propertyPath: overlaidText
+      value: 
+      objectReference: {fileID: 1197495685}
     - target: {fileID: 8735296138295157479, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -528,6 +532,11 @@ PrefabInstance:
 --- !u!224 &1197495684 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8735296138295157479, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+  m_PrefabInstance: {fileID: 1197495683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1197495685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8072157380603654252, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
   m_PrefabInstance: {fileID: 1197495683}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1529268870

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: TutorialData
   m_EditorClassIdentifier: 
   currentLevelName: 
-  lastCheckpoint: {x: 0, y: 1.5, z: 0}
-  TimesDied: 1747
+  lastCheckpoint: {x: -2.2, y: 5.8, z: 0}
+  TimesDied: 1770
+  hasDash: 0

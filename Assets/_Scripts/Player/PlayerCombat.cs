@@ -59,12 +59,12 @@ public class PlayerCombat : MonoBehaviour
 
         if (currentY > currentX)
         {
-            Debug.Log("Attack to top/down");
+            // Debug.Log("Attack to top/down");
             AttackPoint.localPosition = new Vector3(0, mag.y * _distanceToPlayer, 0);   
         }
         else 
         {
-            Debug.Log("Attack to player direction");
+            // Debug.Log("Attack to player direction");
             AttackPoint.localPosition = new Vector3(_distanceToPlayer, AttackRange / 3, 0);
         }
     }
@@ -98,8 +98,9 @@ public class PlayerCombat : MonoBehaviour
         // Damage them
         foreach (Collider2D enemy in hitEnemies)
         {
-            Debug.Log($"Hit {enemy.name} with damage {_pp.GetCurrentDamage()}");
-            Enemy e = enemy.GetComponent<Enemy>();
+            Transform tParent = enemy.gameObject.transform.parent;
+            // Debug.Log($"Hit {tParent.gameObject.name} with damage {_pp.GetCurrentDamage()}");
+            Enemy e = tParent.gameObject.GetComponentInChildren<Enemy>();
             if (e != null) e.TakeDamage(_pp.GetCurrentDamage());
         }
     }

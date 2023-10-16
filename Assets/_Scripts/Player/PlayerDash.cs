@@ -33,11 +33,21 @@ public class PlayerDash : MonoBehaviour
         _pc = GetComponentInParent<PlayerController>();
     }
 
+    private void OnEnable()
+    {
+        PlayerProps.onPlayerDead += Respawn;
+    }
+
+    private void OnDisable()
+    {
+        PlayerProps.onPlayerDead -= Respawn;
+    }
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
-            // Debug.Log("Dash");
+            Debug.Log("Dash");
             StartCoroutine(Dash());
         }
 
@@ -45,6 +55,11 @@ public class PlayerDash : MonoBehaviour
         {
             AvoidPhysicsBroken();
         }
+    }
+
+    private void Respawn(GameObject obj)
+    {
+        canDash = true;
     }
 
     private void OnDrawGizmosSelected()

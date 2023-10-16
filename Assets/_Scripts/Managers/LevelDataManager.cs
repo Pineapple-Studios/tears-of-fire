@@ -55,6 +55,21 @@ public class LevelDataManager : MonoBehaviour
         PlayerProps.onPlayerDead -= Respawn;
     }
 
+    private void Update()
+    {
+        HandlePlayerEngines();
+    }
+
+    private void HandlePlayerEngines()
+    {
+        // Ativando dash de acordo com o estado do controlador
+        var dash = FindObjectOfType<PlayerDash>();
+        if (dash != null && dash.enabled != _levelData.hasDash)
+        {
+            dash.enabled = _levelData.hasDash;
+        }
+    }
+
     private void Respawn(GameObject obj)
     {
         _levelData.TimesDied += 1;
@@ -84,10 +99,18 @@ public class LevelDataManager : MonoBehaviour
         player.SetActive(true);
     }
 
-
-
     private void SetLastCheckpoint(Vector3 trans)
     {
         _levelData.lastCheckpoint = trans;
+    }
+
+    public void SetDashState(bool state)
+    {
+        _levelData.hasDash = state;
+    }
+
+    public bool GetDashStatus()
+    {
+        return _levelData.hasDash;
     }
 }

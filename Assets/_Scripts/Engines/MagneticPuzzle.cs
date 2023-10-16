@@ -18,6 +18,7 @@ public class MagneticPuzzle : MonoBehaviour
     private float _timeToGoBack = 2f;
 
     private int _currentHook = 0;
+    private float _stepBackTimer = 0f;
     private bool _inMoviment = false;
     private bool _isGoingBack = false;
 
@@ -30,6 +31,8 @@ public class MagneticPuzzle : MonoBehaviour
     {
         if (_inMoviment) GoAhead();
         if (_isGoingBack) GoBack();
+
+        CounterToBackStep();
     }
 
     private void SetInitialHookPosition()
@@ -53,31 +56,30 @@ public class MagneticPuzzle : MonoBehaviour
             _platform.transform.position == _anchorPoints[_currentHook].transform.position
         )
         {
-            Debug.Log("Start time count");
             _inMoviment = false;
             _currentHook++;
-            StartCoroutine(CounterToBackStep());
         }
     }
 
-    private IEnumerator CounterToBackStep()
+    private void CounterToBackStep()
     {
-        yield return new WaitForSeconds(_timeToGoBack);
-        _currentHook--;
-        _isGoingBack = true;
+        if (!_inMoviment && !_isGoingBack) _stepBackTimer += Time.deltaTime;
+        if (!_inMoviment && _stepBackTimer == _timeToGoBack) _isGoingBack = true;
+        if (_inMoviment || _isGoingBack) _stepBackTimer = 0f;
     }
 
     private void GoBack()
     {
         _platform.transform.position = Vector3.MoveTowards(
-            _anchorPoints[_currentHook].transform.position,
             _platform.transform.position,
+            _anchorPoints[_currentHook - 2].transform.position,
             _velocityPoints * Time.deltaTime
         );
 
-        if (_platform.transform.position == _anchorPoints[_currentHook].transform.position)
+        if (_platform.transform.position == _anchorPoints[_currentHook - 2].transform.position)
         {
             _isGoingBack = false;
+            _currentHook--;
         }
     }
 
@@ -85,6 +87,7 @@ public class MagneticPuzzle : MonoBehaviour
     {
         // Bloqueandoa ações caso a plataforma estaja em movimento contrário
         if (_isGoingBack) return;
+        StopCoroutine("CounterToBackStep");
 
         if (_anchorPoints.Count != _currentHook) _inMoviment = true;
     }

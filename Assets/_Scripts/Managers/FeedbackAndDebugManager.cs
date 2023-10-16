@@ -54,7 +54,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
         }
 
         
-        HandlePlayerEngines();
+        ShowFeedbackPlayerEngines();
     }
 
     private void HandleSceneButtons()
@@ -68,17 +68,10 @@ public class FeedbackAndDebugManager : MonoBehaviour
         }
     }
 
-    private void HandlePlayerEngines()
+    private void ShowFeedbackPlayerEngines()
     {
-        // Ativando dash de acordo com o estado do controlador
-        var dash = FindObjectOfType<PlayerDash>();
-        if (dash != null && dash.enabled != _dataController.IsDashEnabled)
-        {
-            dash.enabled = _dataController.IsDashEnabled;
-        }
-
         // Controlando label do dash
-        _dashStateLabel.text = _dataController.IsDashEnabled ? "Dash is ENABLED" : "Dash is DISABLED";
+        _dashStateLabel.text = _dataController.IsDashEnabled || LevelDataManager.Instance.GetDashStatus() ? "Dash is ENABLED" : "Dash is DISABLED";
         // Controlando label da vida infinita
         _infinityLifeStateLabel.text = _dataController.IsInifinityLife ? "InifityLife is ENABLED" : "InifityLife is DISABLED";
     }
@@ -97,6 +90,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
     public void ToggleDashState()
     {
         _dataController.IsDashEnabled = !_dataController.IsDashEnabled;
+        LevelDataManager.Instance.SetDashState(_dataController.IsDashEnabled);
     }
 
     /// <summary>

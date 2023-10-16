@@ -11,4 +11,7 @@ public class LevelDataScriptableObject : ScriptableObject
 
     [Header("Game info")]
     public int TimesDied;
+
+    [Header("Player props")]
+    public bool hasDash = false;
 }

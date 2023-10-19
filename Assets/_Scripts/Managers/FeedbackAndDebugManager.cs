@@ -102,7 +102,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Retorna se a vida infinita está ativada ou não
+    /// Retorna se a vida infinita estï¿½ ativada ou nï¿½o
     /// </summary>
     public bool IsInfinityLifeActive()
     {

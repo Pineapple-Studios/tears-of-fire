@@ -12,7 +12,7 @@ public class FeedbackAndDebugScriptableObject : ScriptableObject
     public bool IsDebugPanelActive = false;
     [Tooltip("Mostra mensagens do console")]
     public bool IsConsoleEnable = false;
-    [Tooltip("Mostra lista dos últimos inputs")]
+    [Tooltip("Mostra lista dos ï¿½ltimos inputs")]
     public bool ShowLastInputList = false;
     [Tooltip("Habilita a visibilidade dos elementos de Debug")]
     public bool IsFeedbackObjectsVisible = false;
@@ -28,7 +28,7 @@ public class FeedbackAndDebugScriptableObject : ScriptableObject
     public bool IsInifinityLife = false;
 
     [Header("Game play engines")]
-    [Tooltip("Cenas disponíneis")]
+    [Tooltip("Cenas disponï¿½neis")]
     public List<string> SceneList = new List<string> { };
     [Tooltip("Conclui todos os objetivos")]
     public bool IsConclude = false;

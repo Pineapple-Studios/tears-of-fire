@@ -29,7 +29,7 @@ public class PlayerPuzzleHandler : MonoBehaviour
     {
         Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange);
 
-        // Damage them
+        // Executar puzzle
         foreach (Collider2D block in hitBlocks)
         {
             MagneticPuzzle mp = block.gameObject.GetComponentInParent<MagneticPuzzle>();

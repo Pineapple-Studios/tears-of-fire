@@ -147,6 +147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5201113889338095461}
+  - component: {fileID: 8842618941156858413}
   - component: {fileID: 4240762641039968727}
   - component: {fileID: 1175420502187175053}
   - component: {fileID: 6389035521201139887}
@@ -173,6 +174,18 @@ Transform:
   m_Father: {fileID: 1834330006895731212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8842618941156858413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127031463221335106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac2e9dff94697d44b2da2434ec3e0fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4240762641039968727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +201,7 @@ MonoBehaviour:
   _life: 100
   _maxLife: 100
   _hitDamage: 35
-  _recallTime: 0.2
+  _recallTime: 0.5
   RecallColliderTime: 1
   IsTakingDamage: 0
 --- !u!114 &1175420502187175053
@@ -209,6 +222,7 @@ MonoBehaviour:
     m_Bits: 64
   _dashDuration: 0.13
   _dashRecall: 1
+  _dashRecallOnGround: 0.3
   _dashMultiplyer: 6
   IsDashed: 0
 --- !u!114 &6389035521201139887
@@ -593,11 +607,12 @@ MonoBehaviour:
   MoveSpeed: 19
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
+  _backImpulseForce: 0.05
   JumpSpeed: 34
-  CoyoteTime: 0.25
+  CoyoteTime: 0.125
   JumpTimer: 0
   GravityScale: 5
-  _maxFallVelocity: 30
+  _maxFallVelocity: 40
   _horizontalVelocityMultiplayerOnAir: 0.75
   _fallVelocityMultiplayer: 4.2
   _onGround: 0

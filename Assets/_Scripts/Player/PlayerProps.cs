@@ -49,7 +49,6 @@ public class PlayerProps : MonoBehaviour
     {
         IsTakingDamage = true;
         if (!FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
-        BackImpulse(); // Deve ser melhorado
         onChangePlayerLife(_life);
         onPlayerDamaged();
 
@@ -68,18 +67,6 @@ public class PlayerProps : MonoBehaviour
         _life += amount;
         Debug.Log($"Heal to {_life}");
         onChangePlayerLife(_life);
-    }
-
-    /// <summary>
-    /// Empurra o personagem no sentido contrário ao da caminhada
-    /// </summary>
-    private void BackImpulse()
-    {
-        
-        if (_tr.rotation.y >= 0)
-            _rb.AddForce(Vector2.left * 10, ForceMode2D.Impulse);
-        else 
-            _rb.AddForce(Vector2.right * 10, ForceMode2D.Impulse);
     }
 
     /// <summary>
@@ -116,5 +103,10 @@ public class PlayerProps : MonoBehaviour
     public float GetCurrentDamage()
     {
         return _hitDamage;
+    }
+
+    public bool IsFullLife()
+    {
+        return _life == _maxLife;
     }
 }

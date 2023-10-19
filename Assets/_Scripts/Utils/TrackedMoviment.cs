@@ -6,7 +6,7 @@ using UnityEngine;
 public class TrackedMoviment : MonoBehaviour
 {
     [SerializeField]
-    private List<Vector3> _pointsToNavigate = new List<Vector3> { };
+    private List<Transform> _pointsToNavigate = new List<Transform> { };
     [SerializeField]
     private float _timeToTravel;
     [SerializeField]
@@ -30,19 +30,25 @@ public class TrackedMoviment : MonoBehaviour
 
     void Update()
     {
-        if (_activeTransform.position == _pointsToNavigate[_counter])
+        if (_activeTransform.position == _pointsToNavigate[_counter].position)
         {
-            _counter = _counter < _pointsToNavigate.Count ? _counter++ : 0;
+            _counter = _counter >= _pointsToNavigate.Count - 1 ? 0 : _counter + 1;
         }
 
         GoToNext();        
+    }
+
+    private void FixedUpdate()
+    {
+        Debug.Log(_activeTransform.position == _pointsToNavigate[_counter].position);
+        Debug.Log(_counter);
     }
 
     private void GoToNext()
     {
         _activeTransform.position = Vector3.MoveTowards(
             _activeTransform.position, 
-            _pointsToNavigate[_counter], 
+            _pointsToNavigate[_counter].position, 
             _timeToTravel * Time.deltaTime
         );
     }

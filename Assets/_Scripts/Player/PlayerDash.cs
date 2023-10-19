@@ -19,6 +19,8 @@ public class PlayerDash : MonoBehaviour
     [SerializeField]
     private float _dashRecall = 1f;
     [SerializeField]
+    private float _dashRecallOnGround = 0.3f;
+    [SerializeField]
     private float _dashMultiplyer = 2f;
 
     public bool IsDashed = false;
@@ -26,6 +28,7 @@ public class PlayerDash : MonoBehaviour
     private PlayerController _pc;
     private float _prevGravityScale;
     private Vector2 _prevVelocity;
+    private bool _isOnGround = false;
 
     private void Start()
     {
@@ -36,11 +39,15 @@ public class PlayerDash : MonoBehaviour
     private void OnEnable()
     {
         PlayerProps.onPlayerDead += Respawn;
+        PlayerController.onPlayerGround += SetIsGround;
+        PlayerController.onPlayerJumping += SetIsJumping;
     }
 
     private void OnDisable()
     {
         PlayerProps.onPlayerDead -= Respawn;
+        PlayerController.onPlayerGround -= SetIsGround;
+        PlayerController.onPlayerJumping -= SetIsJumping;
     }
 
     void Update()
@@ -102,7 +109,17 @@ public class PlayerDash : MonoBehaviour
         _rb.velocity = new Vector2(_prevVelocity.x, 0);
         _rb.gravityScale = _prevGravityScale;
         IsDashed = false;
-        yield return new WaitForSeconds(_dashRecall);
+        yield return new WaitForSeconds(_isOnGround ? _dashRecallOnGround : _dashRecall);
         canDash = true;
+    }
+
+    private void SetIsGround()
+    {
+        _isOnGround = true;
+    }
+
+    private void SetIsJumping()
+    {
+        _isOnGround = false;
     }
 }

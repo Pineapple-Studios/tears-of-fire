@@ -93,8 +93,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1791472819890318675}
-  - component: {fileID: 4921207712943074782}
   - component: {fileID: 3252925284971130648}
+  - component: {fileID: 7532409159051895895}
   m_Layer: 0
   m_Name: LifeItem
   m_TagString: Untagged
@@ -116,10 +116,26 @@ Transform:
   m_Children:
   - {fileID: 2203207027928816615}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &4921207712943074782
-PolygonCollider2D:
+--- !u!114 &3252925284971130648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7138121799251047485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc66dcaf2f4ddd43aa75dad1bcaaffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _heallingLife: 20
+  _playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!61 &7532409159051895895
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -150,7 +166,7 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0062232018}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -160,27 +176,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
-  m_UseDelaunayMesh: 0
---- !u!114 &3252925284971130648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7138121799251047485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc66dcaf2f4ddd43aa75dad1bcaaffe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _heallingLife: 20
-  _playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.7094436}
+  m_EdgeRadius: 0

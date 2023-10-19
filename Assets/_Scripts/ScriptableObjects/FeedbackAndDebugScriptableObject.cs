@@ -29,7 +29,7 @@ public class FeedbackAndDebugScriptableObject : ScriptableObject
 
     [Header("Game play engines")]
     [Tooltip("Cenas disponíneis")]
-    public List<SceneAsset> SceneList = new List<SceneAsset> { };
+    public List<string> SceneList = new List<string> { };
     [Tooltip("Conclui todos os objetivos")]
     public bool IsConclude = false;
 }

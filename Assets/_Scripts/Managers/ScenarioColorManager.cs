@@ -53,9 +53,12 @@ public class ScenarioColorManager : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (_followTo == null) SetFollowTo(FindAnyObjectByType<PlayerController>().transform);
+
         SetEnvironmentColor();
         SetAmbienceLight();
         SetCharacterGlow();
+
         if (transform.position.x != _followTo.position.x)
         {
             transform.position = new Vector3(_followTo.position.x, transform.position.y, transform.position.z);

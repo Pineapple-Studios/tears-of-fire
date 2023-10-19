@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -23,7 +24,11 @@ public class SettingsController : MonoBehaviour
     //[SerializeField] Slider sld_VoicesVolume;
 
     private Resolution[] supportedResolutions;
-    private bool isFullScreen = false;
+    private Vector2[] ourResolutions = { new Vector2(1920, 1080), new Vector2(1600, 900), new Vector2(1366, 768), new Vector2(1280, 720) };
+    private List<Resolution> finalResolutions = new List<Resolution> { };
+    private int currentResolutionIndex = 0;
+
+    //private bool isFullScreen = false;
 
     private const string GENERAL_VOLUME = "MasterVolume";
     private const string MUSIC_VOLUME = "MusicVolume";
@@ -32,9 +37,31 @@ public class SettingsController : MonoBehaviour
 
     private void Start()
     {
-        isFullScreen = Screen.fullScreen;
+        //isFullScreen = Screen.fullScreen;
         supportedResolutions = Screen.resolutions;
-        this.GetAllResolutions(supportedResolutions);
+        //Debug.Log(supportedResolutions[0].width);
+        for (int i = 0; i < supportedResolutions.Length; i++)
+        {
+           // Debug.Log(ourResolutions.Length);
+            for (int j = 0; j < ourResolutions.Length; j++)
+            {
+               // Debug.Log(supportedResolutions[i].width);
+               // Debug.Log((int)ourResolutions[j].x);
+
+                if (supportedResolutions[i].width == (int)ourResolutions[j].x)
+                {
+                    if (supportedResolutions[i].height == (int)ourResolutions[j].y)
+                    {
+                        //Debug.Log(supportedResolutions[i].height);
+                       // Debug.Log((int)ourResolutions[j].y);
+                        finalResolutions.Add(supportedResolutions[i]);
+                    }
+                }
+            }
+        }
+
+        //Debug.Log(finalResolutions.Length);
+        this.GetAllResolutions(finalResolutions);
 
         this.WarmUpGame();
     }
@@ -143,13 +170,13 @@ public class SettingsController : MonoBehaviour
         return value;
     }
 
-    private void GetAllResolutions(Resolution[] resList)
+    private void GetAllResolutions(List<Resolution> resList)
     {
         List<string> resolutionList = new List<string>();
 
         foreach (Resolution resolution in resList)
         {
-            resolutionList.Add($"{resolution.width}x{resolution.height} ({resolution.refreshRate}Hz)");
+            resolutionList.Add($"{resolution.width}x{resolution.height} ({resolution.refreshRateRatio}Hz)");
         }
 
         sel_Resolutions.ClearOptions(); // Limpa op??es residuais no dropdown
@@ -160,7 +187,7 @@ public class SettingsController : MonoBehaviour
     {
         Resolution currestRes = supportedResolutions[selectedIndex];
 
-        Screen.SetResolution(currestRes.width, currestRes.height, Screen.fullScreenMode, currestRes.refreshRate);
+        Screen.SetResolution(currestRes.width, currestRes.height, Screen.fullScreenMode, currestRes.refreshRateRatio);
 
         LocalStorage.SetResolution(selectedIndex);
     }

@@ -28,8 +28,8 @@ public class FeedbackAndDebugScriptableObject : ScriptableObject
     public bool IsInifinityLife = false;
 
     [Header("Game play engines")]
-    [Tooltip("Cenas disponíneis")]
-    public List<SceneAsset> SceneList = new List<SceneAsset> { };
+    //[Tooltip("Cenas disponíneis")]
+    //public List<SceneAsset> SceneList = new List<SceneAsset> { };
     [Tooltip("Conclui todos os objetivos")]
     public bool IsConclude = false;
 }

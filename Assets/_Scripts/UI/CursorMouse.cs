@@ -9,7 +9,7 @@ public class CursorMouse : MonoBehaviour
 
     private void Start()
     {
-        Cursor.visible = false;
+        Cursor.visible = true;
     }
     void Update()
     {

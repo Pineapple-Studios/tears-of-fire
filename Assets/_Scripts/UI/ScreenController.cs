@@ -19,6 +19,7 @@ public class ScreenController : MonoBehaviour
     private void Start()
     {
         _timeCounter = 0;
+        Cursor.visible = false;
     }
 
     void Update()

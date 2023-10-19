@@ -59,12 +59,12 @@ public class FeedbackAndDebugManager : MonoBehaviour
 
     private void HandleSceneButtons()
     {
-        if (_dataController.SceneList.Count == 0) return;
-        foreach(SceneAsset scene in _dataController.SceneList)
+        //if (_dataController.SceneList.Count == 0) return;
+        //foreach(SceneAsset scene in _dataController.SceneList)
         {
             GameObject goTo = Instantiate(_goToPrefab, _sceneButtonGroup.transform);
-            goTo.GetComponent<GoTo>().SceneName = scene.name;
-            goTo.GetComponentInChildren<TMP_Text>().text = scene.name;
+            //goTo.GetComponent<GoTo>().SceneName = scene.name;
+            //goTo.GetComponentInChildren<TMP_Text>().text = scene.name;
         }
     }
 

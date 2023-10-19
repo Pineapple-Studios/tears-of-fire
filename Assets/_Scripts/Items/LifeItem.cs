@@ -18,7 +18,10 @@ public class LifeItem : MonoBehaviour
         {
             Debug.Log(collision.gameObject.name);
             PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
-            if (_pp != null) _pp.HealLife(_heallingLife);
+            if (_pp == null) return;
+            if (_pp.IsFullLife()) return;
+            
+            _pp.HealLife(_heallingLife);
 
             Destroy(gameObject);
         }

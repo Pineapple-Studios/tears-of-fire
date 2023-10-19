@@ -59,12 +59,12 @@ public class FeedbackAndDebugManager : MonoBehaviour
 
     private void HandleSceneButtons()
     {
-        //if (_dataController.SceneList.Count == 0) return;
-        //foreach(SceneAsset scene in _dataController.SceneList)
+        if (_dataController.SceneList.Count == 0) return;
+        foreach(string scene in _dataController.SceneList)
         {
             GameObject goTo = Instantiate(_goToPrefab, _sceneButtonGroup.transform);
-            //goTo.GetComponent<GoTo>().SceneName = scene.name;
-            //goTo.GetComponentInChildren<TMP_Text>().text = scene.name;
+            goTo.GetComponent<GoTo>().SceneName = scene;
+            goTo.GetComponentInChildren<TMP_Text>().text = scene;
         }
     }
 
@@ -102,7 +102,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Retorna se a vida infinita está ativada ou não
+    /// Retorna se a vida infinita estï¿½ ativada ou nï¿½o
     /// </summary>
     public bool IsInfinityLifeActive()
     {

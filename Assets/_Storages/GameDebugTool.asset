@@ -21,5 +21,5 @@ MonoBehaviour:
   IsDashEnabled: 1
   IsInifinityLife: 0
   SceneList:
-  - {fileID: 102900000, guid: aa15ac74f58d6b14ab024ce2ffdb415c, type: 3}
+  - Tutorial
   IsConclude: 0

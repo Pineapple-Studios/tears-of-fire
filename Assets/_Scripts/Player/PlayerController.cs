@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public float MoveSpeed = 10f;
     public Vector2 Direction;
     public bool IsFacingRight = true;
+    [SerializeField]
+    private float _backImpulseForce = 10f;
 
     [Header("Vertical Movement")]
     public float JumpSpeed = 15f;
@@ -99,9 +101,8 @@ public class PlayerController : MonoBehaviour
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
         // Aplicando mecânicas
-        MoveCharacter();
-        
-        if (!_playerProps.IsTakingDamage) MoveCharacter();
+        if (_playerProps.IsTakingDamage) BackImpulse();
+        else MoveCharacter();
 
         // Efeitos dependentes do Player
         CameraFollower();
@@ -165,6 +166,15 @@ public class PlayerController : MonoBehaviour
         {
             Flip();
         }
+    }
+
+    /// <summary>
+    /// Empurra o personagem no sentido contrário ao da caminhada
+    /// </summary>
+    private void BackImpulse()
+    {
+        Vector2 dir = IsFacingRight ? Vector2.left : Vector2.right;
+        _rb.AddForce(dir * _backImpulseForce, ForceMode2D.Impulse);
     }
 
     /// <summary>

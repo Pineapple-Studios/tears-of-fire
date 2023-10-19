@@ -224,8 +224,8 @@ GameObject:
   - component: {fileID: 4100196913381400155}
   - component: {fileID: 1488023514671264452}
   - component: {fileID: 2096012820627993183}
-  - component: {fileID: 3255934317255962435}
-  m_Layer: 7
+  - component: {fileID: 6431189403053647736}
+  m_Layer: 0
   m_Name: Engines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,8 +334,8 @@ MonoBehaviour:
   _layerPresenceMask:
     serializedVersion: 2
     m_Bits: 8
-  _componentToToggle: {fileID: 3255934317255962435}
---- !u!114 &3255934317255962435
+  _componentToToggle: {fileID: 6431189403053647736}
+--- !u!114 &6431189403053647736
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,14 +344,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7176076688985067814}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ac26dddddc8ef45955fd5ea1197b19, type: 3}
+  m_Script: {fileID: 11500000, guid: c822f7794666b3f4db8088b291f19dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartPoint: {fileID: 2539882475086577618}
-  EndPoint: {fileID: 1211733528425542687}
+  _pointsToNavigate:
+  - {fileID: 2539882475086577618}
+  - {fileID: 5283004142545215968}
+  - {fileID: 1211733528425542687}
   _timeToTravel: 3
-  _isGoAndBack: 1
-  _isHorizontalMoviment: 1
   _isManagingParent: 1
 --- !u!1 &8128003820602301195
 GameObject:
@@ -444,8 +444,40 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2539882475086577618}
+  - {fileID: 5283004142545215968}
   - {fileID: 1211733528425542687}
   - {fileID: 3447082469268380978}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8955774610792458689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5283004142545215968}
+  m_Layer: 0
+  m_Name: NePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5283004142545215968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955774610792458689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2966873601851421262}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

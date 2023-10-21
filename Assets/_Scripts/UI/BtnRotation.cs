@@ -3,20 +3,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BtnGoToScreen : MonoBehaviour
+public class BtnRotation : MonoBehaviour
 {
-    [Tooltip("Nome da cena que esse botão irá navegar")]
-    [SerializeField] string SceneName;
-
+    
     [SerializeField] Button _goToScreenButton;
     [SerializeField] public Animator transition;
-    [SerializeField] GameObject overlaidTxt;
-
-
-    void Awake()
-    {
-        //PlayerPrefs.SetString("@tof/SceneName", SceneName);
-    }
+    [SerializeField] GameObject canvas;
 
     private void OnEnable()
     {
@@ -33,20 +25,19 @@ public class BtnGoToScreen : MonoBehaviour
     private void GoTo()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneName);
     }
 
     public void OnTransition()
     {
         Debug.Log("AAAAAAAAAAAAAAA");
         //transition.SetBool("is_Rotation", true);
-        //HandleBtn();
-        PlayerPrefs.SetString("@tof/SceneName", SceneName);
-        transition.Play("tion_FireTransition");
+        HandleBtn();
+        //PlayerPrefs.SetString("@tof/SceneName", cv);
+        transition.Play("anim_Rotation");
     }
 
-    //public void HandleBtn()
-    //{
-    //    overlaidTxt.SetActive(false);
-    //}
+    public void HandleBtn()
+    {
+        canvas.SetActive(true);
+    }
 }

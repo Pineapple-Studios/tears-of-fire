@@ -26,7 +26,7 @@ public class SettingsController : MonoBehaviour
     private Resolution[] supportedResolutions;
     private Vector2[] ourResolutions = { new Vector2(1920, 1080), new Vector2(1600, 900), new Vector2(1366, 768), new Vector2(1280, 720) };
     private List<Resolution> finalResolutions = new List<Resolution> { };
-    private int currentResolutionIndex = 0;
+    //private int currentResolutionIndex = 0;
 
     //private bool isFullScreen = false;
 

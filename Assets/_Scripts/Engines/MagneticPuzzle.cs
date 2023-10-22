@@ -16,6 +16,8 @@ public class MagneticPuzzle : MonoBehaviour
     private float _velocityPoints = 2f;
     [SerializeField]
     private float _timeToGoBack = 2f;
+    [SerializeField]
+    private Vector3 _offsetPlatformPosition = Vector3.zero;
 
     private int _currentHook = 0;
     private float _stepBackTimer = 0f;
@@ -24,7 +26,7 @@ public class MagneticPuzzle : MonoBehaviour
 
     private void Start()
     {
-        SetInitialHookPosition();
+        SetPlataformToFirstHookPosition();
     }
 
     private void Update()
@@ -35,60 +37,78 @@ public class MagneticPuzzle : MonoBehaviour
         CounterToBackStep();
     }
 
-    private void SetInitialHookPosition()
+    /// <summary>
+    /// Posiciona a plataforma na primeira âncora
+    /// </summary>
+    private void SetPlataformToFirstHookPosition()
     {
         if (_anchorPoints.Count == 0 || _platform == null) return;
 
-        _platform.transform.position = _anchorPoints[0].transform.position;
-        _currentHook++;
+        _platform.transform.position = _anchorPoints[0].transform.position + _offsetPlatformPosition;
     }
 
+    /// <summary>
+    /// Carrega a plataforma para a próxima ancora
+    /// </summary>
     private void GoAhead()
     {
+        Vector3 targetPos = _anchorPoints[_currentHook + 1].transform.position + _offsetPlatformPosition;
         _platform.transform.position = Vector3.MoveTowards(
-            _platform.transform.position,
-            _anchorPoints[_currentHook].transform.position,
+            _platform.transform.position, 
+            targetPos, 
             _velocityPoints * Time.deltaTime
         );
 
-        if (
-            _currentHook < _anchorPoints.Count && 
-            _platform.transform.position == _anchorPoints[_currentHook].transform.position
-        )
+        if (_currentHook + 1 < _anchorPoints.Count && _platform.transform.position == targetPos)
         {
+            _stepBackTimer = 0f;
             _inMoviment = false;
             _currentHook++;
         }
     }
 
+    /// <summary>
+    /// Gerenciador de estados da mecânica
+    /// </summary>
     private void CounterToBackStep()
     {
-        if (!_inMoviment && !_isGoingBack) _stepBackTimer += Time.deltaTime;
-        if (!_inMoviment && _stepBackTimer == _timeToGoBack) _isGoingBack = true;
-        if (_inMoviment || _isGoingBack) _stepBackTimer = 0f;
+        // Não conta tempo no estado inicial
+        if (!_inMoviment && !_isGoingBack && _currentHook == 0) return;
+        // Começa a contar o tempo após chegar na ancora 1
+        if (!_inMoviment && !_isGoingBack && _currentHook > 0) _stepBackTimer += Time.deltaTime;
+
+        if (!_inMoviment && _stepBackTimer > _timeToGoBack) _isGoingBack = true;
     }
 
+    /// <summary>
+    /// Retorna a plataforma para a ancora anterior
+    /// </summary>
     private void GoBack()
     {
+        Vector3 targetPos = _anchorPoints[_currentHook - 1].transform.position + _offsetPlatformPosition;
         _platform.transform.position = Vector3.MoveTowards(
             _platform.transform.position,
-            _anchorPoints[_currentHook - 2].transform.position,
+            targetPos,
             _velocityPoints * Time.deltaTime
         );
 
-        if (_platform.transform.position == _anchorPoints[_currentHook - 2].transform.position)
+        if (_platform.transform.position == targetPos)
         {
+            _stepBackTimer = 0f;
             _isGoingBack = false;
             _currentHook--;
         }
     }
 
+    /// <summary>
+    /// Leva a plataforma para a próxima ancora
+    /// </summary>
     public void GoToNextPoint()
     {
         // Bloqueandoa ações caso a plataforma estaja em movimento contrário
         if (_isGoingBack) return;
-        StopCoroutine("CounterToBackStep");
+        _stepBackTimer = 0f;
 
-        if (_anchorPoints.Count != _currentHook) _inMoviment = true;
+        if (_anchorPoints.Count != _currentHook + 1) _inMoviment = true;
     }
 }

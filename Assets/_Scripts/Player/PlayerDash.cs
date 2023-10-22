@@ -24,6 +24,7 @@ public class PlayerDash : MonoBehaviour
     private float _dashMultiplyer = 2f;
 
     public bool IsDashed = false;
+
     private bool canDash = true;
     private PlayerController _pc;
     private float _prevGravityScale;
@@ -66,7 +67,11 @@ public class PlayerDash : MonoBehaviour
 
     private void Respawn(GameObject obj)
     {
+        if (!this.enabled) return;
+
         canDash = true;
+        IsDashed = false;
+        _rb.gravityScale = GetComponentInParent<PlayerController>().GravityScale;
     }
 
     private void OnDrawGizmosSelected()

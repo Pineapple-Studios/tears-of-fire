@@ -7,10 +7,14 @@ public class BatBullet : MonoBehaviour
     public float Speed = 10f;
     public float Lifetime = 5f;
 
+    [SerializeField]
+    private LayerMask _instantDestroyLayer;
+
     private Vector3 _direction = Vector3.zero;
     private LayerMask _targetLayer;
     private float _damage;
     private float _timer;
+    private bool _mustDestroy = false;
 
     private void Start()
     {
@@ -19,10 +23,18 @@ public class BatBullet : MonoBehaviour
 
     void Update()
     {
+        // Definindo direção do projétil
         if (_direction == Vector3.zero) return;
 
+        // Identifica se está colidindo comparede em alguma direção
+        _mustDestroy = 
+            Physics2D.Raycast(transform.position, Vector2.up, 0.1f, _instantDestroyLayer) ||
+            Physics2D.Raycast(transform.position, Vector2.left, 0.1f, _instantDestroyLayer) ||
+            Physics2D.Raycast(transform.position, Vector2.right, 0.1f, _instantDestroyLayer) ||
+            Physics2D.Raycast(transform.position, Vector2.down, 0.1f, _instantDestroyLayer);
+
         _timer += Time.deltaTime;
-        if (_timer > Lifetime)
+        if (_timer > Lifetime || _mustDestroy)
         {
             Destroy(gameObject);
         }
@@ -41,7 +53,6 @@ public class BatBullet : MonoBehaviour
     {
         if ((((1 << collision.gameObject.layer) & _targetLayer) != 0))
         {
-            Debug.Log(collision.gameObject.name);
             PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
             if (_pp != null) _pp.TakeDamage(_damage);
 

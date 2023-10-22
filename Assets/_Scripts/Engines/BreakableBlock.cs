@@ -9,8 +9,30 @@ public class BreakableBlock: MonoBehaviour
     [SerializeField]
     private List<GameObject> _blockDepedencies = new List<GameObject> { };
 
+    [Header("Casting")]
+    [SerializeField]
+    private LayerMask _playerMask;
+    enum Directions { Up, Down, Left, Right };
+    [SerializeField]
+    private Directions _breackableDirections;
+    [SerializeField]
+    private float _distanceToCheckPlayer = 4f;
+
     private BoxCollider2D _col;
     private int _counter = 0;
+    private Vector2[] _breackableDirectionsVectors = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawLine(
+            transform.position, 
+            new Vector2(transform.position.x, transform.position.y) + _breackableDirectionsVectors[(int) _breackableDirections] * _distanceToCheckPlayer);
+
+        Gizmos.DrawWireSphere(
+            transform.position,
+            _distanceToCheckPlayer
+        );
+    }
 
     private void Start()
     {
@@ -22,8 +44,20 @@ public class BreakableBlock: MonoBehaviour
     /// </summary>
     public void HitWall()
     {
+        bool isOnRightDirection = false;
+        RaycastHit2D hit = Physics2D.CircleCast(
+            transform.position, 
+            _distanceToCheckPlayer, 
+            _breackableDirectionsVectors[(int)_breackableDirections],
+            _distanceToCheckPlayer,
+            _playerMask
+        );
+        isOnRightDirection = hit.collider != null;
+        if (!isOnRightDirection) return;
+
+        Debug.Log("HitRight");
+
         _counter++;
-        Debug.Log("Block code hit");
         if (_counter == _hitsToBreak)
         {
             GameObject parent = gameObject.transform.parent.gameObject;

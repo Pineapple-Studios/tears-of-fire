@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     private Collider2D _col;
 
     private PlayerProps _pp;
+    private PlayerController _pc;
     private bool _isDisabledColliders = false;
     private bool _isDamaging = false;
     private float _counter = 0f;
@@ -25,11 +26,14 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
+            _pc = collision.gameObject.GetComponent<PlayerController>();
             if (_pp == null) return;
 
             _isDamaging = true;
             Debug.Log("Damage");
+            _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damageOnTouch);
+
         }
 
         // Ignorando colisoes entre elementos com a mesma tag

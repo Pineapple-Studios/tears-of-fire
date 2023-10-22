@@ -609,7 +609,7 @@ Transform:
   - {fileID: 1334391783745428017}
   - {fileID: 4994114809295152521}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &583907615687603974
 MonoBehaviour:
@@ -631,6 +631,7 @@ MonoBehaviour:
   - {fileID: 5026300173715713948}
   _velocityPoints: 10
   _timeToGoBack: 5
+  _offsetPlatformPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &8421436256633197708
 GameObject:
   m_ObjectHideFlags: 0

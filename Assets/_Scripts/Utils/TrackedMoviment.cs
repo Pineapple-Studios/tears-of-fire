@@ -38,12 +38,6 @@ public class TrackedMoviment : MonoBehaviour
         GoToNext();        
     }
 
-    private void FixedUpdate()
-    {
-        Debug.Log(_activeTransform.position == _pointsToNavigate[_counter].position);
-        Debug.Log(_counter);
-    }
-
     private void GoToNext()
     {
         _activeTransform.position = Vector3.MoveTowards(

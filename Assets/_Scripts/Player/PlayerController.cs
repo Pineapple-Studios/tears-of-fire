@@ -13,7 +13,9 @@ public class PlayerController : MonoBehaviour
     public Vector2 Direction;
     public bool IsFacingRight = true;
     [SerializeField]
-    private float _backImpulseForce = 10f;
+    private float _knockBackForce = 50f;
+    [SerializeField]
+    private float _knockDistance = 1f;
 
     [Header("Vertical Movement")]
     public float JumpSpeed = 15f;
@@ -56,6 +58,10 @@ public class PlayerController : MonoBehaviour
     private float _fallSpeedYDampingChangeThreshold;
     private bool isFalling = false;
     private float _coyoteCounter = 0f;
+    private bool _isKnocked = false;
+
+    private Vector3 _konckPos;
+    private Vector3 _enemyAttackPosition;
 
     private void OnDrawGizmos()
     {
@@ -101,8 +107,19 @@ public class PlayerController : MonoBehaviour
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
         // Aplicando mecânicas
-        if (_playerProps.IsTakingDamage) BackImpulse();
-        else MoveCharacter();
+        if (_playerProps.IsTakingDamage)
+        {
+            BackImpulse();
+            if (_isKnocked && Vector2.Distance(transform.position, _konckPos) > _knockDistance)
+            {
+                _rb.velocity = Vector2.zero;
+            }
+        }
+        else
+        {
+            _isKnocked = false;
+            MoveCharacter();
+        }
 
         // Efeitos dependentes do Player
         CameraFollower();
@@ -143,6 +160,21 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        PlayerProps.onPlayerDead += Respawn;
+    }
+
+    private void OnDisable()
+    {
+        PlayerProps.onPlayerDead -= Respawn;
+    }
+
+    private void Respawn(GameObject obj)
+    {
+        _rb.gravityScale = GravityScale;
+    }
+
     private void FixedUpdate()
     {
         _canJump = JumpTimer > Time.time && _onGround || (JumpTimer > Time.time && !_onGround && _coyoteCounter < CoyoteTime);
@@ -173,8 +205,15 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void BackImpulse()
     {
-        Vector2 dir = IsFacingRight ? Vector2.left : Vector2.right;
-        _rb.AddForce(dir * _backImpulseForce, ForceMode2D.Impulse);
+        if (_isKnocked) return;
+
+        _isKnocked = true;
+        _konckPos = transform.position;
+        Vector2 _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
+        float direction = (transform.position - _enemyAttackPosition).normalized.x;
+        int _xDir = direction < 0 ? 1 : -1;
+
+        _rb.AddForce(_xDir * _foward2D * _knockBackForce, ForceMode2D.Impulse);
     }
 
     /// <summary>
@@ -226,4 +265,10 @@ public class PlayerController : MonoBehaviour
             CameraManager.instance.LerpYDamping(false);
         }
     }
+
+    public void SetAttackEnemyPosition(Vector3 pos)
+    {
+        _enemyAttackPosition = pos;
+    }
+
 }

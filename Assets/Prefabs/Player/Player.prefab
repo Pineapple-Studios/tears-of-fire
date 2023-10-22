@@ -186,6 +186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac2e9dff94697d44b2da2434ec3e0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _magneticHookMask:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!114 &4240762641039968727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,7 +610,8 @@ MonoBehaviour:
   MoveSpeed: 19
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
-  _backImpulseForce: 0.05
+  _knockBackForce: 50
+  _knockDistance: 1
   JumpSpeed: 34
   CoyoteTime: 0.125
   JumpTimer: 0

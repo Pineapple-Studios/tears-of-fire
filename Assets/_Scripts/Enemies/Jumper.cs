@@ -11,9 +11,9 @@ public class Jumper : MonoBehaviour
     [SerializeField]
     private float _horizontalForce = 3f;
     [SerializeField]
-    private float _verticalForce = 5f;
+    private float _jumpForce = 3f;
     [SerializeField]
-    private AnimationCurve _flow;
+    private float _jumpUpTime = 3f;
     [SerializeField]
     private float _delayToStopMoviment = 1f;
 
@@ -38,13 +38,12 @@ public class Jumper : MonoBehaviour
     private CircleCollider2D _circleCollider;
     private bool _isGrounded = false;
     private bool _hasWallAhead = false;
+    private bool _isJumping = false;
 
     private int _xDir = 1;
-    private int _yDir = 1;
     private bool _identifyPlayer = false;
-    private float _timer = 0f;
-    private double _prevEval = 0;
     private Vector3 _foward2D;
+    private float _jumpTimeCounter = 0f;
 
     private void OnDrawGizmosSelected()
     {
@@ -53,7 +52,7 @@ public class Jumper : MonoBehaviour
         Gizmos.DrawLine(transform.position, Vector3.down * _distanceToGround + transform.position);
         Gizmos.color = Color.blue;
         _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
-        Gizmos.DrawLine(transform.position, _foward2D * _wallDistance + transform.position);
+        Gizmos.DrawLine(transform.position , _foward2D * _wallDistance + transform.position);
     }
 
     private void Awake()
@@ -103,14 +102,20 @@ public class Jumper : MonoBehaviour
         {
             ResetBody();
         }
-
-        
+        else
+        {
+            // Limitando velocidade de queda
+            if (_rb.velocity.y < -40f)
+            {
+                _rb.velocity = new Vector2(_rb.velocity.x, -40f);
+            }
+        }
     }
 
     private void FixedUpdate()
     {
         _hasWallAhead =
-           Physics2D.Raycast(transform.position, _foward2D, _wallDistance, _wallLayer);
+           Physics2D.Raycast(transform.position * new Vector2(1, -0.1f), _foward2D, _wallDistance, _wallLayer);
         
         if (_hasWallAhead)
         {
@@ -118,7 +123,36 @@ public class Jumper : MonoBehaviour
             _xDir *= -1;
         }
 
-        if (_identifyPlayer || (!_identifyPlayer && !_isGrounded)) MovimentByAnimation();
+        if (_identifyPlayer) AddMoviment();
+    }
+
+    
+    private void AddMoviment()
+    {
+        _rb.velocity = new Vector2(_xDir * _horizontalForce * Time.fixedDeltaTime, _rb.velocity.y);
+        
+        if (_jumpTimeCounter < _jumpUpTime && !_isJumping)
+        {
+            Jump();
+        }
+        else
+        {
+            _rb.velocity = new Vector2(_xDir * _horizontalForce * Time.fixedDeltaTime, 0f);
+            _jumpTimeCounter = 0;
+            _isJumping = true;
+            _identifyPlayer = false;
+        }
+        
+    }
+
+    /// <summary>
+    /// Executa o pulo do personagem
+    /// </summary>
+    void Jump()
+    {
+        if (!_isGrounded) return;
+
+        _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
     }
 
     private void Flip()
@@ -131,36 +165,7 @@ public class Jumper : MonoBehaviour
 
     private void ResetBody()
     {
-        _rb.velocity = Vector2.zero;
-        _timer = 0;
-        _yDir = 1;
-        _prevEval = 0;
-    }
-
-    private void MovimentByAnimation()
-    {
-        _timer += Time.fixedDeltaTime;
-        float eval = _flow.Evaluate(_timer);
-        double dEval = Math.Round(eval, 3);
-
-        float vForce = (1 - eval) * _verticalForce;
-        float hForce = _timer == 0 ? 0 : _horizontalForce;
-
-        // Controlando grandes quedas
-        if (!_isGrounded && _yDir == -1) {
-            float finalVelocity = _rb.velocity.y < _yDir * vForce ? _rb.velocity.y : _yDir * vForce;
-            _rb.velocity = new Vector2(_xDir * hForce, finalVelocity);
-            return; 
-        }
-        else
-        {
-            _rb.velocity = new Vector2(_xDir * hForce, _yDir * vForce);
-        }
-
-        if (((1 - dEval) == 0 || (1 - dEval) == 1) && dEval != _prevEval)
-        {
-            _yDir *= -1;
-            _prevEval = dEval;
-        }
+        _isJumping = false;
+        _jumpTimeCounter = 0;
     }
 }

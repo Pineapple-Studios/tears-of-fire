@@ -85,6 +85,7 @@ public class PlayerProps : MonoBehaviour
     {
         if (_life <= 0)
         {
+            IsTakingDamage = false;
             onPlayerDead(gameObject.transform.parent.gameObject);
         }
     }

@@ -16,9 +16,9 @@ public class SettingsController : MonoBehaviour
     [SerializeField] TMP_Dropdown sel_Resolutions;
 
     // Audio
-    [SerializeField] Slider sld_GeneralVolume;
     [SerializeField] AudioMixer amix_General;
-
+    
+    [SerializeField] Slider sld_GeneralVolume;
     [SerializeField] Slider sld_MusicVolume;
     [SerializeField] Slider sld_SFXVolume;
     //[SerializeField] Slider sld_VoicesVolume;

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -30,14 +31,15 @@ public class BtnBack : MonoBehaviour
 
     public void OnTransition()
     {
-        Debug.Log("AAAAAAAAAAAAAAA");
+        Debug.Log("TransitionBack");
         transition.SetBool("is_ReverseRotation", true);
-        HandleBtn();
+        StartCoroutine(HandleBtn());
         transition.Play("anim_ReverseRotation");
     }
 
-    public void HandleBtn()
+    private IEnumerator HandleBtn()
     {
+        yield return new WaitForSeconds(1.5f);
         overlaidTxt.SetActive(false);
     }
 }

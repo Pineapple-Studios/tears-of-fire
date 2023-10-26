@@ -33,13 +33,11 @@ public class BtnBackSettings : MonoBehaviour
     {
         Debug.Log("TransitionBack");
         transition.SetBool("is_ReverseSettings", true);
-        StartCoroutine(HandleBtn());
         transition.Play("anim_ReverseSettings");
     }
 
-    private IEnumerator HandleBtn()
+    public void HandleBtn()
     {
-        yield return new WaitForSeconds(1f);
         canvas.SetActive(false);
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class RumbleManager : MonoBehaviour
 {
     public static RumbleManager instance;
@@ -41,7 +42,6 @@ public class RumbleManager : MonoBehaviour
             yield return null;
         
         }
-
         pad.SetMotorSpeeds(0f, 0f);
     }
 }

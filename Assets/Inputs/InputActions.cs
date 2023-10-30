@@ -510,6 +510,17 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""action"": ""RumbleAction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5afa9792-a0a0-4974-b866-b5cb8d897bfd"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RumbleAction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }

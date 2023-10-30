@@ -77,14 +77,12 @@ public class PauseManager : MonoBehaviour
     public void OnTransition()
     {
         Debug.Log("AnimPause");
-        transition.SetBool("is_Pause", true);
         transition.Play("anim_Pause");
     }
 
     public void OnTransitionBack()
     {
         Debug.Log("AnimReversePause");
-        transition.SetBool("is_PauseReverse", true);
         transition.Play("anim_ReversePause");
     }
 }

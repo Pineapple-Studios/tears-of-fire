@@ -16,6 +16,14 @@ public class PauseManager : MonoBehaviour
     [Header("Actions")]
     [SerializeField] public InputActionAsset Actions;
 
+    [Header("Animator")]
+    [SerializeField] public Animator transition;
+
+
+    private void Start()
+    {
+        pauseMenu.gameObject.SetActive(false);
+    }
     void Awake()
     {
         Actions.FindActionMap("UI").FindAction("Pause").performed += OnPause;
@@ -52,16 +60,32 @@ public class PauseManager : MonoBehaviour
 
     public void Resume()
     {
-        //eventSystem.gameObject.SetActive(true);
+        Debug.Log("Despausou");
         pauseMenu.gameObject.SetActive(false);
+        OnTransitionBack();
         Time.timeScale = 1;
     }
 
     private void Pause()
     {
-        //eventSystem.gameObject.SetActive(false);
+        Debug.Log("Pausou");
         pauseMenu.gameObject.SetActive(true);
+        OnTransition();
         Time.timeScale = 0;
+    }
+
+    public void OnTransition()
+    {
+        Debug.Log("AnimPause");
+        transition.SetBool("is_Pause", true);
+        transition.Play("anim_Pause");
+    }
+
+    public void OnTransitionBack()
+    {
+        Debug.Log("AnimReversePause");
+        transition.SetBool("is_PauseReverse", true);
+        transition.Play("anim_ReversePause");
     }
 }
 

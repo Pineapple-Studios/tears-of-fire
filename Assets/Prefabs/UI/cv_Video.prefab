@@ -1213,11 +1213,11 @@ RectTransform:
   - {fileID: 8619206000471166547}
   - {fileID: 8513945623442506900}
   - {fileID: 2640524862534971440}
-  - {fileID: 3590947282649173134}
   - {fileID: 5058310801032920664}
   - {fileID: 8275766815666171019}
   - {fileID: 5871440416691037341}
   - {fileID: 7408453807392780127}
+  - {fileID: 3590947282649173134}
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

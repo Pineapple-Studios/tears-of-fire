@@ -462,6 +462,34 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "Rumble",
+            "id": "f8d632d3-af52-4cf2-a68e-88d53765c8a2",
+            "actions": [
+                {
+                    "name": "RumbleAction",
+                    "type": "PassThrough",
+                    "id": "6848d96a-b7bf-4664-82ef-e8a390137e38",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4835d0e2-1a8d-442b-a804-f33a24248ea1",
+                    "path": "<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RumbleAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

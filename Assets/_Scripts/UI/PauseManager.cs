@@ -22,6 +22,7 @@ public class PauseManager : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
         pauseMenu.gameObject.SetActive(false);
     }
     void Awake()
@@ -62,6 +63,7 @@ public class PauseManager : MonoBehaviour
     {
         Debug.Log("Despausou");
         pauseMenu.gameObject.SetActive(false);
+        Cursor.visible = false;
         OnTransitionBack();
         Time.timeScale = 1;
     }
@@ -69,6 +71,7 @@ public class PauseManager : MonoBehaviour
     private void Pause()
     {
         Debug.Log("Pausou");
+        Cursor.visible = true;
         pauseMenu.gameObject.SetActive(true);
         OnTransition();
         Time.timeScale = 0;

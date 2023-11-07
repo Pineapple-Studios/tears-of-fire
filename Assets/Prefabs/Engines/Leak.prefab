@@ -32,7 +32,7 @@ Transform:
   - {fileID: 3293149784546335234}
   - {fileID: 8245910400560675576}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3454327483057278004
 MonoBehaviour:
@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 8245910400560675576}
   - component: {fileID: 5010395893796458294}
   - component: {fileID: 4263681656426020975}
+  - component: {fileID: 544758699115745909}
   m_Layer: 8
   m_Name: End
   m_TagString: Untagged
@@ -248,7 +249,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -264,3 +265,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &544758699115745909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791165114750523638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36d1c13c7d32b5498942d17e1583457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  _damageOnTouch: 20

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Unity.Collections.AllocatorManager;
 
 [RequireComponent(typeof(PlayerProps))]
 public class PlayerCombat : MonoBehaviour
@@ -18,6 +19,8 @@ public class PlayerCombat : MonoBehaviour
     private LayerMask _enemyLayer;
     [SerializeField]
     private LayerMask _breakableBlockLayer;
+    [SerializeField]
+    private Vector3 _offset = Vector3.zero;
 
     // Isso está exposto
     public static PlayerCombat instance;
@@ -26,12 +29,12 @@ public class PlayerCombat : MonoBehaviour
     
 
     private PlayerProps _pp;
+    private Rigidbody2D _rb;
     private Vector2 _attackDirection;
 
     private void OnDrawGizmosSelected()
     {
         if (AttackPoint == null) return;
-        Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
     }
 
     public void Awake()
@@ -42,6 +45,7 @@ public class PlayerCombat : MonoBehaviour
     private void Start()
     {
         _pp = GetComponent<PlayerProps>();
+        _rb = GetComponentInParent<Rigidbody2D>();
     }
 
     void Update()
@@ -78,7 +82,8 @@ public class PlayerCombat : MonoBehaviour
 
         EnemyHit();
 
-        HitBlock();
+        // HitBlock();
+        HitBlockByRaycast();
     }
 
     /// <summary>
@@ -95,21 +100,44 @@ public class PlayerCombat : MonoBehaviour
             Transform tParent = enemy.gameObject.transform.parent;
             // Debug.Log($"Hit {tParent.gameObject.name} with damage {_pp.GetCurrentDamage()}");
             Enemy e = tParent.gameObject.GetComponentInChildren<Enemy>();
-            if (e != null) e.TakeDamage(_pp.GetCurrentDamage());
+            if (e != null)
+            {
+                e.TakeDamage(_pp.GetCurrentDamage());
+                if (_attackDirection.y < 0) _rb.velocity = Vector2.up * 20f;
+            }
         }
     }
 
     /// <summary>
     /// Verifica se a área de dano tem alguma parede quebrável e executa um hit
     /// </summary>
-    private void HitBlock()
+    private void HitBlockByRaycast()
     {
-        Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _breakableBlockLayer);
+        Vector3 origin = transform.position + _offset;
+        Vector2 forward2D = new Vector2(transform.forward.z, transform.forward.y);  
 
-        foreach (Collider2D block in hitBlocks)
+        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), forward2D, _distanceToPlayer, _breakableBlockLayer);
+        if (topBlocks.collider != null)
         {
-            BreakableBlock b = block.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
             if (b != null) b.HitWall();
+            return;
+        }
+
+        RaycastHit2D middleBlocks = Physics2D.Raycast(origin, forward2D, _distanceToPlayer, _breakableBlockLayer);
+        if (middleBlocks.collider != null)
+        {
+            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            if (b != null) b.HitWall();
+            return;
+        }
+
+        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), forward2D, _distanceToPlayer, _breakableBlockLayer);
+        if (bottomBlocks.collider != null)
+        {
+            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            if (b != null) b.HitWall();
+            return;
         }
     }
 }

@@ -56,6 +56,20 @@ public class PlayerProps : MonoBehaviour
     }
 
     /// <summary>
+    /// Método responsável por dar dano no personagem sem executar o knockback
+    /// </summary>
+    /// <param name="damage">Poder/Força do dano</param>
+    public void TakeDamageWhithoutKnockback(float damage)
+    {
+        IsTakingDamage = false;
+        if (!FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
+        onChangePlayerLife(_life);
+        onPlayerDamaged();
+
+        StartCoroutine(EndOfEffects());
+    }
+
+    /// <summary>
     /// Método responsável por recuperar vida do personagem
     /// </summary>
     /// <param name="amount">Heal de vida</param>

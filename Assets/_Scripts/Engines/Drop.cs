@@ -30,9 +30,10 @@ public class Drop : MonoBehaviour
 
         if ((((1 << collision.gameObject.layer) & _targetLayer) != 0))
         {
-            Debug.Log(collision.gameObject.name);
+            // Debug.Log(collision.gameObject.name);
+
             PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
-            if (_pp != null) _pp.TakeDamage(20f); // Dano da gota
+            if (_pp != null) _pp.TakeDamageWhithoutKnockback(20f); // Dano da gota
 
             Restart();
         }

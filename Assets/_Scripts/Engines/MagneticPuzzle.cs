@@ -111,4 +111,25 @@ public class MagneticPuzzle : MonoBehaviour
 
         if (_anchorPoints.Count != _currentHook + 1) _inMoviment = true;
     }
+
+    Vector3 _dir = Vector3.zero;
+    /// <summary>
+    /// Carrega a plataforma para a próxima ancora
+    /// </summary>
+    private void _GoAheadByVelocity()
+    {
+        Vector3 targetPos = _anchorPoints[_currentHook + 1].transform.position + _offsetPlatformPosition;
+        if (_dir == Vector3.zero) _dir = targetPos - _platform.transform.position;
+
+        _platform.GetComponent<Rigidbody2D>().velocity = _dir * _velocityPoints * Time.deltaTime;
+
+        if (_currentHook + 1 < _anchorPoints.Count && _platform.transform.position.y > targetPos.y)
+        {
+            _platform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            _dir = Vector3.zero;
+            _stepBackTimer = 0f;
+            _inMoviment = false;
+            _currentHook++;
+        }
+    }
 }

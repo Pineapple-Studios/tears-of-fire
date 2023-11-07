@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
     private float _coyoteCounter = 0f;
     private bool _isKnocked = false;
 
-    private Vector3 _konckPos;
+    private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
 
     private void OnDrawGizmos()
@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
         if (_playerProps.IsTakingDamage)
         {
             BackImpulse();
-            if (_isKnocked && Vector2.Distance(transform.position, _konckPos) > _knockDistance)
+            if (_isKnocked && Vector2.Distance(transform.position, _knockPos) > _knockDistance)
             {
                 _rb.velocity = Vector2.zero;
             }
@@ -208,12 +208,10 @@ public class PlayerController : MonoBehaviour
         if (_isKnocked) return;
 
         _isKnocked = true;
-        _konckPos = transform.position;
-        Vector2 _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
-        float direction = (transform.position - _enemyAttackPosition).normalized.x;
-        int _xDir = direction < 0 ? 1 : -1;
+        _knockPos = transform.position;
 
-        _rb.AddForce(_xDir * _foward2D * _knockBackForce, ForceMode2D.Impulse);
+        Vector3 direction = transform.position - _enemyAttackPosition;
+        _rb.AddForce(direction * _knockBackForce, ForceMode2D.Impulse);
     }
 
     /// <summary>

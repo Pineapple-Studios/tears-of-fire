@@ -51,7 +51,7 @@ public class ScenarioColorManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void FixedUpdate()
+    private void LateUpdate()
     {
         if (_followTo == null) SetFollowTo(FindAnyObjectByType<PlayerController>().transform);
 
@@ -59,11 +59,11 @@ public class ScenarioColorManager : MonoBehaviour
         SetAmbienceLight();
         SetCharacterGlow();
 
-        if (transform.position.x != _followTo.position.x)
-        {
-            transform.position = new Vector3(_followTo.position.x, transform.position.y, transform.position.z);
-            // Debug.Log("Position changed");
-        }
+         
+        
+        transform.position = new Vector3(_followTo.position.x, _followTo.position.y, transform.position.z);
+        // Debug.Log("Position changed");
+        
     }
 
     private void SetEnvironmentColor()

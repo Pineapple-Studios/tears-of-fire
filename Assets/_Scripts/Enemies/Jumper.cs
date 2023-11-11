@@ -34,6 +34,8 @@ public class Jumper : MonoBehaviour
     private LayerMask _wallLayer;
     [SerializeField]
     private float _wallDistance = 2.5f;
+    [SerializeField]
+    private Vector3 _offSet = new Vector3();
 
     private CircleCollider2D _circleCollider;
     private bool _isGrounded = false;
@@ -45,6 +47,11 @@ public class Jumper : MonoBehaviour
     private Vector3 _foward2D;
     private float _jumpTimeCounter = 0f;
 
+
+    private float _timerToChangeDir = 0f; 
+    private float _timerToStop = 0f;
+    private Transform _parent = null;
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, _castRadius);
@@ -52,7 +59,7 @@ public class Jumper : MonoBehaviour
         Gizmos.DrawLine(transform.position, Vector3.down * _distanceToGround + transform.position);
         Gizmos.color = Color.blue;
         _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
-        Gizmos.DrawLine(transform.position , _foward2D * _wallDistance + transform.position);
+        Gizmos.DrawLine(transform.position + _offSet, _foward2D * _wallDistance + (transform.position + _offSet));
     }
 
     private void Awake()
@@ -63,7 +70,13 @@ public class Jumper : MonoBehaviour
         _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+
+    private void Start()
+    {
+        _parent = transform.parent.transform;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (((1 << collision.gameObject.layer) & _playerMask) != 0 && _isGrounded)
         {
@@ -74,26 +87,37 @@ public class Jumper : MonoBehaviour
             transform.parent.gameObject.transform.rotation = Quaternion.Euler(0, direction < 0 ? 0 : 180, 0);
             // Ativando movimento
             _identifyPlayer = _hasWallAhead ? false : true;
+            _timerToStop = 0f;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (((1 << collision.gameObject.layer) & _playerMask) != 0)
-        {
-            StartCoroutine(StopMoviment());
-        }
-    }
-
-    private IEnumerator StopMoviment()
-    {
-        // Delay para encerrar o movimento
-        yield return new WaitForSeconds(_delayToStopMoviment);
-        _identifyPlayer = false;
-    }
 
     private void Update()
     {
+        if (_parent.GetComponentInChildren<Enemy>().GetCurrentLife() <= 0) return;
+
+        if (_foward2D != Quaternion.AngleAxis(90, Vector3.up) * transform.forward)
+            _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
+
+        RaycastHit2D hit = Physics2D.CircleCast(
+            transform.position + _offSet,
+            2f,
+            _foward2D,
+            _castRadius,
+            _playerMask
+        );
+
+        if (hit.collider == null && _timerToStop < _delayToStopMoviment)
+        {
+            _timerToStop += Time.deltaTime;
+        }
+
+        if (_timerToStop > _delayToStopMoviment)
+        {
+            _identifyPlayer = false;
+        }
+
+        // Iniciando pulo quando no chão
         _isGrounded =
             Physics2D.Raycast(transform.position, Vector2.down, _distanceToGround, _groundLayer);
 
@@ -110,19 +134,33 @@ public class Jumper : MonoBehaviour
                 _rb.velocity = new Vector2(_rb.velocity.x, -40f);
             }
         }
+
+        
+        // Trocando a direção com controle de tempo
+        _hasWallAhead = Physics2D.Raycast(transform.position + _offSet, _foward2D, _wallDistance, _wallLayer);
+
+        if (_hasWallAhead && _timerToChangeDir >= 2)
+        {
+            Flip();
+            _xDir *= -1;
+            _timerToChangeDir = 0;
+        }
+
+        if (_timerToChangeDir < 2) _timerToChangeDir += Time.deltaTime;
+
+
+        if (_rb.velocity.y > 0)
+        {
+            _parent.GetComponentInChildren<Animator>().Play("clip_up");
+        }
+        if (_rb.velocity.y < 0)
+        {
+            _parent.GetComponentInChildren<Animator>().Play("clip_down");
+        }
     }
 
     private void FixedUpdate()
     {
-        _hasWallAhead =
-           Physics2D.Raycast(transform.position * new Vector2(1, -0.1f), _foward2D, _wallDistance, _wallLayer);
-        
-        if (_hasWallAhead)
-        {
-            Flip();
-            _xDir *= -1;
-        }
-
         if (_identifyPlayer) AddMoviment();
     }
 
@@ -167,5 +205,6 @@ public class Jumper : MonoBehaviour
     {
         _isJumping = false;
         _jumpTimeCounter = 0;
+        _rb.velocity = Vector2.zero;
     }
 }

@@ -97,9 +97,14 @@ public class PlayerCombat : MonoBehaviour
         // Damage them
         foreach (Collider2D enemy in hitEnemies)
         {
-            Transform tParent = enemy.gameObject.transform.parent;
-            // Debug.Log($"Hit {tParent.gameObject.name} with damage {_pp.GetCurrentDamage()}");
-            Enemy e = tParent.gameObject.GetComponentInChildren<Enemy>();
+            Transform MainParent = enemy.gameObject.transform;
+            while (MainParent.parent != null)
+            {
+                MainParent = MainParent.parent;
+            }
+
+            // Debug.Log($"Hit {MainParent.gameObject.name} with damage {_pp.GetCurrentDamage()}");
+            Enemy e = MainParent.gameObject.GetComponentInChildren<Enemy>();
             if (e != null)
             {
                 e.TakeDamage(_pp.GetCurrentDamage());

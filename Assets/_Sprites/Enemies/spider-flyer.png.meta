@@ -1,0 +1,3814 @@
+fileFormatVersion: 2
+guid: ae80dab0b1968304daf5ba5a6878638d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FLYER_Attack0001
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1092
+        width: 315
+        height: 235
+      alignment: 9
+      pivot: {x: 0.37238094, y: 0.18085106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef099b657597a3644b2a47b8ac371846
+      internalID: -1030097793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0002
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1092
+        width: 315
+        height: 235
+      alignment: 9
+      pivot: {x: 0.37238094, y: 0.18085106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8015a8ccb1df707459426940b6ba0b32
+      internalID: -716014159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0003
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 1593
+        width: 348
+        height: 225
+      alignment: 9
+      pivot: {x: 0.3744253, y: 0.14444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681c325dd779b048ba9a9c512d982b4
+      internalID: 205660607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0004
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 1593
+        width: 348
+        height: 225
+      alignment: 9
+      pivot: {x: 0.3744253, y: 0.14444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbc3b3244967714b8265e9e55038ef7
+      internalID: -1440462986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0005
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1605
+        width: 415
+        height: 218
+      alignment: 9
+      pivot: {x: 0.42, y: 0.121559635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5315121cff5093488f26ac5e778c94f
+      internalID: -943649288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0006
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1605
+        width: 415
+        height: 218
+      alignment: 9
+      pivot: {x: 0.42, y: 0.121559635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65be9cc4bcdcbd4981abd4cef41c0f4
+      internalID: 2145004128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0007
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1605
+        width: 415
+        height: 218
+      alignment: 9
+      pivot: {x: 0.42, y: 0.121559635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aae684760874448b6156ef4e31f487
+      internalID: -1978574817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0008
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1605
+        width: 415
+        height: 218
+      alignment: 9
+      pivot: {x: 0.42, y: 0.121559635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30bcbb227914464aabaa41f021891d9
+      internalID: -291414986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0009
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 1651
+        width: 361
+        height: 176
+      alignment: 9
+      pivot: {x: 0.35263157, y: 0.4119318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb380803bc2a8364fbb02ec9ff5d9b68
+      internalID: 605575968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0010
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 1651
+        width: 361
+        height: 176
+      alignment: 9
+      pivot: {x: 0.35263157, y: 0.4119318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c55ab6906ee03c4fafcaf3fa8206fe9
+      internalID: 479317043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0011
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 1651
+        width: 361
+        height: 176
+      alignment: 9
+      pivot: {x: 0.35263157, y: 0.4119318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81818052cc36246acbfe79875a5e05
+      internalID: -1155302325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0012
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 1651
+        width: 361
+        height: 176
+      alignment: 9
+      pivot: {x: 0.35263157, y: 0.4119318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cc4424f14428d40a5f6cf7218e0153
+      internalID: 147758152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0013
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1474
+        width: 215
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5827907, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e1a6ae2697178489464b2c94e3bdf5
+      internalID: -764787685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0014
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1474
+        width: 215
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5827907, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ca32fc27dd6f4a802d6cf063eed23
+      internalID: -590176623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0015
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1474
+        width: 215
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5827907, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f54013a9c4c3b43ae3706e128b5126
+      internalID: 1065392074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0016
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1474
+        width: 215
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5827907, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0086a14bc066f45bdeb2622a0921ae
+      internalID: 37371890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0017
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1798
+        width: 210
+        height: 249
+      alignment: 9
+      pivot: {x: 0.5442857, y: 0.62851405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567a3204d2b47c47bef842db35a6f14
+      internalID: -1395194851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0018
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1798
+        width: 210
+        height: 249
+      alignment: 9
+      pivot: {x: 0.5442857, y: 0.62851405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11b35a0c03d3744eb2bca713a0bf9d6
+      internalID: -236826390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Attack0019
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1798
+        width: 210
+        height: 249
+      alignment: 9
+      pivot: {x: 0.5442857, y: 0.62851405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588e12a4b3b17ae469564050c2b1523c
+      internalID: -1638416776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0001
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 1022
+        width: 288
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.5881773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda47a3af0efd7b49b7d702d8d4f8397
+      internalID: 2128613507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0002
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 1022
+        width: 288
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.5881773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9193e9738b3abdc49abeb8550fee4f25
+      internalID: 2137884992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0003
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 1022
+        width: 288
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.5881773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bab394ce39c5ca4983278ca2e273649
+      internalID: 1028035580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0004
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 1022
+        width: 288
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.5881773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfe0674a1e041643bfe4b09740e4a37
+      internalID: -1900024207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0005
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 284
+        width: 373
+        height: 242
+      alignment: 9
+      pivot: {x: 0.44932976, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bb5598e7c101f47af7fb9a8f23ddc9
+      internalID: 352434875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0006
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 284
+        width: 373
+        height: 242
+      alignment: 9
+      pivot: {x: 0.44932976, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e98a65f1fd31744b966fc7f23d7d4f
+      internalID: -924421765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0007
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 284
+        width: 373
+        height: 242
+      alignment: 9
+      pivot: {x: 0.44932976, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13880f7784c45d540ab06b9569fd9e5d
+      internalID: -905722421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0008
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 284
+        width: 373
+        height: 242
+      alignment: 9
+      pivot: {x: 0.44932976, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2582996505ec9646b1e74484b0d0a71
+      internalID: -521696419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0009
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 150
+        width: 419
+        height: 305
+      alignment: 9
+      pivot: {x: 0.43102625, y: 0.6013115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca5438bb67dd444b2beb1850e8ffa5
+      internalID: -1793167398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0010
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 150
+        width: 419
+        height: 305
+      alignment: 9
+      pivot: {x: 0.43102625, y: 0.6013115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed3e8fed126fde40857c7fbac0109c6
+      internalID: 796827488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0011
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 150
+        width: 419
+        height: 305
+      alignment: 9
+      pivot: {x: 0.43102625, y: 0.6013115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2201f0e1e66dbc744b838c37364bae85
+      internalID: 250895315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0012
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 150
+        width: 419
+        height: 305
+      alignment: 9
+      pivot: {x: 0.43102625, y: 0.6013115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f8182d72b01a247acd3728039ff7f4
+      internalID: -1302808606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0013
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 6
+        width: 469
+        height: 329
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d05e36320c891a468a07a7d05cbfcff
+      internalID: -955418636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0014
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 6
+        width: 469
+        height: 329
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214921edd04347746a441e8c910d3d65
+      internalID: 333365344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_DEATH0015
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 6
+        width: 469
+        height: 329
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb98f325b99dde4f84706b87c563cde
+      internalID: 911621368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0001
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 52
+        width: 346
+        height: 230
+      alignment: 9
+      pivot: {x: 0.37450868, y: 0.20956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4616bc973205fac4199f04732bff7287
+      internalID: 1359808928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0002
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 1820
+        width: 347
+        height: 227
+      alignment: 9
+      pivot: {x: 0.3734294, y: 0.20792952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77149e572e38ca42ab62c994aa83b38
+      internalID: 1638427315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0003
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 603
+        width: 346
+        height: 230
+      alignment: 9
+      pivot: {x: 0.37450868, y: 0.20086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea571d4db322bb49b99bf7ef906d29b
+      internalID: 574277755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0004
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 141
+        width: 346
+        height: 228
+      alignment: 9
+      pivot: {x: 0.37450868, y: 0.18947369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfcd4d3fc2d77149856aec24673d920
+      internalID: 1340373523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0005
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1138
+        width: 411
+        height: 226
+      alignment: 9
+      pivot: {x: 0.40043795, y: 0.20884956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe456bd06216d46857886222243f70
+      internalID: 1805284850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0006
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 1825
+        width: 410
+        height: 222
+      alignment: 9
+      pivot: {x: 0.3989756, y: 0.19009009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b036a937694244d967bba987990a13
+      internalID: -1878136630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0007
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 1829
+        width: 411
+        height: 218
+      alignment: 9
+      pivot: {x: 0.40043795, y: 0.1706422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e6a7e33bfd064ea80bcad60d8146a
+      internalID: 1506685892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0008
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 921
+        width: 410
+        height: 215
+      alignment: 9
+      pivot: {x: 0.3989756, y: 0.14046511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8496ca6524eecd64e8a333e3978ef45b
+      internalID: 1421118725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0009
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1088
+        width: 439
+        height: 150
+      alignment: 9
+      pivot: {x: 0.40678814, y: 0.28133333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb2fdcf80a5e724d9da35468e3168cd
+      internalID: -1857068731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0010
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1092
+        width: 443
+        height: 146
+      alignment: 9
+      pivot: {x: 0.41214448, y: 0.26849315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c1c937183b0548b5304c4c1e0e400
+      internalID: 1771967392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0011
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 3
+        width: 433
+        height: 145
+      alignment: 9
+      pivot: {x: 0.39856812, y: 0.16689655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc794b4c1cd6dbe4fbc3e64f613c89c9
+      internalID: 79315421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0012
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1227
+        width: 336
+        height: 208
+      alignment: 9
+      pivot: {x: 0.39160714, y: 0.37596154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2868908e6ca3412439df4e6264624c89
+      internalID: 2045683189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0013
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 736
+        width: 329
+        height: 213
+      alignment: 9
+      pivot: {x: 0.38474163, y: 0.3624413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d0fcad549c3604fbc504790359b1a4
+      internalID: 1936114208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0014
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 1437
+        width: 346
+        height: 212
+      alignment: 9
+      pivot: {x: 0.40630057, y: 0.354717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135d13b5a8f03a64aa347306911eaae6
+      internalID: 1633406516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0015
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 757
+        width: 276
+        height: 212
+      alignment: 9
+      pivot: {x: 0.40065217, y: 0.3735849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385676e66ad58664f9870cc6001fa24c
+      internalID: -1688532374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0016
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 811
+        width: 284
+        height: 204
+      alignment: 9
+      pivot: {x: 0.40697184, y: 0.3882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6289673d94a93d645b777a92dc85edfa
+      internalID: -1314371269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0017
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 607
+        width: 275
+        height: 202
+      alignment: 9
+      pivot: {x: 0.39483637, y: 0.3920792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec364c44348cfba4b8f27c0242f57697
+      internalID: -630799274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0018
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1366
+        width: 311
+        height: 200
+      alignment: 9
+      pivot: {x: 0.38771704, y: 0.326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c277d0e5502c16345a5cf3362dd89cd8
+      internalID: -598732782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0019
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 1017
+        width: 312
+        height: 205
+      alignment: 9
+      pivot: {x: 0.3896795, y: 0.3814634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f019d6f22eb87814e9b8e073f28b5c3d
+      internalID: -1732988360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0020
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 1397
+        width: 313
+        height: 206
+      alignment: 9
+      pivot: {x: 0.39482427, y: 0.3747573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8213ae7bbdb0ef479dcd5407389101e
+      internalID: 2104390688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0021
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 1369
+        width: 407
+        height: 140
+      alignment: 9
+      pivot: {x: 0.41911548, y: 0.07285714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a147d69f5f24a048be6b37b32726ff7
+      internalID: 312186473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0022
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 7
+        width: 405
+        height: 129
+      alignment: 9
+      pivot: {x: 0.41130865, y: 0.07906977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727908b4e0af4f42b6ecbd7d81e8767
+      internalID: -1260810810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0023
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 1224
+        width: 403
+        height: 143
+      alignment: 9
+      pivot: {x: 0.41334987, y: 0.16923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dc81a53d914784a95b738988cdd6a4
+      internalID: 294667871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0024
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 10
+        width: 404
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4222277, y: 0.3324138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cf8e41d7ced71418ee0de4327c34b2
+      internalID: 1738610828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0025
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 1869
+        width: 444
+        height: 178
+      alignment: 9
+      pivot: {x: 0.42472973, y: 0.152809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cee66bab3f691a49a94937218b3400f
+      internalID: 1657541155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0026
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 1511
+        width: 444
+        height: 176
+      alignment: 9
+      pivot: {x: 0.42472973, y: 0.18863636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc172d7e3303bb418d5a76d0b4475fa
+      internalID: 1037725504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0027
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 1384
+        width: 449
+        height: 182
+      alignment: 9
+      pivot: {x: 0.42, y: 0.22637363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970b5624f798c5643adee9fdba531a96
+      internalID: 765905622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0028
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 1689
+        width: 444
+        height: 178
+      alignment: 9
+      pivot: {x: 0.42472973, y: 0.23146068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335c4c9e8f850064dbfccd74f8f7e66d
+      internalID: 1431453705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_fly0029
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1568
+        width: 346
+        height: 228
+      alignment: 9
+      pivot: {x: 0.37450868, y: 0.19385965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec869d8794fad2488caaab74f51193d
+      internalID: -653292521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_Hit
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 377
+        width: 184
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4021739, y: 0.53521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d04aa5a9ec4b70479fe04a573483776
+      internalID: 1110316989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0001
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 971
+        width: 127
+        height: 213
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd598996f1715940a727fa05c919f62
+      internalID: 127371609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0002
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 705
+        width: 127
+        height: 214
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239370f09fbdd634ab20928e6ee743f3
+      internalID: 607899247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0003
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 799
+        width: 127
+        height: 211
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0555108ac86a7b34c9de6f2bba70d372
+      internalID: 546918683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0004
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 589
+        width: 127
+        height: 211
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eb841a1d6428641ae00e8ddf42fa7e
+      internalID: -2121878188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0005
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 588
+        width: 127
+        height: 209
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe90a5ff3509f9344a490a20db2f41b1
+      internalID: 967812665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0006
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 545
+        width: 126
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5442857, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5ecd35ba56a424b80bfebe6cd50f7d
+      internalID: 311528608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0007
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 333
+        width: 126
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5442857, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d1162415bc8d842a69f44ce6ff310a
+      internalID: -116924445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0008
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 163
+        width: 125
+        height: 212
+      alignment: 9
+      pivot: {x: 0.54864, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f97b8fbfddcc1419ec3478afdc5c31
+      internalID: -593055510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0009
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 543
+        width: 124
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5530645, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabc79fdcfb8e37419f7a34cf19d3cc3
+      internalID: 1002509704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0010
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 971
+        width: 123
+        height: 213
+      alignment: 9
+      pivot: {x: 0.557561, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71627e7015c2472429a2ff0bd64fe60f
+      internalID: -788915251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0011
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 951
+        width: 123
+        height: 214
+      alignment: 9
+      pivot: {x: 0.557561, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6605aac18ec2c714094e922546fa645c
+      internalID: 193930594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0012
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 521
+        width: 120
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5715, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0be45abdb1b3144b142e9a7ff6abcf
+      internalID: 1899571074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0013
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 489
+        width: 121
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5667769, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf4a5bcfbe8ae44783ed63e53b44e0e
+      internalID: -903990606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0014
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 1167
+        width: 121
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5667769, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ffc99956beee4eb935cb69df6951a
+      internalID: 1688559904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0015
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1167
+        width: 122
+        height: 215
+      alignment: 9
+      pivot: {x: 0.56213117, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef970eca049e8344a9cc4ef0a73719d
+      internalID: 1621380530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0016
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1167
+        width: 123
+        height: 215
+      alignment: 9
+      pivot: {x: 0.557561, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6462e53772f4c4e43af09b8453a4a957
+      internalID: 932812811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0017
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 521
+        width: 123
+        height: 213
+      alignment: 9
+      pivot: {x: 0.557561, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306ff7d9515895a4b8c3ae4168833993
+      internalID: -241514613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0018
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 163
+        width: 125
+        height: 212
+      alignment: 9
+      pivot: {x: 0.54864, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9d17b4093673b43ba9d33cae9d4e29
+      internalID: 1331049799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0019
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 187
+        width: 126
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5442857, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbb14f089897154db98f6643b5caedd
+      internalID: 1394643798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0020
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 188
+        width: 126
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5442857, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1ceccd9bcf3864b9eb92994595db6b
+      internalID: -2057622842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0021
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 379
+        width: 126
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5442857, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea58a75529361943ae829edac1c16d0
+      internalID: 1912646540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0022
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 399
+        width: 127
+        height: 206
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e121d151d4e19c046b8d6f9ecbeb0a0a
+      internalID: 1956410649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0023
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 382
+        width: 127
+        height: 205
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e434ae572af97488c592159a3a66b2
+      internalID: -1042435859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0024
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 397
+        width: 127
+        height: 208
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352caeb364a0b794f9be9207e65a188a
+      internalID: -556568620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flyer_Standby0025
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 971
+        width: 127
+        height: 213
+      alignment: 9
+      pivot: {x: 0.54, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206532cdb5217e4d8fa63b64f7b4dcf
+      internalID: 866300603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010001
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 1186
+        width: 137
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5221898, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cefd424c305a9468bb35831cec26f0
+      internalID: -1600780256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010002
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 1012
+        width: 134
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5338806, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7e622ad4d4d5244be0df05fbe070ee
+      internalID: -1635562639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010003
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 802
+        width: 133
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5378947, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d962d4e06a7e6b2479aa0b3daf536b82
+      internalID: -633428082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010004
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1822
+        width: 125
+        height: 225
+      alignment: 9
+      pivot: {x: 0.57232, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4177c62a0bfc3454b9af2b5d1e213cc9
+      internalID: -1057320750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010005
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1822
+        width: 125
+        height: 225
+      alignment: 9
+      pivot: {x: 0.57232, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b8e79187a15f047880725245c7f574
+      internalID: 368464988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010006
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1822
+        width: 125
+        height: 225
+      alignment: 9
+      pivot: {x: 0.57232, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a2be52a7f20584b9d487c8cce9c69c
+      internalID: 709796764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010007
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 371
+        width: 190
+        height: 230
+      alignment: 9
+      pivot: {x: 0.466, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e472b148291c2144bbbc63d28e14e16
+      internalID: -190549946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010008
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 371
+        width: 190
+        height: 230
+      alignment: 9
+      pivot: {x: 0.466, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dbed0034ef76a47b708a824947b4c0
+      internalID: -1609432187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010009
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 371
+        width: 190
+        height: 230
+      alignment: 9
+      pivot: {x: 0.466, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa9787e32ba2f4887b3a24efca7492
+      internalID: 1760864884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010010
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1108
+        width: 228
+        height: 255
+      alignment: 9
+      pivot: {x: 0.36640352, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd309497a8750fc4db5ba97eb738cfca
+      internalID: 1516107993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010011
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1108
+        width: 228
+        height: 255
+      alignment: 9
+      pivot: {x: 0.36640352, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e0283d22102564fa8ca4e534bd18e2
+      internalID: 1621854290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLYER_T010012
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1108
+        width: 228
+        height: 255
+      alignment: 9
+      pivot: {x: 0.36640352, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b4e8cce99926649bd30bf5e5f5f726
+      internalID: 177717455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0001
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 6
+        width: 333
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5285285, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd54f8b2d7c37a64ea9abfeb43e8a340
+      internalID: 624613542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0002
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 6
+        width: 333
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5285285, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa432e77725f618488e711974144593a
+      internalID: -966042207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0003
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1680
+        width: 386
+        height: 367
+      alignment: 9
+      pivot: {x: 0.5051814, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bea950d06cd4a04d8693a8d228b7fe0
+      internalID: 360961816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0004
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1680
+        width: 386
+        height: 367
+      alignment: 9
+      pivot: {x: 0.5051814, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e3fbbe775a4145b281c26627dbf59
+      internalID: 15965623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0005
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1240
+        width: 515
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4854369, y: -0.088541664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5849087917dd41e4c808d49b7c74af8c
+      internalID: -553162741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0006
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1240
+        width: 515
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4854369, y: -0.088541664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d038d95349e876d4f98e3be4cc16e8a5
+      internalID: 504992770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0007
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1688
+        width: 693
+        height: 359
+      alignment: 9
+      pivot: {x: 0.4877345, y: -0.24791086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e4771ff57b614f9a95794916bdcfb
+      internalID: -769791204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0008
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1688
+        width: 693
+        height: 359
+      alignment: 9
+      pivot: {x: 0.4877345, y: -0.24791086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f3e6135d819244682ba5a9150b8021
+      internalID: -196873771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 676
+        width: 838
+        height: 390
+      alignment: 9
+      pivot: {x: 0.4713604, y: -0.24102564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5836b77939d3bee4a90cd014146b5485
+      internalID: -681507535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 676
+        width: 838
+        height: 390
+      alignment: 9
+      pivot: {x: 0.4713604, y: -0.24102564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532773989f27d574ba2f727602f61bb1
+      internalID: -1562206713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0011
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 769
+        width: 958
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5, y: -0.43925235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6ed4a1b3ce31142a14064786a16a0b
+      internalID: 1393246564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0012
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 769
+        width: 958
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5, y: -0.43925235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf574ad13aa07f4ebb9ac95292876f5
+      internalID: 1525524954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0013
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 157
+        width: 453
+        height: 303
+      alignment: 9
+      pivot: {x: 0.42163354, y: -0.4620462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68641234940bda042b08dd985cb28c2d
+      internalID: -565620592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMPER_DEATH0014
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 157
+        width: 453
+        height: 303
+      alignment: 9
+      pivot: {x: 0.42163354, y: -0.4620462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd46ca1bb3aad2247b399430216ab705
+      internalID: -527693855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 338
+        height: 325
+      alignment: 9
+      pivot: {x: 0.52071005, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b3d540127eb50409b323222baa01f4
+      internalID: 2112089552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0002
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1365
+        width: 343
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daded184580217c42b5eba204310d77d
+      internalID: -490547166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0003
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 457
+        width: 330
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe3437c69570d34e914ee4e5c49d2f6
+      internalID: 1482962108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0004
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 457
+        width: 330
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a288109951132b3468d1dee1de031436
+      internalID: -1814315772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0005
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 462
+        width: 344
+        height: 305
+      alignment: 9
+      pivot: {x: 0.48255813, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327e64a113bf303479c2c1dffdc4f885
+      internalID: -1615828470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0006
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 339
+        width: 345
+        height: 335
+      alignment: 9
+      pivot: {x: 0.48405796, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4360a8b7303415b4fbe58ff439db38a5
+      internalID: -834455577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0007
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 339
+        width: 345
+        height: 335
+      alignment: 9
+      pivot: {x: 0.48405796, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e87cf0312c945641b1125fa017cdd0e
+      internalID: 1134097261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0008
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1626
+        width: 369
+        height: 421
+      alignment: 9
+      pivot: {x: 0.45528457, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181dcf2746f9e3f4d9ded4fc50d2f3fa
+      internalID: 1730279853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0009
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1626
+        width: 369
+        height: 421
+      alignment: 9
+      pivot: {x: 0.45528457, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b35e932ac80cd946b0b022366e84fa0
+      internalID: 1870612172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0010
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1626
+        width: 369
+        height: 421
+      alignment: 9
+      pivot: {x: 0.45528457, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5280f64f77a14d44f9859c665fda4172
+      internalID: -430915336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1543
+        width: 312
+        height: 504
+      alignment: 9
+      pivot: {x: 0.44551283, y: -0.09325397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa0bac07a57204198fd6d9e8f2697c
+      internalID: -488601191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1543
+        width: 312
+        height: 504
+      alignment: 9
+      pivot: {x: 0.44551283, y: -0.09325397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58892d4d864763c4fb13051e6a3ddead
+      internalID: -1185592700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1543
+        width: 312
+        height: 504
+      alignment: 9
+      pivot: {x: 0.44551283, y: -0.09325397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a50af07c704bd47a601ef3670cb63b
+      internalID: 536024201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1068
+        width: 366
+        height: 473
+      alignment: 9
+      pivot: {x: 0.42896175, y: -0.3065539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b22b0757ae33c74089b98e869659fe4
+      internalID: -1875569156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1068
+        width: 366
+        height: 473
+      alignment: 9
+      pivot: {x: 0.42896175, y: -0.3065539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5c789c27faa534faabef8b8f3f71db
+      internalID: 210671229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1068
+        width: 366
+        height: 473
+      alignment: 9
+      pivot: {x: 0.42896175, y: -0.3065539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9515ba7eee42d4b81744069343ca49
+      internalID: 694772360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 379
+        height: 344
+      alignment: 9
+      pivot: {x: 0.4591029, y: -0.7122093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d600f1a43b8d13f4baf1af58fc731e63
+      internalID: -1739154102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 379
+        height: 344
+      alignment: 9
+      pivot: {x: 0.4591029, y: -0.7122093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38d8e3087ea73c48bd2caa8dc789c33
+      internalID: -1412058177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 379
+        height: 344
+      alignment: 9
+      pivot: {x: 0.4591029, y: -0.7122093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a432aaeb18ad1f74dadbbe47b632fbad
+      internalID: 1253903017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0020
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1111
+        width: 391
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4910486, y: -1.218254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f7cef10bfd14d428744243e96a8013
+      internalID: -484819387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0021
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1111
+        width: 391
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4910486, y: -1.218254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9123f46f0489dc84a880090a8fd8701f
+      internalID: -330101449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0022
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1111
+        width: 391
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4910486, y: -1.218254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41deaf58d09643c429d6fe6a7f506c50
+      internalID: -943001780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0023
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1318
+        width: 343
+        height: 360
+      alignment: 9
+      pivot: {x: 0.60932946, y: -0.39722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f019e2c6c76c1b4795a5bc46d72a82c
+      internalID: 1290708102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0024
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1318
+        width: 343
+        height: 360
+      alignment: 9
+      pivot: {x: 0.60932946, y: -0.39722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cea3ef0159a2084dbc9b1e1440bf43a
+      internalID: -1710310936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0025
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1318
+        width: 343
+        height: 360
+      alignment: 9
+      pivot: {x: 0.60932946, y: -0.39722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a92d8e698a0ad499b5c01f5ef9c52e
+      internalID: -1195734154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0026
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1329
+        width: 332
+        height: 357
+      alignment: 9
+      pivot: {x: 0.60542166, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58799f4021cd9c94ea1880af9f9bd770
+      internalID: -2056929476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0027
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1329
+        width: 332
+        height: 357
+      alignment: 9
+      pivot: {x: 0.60542166, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5386a496fc860444bc1ab28d9eae433
+      internalID: -183249047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0028
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1329
+        width: 332
+        height: 357
+      alignment: 9
+      pivot: {x: 0.60542166, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98e8172657072e48ae9d109e7c2e6fa
+      internalID: 1869548523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0029
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 528
+        width: 373
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5603217, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864abb2b80eef7d44bc050d3cc9d6b38
+      internalID: -1183733336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0030
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 528
+        width: 373
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5603217, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ce3996a23400e4194d44de1c6a39d4
+      internalID: 64143020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0031
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 835
+        width: 352
+        height: 274
+      alignment: 9
+      pivot: {x: 0.52840906, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7e92656e9633b4d94795270b1466bd
+      internalID: 246191270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0032
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 835
+        width: 352
+        height: 274
+      alignment: 9
+      pivot: {x: 0.52840906, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a688fb9f903890448a5cf9d900f9f044
+      internalID: 566798363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0033
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 337
+        width: 344
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74a4aaed9a246f41ad00ca9fa2e0917
+      internalID: 1993169124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0034
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 337
+        width: 344
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5229b940153c4199a7393ff964765
+      internalID: -96236856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 338
+        height: 325
+      alignment: 9
+      pivot: {x: 0.52071005, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f955070a54c980a44a0942878d349f72
+      internalID: -623694614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_ATTACK0036
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 338
+        height: 325
+      alignment: 9
+      pivot: {x: 0.52071005, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd9cc94f197f54aa02424c9a765b3f
+      internalID: 983236675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0001
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1728
+        width: 326
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f636f92a337f99f49a665692be4127dc
+      internalID: -87029426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0002
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1728
+        width: 326
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec51a3db699cc1646ab71ae6bae7e29a
+      internalID: -1895945051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0003
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1728
+        width: 326
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eade1b7e937d9964a91dcb72a9033dfe
+      internalID: 305946367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0004
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1728
+        width: 326
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca23be9476c07df46921adf6d78c8726
+      internalID: -917562744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0005
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 452
+        width: 326
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d1f70f9819b204fa4b4ff4e81fff24
+      internalID: 1663326950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0006
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 452
+        width: 326
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda02a089ae37994e8c5ec6f6d897282
+      internalID: 1645367071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0007
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 452
+        width: 326
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f6257784d7fc34892264f9564a9214
+      internalID: -686010961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0008
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 452
+        width: 326
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4785e68f427ead479318124459cf48b
+      internalID: -242301029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0009
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 805
+        width: 325
+        height: 301
+      alignment: 9
+      pivot: {x: 0.49846154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdda0493b1819c4489d56ae95b0262f
+      internalID: -1690361098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0010
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 805
+        width: 325
+        height: 301
+      alignment: 9
+      pivot: {x: 0.49846154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed793601e149b84dbffcabc76ef69ef
+      internalID: 660948253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0011
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 805
+        width: 325
+        height: 301
+      alignment: 9
+      pivot: {x: 0.49846154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5ea4a9676b2cb4e86db82202f372c5
+      internalID: -74393658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0012
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 805
+        width: 325
+        height: 301
+      alignment: 9
+      pivot: {x: 0.49846154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47657664ad4d1c6459286411b26dea69
+      internalID: -1827976516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0013
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 138
+        width: 326
+        height: 312
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aa67eab209e0f4a8af100dd0cbc689
+      internalID: 1363765145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0014
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 138
+        width: 326
+        height: 312
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709aa7d8a8bfc3e4a8c9092626a27b96
+      internalID: -1717573943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0015
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 138
+        width: 326
+        height: 312
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408247b4f9c1cc44abf4033b7a7562eb
+      internalID: 152577206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDER_IDLE0016
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 138
+        width: 326
+        height: 312
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0af395c157db1d49ba096da42a9d885
+      internalID: 2133637172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 858292bcc9428b94da381fd99dd39724
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FLYER_Attack0001: -1030097793
+      FLYER_Attack0002: -716014159
+      FLYER_Attack0003: 205660607
+      FLYER_Attack0004: -1440462986
+      FLYER_Attack0005: -943649288
+      FLYER_Attack0006: 2145004128
+      FLYER_Attack0007: -1978574817
+      FLYER_Attack0008: -291414986
+      FLYER_Attack0009: 605575968
+      FLYER_Attack0010: 479317043
+      FLYER_Attack0011: -1155302325
+      FLYER_Attack0012: 147758152
+      FLYER_Attack0013: -764787685
+      FLYER_Attack0014: -590176623
+      FLYER_Attack0015: 1065392074
+      FLYER_Attack0016: 37371890
+      FLYER_Attack0017: -1395194851
+      FLYER_Attack0018: -236826390
+      FLYER_Attack0019: -1638416776
+      FLYER_DEATH0001: 2128613507
+      FLYER_DEATH0002: 2137884992
+      FLYER_DEATH0003: 1028035580
+      FLYER_DEATH0004: -1900024207
+      FLYER_DEATH0005: 352434875
+      FLYER_DEATH0006: -924421765
+      FLYER_DEATH0007: -905722421
+      FLYER_DEATH0008: -521696419
+      FLYER_DEATH0009: -1793167398
+      FLYER_DEATH0010: 796827488
+      FLYER_DEATH0011: 250895315
+      FLYER_DEATH0012: -1302808606
+      FLYER_DEATH0013: -955418636
+      FLYER_DEATH0014: 333365344
+      FLYER_DEATH0015: 911621368
+      FLYER_Hit: 1110316989
+      FLYER_T010001: -1600780256
+      FLYER_T010002: -1635562639
+      FLYER_T010003: -633428082
+      FLYER_T010004: -1057320750
+      FLYER_T010005: 368464988
+      FLYER_T010006: 709796764
+      FLYER_T010007: -190549946
+      FLYER_T010008: -1609432187
+      FLYER_T010009: 1760864884
+      FLYER_T010010: 1516107993
+      FLYER_T010011: 1621854290
+      FLYER_T010012: 177717455
+      FLYER_fly0001: 1359808928
+      FLYER_fly0002: 1638427315
+      FLYER_fly0003: 574277755
+      FLYER_fly0004: 1340373523
+      FLYER_fly0005: 1805284850
+      FLYER_fly0006: -1878136630
+      FLYER_fly0007: 1506685892
+      FLYER_fly0008: 1421118725
+      FLYER_fly0009: -1857068731
+      FLYER_fly0010: 1771967392
+      FLYER_fly0011: 79315421
+      FLYER_fly0012: 2045683189
+      FLYER_fly0013: 1936114208
+      FLYER_fly0014: 1633406516
+      FLYER_fly0015: -1688532374
+      FLYER_fly0016: -1314371269
+      FLYER_fly0017: -630799274
+      FLYER_fly0018: -598732782
+      FLYER_fly0019: -1732988360
+      FLYER_fly0020: 2104390688
+      FLYER_fly0021: 312186473
+      FLYER_fly0022: -1260810810
+      FLYER_fly0023: 294667871
+      FLYER_fly0024: 1738610828
+      FLYER_fly0025: 1657541155
+      FLYER_fly0026: 1037725504
+      FLYER_fly0027: 765905622
+      FLYER_fly0028: 1431453705
+      FLYER_fly0029: -653292521
+      Flyer_Standby0001: 127371609
+      Flyer_Standby0002: 607899247
+      Flyer_Standby0003: 546918683
+      Flyer_Standby0004: -2121878188
+      Flyer_Standby0005: 967812665
+      Flyer_Standby0006: 311528608
+      Flyer_Standby0007: -116924445
+      Flyer_Standby0008: -593055510
+      Flyer_Standby0009: 1002509704
+      Flyer_Standby0010: -788915251
+      Flyer_Standby0011: 193930594
+      Flyer_Standby0012: 1899571074
+      Flyer_Standby0013: -903990606
+      Flyer_Standby0014: 1688559904
+      Flyer_Standby0015: 1621380530
+      Flyer_Standby0016: 932812811
+      Flyer_Standby0017: -241514613
+      Flyer_Standby0018: 1331049799
+      Flyer_Standby0019: 1394643798
+      Flyer_Standby0020: -2057622842
+      Flyer_Standby0021: 1912646540
+      Flyer_Standby0022: 1956410649
+      Flyer_Standby0023: -1042435859
+      Flyer_Standby0024: -556568620
+      Flyer_Standby0025: 866300603
+      JUMPER_DEATH0001: 624613542
+      JUMPER_DEATH0002: -966042207
+      JUMPER_DEATH0003: 360961816
+      JUMPER_DEATH0004: 15965623
+      JUMPER_DEATH0005: -553162741
+      JUMPER_DEATH0006: 504992770
+      JUMPER_DEATH0007: -769791204
+      JUMPER_DEATH0008: -196873771
+      JUMPER_DEATH0009: -681507535
+      JUMPER_DEATH0010: -1562206713
+      JUMPER_DEATH0011: 1393246564
+      JUMPER_DEATH0012: 1525524954
+      JUMPER_DEATH0013: -565620592
+      JUMPER_DEATH0014: -527693855
+      SPIDER_ATTACK0001: 2112089552
+      SPIDER_ATTACK0002: -490547166
+      SPIDER_ATTACK0003: 1482962108
+      SPIDER_ATTACK0004: -1814315772
+      SPIDER_ATTACK0005: -1615828470
+      SPIDER_ATTACK0006: -834455577
+      SPIDER_ATTACK0007: 1134097261
+      SPIDER_ATTACK0008: 1730279853
+      SPIDER_ATTACK0009: 1870612172
+      SPIDER_ATTACK0010: -430915336
+      SPIDER_ATTACK0011: -488601191
+      SPIDER_ATTACK0012: -1185592700
+      SPIDER_ATTACK0013: 536024201
+      SPIDER_ATTACK0014: -1875569156
+      SPIDER_ATTACK0015: 210671229
+      SPIDER_ATTACK0016: 694772360
+      SPIDER_ATTACK0017: -1739154102
+      SPIDER_ATTACK0018: -1412058177
+      SPIDER_ATTACK0019: 1253903017
+      SPIDER_ATTACK0020: -484819387
+      SPIDER_ATTACK0021: -330101449
+      SPIDER_ATTACK0022: -943001780
+      SPIDER_ATTACK0023: 1290708102
+      SPIDER_ATTACK0024: -1710310936
+      SPIDER_ATTACK0025: -1195734154
+      SPIDER_ATTACK0026: -2056929476
+      SPIDER_ATTACK0027: -183249047
+      SPIDER_ATTACK0028: 1869548523
+      SPIDER_ATTACK0029: -1183733336
+      SPIDER_ATTACK0030: 64143020
+      SPIDER_ATTACK0031: 246191270
+      SPIDER_ATTACK0032: 566798363
+      SPIDER_ATTACK0033: 1993169124
+      SPIDER_ATTACK0034: -96236856
+      SPIDER_ATTACK0035: -623694614
+      SPIDER_ATTACK0036: 983236675
+      SPIDER_IDLE0001: -87029426
+      SPIDER_IDLE0002: -1895945051
+      SPIDER_IDLE0003: 305946367
+      SPIDER_IDLE0004: -917562744
+      SPIDER_IDLE0005: 1663326950
+      SPIDER_IDLE0006: 1645367071
+      SPIDER_IDLE0007: -686010961
+      SPIDER_IDLE0008: -242301029
+      SPIDER_IDLE0009: -1690361098
+      SPIDER_IDLE0010: 660948253
+      SPIDER_IDLE0011: -74393658
+      SPIDER_IDLE0012: -1827976516
+      SPIDER_IDLE0013: 1363765145
+      SPIDER_IDLE0014: -1717573943
+      SPIDER_IDLE0015: 152577206
+      SPIDER_IDLE0016: 2133637172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -54,7 +54,7 @@ public class BatBullet : MonoBehaviour
         if ((((1 << collision.gameObject.layer) & _targetLayer) != 0))
         {
             PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
-            if (_pp != null) _pp.TakeDamage(_damage);
+            if (_pp != null) _pp.TakeDamageWhithoutKnockback(_damage);
 
             Destroy(gameObject);
         }

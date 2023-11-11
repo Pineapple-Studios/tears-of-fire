@@ -17,9 +17,29 @@ public class Enemy : MonoBehaviour
 
     private PlayerProps _pp;
     private PlayerController _pc;
+    private Animator _ac;
+    private IWalkStart _ws;
     private bool _isDisabledColliders = false;
     private bool _isDamaging = false;
     private float _counter = 0f;
+
+    // Nome dos clipes de animação
+    private const string IDLE = "clip_idle";
+    private const string WALK = "clip_walk";
+    private const string ATTACK = "clip_attack";
+    private const string HIT = "clip_hit";
+    private const string DEATH = "clip_death";
+
+    private void Start()
+    {
+        if (gameObject.GetComponent<Animator>() != null) _ac = gameObject.GetComponent<Animator>();
+        else _ac = transform.parent.gameObject.GetComponentInChildren<Animator>();
+
+        if (GetComponent<IWalkStart>() != null) _ws = GetComponent<IWalkStart>();
+        else _ws = transform.parent.gameObject.GetComponentInChildren<IWalkStart>();
+
+        _ac.Play(IDLE);
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -30,7 +50,8 @@ public class Enemy : MonoBehaviour
             if (_pp == null) return;
 
             _isDamaging = true;
-            Debug.Log("Damage");
+            _ac.Play(ATTACK);
+            
             _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damageOnTouch);
 
@@ -45,6 +66,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if (_ws != null) _ws.OnStartWalking();
         if (_isDamaging && _counter < _damageColldown) _counter += Time.deltaTime;
         else
         {
@@ -77,11 +99,15 @@ public class Enemy : MonoBehaviour
 
         if (_life <= 0)
         {
-            Die();
+            _ac.Play(DEATH);
+        }
+        else
+        {
+            _ac.Play(HIT);
         }
     }
 
-    private void Die()
+    public void Die()
     {
         // Start damaged animation
 
@@ -95,8 +121,19 @@ public class Enemy : MonoBehaviour
         // Remove enemy
         Destroy(tmpObj);
     }
+
     public float GetDamagePoints()
     {
         return _damageOnTouch;
+    }
+
+    public void StartWalk()
+    {
+        _ac.Play(WALK);
+    }
+
+    public float GetCurrentLife()
+    {
+        return _life;
     }
 }

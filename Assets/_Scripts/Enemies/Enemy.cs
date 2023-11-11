@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
         if (GetComponent<IWalkStart>() != null) _ws = GetComponent<IWalkStart>();
         else _ws = transform.parent.gameObject.GetComponentInChildren<IWalkStart>();
 
-        _ac.Play(IDLE);
+        if (_ac != null) _ac.Play(IDLE);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

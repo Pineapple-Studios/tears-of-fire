@@ -12,6 +12,7 @@ public class BtnBack : MonoBehaviour
     [SerializeField] GameObject overlaidTxt;
 
 
+
     private void OnEnable()
     {
         //_goToScreenButton?.onClick.AddListener(GoTo);
@@ -32,14 +33,6 @@ public class BtnBack : MonoBehaviour
     public void OnTransition()
     {
         Debug.Log("TransitionBack");
-        transition.SetBool("is_ReverseRotation", true);
-        StartCoroutine(HandleBtn());
         transition.Play("anim_ReverseRotation");
-    }
-
-    private IEnumerator HandleBtn()
-    {
-        yield return new WaitForSeconds(1.5f);
-        overlaidTxt.SetActive(false);
     }
 }

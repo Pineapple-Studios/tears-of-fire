@@ -10,7 +10,7 @@ using System;
 public class PauseManager : MonoBehaviour
 {
     [Header("Inputs")]
-    [SerializeField] Canvas pauseMenu;
+    [SerializeField] public Canvas pauseMenu;
     [SerializeField] string sceneName;
     //[SerializeField] public GameObject eventSystem;
     [Header("Actions")]
@@ -62,7 +62,6 @@ public class PauseManager : MonoBehaviour
     public void Resume()
     {
         Debug.Log("Despausou");
-        pauseMenu.gameObject.SetActive(false);
         Cursor.visible = false;
         OnTransitionBack();
         Time.timeScale = 1;

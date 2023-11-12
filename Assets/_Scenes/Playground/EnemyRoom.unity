@@ -673,33 +673,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4535131776417336942, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 95d8332dd06fd50449988b590ec08a11, type: 2}
-    - target: {fileID: 5499353704844550646, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
-      propertyPath: _jumpForce
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5499353704844550646, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
-      propertyPath: _jumpUpTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5499353704844550646, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
-      propertyPath: _horizontalForce
-      value: 300
-      objectReference: {fileID: 0}
     - target: {fileID: 5747332784605191920, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
       propertyPath: m_Name
       value: Jumper
-      objectReference: {fileID: 0}
-    - target: {fileID: 5747332784605191920, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7550137413265675184, guid: 8e71de9cfc3977645a11ee04c541dd06, type: 3}
-      propertyPath: _life
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

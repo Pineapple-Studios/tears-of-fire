@@ -19,9 +19,15 @@ public class PlayerAnimationController : MonoBehaviour
     private const string DASH = "isDashing";
     private const string DAMEGED = "isDamaged";
 
+    // Clips individuais
+    private const string HIT = "clip_hit";
+    private const string DEATH = "clip_death";
+    private const string RESPAWN = "clip_respawn";
+
     private void OnEnable()
     {
         PlayerProps.onPlayerDamaged += StartDamage;
+        PlayerProps.onPlayerDead += StartDeath;
         PlayerController.onPlayerJumping += StartJump;
         PlayerController.onPlayerFalling += StartFall;
         PlayerController.onPlayerRunning += StartRun;
@@ -32,6 +38,7 @@ public class PlayerAnimationController : MonoBehaviour
     private void OnDisable()
     {
         PlayerProps.onPlayerDamaged -= StartDamage;
+        PlayerProps.onPlayerDead -= StartDeath;
         PlayerController.onPlayerJumping -= StartJump;
         PlayerController.onPlayerFalling -= StartFall;
         PlayerController.onPlayerRunning -= StartRun;
@@ -113,5 +120,14 @@ public class PlayerAnimationController : MonoBehaviour
 
         ClearAllStates();
         _animator.SetBool(DAMEGED, true);
+        _animator.Play(HIT);
     }
+
+    private void StartDeath(GameObject obj)
+    {
+        ClearAllStates();
+        _animator.Play(DEATH);
+    }
+
+
 }

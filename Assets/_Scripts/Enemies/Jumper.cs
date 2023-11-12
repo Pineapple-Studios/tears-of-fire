@@ -36,6 +36,8 @@ public class Jumper : MonoBehaviour
     private float _wallDistance = 2.5f;
     [SerializeField]
     private Vector3 _offSet = new Vector3();
+    [SerializeField]
+    private Transform _followTo;
 
     private CircleCollider2D _circleCollider;
     private bool _isGrounded = false;
@@ -76,7 +78,7 @@ public class Jumper : MonoBehaviour
         _parent = transform.parent.transform;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (((1 << collision.gameObject.layer) & _playerMask) != 0 && _isGrounded)
         {
@@ -94,11 +96,37 @@ public class Jumper : MonoBehaviour
 
     private void Update()
     {
+        transform.position = _followTo.position;
+
+        // verifica se tem uma parede a frente
+        _hasWallAhead = Physics2D.Raycast(transform.position, _foward2D, _wallDistance, _wallLayer);
+
         if (_parent.GetComponentInChildren<Enemy>().GetCurrentLife() <= 0) return;
+        
+        
+        // Iniciando pulo quando no chão
+        _isGrounded =
+            Physics2D.Raycast(transform.position, Vector2.down, _distanceToGround, _groundLayer);
+
+        // Zerando todas as interações ao tocar o chão
+        if (_isGrounded)
+        {
+            ResetBody();
+        }
+        else
+        {
+            // Limitando velocidade de queda
+            if (_rb.velocity.y < -20f)
+            {
+                _rb.velocity = new Vector2(_rb.velocity.x, -20f);
+            }
+        }
+
 
         if (_foward2D != Quaternion.AngleAxis(90, Vector3.up) * transform.forward)
             _foward2D = Quaternion.AngleAxis(90, Vector3.up) * transform.forward;
 
+        // Colisão com o player a frente
         RaycastHit2D hit = Physics2D.CircleCast(
             transform.position + _offSet,
             2f,
@@ -117,37 +145,17 @@ public class Jumper : MonoBehaviour
             _identifyPlayer = false;
         }
 
-        // Iniciando pulo quando no chão
-        _isGrounded =
-            Physics2D.Raycast(transform.position, Vector2.down, _distanceToGround, _groundLayer);
-
-        // Zerando todas as interações ao tocar o chão
-        if (_isGrounded)
-        {
-            ResetBody();
-        }
-        else
-        {
-            // Limitando velocidade de queda
-            if (_rb.velocity.y < -40f)
-            {
-                _rb.velocity = new Vector2(_rb.velocity.x, -40f);
-            }
-        }
-
         
         // Trocando a direção com controle de tempo
-        _hasWallAhead = Physics2D.Raycast(transform.position + _offSet, _foward2D, _wallDistance, _wallLayer);
-
         if (_hasWallAhead && _timerToChangeDir >= 2)
         {
+            _rb.velocity = Vector2.zero;
             Flip();
             _xDir *= -1;
             _timerToChangeDir = 0;
         }
 
         if (_timerToChangeDir < 2) _timerToChangeDir += Time.deltaTime;
-
 
         if (_rb.velocity.y > 0)
         {

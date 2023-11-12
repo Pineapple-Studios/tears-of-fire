@@ -52,6 +52,7 @@ public class PlayerProps : MonoBehaviour
         if (onChangePlayerLife != null) onChangePlayerLife(_life);
         if (onChangePlayerLife != null) onPlayerDamaged();
 
+
         StartCoroutine(EndOfEffects());
     }
 

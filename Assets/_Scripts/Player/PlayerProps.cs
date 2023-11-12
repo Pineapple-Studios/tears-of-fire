@@ -48,9 +48,10 @@ public class PlayerProps : MonoBehaviour
     public void TakeDamage(float damage)
     {
         IsTakingDamage = true;
-        if (!FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
-        onChangePlayerLife(_life);
-        onPlayerDamaged();
+        if (FeedbackAndDebugManager.Instance != null && !FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
+        if (onChangePlayerLife != null) onChangePlayerLife(_life);
+        if (onChangePlayerLife != null) onPlayerDamaged();
+
 
         StartCoroutine(EndOfEffects());
     }
@@ -62,9 +63,9 @@ public class PlayerProps : MonoBehaviour
     public void TakeDamageWhithoutKnockback(float damage)
     {
         IsTakingDamage = false;
-        if (!FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
-        onChangePlayerLife(_life);
-        onPlayerDamaged();
+        if (FeedbackAndDebugManager.Instance != null && !FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
+        if (onChangePlayerLife != null) onChangePlayerLife(_life);
+        if (onChangePlayerLife != null) onPlayerDamaged();
 
         StartCoroutine(EndOfEffects());
     }

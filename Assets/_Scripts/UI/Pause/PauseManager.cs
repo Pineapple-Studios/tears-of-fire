@@ -66,10 +66,11 @@ public class PauseManager : MonoBehaviour
 
     public void Resume()
     {
+        OnTransitionBack();
         Debug.Log("Despausou");
         Cursor.visible = false;
-        OnTransitionBack();
         Time.timeScale = 1;
+        //pauseMenu.gameObject.SetActive(false);
     }
 
     private void Pause()

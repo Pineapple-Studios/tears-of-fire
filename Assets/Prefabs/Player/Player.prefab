@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -1130547973, guid: ff2aff0a99461b441ab215d38995c631, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -249,6 +249,7 @@ MonoBehaviour:
   _breakableBlockLayer:
     serializedVersion: 2
     m_Bits: 512
+  _offset: {x: 0, y: 0.69, z: 0}
   IsAttacking: 0
   AttackRange: 1.5
 --- !u!114 &4084587884178894665
@@ -610,8 +611,8 @@ MonoBehaviour:
   MoveSpeed: 19
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
-  _knockBackForce: 50
-  _knockDistance: 1
+  _knockBackForce: 20
+  _knockDistance: 3
   JumpSpeed: 34
   CoyoteTime: 0.125
   JumpTimer: 0

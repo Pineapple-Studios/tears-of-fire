@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034425457281984163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.65, y: 0, z: 0}
+  m_LocalPosition: {x: 2.65, y: -0.9699998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 247073174282138253}
   m_Layer: 7
-  m_Name: worm
+  m_Name: crawler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ Transform:
   - {fileID: 6730689335844776335}
   - {fileID: 6118851941040668269}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3216080641535792477
 GameObject:
@@ -75,6 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6730689335844776335}
   - component: {fileID: 7928653025087844810}
+  - component: {fileID: 1399571834735243970}
   - component: {fileID: 1285189995214699308}
   - component: {fileID: 4105196931663308734}
   - component: {fileID: 5771958966527048273}
@@ -94,7 +95,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3216080641535792477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -142,7 +143,7 @@ SpriteRenderer:
   m_SortingLayerID: 1296086711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c67f06d64c8708345aee4cb1b8236af6, type: 3}
+  m_Sprite: {fileID: 2050993341, guid: 21e18f88d9fadb64cbe4b369b9286f9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -153,6 +154,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1399571834735243970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216080641535792477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d3a244b3d91149a647ef39729b5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _delayToStartWalking: 0.1
 --- !u!114 &1285189995214699308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,8 +254,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.053347856, y: -0.18680812}
-  m_Size: {x: 2.7786345, y: 2.0752826}
+  m_Offset: {x: 0.18960775, y: 0.93355566}
+  m_Size: {x: 2.8979108, y: 1.8962948}
   m_Direction: 1
 --- !u!1 &7261314667274375241
 GameObject:
@@ -267,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7261314667274375241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.97, y: 0, z: 0}
+  m_LocalPosition: {x: -2.97, y: -0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

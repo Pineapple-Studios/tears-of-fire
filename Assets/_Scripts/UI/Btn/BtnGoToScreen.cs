@@ -10,7 +10,7 @@ public class BtnGoToScreen : MonoBehaviour
 
     [SerializeField] Button _goToScreenButton;
     [SerializeField] public Animator transition;
-    [SerializeField] GameObject overlaidTxt;
+    [SerializeField] public GameObject overlaidTxt;
 
 
     void Awake()
@@ -40,13 +40,7 @@ public class BtnGoToScreen : MonoBehaviour
     {
         Debug.Log("TranitionFire");
         //transition.SetBool("is_Rotation", true);
-        //HandleBtn();
         PlayerPrefs.SetString("@tof/SceneName", SceneName);
         transition.Play("tion_FireTransition");
     }
-
-    //public void HandleBtn()
-    //{
-    //    overlaidTxt.SetActive(false);
-    //}
 }

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TransitionFireBehaviour : StateMachineBehaviour
 {
+    protected GameObject overlaidTxt;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -22,6 +23,7 @@ public class TransitionFireBehaviour : StateMachineBehaviour
     {
         SceneManager.LoadScene(PlayerPrefs.GetString("@tof/SceneName"));
         Debug.Log(PlayerPrefs.GetString("@tof/SceneName"));
+        //overlaidTxt.gameObject.SetActive(false);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

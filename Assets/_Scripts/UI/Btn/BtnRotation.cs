@@ -1,42 +1,40 @@
 using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BtnBack : MonoBehaviour
+public class BtnRotation : MonoBehaviour
 {
-
+    
     [SerializeField] Button _goToScreenButton;
     [SerializeField] public Animator transition;
-    [SerializeField] GameObject overlaidTxt;
+    [SerializeField] GameObject canvas;
 
     [SerializeField] public InputActionAsset Actions;
 
     void Awake()
     {
-        Actions.FindActionMap("UI").FindAction("Cancel").performed += OnTransitionCallback;
+        //Actions.FindActionMap("UI").FindAction("Confirm").performed += OnTransitionCallback;
     }
 
     private void OnEnable()
     {
-        //_goToScreenButton?.onClick.AddListener(GoTo);
         _goToScreenButton.onClick.AddListener(OnTransition);
-        Actions.FindActionMap("UI").Enable();
+        //Actions.FindActionMap("UI").Enable();
     }
 
     private void OnDisable()
     {
-        //_goToScreenButton?.onClick.RemoveListener(GoTo);
         _goToScreenButton.onClick.RemoveListener(OnTransition);
-        Actions.FindActionMap("UI").Disable();
+        //Actions.FindActionMap("UI").Disable();
     }
 
     private void GoTo()
     {
         Time.timeScale = 1;
     }
+
     public void OnTransitionCallback(InputAction.CallbackContext context)
     {
         OnTransition();
@@ -44,16 +42,13 @@ public class BtnBack : MonoBehaviour
 
     public void OnTransition()
     {
-        Debug.Log("TransitionBack");
-        transition.SetBool("is_ReverseRotation", true);
-        StartCoroutine(HandleBtn());
-        transition.Play("anim_ReverseRotation");
+        Debug.Log("AAAAAAAAAAAAAAA");
+        HandleBtn();
+        transition.Play("anim_Rotation");
     }
 
-
-    private IEnumerator HandleBtn()
+    public void HandleBtn()
     {
-        yield return new WaitForSeconds(1.5f);
-        overlaidTxt.SetActive(false);
+        canvas.SetActive(true);
     }
 }

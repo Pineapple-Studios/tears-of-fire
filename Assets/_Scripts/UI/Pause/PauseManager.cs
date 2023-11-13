@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.Assertions;
 using System;
+using TMPro;
 
 public class PauseManager : MonoBehaviour
 {
@@ -19,11 +20,15 @@ public class PauseManager : MonoBehaviour
     [Header("Animator")]
     [SerializeField] public Animator transition;
 
+    [Header("Txt In Progress")]
+    [SerializeField] TMP_Text txtIP;
+
 
     private void Start()
     {
         Cursor.visible = false;
         pauseMenu.gameObject.SetActive(false);
+        txtIP.gameObject.SetActive(false);
     }
     void Awake()
     {
@@ -73,6 +78,7 @@ public class PauseManager : MonoBehaviour
         Debug.Log("Pausou");
         Cursor.visible = true;
         pauseMenu.gameObject.SetActive(true);
+        txtIP.gameObject.SetActive(false);
         OnTransition();
         Time.timeScale = 0;
     }
@@ -87,6 +93,11 @@ public class PauseManager : MonoBehaviour
     {
         Debug.Log("AnimReversePause");
         transition.Play("anim_ReversePause");
+    }
+
+    public void InProgress()
+    {
+        txtIP.gameObject.SetActive(true);
     }
 }
 

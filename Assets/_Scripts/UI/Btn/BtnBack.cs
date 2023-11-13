@@ -5,12 +5,12 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BtnBackSettings : MonoBehaviour
+public class BtnBack : MonoBehaviour
 {
 
     [SerializeField] Button _goToScreenButton;
     [SerializeField] public Animator transition;
-    [SerializeField] GameObject canvas;
+    [SerializeField] GameObject overlaidTxt;
 
     [SerializeField] public InputActionAsset Actions;
 
@@ -19,11 +19,12 @@ public class BtnBackSettings : MonoBehaviour
         Actions.FindActionMap("UI").FindAction("Cancel").performed += OnTransitionCallback;
     }
 
+
     private void OnEnable()
     {
         //_goToScreenButton?.onClick.AddListener(GoTo);
-        Actions.FindActionMap("UI").Enable();
         _goToScreenButton.onClick.AddListener(OnTransition);
+        Actions.FindActionMap("UI").Enable();
     }
 
     private void OnDisable()
@@ -37,7 +38,6 @@ public class BtnBackSettings : MonoBehaviour
     {
         Time.timeScale = 1;
     }
-
     public void OnTransitionCallback(InputAction.CallbackContext context)
     {
         OnTransition();
@@ -46,12 +46,13 @@ public class BtnBackSettings : MonoBehaviour
     public void OnTransition()
     {
         Debug.Log("TransitionBack");
-        transition.SetBool("is_ReverseSettings", true);
-        transition.Play("anim_ReverseSettings");
+        transition.Play("anim_ReverseRotation");
     }
 
-    public void HandleBtn()
+
+    private IEnumerator HandleBtn()
     {
-        canvas.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
+        overlaidTxt.SetActive(false);
     }
 }

@@ -24,6 +24,16 @@ public class MagneticPuzzle : MonoBehaviour
     private bool _inMoviment = false;
     private bool _isGoingBack = false;
 
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += ResetPuzzle;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= ResetPuzzle;
+    }
+
     private void Start()
     {
         SetPlataformToFirstHookPosition();
@@ -35,6 +45,16 @@ public class MagneticPuzzle : MonoBehaviour
         if (_isGoingBack) GoBack();
 
         CounterToBackStep();
+    }
+
+    private void ResetPuzzle()
+    {
+        _currentHook = 0;
+        _stepBackTimer = 0f;
+        _inMoviment = false;
+        _isGoingBack = false;
+
+        SetPlataformToFirstHookPosition();
     }
 
     /// <summary>

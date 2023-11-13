@@ -1,11 +1,12 @@
 using Cinemachine;
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelDataManager : MonoBehaviour
 {
+    public static Action onRestartElements;
+
     [SerializeField]
     private LevelDataScriptableObject _levelData;
 
@@ -46,13 +47,11 @@ public class LevelDataManager : MonoBehaviour
     private void OnEnable()
     {
         Checkpoint.NewCheckpoint += SetLastCheckpoint;
-        PlayerProps.onPlayerDead += Respawn;
     }
 
     private void OnDisable()
     {
         Checkpoint.NewCheckpoint -= SetLastCheckpoint;
-        PlayerProps.onPlayerDead -= Respawn;
     }
 
     private void Update()
@@ -70,15 +69,13 @@ public class LevelDataManager : MonoBehaviour
         }
     }
 
-    private void Respawn(GameObject obj)
+    public void Respawn(GameObject obj)
     {
         _levelData.TimesDied += 1;
-        
+
         // TODO: Criar transição de morte do SVART
-        
+
         obj.SetActive(false);
-        // Reinicializando o svart
-        obj.GetComponentInChildren<Animator>().Play("idle");
 
         StartCoroutine(HandleRespawnAnimationPlayer(obj));
     }
@@ -92,11 +89,13 @@ public class LevelDataManager : MonoBehaviour
         player.transform.position = _levelData.lastCheckpoint;
         // Mostrando a vida
         player.GetComponentInChildren<PlayerProps>().FullHeal();
+        onRestartElements();
 
         yield return new WaitForSeconds(_waitTransitionSeconds / 2);
         _deathTransition.SetActive(false);
 
         player.SetActive(true);
+        player.GetComponentInChildren<PlayerAnimationController>().StartRespawn();
     }
 
     private void SetLastCheckpoint(Vector3 trans)

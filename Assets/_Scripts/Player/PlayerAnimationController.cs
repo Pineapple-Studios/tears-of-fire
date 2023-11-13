@@ -63,6 +63,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void TriggerAttackAnimation()
     {
+        ClearAllStates();
         _animator.SetBool(ATTACK, true);
     }
 
@@ -127,6 +128,12 @@ public class PlayerAnimationController : MonoBehaviour
     {
         ClearAllStates();
         _animator.Play(DEATH);
+    }
+
+    public void StartRespawn()
+    {
+        ClearAllStates();
+        _animator.Play(RESPAWN);
     }
 
 

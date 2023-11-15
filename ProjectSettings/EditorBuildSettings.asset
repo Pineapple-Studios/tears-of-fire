@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Levels/Tutorial.unity
     guid: aa15ac74f58d6b14ab024ce2ffdb415c
+  - enabled: 1
+    path: Assets/_Scenes/UI/FinishScreen.unity
+    guid: 88508e083e632ef41bff12c286be9524
   m_configObjects: {}

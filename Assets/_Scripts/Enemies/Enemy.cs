@@ -96,6 +96,7 @@ public class Enemy : MonoBehaviour
 
         if (_life <= 0)
         {
+            _col.enabled = false;
             _ac.Play(DEATH);
         }
         else

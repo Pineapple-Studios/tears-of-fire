@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
     private float _coyoteCounter = 0f;
     private bool _isKnocked = false;
     private bool _isRespawning = false;
+    private bool _isInputDisabled = false;
 
     private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
@@ -98,6 +99,7 @@ public class PlayerController : MonoBehaviour
     {
         if (_playerDash.IsDashed) return;
         if (_isRespawning) return;
+        if (_isInputDisabled) return;
 
         // Inputs
         Direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
@@ -175,6 +177,7 @@ public class PlayerController : MonoBehaviour
     private void Respawn(GameObject obj)
     {
         _isRespawning = true;
+        _isInputDisabled = false;
         _rb.gravityScale = GravityScale;
     }
 
@@ -275,6 +278,11 @@ public class PlayerController : MonoBehaviour
     public void ToggleRespawning()
     {
         _isRespawning = !_isRespawning;
+    }
+
+    public void DisableInput()
+    {
+        _isInputDisabled = true;
     }
 
 }

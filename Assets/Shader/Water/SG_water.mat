@@ -44,12 +44,13 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _CellSize: 3.55
+    - _CellSize: 4.84
     - _Moviment: 0.05
-    - _WaveSpeed: 0.05
+    - _PowerIncresing: 3.5
+    - _WaveSpeed: 0.02
     m_Colors:
-    - _BaseColor: {r: 0, g: 1, b: 0.9525311, a: 1}
+    - _BaseColor: {r: 0, g: 0.9716981, b: 0.8380129, a: 1}
     - _Deforming: {r: 0.72, g: 3.02, b: 0, a: 0}
-    - _EdgeColor: {r: 0, g: 0.51828194, b: 0.9433962, a: 0}
-    - _Tilling: {r: 1, g: 0.67, b: 0, a: 0}
+    - _EdgeColor: {r: 0.19223925, g: 0.57677823, b: 0.9056604, a: 0}
+    - _Tilling: {r: 1.08, g: 1.33, b: 0, a: 0}
   m_BuildTextureStacks: []

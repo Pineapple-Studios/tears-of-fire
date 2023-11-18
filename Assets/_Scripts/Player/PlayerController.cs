@@ -206,6 +206,21 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void MoveCharacterAfftedByExternalForce()
+    {
+        float horizontal = Direction.x;
+        if (horizontal != 0 && _onGround) onPlayerRunning();
+        if (horizontal == 0 && _onGround) onPlayerGround();
+
+        _rb.velocity += new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y);
+
+        // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
+        if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
+        {
+            Flip();
+        }
+    }
+
     /// <summary>
     /// Empurra o personagem no sentido contrário ao da caminhada
     /// </summary>

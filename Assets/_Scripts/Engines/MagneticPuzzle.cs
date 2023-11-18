@@ -41,8 +41,8 @@ public class MagneticPuzzle : MonoBehaviour
 
     private void Update()
     {
-        if (_inMoviment) GoAhead();
-        if (_isGoingBack) GoBack();
+        if (_inMoviment) GoAheadByVelocity();
+        if (_isGoingBack) GoBackByVelocity();
 
         CounterToBackStep();
     }
@@ -103,17 +103,17 @@ public class MagneticPuzzle : MonoBehaviour
     /// <summary>
     /// Retorna a plataforma para a ancora anterior
     /// </summary>
-    private void GoBack()
+    private void GoBackByVelocity()
     {
         Vector3 targetPos = _anchorPoints[_currentHook - 1].transform.position + _offsetPlatformPosition;
-        _platform.transform.position = Vector3.MoveTowards(
-            _platform.transform.position,
-            targetPos,
-            _velocityPoints * Time.deltaTime
-        );
+        if (_dir == Vector3.zero) _dir = targetPos - _platform.transform.position;
 
-        if (_platform.transform.position == targetPos)
+        _platform.GetComponent<Rigidbody2D>().velocity = _dir * _velocityPoints * Time.deltaTime;
+
+        if (_currentHook - 1 >= 0 && _platform.transform.position.y <= targetPos.y)
         {
+            _platform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            _dir = Vector3.zero;
             _stepBackTimer = 0f;
             _isGoingBack = false;
             _currentHook--;
@@ -136,7 +136,7 @@ public class MagneticPuzzle : MonoBehaviour
     /// <summary>
     /// Carrega a plataforma para a próxima ancora
     /// </summary>
-    private void _GoAheadByVelocity()
+    private void GoAheadByVelocity()
     {
         Vector3 targetPos = _anchorPoints[_currentHook + 1].transform.position + _offsetPlatformPosition;
         if (_dir == Vector3.zero) _dir = targetPos - _platform.transform.position;

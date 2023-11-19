@@ -21,9 +21,7 @@ public class TransitionFireBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        SceneManager.LoadScene(PlayerPrefs.GetString("@tof/SceneName"));
-        Debug.Log(PlayerPrefs.GetString("@tof/SceneName"));
-        //overlaidTxt.gameObject.SetActive(false);
+        SceneManager.LoadScene("Tutorial");
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

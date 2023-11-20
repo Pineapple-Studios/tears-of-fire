@@ -1,4 +1,6 @@
+using System.Globalization;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class LocalStorage
 {
@@ -8,6 +10,7 @@ public class LocalStorage
     //const string VOICES_VOLUME = "@TOF_VOICES_VOLUME";
     const string RESOLUTION = "@TOF_RESOLUTION";
     const string FULL_SCREEN = "@TOF_FULL_SCREEN";
+    const string INPUT_ACTIONS = "@TOF_INPUT_ACTIONS";
 
     #region GeneralVolume
     public static void SetGeneralVolume(float currentValue)
@@ -80,4 +83,16 @@ public class LocalStorage
         return PlayerPrefsX.GetBool(FULL_SCREEN, defaultValue);
     }
     #endregion*/
+
+    #region IsUsingKeyboard
+    public static void SetIsUsingKeyboard(bool currentValue)
+    {
+        PlayerPrefsX.SetBool(INPUT_ACTIONS, currentValue);
+    }
+
+    public static bool GetIsUsingKeyboard(bool defaultValue)
+    {
+        return PlayerPrefsX.GetBool(INPUT_ACTIONS, defaultValue);
+    }
+    #endregion
 }

@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public static Action onPlayerJumping;
@@ -44,6 +44,10 @@ public class PlayerController : MonoBehaviour
     [Header("Camera elements")]
     [SerializeField] 
     private GameObject _cameraFollowGameObject;
+    
+    [Header("Actions")]
+    [SerializeField]
+    private InputActionAsset Actions;
 
     // Components
     private Rigidbody2D _rb;
@@ -61,9 +65,12 @@ public class PlayerController : MonoBehaviour
     private bool _isKnocked = false;
     private bool _isRespawning = false;
     private bool _isInputDisabled = false;
+    private bool _isJumpPressed;
+    private bool _isJumpReleased;
 
     private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
+
 
     private void OnDrawGizmos()
     {
@@ -76,6 +83,14 @@ public class PlayerController : MonoBehaviour
             transform.position - _colliderOffset,
             transform.position - _colliderOffset + Vector3.down * _distanceToGround
         );
+    }
+
+    private void Awake()
+    {
+        Actions.FindActionMap("Gameplay").FindAction("Movement").performed += OnMove;
+        Actions.FindActionMap("Gameplay").FindAction("Movement").canceled += OnMove;
+        Actions.FindActionMap("Gameplay").FindAction("Jump").performed += OnJump;
+        Actions.FindActionMap("Gameplay").FindAction("Jump").canceled += OnJumpReleased;
     }
 
     private void Start()
@@ -102,9 +117,9 @@ public class PlayerController : MonoBehaviour
         if (_isInputDisabled) return;
 
         // Inputs
-        Direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
-        if (Input.GetButtonDown("Jump")) JumpTimer = Time.time + CoyoteTime;
-        if (Input.GetButtonUp("Jump") && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
+        //Direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
+        if (_isJumpPressed) JumpTimer = Time.time + CoyoteTime;
+        if (_isJumpReleased && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
         // Condicionais
         _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
@@ -167,11 +182,13 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         PlayerProps.onPlayerDead += Respawn;
+        Actions.FindActionMap("Gameplay").Enable();
     }
 
     private void OnDisable()
     {
         PlayerProps.onPlayerDead -= Respawn;
+        Actions.FindActionMap("Gameplay").Disable();
     }
 
     private void Respawn(GameObject obj)
@@ -283,6 +300,23 @@ public class PlayerController : MonoBehaviour
             CameraManager.instance.LerpedFromPlayerFalling = false;
             CameraManager.instance.LerpYDamping(false);
         }
+    }
+
+    private void OnJump(InputAction.CallbackContext context)
+    {
+        _isJumpPressed = true;
+        _isJumpReleased = false;
+    }
+
+    private void OnJumpReleased(InputAction.CallbackContext context)
+    {
+        _isJumpPressed = false;
+        _isJumpReleased = true;
+    }
+
+    private void OnMove(InputAction.CallbackContext context)
+    {
+        Direction = context.ReadValue<Vector2>();
     }
 
     public void SetAttackEnemyPosition(Vector3 pos)

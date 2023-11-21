@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using static Unity.Collections.AllocatorManager;
 
 [RequireComponent(typeof(PlayerProps))]
@@ -22,6 +24,10 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField]
     private Vector3 _offset = Vector3.zero;
 
+    [Header("Actions")]
+    [SerializeField]
+    InputActionAsset Actions;
+
     // Isso está exposto
     public static PlayerCombat instance;
     public bool IsAttacking = false;
@@ -40,6 +46,7 @@ public class PlayerCombat : MonoBehaviour
     public void Awake()
     {
         instance = this;
+        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += Attack;
     }
 
     private void Start()
@@ -51,8 +58,18 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         _attackDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (Input.GetKeyDown(KeyCode.R)) Attack();
-        if (Input.GetKeyUp(KeyCode.R)) IsAttacking = false;
+        //if (Input.GetKeyDown(KeyCode.R)) Attack();
+        //if (Input.GetKeyUp(KeyCode.R)) IsAttacking = false;
+    }
+
+    private void OnEnable()
+    {
+        Actions.FindActionMap("Gameplay").Enable();
+    }
+
+    private void OnDisable()
+    {
+        Actions.FindActionMap("Gameplay").Disable();
     }
 
     private void TurnToRightAttackDirection()
@@ -73,7 +90,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    private void Attack()
+    private void Attack(InputAction.CallbackContext context)
     {
         TurnToRightAttackDirection();
 

@@ -9,7 +9,7 @@ public class BtnGoToScreen : MonoBehaviour
     [SerializeField] string SceneName;
 
     [SerializeField] Button _goToScreenButton;
-    //[SerializeField] public Animator transition;
+    [SerializeField] public Animator transition;
     [SerializeField] public GameObject overlaidTxt;
 
 
@@ -35,7 +35,7 @@ public class BtnGoToScreen : MonoBehaviour
         Debug.Log("TranitionFire");
         //transition.SetBool("is_Rotation", true);
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
-        //transition.Play("tion_FireTransition");
+        transition.Play("tion_FireTransition");
         SceneManager.LoadScene(SceneName);
     }
 }

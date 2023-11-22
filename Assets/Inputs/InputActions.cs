@@ -859,6 +859,17 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""07a7d99c-13c9-40c5-9bb3-51da2571dfc6"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PowerUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""0a2a7764-bd10-40c9-aaf0-5d210db68bad"",
                     ""path"": ""<Keyboard>/i"",
                     ""interactions"": """",

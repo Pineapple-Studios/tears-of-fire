@@ -31,15 +31,15 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Distortion: 17.32
-    - _Highlight: 3.4
-    - _Intensity: 5
+    - _Distortion: 40.05
+    - _Highlight: 10
+    - _Intensity: 3.39
     - _Intensity_1: 9.78
     m_Colors:
-    - _DarkColor: {r: 0.10215235, g: 0.2264151, b: 0.0074759745, a: 0}
-    - _LightColor: {r: 0.060309835, g: 0.122641504, b: 0.03875934, a: 0}
-    - _Offset: {r: 1, g: 1, b: 0, a: 0}
-    - _Tilling: {r: 1.8, g: 1.21, b: 0, a: 0}
+    - _DarkColor: {r: 0.0013077934, g: 0.1509434, b: 0, a: 0}
+    - _LightColor: {r: 0.091847636, g: 0.1509434, b: 0.100712, a: 0}
+    - _Offset: {r: 16.7, g: 20.5, b: 0, a: 0}
+    - _Tilling: {r: 15, g: 15, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6878565945155119344
 MonoBehaviour:

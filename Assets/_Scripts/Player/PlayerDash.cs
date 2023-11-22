@@ -2,18 +2,23 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerDash : MonoBehaviour
 {
     public static Action onPlayerDashing;
 
-    [Header("Física")]
+    [Header("Actions")]
+    [SerializeField]
+    InputActionAsset Actions;
+
+    [Header("Fï¿½sica")]
     [SerializeField]
     private Rigidbody2D _rb;
     [SerializeField]
     private LayerMask _groundLayer;
 
-    [Header("Propriedades da mecânica")]
+    [Header("Propriedades da mecï¿½nica")]
     [SerializeField]
     private float _dashDuration = 1f;
     [SerializeField]
@@ -31,6 +36,12 @@ public class PlayerDash : MonoBehaviour
     private Vector2 _prevVelocity;
     private bool _isOnGround = false;
 
+    private void Awake()
+    {
+        Actions.FindActionMap("Gameplay").FindAction("PowerUp").performed += OnDash;
+        Actions.FindActionMap("Gameplay").FindAction("PowerUp").canceled += AvoidPhysicsBroken;
+    }
+
     private void Start()
     {
         canDash = true;
@@ -42,6 +53,7 @@ public class PlayerDash : MonoBehaviour
         PlayerProps.onPlayerDead += Respawn;
         PlayerController.onPlayerGround += SetIsGround;
         PlayerController.onPlayerJumping += SetIsJumping;
+        Actions.FindActionMap("Gameplay").Enable();
     }
 
     private void OnDisable()
@@ -49,21 +61,22 @@ public class PlayerDash : MonoBehaviour
         PlayerProps.onPlayerDead -= Respawn;
         PlayerController.onPlayerGround -= SetIsGround;
         PlayerController.onPlayerJumping -= SetIsJumping;
+        Actions.FindActionMap("Gameplay").Disable();
     }
 
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            Debug.Log("Dash");
-            StartCoroutine(Dash());
-        }
+    //void Update()
+    //{
+    //    if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+    //    {
+    //        Debug.Log("Dash");
+    //        StartCoroutine(Dash());
+    //    }
 
-        if (IsDashed)
-        {
-            AvoidPhysicsBroken();
-        }
-    }
+    //    if (IsDashed)
+    //    {
+    //        AvoidPhysicsBroken();
+    //    }
+    //}
 
     private void Respawn(GameObject obj)
     {
@@ -81,7 +94,7 @@ public class PlayerDash : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + Vector3.right * size.x);
     }
 
-    private void AvoidPhysicsBroken()
+    private void AvoidPhysicsBroken(InputAction.CallbackContext context)
     {
         Vector3 size = GetComponentInParent<Collider2D>().bounds.size;
         if (Physics2D.Raycast(transform.position, Vector2.right, size.x, _groundLayer))
@@ -90,7 +103,7 @@ public class PlayerDash : MonoBehaviour
         };
     }
 
-    private IEnumerator Dash()
+    private IEnumerator Dash(InputAction.CallbackContext context)
     {
         float direction = _rb.velocity.x;
         
@@ -127,4 +140,13 @@ public class PlayerDash : MonoBehaviour
     {
         _isOnGround = false;
     }
+
+    private void OnDash(InputAction.CallbackContext context)
+    {
+        if (canDash) // Verifica se o Dash estÃ¡ disponÃ­vel
+        {
+            StartCoroutine(Dash(context));
+        }
+    }
+
 }

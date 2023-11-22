@@ -651,7 +651,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""84170ec4-2b71-438f-ac39-0f1bf7b3adbd"",
-                    ""path"": ""<Joystick>/stick/left"",
+                    ""path"": ""<Joystick>/stick/x"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -662,7 +662,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""right"",
                     ""id"": ""13a5c8a4-3144-4e5f-88c8-bced6aae27f0"",
-                    ""path"": ""<Joystick>/stick/right"",
+                    ""path"": ""<Joystick>/stick/x"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -826,6 +826,17 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""ba09396c-fb90-470e-9f97-ac10e2a2b8db"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/button4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""50a7c1ef-3fbc-4df6-b4ea-15c9cbcbfaf6"",
                     ""path"": ""<Keyboard>/leftShift"",
                     ""interactions"": """",
@@ -905,6 +916,17 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""2ce7ab62-54a7-48a8-ba87-f37716b09128"",
                     ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9f5c3736-048b-4bfa-a6d0-03bbe34f3727"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/button3"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

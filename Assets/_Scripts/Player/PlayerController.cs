@@ -52,11 +52,11 @@ public class PlayerController : MonoBehaviour
     // Components
     private Rigidbody2D _rb;
 
-    // Controladores das mecânicas
+    // Controladores das mecï¿½nicas
     private PlayerProps _playerProps;
     private PlayerDash _playerDash;
 
-    // Variáveis de temporárias
+    // Variï¿½veis de temporï¿½rias
     private bool _canJump = true;
     private CameraFollowObject _cameraFollowObject;
     private float _fallSpeedYDampingChangeThreshold;
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
         // Fisica
         _rb = GetComponent<Rigidbody2D>();
 
-        // Mecânicas
+        // Mecï¿½nicas
         _playerDash = GetComponentInChildren<PlayerDash>();
         _playerProps = GetComponentInChildren<PlayerProps>();
 
@@ -109,6 +109,7 @@ public class PlayerController : MonoBehaviour
             _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
         }
     }
+
 
     private void Update()
     {
@@ -125,7 +126,7 @@ public class PlayerController : MonoBehaviour
         _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
-        // Aplicando mecânicas
+        // Aplicando mecï¿½nicas
         if (_playerProps.IsTakingDamage)
         {
             BackImpulse();
@@ -145,7 +146,7 @@ public class PlayerController : MonoBehaviour
 
         if (!_onGround)
         {
-            // Desacelerando player enquanto está no ar 
+            // Desacelerando player enquanto estï¿½ no ar 
             _rb.velocity = new Vector2(_rb.velocity.x * _horizontalVelocityMultiplayerOnAir, _rb.velocity.y);
             // Aumentando o coyote timer
             _coyoteCounter += Time.deltaTime;
@@ -164,13 +165,13 @@ public class PlayerController : MonoBehaviour
         {
             onPlayerFalling();
             _rb.gravityScale = GravityScale + _fallVelocityMultiplayer;
-            // Definindo velocidade máxima da queda, a multiplicação por -1 é porq a velocidade de queda é
+            // Definindo velocidade mï¿½xima da queda, a multiplicaï¿½ï¿½o por -1 ï¿½ porq a velocidade de queda ï¿½
             // negativa
             if (_rb.velocity.y < (_maxFallVelocity * -1)) _rb.velocity = new Vector2(_rb.velocity.x, _maxFallVelocity * -1);
             isFalling = true;
         }
 
-        // Se o personagem cair no chão 
+        // Se o personagem cair no chï¿½o 
         if (isFalling && _onGround)
         {
             onPlayerGround();
@@ -239,7 +240,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Empurra o personagem no sentido contrário ao da caminhada
+    /// Empurra o personagem no sentido contrï¿½rio ao da caminhada
     /// </summary>
     private void BackImpulse()
     {
@@ -253,7 +254,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Inverte o sentido em que o svart está olhando
+    /// Inverte o sentido em que o svart estï¿½ olhando
     /// </summary>
     void Flip()
     {
@@ -276,7 +277,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Controla a dinâmica da câmera de acordo com o movimento do personagem
+    /// Controla a dinï¿½mica da cï¿½mera de acordo com o movimento do personagem
     /// </summary>
     void CameraFollower()
     {
@@ -312,6 +313,7 @@ public class PlayerController : MonoBehaviour
     {
         _isJumpPressed = false;
         _isJumpReleased = true;
+
     }
 
     private void OnMove(InputAction.CallbackContext context)

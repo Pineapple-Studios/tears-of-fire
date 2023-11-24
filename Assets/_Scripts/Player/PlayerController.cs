@@ -93,6 +93,18 @@ public class PlayerController : MonoBehaviour
         Actions.FindActionMap("Gameplay").FindAction("Jump").canceled += OnJumpReleased;
     }
 
+    private void OnEnable()
+    {
+        PlayerProps.onPlayerDead += Respawn;
+        Actions.FindActionMap("Gameplay").Enable();
+    }
+
+    private void OnDisable()
+    {
+        PlayerProps.onPlayerDead -= Respawn;
+        Actions.FindActionMap("Gameplay").Disable();
+    }
+
     private void Start()
     {
         // Fisica
@@ -118,7 +130,6 @@ public class PlayerController : MonoBehaviour
         if (_isInputDisabled) return;
 
         // Inputs
-        //Direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
         if (_isJumpPressed) JumpTimer = Time.time + CoyoteTime;
         if (_isJumpReleased && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
@@ -180,18 +191,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnEnable()
-    {
-        PlayerProps.onPlayerDead += Respawn;
-        Actions.FindActionMap("Gameplay").Enable();
-    }
-
-    private void OnDisable()
-    {
-        PlayerProps.onPlayerDead -= Respawn;
-        Actions.FindActionMap("Gameplay").Disable();
-    }
-
     private void Respawn(GameObject obj)
     {
         _isRespawning = true;
@@ -215,7 +214,7 @@ public class PlayerController : MonoBehaviour
         if (horizontal != 0 && _onGround) onPlayerRunning();
         if (horizontal == 0 && _onGround) onPlayerGround();
 
-        _rb.velocity = new Vector2(horizontal * MoveSpeed, _rb.velocity.y);
+        _rb.velocity = new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y);
         
         // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
         if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
@@ -269,7 +268,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void Jump()
     {
-        _rb.AddForce(Vector2.up * JumpSpeed, ForceMode2D.Impulse);
+        _rb.AddForce(Vector2.up * JumpSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
         _rb.gravityScale = GravityScale;
         onPlayerJumping();
 

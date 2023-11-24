@@ -64,19 +64,10 @@ public class PlayerDash : MonoBehaviour
         Actions.FindActionMap("Gameplay").Disable();
     }
 
-    //void Update()
-    //{
-    //    if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-    //    {
-    //        Debug.Log("Dash");
-    //        StartCoroutine(Dash());
-    //    }
-
-    //    if (IsDashed)
-    //    {
-    //        AvoidPhysicsBroken();
-    //    }
-    //}
+    void Update()
+    {
+        if (IsDashed) AvoidPhysicsBroken();
+    }
 
     private void Respawn(GameObject obj)
     {
@@ -94,7 +85,7 @@ public class PlayerDash : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + Vector3.right * size.x);
     }
 
-    private void AvoidPhysicsBroken(InputAction.CallbackContext context)
+    private void AvoidPhysicsBroken()
     {
         Vector3 size = GetComponentInParent<Collider2D>().bounds.size;
         if (Physics2D.Raycast(transform.position, Vector2.right, size.x, _groundLayer))
@@ -102,6 +93,8 @@ public class PlayerDash : MonoBehaviour
             StartCoroutine(StopDash());
         };
     }
+
+    private void AvoidPhysicsBroken(InputAction.CallbackContext context) { AvoidPhysicsBroken(); }
 
     private IEnumerator Dash(InputAction.CallbackContext context)
     {

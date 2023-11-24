@@ -10,15 +10,17 @@ public class HiddenPath : MonoBehaviour
     private LayerMask _playerLayer;
     [SerializeField]
     private TilemapRenderer _componentToEnable;
-    [SerializeField] private GameObject _secretPath;
+    [SerializeField] private GameObject[] _secretPaths;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
         {
             _componentToEnable.enabled = false;
-            if (_secretPath != null){
-                _secretPath.SetActive(false);
+
+            foreach (GameObject path in _secretPaths)
+            {
+                if (path != null) path.SetActive(false);
             }
         }
     }
@@ -28,9 +30,9 @@ public class HiddenPath : MonoBehaviour
         if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
         {
             _componentToEnable.enabled = true;
-            if (_secretPath != null)
+            foreach (GameObject path in _secretPaths)
             {
-                _secretPath.SetActive(true);
+                if (path != null) path.SetActive(true);
             }
         }
     }

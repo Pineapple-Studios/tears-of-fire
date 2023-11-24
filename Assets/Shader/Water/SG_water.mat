@@ -37,7 +37,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1513fb0c7ed379a4b94c9ade4a04dfaf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -47,7 +47,7 @@ Material:
     - _CellSize: 4.84
     - _Moviment: 0.05
     - _PowerIncresing: 3.5
-    - _WaveSpeed: 0.02
+    - _WaveSpeed: 0.2
     m_Colors:
     - _BaseColor: {r: 0, g: 0.9716981, b: 0.8380129, a: 1}
     - _Deforming: {r: 0.72, g: 3.02, b: 0, a: 0}

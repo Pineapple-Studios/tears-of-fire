@@ -15,4 +15,4 @@ MonoBehaviour:
   currentLevelName: 
   lastCheckpoint: {x: 170.85, y: -83.35662, z: 0}
   TimesDied: 1774
-  hasDash: 1
+  hasDash: 0

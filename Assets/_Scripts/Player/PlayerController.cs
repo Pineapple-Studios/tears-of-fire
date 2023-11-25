@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
     [Header("Camera elements")]
     [SerializeField] 
     private GameObject _cameraFollowGameObject;
-    
+
     [Header("Actions")]
     [SerializeField]
     private InputActionAsset Actions;

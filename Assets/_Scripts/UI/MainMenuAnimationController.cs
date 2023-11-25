@@ -19,6 +19,7 @@ public class MainMenuAnimationController : MonoBehaviour
     private void Start()
     {
         _an = GetComponent<Animator>();
+        Time.timeScale = 1;
     }
 
     public void GoToSettings()

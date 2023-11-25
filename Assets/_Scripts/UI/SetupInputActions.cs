@@ -25,20 +25,20 @@ public class SetupInputActions : MonoBehaviour
     void Awake()
     {
         actions.FindActionMap("Keyboard").FindAction("Keyboard").performed += OnKeyboard;
-        actions.FindActionMap("Joystick").FindAction("Joystick").performed += OnJoystick;
+        //actions.FindActionMap("Joystick").FindAction("Joystick").performed += OnJoystick;
     }
 
     public void OnEnable()
     {
         actions.FindActionMap("Keyboard").Enable();
-        actions.FindActionMap("Joystick").Enable();
+        //actions.FindActionMap("Joystick").Enable();
 
     }
 
     public void OnDisable()
     {
         actions.FindActionMap("Keyboard").Disable();
-        actions.FindActionMap("Joystick").Disable();
+        //actions.FindActionMap("Joystick").Disable();
     }
 
     private void OnKeyboard(InputAction.CallbackContext context)

@@ -10,7 +10,7 @@ public class BtnBackMain : MonoBehaviour
     [SerializeField] string SceneName;
 
     [SerializeField] Button _goToScreenButton;
-    [SerializeField] public Animator transition;
+    //[SerializeField] public Animator transition;
     [SerializeField] public GameObject overlaidTxt;
 
 
@@ -33,10 +33,10 @@ public class BtnBackMain : MonoBehaviour
 
     public void OnTransition()
     {
-        Debug.Log("TranitionFire");
+        Debug.Log("BackMain");
         //transition.SetBool("is_Rotation", true);
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
-        //transition.Play("tion_FireTransition");
+        //transition.Play("clip_home");
         SceneManager.LoadScene(SceneName);
     }
 }

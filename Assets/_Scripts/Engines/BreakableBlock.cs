@@ -8,6 +8,10 @@ public class BreakableBlock: MonoBehaviour
     private int _hitsToBreak = 3;
     [SerializeField]
     private List<GameObject> _blockDepedencies = new List<GameObject> { };
+    [SerializeField]
+    private ParticleSystem _particleSystemRight;
+    [SerializeField]
+    private ParticleSystem _particleSystemLeft;
 
     [Header("Casting")]
     [SerializeField]
@@ -58,6 +62,7 @@ public class BreakableBlock: MonoBehaviour
         Debug.Log("HitRight");
 
         _counter++;
+        StoneParticle();
         if (_counter == _hitsToBreak)
         {
             GameObject parent = gameObject.transform.parent.gameObject;
@@ -89,5 +94,13 @@ public class BreakableBlock: MonoBehaviour
         SpriteRenderer spriteRenderer = parent.GetComponentInChildren<SpriteRenderer>();
         GameObject element = spriteRenderer.gameObject;
         _col = element.AddComponent<BoxCollider2D>();
+    }
+
+    void StoneParticle()
+    {
+
+        if(_breackableDirections == Directions.Left)
+        _particleSystemLeft.Play();
+        else if(_breackableDirections == Directions.Right) _particleSystemRight.Play();
     }
 }

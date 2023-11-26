@@ -125,4 +125,12 @@ public class PlayerProps : MonoBehaviour
     {
         return _life == _maxLife;
     }
+
+    public void AddMaxLife(int _addMaxContainer)
+    {
+        float tmp = _maxLife / 20;
+        tmp += _addMaxContainer;
+        _maxLife = (int)tmp * 20; // 20 é o divisor da UI
+        FullHeal();
+    }
 }

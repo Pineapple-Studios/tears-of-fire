@@ -27,7 +27,12 @@ public class FOVChanger : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_targetFieldOfView == LevelDataManager.Instance.MainCamera.m_Lens.FieldOfView) _mustUpdate = false;
+        if (_targetFieldOfView == LevelDataManager.Instance.MainCamera.m_Lens.FieldOfView)
+        {
+            _mustUpdate = false;
+            LevelDataManager.Instance.MainCamera.gameObject.SetActive(false);
+            LevelDataManager.Instance.MainCamera.gameObject.SetActive(true);
+        }
 
         if (_mustUpdate)
         {

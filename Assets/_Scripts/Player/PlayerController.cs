@@ -35,6 +35,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private bool _onGround = false;
     [SerializeField]
+    private Vector3 _roofColliderOffset;
+    [SerializeField]
+    private bool _onRoof = false;
+    [SerializeField]
     private float _distanceToGround = 0.6f;
     [SerializeField]
     private Vector3 _colliderOffset;
@@ -82,6 +86,11 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawLine(
             transform.position - _colliderOffset,
             transform.position - _colliderOffset + Vector3.down * _distanceToGround
+        );
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(
+            transform.position + _roofColliderOffset,
+            transform.position + _roofColliderOffset + Vector3.up * _distanceToGround
         );
     }
 
@@ -137,6 +146,8 @@ public class PlayerController : MonoBehaviour
         _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
+        _onRoof = Physics2D.Raycast(transform.position + _roofColliderOffset, Vector2.up, _distanceToGround, _groundLayer);
+
         // Aplicando mec�nicas
         if (_playerProps.IsTakingDamage)
         {
@@ -154,6 +165,8 @@ public class PlayerController : MonoBehaviour
 
         // Efeitos dependentes do Player
         CameraFollower();
+
+        if (_onRoof) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
         if (!_onGround)
         {

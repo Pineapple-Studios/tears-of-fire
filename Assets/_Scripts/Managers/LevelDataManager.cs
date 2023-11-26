@@ -21,6 +21,7 @@ public class LevelDataManager : MonoBehaviour
     private float _waitTransitionSeconds;
 
     public GameObject CurrentPlayerObject;
+    private ECamAvailable _currentSelectedCam = ECamAvailable.PLAYER;
 
     public static LevelDataManager Instance { get; private set; }
 
@@ -111,5 +112,17 @@ public class LevelDataManager : MonoBehaviour
     public bool GetDashStatus()
     {
         return _levelData.hasDash;
+    }
+
+    public ECamAvailable GetCamState()
+    {
+        return _currentSelectedCam;
+    }
+
+    public void SetNewCamState(ECamAvailable _state)
+    {
+        if (_state == _currentSelectedCam) return;
+
+        _currentSelectedCam = _state;
     }
 }

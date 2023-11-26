@@ -37,6 +37,7 @@ public class BtnBackMain : MonoBehaviour
         //transition.SetBool("is_Rotation", true);
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
         //transition.Play("clip_home");
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneName);
     }
 }

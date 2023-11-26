@@ -14,4 +14,14 @@ public class BatWalkStart : MonoBehaviour, IWalkStart
             _isStarted = true;
         }
     }
+
+    public void ResetWalk()
+    {
+        GetComponentInChildren<Animator>().Play("clip_idle");
+        GetComponentInChildren<ToggleComponentByLayerPresence>().ResetState();
+        GetComponentInChildren<Bat>().ResetState();
+        transform.localPosition = Vector3.zero;
+        GetComponentInChildren<TrackedMoviment>().enabled = false;
+        _isStarted = false;
+    }
 }

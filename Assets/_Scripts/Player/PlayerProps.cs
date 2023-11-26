@@ -26,6 +26,7 @@ public class PlayerProps : MonoBehaviour
 
     private Rigidbody2D _rb;
     private Transform _tr;
+    private PlayerAnimationController _pa;
 
     [Tooltip("Indicador se o personagem está ou não levando dano")]
     public bool IsTakingDamage = false;
@@ -34,6 +35,7 @@ public class PlayerProps : MonoBehaviour
     {
         _rb = GetComponentInParent<Rigidbody2D>();
         _tr = GetComponentInParent<Transform>();
+        _pa = GetComponent<PlayerAnimationController>();
     }
 
     private void Update()

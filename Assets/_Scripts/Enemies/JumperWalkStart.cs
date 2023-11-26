@@ -9,7 +9,7 @@ public class JumperWalkStart : MonoBehaviour, IWalkStart
         
     }
 
-    public void OnStartIdle()
+    public void ResetWalk()
     {
 
     }

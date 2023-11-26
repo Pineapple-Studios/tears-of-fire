@@ -38,4 +38,9 @@ public class ToggleComponentByLayerPresence : MonoBehaviour
             _triggerOnce = true;
         }
     }
+
+    public void ResetState()
+    {
+        _triggerOnce = false;
+    }
 }

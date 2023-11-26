@@ -20,8 +20,8 @@ public class Bat : MonoBehaviour
     private LayerMask _bulletTarget;
 
     private GameObject _target;
-    private bool _isShooting = false;
     private Enemy _enemy;
+    private bool _isShooting = false;
     private bool _canShoot = false;
 
     private void Start()
@@ -65,6 +65,9 @@ public class Bat : MonoBehaviour
         _isShooting = false;
     }
     
-
-
+    public void ResetState()
+    {
+        _isShooting = false;
+        _canShoot = false;
+    }
 }

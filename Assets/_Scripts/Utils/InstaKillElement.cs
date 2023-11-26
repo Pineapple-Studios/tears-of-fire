@@ -18,6 +18,6 @@ public class InstaKillElement : MonoBehaviour
 
     private void InstantKill()
     {
-        _pp.TakeDamage(_pp.GetLife() + 1); // +1 para garantir que o dano é maior que a vida
+        _pp.TakeDamageWhithoutKnockback(_pp.GetLife() + 1); // +1 para garantir que o dano é maior que a vida
     }
 }

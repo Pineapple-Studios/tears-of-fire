@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro.EditorUtilities;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Collider2D), typeof(Rigidbody2D))]
 public class AffectPlayerMovement : MonoBehaviour
@@ -12,6 +14,8 @@ public class AffectPlayerMovement : MonoBehaviour
 
     private bool _enabled = false;
     private Rigidbody2D _target;
+    private PlayerController _pc;
+
 
     private void Start()
     {
@@ -23,6 +27,7 @@ public class AffectPlayerMovement : MonoBehaviour
         if (collision.gameObject.layer == 3)
         {
             _target = collision.gameObject.GetComponent<Rigidbody2D>();
+            _pc = collision.gameObject.GetComponent<PlayerController>();
             _enabled = true;
         }
     }
@@ -39,17 +44,19 @@ public class AffectPlayerMovement : MonoBehaviour
     private void Update()
     {
         if (!_enabled || !_target) return;
-        if (_rb.velocity == Vector2.zero) return;
-
-        _target.velocity += _rb.velocity.y > 0 ? new Vector2(_rb.velocity.x, 0) : _rb.velocity;
         MoveCharacter();
     }
 
+
     void MoveCharacter()
     {
-        // Inputs
-        Vector2 Direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
+        _pc.IncreaseExternalVelocity(new Vector2(_rb.velocity.x, 0));
+    }
 
-        _target.velocity += new Vector2(190 * Direction.x * Time.deltaTime, 0);
+    public void DisableAffect()
+    {
+        _enabled = false;
+        _target = null;
+        _pc = null;
     }
 }

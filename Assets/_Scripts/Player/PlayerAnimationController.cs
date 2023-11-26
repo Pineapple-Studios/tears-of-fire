@@ -135,6 +135,4 @@ public class PlayerAnimationController : MonoBehaviour
         ClearAllStates();
         _animator.Play(RESPAWN);
     }
-
-
 }

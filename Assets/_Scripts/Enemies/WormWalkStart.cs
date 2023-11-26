@@ -20,4 +20,9 @@ public class WormWalkStart : MonoBehaviour, IWalkStart
         GetComponent<Enemy>().StartWalk();
         _isStarted = true;
     }
+
+    public void ResetWalk()
+    {
+        _isStarted = false;
+    }
 }

@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour
     private bool _isDisabledColliders = false;
     private bool _isDamaging = false;
     private float _counter = 0f;
+    private Vector3 _initialPos;
 
     // Nome dos clipes de animação
     private const string IDLE = "clip_idle";
@@ -26,6 +27,18 @@ public class Enemy : MonoBehaviour
     private const string ATTACK = "clip_attack";
     private const string HIT = "clip_hit";
     private const string DEATH = "clip_death";
+
+    private void Awake()
+    {
+        // Going to main parent
+        GameObject tmpObj = gameObject;
+        while (tmpObj.transform.parent != null)
+        {
+            tmpObj = tmpObj.transform.parent.gameObject;
+        }
+
+        _initialPos = tmpObj.transform.position;
+    }
 
     private void Start()
     {
@@ -90,6 +103,11 @@ public class Enemy : MonoBehaviour
         _isDisabledColliders = false;
     }
 
+    public void IncreaseDeadList(GameObject obj)
+    {
+        LevelDataManager.Instance.AddEnemyToDeadList(obj, _initialPos);
+    }
+
     public void TakeDamage(float hit)
     {
         _life -= hit;
@@ -107,8 +125,6 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        // Start damaged animation
-
         // Going to main parent
         GameObject tmpObj = gameObject;
         while (tmpObj.transform.parent != null)
@@ -117,7 +133,8 @@ public class Enemy : MonoBehaviour
         }
 
         // Remove enemy
-        Destroy(tmpObj);
+        IncreaseDeadList(tmpObj);
+        tmpObj.SetActive(false);
     }
 
     public float GetDamagePoints()
@@ -133,5 +150,10 @@ public class Enemy : MonoBehaviour
     public float GetCurrentLife()
     {
         return _life;
+    }
+
+    public void EnableColliderOnRespawn()
+    {
+        _col.enabled = true;
     }
 }

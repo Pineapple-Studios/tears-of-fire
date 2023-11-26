@@ -265,7 +265,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5049495371191846881}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 781ff8e7eff797e429c9f69ca5da37cf, type: 3}
   m_Name: 
@@ -483,7 +483,7 @@ Transform:
   - {fileID: 5338864612907553145}
   - {fileID: 2856756598794586986}
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2784910222715403046
 Rigidbody2D:

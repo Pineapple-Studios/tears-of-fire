@@ -49,12 +49,13 @@ public class MagneticPuzzle : MonoBehaviour
 
     private void ResetPuzzle()
     {
+        SetPlataformToFirstHookPosition();
+
         _currentHook = 0;
         _stepBackTimer = 0f;
         _inMoviment = false;
         _isGoingBack = false;
-
-        SetPlataformToFirstHookPosition();
+        _platform.GetComponent<AffectPlayerMovement>().DisableAffect();
     }
 
     /// <summary>
@@ -65,26 +66,7 @@ public class MagneticPuzzle : MonoBehaviour
         if (_anchorPoints.Count == 0 || _platform == null) return;
 
         _platform.transform.position = _anchorPoints[0].transform.position + _offsetPlatformPosition;
-    }
-
-    /// <summary>
-    /// Carrega a plataforma para a próxima ancora
-    /// </summary>
-    private void GoAhead()
-    {
-        Vector3 targetPos = _anchorPoints[_currentHook + 1].transform.position + _offsetPlatformPosition;
-        _platform.transform.position = Vector3.MoveTowards(
-            _platform.transform.position, 
-            targetPos, 
-            _velocityPoints * Time.deltaTime
-        );
-
-        if (_currentHook + 1 < _anchorPoints.Count && _platform.transform.position == targetPos)
-        {
-            _stepBackTimer = 0f;
-            _inMoviment = false;
-            _currentHook++;
-        }
+        _platform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
     /// <summary>

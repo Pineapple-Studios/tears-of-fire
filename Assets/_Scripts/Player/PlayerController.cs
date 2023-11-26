@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
-
+    private Vector2 _externalVelocity = Vector2.zero;
 
     private void OnDrawGizmos()
     {
@@ -208,6 +208,8 @@ public class PlayerController : MonoBehaviour
     {
         _isRespawning = true;
         _isInputDisabled = false;
+        _externalVelocity = Vector2.zero;
+        _rb.velocity = Vector2.zero;
         _rb.gravityScale = GravityScale;
     }
 
@@ -227,7 +229,9 @@ public class PlayerController : MonoBehaviour
         if (horizontal != 0 && _onGround) onPlayerRunning();
         if (horizontal == 0 && _onGround) onPlayerGround();
 
-        _rb.velocity = new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y);
+        // Debug.Log($"{new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y)} ---- {_externalVelocity}");
+
+        _rb.velocity = new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y) + _externalVelocity;
         
         // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
         if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
@@ -348,4 +352,13 @@ public class PlayerController : MonoBehaviour
         _isInputDisabled = true;
     }
 
+    public void EnableInput()
+    {
+        _isInputDisabled = false;
+    }
+
+    public void IncreaseExternalVelocity(Vector2 vel)
+    {
+        _externalVelocity = vel;
+    }
 }

@@ -1,7 +1,9 @@
 using Cinemachine;
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using static LevelDataScriptableObject;
 
 public class LevelDataManager : MonoBehaviour
 {
@@ -37,6 +39,8 @@ public class LevelDataManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+
+        _levelData.EnemiesDead.Clear();
     }
 
     private void Start()
@@ -74,8 +78,6 @@ public class LevelDataManager : MonoBehaviour
     {
         _levelData.TimesDied += 1;
 
-        // TODO: Criar transição de morte do SVART
-
         obj.SetActive(false);
 
         StartCoroutine(HandleRespawnAnimationPlayer(obj));
@@ -88,6 +90,8 @@ public class LevelDataManager : MonoBehaviour
 
         // Mudando a localização do jogador quando a tela está escura
         player.transform.position = _levelData.lastCheckpoint;
+        // Reiniciando inimigos
+        RespawnEnemies();
         // Mostrando a vida
         player.GetComponentInChildren<PlayerProps>().FullHeal();
         onRestartElements();
@@ -97,6 +101,20 @@ public class LevelDataManager : MonoBehaviour
 
         player.SetActive(true);
         player.GetComponentInChildren<PlayerAnimationController>().StartRespawn();
+    }
+
+    private void RespawnEnemies()
+    {
+        foreach (EnemyDead enemy in _levelData.EnemiesDead)
+        {
+            GameObject obj = enemy.GameObject;
+            obj.transform.position = enemy.Position;
+            obj.GetComponentInChildren<IWalkStart>().ResetWalk();
+            obj.GetComponentInChildren<Enemy>().EnableColliderOnRespawn();
+            obj.SetActive(true);
+        }
+
+        _levelData.EnemiesDead.Clear();
     }
 
     private void SetLastCheckpoint(Vector3 trans)
@@ -124,5 +142,10 @@ public class LevelDataManager : MonoBehaviour
         if (_state == _currentSelectedCam) return;
 
         _currentSelectedCam = _state;
+    }
+
+    public void AddEnemyToDeadList(GameObject enemy, Vector3 pos)
+    {
+        _levelData.EnemiesDead.Add(new EnemyDead(pos, enemy));
     }
 }

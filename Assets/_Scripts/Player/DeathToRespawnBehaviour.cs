@@ -20,6 +20,8 @@ public class DeathToRespawnBehaviour : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         LevelDataManager.Instance.Respawn(animator.transform.parent.gameObject);
+        animator.Rebind();
+        animator.Update(0f);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

@@ -6,6 +6,7 @@ public class MainMenuAnimationController : MonoBehaviour
 {
     private const string GO_TO_SETTINGS = "OnSettings";
     private const string GO_TO_EXTRAS = "OnExtras";
+    private const string GO_TO_CONTROLS = "OnControls";
     private const string GO_TO_GAME = "OnStartGame";
     private const string FROM_SETTINGS_TO_HOME = "OnSettingsToHome";
     private const string FROM_SETTINGS_TO_VIDEO = "OnSettingsToVideo";
@@ -13,6 +14,7 @@ public class MainMenuAnimationController : MonoBehaviour
     private const string FROM_SETTINGS_TO_AUDIO = "OnSettingsToAudio";
     private const string FROM_AUDIO_TO_SETTINGS = "OnAudioToSettings";
     private const string FROM_EXTRAS_TO_HOME = "OnExtrasToHome";
+    private const string FROM_CONTROLS_TO_HOME = "OnControlsToHome";
 
     private Animator _an;
 
@@ -65,5 +67,13 @@ public class MainMenuAnimationController : MonoBehaviour
     public void GoToGame()
     {
         _an.SetTrigger(GO_TO_GAME);
+    }
+    public void GoToControls()
+    {
+        _an.SetTrigger(GO_TO_CONTROLS);
+    }
+    public void GoFromControlsToHome()
+    {
+        _an.SetTrigger(FROM_CONTROLS_TO_HOME);
     }
 }

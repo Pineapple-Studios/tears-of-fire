@@ -15,7 +15,8 @@ public class TypeMachine : MonoBehaviour
     void Start()
     {
         character = txt.ToCharArray();
-        StartCoroutine(ShowingText());    
+        StartCoroutine(ShowingText());
+        Cursor.visible = true;
     }
     public IEnumerator ShowingText()
     {

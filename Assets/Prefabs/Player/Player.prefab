@@ -192,6 +192,7 @@ MonoBehaviour:
   _magneticHookMask:
     serializedVersion: 2
     m_Bits: 1024
+  Actions: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
 --- !u!114 &4240762641039968727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,7 +288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6629283820090594091
 Transform:
   m_ObjectHideFlags: 0

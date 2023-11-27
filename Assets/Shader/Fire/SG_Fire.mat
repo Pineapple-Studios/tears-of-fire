@@ -48,11 +48,11 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _FireIntensity: 0.305
-    - _Force: 7
-    - _Frenetico: 17
+    - _FireIntensity: 0.15
+    - _Force: 4
+    - _Frenetico: 1
     - _MaskRange: 2
-    - _ScaleNoise: 23
+    - _ScaleNoise: 3
     - _ScrollSpeed: 0
     m_Colors: []
   m_BuildTextureStacks: []

@@ -12,6 +12,13 @@ public class LifeItem : MonoBehaviour
     [SerializeField]
     private LayerMask _playerLayer;
 
+    private Animator _an;
+
+    private void Start()
+    {
+        _an = GetComponent<Animator>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
@@ -23,7 +30,15 @@ public class LifeItem : MonoBehaviour
             
             _pp.HealLife(_heallingLife);
 
-            Destroy(gameObject);
+            OnAnimation();
         }
+    }
+
+    void OnAnimation()
+    {
+        _an.SetTrigger("OnCollision");
+        Debug.Log("Trigger");
+        //an.Play("clip_Life");
+        //Debug.Log("Clip");
     }
 }

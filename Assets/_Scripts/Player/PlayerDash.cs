@@ -38,8 +38,8 @@ public class PlayerDash : MonoBehaviour
 
     private void Awake()
     {
-        Actions.FindActionMap("Gameplay").FindAction("PowerUp").performed += OnDash;
-        Actions.FindActionMap("Gameplay").FindAction("PowerUp").canceled += AvoidPhysicsBroken;
+        //Actions.FindActionMap("Gameplay").FindAction("PowerUp").performed += OnDash;
+        //Actions.FindActionMap("Gameplay").FindAction("PowerUp").canceled += AvoidPhysicsBroken;
     }
 
     private void Start()
@@ -53,7 +53,7 @@ public class PlayerDash : MonoBehaviour
         PlayerProps.onPlayerDead += Respawn;
         PlayerController.onPlayerGround += SetIsGround;
         PlayerController.onPlayerJumping += SetIsJumping;
-        Actions.FindActionMap("Gameplay").Enable();
+        //Actions.FindActionMap("Gameplay").Enable();
     }
 
     private void OnDisable()
@@ -61,11 +61,13 @@ public class PlayerDash : MonoBehaviour
         PlayerProps.onPlayerDead -= Respawn;
         PlayerController.onPlayerGround -= SetIsGround;
         PlayerController.onPlayerJumping -= SetIsJumping;
-        Actions.FindActionMap("Gameplay").Disable();
+        //Actions.FindActionMap("Gameplay").Disable();
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash) StartCoroutine(Dash());
+        if (Input.GetKeyUp(KeyCode.LeftShift) && canDash) AvoidPhysicsBroken();
         if (IsDashed) AvoidPhysicsBroken();
     }
 
@@ -96,7 +98,7 @@ public class PlayerDash : MonoBehaviour
 
     private void AvoidPhysicsBroken(InputAction.CallbackContext context) { AvoidPhysicsBroken(); }
 
-    private IEnumerator Dash(InputAction.CallbackContext context)
+    private IEnumerator Dash()
     {
         float direction = _rb.velocity.x;
         
@@ -134,12 +136,12 @@ public class PlayerDash : MonoBehaviour
         _isOnGround = false;
     }
 
-    private void OnDash(InputAction.CallbackContext context)
-    {
-        if (canDash) // Verifica se o Dash está disponível
-        {
-            StartCoroutine(Dash(context));
-        }
-    }
+    //private void OnDash(InputAction.CallbackContext context)
+    //{
+    //    if (canDash) // Verifica se o Dash está disponível
+    //    {
+    //        StartCoroutine(Dash(context));
+    //    }
+    //}
 
 }

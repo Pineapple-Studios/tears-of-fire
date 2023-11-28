@@ -109,9 +109,9 @@ public class LevelDataManager : MonoBehaviour
         {
             GameObject obj = enemy.GameObject;
             obj.transform.position = enemy.Position;
+            obj.SetActive(true);
             obj.GetComponentInChildren<IWalkStart>().ResetWalk();
             obj.GetComponentInChildren<Enemy>().EnableColliderOnRespawn();
-            obj.SetActive(true);
         }
 
         _levelData.EnemiesDead.Clear();

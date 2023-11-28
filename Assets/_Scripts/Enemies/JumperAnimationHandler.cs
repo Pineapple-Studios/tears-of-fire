@@ -18,9 +18,17 @@ public class JumperAnimationHandler : MonoBehaviour
     private bool _isUp = false;
     private bool _isIdle = false;
 
+    private JumperV2 _jp2;
+
+    private void Start()
+    {
+        _jp2 = GetComponent<JumperV2>();
+    }
 
     private void Update()
     {
+        if (!_jp2.IsEventsEnabled()) return;
+
         _isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, _groundMask);
 
         if (_rb.velocity.y < 0 && !_isDown)

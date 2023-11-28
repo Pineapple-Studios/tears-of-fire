@@ -106,7 +106,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1296086711
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 7
   m_Sprite: {fileID: -87029426, guid: ae80dab0b1968304daf5ba5a6878638d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 2784910222715403046}
-  _forcesXY: {x: 20, y: 100}
+  _forcesXY: {x: 2, y: 5}
   _yDynamic:
     serializedVersion: 2
     m_Curve:
@@ -229,9 +229,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _speed: 300
-  _cooldown: 1
-  _distance: 6
+  _speed: 5
+  _cooldown: 1.5
+  _distance: 4
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -250,8 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18fb659debf444949b82c174433de863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalMovimentDuration: 5
-  _castRadius: 9.45
+  _totalMovimentDuration: 4
+  _castRadius: 12
   _playerMask:
     serializedVersion: 2
     m_Bits: 8
@@ -483,7 +483,7 @@ Transform:
   - {fileID: 5338864612907553145}
   - {fileID: 2856756598794586986}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2784910222715403046
 Rigidbody2D:

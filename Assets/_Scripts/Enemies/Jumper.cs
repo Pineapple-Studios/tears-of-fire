@@ -175,7 +175,7 @@ public class Jumper : MonoBehaviour
     
     private void AddMoviment()
     {
-        _rb.velocity = new Vector2(_xDir * _horizontalForce * Time.fixedDeltaTime, _rb.velocity.y);
+        _rb.velocity = new Vector2(_xDir * _horizontalForce, _rb.velocity.y);
         
         if (_jumpTimeCounter < _jumpUpTime && !_isJumping)
         {
@@ -183,7 +183,7 @@ public class Jumper : MonoBehaviour
         }
         else
         {
-            _rb.velocity = new Vector2(_xDir * _horizontalForce * Time.fixedDeltaTime, 0f);
+            _rb.velocity = new Vector2(_xDir * _horizontalForce, 0f);
             _jumpTimeCounter = 0;
             _isJumping = true;
             _identifyPlayer = false;

@@ -41,6 +41,8 @@ public class MagneticPuzzle : MonoBehaviour
 
     private void Update()
     {
+        if (_currentHook == _anchorPoints.Count - 1) return;
+
         if (_inMoviment) GoAheadByVelocity();
         if (_isGoingBack) GoBackByVelocity();
 

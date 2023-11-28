@@ -139,14 +139,14 @@ public class PlayerController : MonoBehaviour
         if (_isInputDisabled) return;
 
         // Inputs
-        if (_isJumpPressed) JumpTimer = Time.time + CoyoteTime;
-        if (_isJumpReleased && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
+        if (Input.GetKeyDown(KeyCode.Space)) JumpTimer = Time.time + CoyoteTime;
+        if (Input.GetKeyUp(KeyCode.Space) && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
         // Condicionais
         _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
-        _onRoof = Physics2D.Raycast(transform.position + _roofColliderOffset, Vector2.up, _distanceToGround, _groundLayer);
+        // _onRoof = Physics2D.Raycast(transform.position + _roofColliderOffset, Vector2.up, _distanceToGround, _groundLayer);
 
         // Aplicando mec�nicas
         if (_playerProps.IsTakingDamage)
@@ -166,7 +166,7 @@ public class PlayerController : MonoBehaviour
         // Efeitos dependentes do Player
         CameraFollower();
 
-        if (_onRoof) _rb.velocity = new Vector2(_rb.velocity.x, 0);
+        // if (_onRoof) _rb.velocity = new Vector2(_rb.velocity.x, 0);
 
         if (!_onGround)
         {
@@ -231,7 +231,7 @@ public class PlayerController : MonoBehaviour
 
         // Debug.Log($"{new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y)} ---- {_externalVelocity}");
 
-        _rb.velocity = new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y) + _externalVelocity;
+        _rb.velocity = new Vector2(horizontal * MoveSpeed, _rb.velocity.y) + _externalVelocity;
         
         // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
         if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
@@ -246,7 +246,7 @@ public class PlayerController : MonoBehaviour
         if (horizontal != 0 && _onGround) onPlayerRunning();
         if (horizontal == 0 && _onGround) onPlayerGround();
 
-        _rb.velocity += new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y);
+        _rb.velocity += new Vector2(horizontal * MoveSpeed, _rb.velocity.y);
 
         // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
         if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
@@ -285,11 +285,12 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void Jump()
     {
-        _rb.AddForce(Vector2.up * JumpSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
+        _rb.AddForce(Vector2.up * JumpSpeed, ForceMode2D.Impulse);
         _rb.gravityScale = GravityScale;
-        onPlayerJumping();
+        if (onPlayerJumping != null) onPlayerJumping();
 
         JumpTimer = 0;
+        _isJumpReleased = false;
     }
 
     /// <summary>
@@ -327,9 +328,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnJumpReleased(InputAction.CallbackContext context)
     {
+        if (_isJumpPressed) return;
+
         _isJumpPressed = false;
         _isJumpReleased = true;
-
     }
 
     private void OnMove(InputAction.CallbackContext context)

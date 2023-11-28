@@ -120,7 +120,7 @@ public class JumperV2 : MonoBehaviour
 
         _rb.gravityScale = 1; // Removendo gravidade do calculo controlado
         int direction = _isFacingRight ? 1 : -1;
-        _rb.velocity = new Vector2(direction * _forcesXY.x * _speed * Time.deltaTime, _rb.velocity.y);
+        _rb.velocity = new Vector2(direction * _forcesXY.x * _speed, _rb.velocity.y);
         
         if (differenceOfPosition < halfOfDistance && differenceOfPosition != 0)
         {
@@ -128,7 +128,7 @@ public class JumperV2 : MonoBehaviour
             float vY = 1 - _yDynamic.Evaluate(differenceOfPosition / halfOfDistance);
             vY = Mathf.Round(vY * 100f) / 100f; // Arredondando para 2 casas decimais
             
-            _rb.velocity = new Vector2(_rb.velocity.x, vY * _forcesXY.y * _speed * Time.deltaTime);
+            _rb.velocity = new Vector2(_rb.velocity.x, vY * _forcesXY.y * _speed);
         }
         else if (differenceOfPosition > halfOfDistance)
         {
@@ -142,7 +142,7 @@ public class JumperV2 : MonoBehaviour
             float vY = _yDynamic.Evaluate((differenceOfPosition - halfOfDistance) / halfOfDistance);
             vY *= -1; // Velocidade deve ser negativa
 
-            float vel = vY * _forcesXY.y * (_speed / 2) * Time.deltaTime;
+            float vel = vY * _forcesXY.y * (_speed / 2);
             _rb.velocity = new Vector2(_rb.velocity.x, vel);
 
             // Zerando todas as interações ao tocar o chão

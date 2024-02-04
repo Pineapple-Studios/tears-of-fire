@@ -18,10 +18,11 @@ public class Enemy : MonoBehaviour
     private IWalkStart _ws;
     private bool _isDisabledColliders = false;
     private bool _isDamaging = false;
+    private bool _isGoingToDie = false;
     private float _counter = 0f;
     private Vector3 _initialPos;
 
-    // Nome dos clipes de animação
+    // Nome dos clipes de animaï¿½ï¿½o
     private const string IDLE = "clip_idle";
     private const string WALK = "clip_walk";
     private const string ATTACK = "clip_attack";
@@ -75,7 +76,8 @@ public class Enemy : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
+        if (_isGoingToDie) return;
         if (_ws != null) _ws.OnStartWalking();
         if (_isDamaging && _counter < _damageColldown) _counter += Time.deltaTime;
         else
@@ -86,7 +88,7 @@ public class Enemy : MonoBehaviour
 
         if (_pp == null || _col == null) return;
 
-        // Desabilitando colisor do inimigo após levar um dano
+        // Desabilitando colisor do inimigo apï¿½s levar um dano
         if (_pp.IsTakingDamage && _isDisabledColliders == false)
         {
             // _col.enabled = false;
@@ -125,11 +127,19 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
+        _isGoingToDie = true;
+        
         // Going to main parent
         GameObject tmpObj = gameObject;
         while (tmpObj.transform.parent != null)
         {
             tmpObj = tmpObj.transform.parent.gameObject;
+        }
+
+        // Getting all colliders and deactive all before start to die
+        Collider2D[] colliders = tmpObj.GetComponentsInChildren<Collider2D>();
+        foreach(Collider2D col in colliders) {
+            col.enabled = false;
         }
 
         // Remove enemy

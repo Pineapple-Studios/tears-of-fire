@@ -19,9 +19,11 @@ public class DeathToRespawnBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        LevelDataManager.Instance.Respawn(animator.transform.parent.gameObject);
+        if (animator == null) return;
+
         animator.Rebind();
         animator.Update(0f);
+        LevelDataManager.Instance.Respawn(animator.transform.parent.gameObject);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

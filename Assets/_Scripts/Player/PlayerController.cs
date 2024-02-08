@@ -229,7 +229,7 @@ public class PlayerController : MonoBehaviour
         if (horizontal != 0 && _onGround) onPlayerRunning();
         if (horizontal == 0 && _onGround) onPlayerGround();
 
-        // Debug.Log($"{new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y)} ---- {_externalVelocity}");
+        //Debug.Log($"{new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y)} ---- {_externalVelocity}");
 
         _rb.velocity = new Vector2(horizontal * MoveSpeed, _rb.velocity.y) + _externalVelocity;
         

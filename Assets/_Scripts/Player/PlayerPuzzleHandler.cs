@@ -19,7 +19,7 @@ public class PlayerPuzzleHandler : MonoBehaviour
 
     void Awake()
     {
-        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += CheckPuzzleElements;
+        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += CheckAllPuzzles;
     }
 
     void Start()
@@ -27,12 +27,6 @@ public class PlayerPuzzleHandler : MonoBehaviour
         _pc = GetComponent<PlayerCombat>();
         _attackPoint = _pc.AttackPoint;
         _attackRange = _pc.AttackRange;
-    }
-
-
-    void Update()
-    {
-        //if (Input.GetKeyDown(KeyCode.R)) CheckPuzzleElements();
     }
 
     private void OnEnable()
@@ -45,7 +39,13 @@ public class PlayerPuzzleHandler : MonoBehaviour
         Actions.FindActionMap("Gameplay").Disable();
     }
 
-    private void CheckPuzzleElements(InputAction.CallbackContext context)
+    private void CheckAllPuzzles(InputAction.CallbackContext context)
+    {
+        CheckPuzzleElements();
+        CheckMagneticHitElement();
+    }
+
+    private void CheckPuzzleElements()
     {
         Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange);
 
@@ -54,6 +54,21 @@ public class PlayerPuzzleHandler : MonoBehaviour
         {
             MagneticPuzzle mp = block.gameObject.GetComponentInParent<MagneticPuzzle>();
             if (mp != null) mp.GoToNextPoint();
+        }
+    }
+
+    /// <summary>
+    /// Right one
+    /// </summary>
+    private void CheckMagneticHitElement()
+    {
+        Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange);
+
+        // Executar puzzle
+        foreach (Collider2D block in hitBlocks)
+        {
+            MagneticHitElement mp = block.gameObject.GetComponent<MagneticHitElement>();
+            if (mp != null) mp.OnNext();
         }
     }
 }

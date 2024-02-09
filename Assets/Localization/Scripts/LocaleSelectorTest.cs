@@ -5,6 +5,9 @@ using UnityEngine.Localization.Settings;
 
 public class LocaleSelectorTest : MonoBehaviour
 {
+    [SerializeField] GameObject dialogueManagerEN;
+    [SerializeField] GameObject dialogueManagerPT;
+
     private bool _active = false;
 
     public void ChangeLocale(int localeID)
@@ -20,5 +23,17 @@ public class LocaleSelectorTest : MonoBehaviour
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
         _active = false;
+    }
+
+    public void SetectPT()
+    {
+        dialogueManagerEN.SetActive(false);
+        dialogueManagerPT.SetActive(true);
+    }
+
+    public void SetectEN()
+    {
+        dialogueManagerEN.SetActive(true);
+        dialogueManagerPT.SetActive(false);
     }
 }

@@ -41,6 +41,8 @@ public class LevelDataManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         _levelData.EnemiesDead.Clear();
+        // Set last checkpoint as the initial position
+        _levelData.lastCheckpoint = new Vector3(14.5f,4.3f,0);
     }
 
     private void Start()
@@ -112,6 +114,7 @@ public class LevelDataManager : MonoBehaviour
             obj.SetActive(true);
             obj.GetComponentInChildren<IWalkStart>().ResetWalk();
             obj.GetComponentInChildren<Enemy>().EnableColliderOnRespawn();
+            obj.GetComponentInChildren<Enemy>().ResetEnemy();
         }
 
         _levelData.EnemiesDead.Clear();

@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float _damageOnTouch = 35f;
     [SerializeField]
+    private float _maxLife = 35f;
+    [SerializeField]
     private float _life = 35f;
     [SerializeField]
     private float _damageColldown = 1f;
@@ -165,5 +167,10 @@ public class Enemy : MonoBehaviour
     public void EnableColliderOnRespawn()
     {
         _col.enabled = true;
+    }
+    
+    public void ResetEnemy()
+    {
+        _life = _maxLife;
     }
 }

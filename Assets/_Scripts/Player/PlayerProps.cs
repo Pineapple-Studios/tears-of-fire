@@ -42,6 +42,12 @@ public class PlayerProps : MonoBehaviour
     {
         HasDied();
     }
+
+    private void HandleReduceHP(float damage)
+    {
+        if (FeedbackAndDebugManager.Instance != null && FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) return;
+        _life -= damage;
+    }
     
     /// <summary>
     /// Método responsável por dar dano no personagem
@@ -50,9 +56,9 @@ public class PlayerProps : MonoBehaviour
     public void TakeDamage(float damage)
     {
         IsTakingDamage = true;
-        if (FeedbackAndDebugManager.Instance != null && !FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
+        HandleReduceHP(damage);
         if (onChangePlayerLife != null) onChangePlayerLife(_life);
-        if (onChangePlayerLife != null) onPlayerDamaged();
+        if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
 
 
         StartCoroutine(EndOfEffects());
@@ -65,9 +71,10 @@ public class PlayerProps : MonoBehaviour
     public void TakeDamageWhithoutKnockback(float damage)
     {
         IsTakingDamage = false;
-        if (FeedbackAndDebugManager.Instance != null && !FeedbackAndDebugManager.Instance.IsInfinityLifeActive()) _life -= damage;
+        HandleReduceHP(damage);
+
         if (onChangePlayerLife != null) onChangePlayerLife(_life);
-        if (onChangePlayerLife != null) onPlayerDamaged();
+        if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
 
         StartCoroutine(EndOfEffects());
     }

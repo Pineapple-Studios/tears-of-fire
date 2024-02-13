@@ -396,7 +396,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7398441998898741049}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -614,18 +614,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d52fcba73bdeb64eae92adee09d19ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4000
+  MoveSpeed: 19
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
   _knockBackForce: 25
   _knockDistance: 7
-  JumpSpeed: 200
+  JumpSpeed: 34
   CoyoteTime: 0.125
   JumpTimer: 0
   GravityScale: 5
   _maxFallVelocity: 40
-  _horizontalVelocityMultiplayerOnAir: 0.75
-  _fallVelocityMultiplayer: 4.2
+  _horizontalVelocityMultiplayerOnAir: 0.73
+  _fallVelocityMultiplayer: 5.1
   _onGround: 0
   _roofColliderOffset: {x: 0, y: 1.49, z: 0}
   _onRoof: 0

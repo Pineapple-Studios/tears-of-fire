@@ -63,6 +63,8 @@ public class BreakableBlock: MonoBehaviour
 
         _counter++;
         StoneParticle();
+        RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+
         if (_counter == _hitsToBreak)
         {
             GameObject parent = gameObject.transform.parent.gameObject;

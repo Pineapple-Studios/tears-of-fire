@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053d482f88654064d8e245d45837ceb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkFile: {fileID: 4900000, guid: a8e29cb90439ab249be4f10307506ec7, type: 3}
+  inkFile: {fileID: 4900000, guid: a60fb623f183a7244ac08963f55d5f7b, type: 3}
   textBox: {fileID: 1224944912}
   npcName: Yxo
 --- !u!4 &1069414218
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053d482f88654064d8e245d45837ceb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkFile: {fileID: 4900000, guid: ac8beb98ade01464ab8e692cf48e7dde, type: 3}
+  inkFile: {fileID: 4900000, guid: 962625a63fb3b3e4785816c1628e13db, type: 3}
   textBox: {fileID: 1224944912}
   npcName: Yxo
 --- !u!4 &1104077585

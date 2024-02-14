@@ -67,7 +67,6 @@ public class Enemy : MonoBehaviour
             
             _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damageOnTouch);
-
         }
 
         // Ignorando colisoes entre elementos com a mesma tag

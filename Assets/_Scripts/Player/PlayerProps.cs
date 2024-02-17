@@ -27,6 +27,7 @@ public class PlayerProps : MonoBehaviour
     private Rigidbody2D _rb;
     private Transform _tr;
     private PlayerAnimationController _pa;
+    private bool _isDead = false;
 
     [Tooltip("Indicador se o personagem está ou não levando dano")]
     public bool IsTakingDamage = false;
@@ -107,9 +108,10 @@ public class PlayerProps : MonoBehaviour
     /// </summary>
     private void HasDied()
     {
-        if (_life <= 0)
+        if (_life <= 0 && !_isDead)
         {
             IsTakingDamage = false;
+            _isDead = true;
             onPlayerDead(gameObject.transform.parent.gameObject);
         }
     }
@@ -122,7 +124,8 @@ public class PlayerProps : MonoBehaviour
     public void FullHeal()
     {
         _life = _maxLife;
-        onChangePlayerLife(_life);
+        if (onChangePlayerLife != null) onChangePlayerLife(_life);
+        _isDead = false;
     }
 
     public float GetCurrentDamage()

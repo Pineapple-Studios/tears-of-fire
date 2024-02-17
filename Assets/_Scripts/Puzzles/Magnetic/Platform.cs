@@ -42,7 +42,7 @@ public class Platform : MonoBehaviour
     {
         if (!_startCounting) return;
 
-        if (_exitTimer < _delayToIdentifyExit)
+        if (_exitTimer < _delayToIdentifyExit && _pc != null)
         {
             _exitTimer += Time.deltaTime;
         }
@@ -51,6 +51,10 @@ public class Platform : MonoBehaviour
             Debug.Log("Exit");
             _pc.IncreaseExternalVelocity(Vector2.zero);
             _pc = null;
+        }
+
+        if (_pc == null)
+        {
             _exitTimer = 0f;
             _startCounting = false;
         }

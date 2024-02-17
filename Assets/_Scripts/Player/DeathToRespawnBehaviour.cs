@@ -23,7 +23,7 @@ public class DeathToRespawnBehaviour : StateMachineBehaviour
 
         animator.Rebind();
         animator.Update(0f);
-        LevelDataManager.Instance.Respawn(animator.transform.parent.gameObject);
+        if (LevelDataManager.Instance != null) LevelDataManager.Instance.Respawn(animator.transform.parent.gameObject);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

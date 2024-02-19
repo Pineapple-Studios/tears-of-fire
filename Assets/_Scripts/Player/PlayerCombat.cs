@@ -99,8 +99,9 @@ public class PlayerCombat : MonoBehaviour
 
         EnemyHit();
 
-        // HitBlock();
         HitBlockByRaycast();
+
+        TucanoRexHit();
     }
 
     /// <summary>
@@ -160,6 +161,30 @@ public class PlayerCombat : MonoBehaviour
             BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
             if (b != null) b.HitWall();
             return;
+        }
+    }
+
+    /// <summary>
+    /// Verifica se a área de dano tem algum TucanoRex
+    /// </summary>
+    private void TucanoRexHit()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _enemyLayer);
+        
+        foreach (Collider2D boss in hitEnemies)
+        {
+            Transform MainParent = boss.gameObject.transform;
+            while (MainParent.parent != null)
+            {
+                MainParent = MainParent.parent;
+            }
+
+            TucanoRexProps trp = MainParent.gameObject.GetComponentInChildren<TucanoRexProps>();
+            if (trp != null)
+            {
+                trp.ReceiveDamage(_pp.GetCurrentDamage());
+                if (_attackDirection.y < 0) _rb.velocity = Vector2.up * 20f;
+            }
         }
     }
 }

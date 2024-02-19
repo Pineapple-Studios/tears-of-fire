@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Localization.Plugins.XLIFF.V20;
 using UnityEngine;
 
 public class TucanoRex : MonoBehaviour
@@ -13,19 +10,21 @@ public class TucanoRex : MonoBehaviour
     [Header("References")]
     [SerializeField]
     private Animator _anim;
-    [SerializeField]
-    private Enemy _enemy;
 
     [Header("Controllers")]
     [SerializeField]
     private LayerMask _wallLayer;
 
+    private TucanoRexProps _trp;
     private int _tmpAnimLife = 0;
+
+    private void Start()
+    {
+        _trp = GetComponent<TucanoRexProps>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.layer);
-
         // Ignorando colisoes com as paredes
         if (((1 << collision.gameObject.layer) & _wallLayer) != 0)
         {
@@ -42,7 +41,7 @@ public class TucanoRex : MonoBehaviour
     private void Update()
     {
         // Update state on Animator
-        _tmpAnimLife = (int) _enemy.GetCurrentLife();
+        _tmpAnimLife = (int) _trp.GetCurrentLife();
         if (GetCurrentLife() != _tmpAnimLife) UpdateLife(_tmpAnimLife);
     }
 

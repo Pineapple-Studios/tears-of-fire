@@ -67,6 +67,8 @@ public class Enemy : MonoBehaviour
             
             _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damageOnTouch);
+            RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+            Debug.Log("Vibrou");
 
         }
 

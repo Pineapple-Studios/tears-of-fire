@@ -33,7 +33,8 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             //Is there more to the story?
             if (story.canContinue)
@@ -50,6 +51,8 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 FinishDialogue();
+                textBox.SetActive(false);
+                Time.timeScale = 1;
             }
         }
     }

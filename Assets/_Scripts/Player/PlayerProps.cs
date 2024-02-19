@@ -127,7 +127,6 @@ public class PlayerProps : MonoBehaviour
 
     public float GetCurrentDamage()
     {
-        RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
         return _hitDamage;
     }
 

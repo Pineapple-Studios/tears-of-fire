@@ -42,6 +42,7 @@ public class RumbleManager : MonoBehaviour
             yield return null;
         
         }
-        pad.SetMotorSpeeds(0f, 0f);
+
+        if (pad != null) pad.SetMotorSpeeds(0f, 0f);
     }
 }

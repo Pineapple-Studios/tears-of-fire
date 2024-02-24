@@ -90,7 +90,6 @@ public class DialogueHandler : MonoBehaviour
     }
     void Update()
     {
-        ShowLore();
         DialogueNPC();
         OutRangeNPC();
     }
@@ -160,7 +159,7 @@ public class DialogueHandler : MonoBehaviour
         {
             textInteraction = "Press \"E\" to interact with NPC";
             showInteraction.text = textInteraction;
-            dialogueManagerYKE.GetComponent<DialogueManager>().enabled = false;
+                dialogueManagerYKE.GetComponent<DialogueManager>().enabled = false;
         }
 
         if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) >= 5.0f)
@@ -185,24 +184,5 @@ public class DialogueHandler : MonoBehaviour
         }
         subtitleInteraction.SetActive(false);
 
-    }
-
-    void ShowLore()
-    {
-        if (_disable)
-        {
-            _time = 0;
-        }
-        if (!_disable)
-        {
-            _time += Time.deltaTime;
-        }
-        if (_time >= disableTime)
-        {
-            textLore.enabled = false;
-            BG.SetActive(false);
-            _time = 0;
-            _disable = true;
-        }
     }
 }

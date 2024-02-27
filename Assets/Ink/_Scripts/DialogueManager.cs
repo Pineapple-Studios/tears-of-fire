@@ -52,6 +52,8 @@ public class DialogueManager : MonoBehaviour
             {
                 FinishDialogue();
                 textBox.SetActive(false);
+                nametag.text = string.Empty; 
+                message.text = string.Empty;
                 Time.timeScale = 1;
             }
         }

@@ -56,13 +56,15 @@ public class PlayerAnimationController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            Debug.Log("Called");
             TriggerAttackAnimation();
-            return;
         }
     }
 
     private void TriggerAttackAnimation()
     {
+        if (_animator.GetBool(DASH) == true) return;
+
         ClearAllStates();
         _animator.SetBool(ATTACK, true);
     }
@@ -81,7 +83,7 @@ public class PlayerAnimationController : MonoBehaviour
     private void StartRun()
     {
         // Evitando chamar o mesmo estado mais de uma vez
-        if (_animator.GetBool(RUN) == true) return;
+        if (_animator.GetBool(ATTACK) == true || _animator.GetBool(RUN) == true) return;
 
         ClearAllStates();
         _animator.SetBool(RUN, true);
@@ -90,7 +92,7 @@ public class PlayerAnimationController : MonoBehaviour
     private void StartJump()
     {
         // Evitando chamar o mesmo estado mais de uma vez
-        if (_animator.GetBool(JUMP) == true) return;
+        if (_animator.GetBool(ATTACK) == true || _animator.GetBool(JUMP) == true) return;
 
         ClearAllStates();
         _animator.SetBool(JUMP, true);
@@ -99,7 +101,7 @@ public class PlayerAnimationController : MonoBehaviour
     private void StartFall()
     {
         // Evitando chamar o mesmo estado mais de uma vez
-        if (_animator.GetBool(FALL) == true) return;
+        if (_animator.GetBool(ATTACK) == true || _animator.GetBool(FALL) == true) return;
 
         ClearAllStates();
         _animator.SetBool(FALL, true);

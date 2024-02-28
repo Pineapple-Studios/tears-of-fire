@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,7 +28,7 @@ public class PlayerPositioningAttack : MonoBehaviour
     private TransformMemo originA;
     private TransformMemo originB; 
     private TransformMemo originC;
-    private Vector2 _attackDirection;
+    public Vector2 AttackDirection;
 
     private void Start()
     {
@@ -51,51 +52,79 @@ public class PlayerPositioningAttack : MonoBehaviour
 
     private void Update()
     {
-        _attackDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        AttackDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         if (attackA.gameObject.activeSelf || attackB.gameObject.activeSelf || attackC.gameObject.activeSelf) return;
         
-        if (_attackDirection == Vector2.zero)
+        if (AttackDirection == Vector2.zero)
         {
-            if (originA.position != attackA.position) CopyTransformMemoValues(originA, attackA);
-
-            if (originB.position != attackB.position) CopyTransformMemoValues(originB, attackB);
-
-            if (originC.position != attackC.position) CopyTransformMemoValues(originC, attackC);
-
+            HandleStopPositions();
             return;
         }
 
-
-        // Rotação
+        // ---------------- Rotação
         // Cima
-        if (_attackDirection.y > 0 && attackB.rotation == Quaternion.identity)
+        if (AttackDirection.y > 0 && AttackDirection.x == 0)
         {
-            RotateRelative(_player, attackB, 90f);
+            if (attackB.rotation.eulerAngles.x == 180) RotateRelative(_player, attackB, -90f);
+            else if (attackB.rotation.eulerAngles.z != 90) RotateRelative(_player, attackB, 90f);
         }
-
-        if (_player.rotation.y == 180) RotateRelative(_player, attackB, 180f);
 
         // Baixo
-        if (_attackDirection.y < 0)
+        if (AttackDirection.y < 0 && AttackDirection.x == 0)
         {
             attackA.rotation = Quaternion.Euler(0f, 0f, 180f);
+            if (attackB.rotation.eulerAngles.z != 270) RotateRelative(_player, attackB, -90f);
         }
 
-        // Posição
-        if (_attackDirection.y < 0) // Baixo
-            attackA.position = _attackPostion.position + new Vector3(0, 1.5f, 0);
-        else if (_attackDirection.y > 0)
-            attackA.position = _attackPostion.position;
-        else
-            attackA.position = _attackPostion.position + new Vector3(0, -1, 0);
+        // Direita ou esquerda
+        if (AttackDirection.y == 0 && AttackDirection.x != 0)
+        {
+            HandleStopPositions();
+            return;
+        }
 
-        if (_attackDirection.y > 0) // cima
-            attackB.position = _attackPostion.position + new Vector3(1, 1, 0);
-        else
-            attackB.position = _attackPostion.position;
-
+        // ---------------------- Posição
+        attackA.position = _attackPostion.position + new Vector3(0, -1, 0);
+        attackB.position = _attackPostion.position;
         attackC.position = _attackPostion.position;
+
+
+        if (AttackDirection.y < 0) // Baixo 
+        {  
+            attackA.position = _attackPostion.position + new Vector3(0, 1.5f, 0);
+            attackB.position = _attackPostion.position + new Vector3(-0.5f, 0, 0);
+        }
+        
+        if (AttackDirection.y > 0) // Cima
+        {
+            attackB.position = _attackPostion.position + new Vector3(1, 1, 0);
+            attackA.position = _attackPostion.position;
+        }
+    }
+
+    private void HandleStopPositions()
+    {
+        if (originA.position != attackA.position) CopyTransformMemoValues(originA, attackA);
+
+        if (originB.position != attackB.position) CopyTransformMemoValues(originB, attackB);
+
+        if (originC.position != attackC.position) CopyTransformMemoValues(originC, attackC);
+
+        if (_player.rotation.eulerAngles.y == 180)
+        {
+            if (attackB.rotation.eulerAngles.z != 180)
+            {
+                RotateRelative(_player, attackB, 180f);
+                attackB.position = _attackPostion.position + new Vector3(0, 1, 0);
+            }
+
+            if (attackC.rotation.eulerAngles.z != 180)
+            {
+                RotateRelative(_player, attackC, 180f);
+                attackC.localPosition = new Vector3(-1.7f, 0, 0);
+            }
+        }
     }
 
     private void RotateRelative(Transform target, Transform element, float angle)

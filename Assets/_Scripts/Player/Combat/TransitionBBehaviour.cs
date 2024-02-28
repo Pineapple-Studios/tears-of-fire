@@ -17,7 +17,14 @@ public class TransitionBBehaviour : StateMachineBehaviour
     {
         if (PlayerCombat.instance.IsAttacking)
         {
-            PlayerCombat.instance.animator.Play("attackC");
+            if (animator.gameObject.GetComponent<PlayerPositioningAttack>().AttackDirection.y != 0)
+            {
+                PlayerCombat.instance.animator.Play("attackC2");
+            }
+            else
+            {
+                PlayerCombat.instance.animator.Play("attackC");
+            }
         }
     }
 

@@ -28,7 +28,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField]
     InputActionAsset Actions;
 
-    // Isso está exposto
+    // Isso estï¿½ exposto
     public static PlayerCombat instance;
     public bool IsAttacking = false;
     public float AttackRange = 0.5f;
@@ -110,7 +110,7 @@ public class PlayerCombat : MonoBehaviour
     }
 
     /// <summary>
-    /// Verifica se a área de dano tem algum inimigo e executa o dano no inimigo
+    /// Verifica se a ï¿½rea de dano tem algum inimigo e executa o dano no inimigo
     /// </summary>
     private void EnemyHit()
     {
@@ -137,7 +137,7 @@ public class PlayerCombat : MonoBehaviour
     }
 
     /// <summary>
-    /// Verifica se a área de dano tem alguma parede quebrável e executa um hit
+    /// Verifica se a ï¿½rea de dano tem alguma parede quebrï¿½vel e executa um hit
     /// </summary>
     private void HitBlockByRaycast()
     {
@@ -170,7 +170,7 @@ public class PlayerCombat : MonoBehaviour
     }
 
     /// <summary>
-    /// Verifica se a área de dano tem algum TucanoRex
+    /// Verifica se a ï¿½rea de dano tem algum TucanoRex
     /// </summary>
     private void TucanoRexHit()
     {

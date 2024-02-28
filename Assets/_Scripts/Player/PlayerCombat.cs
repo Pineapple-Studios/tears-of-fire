@@ -47,6 +47,7 @@ public class PlayerCombat : MonoBehaviour
     {
         instance = this;
         Actions.FindActionMap("Gameplay").FindAction("Attack").performed += Attack;
+        Actions.FindActionMap("Gameplay").FindAction("Attack").canceled += ReleaseAttack;
     }
 
     private void Start()
@@ -58,8 +59,6 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         _attackDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        //if (Input.GetKeyDown(KeyCode.R)) Attack();
-        //if (Input.GetKeyUp(KeyCode.R)) IsAttacking = false;
     }
 
     private void OnEnable()
@@ -102,6 +101,12 @@ public class PlayerCombat : MonoBehaviour
         HitBlockByRaycast();
 
         TucanoRexHit();
+    }
+
+    private void ReleaseAttack(InputAction.CallbackContext context)
+    {
+        // Play an attack animation
+        IsAttacking = false;
     }
 
     /// <summary>

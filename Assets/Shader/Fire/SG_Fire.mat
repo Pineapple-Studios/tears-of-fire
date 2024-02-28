@@ -37,7 +37,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _FireMask:
-        m_Texture: {fileID: 2800000, guid: 33b7d5859151a46479d7cedab4430695, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9e061df0b6ddcf247b0c072f9741de09, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FireTexture:
@@ -48,11 +48,11 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _FireIntensity: 0.15
-    - _Force: 4
-    - _Frenetico: 1
+    - _FireIntensity: 0.209
+    - _Force: 0
+    - _Frenetico: 0
     - _MaskRange: 2
-    - _ScaleNoise: 3
+    - _ScaleNoise: 0
     - _ScrollSpeed: 0
     m_Colors: []
   m_BuildTextureStacks: []

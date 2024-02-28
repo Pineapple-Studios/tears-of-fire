@@ -19,6 +19,7 @@ TagManager:
   - GroundWater
   - BreackableBlock
   - MagneticHook
+  - VFX
   - 
   - 
   - 
@@ -37,9 +38,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - VFXCam
+  - MoveCam
   m_SortingLayers:
   - name: Background
     uniqueID: 281168303

@@ -61,7 +61,7 @@ public class PlayerProps : MonoBehaviour
         if (onChangePlayerLife != null) onChangePlayerLife(_life);
         if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
 
-
+        RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
         StartCoroutine(EndOfEffects());
     }
 

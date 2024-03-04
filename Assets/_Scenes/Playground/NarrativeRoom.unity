@@ -166,7 +166,6 @@ MonoBehaviour:
   showInteraction: {fileID: 969983959}
   textLore: {fileID: 1896976752}
   BG: {fileID: 1917951397}
-  disableTime: 3
 --- !u!4 &47572892
 Transform:
   m_ObjectHideFlags: 0
@@ -279,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 2098169687}
     - target: {fileID: 2971402333164002789, guid: c0e82bcfaf2da434c8654d639a007423, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.044234
+      value: 10.039319
       objectReference: {fileID: 0}
     - target: {fileID: 2971402333164002789, guid: c0e82bcfaf2da434c8654d639a007423, type: 3}
       propertyPath: m_LocalPosition.y
@@ -364,7 +363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &365117516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4041573869903644837, guid: a914ea314a7be7849968bc09a3d13ba0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -442.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4041573869903644837, guid: a914ea314a7be7849968bc09a3d13ba0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1412,7 +1411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 294, y: -337}
+  m_AnchoredPosition: {x: 294, y: 0}
   m_SizeDelta: {x: -1410, y: -1030}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &969983959

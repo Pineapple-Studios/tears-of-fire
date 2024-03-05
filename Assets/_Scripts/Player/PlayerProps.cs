@@ -23,11 +23,16 @@ public class PlayerProps : MonoBehaviour
     [SerializeField]
     [Tooltip("Tempo com o colisor desativado após o dano")]
     public float RecallColliderTime = 0.5f;
+    [SerializeField]
+    private float _cooldownAfterHit = 1f;
 
     private Rigidbody2D _rb;
     private Transform _tr;
     private PlayerAnimationController _pa;
+    private PlayerController _pc;
     private bool _isDead = false;
+    private float _cooldownTimer = 0f;
+    private bool _hasDamaged = false;
 
     [Tooltip("Indicador se o personagem está ou não levando dano")]
     public bool IsTakingDamage = false;
@@ -37,11 +42,25 @@ public class PlayerProps : MonoBehaviour
         _rb = GetComponentInParent<Rigidbody2D>();
         _tr = GetComponentInParent<Transform>();
         _pa = GetComponent<PlayerAnimationController>();
+        _pc = GetComponentInParent<PlayerController>();
     }
 
     private void Update()
     {
         HasDied();
+
+        if (_hasDamaged)
+        {
+            if (_cooldownTimer < _cooldownAfterHit)
+            {
+                _cooldownTimer += Time.deltaTime;
+            }
+            else
+            {
+                _hasDamaged = false;
+                _cooldownTimer = 0f;
+            }
+        }
     }
 
     private void HandleReduceHP(float damage)
@@ -54,13 +73,18 @@ public class PlayerProps : MonoBehaviour
     /// Método responsável por dar dano no personagem
     /// </summary>
     /// <param name="damage">Poder/Força do dano</param>
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, bool shouldKnock = true)
     {
+        if (_hasDamaged) return; 
+
         IsTakingDamage = true;
         HandleReduceHP(damage);
         if (onChangePlayerLife != null) onChangePlayerLife(_life);
-        if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
-
+        if (onPlayerDamaged != null) onPlayerDamaged();
+        
+        // Knockback
+        if (shouldKnock) _pc.BackImpulse();
+        _hasDamaged = true;
 
         StartCoroutine(EndOfEffects());
     }
@@ -71,13 +95,7 @@ public class PlayerProps : MonoBehaviour
     /// <param name="damage">Poder/Força do dano</param>
     public void TakeDamageWhithoutKnockback(float damage)
     {
-        IsTakingDamage = false;
-        HandleReduceHP(damage);
-
-        if (onChangePlayerLife != null) onChangePlayerLife(_life);
-        if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
-
-        StartCoroutine(EndOfEffects());
+        TakeDamage(damage, false);
     }
 
     /// <summary>

@@ -66,7 +66,6 @@ public class PlayerController : MonoBehaviour
     private float _fallSpeedYDampingChangeThreshold;
     private bool isFalling = false;
     private float _coyoteCounter = 0f;
-    private bool _isKnocked = false;
     private bool _isRespawning = false;
     private bool _isInputDisabled = false;
     private bool _isJumpPressed;
@@ -75,6 +74,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
     private Vector2 _externalVelocity = Vector2.zero;
+
 
     private void OnDrawGizmos()
     {
@@ -148,20 +148,9 @@ public class PlayerController : MonoBehaviour
 
         // _onRoof = Physics2D.Raycast(transform.position + _roofColliderOffset, Vector2.up, _distanceToGround, _groundLayer);
 
-        // Aplicando mec�nicas
-        if (_playerProps.IsTakingDamage)
-        {
-            BackImpulse();
-            if (_isKnocked && Vector2.Distance(transform.position, _knockPos) > _knockDistance)
-            {
-                _rb.velocity = Vector2.zero;
-            }
-        }
-        else
-        {
-            _isKnocked = false;
-            MoveCharacter();
-        }
+        // Movendo personagem
+        MoveCharacter();
+        
 
         // Efeitos dependentes do Player
         CameraFollower();
@@ -184,6 +173,11 @@ public class PlayerController : MonoBehaviour
             _coyoteCounter = 0f;
         }
 
+        if (_rb.velocity.y > 0 && !_onGround)
+        {
+            onPlayerJumping();
+        }
+
         // Ajustando velocidade da queda
         if (_rb.velocity.y < 0 && !_onGround)
         {
@@ -191,7 +185,9 @@ public class PlayerController : MonoBehaviour
             _rb.gravityScale = GravityScale + _fallVelocityMultiplayer;
             // Definindo velocidade m�xima da queda, a multiplica��o por -1 � porq a velocidade de queda �
             // negativa
-            if (_rb.velocity.y < (_maxFallVelocity * -1)) _rb.velocity = new Vector2(_rb.velocity.x, _maxFallVelocity * -1);
+            if (_rb.velocity.y < (_maxFallVelocity * -1)) 
+                _rb.velocity = new Vector2(_rb.velocity.x, _maxFallVelocity * -1);
+
             isFalling = true;
         }
 
@@ -258,15 +254,14 @@ public class PlayerController : MonoBehaviour
     /// <summary>
     /// Empurra o personagem no sentido contr�rio ao da caminhada
     /// </summary>
-    private void BackImpulse()
+    public void BackImpulse()
     {
-        if (_isKnocked) return;
-
-        _isKnocked = true;
         _knockPos = transform.position;
 
         Vector3 direction = transform.position - _enemyAttackPosition;
-        _rb.AddForce(direction * _knockBackForce, ForceMode2D.Impulse);
+        _rb.velocity = Vector2.zero;
+        _rb.gravityScale = GetGravityToKnockback();
+        _rb.AddForce(direction.normalized * _knockBackForce, ForceMode2D.Impulse);
     }
 
     /// <summary>
@@ -363,4 +358,8 @@ public class PlayerController : MonoBehaviour
     {
         _externalVelocity = vel;
     }
+
+    public bool IsOnGound() => _onGround;
+
+    public float GetGravityToKnockback() => GravityScale + _fallVelocityMultiplayer;
 }

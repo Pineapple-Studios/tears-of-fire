@@ -33,6 +33,8 @@ public class BossBuildHandler : MonoBehaviour
     private Button _btnStartGame;
     [SerializeField]
     private Transform _initialPosition;
+    [SerializeField]
+    private string _researchLink;
 
     private string _name;
     private string _email;
@@ -91,7 +93,8 @@ public class BossBuildHandler : MonoBehaviour
 
     private IEnumerator SaveResearch(string name, string email, int playedTimes, int killBoss, float timeSpend, int dead)
     {
-        string URL = $"https://ps-research.onrender.com/api/v1/tears-of-fire/boss-room?name={name}&email={email}&playedTimes={playedTimes}&killBoss={killBoss}&timeSpend={timeSpend}&dead={dead}";
+        int seconds = (int)timeSpend;
+        string URL = $"https://ps-research.onrender.com/api/v1/tears-of-fire/boss-room?name=V2-{name}&email={email}&playedTimes={playedTimes}&killBoss={killBoss}&timeSpend={seconds}&dead={dead}";
         UnityWebRequest researchAPI = UnityWebRequest.Get(URL);
         yield return researchAPI.SendWebRequest();
 
@@ -104,7 +107,7 @@ public class BossBuildHandler : MonoBehaviour
             // Show results as text
             Debug.Log(">>> SUCCESS");
             Debug.Log(researchAPI.downloadHandler.text);
-            Application.OpenURL("https://forms.gle/iQsr9273HmMQL8ex6");
+            Application.OpenURL(_researchLink);
             Application.Quit();
         }
     }

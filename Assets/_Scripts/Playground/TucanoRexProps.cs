@@ -46,6 +46,7 @@ public class TucanoRexProps : MonoBehaviour
             _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damage);
             _isCooldownDamage = true;
+
         }
     }
 

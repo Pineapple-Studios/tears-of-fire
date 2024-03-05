@@ -24,6 +24,8 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (inkFile == null) return;
+
         story = new Story(inkFile.text);
         nametag = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         message = textBox.transform.GetChild(1).GetComponent<TMP_Text>();

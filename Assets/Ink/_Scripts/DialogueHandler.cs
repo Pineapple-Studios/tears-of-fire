@@ -53,28 +53,22 @@ public class DialogueHandler : MonoBehaviour
     [SerializeField]
     GameObject BG;
 
-    [SerializeField]
-    float disableTime = 3;
-    
-    private float _time;
-    private bool _disable;
-
     [Header("InputSystem")]
     private InputActionAsset actions;
 
     private void Awake()
     {
-        //Actions.FindActionMap("").FindAction("").performed += ;
+        //actions.FindActionMap("Dialogue").FindAction("Interaction").performed += OnInteraction;
     }
 
     private void OnEnable()
     {
-        //Actions.FindActionMap("").Enable();
+        //actions.FindActionMap("Dialogue").Enable();
     }
 
     private void OnDisable()
     {
-        //Actions.FindActionMap("").Disable();
+        //actions.FindActionMap("Dialogue").Disable();
     }
 
     private void Start()
@@ -94,6 +88,7 @@ public class DialogueHandler : MonoBehaviour
         OutRangeNPC();
     }
 
+
     void DialogueNPC()
     {
        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
@@ -108,7 +103,7 @@ public class DialogueHandler : MonoBehaviour
                 Time.timeScale = 0;
                 Debug.Log("Dialogo YKE");
             }
-        }
+       }
        
        if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
        {

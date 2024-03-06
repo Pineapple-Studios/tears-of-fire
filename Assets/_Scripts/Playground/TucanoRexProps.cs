@@ -11,7 +11,11 @@ public class TucanoRexProps : MonoBehaviour
 
     [Header("Setup")]
     [SerializeField]
-    private Animator _anim;
+    private Animator _gamePlayAnimController;
+    [SerializeField]
+    private Animator _feedbackAnimController;
+    [SerializeField]
+    private BossFightScenarioHandler _bfsh;
 
     [Header("Props")]
     [SerializeField]
@@ -22,11 +26,15 @@ public class TucanoRexProps : MonoBehaviour
     private float _damage = 30;
     [SerializeField]
     private float _colldownDamage = 2;
+    [SerializeField]
+    private float _colldownReceive = 2;
 
     private PlayerProps _pp;
     private PlayerController _pc;
     private bool _isCooldownDamage = false;
-    private float _cooldownTimer = 0f;
+    private float _cdToTakeDamage = 0f;
+    private bool _isReceivingDamage = false;
+    private float _cdToReceiveDamage = 0f;
     private bool _isDead = false;
 
     private void Start()
@@ -36,7 +44,6 @@ public class TucanoRexProps : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Ignorando colisoes com as paredes
         if (((1 << collision.gameObject.layer) & _playerLayer) != 0 && !_isCooldownDamage)
         {
             _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
@@ -53,19 +60,41 @@ public class TucanoRexProps : MonoBehaviour
     private void Update()
     {
         HasDead();
+        CooldownDamageCounter();
+        CooldownReceiveCounter();
+    }
 
+    private void CooldownReceiveCounter()
+    {
+        if (!_isReceivingDamage) return;
+
+        if (_isReceivingDamage && _cdToReceiveDamage < _colldownReceive) _cdToReceiveDamage += Time.deltaTime;
+        else
+        {
+            _isReceivingDamage = false;
+            _feedbackAnimController.SetBool("isDamaged", false);
+            _cdToReceiveDamage = 0f;
+        }
+    }
+
+    private void CooldownDamageCounter()
+    {
         if (!_isCooldownDamage) return;
-        
-        if (_isCooldownDamage && _cooldownTimer < _colldownDamage) _cooldownTimer += Time.deltaTime;
+
+        if (_isCooldownDamage && _cdToTakeDamage < _colldownDamage) _cdToTakeDamage += Time.deltaTime;
         else
         {
             _isCooldownDamage = false;
-            _cooldownTimer = 0f;
+            _cdToTakeDamage = 0f;
         }
     }
 
     public void ReceiveDamage(float damage)
     {
+        if (_isReceivingDamage) return;
+
+        _isReceivingDamage = true;
+        _feedbackAnimController.SetBool("isDamaged", true);
         _life -= damage;
     }
 
@@ -84,7 +113,10 @@ public class TucanoRexProps : MonoBehaviour
     {
         _life = _maxLife;
         _isDead = false;
-        _anim.Rebind();
-        _anim.Update(0f);
+        _gamePlayAnimController.Rebind();
+        _gamePlayAnimController.Update(0f);
+        _feedbackAnimController.Rebind();
+        _feedbackAnimController.Update(0f);
+        _bfsh.RestartScenario();
     }
 }

@@ -1,10 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static Unity.Collections.AllocatorManager;
 
 [RequireComponent(typeof(PlayerProps))]
 public class PlayerCombat : MonoBehaviour
@@ -23,6 +18,8 @@ public class PlayerCombat : MonoBehaviour
     private LayerMask _breakableBlockLayer;
     [SerializeField]
     private Vector3 _offset = Vector3.zero;
+    [SerializeField]
+    private float _knockbackHitForce = 40f;
 
     [Header("Actions")]
     [SerializeField]
@@ -35,6 +32,7 @@ public class PlayerCombat : MonoBehaviour
     
 
     private PlayerProps _pp;
+    private PlayerController _pc;
     private Rigidbody2D _rb;
     private Vector2 _attackDirection;
 
@@ -46,13 +44,12 @@ public class PlayerCombat : MonoBehaviour
     public void Awake()
     {
         instance = this;
-        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += Attack;
-        Actions.FindActionMap("Gameplay").FindAction("Attack").canceled += ReleaseAttack;
     }
 
     private void Start()
     {
         _pp = GetComponent<PlayerProps>();
+        _pc = gameObject.transform.parent.gameObject.GetComponent<PlayerController>();
         _rb = GetComponentInParent<Rigidbody2D>();
     }
 
@@ -64,11 +61,15 @@ public class PlayerCombat : MonoBehaviour
     private void OnEnable()
     {
         Actions.FindActionMap("Gameplay").Enable();
+        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += Attack;
+        Actions.FindActionMap("Gameplay").FindAction("Attack").canceled += ReleaseAttack;
     }
 
     private void OnDisable()
     {
         Actions.FindActionMap("Gameplay").Disable();
+        Actions.FindActionMap("Gameplay").FindAction("Attack").performed -= Attack;
+        Actions.FindActionMap("Gameplay").FindAction("Attack").canceled -= ReleaseAttack;
     }
 
     private void TurnToRightAttackDirection()
@@ -131,7 +132,7 @@ public class PlayerCombat : MonoBehaviour
             if (e != null)
             {
                 e.TakeDamage(_pp.GetCurrentDamage());
-                if (_attackDirection.y < 0) _rb.velocity = Vector2.up * 20f;
+                if (_attackDirection.y < 0 && !_pc.IsOnGound()) KnockbackToDirection(Vector2.up); 
             }
         }
     }
@@ -188,8 +189,16 @@ public class PlayerCombat : MonoBehaviour
             if (trp != null)
             {
                 trp.ReceiveDamage(_pp.GetCurrentDamage());
-                if (_attackDirection.y < 0) _rb.velocity = Vector2.up * 20f;
+                if (_attackDirection.y < 0 && !_pc.IsOnGound()) KnockbackToDirection(Vector2.up);
             }
         }
+    }
+
+    private void KnockbackToDirection(Vector2 direction)
+    {
+        // Debug.Log($"Called to {direction.normalized * _knockbackHitForce}");
+        _rb.velocity = Vector2.zero;
+        _rb.gravityScale = _pc.GetGravityToKnockback();
+        _rb.AddForce(direction.normalized * _knockbackHitForce, ForceMode2D.Impulse);
     }
 }

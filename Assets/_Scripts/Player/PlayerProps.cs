@@ -12,7 +12,7 @@ public class PlayerProps : MonoBehaviour
     [Tooltip("Vida do personagem")]
     private float _life = 100f;
     [SerializeField]
-    [Tooltip("Vida máxima do personagem")]
+    [Tooltip("Vida mï¿½xima do personagem")]
     private float _maxLife = 100f;
     [SerializeField]
     [Tooltip("Dano do personagem")]
@@ -21,15 +21,20 @@ public class PlayerProps : MonoBehaviour
     [Tooltip("Tempo para voltar a controlar o personagem depois que ele leva um dano")]
     private float _recallTime = 0.2f;
     [SerializeField]
-    [Tooltip("Tempo com o colisor desativado após o dano")]
+    [Tooltip("Tempo com o colisor desativado apï¿½s o dano")]
     public float RecallColliderTime = 0.5f;
+    [SerializeField]
+    private float _cooldownAfterHit = 1f;
 
     private Rigidbody2D _rb;
     private Transform _tr;
     private PlayerAnimationController _pa;
+    private PlayerController _pc;
     private bool _isDead = false;
+    private float _cooldownTimer = 0f;
+    private bool _hasDamaged = false;
 
-    [Tooltip("Indicador se o personagem está ou não levando dano")]
+    [Tooltip("Indicador se o personagem estï¿½ ou nï¿½o levando dano")]
     public bool IsTakingDamage = false;
 
     private void Start()
@@ -37,11 +42,25 @@ public class PlayerProps : MonoBehaviour
         _rb = GetComponentInParent<Rigidbody2D>();
         _tr = GetComponentInParent<Transform>();
         _pa = GetComponent<PlayerAnimationController>();
+        _pc = GetComponentInParent<PlayerController>();
     }
 
     private void Update()
     {
         HasDied();
+
+        if (_hasDamaged)
+        {
+            if (_cooldownTimer < _cooldownAfterHit)
+            {
+                _cooldownTimer += Time.deltaTime;
+            }
+            else
+            {
+                _hasDamaged = false;
+                _cooldownTimer = 0f;
+            }
+        }
     }
 
     private void HandleReduceHP(float damage)
@@ -51,42 +70,42 @@ public class PlayerProps : MonoBehaviour
     }
     
     /// <summary>
-    /// Método responsável por dar dano no personagem
+    /// Mï¿½todo responsï¿½vel por dar dano no personagem
     /// </summary>
-    /// <param name="damage">Poder/Força do dano</param>
-    public void TakeDamage(float damage)
+    /// <param name="damage">Poder/Forï¿½a do dano</param>
+    public void TakeDamage(float damage, bool shouldKnock = true)
     {
+        if (_hasDamaged) return; 
+
         IsTakingDamage = true;
         HandleReduceHP(damage);
         if (onChangePlayerLife != null) onChangePlayerLife(_life);
-        if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
-
+        if (onPlayerDamaged != null) onPlayerDamaged();
+        
+        // Knockback
+        if (shouldKnock) _pc.BackImpulse();
+        _hasDamaged = true;
+        
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
         StartCoroutine(EndOfEffects());
     }
 
     /// <summary>
-    /// Método responsável por dar dano no personagem sem executar o knockback
+    /// Mï¿½todo responsï¿½vel por dar dano no personagem sem executar o knockback
     /// </summary>
-    /// <param name="damage">Poder/Força do dano</param>
+    /// <param name="damage">Poder/Forï¿½a do dano</param>
     public void TakeDamageWhithoutKnockback(float damage)
     {
-        IsTakingDamage = false;
-        HandleReduceHP(damage);
-
-        if (onChangePlayerLife != null) onChangePlayerLife(_life);
-        if (onChangePlayerLife != null) onPlayerDamaged(); // estranho
-
-        StartCoroutine(EndOfEffects());
+        TakeDamage(damage, false);
     }
 
     /// <summary>
-    /// Método responsável por recuperar vida do personagem
+    /// Mï¿½todo responsï¿½vel por recuperar vida do personagem
     /// </summary>
     /// <param name="amount">Heal de vida</param>
     public void HealLife(float amount)
     {
-        // Não executa a ação de recuperar vida caso a vida estiver cheia
+        // Nï¿½o executa a aï¿½ï¿½o de recuperar vida caso a vida estiver cheia
         if (_life == _maxLife) return;
 
         _life += amount;
@@ -95,7 +114,7 @@ public class PlayerProps : MonoBehaviour
     }
 
     /// <summary>
-    /// Retorna as funções de movimento do personagem
+    /// Retorna as funï¿½ï¿½es de movimento do personagem
     /// </summary>
     private IEnumerator EndOfEffects()
     {
@@ -104,7 +123,7 @@ public class PlayerProps : MonoBehaviour
     }
 
     /// <summary>
-    /// Verifica se o personagem ainda está vivo, caso contrário o destroi
+    /// Verifica se o personagem ainda estï¿½ vivo, caso contrï¿½rio o destroi
     /// </summary>
     private void HasDied()
     {
@@ -142,7 +161,7 @@ public class PlayerProps : MonoBehaviour
     {
         float tmp = _maxLife / 20;
         tmp += _addMaxContainer;
-        _maxLife = (int)tmp * 20; // 20 é o divisor da UI
+        _maxLife = (int)tmp * 20; // 20 ï¿½ o divisor da UI
         FullHeal();
     }
 }

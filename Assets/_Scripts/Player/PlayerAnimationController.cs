@@ -56,7 +56,6 @@ public class PlayerAnimationController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Debug.Log("Called");
             TriggerAttackAnimation();
         }
     }
@@ -120,6 +119,7 @@ public class PlayerAnimationController : MonoBehaviour
     {
         // Evitando chamar o mesmo estado mais de uma vez
         if (_animator.GetBool(DAMEGED) == true) return;
+
 
         ClearAllStates();
         _animator.SetBool(DAMEGED, true);

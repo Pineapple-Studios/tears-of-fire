@@ -18,6 +18,7 @@ public class CinemachineSwitcher : MonoBehaviour
     private const string PLAYER_CAM_STATE = "PlayerCamera";
     private const string SCEARIO_CAM_STATE = "ScenarioCamera";
     private const string BOSS_CAM_STATE = "BossCamera";
+    private const string YAMSE_CAM_STATE = "YamseCamera";
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,6 +41,9 @@ public class CinemachineSwitcher : MonoBehaviour
             case ECamAvailable.BOSS:
                 _anim.Play(BOSS_CAM_STATE);
                 break;
+            case ECamAvailable.YAMSE:
+                _anim.Play(YAMSE_CAM_STATE);
+                break;
             case ECamAvailable.PLAYER:
             default:
                 _anim.Play(PLAYER_CAM_STATE);
@@ -54,5 +58,6 @@ public enum ECamAvailable
 {
     PLAYER,
     SCENARIO,
-    BOSS
+    BOSS,
+    YAMSE
 }

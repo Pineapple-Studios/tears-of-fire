@@ -24,6 +24,13 @@ public class PlayerAnimationController : MonoBehaviour
     private const string DEATH = "clip_death";
     private const string RESPAWN = "clip_respawn";
 
+    private PlayerInputHandler _pih;
+
+    void Awake()
+    {
+        _pih = GetComponent<PlayerInputHandler>();
+    }
+
     private void OnEnable()
     {
         PlayerProps.onPlayerDamaged += StartDamage;
@@ -33,6 +40,11 @@ public class PlayerAnimationController : MonoBehaviour
         PlayerController.onPlayerRunning += StartRun;
         PlayerController.onPlayerGround += ClearAllStates;
         PlayerDash.onPlayerDashing += StartDash;
+
+        if (_pih != null)
+        {
+            _pih.KeyAttackDown += TriggerAttackAnimation;
+        }
     }
 
     private void OnDisable()
@@ -44,20 +56,16 @@ public class PlayerAnimationController : MonoBehaviour
         PlayerController.onPlayerRunning -= StartRun;
         PlayerController.onPlayerGround -= ClearAllStates;
         PlayerDash.onPlayerDashing -= StartDash;
+
+        if (_pih != null)
+        {
+            _pih.KeyAttackDown -= TriggerAttackAnimation;
+        }
     }
 
     private void Start()
     {
         ClearAllStates();
-    }
-
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            TriggerAttackAnimation();
-        }
     }
 
     private void TriggerAttackAnimation()

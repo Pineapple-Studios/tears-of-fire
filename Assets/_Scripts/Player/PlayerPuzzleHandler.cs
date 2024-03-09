@@ -9,17 +9,15 @@ public class PlayerPuzzleHandler : MonoBehaviour
     [SerializeField]
     private LayerMask _magneticHookMask;
 
-    [SerializeField]
-    private InputActionAsset Actions;
-
     private Transform _attackPoint;
     private float _attackRange;
 
     private PlayerCombat _pc;
+    private PlayerInputHandler _pih;
 
     void Awake()
     {
-        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += CheckAllPuzzles;
+        _pih = GetComponent<PlayerInputHandler>();
     }
 
     void Start()
@@ -31,15 +29,21 @@ public class PlayerPuzzleHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        Actions.FindActionMap("Gameplay").Enable();
+        if (_pih != null)
+        {
+            _pih.KeyAttackUp += CheckAllPuzzles;
+        }
     }
 
     private void OnDisable()
     {
-        Actions.FindActionMap("Gameplay").Disable();
+        if (_pih != null)
+        {
+            _pih.KeyAttackUp -= CheckAllPuzzles;
+        }
     }
 
-    private void CheckAllPuzzles(InputAction.CallbackContext context)
+    private void CheckAllPuzzles()
     {
         CheckPuzzleElements();
         CheckMagneticHitElement();

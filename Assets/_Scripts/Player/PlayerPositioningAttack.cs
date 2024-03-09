@@ -30,6 +30,13 @@ public class PlayerPositioningAttack : MonoBehaviour
     private TransformMemo originC;
     public Vector2 AttackDirection;
 
+    private PlayerInputHandler _pih;
+
+    void Awake()
+    {
+        _pih = transform.parent.GetComponentInChildren<PlayerInputHandler>();
+    }
+
     private void Start()
     {
         originA = new TransformMemo
@@ -52,7 +59,7 @@ public class PlayerPositioningAttack : MonoBehaviour
 
     private void Update()
     {
-        AttackDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        AttackDirection = _pih.GetDirection();
 
         if (attackA.gameObject.activeSelf || attackB.gameObject.activeSelf || attackC.gameObject.activeSelf) return;
         

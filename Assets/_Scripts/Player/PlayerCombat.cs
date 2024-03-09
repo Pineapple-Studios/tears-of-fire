@@ -21,10 +21,6 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField]
     private float _knockbackHitForce = 40f;
 
-    [Header("Actions")]
-    [SerializeField]
-    InputActionAsset Actions;
-
     // Isso est� exposto
     public static PlayerCombat instance;
     public bool IsAttacking = false;
@@ -33,6 +29,7 @@ public class PlayerCombat : MonoBehaviour
 
     private PlayerProps _pp;
     private PlayerController _pc;
+    private PlayerInputHandler _pih;
     private Rigidbody2D _rb;
     private Vector2 _attackDirection;
 
@@ -44,6 +41,7 @@ public class PlayerCombat : MonoBehaviour
     public void Awake()
     {
         instance = this;
+        _pih = GetComponent<PlayerInputHandler>();
     }
 
     private void Start()
@@ -55,21 +53,25 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        _attackDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _attackDirection = _pih.GetDirection();
     }
 
     private void OnEnable()
     {
-        Actions.FindActionMap("Gameplay").Enable();
-        Actions.FindActionMap("Gameplay").FindAction("Attack").performed += Attack;
-        Actions.FindActionMap("Gameplay").FindAction("Attack").canceled += ReleaseAttack;
+        if (_pih != null)
+        {
+            _pih.KeyAttackDown += Attack; 
+            _pih.KeyAttackUp += ReleaseAttack;
+        }
     }
 
     private void OnDisable()
     {
-        Actions.FindActionMap("Gameplay").Disable();
-        Actions.FindActionMap("Gameplay").FindAction("Attack").performed -= Attack;
-        Actions.FindActionMap("Gameplay").FindAction("Attack").canceled -= ReleaseAttack;
+        if (_pih != null)
+        {
+            _pih.KeyAttackDown -= Attack;
+            _pih.KeyAttackUp -= ReleaseAttack;
+        }
     }
 
     private void TurnToRightAttackDirection()
@@ -90,7 +92,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    private void Attack(InputAction.CallbackContext context)
+    private void Attack()
     {
         TurnToRightAttackDirection();
 
@@ -104,7 +106,7 @@ public class PlayerCombat : MonoBehaviour
         TucanoRexHit();
     }
 
-    private void ReleaseAttack(InputAction.CallbackContext context)
+    private void ReleaseAttack()
     {
         // Play an attack animation
         IsAttacking = false;

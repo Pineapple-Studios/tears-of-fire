@@ -394,21 +394,21 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""Attack"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""932e3f05-9042-4d53-8d1b-671ac4db9f61"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": ""Integer"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""PowerUp"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""796dbcc1-8616-4e76-84f3-b07c9635d342"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": ""Integer"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""Inventory"",
@@ -430,12 +430,12 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""Jump"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""d5a82e41-e308-4b02-9dbc-bb7d8363aaa3"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -932,155 +932,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             ]
         },
         {
-            ""name"": ""Joystick"",
-            ""id"": ""db0115d1-7eac-4f49-b8e1-2b9fc099aab8"",
-            ""actions"": [
-                {
-                    ""name"": ""Joystick"",
-                    ""type"": ""Button"",
-                    ""id"": ""8138ad66-64a7-4674-a2c1-c77db6f1beb5"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": ""up"",
-                    ""id"": ""3209b83d-98cb-464c-8914-060d1b87800b"",
-                    ""path"": ""<Joystick>/stick/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""fbb71510-15f5-4ebc-b590-abdbbec243da"",
-                    ""path"": ""<Gamepad>/leftStick/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""bc82f780-d45c-4382-b9ab-dd71e0cd183f"",
-                    ""path"": ""<Joystick>/stick/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""068b40db-2c09-449a-b400-68f24d95c9f7"",
-                    ""path"": ""<Gamepad>/leftStick/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""93b2b787-1ca1-4232-af42-e078bbaf7562"",
-                    ""path"": ""<Joystick>/stick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""57e99a28-3bf2-45ec-a8b7-239cfb804c9c"",
-                    ""path"": ""<Gamepad>/leftStick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""a80242f0-edf3-4202-886e-4134114c8ae6"",
-                    ""path"": ""<Gamepad>/leftStick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""87b7c455-9003-4ec9-bfcc-95885492055a"",
-                    ""path"": ""<Joystick>/stick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9ce55aff-838c-4bff-941d-c5d60f5797ad"",
-                    ""path"": ""<Gamepad>/buttonNorth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5812b050-593c-4220-b329-92ff650c1d5c"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""b65b64ed-904f-4d4c-9288-98abfec920cc"",
-                    ""path"": ""<Gamepad>/buttonWest"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""aa9028ea-3134-4f5a-936f-cba84c948a84"",
-                    ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Joystick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
             ""name"": ""Dialogue"",
             ""id"": ""65b66d40-8cb4-45f2-b672-2688c7f74c98"",
             ""actions"": [
@@ -1132,9 +983,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         // Keyboard
         m_Keyboard = asset.FindActionMap("Keyboard", throwIfNotFound: true);
         m_Keyboard_Keyboard = m_Keyboard.FindAction("Keyboard", throwIfNotFound: true);
-        // Joystick
-        m_Joystick = asset.FindActionMap("Joystick", throwIfNotFound: true);
-        m_Joystick_Joystick = m_Joystick.FindAction("Joystick", throwIfNotFound: true);
         // Dialogue
         m_Dialogue = asset.FindActionMap("Dialogue", throwIfNotFound: true);
         m_Dialogue_Interaction = m_Dialogue.FindAction("Interaction", throwIfNotFound: true);
@@ -1452,52 +1300,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     }
     public KeyboardActions @Keyboard => new KeyboardActions(this);
 
-    // Joystick
-    private readonly InputActionMap m_Joystick;
-    private List<IJoystickActions> m_JoystickActionsCallbackInterfaces = new List<IJoystickActions>();
-    private readonly InputAction m_Joystick_Joystick;
-    public struct JoystickActions
-    {
-        private @InputActions m_Wrapper;
-        public JoystickActions(@InputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Joystick => m_Wrapper.m_Joystick_Joystick;
-        public InputActionMap Get() { return m_Wrapper.m_Joystick; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(JoystickActions set) { return set.Get(); }
-        public void AddCallbacks(IJoystickActions instance)
-        {
-            if (instance == null || m_Wrapper.m_JoystickActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_JoystickActionsCallbackInterfaces.Add(instance);
-            @Joystick.started += instance.OnJoystick;
-            @Joystick.performed += instance.OnJoystick;
-            @Joystick.canceled += instance.OnJoystick;
-        }
-
-        private void UnregisterCallbacks(IJoystickActions instance)
-        {
-            @Joystick.started -= instance.OnJoystick;
-            @Joystick.performed -= instance.OnJoystick;
-            @Joystick.canceled -= instance.OnJoystick;
-        }
-
-        public void RemoveCallbacks(IJoystickActions instance)
-        {
-            if (m_Wrapper.m_JoystickActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        public void SetCallbacks(IJoystickActions instance)
-        {
-            foreach (var item in m_Wrapper.m_JoystickActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_JoystickActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    public JoystickActions @Joystick => new JoystickActions(this);
-
     // Dialogue
     private readonly InputActionMap m_Dialogue;
     private List<IDialogueActions> m_DialogueActionsCallbackInterfaces = new List<IDialogueActions>();
@@ -1567,10 +1369,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     public interface IKeyboardActions
     {
         void OnKeyboard(InputAction.CallbackContext context);
-    }
-    public interface IJoystickActions
-    {
-        void OnJoystick(InputAction.CallbackContext context);
     }
     public interface IDialogueActions
     {

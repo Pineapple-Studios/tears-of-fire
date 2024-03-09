@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour
     public bool IsFacingRight = true;
     [SerializeField]
     private float _knockBackForce = 50f;
-    [SerializeField]
-    private float _knockDistance = 1f;
 
     [Header("Vertical Movement")]
     public float JumpSpeed = 15f;
@@ -37,8 +35,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Vector3 _roofColliderOffset;
     [SerializeField]
-    private bool _onRoof = false;
-    [SerializeField]
     private float _distanceToGround = 0.6f;
     [SerializeField]
     private Vector3 _colliderOffset;
@@ -49,16 +45,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] 
     private GameObject _cameraFollowGameObject;
 
-    [Header("Actions")]
-    [SerializeField]
-    private InputActionAsset Actions;
-
     // Components
     private Rigidbody2D _rb;
 
     // Controladores das mec�nicas
-    private PlayerProps _playerProps;
     private PlayerDash _playerDash;
+    private PlayerInputHandler _playerInputHandler;
 
     // Vari�veis de tempor�rias
     private bool _canJump = true;
@@ -68,13 +60,10 @@ public class PlayerController : MonoBehaviour
     private float _coyoteCounter = 0f;
     private bool _isRespawning = false;
     private bool _isInputDisabled = false;
-    private bool _isJumpPressed;
-    private bool _isJumpReleased;
 
     private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
     private Vector2 _externalVelocity = Vector2.zero;
-
 
     private void OnDrawGizmos()
     {
@@ -96,23 +85,41 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        Actions.FindActionMap("Gameplay").FindAction("Movement").performed += OnMove;
-        Actions.FindActionMap("Gameplay").FindAction("Movement").canceled += OnMove;
-        Actions.FindActionMap("Gameplay").FindAction("Jump").performed += OnJump;
-        Actions.FindActionMap("Gameplay").FindAction("Jump").canceled += OnJumpReleased;
+        _playerInputHandler = FindAnyObjectByType<PlayerInputHandler>();
     }
 
     private void OnEnable()
     {
         PlayerProps.onPlayerDead += Respawn;
-        Actions.FindActionMap("Gameplay").Enable();
+ 
+        if (_playerInputHandler != null)
+        {
+            _playerInputHandler.KeyJumpDown += OnKeyJumpDown;
+            _playerInputHandler.KeyJumpUp += OnKeyJumpUp;
+        }
     }
 
     private void OnDisable()
     {
         PlayerProps.onPlayerDead -= Respawn;
-        Actions.FindActionMap("Gameplay").Disable();
+        
+        if (_playerInputHandler != null)
+        {
+            _playerInputHandler.KeyJumpDown -= OnKeyJumpDown;
+            _playerInputHandler.KeyJumpUp -= OnKeyJumpUp;
+        }
     }
+
+    private void OnKeyJumpUp()
+    {
+        if (_rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
+    }
+
+    private void OnKeyJumpDown()
+    {
+        JumpTimer = Time.time + CoyoteTime;
+    }
+
 
     private void Start()
     {
@@ -121,7 +128,6 @@ public class PlayerController : MonoBehaviour
 
         // Mec�nicas
         _playerDash = GetComponentInChildren<PlayerDash>();
-        _playerProps = GetComponentInChildren<PlayerProps>();
 
         // Camera
         if (_cameraFollowGameObject != null)
@@ -138,19 +144,12 @@ public class PlayerController : MonoBehaviour
         if (_isRespawning) return;
         if (_isInputDisabled) return;
 
-        // Inputs
-        if (Input.GetKeyDown(KeyCode.Space)) JumpTimer = Time.time + CoyoteTime;
-        if (Input.GetKeyUp(KeyCode.Space) && _rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
-
         // Condicionais
         _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
             Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _distanceToGround, _groundLayer);
 
-        // _onRoof = Physics2D.Raycast(transform.position + _roofColliderOffset, Vector2.up, _distanceToGround, _groundLayer);
-
         // Movendo personagem
         MoveCharacter();
-        
 
         // Efeitos dependentes do Player
         CameraFollower();
@@ -221,29 +220,12 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void MoveCharacter()
     {
-        float horizontal = Direction.x;
+        float horizontal = _playerInputHandler.GetDirection().x;
         if (horizontal != 0 && _onGround) onPlayerRunning();
         if (horizontal == 0 && _onGround) onPlayerGround();
-
-        //Debug.Log($"{new Vector2(horizontal * MoveSpeed * Time.deltaTime, _rb.velocity.y)} ---- {_externalVelocity}");
 
         _rb.velocity = new Vector2(horizontal * MoveSpeed, _rb.velocity.y) + _externalVelocity;
         
-        // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
-        if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
-        {
-            Flip();
-        }
-    }
-
-    void MoveCharacterAfftedByExternalForce()
-    {
-        float horizontal = Direction.x;
-        if (horizontal != 0 && _onGround) onPlayerRunning();
-        if (horizontal == 0 && _onGround) onPlayerGround();
-
-        _rb.velocity += new Vector2(horizontal * MoveSpeed, _rb.velocity.y);
-
         // Inverte o sprite do personagem caso o jogador tenha invertido o movimento
         if ((horizontal > 0 && !IsFacingRight) || (horizontal < 0 && IsFacingRight))
         {
@@ -285,7 +267,6 @@ public class PlayerController : MonoBehaviour
         if (onPlayerJumping != null) onPlayerJumping();
 
         JumpTimer = 0;
-        _isJumpReleased = false;
     }
 
     /// <summary>
@@ -313,25 +294,6 @@ public class PlayerController : MonoBehaviour
             CameraManager.instance.LerpedFromPlayerFalling = false;
             CameraManager.instance.LerpYDamping(false);
         }
-    }
-
-    private void OnJump(InputAction.CallbackContext context)
-    {
-        _isJumpPressed = true;
-        _isJumpReleased = false;
-    }
-
-    private void OnJumpReleased(InputAction.CallbackContext context)
-    {
-        if (_isJumpPressed) return;
-
-        _isJumpPressed = false;
-        _isJumpReleased = true;
-    }
-
-    private void OnMove(InputAction.CallbackContext context)
-    {
-        Direction = context.ReadValue<Vector2>();
     }
 
     public void SetAttackEnemyPosition(Vector3 pos)

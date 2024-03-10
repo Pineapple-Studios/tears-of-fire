@@ -9,11 +9,13 @@ public class DialogueManager : MonoBehaviour
 {
     [SerializeField] public TextAsset inkFile;
     [SerializeField] public GameObject textBox;
+
     //[SerializeField] public GameObject customButton;
     //[SerializeField] public GameObject optionPanel;
     //[SerializeField] public bool isTalking = false;
 
     [SerializeField] string npcName;
+    [SerializeField] GameObject player;
 
     static Story story;
     TMP_Text nametag;
@@ -36,7 +38,7 @@ public class DialogueManager : MonoBehaviour
     private void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             //Is there more to the story?
             if (story.canContinue)
@@ -54,7 +56,7 @@ public class DialogueManager : MonoBehaviour
             {
                 FinishDialogue();
                 textBox.SetActive(false);
-                nametag.text = string.Empty; 
+                nametag.text = string.Empty;
                 message.text = string.Empty;
                 Time.timeScale = 1;
             }

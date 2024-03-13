@@ -7,24 +7,41 @@ using System;
 
 public class SetupInputActions : MonoBehaviour
 {
-
-    //const string INPUT_ACTIONS = "@TOF_INPUT_ACTIONS";
-
-    private const string KEYBOARD_NAME = "Keyboard";
-    private const string JOYSTICK_NAME = "Joystick";
+    // Actions to be loaded based on Map serialized
+    private const string KEYBOARD_MAP = "Keyboard";
+    private const string JOYSTICK_MAP = "Joystick";
 
     [Header("Joystick Inputs")]
-    [SerializeField] public InputActionAsset actions;
+    [SerializeField] 
+    private InputActionAsset _actionAsset;
 
-    InputActionMap actionMap;
+    private InputActionMap _keyboardMap;
+    private InputActionMap _joystickMap;
 
     private InputAction _keyboard;
     private InputAction _joystick;
 
     [Header("Images")]
-    [SerializeField] public Sprite ImageKeyboard;
-    [SerializeField] public Sprite ImageJoystick;
+    [SerializeField] 
+    public Sprite ImageKeyboard;
+    [SerializeField] 
+    public Sprite ImageJoystick;
+
     Image image;
+
+    void Awake()
+    {
+        _keyboardMap = _actionAsset.FindActionMap(KEYBOARD_MAP);
+        _joystickMap = _actionAsset.FindActionMap(JOYSTICK_MAP);
+
+        if (_keyboardMap == null || _joystickMap == null) return;
+
+        _keyboard = _keyboardMap.FindAction("Keyboard");
+        _keyboard.performed += OnKeyboard;
+
+        _joystick = _joystickMap.FindAction("Joystick");
+        _joystick.performed += OnJoystick;
+    }
 
     void Start()
     {
@@ -33,30 +50,16 @@ public class SetupInputActions : MonoBehaviour
         this.enabled = true;
     }
 
-    void Awake()
-    {
-        actionMap = actions.FindActionMap(KEYBOARD_NAME);
-        actionMap = actions.FindActionMap(JOYSTICK_NAME);
-        if (actionMap == null) return;
-
-        _keyboard = actionMap.FindAction(KEYBOARD_NAME);
-        _keyboard.performed += OnKeyboard;
-
-        _joystick = actionMap.FindAction(JOYSTICK_NAME);
-        _joystick.performed += OnJoystick;
-    }
-
     public void OnEnable()
     {
-        if (actionMap == null) return;
-        actionMap.Enable();
-
+        if (_joystickMap != null) _joystickMap.Enable();
+        if (_keyboardMap != null) _keyboardMap.Enable();
     }
 
     public void OnDisable()
     {
-        if (actionMap == null) return;
-        actionMap.Disable();
+        if (_joystickMap != null) _joystickMap.Disable();
+        if (_keyboardMap != null) _keyboardMap.Disable();
     }
 
     private void OnKeyboard(InputAction.CallbackContext context)

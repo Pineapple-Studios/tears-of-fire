@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO.Pipes;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,7 +13,7 @@ public class DialogueHandler : MonoBehaviour
     [SerializeField]
     GameObject player;
 
-    [Header("NPC")]
+    [Header("YKE")]
     [SerializeField]
     GameObject yke;
 
@@ -20,38 +21,41 @@ public class DialogueHandler : MonoBehaviour
     GameObject dialogueManagerYKE;
 
     [SerializeField]
+    GameObject interactionYKE;
+
+    [Header("OCE")]
+    [SerializeField]
     GameObject oce;
+
     [SerializeField]
     GameObject dialogueManagerOCE;
 
     [SerializeField]
-    GameObject yxo;
+    GameObject interactionOCE;
+
+    [Header("YXO")]
     [SerializeField]
-    GameObject dialogueManagerYXO;
+    GameObject yxo;
 
     [SerializeField]
+    GameObject dialogueManagerYXO;
+    
+    [SerializeField]
+    GameObject interactionYXO;
+
+    [Header("2ND YXO")]
+    [SerializeField]
     GameObject secondYxo;
+
     [SerializeField]
     GameObject secondDialogueManagerYXO;
+
+    [SerializeField]
+    GameObject interaction2ndYXO;
 
     [Header("TextBox")]
     [SerializeField]
     GameObject textBox;
-
-    [SerializeField]
-    GameObject subtitleInteraction;
-
-    [SerializeField]
-    TextMeshProUGUI showInteraction;
-
-    string textInteraction;
-
-    [Header("Lore")]
-    [SerializeField]
-    TextMeshProUGUI textLore;
-
-    [SerializeField]
-    GameObject BG;
 
     [Header("InputSystem")]
     private InputActionAsset actions;
@@ -73,14 +77,13 @@ public class DialogueHandler : MonoBehaviour
 
     private void Start()
     {
-        textBox.SetActive(false);
-        subtitleInteraction.SetActive(false);
-        dialogueManagerYKE.GetComponent<DialogueManager>().enabled = false;
-        dialogueManagerOCE.GetComponent<DialogueManager>().enabled = false;
-        dialogueManagerYXO.GetComponent<DialogueManager>().enabled = false;
-        secondDialogueManagerYXO.GetComponent<DialogueManager>().enabled = false;
-        textInteraction = "Press \"E\" to interact with NPC";
-        showInteraction.text = textInteraction;
+        // NPC's e Caixa de texto
+        Handler(textBox, false);
+        Handler(secondYxo, false);
+        Handler(yxo, true);
+        
+        // Dialogos
+        Dialogue();
     }
     void Update()
     {
@@ -88,63 +91,75 @@ public class DialogueHandler : MonoBehaviour
         OutRangeNPC();
     }
 
+    void Dialogue()
+    {
+        dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = false;
+        dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = false;
+        dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = false;
+        secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = false;
+    }
 
     void DialogueNPC()
     {
-       if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
+        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
        {
-            subtitleInteraction.SetActive(true);
+            Handler(interactionYKE, true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                textInteraction = "Press \"Enter\" to continue";
-                showInteraction.text = textInteraction;
-                textBox.SetActive(true);
-                dialogueManagerYKE.GetComponent<DialogueManager>().enabled = true;
+                Handler(textBox, true);
+                dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
                 Debug.Log("Dialogo YKE");
             }
-       }
+            if (textBox.activeSelf == true) { Handler(interactionYKE, false); }
+        }
+        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
+        {
+            if (Mathf.Abs(player.transform.position.y - yke.transform.position.y) < 2.0f)
+            {
+                Handler(yxo, false);
+                Handler(secondYxo, true);
+            }
+        }
        
-       if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
-       {
-            subtitleInteraction.SetActive(true);
+        if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
+        {
+            Handler(interactionOCE, true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                textInteraction = "Press \"Enter\" to continue";
-                showInteraction.text = textInteraction;
-                textBox.SetActive(true);
-                dialogueManagerOCE.GetComponent<DialogueManager>().enabled = true;
+                Handler(textBox, true);
+                dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
                 Debug.Log("Dialogo OCE");
             }
+            if (textBox.activeSelf == true) { Handler(interactionOCE, false); }
         }
 
         if (Mathf.Abs(player.transform.position.x - yxo.transform.position.x) <= 5.0f)
         {
-            subtitleInteraction.SetActive(true);
+            Handler(interactionYXO, true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                textInteraction = "Press \"Enter\" to continue";
-                showInteraction.text = textInteraction;
-                textBox.SetActive(true);
-                dialogueManagerYXO.GetComponent<DialogueManager>().enabled = true;
+                
+                Handler(textBox, true);
+                dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
                 Debug.Log("Dialogo YXO");
             }
+            if (textBox.activeSelf == true) { Handler(interactionYXO, false); }
         }
 
         if (Mathf.Abs(player.transform.position.x - secondYxo.transform.position.x) <= 5.0f)
         {
-            subtitleInteraction.SetActive(true);
+            Handler(interaction2ndYXO, true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                textInteraction = "Press \"Enter\" to continue";
-                showInteraction.text = textInteraction;
-                textBox.SetActive(true);
-                secondDialogueManagerYXO.GetComponent<DialogueManager>().enabled = true;
+                Handler(textBox, true);
+                secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
                 Debug.Log("Segundo Dialogo YXO");
             }
+            if (textBox.activeSelf == true) { Handler(interaction2ndYXO, false); }
         }
     }
 
@@ -152,32 +167,31 @@ public class DialogueHandler : MonoBehaviour
     {
         if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) >= 5.0f)
         {
-            textInteraction = "Press \"E\" to interact with NPC";
-            showInteraction.text = textInteraction;
-                dialogueManagerYKE.GetComponent<DialogueManager>().enabled = false;
+            Handler(interactionYKE, false);
+            dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = false;
         }
 
         if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) >= 5.0f)
         {
-            textInteraction = "Press \"E\" to interact with NPC";
-            showInteraction.text = textInteraction;
-            dialogueManagerOCE.GetComponent<DialogueManager>().enabled = false;
+            Handler(interactionOCE, false);
+            dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = false;
         }
 
         if (Mathf.Abs(player.transform.position.x - yxo.transform.position.x) >= 5.0f)
         {
-            textInteraction = "Press \"E\" to interact with NPC";
-            showInteraction.text = textInteraction;
-            dialogueManagerYXO.GetComponent<DialogueManager>().enabled = false;
+            Handler(interactionYXO, false);
+            dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = false;
         }
 
         if (Mathf.Abs(player.transform.position.x - secondYxo.transform.position.x) >= 5.0f)
         {
-            textInteraction = "Press \"E\" to interact with NPC";
-            showInteraction.text = textInteraction;
-            secondDialogueManagerYXO.GetComponent<DialogueManager>().enabled = false;
+            Handler(interaction2ndYXO, false);
+            secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = false;
         }
-        subtitleInteraction.SetActive(false);
+    }
 
+    private void Handler(GameObject go, bool isActive)
+    {
+        go.gameObject.SetActive(isActive);
     }
 }

@@ -24,6 +24,8 @@ public class PlayerPositioningAttack : MonoBehaviour
     private Transform _attackPostion;
     [SerializeField]
     private Transform _player;
+    [SerializeField]
+    private PlayerCombat _playerCombat;
 
     private TransformMemo originA;
     private TransformMemo originB; 
@@ -31,10 +33,12 @@ public class PlayerPositioningAttack : MonoBehaviour
     public Vector2 AttackDirection;
 
     private PlayerInputHandler _pih;
+    private PlayerController _pc;
 
     void Awake()
     {
         _pih = transform.parent.GetComponentInChildren<PlayerInputHandler>();
+        _pc = transform.parent.GetComponentInChildren<PlayerController>();
     }
 
     private void Start()
@@ -66,6 +70,12 @@ public class PlayerPositioningAttack : MonoBehaviour
         if (AttackDirection == Vector2.zero)
         {
             HandleStopPositions();
+            return;
+        }
+
+        if (!_pc.IsOnGound())
+        {
+            JumpingHandler();
             return;
         }
 
@@ -108,6 +118,29 @@ public class PlayerPositioningAttack : MonoBehaviour
             attackB.position = _attackPostion.position + new Vector3(1, 1, 0);
             attackA.position = _attackPostion.position;
         }
+    }
+
+    private void JumpingHandler()
+    {
+        if (AttackDirection.y > 0)
+        {
+            if (attackB.rotation.eulerAngles.x == 180) RotateRelative(_player, attackB, -90f);
+            else if (attackB.rotation.eulerAngles.z != 90) RotateRelative(_player, attackB, 90f);
+
+            attackB.position = _attackPostion.position + new Vector3(1, 1, 0);
+            attackA.position = _attackPostion.position;
+        }
+
+        if (AttackDirection.y < 0)
+        {
+            attackA.rotation = Quaternion.Euler(0f, 0f, 180f);
+            if (attackB.rotation.eulerAngles.z != 270) RotateRelative(_player, attackB, -90f);
+
+            attackA.position = _attackPostion.position + new Vector3(0, 1.5f, 0);
+            attackB.position = _attackPostion.position + new Vector3(-0.5f, 0, 0);
+        }
+
+        attackC.position = _attackPostion.position;
     }
 
     private void HandleStopPositions()
@@ -153,5 +186,10 @@ public class PlayerPositioningAttack : MonoBehaviour
 
         // Copy rotation
         target.rotation = source.rotation;
+    }
+
+    public void ReleaseAttack()
+    {
+        _playerCombat.ReleaseAttack();
     }
 }

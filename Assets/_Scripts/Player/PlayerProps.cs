@@ -26,6 +26,12 @@ public class PlayerProps : MonoBehaviour
     [SerializeField]
     private float _cooldownAfterHit = 1f;
 
+    [Header("Refining")]
+    [SerializeField]
+    private float _timeScaleDuringHitPause = 0.1f;
+    [SerializeField]
+    private float _hitPauseDuration = 0.05f;
+
     private Rigidbody2D _rb;
     private Transform _tr;
     private PlayerAnimationController _pa;
@@ -87,6 +93,7 @@ public class PlayerProps : MonoBehaviour
         _hasDamaged = true;
         
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+        FreezingFeedback();
         StartCoroutine(EndOfEffects());
     }
 
@@ -133,6 +140,25 @@ public class PlayerProps : MonoBehaviour
             _isDead = true;
             onPlayerDead(gameObject.transform.parent.gameObject);
         }
+    }
+
+    private bool _isFreezing = false;
+    private void FreezingFeedback()
+    {
+        if (_isFreezing) return;
+        _isFreezing = true;
+        StartCoroutine(HitPauseCoroutine());
+    }
+
+    private IEnumerator HitPauseCoroutine()
+    {
+        float originalTimeScale = Time.timeScale;
+        Time.timeScale = _timeScaleDuringHitPause;
+
+        yield return new WaitForSecondsRealtime(_hitPauseDuration);
+
+        Time.timeScale = originalTimeScale;
+        _isFreezing = false;
     }
 
     public float GetLife()

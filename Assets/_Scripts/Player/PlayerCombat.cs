@@ -1,5 +1,6 @@
+using Cinemachine;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(PlayerProps))]
 public class PlayerCombat : MonoBehaviour
@@ -21,17 +22,24 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField]
     private float _knockbackHitForce = 40f;
 
+    [Header("Refining Props")]
+    [SerializeField]
+    private float _indulgenceTimeBossHit = 0.5f;
+
     // Isso est� exposto
     public static PlayerCombat instance;
     public bool IsAttacking = false;
     public float AttackRange = 0.5f;
-    
 
     private PlayerProps _pp;
     private PlayerController _pc;
     private PlayerInputHandler _pih;
     private Rigidbody2D _rb;
     private Vector2 _attackDirection;
+
+    private bool _shouldBossReceiveAttack = false;
+    private float _indulgenceTimer = 0f;
+
 
     private void OnDrawGizmosSelected()
     {
@@ -54,6 +62,20 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         _attackDirection = _pih.GetDirection();
+
+        if (_shouldBossReceiveAttack && Time.timeScale > 0)
+        {
+            if (_indulgenceTimer <= _indulgenceTimeBossHit)
+            {
+                TucanoRexHit();
+                _indulgenceTimer += Time.deltaTime;
+            }
+            else
+            {
+                _indulgenceTimer = 0;
+                _shouldBossReceiveAttack = false;
+            }
+        }
     }
 
     private void OnEnable()
@@ -80,14 +102,12 @@ public class PlayerCombat : MonoBehaviour
         float currentX = mag.x > 0 ? mag.x : mag.x * -1;
         float currentY = mag.y > 0 ? mag.y : mag.y * -1;
 
-        if (currentY > currentX)
-        {
-            // Debug.Log("Attack to top/down");
+        if (currentY >= currentX)
+        {   
             AttackPoint.localPosition = new Vector3(0, mag.y * _distanceToPlayer, 0);   
         }
         else 
         {
-            // Debug.Log("Attack to player direction");
             AttackPoint.localPosition = new Vector3(_distanceToPlayer, AttackRange / 3, 0);
         }
     }
@@ -103,10 +123,10 @@ public class PlayerCombat : MonoBehaviour
 
         HitBlockByRaycast();
 
-        TucanoRexHit();
+        _shouldBossReceiveAttack = true;
     }
 
-    private void ReleaseAttack()
+    public void ReleaseAttack()
     {
         // Play an attack animation
         IsAttacking = false;
@@ -134,7 +154,7 @@ public class PlayerCombat : MonoBehaviour
             if (e != null)
             {
                 e.TakeDamage(_pp.GetCurrentDamage());
-                if (_attackDirection.y < 0 && !_pc.IsOnGound()) KnockbackToDirection(Vector2.up); 
+                if (_attackDirection.y < 0 && !_pc.IsOnGound()) KnockbackToDirection(Vector2.up);
             }
         }
     }
@@ -198,7 +218,6 @@ public class PlayerCombat : MonoBehaviour
 
     private void KnockbackToDirection(Vector2 direction)
     {
-        // Debug.Log($"Called to {direction.normalized * _knockbackHitForce}");
         _rb.velocity = Vector2.zero;
         _rb.gravityScale = _pc.GetGravityToKnockback();
         _rb.AddForce(direction.normalized * _knockbackHitForce, ForceMode2D.Impulse);

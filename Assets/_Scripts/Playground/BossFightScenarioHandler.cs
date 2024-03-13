@@ -11,6 +11,8 @@ public class BossFightScenarioHandler : MonoBehaviour
     private ParticleSystem _leftRocks;
     [SerializeField]
     private ParticleSystem _rightRocks;
+    [SerializeField]
+    private TargetHandler _targetHandler;
 
     public void RestartScenario()
     {
@@ -38,5 +40,21 @@ public class BossFightScenarioHandler : MonoBehaviour
     public void DropRock()
     {
         _rockDrops.StartDroping();
+    }
+
+    public void SetTargetNextPos()
+    {
+        _targetHandler.NextPostion();
+    }
+
+    public void StartTarget()
+    {
+        _targetHandler.gameObject.SetActive(true);
+        _targetHandler.Initiate();
+    }
+
+    public void LastTarget()
+    {
+        _targetHandler.gameObject.SetActive(false);
     }
 }

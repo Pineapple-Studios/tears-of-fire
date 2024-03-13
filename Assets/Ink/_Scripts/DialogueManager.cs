@@ -15,7 +15,6 @@ public class DialogueManager : MonoBehaviour
     //[SerializeField] public bool isTalking = false;
 
     [SerializeField] string npcName;
-    [SerializeField] GameObject player;
 
     static Story story;
     TMP_Text nametag;

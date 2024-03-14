@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 1175420502187175053}
   - component: {fileID: 6389035521201139887}
   - component: {fileID: 4084587884178894665}
+  - component: {fileID: 71028000825764802}
   m_Layer: 3
   m_Name: Engines
   m_TagString: Untagged
@@ -212,7 +213,6 @@ MonoBehaviour:
   _magneticHookMask:
     serializedVersion: 2
     m_Bits: 1024
-  Actions: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
 --- !u!114 &4240762641039968727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +230,7 @@ MonoBehaviour:
   _hitDamage: 35
   _recallTime: 0.5
   RecallColliderTime: 1
+  _cooldownAfterHit: 1
   IsTakingDamage: 0
 --- !u!114 &1175420502187175053
 MonoBehaviour:
@@ -276,7 +277,6 @@ MonoBehaviour:
     m_Bits: 512
   _offset: {x: 0, y: 0.69, z: 0}
   _knockbackHitForce: 40
-  Actions: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
   IsAttacking: 0
   AttackRange: 2
 --- !u!114 &4084587884178894665
@@ -293,6 +293,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 6327985370641442998}
   _animator: {fileID: 68879158681924596}
+--- !u!114 &71028000825764802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127031463221335106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8931395142a1b4fa11a116ba406a22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionsAsset: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
 --- !u!1 &6187229064835379518
 GameObject:
   m_ObjectHideFlags: 0
@@ -10322,7 +10335,6 @@ MonoBehaviour:
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
   _knockBackForce: 40
-  _knockDistance: 7
   JumpSpeed: 34
   CoyoteTime: 0.125
   JumpTimer: 0
@@ -10332,14 +10344,12 @@ MonoBehaviour:
   _fallVelocityMultiplayer: 5.1
   _onGround: 0
   _roofColliderOffset: {x: 0, y: 1.49, z: 0}
-  _onRoof: 0
   _distanceToGround: 0.81
   _colliderOffset: {x: 0.35, y: 0, z: 0}
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
   _cameraFollowGameObject: {fileID: 0}
-  Actions: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
 --- !u!1 &8366991350188794246
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,10 @@ guid: 9b96320b711061e478982c66f64b33e4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _actionAsset: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
+  - ImageKeyboard: {instanceID: 0}
+  - ImageJoystick: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

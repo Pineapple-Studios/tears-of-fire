@@ -958,6 +958,34 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Joystick"",
+            ""id"": ""d9350380-b92e-470d-a221-d1ca906a9d3a"",
+            ""actions"": [
+                {
+                    ""name"": ""Joystick"",
+                    ""type"": ""Button"",
+                    ""id"": ""8d3ea5e7-70ac-45f3-99d4-228542999f6a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""4f27bc68-e4b5-4c70-81f8-09dfdff72423"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/button3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Joystick"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -986,6 +1014,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         // Dialogue
         m_Dialogue = asset.FindActionMap("Dialogue", throwIfNotFound: true);
         m_Dialogue_Interaction = m_Dialogue.FindAction("Interaction", throwIfNotFound: true);
+        // Joystick
+        m_Joystick = asset.FindActionMap("Joystick", throwIfNotFound: true);
+        m_Joystick_Joystick = m_Joystick.FindAction("Joystick", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1345,6 +1376,52 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         }
     }
     public DialogueActions @Dialogue => new DialogueActions(this);
+
+    // Joystick
+    private readonly InputActionMap m_Joystick;
+    private List<IJoystickActions> m_JoystickActionsCallbackInterfaces = new List<IJoystickActions>();
+    private readonly InputAction m_Joystick_Joystick;
+    public struct JoystickActions
+    {
+        private @InputActions m_Wrapper;
+        public JoystickActions(@InputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Joystick => m_Wrapper.m_Joystick_Joystick;
+        public InputActionMap Get() { return m_Wrapper.m_Joystick; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(JoystickActions set) { return set.Get(); }
+        public void AddCallbacks(IJoystickActions instance)
+        {
+            if (instance == null || m_Wrapper.m_JoystickActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_JoystickActionsCallbackInterfaces.Add(instance);
+            @Joystick.started += instance.OnJoystick;
+            @Joystick.performed += instance.OnJoystick;
+            @Joystick.canceled += instance.OnJoystick;
+        }
+
+        private void UnregisterCallbacks(IJoystickActions instance)
+        {
+            @Joystick.started -= instance.OnJoystick;
+            @Joystick.performed -= instance.OnJoystick;
+            @Joystick.canceled -= instance.OnJoystick;
+        }
+
+        public void RemoveCallbacks(IJoystickActions instance)
+        {
+            if (m_Wrapper.m_JoystickActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IJoystickActions instance)
+        {
+            foreach (var item in m_Wrapper.m_JoystickActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_JoystickActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public JoystickActions @Joystick => new JoystickActions(this);
     public interface IUIActions
     {
         void OnNavigation(InputAction.CallbackContext context);
@@ -1373,5 +1450,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     public interface IDialogueActions
     {
         void OnInteraction(InputAction.CallbackContext context);
+    }
+    public interface IJoystickActions
+    {
+        void OnJoystick(InputAction.CallbackContext context);
     }
 }

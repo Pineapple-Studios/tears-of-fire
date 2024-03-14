@@ -936,6 +936,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Joystick",
+            "id": "d9350380-b92e-470d-a221-d1ca906a9d3a",
+            "actions": [
+                {
+                    "name": "Joystick",
+                    "type": "Button",
+                    "id": "8d3ea5e7-70ac-45f3-99d4-228542999f6a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4f27bc68-e4b5-4c70-81f8-09dfdff72423",
+                    "path": "<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Joystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

@@ -27,13 +27,13 @@ public class PopUp_Tutorial : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Destroy(popupAttack);
+            popupAttack.SetActive(false);
             Collider2D collider = atkCollider.GetComponent<Collider2D>();
             collider.enabled = false;
         } 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Destroy(popupJump);
+            popupJump.SetActive(false);
             Collider2D collider = jumpCollider.GetComponent<Collider2D>();
             collider.enabled = false;
         }
@@ -53,8 +53,8 @@ public class PopUp_Tutorial : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(popupObject);
-            Destroy(this); 
+            popupObject.SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 }

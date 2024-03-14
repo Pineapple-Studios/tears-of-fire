@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using System;
 
 public class SetupInputActions : MonoBehaviour
 {
@@ -47,7 +44,6 @@ public class SetupInputActions : MonoBehaviour
     {
         image = gameObject.GetComponent<Image>();
         image.sprite = LocalStorage.GetIsUsingKeyboard(false) ? ImageKeyboard : ImageJoystick;
-        this.enabled = true;
     }
 
     public void OnEnable()
@@ -64,15 +60,14 @@ public class SetupInputActions : MonoBehaviour
 
     private void OnKeyboard(InputAction.CallbackContext context)
     {
-        image.sprite = ImageKeyboard;
+        if (image != null) image.sprite = ImageKeyboard;
         LocalStorage.SetIsUsingKeyboard(true);
     }
 
     private void OnJoystick(InputAction.CallbackContext context)
     {
-        image.sprite = ImageJoystick;
+        if (image != null) image.sprite = ImageJoystick;
         LocalStorage.SetIsUsingKeyboard(false);
     }
-
 }
 

@@ -208,6 +208,15 @@ public class PlayerController : MonoBehaviour
         _rb.gravityScale = GravityScale;
     }
 
+    public void Respawn()
+    {
+        _isRespawning = true;
+        _isInputDisabled = false;
+        _externalVelocity = Vector2.zero;
+        _rb.velocity = Vector2.zero;
+        _rb.gravityScale = GravityScale;
+    }
+
     private void FixedUpdate()
     {
         _canJump = JumpTimer > Time.time && _onGround || (JumpTimer > Time.time && !_onGround && _coyoteCounter < CoyoteTime);

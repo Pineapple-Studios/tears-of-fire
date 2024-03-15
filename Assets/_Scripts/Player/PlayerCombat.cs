@@ -68,6 +68,7 @@ public class PlayerCombat : MonoBehaviour
             if (_indulgenceTimer <= _indulgenceTimeBossHit)
             {
                 TucanoRexHit();
+                EnemyHit();
                 _indulgenceTimer += Time.deltaTime;
             }
             else
@@ -119,7 +120,7 @@ public class PlayerCombat : MonoBehaviour
         // Play an attack animation
         IsAttacking = true;
 
-        EnemyHit();
+       // EnemyHit();
 
         HitBlockByRaycast();
 

@@ -151,4 +151,36 @@ public class LevelDataManager : MonoBehaviour
     {
         _levelData.EnemiesDead.Add(new EnemyDead(pos, enemy));
     }
+
+
+
+    public void RespawnToCheckpoint(GameObject obj, Vector3 pos)
+    {
+        _levelData.TimesDied += 1;
+
+        obj.SetActive(false);
+
+        StartCoroutine(HandleRespawnToCheckpointAnimationPlayer(obj, pos));
+    }
+
+    private IEnumerator HandleRespawnToCheckpointAnimationPlayer(GameObject player, Vector3 position)
+    {
+        _deathTransition.SetActive(true);
+        yield return new WaitForSeconds(_waitTransitionSeconds / 2);
+
+        // Mudando a localização do jogador quando a tela está escura
+        player.transform.position = position;
+        // Reiniciando inimigos
+        RespawnEnemies();
+        // Mostrando a vida
+        player.GetComponentInChildren<PlayerProps>().FullHeal();
+        onRestartElements();
+
+        yield return new WaitForSeconds(_waitTransitionSeconds / 2);
+        _deathTransition.SetActive(false);
+
+        player.SetActive(true);
+        player.GetComponentInChildren<PlayerAnimationController>().StartRespawn();
+    }
+
 }

@@ -20,4 +20,6 @@ public class Checkpoint : MonoBehaviour
             _anim.SetBool("IsOn", true);
         }
     }
+
+    public Transform GetSpawnPoint() => _spawnPoint;
 }

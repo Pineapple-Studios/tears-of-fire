@@ -1,5 +1,5 @@
+using System.Collections.Generic;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 
 public class FeedbackAndDebugManager : MonoBehaviour
@@ -31,6 +31,10 @@ public class FeedbackAndDebugManager : MonoBehaviour
     private GameObject _sceneButtonGroup;
     [SerializeField]
     private GameObject _goToPrefab;
+    [SerializeField]
+    private GameObject _goCheckpoint;
+    [SerializeField]
+    private GameObject _checkpointButtonGroup;
 
     [Header("Feedback labels")]
     [SerializeField]
@@ -38,10 +42,26 @@ public class FeedbackAndDebugManager : MonoBehaviour
     [SerializeField]
     private TMP_Text _infinityLifeStateLabel;
 
+    public struct SCheckpoint
+    {
+        public string _name;
+        public Vector3 _pos;
+
+        public SCheckpoint(string name, Vector3 pos)
+        {
+            _name = name;
+            _pos = pos;
+        }
+    }
+
+    private List<SCheckpoint> _checkpoints = new();
+
     private void Start()
     {
+        SaveAllCheckpoints();
         HandlePanel();
         HandleSceneButtons();
+        HandleCheckpointButtons();
     }
 
     private void Update()
@@ -68,6 +88,17 @@ public class FeedbackAndDebugManager : MonoBehaviour
         }
     }
 
+    private void HandleCheckpointButtons()
+    {
+        if (_checkpoints.Count == 0) return;
+        foreach (SCheckpoint check in _checkpoints)
+        {
+            GameObject btnCheckpoint = Instantiate(_goCheckpoint, _checkpointButtonGroup.transform);
+            btnCheckpoint.GetComponent<GoToCheckpoint>().CheckpointName = check._name;
+            btnCheckpoint.GetComponent<GoToCheckpoint>().Pos = check._pos;
+        }
+    }
+
     private void ShowFeedbackPlayerEngines()
     {
         // Controlando label do dash
@@ -80,6 +111,20 @@ public class FeedbackAndDebugManager : MonoBehaviour
     {
         if (_dataController.IsDebugPanelActive) _debugPanel.SetActive(true);
         else _debugPanel.SetActive(false);
+    }
+
+    private void SaveAllCheckpoints()
+    {
+        Checkpoint[] _checks = FindObjectsOfType<Checkpoint>();
+        foreach(Checkpoint check in _checks)
+        {
+            SCheckpoint tmpCheck = new SCheckpoint(
+                check.gameObject.transform.parent.gameObject.name, 
+                check.GetSpawnPoint().position
+            );
+
+            _checkpoints.Add(tmpCheck);
+        }
     }
 
 
@@ -108,4 +153,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
     {
         return _dataController.IsInifinityLife;
     }
+
+
+    
 }

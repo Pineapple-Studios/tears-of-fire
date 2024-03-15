@@ -53,7 +53,10 @@ public class ScenarioColorManager : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (_followTo == null) SetFollowTo(FindAnyObjectByType<PlayerController>().transform);
+        PlayerController pc = FindAnyObjectByType<PlayerController>();
+        
+        if (pc == null) return;
+        if (_followTo == null) SetFollowTo(pc.transform);
 
         SetEnvironmentColor();
         SetAmbienceLight();

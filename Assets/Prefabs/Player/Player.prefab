@@ -128,6 +128,7 @@ MonoBehaviour:
   attackC: {fileID: 330209141316045156}
   _attackPostion: {fileID: 7639587385293568735}
   _player: {fileID: 1834330006895731212}
+  _playerCombat: {fileID: 6389035521201139887}
   AttackDirection: {x: 0, y: 0}
 --- !u!1 &3773375190089590257
 GameObject:
@@ -175,7 +176,7 @@ GameObject:
   - component: {fileID: 1175420502187175053}
   - component: {fileID: 6389035521201139887}
   - component: {fileID: 4084587884178894665}
-  - component: {fileID: 71028000825764802}
+  - component: {fileID: 7063672120583145126}
   m_Layer: 3
   m_Name: Engines
   m_TagString: Untagged
@@ -277,6 +278,9 @@ MonoBehaviour:
     m_Bits: 512
   _offset: {x: 0, y: 0.69, z: 0}
   _knockbackHitForce: 40
+  _indulgenceTimeBossHit: 0.5
+  _timeScaleDuringHitPause: 0.1
+  _hitPauseDuration: 0.05
   IsAttacking: 0
   AttackRange: 2
 --- !u!114 &4084587884178894665
@@ -293,7 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 6327985370641442998}
   _animator: {fileID: 68879158681924596}
---- !u!114 &71028000825764802
+--- !u!114 &7063672120583145126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

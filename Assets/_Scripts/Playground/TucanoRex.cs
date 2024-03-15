@@ -52,7 +52,7 @@ public class TucanoRex : MonoBehaviour
 
     private void UpdateLife(int life)
     {
-        _lblLifeBoss.text = life.ToString();
+        if (_lblLifeBoss != null) _lblLifeBoss.text = life.ToString();
         _anim.SetInteger("bossLife", life);
     }
 }

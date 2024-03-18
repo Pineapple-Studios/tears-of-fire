@@ -103,6 +103,12 @@ public class PlayerCombat : MonoBehaviour
         float currentX = mag.x > 0 ? mag.x : mag.x * -1;
         float currentY = mag.y > 0 ? mag.y : mag.y * -1;
 
+        if (mag == Vector2.zero)
+        {
+            AttackPoint.localPosition = new Vector3(_distanceToPlayer, AttackRange / 3, 0);
+            return;
+        }
+
         if (currentY >= currentX)
         {   
             AttackPoint.localPosition = new Vector3(0, mag.y * _distanceToPlayer, 0);   

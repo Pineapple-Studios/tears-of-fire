@@ -6,6 +6,8 @@ tpsheetFileNames:
 - Assets/_Sprites/Player/svart-1.tpsheet
 - Assets/_Sprites/Player/svart-2.tpsheet
 - Assets/_Sprites/Player/svart-anims.tpsheet
+- Assets/_Sprites/tutorial-b.tpsheet
+- Assets/_Sprites/tutorial-default.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/_Sprites/Enemies/crawler-0.png
@@ -14,8 +16,12 @@ textureFileNames:
 - Assets/_Sprites/Player/svart-1.png
 - Assets/_Sprites/Player/svart-2.png
 - Assets/_Sprites/Player/svart-anims.png
+- Assets/_Sprites/tutorial-b.png
+- Assets/_Sprites/tutorial-default.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
 - 
 - 
 - 

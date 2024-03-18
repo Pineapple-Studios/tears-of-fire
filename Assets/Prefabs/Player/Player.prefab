@@ -232,6 +232,8 @@ MonoBehaviour:
   _recallTime: 0.5
   RecallColliderTime: 1
   _cooldownAfterHit: 1
+  _timeScaleDuringHitPause: 0.1
+  _hitPauseDuration: 0.05
   IsTakingDamage: 0
 --- !u!114 &1175420502187175053
 MonoBehaviour:
@@ -279,8 +281,6 @@ MonoBehaviour:
   _offset: {x: 0, y: 0.69, z: 0}
   _knockbackHitForce: 40
   _indulgenceTimeBossHit: 0.5
-  _timeScaleDuringHitPause: 0.1
-  _hitPauseDuration: 0.05
   IsAttacking: 0
   AttackRange: 2
 --- !u!114 &4084587884178894665
@@ -10338,7 +10338,7 @@ MonoBehaviour:
   MoveSpeed: 19
   Direction: {x: 0, y: 0}
   IsFacingRight: 1
-  _knockBackForce: 40
+  _knockBackForce: 50
   JumpSpeed: 34
   CoyoteTime: 0.125
   JumpTimer: 0

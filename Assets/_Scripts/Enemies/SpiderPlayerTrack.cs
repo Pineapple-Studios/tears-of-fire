@@ -82,9 +82,14 @@ public class SpiderPlayerTrack : MonoBehaviour
     private void ToggleFollowing()
     {
         if (_player == null)
-            _player = FindFirstObjectByType<PlayerController>().gameObject;
+        {
+            var pc = FindFirstObjectByType<PlayerController>();
+            if (pc != null) _player = pc.gameObject;
+        } 
         else
+        {
             _player = null;
+        }
     }
 
     public void StopMoviment()

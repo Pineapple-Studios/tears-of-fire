@@ -27,6 +27,10 @@ public class FeedbackAndDebugScriptableObject : ScriptableObject
     [Tooltip("Habilita/desabilita visa infinita")]
     public bool IsInifinityLife = false;
 
+    [Header("Player Items")]
+    [Tooltip("Item que permite ao jogador entrar na sala do Kwy")]
+    public bool HasKwyRoomsKey = false;
+
     [Header("Game play engines")]
     [Tooltip("Cenas dispon�neis")]
     public List<string> SceneList = new List<string> { };

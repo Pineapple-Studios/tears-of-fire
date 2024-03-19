@@ -28,6 +28,9 @@ public class LevelDataScriptableObject : ScriptableObject
     [Header("Player props")]
     public bool hasDash = false;
 
+    [Header("Player items")]
+    public bool hasKwyRoomKey = false;
+
     [Header("Enemies")]
     public List<EnemyDead> EnemiesDead;
 }

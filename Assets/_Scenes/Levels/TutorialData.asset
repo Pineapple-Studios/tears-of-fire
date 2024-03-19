@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: TutorialData
   m_EditorClassIdentifier: 
   currentLevelName: 
-  lastCheckpoint: {x: 14.4, y: 3.4, z: 0}
-  TimesDied: 0
+  lastCheckpoint: {x: 168.21, y: 148.07, z: 0}
+  TimesDied: 1
   hasDash: 0
-  EnemiesDead: []
+  hasKwyRoomKey: 1
+  EnemiesDead:
+  - GameObject: {fileID: 0}
+    Position: {x: 296.47, y: 86.28999, z: 0}
+  - GameObject: {fileID: 0}
+    Position: {x: 313.9, y: 78.86, z: 0}
+  - GameObject: {fileID: 0}
+    Position: {x: 312.3, y: 91.95, z: 0}
+  - GameObject: {fileID: 0}
+    Position: {x: 297.2, y: 110.87, z: 0.043138742}
+  - GameObject: {fileID: 0}
+    Position: {x: 319.6, y: 113.87, z: 0}

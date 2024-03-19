@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6162197211990624721}
   - component: {fileID: 7316661099156995821}
   - component: {fileID: 8899272208542495531}
-  m_Layer: 6
+  m_Layer: 11
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8779538577396843881}
   - component: {fileID: 5805198377323064931}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DynamicScenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805313753181721202}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ Transform:
   m_GameObject: {fileID: 4906324067438323946}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.918577, y: -15.216019, z: 3.4718473}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 12, y: -11.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7377086019191943748}
@@ -742,16 +742,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pos:
-  - {x: 17.53, y: 2.42, z: 0}
-  - {x: 48.87, y: 15.09, z: 0}
-  - {x: 36.26, y: 2.48, z: 0}
-  - {x: 12.89, y: 2.48, z: 0}
-  - {x: -0.52, y: 17.69, z: 0}
-  - {x: 9.62, y: 2.36, z: 0}
-  - {x: 47.58, y: 2.17, z: 0}
-  - {x: 49.06, y: 9.9, z: 0}
-  - {x: 32.18, y: 2.36, z: 0}
-  - {x: 2.26, y: 16.02, z: 0}
+  - {x: 12, y: -11.5, z: 0}
+  - {x: 22.6, y: 1, z: 0}
+  - {x: 10.4, y: -11.4, z: 0}
+  - {x: -22.9, y: -11.4, z: 0}
+  - {x: 0.8, y: -11.9, z: 0}
+  - {x: 21.7, y: -11.6, z: 0}
+  - {x: -20, y: -11.6, z: 0}
+  - {x: 16.2, y: -11.6, z: 0}
+  - {x: 19.9, y: 0.1, z: 0}
   _offset: {x: 0, y: -3, z: 0}
   _anim: {fileID: 549892921846415999}
 --- !u!1 &5298416363131037411
@@ -5707,7 +5706,7 @@ Transform:
   - {fileID: 5171819120835552113}
   - {fileID: 3028722121325726151}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6328337055428031460
 GameObject:
@@ -5720,7 +5719,7 @@ GameObject:
   - component: {fileID: 4096968572967503993}
   - component: {fileID: 2508853710825485555}
   - component: {fileID: 1388029086916919780}
-  m_Layer: 6
+  m_Layer: 11
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

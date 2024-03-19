@@ -55,4 +55,9 @@ public class TucanoRex : MonoBehaviour
         if (_lblLifeBoss != null) _lblLifeBoss.text = life.ToString();
         _anim.SetInteger("bossLife", life);
     }
+
+    public void StartTucanoRex()
+    {
+        _anim.SetBool("isStarted", true);
+    }
 }

@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757e0d295238684429e31b57e4ddd410, type: 3}
   m_Name: GameDebugTool
   m_EditorClassIdentifier: 
-  IsDebugPanelActive: 0
+  IsDebugPanelActive: 1
   IsConsoleEnable: 0
   ShowLastInputList: 0
   IsFeedbackObjectsVisible: 0
   HasEnemies: 1
   IsCollidersVisible: 0
   IsDashEnabled: 1
-  IsInifinityLife: 0
+  IsInifinityLife: 1
+  HasKwyRoomsKey: 1
   SceneList:
   - Tutorial
   IsConclude: 0

@@ -125,6 +125,15 @@ public class LevelDataManager : MonoBehaviour
         _levelData.lastCheckpoint = trans;
     }
 
+    public void SetKwyRoomKey(bool state)
+    {
+        _levelData.hasKwyRoomKey = state;
+    }
+    public bool GetKwyRoomKey()
+    {
+        return _levelData.hasKwyRoomKey;
+    }
+
     public void SetDashState(bool state)
     {
         _levelData.hasDash = state;

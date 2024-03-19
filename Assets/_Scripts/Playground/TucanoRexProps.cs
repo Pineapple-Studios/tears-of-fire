@@ -37,6 +37,16 @@ public class TucanoRexProps : MonoBehaviour
     private float _cdToReceiveDamage = 0f;
     private bool _isDead = false;
 
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += RestartTucanoRex;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= RestartTucanoRex;
+    }
+
     private void Start()
     {
         _life = _maxLife;
@@ -53,7 +63,6 @@ public class TucanoRexProps : MonoBehaviour
             _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damage);
             _isCooldownDamage = true;
-
         }
     }
 
@@ -118,5 +127,6 @@ public class TucanoRexProps : MonoBehaviour
         _feedbackAnimController.Rebind();
         _feedbackAnimController.Update(0f);
         _bfsh.RestartScenario();
+        _gamePlayAnimController.SetBool("isStarted", true);
     }
 }

@@ -39,6 +39,7 @@ public class NextLevelDoor : MonoBehaviour
     {
         if (!_mustStart) return;
 
+        _playerRb.gravityScale = 0f;
         _playerRb.velocity += _forceApplied * Time.deltaTime;
     }
 

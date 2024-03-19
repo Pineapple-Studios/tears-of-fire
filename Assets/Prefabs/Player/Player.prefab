@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 6389035521201139887}
   - component: {fileID: 4084587884178894665}
   - component: {fileID: 7063672120583145126}
+  - component: {fileID: 1455273415433720936}
   m_Layer: 3
   m_Name: Engines
   m_TagString: Untagged
@@ -310,6 +311,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _actionsAsset: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
+--- !u!114 &1455273415433720936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127031463221335106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e894edf5482474c8e6976c14a14dd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187229064835379518
 GameObject:
   m_ObjectHideFlags: 0

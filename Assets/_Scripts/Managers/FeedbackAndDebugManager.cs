@@ -40,6 +40,8 @@ public class FeedbackAndDebugManager : MonoBehaviour
     [SerializeField]
     private TMP_Text _dashStateLabel;
     [SerializeField]
+    private TMP_Text _kwyRoomKeyStateLabel;
+    [SerializeField]
     private TMP_Text _infinityLifeStateLabel;
 
     public struct SCheckpoint
@@ -105,6 +107,8 @@ public class FeedbackAndDebugManager : MonoBehaviour
         _dashStateLabel.text = _dataController.IsDashEnabled || LevelDataManager.Instance.GetDashStatus() ? "Dash is ENABLED" : "Dash is DISABLED";
         // Controlando label da vida infinita
         _infinityLifeStateLabel.text = _dataController.IsInifinityLife ? "InifityLife is ENABLED" : "InifityLife is DISABLED";
+        // Controlando label da chave da sala do key
+        _kwyRoomKeyStateLabel.text = _dataController.HasKwyRoomsKey ? "WITH kwy room's key" : "WITHOT Kwy room's key";
     }
 
     private void HandlePanel()
@@ -154,6 +158,10 @@ public class FeedbackAndDebugManager : MonoBehaviour
         return _dataController.IsInifinityLife;
     }
 
+    public void ToggleKwyKey()
+    {
+        _dataController.HasKwyRoomsKey = !_dataController.HasKwyRoomsKey;
+        LevelDataManager.Instance.SetKwyRoomKey(_dataController.HasKwyRoomsKey);
+    }
 
-    
 }

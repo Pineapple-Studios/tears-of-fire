@@ -38,8 +38,8 @@ public class PlayerDash : MonoBehaviour
 
     private void Awake()
     {
-        //Actions.FindActionMap("Gameplay").FindAction("PowerUp").performed += OnDash;
-        //Actions.FindActionMap("Gameplay").FindAction("PowerUp").canceled += AvoidPhysicsBroken;
+        Actions.FindActionMap("Gameplay").FindAction("PowerUp").performed += OnDash;
+        Actions.FindActionMap("Gameplay").FindAction("PowerUp").canceled += AvoidPhysicsBroken;
     }
 
     private void Start()
@@ -53,7 +53,7 @@ public class PlayerDash : MonoBehaviour
         PlayerProps.onPlayerDead += Respawn;
         PlayerController.onPlayerGround += SetIsGround;
         PlayerController.onPlayerJumping += SetIsJumping;
-        //Actions.FindActionMap("Gameplay").Enable();
+        Actions.FindActionMap("Gameplay").Enable();
     }
 
     private void OnDisable()
@@ -61,7 +61,7 @@ public class PlayerDash : MonoBehaviour
         PlayerProps.onPlayerDead -= Respawn;
         PlayerController.onPlayerGround -= SetIsGround;
         PlayerController.onPlayerJumping -= SetIsJumping;
-        //Actions.FindActionMap("Gameplay").Disable();
+        Actions.FindActionMap("Gameplay").Disable();
     }
 
     void Update()
@@ -136,12 +136,31 @@ public class PlayerDash : MonoBehaviour
         _isOnGround = false;
     }
 
-    //private void OnDash(InputAction.CallbackContext context)
-    //{
-    //    if (canDash) // Verifica se o Dash está disponível
-    //    {
-    //        StartCoroutine(Dash(context));
-    //    }
-    //}
+    private IEnumerator Dash(InputAction.CallbackContext context)
+    {
+        float direction = _rb.velocity.x;
+
+        // Habilitando dash sem apertar pros lados
+        if (direction == 0 && _pc.IsFacingRight) direction = _pc.MoveSpeed;
+        if (direction == 0 && !_pc.IsFacingRight) direction = _pc.MoveSpeed * -1;
+
+        onPlayerDashing();
+        canDash = false;
+        IsDashed = true;
+        _prevVelocity = _rb.velocity;
+        _rb.velocity = new Vector2(direction * _dashMultiplyer, 0);
+        _prevGravityScale = _rb.gravityScale;
+        _rb.gravityScale = 0;
+        yield return new WaitForSeconds(_dashDuration);
+        StartCoroutine(StopDash());
+    }
+
+    private void OnDash(InputAction.CallbackContext context)
+    {
+        if (canDash) // Verifica se o Dash está disponível
+        {
+            StartCoroutine(Dash(context));
+        }
+    }
 
 }

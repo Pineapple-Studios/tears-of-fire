@@ -15,7 +15,7 @@ public class DialogueHandler : MonoBehaviour
 
     [Header("YKE")]
     [SerializeField]
-    GameObject yke;
+    public GameObject yke;
 
     [SerializeField]
     GameObject dialogueManagerYKE;
@@ -102,7 +102,7 @@ public class DialogueHandler : MonoBehaviour
     void DialogueNPC()
     {
         if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
-       {
+        {
             Handler(interactionYKE, true);
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -112,14 +112,6 @@ public class DialogueHandler : MonoBehaviour
                 Debug.Log("Dialogo YKE");
             }
             if (textBox.activeSelf == true) { Handler(interactionYKE, false); }
-        }
-        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
-        {
-            if (Mathf.Abs(player.transform.position.y - yke.transform.position.y) < 2.0f)
-            {
-                Handler(yxo, false);
-                Handler(secondYxo, true);
-            }
         }
        
         if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
@@ -147,6 +139,12 @@ public class DialogueHandler : MonoBehaviour
                 Debug.Log("Dialogo YXO");
             }
             if (textBox.activeSelf == true) { Handler(interactionYXO, false); }
+        }
+
+        if(yke.activeSelf == true)
+        {
+            Handler(yxo, false);
+            Handler(secondYxo, true);
         }
 
         if (Mathf.Abs(player.transform.position.x - secondYxo.transform.position.x) <= 5.0f)

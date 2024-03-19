@@ -25,6 +25,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         if (inkFile == null) return;
 
         story = new Story(inkFile.text);
@@ -53,7 +54,9 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
+                GameObject yke = FindObjectOfType<DialogueHandler>().yke;
                 FinishDialogue();
+                yke.SetActive(false);
                 textBox.SetActive(false);
                 nametag.text = string.Empty;
                 message.text = string.Empty;
@@ -65,6 +68,7 @@ public class DialogueManager : MonoBehaviour
     // Finished the Story (Dialogue)
     private void FinishDialogue()
     {
+        story.ResetState();
         Debug.Log("End of Dialogue!");
     }
 

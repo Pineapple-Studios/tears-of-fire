@@ -19,6 +19,9 @@ public class CinemachineSwitcher : MonoBehaviour
     private const string SCEARIO_CAM_STATE = "ScenarioCamera";
     private const string BOSS_CAM_STATE = "BossCamera";
     private const string YAMSE_CAM_STATE = "YamseCamera";
+    private const string GRAVURA_CAM_STATE_A = "GravuraCamera_A";
+    private const string GRAVURA_CAM_STATE_B = "GravuraCamera_B";
+    private const string GRAVURA_CAM_STATE_C = "GravuraCamera_C";
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -44,6 +47,15 @@ public class CinemachineSwitcher : MonoBehaviour
             case ECamAvailable.YAMSE:
                 _anim.Play(YAMSE_CAM_STATE);
                 break;
+            case ECamAvailable.GRAVURA_A:
+                _anim.Play(GRAVURA_CAM_STATE_A);
+                break;
+            case ECamAvailable.GRAVURA_B:
+                _anim.Play(GRAVURA_CAM_STATE_B);
+                break;
+            case ECamAvailable.GRAVURA_C:
+                _anim.Play(GRAVURA_CAM_STATE_C);
+                break;
             case ECamAvailable.PLAYER:
             default:
                 _anim.Play(PLAYER_CAM_STATE);
@@ -59,5 +71,8 @@ public enum ECamAvailable
     PLAYER,
     SCENARIO,
     BOSS,
-    YAMSE
+    YAMSE,
+    GRAVURA_A,
+    GRAVURA_B,
+    GRAVURA_C
 }

@@ -9,8 +9,7 @@ using UnityEngine.InputSystem;
 
 public class DialogueHandler : MonoBehaviour
 {
-    [SerializeField]
-    private LevelDataScriptableObject _levelData;
+    public LevelDataManager levelDataManager;
 
     [Header("Player")]
     [SerializeField]
@@ -65,6 +64,7 @@ public class DialogueHandler : MonoBehaviour
 
     private void Awake()
     {
+        levelDataManager = GetComponent<LevelDataManager>();
         //actions.FindActionMap("Dialogue").FindAction("Interaction").performed += OnInteraction;
     }
 
@@ -80,7 +80,6 @@ public class DialogueHandler : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(_levelData.hasKwyRoomKey);
         // NPC's e Caixa de texto
         Handler(textBox, false);
         Handler(secondYxo, false);
@@ -115,8 +114,7 @@ public class DialogueHandler : MonoBehaviour
             {
                 Handler(textBox, true);
                 dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
-                Time.timeScale = 0;
-                _levelData.hasKwyRoomKey = true;
+                LevelDataManager.Instance.SetKwyRoomKey(true);
             }
             if (textBox.activeSelf == true) { Handler(interactionYKE, false); } 
         }
@@ -145,7 +143,7 @@ public class DialogueHandler : MonoBehaviour
             if (textBox.activeSelf == true) { Handler(interactionYXO, false); }
         }
 
-        if(_levelData.hasKwyRoomKey == true)
+        if (LevelDataManager.Instance.GetKwyRoomKey())   
         {
             Handler(yxo, false);
             Handler(secondYxo, true);

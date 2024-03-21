@@ -26,14 +26,14 @@ public class CinemachineSwitcher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((((1 << collision.gameObject.layer) & _playerMask) != 0) && LevelDataManager.Instance.MainCamera != null)
+        if ((((1 << collision.gameObject.layer) & _playerMask) != 0))
         {
             SwitchCam();
         }
     }
 
     private void SwitchCam()
-    {
+    {        
         if (_goToCam == LevelDataManager.Instance.GetCamState()) return;
 
         switch (_goToCam)

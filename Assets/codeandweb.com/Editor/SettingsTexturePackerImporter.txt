@@ -2,24 +2,42 @@ version: 2
 tpsheetFileNames:
 - Assets/_Sprites/Enemies/crawler-0.tpsheet
 - Assets/_Sprites/Enemies/spider-flyer.tpsheet
+- Assets/_Sprites/NPC/Oce/oce.tpsheet
+- Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-a.tpsheet
+- Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-b.tpsheet
+- Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-c.tpsheet
+- Assets/_Sprites/NPC/Yxo/talk/yxo_talk.tpsheet
 - Assets/_Sprites/Player/svart-0.tpsheet
 - Assets/_Sprites/Player/svart-1.tpsheet
 - Assets/_Sprites/Player/svart-2.tpsheet
 - Assets/_Sprites/Player/svart-anims.tpsheet
+- Assets/_Sprites/Scenario/Tutorial/scenario_assets.tpsheet
 - Assets/_Sprites/tutorial-b.tpsheet
 - Assets/_Sprites/tutorial-default.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/_Sprites/Enemies/crawler-0.png
 - Assets/_Sprites/Enemies/spider-flyer.png
+- Assets/_Sprites/NPC/Oce/oce.png
+- Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-a.png
+- Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-b.png
+- Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-c.png
+- Assets/_Sprites/NPC/Yxo/talk/yxo_talk.png
 - Assets/_Sprites/Player/svart-0.png
 - Assets/_Sprites/Player/svart-1.png
 - Assets/_Sprites/Player/svart-2.png
 - Assets/_Sprites/Player/svart-anims.png
+- Assets/_Sprites/Scenario/Tutorial/scenario_assets.png
 - Assets/_Sprites/tutorial-b.png
 - Assets/_Sprites/tutorial-default.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

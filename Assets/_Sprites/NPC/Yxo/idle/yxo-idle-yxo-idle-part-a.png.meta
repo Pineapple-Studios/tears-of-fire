@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 61d20a189c8245c45973c66cdf239263
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45.87
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YXOIDLE0001
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1
+        width: 455
+        height: 343
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3a0a75525ee5242a5fd2d99a54c4dd
+      internalID: -1595854775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0002
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 671
+        width: 455
+        height: 339
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b00a2911547a50409e1aaa3dc9c9c80
+      internalID: -1731527410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0003
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 668
+        width: 455
+        height: 339
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59a4f5315148de4f9858ebb0d66745a
+      internalID: 823699601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0004
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 665
+        width: 455
+        height: 340
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7594d99c2bdc77e4d85e5b9cd75833c8
+      internalID: 836329109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 666
+        width: 455
+        height: 340
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311873435ed0d1949b1946f220a867b1
+      internalID: 152971573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 455
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319d629ac89ae2c49a27c0ed17bd7343
+      internalID: 1095519727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0007
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1
+        width: 455
+        height: 343
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb95c8b17f905864a9cdce7323e24c96
+      internalID: -1557747117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0008
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 668
+        width: 455
+        height: 339
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe3b7e4b3354d64aba2c81ba04d3848
+      internalID: 664545545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1354
+        width: 455
+        height: 345
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6727d69237e3242b200f19909aebf8
+      internalID: -474665509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1008
+        width: 455
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d1427b34cc8b49ad2e7a3f9273b6a
+      internalID: -847914668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0011
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1013
+        width: 455
+        height: 341
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5504048d324cb3c4db95ebf905767e70
+      internalID: -1247549093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0012
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1
+        width: 455
+        height: 343
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805f11c19c1c2844d9605dfcc51fa430
+      internalID: -785448916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0013
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1356
+        width: 455
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8db011d624ddf7479d3d96e15d0164d
+      internalID: 1846816277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1701
+        width: 455
+        height: 346
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a9634a7e76f9c4aa2910addf86727f
+      internalID: -497472460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0015
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1009
+        width: 454
+        height: 343
+      alignment: 9
+      pivot: {x: 0.59911895, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c3b0a5b34ac244582afdbc36d7a3fd
+      internalID: 840804784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0016
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1702
+        width: 455
+        height: 345
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd0a9d2fe910284aa285cec7f1b5251
+      internalID: -2097571585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0017
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1
+        width: 454
+        height: 344
+      alignment: 9
+      pivot: {x: 0.59911895, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e522c209e0ec442b7d37fb9748ff26
+      internalID: -1110268838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0018
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1007
+        width: 453
+        height: 344
+      alignment: 9
+      pivot: {x: 0.6004415, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7483e0c4c0f7c44965619c4f8c286e
+      internalID: 1546440443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0019
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1009
+        width: 453
+        height: 343
+      alignment: 9
+      pivot: {x: 0.6004415, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656840ec1139f25468411604f83a6d53
+      internalID: 155844174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0020
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1354
+        width: 454
+        height: 345
+      alignment: 9
+      pivot: {x: 0.6013216, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7412266327044fa4a91268893a09c7d6
+      internalID: -1718302176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0021
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1354
+        width: 454
+        height: 345
+      alignment: 9
+      pivot: {x: 0.6013216, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0123e5a52a4ba3b4abda9be0a1da6354
+      internalID: -681141846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0022
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1353
+        width: 453
+        height: 346
+      alignment: 9
+      pivot: {x: 0.6004415, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a80f4c33bd43e149b5fd6e40abdda57
+      internalID: 2018760622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0023
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1701
+        width: 454
+        height: 346
+      alignment: 9
+      pivot: {x: 0.6013216, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409451dada1840a43b5d3abf53877b23
+      internalID: -394000565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0024
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1701
+        width: 454
+        height: 346
+      alignment: 9
+      pivot: {x: 0.6013216, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911cef0ee75e3aa4b98b177c7155bfa7
+      internalID: 1834885891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOIDLE0025
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1701
+        width: 454
+        height: 346
+      alignment: 9
+      pivot: {x: 0.6013216, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbca0b7ba5ecaa4290adf85c5d72b6b
+      internalID: 590165376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c209fa8a6fe54a4487895fb10af1321
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      YXOIDLE0001: -1595854775
+      YXOIDLE0002: -1731527410
+      YXOIDLE0003: 823699601
+      YXOIDLE0004: 836329109
+      YXOIDLE0005: 152971573
+      YXOIDLE0006: 1095519727
+      YXOIDLE0007: -1557747117
+      YXOIDLE0008: 664545545
+      YXOIDLE0009: -474665509
+      YXOIDLE0010: -847914668
+      YXOIDLE0011: -1247549093
+      YXOIDLE0012: -785448916
+      YXOIDLE0013: 1846816277
+      YXOIDLE0014: -497472460
+      YXOIDLE0015: 840804784
+      YXOIDLE0016: -2097571585
+      YXOIDLE0017: -1110268838
+      YXOIDLE0018: 1546440443
+      YXOIDLE0019: 155844174
+      YXOIDLE0020: -1718302176
+      YXOIDLE0021: -681141846
+      YXOIDLE0022: 2018760622
+      YXOIDLE0023: -394000565
+      YXOIDLE0024: 1834885891
+      YXOIDLE0025: 590165376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

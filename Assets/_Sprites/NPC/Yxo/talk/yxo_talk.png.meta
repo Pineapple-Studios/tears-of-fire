@@ -1,0 +1,3114 @@
+fileFormatVersion: 2
+guid: 9cca0701b4da2c842b97305a6cd748d4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45.87
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YXOTALK010001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087a04b2a65b7f41b633a75f94ba5ee
+      internalID: 525233459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f94e74b4f5a94799041cc18fc0440
+      internalID: -1036510706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f307a120f11dead46ac2329457e52c47
+      internalID: 661227559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9648fc12655794944b019e2adfa425a4
+      internalID: 1665578762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010005
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3a523812587c14e8831f17eb0261ba
+      internalID: -1724220204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010006
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2796909585e5d44b094d32f08ed9f0
+      internalID: -80710352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010007
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59faf991e598d55408f484e8012abde1
+      internalID: -1419609929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010008
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e17e74ee7b3e694b819c21d731d64b2
+      internalID: -621115165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1ec1a7f4fb2794ab2c3d845db11929
+      internalID: 300163747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c834fbfd060a44c87e2991f0a76f65
+      internalID: 772173280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004154c0c3b75c34da21e10a7f425e39
+      internalID: -1743095974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74808a340997af4cbcb74f745aa5587
+      internalID: 1289402261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a54ce941e074f040a657f70c3c82965
+      internalID: 1641302671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ff111119c5474ebec15f5f42a9f0c
+      internalID: -651227961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b089f5c7bce9e8445ae18e43f601a4b8
+      internalID: -149118478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43032da73235864886c9a3d44a89211
+      internalID: 324088261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24f661f32cc22440ae3cb5c1520a053
+      internalID: 937510342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010018
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda74ecb264836646b10d12637c7aefb
+      internalID: -379850871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010019
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b96b83a553b98d4aa87e9aabaf0bafd
+      internalID: 1765579833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010020
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2de2b358fffabc4a9c2b8c71ed7806a
+      internalID: -1485058470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010021
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7700575313b11354db5e139df519f5ed
+      internalID: -2097165732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010022
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69aa7914dc6e13a439c2e9dc59576298
+      internalID: -1649167807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010023
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6303981156f1fc408d045f53cd6c96b
+      internalID: -648696586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010024
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d497fb81911d094cb6a5c6757fdf4c1
+      internalID: -1429035908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010025
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d2842a7d81b9646a3129955f357eff
+      internalID: -681982789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010026
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbba745d71ac044a87c742dda1891dd
+      internalID: -569526010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010027
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70592606a1992fc4aabc32806cfc3c47
+      internalID: -1361914883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7ed565d0135454aac2972f8d36588d
+      internalID: 810611841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df337dae5bee49b4a8d50759b0a3e0d2
+      internalID: -1534526475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402e5f3476303014cb29679afe607430
+      internalID: -1456978720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010031
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e68b2a12e8ade342bf516e383e488d9
+      internalID: 1340255406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010032
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb43d944dd58ea44dbc607e605e87c5d
+      internalID: 1920942666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010033
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8aa0967bb0a94490eae5c09e816e6
+      internalID: 1832974710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010034
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e0b1457376eeb49a6d82d6b3560add
+      internalID: 618127921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010035
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb38190208c41a40b1880a45ed4b0f9
+      internalID: 1941441679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010036
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391466a26ad96e24898b3250bddb2826
+      internalID: -879800294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010037
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc5630baa2b0e94fb4fd619d04e1667
+      internalID: 1456321102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010038
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb90b422e8bdb6347b919d85ce3769df
+      internalID: -48754465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010039
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b67ce66599565c48af093672b97b758
+      internalID: 433163335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010040
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b35bc30cb3194aaceadc3dcaf948f
+      internalID: -1799370625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010041
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac22a812e7f7c0e42afd8c3a14aad8f9
+      internalID: -1847602793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010042
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d5fc06acd1402429bedcac130ffa4b
+      internalID: 1987389126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a8a7961b6e62c488fd7147fca54ca6
+      internalID: 638253810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71abf4e8fa503ee48838c4a78138683d
+      internalID: 411367316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010045
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8fa62106ef31440a950419dee3de32
+      internalID: -758174099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010046
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d9e9ff1afa70240bab77834b8cdbc2
+      internalID: 842149855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010047
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af382975b2b12834f94d77c6b71ccb09
+      internalID: 1037777257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010048
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9e91cf8acd7114ea6013d4b7a3b214
+      internalID: -850197393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010049
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b8978655d10d4698ae7b3a6d06ff0
+      internalID: 1436263196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3523e29b8ff6a0f49a248deb629753dc
+      internalID: 1972125444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010051
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09961ca1755786d42affa5a4530044b5
+      internalID: 1722696592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010052
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab0b9d69eb1cab4394cdff1340891ae
+      internalID: -650945001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010053
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c1feab835eac04190d22160197b29e
+      internalID: 308848136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010054
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc341fd9bf570246a4f229301dba739
+      internalID: -354454683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010055
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb6cd7a07752c44a68e5069148e79c
+      internalID: 267547047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010056
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed57197ed03ba7439c6da40e51dc5cd
+      internalID: -1935812327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010057
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d70abdb5a0c341b6f134292c624fc
+      internalID: -966448691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010058
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c47f74e258707a45b1f00cf3f0c11dd
+      internalID: 212639656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010059
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65d6196ed19ff34a9ae8d0db8969bec
+      internalID: -1212731924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010060
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3627acaa8f0c43341bb56bb6bdbd4f18
+      internalID: -1754518143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010061
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89856c1ae98e07241b5d6b8bdfb3ba78
+      internalID: 1154794670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010062
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815700a0792da07449a9d5b284f5fbea
+      internalID: 1834425155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010063
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8422eb813066e47b41a46026fc6882
+      internalID: -469404809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010064
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279d9c810bd9b844287498a778773a86
+      internalID: 1390173559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010065
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f7724c595e11243b432fef64cfeaa4
+      internalID: 66578186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010066
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050807388ed7ec7418d85b8ab8e4a672
+      internalID: -1561434034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010067
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604db409d37b5e64087a9ba1c0b9380f
+      internalID: -905138329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010068
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5203258d0a7950646823621775669887
+      internalID: -1367627880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010069
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36b77ccb6233bc4e9efbce2eccbe2aa
+      internalID: 127390917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010070
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9abe1ae9453b7347995462c8a9c5384
+      internalID: 331264428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010071
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781aeeafa406fa040977f9ecfd39b174
+      internalID: -1842398410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010072
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d58015d4cc301242b3dcd905d47d09a
+      internalID: 1377062401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010073
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b12ef21c2f8b44faf708efbb03d36c
+      internalID: 20016862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010074
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2129a27aaed8c46a1505c58f8759b4
+      internalID: 1027770350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010075
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f570ac24ca0124aa364748fce6ba1f
+      internalID: 94832047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010076
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318bcb8406e30c542815287283a5ecb6
+      internalID: -2050237267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010077
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1719a6045818f3a4cbde88d55c5ce32d
+      internalID: 39933265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010078
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be739f85fc6412b41b1ae6737341f6a4
+      internalID: 2099441898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010079
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210b9a7a12b601a46b3148509cc0e8bb
+      internalID: -602882964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010080
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e7a2f6b26f6d14194cb6d6986cb8b6
+      internalID: 1528927386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK010081
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 687
+        width: 461
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c429d93961867624ab71360bb8a60940
+      internalID: -579822317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020001
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561d89ecc648fae45be8842e3e77a8d7
+      internalID: -1731890865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020002
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7f0e087ca143749bdc01f30c4b40dd
+      internalID: 382386656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020003
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de9eb5a01a9c354c91f9735cb31ad90
+      internalID: 544464554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020004
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac57b70a3c2eb5340a881ae02a14b18a
+      internalID: -1842878997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020005
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c19da541d62dd5419bfc3db6cc2e848
+      internalID: 882778737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020006
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a2c1b8de13e934c9d57c9b64822dbb
+      internalID: -369358580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020007
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eb306446b642d40833d968c0ef9a20
+      internalID: 896641455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020008
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef9ec9a025eb744899effba124f6ea3
+      internalID: -1025218387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020009
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4becb77ac1840247bc73660dff8e013
+      internalID: 419245699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020010
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01db073d919a31b4bbe6f318e678d6a2
+      internalID: 807708120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020011
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b15f96651a5f4391aac6e41a5e262
+      internalID: -425630080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020012
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cab1f165a553e4aae019b4ad284986
+      internalID: -313100329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020013
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c2d276928e27849969b65c5bdd07d8
+      internalID: 52194376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020014
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7a1cbfad3789419a05fe0dfffcc2c
+      internalID: 1957156024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020015
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a359374977c1b0f42a2b114f4f55eb2e
+      internalID: 1784124403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020016
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658075ef83d55b644a0da3c22ca5b90e
+      internalID: -1078671680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020017
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e589fd1d31bff0941869bc6d4d607817
+      internalID: 656611908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020018
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f27bdabd61203642a32229cb10a5c69
+      internalID: 216667564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020019
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5dc2002d2e6544ebb9bda7959c954e
+      internalID: 716755763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020020
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7749678bc3ece74c8d5c25c0eb2db43
+      internalID: 1529537121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020021
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd2b1aba6f9693479fedb5c4d5c240e
+      internalID: 1540315569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020022
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bb89bff48283c49866e1e1a29de307
+      internalID: 2094427299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020023
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04fa49209a1dd54180553977c4a5ef3
+      internalID: 1815743225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020024
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c51e08f8e286b45a676c800d0f4c04
+      internalID: -2083293683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020025
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80895cefba2217f49b83e316b62a567b
+      internalID: 422006317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020026
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb9c106c3d26cd479736a3d31372bd1
+      internalID: 1296946302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020027
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953cf15a825fd94997a9b2f898642d1
+      internalID: 842177106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020028
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1942921d35dd46c4db86eb64ad80b28e
+      internalID: -1296804779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020029
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6689fbf3a1564f24a8077c0b2ee0dec6
+      internalID: -114950988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020030
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32347e947a3a4444a6e148c269f1ef0
+      internalID: 305319406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020031
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae4daa3120472468765ae1ee78cd80
+      internalID: 1000032219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020032
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4dbe8967cf1ca4fbfda9c78ee4464d
+      internalID: 995966398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020033
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7277048d03068429ea80bdda1097ed
+      internalID: -1200003273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020034
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750045fcf8c84a94eba05d105e77229e
+      internalID: -685259449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020035
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7b46c7d82d6054abe72a657c197513
+      internalID: 1553455554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020036
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06977198a54305141b644eac44502f36
+      internalID: 1144943651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020037
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120801c361d851f40b5f7a8c613c2349
+      internalID: -949492203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020038
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a174ba349c369aa4cbb0fa02b6dd788f
+      internalID: -837721492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020039
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21736c9bfa6c6f47b6dbecbcacb8bc8
+      internalID: -731193489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020040
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2be5a01b1116c4e9228a0673f75e6c
+      internalID: 2000725617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020041
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd576574b2e3ca54ba02afc24b6165e3
+      internalID: 2081301623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020042
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4dd009b11035d428e064ad1f06d70e
+      internalID: 896042831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020043
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e06aa3946eaf8438ce243c09224cfb
+      internalID: 28834417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020044
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d59bdf7ebbd7e43b757a5e79256a68
+      internalID: 877981990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020045
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ce4c3bcf4eb8a45891ba46a80ff8f4
+      internalID: -1374180812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020046
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df52df9f9847aef4d953e99f6d8b571c
+      internalID: -809307393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020047
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c07c6fe799e246910dfee3fccbb24
+      internalID: 359097842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020048
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b2f5e2e8956c249812754f55f2c5dd
+      internalID: 2031645647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020049
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e260c145ae1b4eb8baae88533b09d
+      internalID: -754789611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020050
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa85ecc54b45b4ba555dddbcadcbee
+      internalID: 969341330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020051
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c03494ba8394643a695dde01b10fab
+      internalID: 721531940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020052
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dea7623bb0824b4cabc232e848793ec
+      internalID: 1134489418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YXOTALK020053
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 349
+        width: 455
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b2e2d442dbf5b4eafd7fc494e281f8
+      internalID: 706233451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: af4362ce227b40a43b7f542eb550a84c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      YXOTALK010001: 525233459
+      YXOTALK010002: -1036510706
+      YXOTALK010003: 661227559
+      YXOTALK010004: 1665578762
+      YXOTALK010005: -1724220204
+      YXOTALK010006: -80710352
+      YXOTALK010007: -1419609929
+      YXOTALK010008: -621115165
+      YXOTALK010009: 300163747
+      YXOTALK010010: 772173280
+      YXOTALK010011: -1743095974
+      YXOTALK010012: 1289402261
+      YXOTALK010013: 1641302671
+      YXOTALK010014: -651227961
+      YXOTALK010015: -149118478
+      YXOTALK010016: 324088261
+      YXOTALK010017: 937510342
+      YXOTALK010018: -379850871
+      YXOTALK010019: 1765579833
+      YXOTALK010020: -1485058470
+      YXOTALK010021: -2097165732
+      YXOTALK010022: -1649167807
+      YXOTALK010023: -648696586
+      YXOTALK010024: -1429035908
+      YXOTALK010025: -681982789
+      YXOTALK010026: -569526010
+      YXOTALK010027: -1361914883
+      YXOTALK010028: 810611841
+      YXOTALK010029: -1534526475
+      YXOTALK010030: -1456978720
+      YXOTALK010031: 1340255406
+      YXOTALK010032: 1920942666
+      YXOTALK010033: 1832974710
+      YXOTALK010034: 618127921
+      YXOTALK010035: 1941441679
+      YXOTALK010036: -879800294
+      YXOTALK010037: 1456321102
+      YXOTALK010038: -48754465
+      YXOTALK010039: 433163335
+      YXOTALK010040: -1799370625
+      YXOTALK010041: -1847602793
+      YXOTALK010042: 1987389126
+      YXOTALK010043: 638253810
+      YXOTALK010044: 411367316
+      YXOTALK010045: -758174099
+      YXOTALK010046: 842149855
+      YXOTALK010047: 1037777257
+      YXOTALK010048: -850197393
+      YXOTALK010049: 1436263196
+      YXOTALK010050: 1972125444
+      YXOTALK010051: 1722696592
+      YXOTALK010052: -650945001
+      YXOTALK010053: 308848136
+      YXOTALK010054: -354454683
+      YXOTALK010055: 267547047
+      YXOTALK010056: -1935812327
+      YXOTALK010057: -966448691
+      YXOTALK010058: 212639656
+      YXOTALK010059: -1212731924
+      YXOTALK010060: -1754518143
+      YXOTALK010061: 1154794670
+      YXOTALK010062: 1834425155
+      YXOTALK010063: -469404809
+      YXOTALK010064: 1390173559
+      YXOTALK010065: 66578186
+      YXOTALK010066: -1561434034
+      YXOTALK010067: -905138329
+      YXOTALK010068: -1367627880
+      YXOTALK010069: 127390917
+      YXOTALK010070: 331264428
+      YXOTALK010071: -1842398410
+      YXOTALK010072: 1377062401
+      YXOTALK010073: 20016862
+      YXOTALK010074: 1027770350
+      YXOTALK010075: 94832047
+      YXOTALK010076: -2050237267
+      YXOTALK010077: 39933265
+      YXOTALK010078: 2099441898
+      YXOTALK010079: -602882964
+      YXOTALK010080: 1528927386
+      YXOTALK010081: -579822317
+      YXOTALK020001: -1731890865
+      YXOTALK020002: 382386656
+      YXOTALK020003: 544464554
+      YXOTALK020004: -1842878997
+      YXOTALK020005: 882778737
+      YXOTALK020006: -369358580
+      YXOTALK020007: 896641455
+      YXOTALK020008: -1025218387
+      YXOTALK020009: 419245699
+      YXOTALK020010: 807708120
+      YXOTALK020011: -425630080
+      YXOTALK020012: -313100329
+      YXOTALK020013: 52194376
+      YXOTALK020014: 1957156024
+      YXOTALK020015: 1784124403
+      YXOTALK020016: -1078671680
+      YXOTALK020017: 656611908
+      YXOTALK020018: 216667564
+      YXOTALK020019: 716755763
+      YXOTALK020020: 1529537121
+      YXOTALK020021: 1540315569
+      YXOTALK020022: 2094427299
+      YXOTALK020023: 1815743225
+      YXOTALK020024: -2083293683
+      YXOTALK020025: 422006317
+      YXOTALK020026: 1296946302
+      YXOTALK020027: 842177106
+      YXOTALK020028: -1296804779
+      YXOTALK020029: -114950988
+      YXOTALK020030: 305319406
+      YXOTALK020031: 1000032219
+      YXOTALK020032: 995966398
+      YXOTALK020033: -1200003273
+      YXOTALK020034: -685259449
+      YXOTALK020035: 1553455554
+      YXOTALK020036: 1144943651
+      YXOTALK020037: -949492203
+      YXOTALK020038: -837721492
+      YXOTALK020039: -731193489
+      YXOTALK020040: 2000725617
+      YXOTALK020041: 2081301623
+      YXOTALK020042: 896042831
+      YXOTALK020043: 28834417
+      YXOTALK020044: 877981990
+      YXOTALK020045: -1374180812
+      YXOTALK020046: -809307393
+      YXOTALK020047: 359097842
+      YXOTALK020048: 2031645647
+      YXOTALK020049: -754789611
+      YXOTALK020050: 969341330
+      YXOTALK020051: 721531940
+      YXOTALK020052: 1134489418
+      YXOTALK020053: 706233451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

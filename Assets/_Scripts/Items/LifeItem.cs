@@ -28,17 +28,26 @@ public class LifeItem : MonoBehaviour
             // Debug.Log(collision.gameObject.name);
             PlayerProps _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
             if (_pp == null) return;
-            if (_pp.IsFullLife()) return;
+            if (_pp.IsFullLife())
+            {
+                OnAnimationCannotGetLife();
+                return;
+            }
             
             _pp.HealLife(_heallingLife);
 
-            OnAnimation();
+            OnAnimationGetLife();
         }
     }
 
-    void OnAnimation()
+    private void OnAnimationGetLife()
     {
         _an.SetTrigger("OnCollision");
         _collider.enabled = false;
+    }
+
+    private void OnAnimationCannotGetLife()
+    {
+        _an.SetTrigger("OnFullLife");
     }
 }

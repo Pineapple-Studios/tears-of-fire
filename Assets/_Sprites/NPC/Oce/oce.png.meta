@@ -1,0 +1,3686 @@
+fileFormatVersion: 2
+guid: 221c07107db1dc541a0bc5a323b3bdf0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Oce_crying0001
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1681
+        width: 328
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5335366, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fd29e7254f09a4c928307cc8aa5566
+      internalID: 1720415884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0002
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1681
+        width: 328
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5335366, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32cc47b98f365c4d8d330f05e823885
+      internalID: 1942102127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0003
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1681
+        width: 328
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5335366, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3444f1d97daf04884ca6df732e66de
+      internalID: 1884898683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0004
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1375
+        width: 350
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3182d0e48ef6add44bb25048877efa9b
+      internalID: 1895224323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0005
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1375
+        width: 350
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5809e2b4033f40b68c38f83ca1d99
+      internalID: 82771935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0006
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1375
+        width: 350
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50cddcadb479964b8c11e96b060231b
+      internalID: 1360091254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0007
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 366
+        width: 350
+        height: 362
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1eab9ba8ca76243a1c9e89853731b6
+      internalID: -721903244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0008
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 366
+        width: 350
+        height: 362
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a3fb500eac47148879047ec4412cb8
+      internalID: -661953034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 590
+        width: 350
+        height: 362
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a648d9f04dce706448ef083de355c8c6
+      internalID: -1236814516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 590
+        width: 350
+        height: 362
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3be0bf83669114bbf45904f0c6d680
+      internalID: 2137689928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0011
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74cccf8b43174f44a6837da5ae0868a
+      internalID: 901690028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0012
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e51b523ff4f740b942183cd506b44
+      internalID: -2109643017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0013
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02c6036f8c84514e81134807145b388
+      internalID: 1754163575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0014
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c678acc05a6a3438fdbabb2c1a2bce
+      internalID: 152117055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0015
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47661f92b7f79b54393eb50b2049949d
+      internalID: -1466071294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0016
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a6ade4d3a1ad348a2a182eabb16521
+      internalID: -903046216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0017
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c762228952a63f40934d366bbcd51c5
+      internalID: 1139081840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0018
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2046fd49b3c0ac84aa8b90f7e8477a34
+      internalID: -2093742123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56de8c2c3f0a49a46bfbc642b3fc317b
+      internalID: -1627378729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621f22d5b294fbd469e8bbcc70e71184
+      internalID: -755542356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ea07ea87043e54aa0e1ee6ea4f8735
+      internalID: -273412994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d8c17bb1af7d246bfb80be91b90007
+      internalID: -653058717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ec79b9ecdf5d4fa3dd5ffac8cb34d
+      internalID: -291971841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e3fdac1cc2b2f428da84323e6b1244
+      internalID: 2077973968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 954
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ae5030b154aeb4b83280aa57212f3b
+      internalID: -1558689043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 954
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f183aa3457e6c4d828efb66e67777d
+      internalID: -571328921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 954
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d70c0047310a43b5f25125ea94c29
+      internalID: 1841010147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 954
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4751d453ec5642882efb42aa742e8
+      internalID: -431787050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 954
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5629e9253f006745b52e1bf6657b165
+      internalID: -1669605319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 954
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b17dae3c1c40cb46bc7b2265e369cc7
+      internalID: -219310221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0031
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1319
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879c342c81dce7d4794e43c6b156ba21
+      internalID: -1347529424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0032
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1319
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f924d5749f1529429cb2b45fc161666
+      internalID: -880834750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0033
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1319
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb6ef0e7dfa90946993fb19ceb53525
+      internalID: 1448790414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0034
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1319
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962d42918c2b9a04dbd35ba2b3835c1a
+      internalID: -1324846001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1319
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b95d1a4b599b941b1a06835ea0d9b3
+      internalID: 876353820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0036
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1319
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7350663168140749b1346f113993526
+      internalID: -1993709689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0037
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb1697d57496524eae3b53e5af03843
+      internalID: -1018278840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0038
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814c3cdcea55ed942a78f7296be23040
+      internalID: 825191098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d64efc0cad379f48be8bcc12947844f
+      internalID: -1553847370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d680c96773a70345887f2243d8d4363
+      internalID: -2057474979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0041
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b8bd3b045ecfc4dace15f2e9301018
+      internalID: -112623210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0042
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8323e18290656c845943e1c461a1e230
+      internalID: -418706690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a3d0d81ce264941985fe5948c5e47a
+      internalID: -557795662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_crying0044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1684
+        width: 350
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38776da201b8bff43bdd8ba9e37f5c9e
+      internalID: -1007533914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020001
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eb2432587d9e04eb8d18068655509e
+      internalID: -697229252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020002
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18faacf54a4ecf4b8f8fc97b57fcaac
+      internalID: -1183224566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020003
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4fb1c26210ac42b92292e878545f9
+      internalID: -1413058124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020004
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911f742dfe68700458f9fcb151d457f2
+      internalID: 1583322862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020005
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563d5d398dfd3b342ad2af07d3a67c92
+      internalID: -1554884890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020006
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc203b3bddb877478901c8966b775b4
+      internalID: 383051546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020007
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8a8fdc7c036fc41b34b471f02eda6a
+      internalID: 1600809189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020008
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cc5eceb918baa47b12285b0161694f
+      internalID: -1406456862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020009
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9136da114a3f54b499a595739a426a3c
+      internalID: -1989612339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020010
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 647
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f33be60010db141bc45609520a4fd6
+      internalID: -1012871779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020011
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 647
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f960f313cab99478fd6e9af86e4b69
+      internalID: -1669914508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020012
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 647
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17385d7364793cf4ca157ba1ece38fa6
+      internalID: 183308729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020013
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 998
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4089837e4442e4a881e9a940f47a2e
+      internalID: 670334943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020014
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 998
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52fa6ed1d84c324eb05d100d32a130a
+      internalID: 1893781126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020015
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0984a25e2ab2c444ac89799e7bdd0fa
+      internalID: 1259891270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020016
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9724825710ced2c408b659db09662db2
+      internalID: -1932880300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020017
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938680a1c924492449a37645a422d2fd
+      internalID: -783678921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020018
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c40b1562591de48b415552f2593abd
+      internalID: 875880926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020019
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6958887b4a7485847b2b0268c5fa19fa
+      internalID: -1157100707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020020
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8aaff5105fb3a4884434fcd4fc4d57
+      internalID: 1889991568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020021
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67095610454c3574b84a320a176f09f4
+      internalID: 1382004452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020022
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de083cf0ab3f6a4428f26e2d1ad23412
+      internalID: 1117013680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020023
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1c958bb18aa144dbbbc08b91e9d2f4
+      internalID: -242536171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020024
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2677d5b7d073c9e41b9e01b190e549fc
+      internalID: -1918952581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020025
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3e2a8ace7baea4fa924add2b0c7e1f
+      internalID: -1540429423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020026
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6620ae1f126a4fc45bb8c4e717e8a232
+      internalID: -1668016881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020027
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 647
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b5e2f547bc8ef4aa123c749044c606
+      internalID: -2066689960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020028
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 647
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e547623f41520c47b9351e0c02210d5
+      internalID: -1183149328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020029
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 647
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb270f5d48347546ae7ec21ce7bae54
+      internalID: -1784985458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020030
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 998
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b90aaad959a2b74bb431147c3207ab9
+      internalID: 534249591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020031
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 998
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76b6796acefd1e4283a17917e75b66e
+      internalID: 1110614832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020032
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6eec43e537dc814ca967f25682486f7
+      internalID: 1637506717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oce_Talk020033
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1698
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716585407bd05c540b3059bd44f966dd
+      internalID: -296200600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0001
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695a7e51ad30c304e98ac90a7c5ff9bf
+      internalID: 1030874149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0002
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90df69583b706f741b871aa14a27d2d8
+      internalID: 1048083479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0003
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7b4029da87b854bae049b47556dbc5
+      internalID: -2027342170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0004
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699e6c12666fa084e9127b94027bb133
+      internalID: -96720786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0005
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503cb32b00c9c5c419bdea9f31aa4e5e
+      internalID: 881492287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0006
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c9f6fec3efba04bba5912f6392d6ea
+      internalID: -1734840332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0007
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36de4b6abb66c47acbf11dd9359437
+      internalID: -628702743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0008
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d0db34e4931cf409ba845fe8e29093
+      internalID: 987737511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0009
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1376b92250182741806a67f5a93f70d
+      internalID: -467394183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0010
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6764a6a85e0c1344291a31a01a5bcd22
+      internalID: -1833863480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0011
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b429567b5d039409c96b5224187116
+      internalID: 1090530848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0012
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072174a8f377b246b0d2b8c922981ad
+      internalID: 572414726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0013
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b7a5173223de247973c91e857d1a8c
+      internalID: -1238508088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0014
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0cd0bb8e65ce84895a5f8690f74d8e
+      internalID: 1882056819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0015
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a4636ac056fc34fa8ec694efdf92bc
+      internalID: -739067789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0016
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95c6b1c4c315dd4a9c8df45da75f35c
+      internalID: 996935724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0017
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf37cfd9256afe47a083e3113bfff47
+      internalID: -1450764677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0018
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3341506b25a4ac4b91585a82b3ccaad
+      internalID: 1321864500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0019
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db779753950cbc4c94e319d7ca8c6f5
+      internalID: 766486092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0020
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3511e326d6e0a1648a136bd4a663ef55
+      internalID: 207900184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0021
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8293fac9372c37d4fa8ef7439c04263e
+      internalID: -1987297511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0022
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482d3e72f8d94d4cbae5bb75fb9724b
+      internalID: 782462200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0023
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b62cd040580d419d496083f063fb5
+      internalID: 885544855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0024
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac009acb5bd16194a8135df8e568f358
+      internalID: -1146403757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0025
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a8ece9763dc01418409bc254a04ee9
+      internalID: 1922932614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0026
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b096194823169645ba94357e0973807
+      internalID: 673838852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0027
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc14422ed506b5c41ae625f14d55022c
+      internalID: -1357676177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0028
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a768e9d44ebd594792c6e062f4e7353
+      internalID: 1345490921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0029
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002849809373c4241937c4ea6c6b3f6e
+      internalID: 1567330978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0030
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39458c25d81786040b684cc83fcf48ef
+      internalID: 1678622313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0031
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba9511bd86d5e0459dad6fd98e8bd6f
+      internalID: -1800948225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0032
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d9a108107f3f642a8498ee7e57ebd8
+      internalID: 1470949739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0033
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9de56d7d2f964d8f35fbed2c08ebb
+      internalID: 1462767703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0034
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910dc1ef94a23a54b80fd7cdfdfdfbe5
+      internalID: -1807825676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0035
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f21e3bdb436b7942953ef25c6096a1b
+      internalID: -2018622010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0036
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b624ce907c68ba4bb5df170e3dbd5fb
+      internalID: 882753857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0037
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a952b8bae74cb4b981e4e9f8d1e5cc
+      internalID: -1650409302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0038
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca16ba2607c1a724aa8191e0e7c25d4a
+      internalID: 279427072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0039
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2f391a0701de843ab57108c1790a50
+      internalID: 1677929028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0040
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 487
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abc27e90bc1946488945102f30aeb74
+      internalID: 1850201683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0041
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83566cf2e9f2e9a479606d87f474f5a9
+      internalID: -525965430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0042
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1a4eba60152c64da05adb62dc45326
+      internalID: 948033027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0043
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f9a9a8927c83b40bec81adb4a0eb7c
+      internalID: 1619340895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0044
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab1be33114ccce4fb8801db2bdb5de1
+      internalID: -1691106540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0045
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8f4e50fc060fc47a948dbf301f7f07
+      internalID: -2129532312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0046
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3763f9dfbe1cd4ba9ef1834640762a
+      internalID: 1362910298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0047
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5f018cbc585914c92931e5f1d1d417
+      internalID: 564247342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0048
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8086893f3417a84f855c173f3952389
+      internalID: -1730613150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0049
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb481b1d1fdd864a9e9af998ac127d6
+      internalID: 2142445694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0050
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4bbdadda067a649acf1e7db52effd2
+      internalID: 1522646450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0051
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b92cc13f279140aa21cf9c04fde97
+      internalID: 155579105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0052
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8aa22c05b02214494a1e7671fd55d4
+      internalID: 1719974360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0053
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19add1355edf149a166467a29dfc77
+      internalID: -1218916638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0054
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1a922d27f35f43b53c9be7abaa9fd
+      internalID: -332472050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0055
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86f17098584b2645b21d18132bc47a7
+      internalID: 1793431128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0056
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 841
+        width: 327
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48776758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706a7dfa2cb193a4091aa525614c24c5
+      internalID: 2076302279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0057
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f7aa6bab25e8746a95491caf0555a4
+      internalID: -1970821881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0058
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a0538ab3850ad449ff9afc4b4e51f7
+      internalID: 732104153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0059
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa37616d862e29942acb3292019585d3
+      internalID: 961865817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0060
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 615
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f469178fe1eb30b4b80d6670af943e42
+      internalID: -1841840720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0061
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfce1ffe6fac4bd4a8607b5e63d7e399
+      internalID: -1049006749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0062
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a27244d1a6adb744b9fe8be1dec89c1
+      internalID: 1194315481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0063
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476835d778e0c4c4c929b7588ee08263
+      internalID: 1328910647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0064
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1347
+        width: 332
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5045181, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aff1e5a112cb44a86fceabb1a3059d
+      internalID: -148316263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0065
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c651ada53b4e4f81a135557d96cb6
+      internalID: -151665760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0066
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f374c2c626613742b6d438483750d2f
+      internalID: -790037894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0067
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac678932a08015f479062b1b50fc9e64
+      internalID: -1844022090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTalk0068
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1
+        width: 331
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05c65ec1d1fc2048ab46fa6cd0e5f7e
+      internalID: -360317551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0001
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1349
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25381030f77dbd459a83fcc9ae1cb38
+      internalID: 1916698067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0002
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1349
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358cab9d04160aa4f86ac97ba3727dbb
+      internalID: -1096085106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0003
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1349
+        width: 333
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8023dbb74dc74e44b97a0ae31e6c97b9
+      internalID: -938435766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0004
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1700
+        width: 335
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b845730d9baf86e4db93b1b455576e6f
+      internalID: -2085757710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0005
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1700
+        width: 335
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882048948611e04baccb4c165077803
+      internalID: 2071030775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0006
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1700
+        width: 335
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1694285577265724c9050b814c84913a
+      internalID: 1372520626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0007
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 969
+        width: 333
+        height: 353
+      alignment: 9
+      pivot: {x: 0.496997, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a3ee8b5934eb74dbe26510c9629645
+      internalID: 585049762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0008
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 969
+        width: 333
+        height: 353
+      alignment: 9
+      pivot: {x: 0.496997, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea69bcfb0286fe04ba8b1a996c686dcd
+      internalID: -514297705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0009
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 969
+        width: 333
+        height: 353
+      alignment: 9
+      pivot: {x: 0.496997, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef64335120172b469953254feb6ea28
+      internalID: -182304784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0010
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1017
+        width: 334
+        height: 356
+      alignment: 9
+      pivot: {x: 0.50149703, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa1b093d56df8847951b0289629e563
+      internalID: -497261023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0011
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1017
+        width: 334
+        height: 356
+      alignment: 9
+      pivot: {x: 0.50149703, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd368c3d3b8696b44b0a127b126a4f5d
+      internalID: -197683809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0012
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1017
+        width: 334
+        height: 356
+      alignment: 9
+      pivot: {x: 0.50149703, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d66fd2c1ab9bf4fa7cd116c6efe4f2
+      internalID: 1127958131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0013
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1324
+        width: 335
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87d97a47a095eb4791579cb5e20b126
+      internalID: 563665270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0014
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1324
+        width: 335
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0254eaa32f8f49a488edd9d9c0412ae7
+      internalID: 226368054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OceTIdle0015
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1324
+        width: 335
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2226bdda2dd216443bfb120159b3698e
+      internalID: 1363979178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 074f4a1aa88f662459e7c84a5665e833
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OceTIdle0001: 1916698067
+      OceTIdle0002: -1096085106
+      OceTIdle0003: -938435766
+      OceTIdle0004: -2085757710
+      OceTIdle0005: 2071030775
+      OceTIdle0006: 1372520626
+      OceTIdle0007: 585049762
+      OceTIdle0008: -514297705
+      OceTIdle0009: -182304784
+      OceTIdle0010: -497261023
+      OceTIdle0011: -197683809
+      OceTIdle0012: 1127958131
+      OceTIdle0013: 563665270
+      OceTIdle0014: 226368054
+      OceTIdle0015: 1363979178
+      OceTalk0001: 1030874149
+      OceTalk0002: 1048083479
+      OceTalk0003: -2027342170
+      OceTalk0004: -96720786
+      OceTalk0005: 881492287
+      OceTalk0006: -1734840332
+      OceTalk0007: -628702743
+      OceTalk0008: 987737511
+      OceTalk0009: -467394183
+      OceTalk0010: -1833863480
+      OceTalk0011: 1090530848
+      OceTalk0012: 572414726
+      OceTalk0013: -1238508088
+      OceTalk0014: 1882056819
+      OceTalk0015: -739067789
+      OceTalk0016: 996935724
+      OceTalk0017: -1450764677
+      OceTalk0018: 1321864500
+      OceTalk0019: 766486092
+      OceTalk0020: 207900184
+      OceTalk0021: -1987297511
+      OceTalk0022: 782462200
+      OceTalk0023: 885544855
+      OceTalk0024: -1146403757
+      OceTalk0025: 1922932614
+      OceTalk0026: 673838852
+      OceTalk0027: -1357676177
+      OceTalk0028: 1345490921
+      OceTalk0029: 1567330978
+      OceTalk0030: 1678622313
+      OceTalk0031: -1800948225
+      OceTalk0032: 1470949739
+      OceTalk0033: 1462767703
+      OceTalk0034: -1807825676
+      OceTalk0035: -2018622010
+      OceTalk0036: 882753857
+      OceTalk0037: -1650409302
+      OceTalk0038: 279427072
+      OceTalk0039: 1677929028
+      OceTalk0040: 1850201683
+      OceTalk0041: -525965430
+      OceTalk0042: 948033027
+      OceTalk0043: 1619340895
+      OceTalk0044: -1691106540
+      OceTalk0045: -2129532312
+      OceTalk0046: 1362910298
+      OceTalk0047: 564247342
+      OceTalk0048: -1730613150
+      OceTalk0049: 2142445694
+      OceTalk0050: 1522646450
+      OceTalk0051: 155579105
+      OceTalk0052: 1719974360
+      OceTalk0053: -1218916638
+      OceTalk0054: -332472050
+      OceTalk0055: 1793431128
+      OceTalk0056: 2076302279
+      OceTalk0057: -1970821881
+      OceTalk0058: 732104153
+      OceTalk0059: 961865817
+      OceTalk0060: -1841840720
+      OceTalk0061: -1049006749
+      OceTalk0062: 1194315481
+      OceTalk0063: 1328910647
+      OceTalk0064: -148316263
+      OceTalk0065: -151665760
+      OceTalk0066: -790037894
+      OceTalk0067: -1844022090
+      OceTalk0068: -360317551
+      Oce_Talk020001: -697229252
+      Oce_Talk020002: -1183224566
+      Oce_Talk020003: -1413058124
+      Oce_Talk020004: 1583322862
+      Oce_Talk020005: -1554884890
+      Oce_Talk020006: 383051546
+      Oce_Talk020007: 1600809189
+      Oce_Talk020008: -1406456862
+      Oce_Talk020009: -1989612339
+      Oce_Talk020010: -1012871779
+      Oce_Talk020011: -1669914508
+      Oce_Talk020012: 183308729
+      Oce_Talk020013: 670334943
+      Oce_Talk020014: 1893781126
+      Oce_Talk020015: 1259891270
+      Oce_Talk020016: -1932880300
+      Oce_Talk020017: -783678921
+      Oce_Talk020018: 875880926
+      Oce_Talk020019: -1157100707
+      Oce_Talk020020: 1889991568
+      Oce_Talk020021: 1382004452
+      Oce_Talk020022: 1117013680
+      Oce_Talk020023: -242536171
+      Oce_Talk020024: -1918952581
+      Oce_Talk020025: -1540429423
+      Oce_Talk020026: -1668016881
+      Oce_Talk020027: -2066689960
+      Oce_Talk020028: -1183149328
+      Oce_Talk020029: -1784985458
+      Oce_Talk020030: 534249591
+      Oce_Talk020031: 1110614832
+      Oce_Talk020032: 1637506717
+      Oce_Talk020033: -296200600
+      Oce_crying0001: 1720415884
+      Oce_crying0002: 1942102127
+      Oce_crying0003: 1884898683
+      Oce_crying0004: 1895224323
+      Oce_crying0005: 82771935
+      Oce_crying0006: 1360091254
+      Oce_crying0007: -721903244
+      Oce_crying0008: -661953034
+      Oce_crying0009: -1236814516
+      Oce_crying0010: 2137689928
+      Oce_crying0011: 901690028
+      Oce_crying0012: -2109643017
+      Oce_crying0013: 1754163575
+      Oce_crying0014: 152117055
+      Oce_crying0015: -1466071294
+      Oce_crying0016: -903046216
+      Oce_crying0017: 1139081840
+      Oce_crying0018: -2093742123
+      Oce_crying0019: -1627378729
+      Oce_crying0020: -755542356
+      Oce_crying0021: -273412994
+      Oce_crying0022: -653058717
+      Oce_crying0023: -291971841
+      Oce_crying0024: 2077973968
+      Oce_crying0025: -1558689043
+      Oce_crying0026: -571328921
+      Oce_crying0027: 1841010147
+      Oce_crying0028: -431787050
+      Oce_crying0029: -1669605319
+      Oce_crying0030: -219310221
+      Oce_crying0031: -1347529424
+      Oce_crying0032: -880834750
+      Oce_crying0033: 1448790414
+      Oce_crying0034: -1324846001
+      Oce_crying0035: 876353820
+      Oce_crying0036: -1993709689
+      Oce_crying0037: -1018278840
+      Oce_crying0038: 825191098
+      Oce_crying0039: -1553847370
+      Oce_crying0040: -2057474979
+      Oce_crying0041: -112623210
+      Oce_crying0042: -418706690
+      Oce_crying0043: -557795662
+      Oce_crying0044: -1007533914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,6 +23,7 @@ public class DoorLockedFeedbackHandler : MonoBehaviour
             {
                 _cvFeedback.SetActive(false);
                 _door.SetActive(false); // Devemos substituir isso aqui por uma animação
+                LevelDataManager.Instance.SetKwyRoomKey(false);
                 _kwy.StartTucanoRex();
             }
         }

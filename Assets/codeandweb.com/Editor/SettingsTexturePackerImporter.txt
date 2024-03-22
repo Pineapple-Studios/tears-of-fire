@@ -14,8 +14,6 @@ tpsheetFileNames:
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.tpsheet
 - Assets/_Sprites/tutorial-b.tpsheet
 - Assets/_Sprites/tutorial-default.tpsheet
-- Assets/Backup/TpFiles/tutorial-b.tpsheet
-- Assets/Backup/TpFiles/tutorial-default.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/_Sprites/Enemies/crawler-0.png
@@ -32,12 +30,8 @@ textureFileNames:
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.png
 - Assets/_Sprites/tutorial-b.png
 - Assets/_Sprites/tutorial-default.png
-- Assets/Backup/TpFiles/tutorial-b.png
-- Assets/Backup/TpFiles/tutorial-default.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
-- 
-- 
 - 
 - 
 - 

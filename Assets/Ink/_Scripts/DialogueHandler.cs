@@ -9,8 +9,6 @@ using UnityEngine.InputSystem;
 
 public class DialogueHandler : MonoBehaviour
 {
-    public LevelDataManager levelDataManager;
-
     [Header("Player")]
     [SerializeField]
     GameObject player;
@@ -64,7 +62,6 @@ public class DialogueHandler : MonoBehaviour
 
     private void Awake()
     {
-        levelDataManager = GetComponent<LevelDataManager>();
         //actions.FindActionMap("Dialogue").FindAction("Interaction").performed += OnInteraction;
     }
 

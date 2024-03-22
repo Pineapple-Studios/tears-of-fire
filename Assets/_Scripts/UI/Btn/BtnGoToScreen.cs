@@ -13,9 +13,10 @@ public class BtnGoToScreen : MonoBehaviour
     [SerializeField] public GameObject overlaidTxt;
 
 
-    void Awake()
+    void Start()
     {
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
+        if(SceneManager.GetActiveScene().name == "BeforeGame" || SceneManager.GetActiveScene().name == "AfterGame") { Cursor.visible = true; }
     }
 
     private void OnEnable()

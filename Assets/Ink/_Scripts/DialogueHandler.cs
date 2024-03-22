@@ -84,6 +84,8 @@ public class DialogueHandler : MonoBehaviour
         
         // Dialogos
         Dialogue();
+
+        
     }
     void Update()
     {
@@ -101,6 +103,7 @@ public class DialogueHandler : MonoBehaviour
 
     void DialogueNPC()
     {
+        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 20.0f) { Handler(yke, true); }
         if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
         {
             Handler(interactionYKE, true);
@@ -108,10 +111,9 @@ public class DialogueHandler : MonoBehaviour
             {
                 Handler(textBox, true);
                 dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
-                Time.timeScale = 0;
-                Debug.Log("Dialogo YKE");
+                LevelDataManager.Instance.SetKwyRoomKey(true);
             }
-            if (textBox.activeSelf == true) { Handler(interactionYKE, false); }
+            if (textBox.activeSelf == true) { Handler(interactionYKE, false); } 
         }
        
         if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
@@ -122,7 +124,6 @@ public class DialogueHandler : MonoBehaviour
                 Handler(textBox, true);
                 dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
-                Debug.Log("Dialogo OCE");
             }
             if (textBox.activeSelf == true) { Handler(interactionOCE, false); }
         }
@@ -131,17 +132,15 @@ public class DialogueHandler : MonoBehaviour
         {
             Handler(interactionYXO, true);
             if (Input.GetKeyDown(KeyCode.E))
-            {
-                
+            { 
                 Handler(textBox, true);
                 dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
-                Debug.Log("Dialogo YXO");
             }
             if (textBox.activeSelf == true) { Handler(interactionYXO, false); }
         }
 
-        if(yke.activeSelf == true)
+        if (LevelDataManager.Instance.GetKwyRoomKey())   
         {
             Handler(yxo, false);
             Handler(secondYxo, true);
@@ -155,7 +154,6 @@ public class DialogueHandler : MonoBehaviour
                 Handler(textBox, true);
                 secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
                 Time.timeScale = 0;
-                Debug.Log("Segundo Dialogo YXO");
             }
             if (textBox.activeSelf == true) { Handler(interaction2ndYXO, false); }
         }

@@ -55,8 +55,8 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 GameObject yke = FindObjectOfType<DialogueHandler>().yke;
-                FinishDialogue();
                 yke.SetActive(false);
+                FinishDialogue();
                 textBox.SetActive(false);
                 nametag.text = string.Empty;
                 message.text = string.Empty;

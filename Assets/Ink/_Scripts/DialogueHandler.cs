@@ -103,7 +103,7 @@ public class DialogueHandler : MonoBehaviour
 
     void DialogueNPC()
     {
-        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 20.0f) { Handler(yke, true); }
+        //if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 20.0f) { Handler(yke, true); }
         if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
         {
             Handler(interactionYKE, true);
@@ -112,6 +112,7 @@ public class DialogueHandler : MonoBehaviour
                 Handler(textBox, true);
                 dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
                 LevelDataManager.Instance.SetKwyRoomKey(true);
+                Time.timeScale = 0;
             }
             if (textBox.activeSelf == true) { Handler(interactionYKE, false); } 
         }

@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -36,10 +35,37 @@ public class PlayerDash : MonoBehaviour
     private Vector2 _prevVelocity;
     private bool _isOnGround = false;
 
+    private PlayerInputHandler _playerInputHandler;
+
     private void Awake()
     {
-        Actions.FindActionMap("Gameplay").FindAction("PowerUp").performed += OnDash;
-        Actions.FindActionMap("Gameplay").FindAction("PowerUp").canceled += AvoidPhysicsBroken;
+        _playerInputHandler = FindAnyObjectByType<PlayerInputHandler>();
+    }
+
+    private void OnEnable()
+    {
+        PlayerProps.onPlayerDead += Respawn;
+        PlayerController.onPlayerGround += SetIsGround;
+        PlayerController.onPlayerJumping += SetIsJumping;
+
+        if (_playerInputHandler != null)
+        {
+            _playerInputHandler.KeyDashDown += OnDashPress;
+            _playerInputHandler.KeyDashUp += OnDashRelease;
+        }
+    }
+
+    private void OnDisable()
+    {
+        PlayerProps.onPlayerDead -= Respawn;
+        PlayerController.onPlayerGround -= SetIsGround;
+        PlayerController.onPlayerJumping -= SetIsJumping;
+
+        if (_playerInputHandler != null)
+        {
+            _playerInputHandler.KeyDashDown -= OnDashPress;
+            _playerInputHandler.KeyDashUp -= OnDashRelease;
+        }
     }
 
     private void Start()
@@ -48,26 +74,8 @@ public class PlayerDash : MonoBehaviour
         _pc = GetComponentInParent<PlayerController>();
     }
 
-    private void OnEnable()
-    {
-        PlayerProps.onPlayerDead += Respawn;
-        PlayerController.onPlayerGround += SetIsGround;
-        PlayerController.onPlayerJumping += SetIsJumping;
-        Actions.FindActionMap("Gameplay").Enable();
-    }
-
-    private void OnDisable()
-    {
-        PlayerProps.onPlayerDead -= Respawn;
-        PlayerController.onPlayerGround -= SetIsGround;
-        PlayerController.onPlayerJumping -= SetIsJumping;
-        Actions.FindActionMap("Gameplay").Disable();
-    }
-
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash) StartCoroutine(Dash());
-        if (Input.GetKeyUp(KeyCode.LeftShift) && canDash) AvoidPhysicsBroken();
         if (IsDashed) AvoidPhysicsBroken();
     }
 
@@ -95,8 +103,6 @@ public class PlayerDash : MonoBehaviour
             StartCoroutine(StopDash());
         };
     }
-
-    private void AvoidPhysicsBroken(InputAction.CallbackContext context) { AvoidPhysicsBroken(); }
 
     private IEnumerator Dash()
     {
@@ -126,41 +132,8 @@ public class PlayerDash : MonoBehaviour
         canDash = true;
     }
 
-    private void SetIsGround()
-    {
-        _isOnGround = true;
-    }
-
-    private void SetIsJumping()
-    {
-        _isOnGround = false;
-    }
-
-    private IEnumerator Dash(InputAction.CallbackContext context)
-    {
-        float direction = _rb.velocity.x;
-
-        // Habilitando dash sem apertar pros lados
-        if (direction == 0 && _pc.IsFacingRight) direction = _pc.MoveSpeed;
-        if (direction == 0 && !_pc.IsFacingRight) direction = _pc.MoveSpeed * -1;
-
-        onPlayerDashing();
-        canDash = false;
-        IsDashed = true;
-        _prevVelocity = _rb.velocity;
-        _rb.velocity = new Vector2(direction * _dashMultiplyer, 0);
-        _prevGravityScale = _rb.gravityScale;
-        _rb.gravityScale = 0;
-        yield return new WaitForSeconds(_dashDuration);
-        StartCoroutine(StopDash());
-    }
-
-    private void OnDash(InputAction.CallbackContext context)
-    {
-        if (canDash) // Verifica se o Dash está disponível
-        {
-            StartCoroutine(Dash(context));
-        }
-    }
-
+    private void SetIsGround() { _isOnGround = true; }
+    private void SetIsJumping() { _isOnGround = false; }
+    private void OnDashPress() { if (canDash) StartCoroutine(Dash()); }
+    private void OnDashRelease() { if (canDash) AvoidPhysicsBroken(); }
 }

@@ -140,7 +140,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (_playerDash.IsDashed) return;
+        if (_playerDash.IsDashed) return;   
         if (_isRespawning) return;
         if (_isInputDisabled) return;
 

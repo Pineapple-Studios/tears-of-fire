@@ -420,13 +420,13 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Map"",
-                    ""type"": ""Button"",
+                    ""name"": ""NPCInteraction"",
+                    ""type"": ""Value"",
                     ""id"": ""ab7d21ad-7e77-462a-8f78-ca0dcb50ee00"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""Jump"",
@@ -787,7 +787,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Map"",
+                    ""action"": ""NPCInteraction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -798,7 +798,18 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Map"",
+                    ""action"": ""NPCInteraction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9ae389ec-5009-41c3-8598-f7cfbb717600"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NPCInteraction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1006,7 +1017,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         m_Gameplay_Attack = m_Gameplay.FindAction("Attack", throwIfNotFound: true);
         m_Gameplay_PowerUp = m_Gameplay.FindAction("PowerUp", throwIfNotFound: true);
         m_Gameplay_Inventory = m_Gameplay.FindAction("Inventory", throwIfNotFound: true);
-        m_Gameplay_Map = m_Gameplay.FindAction("Map", throwIfNotFound: true);
+        m_Gameplay_NPCInteraction = m_Gameplay.FindAction("NPCInteraction", throwIfNotFound: true);
         m_Gameplay_Jump = m_Gameplay.FindAction("Jump", throwIfNotFound: true);
         // Keyboard
         m_Keyboard = asset.FindActionMap("Keyboard", throwIfNotFound: true);
@@ -1206,7 +1217,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_Attack;
     private readonly InputAction m_Gameplay_PowerUp;
     private readonly InputAction m_Gameplay_Inventory;
-    private readonly InputAction m_Gameplay_Map;
+    private readonly InputAction m_Gameplay_NPCInteraction;
     private readonly InputAction m_Gameplay_Jump;
     public struct GameplayActions
     {
@@ -1216,7 +1227,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         public InputAction @Attack => m_Wrapper.m_Gameplay_Attack;
         public InputAction @PowerUp => m_Wrapper.m_Gameplay_PowerUp;
         public InputAction @Inventory => m_Wrapper.m_Gameplay_Inventory;
-        public InputAction @Map => m_Wrapper.m_Gameplay_Map;
+        public InputAction @NPCInteraction => m_Wrapper.m_Gameplay_NPCInteraction;
         public InputAction @Jump => m_Wrapper.m_Gameplay_Jump;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
@@ -1239,9 +1250,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @Inventory.started += instance.OnInventory;
             @Inventory.performed += instance.OnInventory;
             @Inventory.canceled += instance.OnInventory;
-            @Map.started += instance.OnMap;
-            @Map.performed += instance.OnMap;
-            @Map.canceled += instance.OnMap;
+            @NPCInteraction.started += instance.OnNPCInteraction;
+            @NPCInteraction.performed += instance.OnNPCInteraction;
+            @NPCInteraction.canceled += instance.OnNPCInteraction;
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
@@ -1261,9 +1272,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @Inventory.started -= instance.OnInventory;
             @Inventory.performed -= instance.OnInventory;
             @Inventory.canceled -= instance.OnInventory;
-            @Map.started -= instance.OnMap;
-            @Map.performed -= instance.OnMap;
-            @Map.canceled -= instance.OnMap;
+            @NPCInteraction.started -= instance.OnNPCInteraction;
+            @NPCInteraction.performed -= instance.OnNPCInteraction;
+            @NPCInteraction.canceled -= instance.OnNPCInteraction;
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
@@ -1440,7 +1451,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         void OnAttack(InputAction.CallbackContext context);
         void OnPowerUp(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
-        void OnMap(InputAction.CallbackContext context);
+        void OnNPCInteraction(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
     }
     public interface IKeyboardActions

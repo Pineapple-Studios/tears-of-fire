@@ -398,13 +398,13 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Map",
-                    "type": "Button",
+                    "name": "NPCInteraction",
+                    "type": "Value",
                     "id": "ab7d21ad-7e77-462a-8f78-ca0dcb50ee00",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Jump",
@@ -765,7 +765,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Map",
+                    "action": "NPCInteraction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -776,7 +776,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Map",
+                    "action": "NPCInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ae389ec-5009-41c3-8598-f7cfbb717600",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NPCInteraction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

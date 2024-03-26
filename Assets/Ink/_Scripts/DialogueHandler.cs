@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO.Pipes;
-using TMPro;
-using Unity.VisualScripting;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -60,19 +55,40 @@ public class DialogueHandler : MonoBehaviour
     [Header("InputSystem")]
     private InputActionAsset actions;
 
+    private string _currentDialog;
+    private PlayerController _pc;
+    private PlayerProps _pp;
+
     private void Awake()
     {
         //actions.FindActionMap("Dialogue").FindAction("Interaction").performed += OnInteraction;
+        _pc = FindFirstObjectByType<PlayerController>();
+        _pp = FindFirstObjectByType<PlayerProps>();
     }
 
     private void OnEnable()
     {
         //actions.FindActionMap("Dialogue").Enable();
+        DialogueManager.FinishDialog += OnFinishDialog;
     }
 
     private void OnDisable()
     {
         //actions.FindActionMap("Dialogue").Disable();
+        DialogueManager.FinishDialog -= OnFinishDialog;
+    }
+
+    private void OnFinishDialog()
+    {
+        if (_currentDialog == "yke")
+        {
+            if (!LevelDataManager.Instance.GetKwyRoomKey()) FeedbackAndDebugManager.Instance.ToggleKwyKey();
+            if (_pp != null && _pp.GetCurrentMaxLife() < 80f) _pp.AddMaxLife(1);
+            yke.SetActive(false);
+            _currentDialog = null;
+        }
+
+        if (_pc != null) _pc.EnableInput();
     }
 
     private void Start()
@@ -109,12 +125,12 @@ public class DialogueHandler : MonoBehaviour
             Handler(interactionYKE, true);
             if (Input.GetKeyDown(KeyCode.E))
             {
+                _currentDialog = "yke";
                 Handler(textBox, true);
                 dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
-                LevelDataManager.Instance.SetKwyRoomKey(true);
-                Time.timeScale = 0;
+                if (_pc != null) _pc.DisableInput();
             }
-            if (textBox.activeSelf == true) { Handler(interactionYKE, false); } 
+            if (textBox.activeSelf == true) { Handler(interactionYKE, false); }
         }
        
         if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
@@ -124,7 +140,7 @@ public class DialogueHandler : MonoBehaviour
             {
                 Handler(textBox, true);
                 dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = true;
-                Time.timeScale = 0;
+                if (_pc != null) _pc.DisableInput();
             }
             if (textBox.activeSelf == true) { Handler(interactionOCE, false); }
         }
@@ -136,7 +152,7 @@ public class DialogueHandler : MonoBehaviour
             { 
                 Handler(textBox, true);
                 dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
-                Time.timeScale = 0;
+                if (_pc != null) _pc.DisableInput();
             }
             if (textBox.activeSelf == true) { Handler(interactionYXO, false); }
         }
@@ -154,7 +170,7 @@ public class DialogueHandler : MonoBehaviour
             {
                 Handler(textBox, true);
                 secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
-                Time.timeScale = 0;
+                if (_pc != null) _pc.DisableInput();
             }
             if (textBox.activeSelf == true) { Handler(interaction2ndYXO, false); }
         }

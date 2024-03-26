@@ -190,4 +190,6 @@ public class PlayerProps : MonoBehaviour
         _maxLife = (int)tmp * 20; // 20 � o divisor da UI
         FullHeal();
     }
+
+    public float GetCurrentMaxLife() => _maxLife;
 }

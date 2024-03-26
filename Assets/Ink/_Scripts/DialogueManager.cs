@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using Ink.Runtime;
 using TMPro;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
+    public static Action FinishDialog;
+
     [SerializeField] public TextAsset inkFile;
     [SerializeField] public GameObject textBox;
 
@@ -58,8 +61,8 @@ public class DialogueManager : MonoBehaviour
                 GameObject yke = FindObjectOfType<DialogueHandler>().yke;
                 DialogueManager obj = yke.GetComponentInChildren<DialogueManager>();
                 if (obj == false) { 
-                yke.SetActive(false);
-                Debug.Log(yke.activeSelf);
+                    yke.SetActive(false);
+                    Debug.Log(yke.activeSelf);
                 }
                 FinishDialogue();
                 textBox.SetActive(false);
@@ -74,6 +77,7 @@ public class DialogueManager : MonoBehaviour
     private void FinishDialogue()
     {
         story.ResetState();
+        FinishDialog();
         Debug.Log("End of Dialogue!");
     }
 

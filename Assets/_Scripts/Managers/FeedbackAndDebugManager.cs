@@ -113,8 +113,16 @@ public class FeedbackAndDebugManager : MonoBehaviour
 
     private void HandlePanel()
     {
-        if (_dataController.IsDebugPanelActive) _debugPanel.SetActive(true);
-        else _debugPanel.SetActive(false);
+        if (_dataController.IsDebugPanelActive)
+        {
+            Cursor.visible = true;
+            _debugPanel.SetActive(true);
+        }
+        else
+        {
+            _debugPanel.SetActive(false);
+            Cursor.visible = false;
+        }
     }
 
     private void SaveAllCheckpoints()

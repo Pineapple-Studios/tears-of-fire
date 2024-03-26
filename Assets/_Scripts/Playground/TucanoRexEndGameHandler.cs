@@ -10,19 +10,29 @@ public class TucanoRexEndGameHandler : MonoBehaviour
     [SerializeField]
     private GameObject[] _elementsToActive;
 
+    private PlayerInputHandler _playerInputHandler;
+
+    private void Awake()
+    {
+        _playerInputHandler = FindAnyObjectByType<PlayerInputHandler>();
+    }
+
     private void OnEnable()
     {
         TucanoRexProps.onTucanoRexDead += OnTucanoRexDead;
+        if (_playerInputHandler != null)
+        {
+            _playerInputHandler.KeyNPCInteractionDown += RoolBackToGame;
+        }
     }
 
     private void OnDisable()
     {
         TucanoRexProps.onTucanoRexDead -= OnTucanoRexDead;
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && Time.timeScale == 0f) RoolBackToGame();
+        if (_playerInputHandler != null)
+        {
+            _playerInputHandler.KeyNPCInteractionDown -= RoolBackToGame;
+        }
     }
 
     private void OnTucanoRexDead(GameObject obj)
@@ -42,6 +52,8 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private void RoolBackToGame()
     {
+        if (Time.timeScale != 0f) return;
+
         Time.timeScale = 1f;
         _cvFeedback.SetActive(false);
         ActiveElements();

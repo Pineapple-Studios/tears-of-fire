@@ -45,7 +45,7 @@ public class PlayerPositioningAttack : MonoBehaviour
     {
         originA = new TransformMemo
         {
-            position = attackA.localPosition,
+            position = attackA.localPosition + new Vector3(1,0,0),
             rotation = attackA.rotation
         };
 
@@ -66,7 +66,7 @@ public class PlayerPositioningAttack : MonoBehaviour
         AttackDirection = _pih.GetDirection();
 
         if (attackA.gameObject.activeSelf || attackB.gameObject.activeSelf || attackC.gameObject.activeSelf) return;
-        
+
         if (AttackDirection == Vector2.zero)
         {
             HandleStopPositions();
@@ -105,7 +105,6 @@ public class PlayerPositioningAttack : MonoBehaviour
         attackA.position = _attackPostion.position + new Vector3(0, -1, 0);
         attackB.position = _attackPostion.position;
         attackC.position = _attackPostion.position;
-
 
         if (AttackDirection.y < 0) // Baixo 
         {  

@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Drop : MonoBehaviour
@@ -9,6 +6,8 @@ public class Drop : MonoBehaviour
     private LayerMask _leakLayer;
     [SerializeField]
     private LayerMask _targetLayer;
+    [SerializeField]
+    public float DropSpeed;
 
     private Vector3 _initialPosition;
 
@@ -37,6 +36,15 @@ public class Drop : MonoBehaviour
 
             Restart();
         }
+    }
+
+    private void Update()
+    {
+        transform.localPosition = Vector3.Lerp(
+            transform.localPosition, 
+            transform.localPosition + new Vector3(-1, 0, 0), 
+            Time.deltaTime * DropSpeed
+        );
     }
 
     private void Restart()

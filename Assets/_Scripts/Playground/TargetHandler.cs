@@ -15,14 +15,14 @@ public class TargetHandler : MonoBehaviour
     public void Initiate()
     {
         _currentPos = 0;
-        gameObject.transform.position = _pos[_currentPos] + _offset;
+        gameObject.transform.localPosition = _pos[_currentPos] + _offset;
         _anim.SetTrigger("StartFlicking");
     }
 
     public void NextPostion()
     {
         _currentPos++;
-        gameObject.transform.position = _pos[_currentPos] + _offset;
+        gameObject.transform.localPosition = _pos[_currentPos] + _offset;
         _anim.SetTrigger("StartFlicking");
     }
 

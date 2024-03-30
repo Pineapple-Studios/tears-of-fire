@@ -4,6 +4,8 @@ using UnityEngine;
 public class TucanoRexEndGameHandler : MonoBehaviour
 {
     [SerializeField]
+    private TucanoRex _kwy;
+    [SerializeField]
     private GameObject _cvFeedback;
     [SerializeField]
     private GameObject[] _elementsToDeactive;
@@ -52,7 +54,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private void RoolBackToGame()
     {
-        if (Time.timeScale != 0f) return;
+        if (!_kwy.IsStarted()) return;
 
         Time.timeScale = 1f;
         _cvFeedback.SetActive(false);

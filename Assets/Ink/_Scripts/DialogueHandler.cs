@@ -58,6 +58,7 @@ public class DialogueHandler : MonoBehaviour
     private string _currentDialog;
     private PlayerController _pc;
     private PlayerProps _pp;
+    private bool _isYkeAlreadyDone = false;
 
     private void Awake()
     {
@@ -85,6 +86,7 @@ public class DialogueHandler : MonoBehaviour
             if (!LevelDataManager.Instance.GetKwyRoomKey()) FeedbackAndDebugManager.Instance.ToggleKwyKey();
             if (_pp != null && _pp.GetCurrentMaxLife() < 80f) _pp.AddMaxLife(1);
             yke.SetActive(false);
+            _isYkeAlreadyDone = true;
             _currentDialog = null;
         }
 
@@ -120,7 +122,10 @@ public class DialogueHandler : MonoBehaviour
     void DialogueNPC()
     {
         //if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 20.0f) { Handler(yke, true); }
-        if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f)
+        if (
+            _isYkeAlreadyDone == false && 
+            Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f
+        )
         {
             Handler(interactionYKE, true);
             if (Input.GetKeyDown(KeyCode.E))

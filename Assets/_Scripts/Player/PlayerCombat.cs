@@ -61,7 +61,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
+        if (_pc.ShouldDisbleInput()) return;
+
         _attackDirection = _pih.GetDirection();
+        TurnToRightAttackDirection();
 
         if (_shouldBossReceiveAttack && Time.timeScale > 0)
         {
@@ -69,6 +72,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 TucanoRexHit();
                 EnemyHit();
+                HitBlockByRaycast();
                 _indulgenceTimer += Time.deltaTime;
             }
             else
@@ -121,14 +125,12 @@ public class PlayerCombat : MonoBehaviour
 
     private void Attack()
     {
-        TurnToRightAttackDirection();
+        // TurnToRightAttackDirection();
 
         // Play an attack animation
         IsAttacking = true;
 
-       // EnemyHit();
-
-        HitBlockByRaycast();
+        // HitBlockByRaycast();
 
         _shouldBossReceiveAttack = true;
     }
@@ -174,7 +176,7 @@ public class PlayerCombat : MonoBehaviour
         Vector3 origin = transform.position + _offset;
         Vector2 forward2D = new Vector2(transform.forward.z, transform.forward.y);  
 
-        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), forward2D, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), Vector2.up, _distanceToPlayer, _breakableBlockLayer);
         if (topBlocks.collider != null)
         {
             BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
@@ -185,15 +187,15 @@ public class PlayerCombat : MonoBehaviour
         RaycastHit2D middleBlocks = Physics2D.Raycast(origin, forward2D, _distanceToPlayer, _breakableBlockLayer);
         if (middleBlocks.collider != null)
         {
-            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            BreakableBlock b = middleBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
             if (b != null) b.HitWall();
             return;
         }
 
-        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), forward2D, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), Vector2.down, _distanceToPlayer, _breakableBlockLayer);
         if (bottomBlocks.collider != null)
         {
-            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            BreakableBlock b = bottomBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
             if (b != null) b.HitWall();
             return;
         }

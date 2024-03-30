@@ -39,6 +39,7 @@ public class PlayerAnimationController : MonoBehaviour
         PlayerController.onPlayerFalling += StartFall;
         PlayerController.onPlayerRunning += StartRun;
         PlayerController.onPlayerGround += ClearAllStates;
+        PlayerController.onPlayerFreeze += ClearAllStates;
         PlayerDash.onPlayerDashing += StartDash;
 
         if (_pih != null)
@@ -55,6 +56,7 @@ public class PlayerAnimationController : MonoBehaviour
         PlayerController.onPlayerFalling -= StartFall;
         PlayerController.onPlayerRunning -= StartRun;
         PlayerController.onPlayerGround -= ClearAllStates;
+        PlayerController.onPlayerFreeze -= ClearAllStates;
         PlayerDash.onPlayerDashing -= StartDash;
 
         if (_pih != null)

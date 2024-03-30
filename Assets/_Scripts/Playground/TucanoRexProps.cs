@@ -127,6 +127,6 @@ public class TucanoRexProps : MonoBehaviour
         _feedbackAnimController.Rebind();
         _feedbackAnimController.Update(0f);
         _bfsh.RestartScenario();
-        _gamePlayAnimController.SetBool("isStarted", true);
+        // _gamePlayAnimController.SetBool("isStarted", true);
     }
 }

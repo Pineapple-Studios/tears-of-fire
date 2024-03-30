@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public static Action onPlayerFalling;
     public static Action onPlayerGround;
     public static Action onPlayerRunning;
+    public static Action onPlayerFreeze;
 
     [Header("Horizontal movement")]
     public float MoveSpeed = 10f;
@@ -112,11 +113,15 @@ public class PlayerController : MonoBehaviour
 
     private void OnKeyJumpUp()
     {
+        if (ShouldDisbleInput()) return;
+
         if (_rb.velocity.y > 0) _rb.velocity = new Vector2(_rb.velocity.x, 0);
     }
 
     private void OnKeyJumpDown()
     {
+        if (ShouldDisbleInput()) return;
+
         JumpTimer = Time.time + CoyoteTime;
     }
 
@@ -140,9 +145,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (_playerDash.IsDashed) return;   
-        if (_isRespawning) return;
-        if (_isInputDisabled) return;
+        if (ShouldDisbleInput()) return;
 
         // Condicionais
         _onGround = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _groundLayer) ||
@@ -196,7 +199,14 @@ public class PlayerController : MonoBehaviour
             onPlayerGround();
             isFalling = false;
             _rb.velocity = Vector2.zero;
+            // Zerando força externa ao cair no chão
+            _externalVelocity = Vector2.zero;
         }
+    }
+
+    public bool ShouldDisbleInput()
+    {
+        return _playerDash.IsDashed || _isRespawning || _isInputDisabled;
     }
 
     private void Respawn(GameObject obj)
@@ -333,4 +343,12 @@ public class PlayerController : MonoBehaviour
     public bool IsOnGound() => _onGround;
 
     public float GetGravityToKnockback() => GravityScale + _fallVelocityMultiplayer;
+
+    public void FreezeMovement() {
+
+        _externalVelocity = Vector2.zero;
+        _rb.velocity = Vector2.zero;
+        _rb.gravityScale = GravityScale;
+        if (onPlayerFreeze != null) onPlayerFreeze();
+    }
 }

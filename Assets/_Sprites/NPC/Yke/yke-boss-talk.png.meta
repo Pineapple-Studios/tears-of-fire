@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: 3fb5a10f183357c4db847762432f0bfa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Raiz01
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 62
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b539470ed2f1d6b40bfd15a4622d12ca
+      internalID: 538141396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiz02
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1
+        width: 113
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405853e3930a6b94eb08588758f0f6b2
+      internalID: -240590162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiz03
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1901
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b7d5a879fa1b14592f0dbe6551174c
+      internalID: 216005302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiz04
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1928
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e938f22cf2ed142929e8056484b73a
+      internalID: 1562448627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiz05
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dc4d87bbbae084981356ec8edd8085
+      internalID: -1209952360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiz07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1754
+        width: 754
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ba49f1f0635064e939b7d87a8ce59f
+      internalID: 976819368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0001
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df151aa7587c7484c9eee8c4eac47bc6
+      internalID: 1480814942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0002
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5142b169582d304686b2afa0d58ef48
+      internalID: 1787736318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0003
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c2eef8c2001a5439255e8655c0016a
+      internalID: -1692069365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0004
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713cd623c3a6b0458439bbc74e882b3
+      internalID: 799030474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0005
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c676151366a6844f97a45b549d07915
+      internalID: 1444959212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0006
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d66a9ab798fb364e843f54ee4a1175a
+      internalID: 191359019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0007
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7597c6acb090746ab8aa5595e66c11
+      internalID: -1334957178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0008
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7e92f15f23e9848b006a0c9463b468
+      internalID: -680103471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0009
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a097b69ecded95498c1012bbbd56b9a
+      internalID: -729313523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0010
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 350
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb32d550cb602be438327cdeb04f0014
+      internalID: 726905931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0011
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 350
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d03d69df0e32a4f93da292ec938057
+      internalID: 817951413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0012
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 350
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d34e4a892de1940a5a39ebc977793d
+      internalID: 1888385334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0013
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 581
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95f7805d924a094e8093b5da6de08df
+      internalID: 892168626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0014
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 581
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc9ad25599dd7a4e8d5ee661dc32038
+      internalID: -1210539489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0015
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dc9438d06a51b478eb223a323f31f7
+      internalID: -1705410030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0016
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004d9075f3ce3d8489b3931c47d99437
+      internalID: 1757540827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0017
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 931
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6b36260153517459fc1bd7870d02e6
+      internalID: 1686487800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0018
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 931
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3ccb8cf749a2e44a2daa623f55941a
+      internalID: 28580917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0019
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dd861cec26f334da452f3260984fa4
+      internalID: 2074574987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0020
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ac690470181ab4c84411616e6b8ec3
+      internalID: 90409322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 369
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d216bc9feb76724448e03be5c49e2eae
+      internalID: 701111055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 369
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4a69682591260438a91cfd49332f0d
+      internalID: -1316365050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0023
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b458840e23298449053c6243abeebf
+      internalID: -1863032921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0024
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544d7f2f20974e343b8a531491aa5280
+      internalID: -144913635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0025
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b8262f9a9cb68488cceca424aba207
+      internalID: -1722121876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0026
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d639e7fb9deb1f4e8c01e2133f880a4
+      internalID: -785889677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0027
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9499c2c49221046b3285e75ab4a70d
+      internalID: 2078452749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0028
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e9dc2bd244b44186e92fc0382e437
+      internalID: -1492824660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0029
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744fdd1c52e63a6499322db68010e4ea
+      internalID: -1197397445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0030
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe37d6adb3000f4287b9527853c0ddd
+      internalID: -1785881299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0031
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae86f2116da1ab7418471e53c003693a
+      internalID: 469681517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0032
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8485d3e3857cf438785c8116761e49
+      internalID: 1038775838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0033
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49cd9d037bd1204e973946b467353c5
+      internalID: 1860192056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0034
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b4bcb5221803b439e0fec00304b82b
+      internalID: 1003373315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0035
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779bee6de6d320847aa9ff5d1ad79728
+      internalID: -1017124497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0036
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06290e5d8f026a54fb50c881a1f9e13a
+      internalID: -1131022271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0037
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74933ae866728c0419952693da68b815
+      internalID: -385925883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0038
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a57224ca323c06408b5465083c98ff3
+      internalID: -1022348757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019f9abb2b73172459c99a81f64642c1
+      internalID: -128087732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 718
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eaf141e46b2374fb1825b1a78ff20f
+      internalID: -475658802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0041
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1172
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b15259d94f2c6419cfff027638e5cd
+      internalID: -135589762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0042
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1413
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d39232a4f2ddd4e89b032f4e14e893
+      internalID: -1174277287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0043
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1566
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577960c5a73218445a7c6b9ad2970fd5
+      internalID: 905593743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0044
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 350
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5912c68e6c629e40a69c58f21b2dbc1
+      internalID: 998532701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1067
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c245ab0a24d4e4a9191cb83d69f4af
+      internalID: -951323798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1067
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f5f459b460e6e4691358ab73156026
+      internalID: -742972449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1416
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8471ab0e84eb143ad75023f3a78f20
+      internalID: 1699269003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0048
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1416
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb38dcba8f19efb4e89fe83fbf79badd
+      internalID: 1442946614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0049
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a3fd89258e3084ba1ed5b5983d5a3e
+      internalID: -1912036766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0050
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a01b890444804d886ebe3e8af56ab
+      internalID: -832634799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0051
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebbd125d2741d44580ed940e4aa2117
+      internalID: -545450062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0052
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96d92f53a51d064c906c3de591dfe8a
+      internalID: -802165704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Talk0053
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f648579b97c75438a48cbbaab658a2
+      internalID: -451081592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e130822f6c8eb9d4ab1f3c75330fdede
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Raiz01: 538141396
+      Raiz02: -240590162
+      Raiz03: 216005302
+      Raiz04: 1562448627
+      Raiz05: -1209952360
+      Raiz07: 976819368
+      YKE_Talk0001: 1480814942
+      YKE_Talk0002: 1787736318
+      YKE_Talk0003: -1692069365
+      YKE_Talk0004: 799030474
+      YKE_Talk0005: 1444959212
+      YKE_Talk0006: 191359019
+      YKE_Talk0007: -1334957178
+      YKE_Talk0008: -680103471
+      YKE_Talk0009: -729313523
+      YKE_Talk0010: 726905931
+      YKE_Talk0011: 817951413
+      YKE_Talk0012: 1888385334
+      YKE_Talk0013: 892168626
+      YKE_Talk0014: -1210539489
+      YKE_Talk0015: -1705410030
+      YKE_Talk0016: 1757540827
+      YKE_Talk0017: 1686487800
+      YKE_Talk0018: 28580917
+      YKE_Talk0019: 2074574987
+      YKE_Talk0020: 90409322
+      YKE_Talk0021: 701111055
+      YKE_Talk0022: -1316365050
+      YKE_Talk0023: -1863032921
+      YKE_Talk0024: -144913635
+      YKE_Talk0025: -1722121876
+      YKE_Talk0026: -785889677
+      YKE_Talk0027: 2078452749
+      YKE_Talk0028: -1492824660
+      YKE_Talk0029: -1197397445
+      YKE_Talk0030: -1785881299
+      YKE_Talk0031: 469681517
+      YKE_Talk0032: 1038775838
+      YKE_Talk0033: 1860192056
+      YKE_Talk0034: 1003373315
+      YKE_Talk0035: -1017124497
+      YKE_Talk0036: -1131022271
+      YKE_Talk0037: -385925883
+      YKE_Talk0038: -1022348757
+      YKE_Talk0039: -128087732
+      YKE_Talk0040: -475658802
+      YKE_Talk0041: -135589762
+      YKE_Talk0042: -1174277287
+      YKE_Talk0043: 905593743
+      YKE_Talk0044: 998532701
+      YKE_Talk0045: -951323798
+      YKE_Talk0046: -742972449
+      YKE_Talk0047: 1699269003
+      YKE_Talk0048: 1442946614
+      YKE_Talk0049: -1912036766
+      YKE_Talk0050: -832634799
+      YKE_Talk0051: -545450062
+      YKE_Talk0052: -802165704
+      YKE_Talk0053: -451081592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

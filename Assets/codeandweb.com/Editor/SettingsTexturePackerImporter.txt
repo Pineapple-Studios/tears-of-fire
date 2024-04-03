@@ -3,6 +3,8 @@ tpsheetFileNames:
 - Assets/_Sprites/Enemies/crawler-0.tpsheet
 - Assets/_Sprites/Enemies/spider-flyer.tpsheet
 - Assets/_Sprites/NPC/Oce/oce.tpsheet
+- Assets/_Sprites/NPC/Yke/yke-boss-default.tpsheet
+- Assets/_Sprites/NPC/Yke/yke-boss-talk.tpsheet
 - Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-a.tpsheet
 - Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-b.tpsheet
 - Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-c.tpsheet
@@ -14,11 +16,14 @@ tpsheetFileNames:
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.tpsheet
 - Assets/_Sprites/tutorial-b.tpsheet
 - Assets/_Sprites/tutorial-default.tpsheet
+- Assets/_Sprites/yke-boss-bossFight.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/_Sprites/Enemies/crawler-0.png
 - Assets/_Sprites/Enemies/spider-flyer.png
 - Assets/_Sprites/NPC/Oce/oce.png
+- Assets/_Sprites/NPC/Yke/yke-boss-default.png
+- Assets/_Sprites/NPC/Yke/yke-boss-talk.png
 - Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-a.png
 - Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-b.png
 - Assets/_Sprites/NPC/Yxo/idle/yxo-idle-yxo-idle-part-c.png
@@ -30,8 +35,12 @@ textureFileNames:
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.png
 - Assets/_Sprites/tutorial-b.png
 - Assets/_Sprites/tutorial-default.png
+- Assets/_Sprites/yke-boss-bossFight.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
 - 
 - 
 - 

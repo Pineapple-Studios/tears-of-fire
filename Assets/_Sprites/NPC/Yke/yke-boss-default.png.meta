@@ -1,0 +1,2762 @@
+fileFormatVersion: 2
+guid: ec2d44da1172c1f41b6568eafbee5b7a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0001
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216c0916627d42d4d8b88eb30ec23c3d
+      internalID: -1923189251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0002
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087982c255c64844f82cea1ad0ab5ace
+      internalID: 906714955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0003
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9667545de0a7748ad475220dc4624c
+      internalID: -1522395361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0004
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3c653d0f9428b42a45d36f1babe5ee
+      internalID: 1013319872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0005
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb7d3d294bbb954fbf4ae7e99ec94e6
+      internalID: -1330563891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0006
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2060af6aa7c95f46a8af4cfad861da8
+      internalID: 771093176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0007
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9f2356c77270c4c882ced496cff612
+      internalID: -2034919803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0008
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95644099ef2b69047962ea6c47e81cec
+      internalID: -2072698884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0009
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653378bfa7aa7214198a386f3689ee76
+      internalID: -1251132318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0010
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd5d5b10db94154ea5609019501f401
+      internalID: 1626183604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0011
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f106df37cfa9ce34d95ed00b666cea07
+      internalID: -1442579648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0012
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3549dc090a6584c8b15f664b89ed90
+      internalID: -1594423883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0013
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bffd2c0d53b5b4ea004d2bbfaf242d
+      internalID: 1290538251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0014
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af921ded7f5a6743b39557a6dad6a7a
+      internalID: 1141932303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0015
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1310
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922d7f3b5eb6af346ac97316134f0484
+      internalID: 523384111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0016
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1310
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe3b08060d429146916c534086f6c8f
+      internalID: 1420096669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0017
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1310
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5c111c1db413544adaf99e7fa2f7db
+      internalID: 1244993388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0018
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1570
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe2112fb8349464b860f98a8e2f96a0
+      internalID: -910144450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0019
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1570
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e8ef3aa055eaa4cb3adbba963af228
+      internalID: 1381077631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0020
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9358417479acc4eaee54cb072402ce
+      internalID: 211023672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0021
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dfff206b863c94c81c6a1e81821acb
+      internalID: -768779007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0022
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab30b4841b6185f4f98f18487ea99ddc
+      internalID: 1177455999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0023
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276bc516bedc4694b9ec850fd39b4ff0
+      internalID: -455833853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0024
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f556f552c52861b4f8e576c9e390e250
+      internalID: 1180385890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0025
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313f3e0a26afbe4aa1164ffe5354dff
+      internalID: -237846711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0026
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464af060d53a3da469d3c9f9aab3b1d4
+      internalID: -2132699283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0027
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b0f392db6658f4fbae7a1e52eaf283
+      internalID: 106491299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0028
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60deecefa1e4294498aaf1e3cfece406
+      internalID: 1412742933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0029
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7bf1cb2a805a645b12cc05045955e0
+      internalID: -2074679172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0030
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1310
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea021493b04ba2458afeb9f8a20b43e
+      internalID: 2047315600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0031
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1310
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c8e660dd5e48c488a3a63b05e3a669
+      internalID: 123790996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0032
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1310
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2723bd1b27c501b4cbac9a0be56cbc75
+      internalID: 1051568330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0033
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883bc4388420e2e498d40ffc6fc31424
+      internalID: 1585681635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0034
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a49b69a7af8164db43cb5d6c5ebc72
+      internalID: 1763201074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0035
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0771277ec262e42b86492dd414229e
+      internalID: -130088588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0036
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1648
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3100b3b93c6ba344eb677d60fb3bc369
+      internalID: 256634221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0037
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607894734b623e4a8aea46b62c4555a
+      internalID: 1038340829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0038
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2fe41b02d9c7d44bf4fbb6d63228ee
+      internalID: -2044852169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0039
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a99ef42142444e4bb4bd4fc01db6934
+      internalID: -1034540533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0040
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c6b4eec76962f4280e706d1407fe85
+      internalID: -757559576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IKE_TAlk_keyoff0041
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1366
+        width: 348
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c60bafcecb4a9041903c312863a451e
+      internalID: 1543911955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KEY
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 45
+        width: 99
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbcda8d019aafc42ac86817bfe92a72
+      internalID: -708485932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0001
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1
+        width: 309
+        height: 347
+      alignment: 9
+      pivot: {x: 0.50323623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973c433492b80324c81a61dd597f385e
+      internalID: -975596091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0002
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1
+        width: 309
+        height: 347
+      alignment: 9
+      pivot: {x: 0.50323623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4608ab69c2677a2478022b49694a784f
+      internalID: -885447995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0003
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1
+        width: 309
+        height: 347
+      alignment: 9
+      pivot: {x: 0.50323623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45766ea11c9691749a13ed2e6a0a767b
+      internalID: 1430261358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0004
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1
+        width: 309
+        height: 347
+      alignment: 9
+      pivot: {x: 0.50323623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6833cea6056cd54c95936f7b7cbe49b
+      internalID: -1518877784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0005
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1
+        width: 309
+        height: 347
+      alignment: 9
+      pivot: {x: 0.50323623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7841d7d80845f4c83bdd02004c95e6
+      internalID: -1823198672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0006
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1
+        width: 300
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5183333, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185049f8e7c867458677c45c263d6cb
+      internalID: -1087523278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0007
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1
+        width: 300
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5183333, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fc49c73d43b3c45af073132634daeb
+      internalID: -1531458088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0008
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1
+        width: 302
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5149007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb2bfb759d35f04e99c769d2be5f5f8
+      internalID: -2143773443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0009
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1
+        width: 302
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5149007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabdb61d7a6508f44982b1a2d028b6a6
+      internalID: -1683635817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0010
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1
+        width: 302
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5149007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c1e65411697d40b1f4a1649f27e89
+      internalID: 1106475017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0011
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc4c7d02a389da42a92b0ac5da282bf
+      internalID: 173202545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0012
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8391a8d98171ce4ba7fc8245328512e
+      internalID: -2055884780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0013
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885548fe02aed6b41a8c9bc0b404c343
+      internalID: -208413890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0014
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1600b5d3ce1f61b42a5614be0514f6da
+      internalID: -1152975821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0015
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ea61df942ea014f960dbc5cf665cee
+      internalID: 1939020201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_Awake0016
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 311
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95481ee759eca24458736e7df8d1a015
+      internalID: 1670725598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0001
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1493
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a95236cc3ef8564a8f86847f6b64205
+      internalID: 1704720065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0002
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1493
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141e63d5317893d409dc125704260390
+      internalID: 222619806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0003
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1493
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f8aed085e3984fa51d405ac0c2c45
+      internalID: 179510451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0004
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1387
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219868466e66d443a45c251e1803a9e
+      internalID: -239667189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0005
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1387
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750896c8024776842a59bd6f6caff2a1
+      internalID: 1781300431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0006
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1387
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e77d8dc32c5ee4181d9ff535d3d5d0
+      internalID: -560128678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0007
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1234
+        width: 361
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37534627, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2048f04958d4af44b32b26e1996abdc
+      internalID: -52066043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0008
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1234
+        width: 361
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37534627, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be61f13e482a88e4491a15c737efc0ec
+      internalID: 761473100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0009
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1234
+        width: 361
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37534627, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171035cfe81c0e449919d982709336f2
+      internalID: -1855868495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0010
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1493
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037ef8c247ce604459d3528f72687e1e
+      internalID: -329113206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0011
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1493
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bfa909b427a904abe35f9bb4c00d9e
+      internalID: -435794124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0012
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1126
+        width: 361
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37534627, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e5e42bd73c0ac429737fec25df2b28
+      internalID: -2050088445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0013
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1126
+        width: 361
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37534627, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146881e98c7971141bd1a37c286b5f4b
+      internalID: 745613362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0014
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1126
+        width: 361
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37534627, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7345d4da78684da30026a8f3812ab
+      internalID: -1779113684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0015
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1032
+        width: 343
+        height: 361
+      alignment: 9
+      pivot: {x: 0.3717201, y: -0.016620498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ac11485aad97045a0bbc2e6ed2841d
+      internalID: -1056636536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0016
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1056
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df47b247f353a742a481d1e0a639f9a
+      internalID: -1054098611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0017
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1056
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b97b89146bf7942ae85808e8daa24d
+      internalID: -279693871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0018
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1056
+        width: 366
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37021858, y: -0.019390581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be28b55f2bc7e343a411d5e2e5c9ae8
+      internalID: -1369067249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1345
+        width: 405
+        height: 360
+      alignment: 9
+      pivot: {x: 0.4382716, y: -0.013888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e089e406350d14409fde0dee74e8be1
+      internalID: -1663896612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1345
+        width: 405
+        height: 360
+      alignment: 9
+      pivot: {x: 0.4382716, y: -0.013888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd2e4d269b0ad34d80b2a6cff0b61e3
+      internalID: 1460958110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1345
+        width: 405
+        height: 360
+      alignment: 9
+      pivot: {x: 0.4382716, y: -0.013888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56acbbcd12f99cd42b4d81f64125a335
+      internalID: -1638253922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1707
+        width: 452
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47676992, y: -0.020588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c125b76e0663e04ca370933547a90e3
+      internalID: 2051248114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1707
+        width: 452
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47676992, y: -0.020588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7f9e24ffbdb394fae8ad6c5178fe49
+      internalID: 524375803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1707
+        width: 452
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47676992, y: -0.020588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc974c51e32e4548b449cbdb66d814c
+      internalID: 238611696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0025
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1158
+        width: 481
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a760c8dd8d1cd13419d86e90315d0bc0
+      internalID: 1328941636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0026
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1158
+        width: 481
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5222bdde3c226c14f9266926f00a6ad5
+      internalID: -1504144914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0027
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1158
+        width: 481
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ea09972d2fe154aa265b2201db2344
+      internalID: -705032322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0028
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a8570b9b0715a48ac4a3ab220033ba
+      internalID: -416517437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0029
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5057db74d2ff76c4097d3926c75f3430
+      internalID: 2002210560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0030
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a440a9b06e83e6548a4b82e6da588755
+      internalID: 1993126113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0031
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aea2f080e42354bb39caee4f44d981
+      internalID: 1638288994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0032
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e44aa686d3bb348a65a2a6739aa8ae
+      internalID: -2128341294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0033
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af77bb68fa7648b47b821cd829783968
+      internalID: 956992100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0034
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fcf2a6f770ef7499cc845510b8d671
+      internalID: -2066961455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0035
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f9f97c8fc625840b6fb1de668b9bec
+      internalID: -1485910504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0036
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9405a574cfd46cd488c99df3d355415c
+      internalID: -726141788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0037
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdceccfd67275347b10d0359ffbe186
+      internalID: 1543514655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0038
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46bc450fbced5b4daa60c50946f31a0
+      internalID: 435812715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0039
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1c22ebe13f9944fbe405b323c640bd
+      internalID: -1620673643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0040
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8549df995716a4041b2650f2645da850
+      internalID: -1840116738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0041
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b696909ef9d874cb6dfb7ce7123767
+      internalID: 1239278090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0042
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6106a2d2562cdd44ca3036c8de25dbe3
+      internalID: 551134362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0043
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9bd9db7d2be5e48b6e8b36fa3cb9ef
+      internalID: -1807691111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0044
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b414778978f3a3e40a09a3d53a8ae323
+      internalID: -1004419509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_DEATH0045
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1887
+        width: 475
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50210524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5713049c1d4995042b712099dab3a598
+      internalID: 1979098311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 320
+        height: 354
+      alignment: 9
+      pivot: {x: 0.553125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6764fa6a1e2904a96996f2e2a234e6
+      internalID: 1408697073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 320
+        height: 354
+      alignment: 9
+      pivot: {x: 0.553125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619cffc37d7a19b4ea2924632baf940d
+      internalID: 1569808493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 320
+        height: 354
+      alignment: 9
+      pivot: {x: 0.553125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6373c58b6150203439f9b440be60e7b2
+      internalID: -1429998796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0004
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1
+        width: 300
+        height: 355
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbba2e928df909459d1323427c2ed0a
+      internalID: -1309201431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0005
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1
+        width: 300
+        height: 355
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5849021073374f54199521ed82a67e69
+      internalID: 1763931147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0006
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1
+        width: 300
+        height: 355
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e95e42ee3e8344c8825e65efb27b7c
+      internalID: -2088226875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0007
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 966
+        width: 325
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5446154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a25fd490129c5b48882ea97076a98cd
+      internalID: -1655308725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0008
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 966
+        width: 325
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5446154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4146fa3004ae825438d49fdc4fdeaeb6
+      internalID: -930894849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0009
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 966
+        width: 325
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5446154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292dc97a233e26e4295f2039db70df53
+      internalID: 1606694751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0010
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 966
+        width: 325
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5446154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c868a980640b31d418024988aee3ed14
+      internalID: 260900253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0011
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1686
+        width: 354
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f326f59ff717b14bbbe47eb638586f8
+      internalID: -473457957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0012
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1686
+        width: 354
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9586d8f290ae4439ff444ad87d30a4
+      internalID: -1656619454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0013
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1686
+        width: 354
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda0fc981bc20444b989dd4af4d80ffd
+      internalID: 2073660725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0014
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1686
+        width: 354
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857222c061628434d963ef5296475063
+      internalID: -531571098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YKE_KEYShow0015
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1323
+        width: 352
+        height: 361
+      alignment: 9
+      pivot: {x: 0.50284094, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88917a65d22dca64d9d64b13e3cc202a
+      internalID: -223104430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 183f35468ec8aaf45bc186b07c2d426e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IKE_TAlk_keyoff0001: -1923189251
+      IKE_TAlk_keyoff0002: 906714955
+      IKE_TAlk_keyoff0003: -1522395361
+      IKE_TAlk_keyoff0004: 1013319872
+      IKE_TAlk_keyoff0005: -1330563891
+      IKE_TAlk_keyoff0006: 771093176
+      IKE_TAlk_keyoff0007: -2034919803
+      IKE_TAlk_keyoff0008: -2072698884
+      IKE_TAlk_keyoff0009: -1251132318
+      IKE_TAlk_keyoff0010: 1626183604
+      IKE_TAlk_keyoff0011: -1442579648
+      IKE_TAlk_keyoff0012: -1594423883
+      IKE_TAlk_keyoff0013: 1290538251
+      IKE_TAlk_keyoff0014: 1141932303
+      IKE_TAlk_keyoff0015: 523384111
+      IKE_TAlk_keyoff0016: 1420096669
+      IKE_TAlk_keyoff0017: 1244993388
+      IKE_TAlk_keyoff0018: -910144450
+      IKE_TAlk_keyoff0019: 1381077631
+      IKE_TAlk_keyoff0020: 211023672
+      IKE_TAlk_keyoff0021: -768779007
+      IKE_TAlk_keyoff0022: 1177455999
+      IKE_TAlk_keyoff0023: -455833853
+      IKE_TAlk_keyoff0024: 1180385890
+      IKE_TAlk_keyoff0025: -237846711
+      IKE_TAlk_keyoff0026: -2132699283
+      IKE_TAlk_keyoff0027: 106491299
+      IKE_TAlk_keyoff0028: 1412742933
+      IKE_TAlk_keyoff0029: -2074679172
+      IKE_TAlk_keyoff0030: 2047315600
+      IKE_TAlk_keyoff0031: 123790996
+      IKE_TAlk_keyoff0032: 1051568330
+      IKE_TAlk_keyoff0033: 1585681635
+      IKE_TAlk_keyoff0034: 1763201074
+      IKE_TAlk_keyoff0035: -130088588
+      IKE_TAlk_keyoff0036: 256634221
+      IKE_TAlk_keyoff0037: 1038340829
+      IKE_TAlk_keyoff0038: -2044852169
+      IKE_TAlk_keyoff0039: -1034540533
+      IKE_TAlk_keyoff0040: -757559576
+      IKE_TAlk_keyoff0041: 1543911955
+      KEY: -708485932
+      YKE_Awake0001: -975596091
+      YKE_Awake0002: -885447995
+      YKE_Awake0003: 1430261358
+      YKE_Awake0004: -1518877784
+      YKE_Awake0005: -1823198672
+      YKE_Awake0006: -1087523278
+      YKE_Awake0007: -1531458088
+      YKE_Awake0008: -2143773443
+      YKE_Awake0009: -1683635817
+      YKE_Awake0010: 1106475017
+      YKE_Awake0011: 173202545
+      YKE_Awake0012: -2055884780
+      YKE_Awake0013: -208413890
+      YKE_Awake0014: -1152975821
+      YKE_Awake0015: 1939020201
+      YKE_Awake0016: 1670725598
+      YKE_DEATH0001: 1704720065
+      YKE_DEATH0002: 222619806
+      YKE_DEATH0003: 179510451
+      YKE_DEATH0004: -239667189
+      YKE_DEATH0005: 1781300431
+      YKE_DEATH0006: -560128678
+      YKE_DEATH0007: -52066043
+      YKE_DEATH0008: 761473100
+      YKE_DEATH0009: -1855868495
+      YKE_DEATH0010: -329113206
+      YKE_DEATH0011: -435794124
+      YKE_DEATH0012: -2050088445
+      YKE_DEATH0013: 745613362
+      YKE_DEATH0014: -1779113684
+      YKE_DEATH0015: -1056636536
+      YKE_DEATH0016: -1054098611
+      YKE_DEATH0017: -279693871
+      YKE_DEATH0018: -1369067249
+      YKE_DEATH0019: -1663896612
+      YKE_DEATH0020: 1460958110
+      YKE_DEATH0021: -1638253922
+      YKE_DEATH0022: 2051248114
+      YKE_DEATH0023: 524375803
+      YKE_DEATH0024: 238611696
+      YKE_DEATH0025: 1328941636
+      YKE_DEATH0026: -1504144914
+      YKE_DEATH0027: -705032322
+      YKE_DEATH0028: -416517437
+      YKE_DEATH0029: 2002210560
+      YKE_DEATH0030: 1993126113
+      YKE_DEATH0031: 1638288994
+      YKE_DEATH0032: -2128341294
+      YKE_DEATH0033: 956992100
+      YKE_DEATH0034: -2066961455
+      YKE_DEATH0035: -1485910504
+      YKE_DEATH0036: -726141788
+      YKE_DEATH0037: 1543514655
+      YKE_DEATH0038: 435812715
+      YKE_DEATH0039: -1620673643
+      YKE_DEATH0040: -1840116738
+      YKE_DEATH0041: 1239278090
+      YKE_DEATH0042: 551134362
+      YKE_DEATH0043: -1807691111
+      YKE_DEATH0044: -1004419509
+      YKE_DEATH0045: 1979098311
+      YKE_KEYShow0001: 1408697073
+      YKE_KEYShow0002: 1569808493
+      YKE_KEYShow0003: -1429998796
+      YKE_KEYShow0004: -1309201431
+      YKE_KEYShow0005: 1763931147
+      YKE_KEYShow0006: -2088226875
+      YKE_KEYShow0007: -1655308725
+      YKE_KEYShow0008: -930894849
+      YKE_KEYShow0009: 1606694751
+      YKE_KEYShow0010: 260900253
+      YKE_KEYShow0011: -473457957
+      YKE_KEYShow0012: -1656619454
+      YKE_KEYShow0013: 2073660725
+      YKE_KEYShow0014: -531571098
+      YKE_KEYShow0015: -223104430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

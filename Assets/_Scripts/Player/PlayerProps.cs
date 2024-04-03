@@ -92,7 +92,10 @@ public class PlayerProps : MonoBehaviour
         if (shouldKnock) _pc.BackImpulse();
         _hasDamaged = true;
         
+        // Feedback
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+        CinemachineShakeManager.Instance.ShakeCamera();
+
         FreezingFeedback();
         StartCoroutine(EndOfEffects());
     }

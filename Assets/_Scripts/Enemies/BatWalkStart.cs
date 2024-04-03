@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BatWalkStart : MonoBehaviour, IWalkStart
@@ -8,8 +6,9 @@ public class BatWalkStart : MonoBehaviour, IWalkStart
 
     public void OnStartWalking()
     {
-        if (!_isStarted && transform.localPosition != Vector3.zero)
+        if (!_isStarted && GetComponentInChildren<TrackedMoviment>().enabled)
         {
+            // Debug.Log("OnStartWalking");
             GetComponentInChildren<Animator>().Play("clip_idle_walk_transition");
             _isStarted = true;
         }
@@ -19,9 +18,12 @@ public class BatWalkStart : MonoBehaviour, IWalkStart
     {
         GetComponentInChildren<Animator>().Play("clip_idle");
         GetComponentInChildren<ToggleComponentByLayerPresence>().ResetState();
-        GetComponentInChildren<Bat>().ResetState();
+        Bat bat = GetComponentInChildren<Bat>();
+        bat.ResetState();
+        GameObject go = bat.gameObject;
         transform.localPosition = Vector3.zero;
         GetComponentInChildren<TrackedMoviment>().enabled = false;
+        go.GetComponent<Collider2D>().enabled = true;
         _isStarted = false;
     }
 }

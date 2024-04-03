@@ -24,7 +24,7 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Refining Props")]
     [SerializeField]
-    private float _indulgenceTimeBossHit = 0.5f;
+    private float _totalIndulgenceTime = 0.5f;
 
     // Isso est� exposto
     public static PlayerCombat instance;
@@ -37,7 +37,7 @@ public class PlayerCombat : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _attackDirection;
 
-    private bool _shouldBossReceiveAttack = false;
+    private bool _shouldEnemyReceiveAttack = false;
     private float _indulgenceTimer = 0f;
 
 
@@ -66,19 +66,18 @@ public class PlayerCombat : MonoBehaviour
         _attackDirection = _pih.GetDirection();
         TurnToRightAttackDirection();
 
-        if (_shouldBossReceiveAttack && Time.timeScale > 0)
+        if (_shouldEnemyReceiveAttack && Time.timeScale > 0)
         {
-            if (_indulgenceTimer <= _indulgenceTimeBossHit)
+            if (_indulgenceTimer <= _totalIndulgenceTime)
             {
                 TucanoRexHit();
                 EnemyHit();
-                HitBlockByRaycast();
                 _indulgenceTimer += Time.deltaTime;
             }
             else
             {
                 _indulgenceTimer = 0;
-                _shouldBossReceiveAttack = false;
+                _shouldEnemyReceiveAttack = false;
             }
         }
     }
@@ -103,6 +102,8 @@ public class PlayerCombat : MonoBehaviour
 
     private void TurnToRightAttackDirection()
     {
+        if (_shouldEnemyReceiveAttack) return;
+
         Vector2 mag = _attackDirection.normalized;
         float currentX = mag.x > 0 ? mag.x : mag.x * -1;
         float currentY = mag.y > 0 ? mag.y : mag.y * -1;
@@ -125,14 +126,12 @@ public class PlayerCombat : MonoBehaviour
 
     private void Attack()
     {
-        // TurnToRightAttackDirection();
-
         // Play an attack animation
         IsAttacking = true;
 
-        // HitBlockByRaycast();
+        HitBlockByRaycast();
 
-        _shouldBossReceiveAttack = true;
+        _shouldEnemyReceiveAttack = true;
     }
 
     public void ReleaseAttack()

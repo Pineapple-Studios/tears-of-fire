@@ -122,8 +122,11 @@ public class TucanoRexProps : MonoBehaviour
     {
         _life = _maxLife;
         _isDead = false;
+
         _gamePlayAnimController.Rebind();
         _gamePlayAnimController.Update(0f);
+        _gamePlayAnimController.SetBool("isStarted", false);
+
         _feedbackAnimController.Rebind();
         _feedbackAnimController.Update(0f);
         _bfsh.RestartScenario();

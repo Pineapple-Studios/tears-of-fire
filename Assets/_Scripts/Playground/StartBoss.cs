@@ -14,8 +14,11 @@ public class StartBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (_groupHandler != null) _groupHandler.FirstInteractionActionDone();
-        _kwy.StartTucanoRex();
-        gameObject.SetActive(false);
+        if (collision.tag == "Player")
+        {
+            if (_groupHandler != null) _groupHandler.FirstInteractionActionDone();
+            _kwy.StartTucanoRex();
+            gameObject.SetActive(false);
+        }
     }
 }

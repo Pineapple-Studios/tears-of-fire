@@ -78,7 +78,7 @@ public class DialogueManager : MonoBehaviour
     {
         story.ResetState();
         FinishDialog();
-        Debug.Log("End of Dialogue!");
+        // Debug.Log("End of Dialogue!");
     }
 
     // Advance through the story 

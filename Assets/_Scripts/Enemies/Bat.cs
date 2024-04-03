@@ -32,8 +32,15 @@ public class Bat : MonoBehaviour
 
     private void OnBecameVisible()
     {
+        StartCoroutine("CanShotActiveCoroutine");
+    }
+
+    private IEnumerator CanShotActiveCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
         _canShoot = true;
     }
+
     private void OnBecameInvisible()
     {
         _canShoot = false;

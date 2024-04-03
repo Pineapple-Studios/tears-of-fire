@@ -1,14 +1,32 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class TucanoRexEndGameHandler : MonoBehaviour
 {
+    [Header("Final hit props")]
+    [SerializeField]
+    private float _finalHitDuration = 1f;
+    [SerializeField]
+    private float _finalHitAmplitude = 5f;
+    [SerializeField]
+    private float _finalHitFrequency = 5f;
+    [SerializeField]
+    private float _finalTimeScale = 0.1f;
+
+    [Header("References")]
+    [SerializeField]
+    private TucanoRex _kwy;
     [SerializeField]
     private GameObject _cvFeedback;
+
+    [Header("Elements handlers")]
     [SerializeField]
     private GameObject[] _elementsToDeactive;
     [SerializeField]
     private GameObject[] _elementsToActive;
+
+    
 
     private PlayerInputHandler _playerInputHandler;
 
@@ -37,6 +55,14 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private void OnTucanoRexDead(GameObject obj)
     {
+        StartCoroutine("BossFightEndCoroutine");
+    }
+
+    private IEnumerator BossFightEndCoroutine()
+    {
+        Time.timeScale = _finalTimeScale;
+        CinemachineShakeManager.Instance.ShakeCamera(_finalHitAmplitude, _finalHitDuration, _finalHitFrequency);
+        yield return new WaitForSeconds(_finalHitDuration);
         Time.timeScale = 0f;
         _cvFeedback.SetActive(true);
         DeactiveElements();
@@ -52,7 +78,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private void RoolBackToGame()
     {
-        if (Time.timeScale != 0f) return;
+        if (!_kwy.IsStarted()) return;
 
         Time.timeScale = 1f;
         _cvFeedback.SetActive(false);

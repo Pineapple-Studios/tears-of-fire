@@ -9,9 +9,9 @@ public class DoorLockedFeedbackHandler : MonoBehaviour
 
     [Header("Game elements")]
     [SerializeField]
-    private GameObject _door;
-    [SerializeField]
     private TucanoRex _kwy;
+    [SerializeField]
+    private Animator _doorAnim;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,9 +22,7 @@ public class DoorLockedFeedbackHandler : MonoBehaviour
             else
             {
                 _cvFeedback.SetActive(false);
-                _door.SetActive(false); // Devemos substituir isso aqui por uma animação
-                LevelDataManager.Instance.SetKwyRoomKey(false);
-                _kwy.StartTucanoRex();
+                _doorAnim.Play("clip_open");
             }
         }
     }

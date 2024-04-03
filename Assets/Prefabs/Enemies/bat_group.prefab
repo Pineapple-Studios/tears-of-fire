@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damageOnTouch: 20
+  _maxLife: 35
   _life: 35
   _damageColldown: 1
   _col: {fileID: 7330001189495158567}
@@ -308,6 +309,7 @@ MonoBehaviour:
   _bulletTarget:
     serializedVersion: 2
     m_Bits: 8
+  _anim: {fileID: 2073988913773842335}
 --- !u!114 &2096012820627993183
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -59,7 +59,7 @@ public class BreakableBlock: MonoBehaviour
         isOnRightDirection = hit.collider != null;
         if (!isOnRightDirection) return;
 
-        Debug.Log("HitRight");
+        // Debug.Log("HitRight");
 
         _counter++;
         StoneParticle();

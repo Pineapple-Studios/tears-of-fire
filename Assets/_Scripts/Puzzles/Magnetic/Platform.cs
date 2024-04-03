@@ -7,12 +7,13 @@ public class Platform : MonoBehaviour
 {
     [SerializeField]
     private LayerMask _playerLayer;
+    [SerializeField]
+    private float _delayToIdentifyExit = 1f;
 
     public bool anim_isAnimating = false;
         
     private PlayerController _pc;
     private Vector3 _initialPos = Vector3.zero;
-    private float _delayToIdentifyExit = 1f;
     private float _exitTimer = 0f;
     private bool _startCounting = false;
 
@@ -30,6 +31,7 @@ public class Platform : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         _startCounting = true;
+        if (_pc != null) _pc.IncreaseExternalVelocity(Vector2.zero);
     }
 
 
@@ -40,6 +42,7 @@ public class Platform : MonoBehaviour
 
     private void Update()
     {
+        if (_pc != null) UpdateVelocity();
         if (!_startCounting) return;
 
         if (_exitTimer < _delayToIdentifyExit && _pc != null)
@@ -48,10 +51,9 @@ public class Platform : MonoBehaviour
         }
         else
         {
-            Debug.Log("Exit");
-            _pc.IncreaseExternalVelocity(Vector2.zero);
             _pc = null;
         }
+        
 
         if (_pc == null)
         {
@@ -60,17 +62,15 @@ public class Platform : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    private void UpdateVelocity()
     {
-        // TODO: If store state is equal to zero I need to stop this calc
-
         // Calc velocity based on Position
-        Vector2 vel = (transform.position - _initialPos) / Time.fixedDeltaTime;
+        Vector2 vel = (transform.position - _initialPos) / Time.deltaTime;
         _initialPos = transform.position;
 
         if (!anim_isAnimating && vel != Vector2.zero) vel = Vector2.zero;
 
-        // Y force is applied based on ollisions between platform and player
-        if (_pc != null) _pc.IncreaseExternalVelocity(new Vector2(vel.x, 0));        
+        // Y force is applied based on collisions between platform and player
+        _pc.IncreaseExternalVelocity(new Vector2(vel.x, 0));
     }
 }

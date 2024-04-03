@@ -4,7 +4,7 @@ public class BossFightScenarioHandler : MonoBehaviour
 {
     [Header("Setup")]
     [SerializeField]
-    private Animator _animator;
+    private Animator _dynamicScenarioAnim;
     [SerializeField]
     private PollingDrops _rockDrops;
     [SerializeField]
@@ -14,15 +14,29 @@ public class BossFightScenarioHandler : MonoBehaviour
     [SerializeField]
     private TargetHandler _targetHandler;
 
+    private PlayerController _playerController;
+
+    private void Awake()
+    {
+        _playerController = FindFirstObjectByType<PlayerController>();
+    }
+
+    private void Start()
+    {
+        _dynamicScenarioAnim.gameObject.SetActive(false);
+    }
+
     public void RestartScenario()
     {
-        _animator.Rebind();
-        _animator.Update(0f);
+        _dynamicScenarioAnim.gameObject.SetActive(false);
+        _dynamicScenarioAnim.Rebind();
+        _dynamicScenarioAnim.Update(0f);
     }
 
     public void TriggerDynamicScenario()
     {
-        _animator.SetBool("isActive", true);
+        _dynamicScenarioAnim.gameObject.SetActive(true);
+        _dynamicScenarioAnim.SetBool("isActive", true);
     }
 
     public void TriggerrRightRocks()
@@ -56,5 +70,10 @@ public class BossFightScenarioHandler : MonoBehaviour
     public void LastTarget()
     {
         _targetHandler.gameObject.SetActive(false);
+    }
+
+    public void FinishTucanoRexIntroduction()
+    {
+        _playerController.EnableInput();
     }
 }

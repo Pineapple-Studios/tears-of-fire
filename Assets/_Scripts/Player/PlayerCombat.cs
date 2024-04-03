@@ -24,7 +24,7 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Refining Props")]
     [SerializeField]
-    private float _indulgenceTimeBossHit = 0.5f;
+    private float _totalIndulgenceTime = 0.5f;
 
     // Isso est� exposto
     public static PlayerCombat instance;
@@ -37,7 +37,7 @@ public class PlayerCombat : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _attackDirection;
 
-    private bool _shouldBossReceiveAttack = false;
+    private bool _shouldEnemyReceiveAttack = false;
     private float _indulgenceTimer = 0f;
 
 
@@ -61,11 +61,14 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        _attackDirection = _pih.GetDirection();
+        if (_pc.ShouldDisbleInput()) return;
 
-        if (_shouldBossReceiveAttack && Time.timeScale > 0)
+        _attackDirection = _pih.GetDirection();
+        TurnToRightAttackDirection();
+
+        if (_shouldEnemyReceiveAttack && Time.timeScale > 0)
         {
-            if (_indulgenceTimer <= _indulgenceTimeBossHit)
+            if (_indulgenceTimer <= _totalIndulgenceTime)
             {
                 TucanoRexHit();
                 EnemyHit();
@@ -74,7 +77,7 @@ public class PlayerCombat : MonoBehaviour
             else
             {
                 _indulgenceTimer = 0;
-                _shouldBossReceiveAttack = false;
+                _shouldEnemyReceiveAttack = false;
             }
         }
     }
@@ -99,6 +102,8 @@ public class PlayerCombat : MonoBehaviour
 
     private void TurnToRightAttackDirection()
     {
+        if (_shouldEnemyReceiveAttack) return;
+
         Vector2 mag = _attackDirection.normalized;
         float currentX = mag.x > 0 ? mag.x : mag.x * -1;
         float currentY = mag.y > 0 ? mag.y : mag.y * -1;
@@ -121,16 +126,12 @@ public class PlayerCombat : MonoBehaviour
 
     private void Attack()
     {
-        TurnToRightAttackDirection();
-
         // Play an attack animation
         IsAttacking = true;
 
-       // EnemyHit();
-
         HitBlockByRaycast();
 
-        _shouldBossReceiveAttack = true;
+        _shouldEnemyReceiveAttack = true;
     }
 
     public void ReleaseAttack()
@@ -174,7 +175,7 @@ public class PlayerCombat : MonoBehaviour
         Vector3 origin = transform.position + _offset;
         Vector2 forward2D = new Vector2(transform.forward.z, transform.forward.y);  
 
-        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), forward2D, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), Vector2.up, _distanceToPlayer, _breakableBlockLayer);
         if (topBlocks.collider != null)
         {
             BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
@@ -185,15 +186,15 @@ public class PlayerCombat : MonoBehaviour
         RaycastHit2D middleBlocks = Physics2D.Raycast(origin, forward2D, _distanceToPlayer, _breakableBlockLayer);
         if (middleBlocks.collider != null)
         {
-            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            BreakableBlock b = middleBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
             if (b != null) b.HitWall();
             return;
         }
 
-        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), forward2D, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), Vector2.down, _distanceToPlayer, _breakableBlockLayer);
         if (bottomBlocks.collider != null)
         {
-            BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
+            BreakableBlock b = bottomBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
             if (b != null) b.HitWall();
             return;
         }

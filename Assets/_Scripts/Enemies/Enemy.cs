@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -41,6 +42,24 @@ public class Enemy : MonoBehaviour
         }
 
         _initialPos = tmpObj.transform.position;
+    }
+
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += RestartEnemy;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= RestartEnemy;
+    }
+
+    private void RestartEnemy()
+    {
+        _isDisabledColliders = false;
+        _isDamaging = false;
+        _isGoingToDie = false;
+        _counter = 0f;
     }
 
     private void Start()

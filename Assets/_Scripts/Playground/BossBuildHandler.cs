@@ -139,6 +139,7 @@ public class BossBuildHandler : MonoBehaviour
         _player.gameObject.transform.position = _initialPosition.position;
         _timerPanel.SetActive(true);
     }
+
     public void EndGame()
     {
         _btnEnd.interactable = false;

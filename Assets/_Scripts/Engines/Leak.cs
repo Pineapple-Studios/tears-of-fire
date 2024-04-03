@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Linq;
 using UnityEngine;
 
 public class Leak : MonoBehaviour
@@ -11,6 +9,8 @@ public class Leak : MonoBehaviour
     private Transform _startPoint;
     [SerializeField]
     private float _cooldownInSeconds = 0.5f;
+    [SerializeField]
+    private float _dropSpeed = 15;
 
     [Header("Polling elements")]
     [SerializeField]
@@ -42,6 +42,7 @@ public class Leak : MonoBehaviour
             if (instance.activeSelf == false)
             {
                 instance.SetActive(true);
+                instance.GetComponent<Drop>().DropSpeed = _dropSpeed;
                 break;
             }
         }

@@ -182,7 +182,7 @@ MonoBehaviour:
     m_To: SaidaCamera
     m_Blend:
       m_Style: 1
-      m_Time: 0.8
+      m_Time: 0.5
       m_CustomCurve:
         serializedVersion: 2
         m_Curve: []

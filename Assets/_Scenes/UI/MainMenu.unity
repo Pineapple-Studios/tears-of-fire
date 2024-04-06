@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfad01b0a44a840a5ef2e877ef6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundName: Move
+  _fmodEventName: 
 --- !u!1 &163934970
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfad01b0a44a840a5ef2e877ef6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundName: Move
+  _fmodEventName: event:/MainMenu/SFX_uiMove
 --- !u!114 &163934977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1633,7 +1633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfad01b0a44a840a5ef2e877ef6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundName: Move
+  _fmodEventName: event:/MainMenu/SFX_uiMove
 --- !u!1 &568299802
 GameObject:
   m_ObjectHideFlags: 0
@@ -3856,7 +3856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b96320b711061e478982c66f64b33e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
+  _actionAsset: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
   ImageKeyboard: {fileID: 21300000, guid: e29fb5467f5c8bc408509e3ac4af9310, type: 3}
   ImageJoystick: {fileID: 21300000, guid: 41024ee2c90c10b4aa9ae23ccd369aed, type: 3}
 --- !u!1 &990606360
@@ -4827,7 +4827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfad01b0a44a840a5ef2e877ef6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundName: Move
+  _fmodEventName: event:/MainMenu/SFX_uiMove
 --- !u!1 &1294744648
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,7 +4988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfad01b0a44a840a5ef2e877ef6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundName: Move
+  _fmodEventName: event:/MainMenu/SFX_uiMove
 --- !u!20 &1338157882 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 9008553036614666404, guid: 785aae5cc9202534daadb899a2421547, type: 3}
@@ -5839,7 +5839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfad01b0a44a840a5ef2e877ef6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundName: Move
+  _fmodEventName: event:/MainMenu/SFX_uiMove
 --- !u!1 &1658421870
 GameObject:
   m_ObjectHideFlags: 0
@@ -7512,7 +7512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b96320b711061e478982c66f64b33e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
+  _actionAsset: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
   ImageKeyboard: {fileID: 21300000, guid: e3a69e46bbc848742929c5bf8ad08830, type: 3}
   ImageJoystick: {fileID: 21300000, guid: 65f73c0efe441e54887a298edd396dd9, type: 3}
 --- !u!1 &2056363866
@@ -8846,67 +8846,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1001 &1739336952772112652
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214558663055020954, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598987155197363564, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
-      propertyPath: m_Name
-      value: as_Music
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fea2fc53881e7d742aaf0062c5ac9740, type: 3}
 --- !u!114 &1765369973748016368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10855,6 +10794,21 @@ RectTransform:
   m_AnchoredPosition: {x: 80, y: 5}
   m_SizeDelta: {x: 328, y: 61}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &3800815626255966870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8031854358987453536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!222 &3830768975096258312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11764,10 +11718,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2831942520460136076, guid: 785aae5cc9202534daadb899a2421547, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4745927113147145514, guid: 785aae5cc9202534daadb899a2421547, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -11812,25 +11762,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4745927113147145514, guid: 785aae5cc9202534daadb899a2421547, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6534302516181087566, guid: 785aae5cc9202534daadb899a2421547, type: 3}
       propertyPath: m_Name
       value: CameraUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008553036614666404, guid: 785aae5cc9202534daadb899a2421547, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.14117648
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008553036614666404, guid: 785aae5cc9202534daadb899a2421547, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.13725491
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008553036614666404, guid: 785aae5cc9202534daadb899a2421547, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.0627451
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13290,6 +13224,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7389404542560322685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8031854358987453536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -886511447
+      Data2: 1306279306
+      Data3: 1022064540
+      Data4: -707577244
+    Path: event:/MainMenu/MUSIC_mainMenu
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &7405030194741881513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13763,6 +13728,23 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!1 &8031854358987453536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3800815626255966870}
+  - component: {fileID: 7389404542560322685}
+  m_Layer: 0
+  m_Name: as_Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &8072157380812870855
 GameObject:
   m_ObjectHideFlags: 0

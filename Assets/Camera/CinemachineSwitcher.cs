@@ -22,6 +22,7 @@ public class CinemachineSwitcher : MonoBehaviour
     private const string GRAVURA_CAM_STATE_A = "GravuraCamera_A";
     private const string GRAVURA_CAM_STATE_B = "GravuraCamera_B";
     private const string GRAVURA_CAM_STATE_C = "GravuraCamera_C";
+    private const string SAIDA_CAM_STATE = "SaidaCamera";
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -56,6 +57,9 @@ public class CinemachineSwitcher : MonoBehaviour
             case ECamAvailable.GRAVURA_C:
                 _anim.Play(GRAVURA_CAM_STATE_C);
                 break;
+            case ECamAvailable.SAIDA:
+                _anim.Play(SAIDA_CAM_STATE);
+                break;
             case ECamAvailable.PLAYER:
             default:
                 _anim.Play(PLAYER_CAM_STATE);
@@ -74,5 +78,6 @@ public enum ECamAvailable
     YAMSE,
     GRAVURA_A,
     GRAVURA_B,
-    GRAVURA_C
+    GRAVURA_C,
+    SAIDA
 }

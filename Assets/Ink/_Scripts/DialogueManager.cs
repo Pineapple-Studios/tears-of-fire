@@ -31,6 +31,8 @@ public class DialogueManager : MonoBehaviour
         
         if (inkFile == null) return;
 
+        textBox.SetActive(false);
+
         story = new Story(inkFile.text);
         nametag = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         message = textBox.transform.GetChild(1).GetComponent<TMP_Text>();
@@ -43,6 +45,7 @@ public class DialogueManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+            textBox.SetActive(true);
             //Is there more to the story?
             if (story.canContinue)
             {

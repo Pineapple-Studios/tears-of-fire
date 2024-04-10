@@ -124,15 +124,14 @@ public class DialogueHandler : MonoBehaviour
         //if (Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 20.0f) { Handler(yke, true); }
         if (
             _isYkeAlreadyDone == false && 
-            Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 5.0f
+            Mathf.Abs(player.transform.position.x - yke.transform.position.x) <= 4.0f
         )
         {
             Handler(interactionYKE, true);
+            dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
             if (Input.GetKeyDown(KeyCode.E))
             {
                 _currentDialog = "yke";
-                Handler(textBox, true);
-                dialogueManagerYKE.GetComponentInChildren<DialogueManager>().enabled = true;
                 if (_pc != null) _pc.DisableInput();
             }
             if (textBox.activeSelf == true) { Handler(interactionYKE, false); }
@@ -141,10 +140,9 @@ public class DialogueHandler : MonoBehaviour
         if (Mathf.Abs(player.transform.position.x - oce.transform.position.x) <= 5.0f)
         {
             Handler(interactionOCE, true);
+            dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = true;
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Handler(textBox, true);
-                dialogueManagerOCE.GetComponentInChildren<DialogueManager>().enabled = true;
                 if (_pc != null) _pc.DisableInput();
             }
             if (textBox.activeSelf == true) { Handler(interactionOCE, false); }
@@ -153,31 +151,29 @@ public class DialogueHandler : MonoBehaviour
         if (Mathf.Abs(player.transform.position.x - yxo.transform.position.x) <= 5.0f)
         {
             Handler(interactionYXO, true);
+            dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
             if (Input.GetKeyDown(KeyCode.E))
             { 
-                Handler(textBox, true);
-                dialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
                 if (_pc != null) _pc.DisableInput();
             }
             if (textBox.activeSelf == true) { Handler(interactionYXO, false); }
+        }
+
+        if (Mathf.Abs(player.transform.position.x - secondYxo.transform.position.x) <= 5.0f)
+        {
+            Handler(interaction2ndYXO, true);
+            secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (_pc != null) _pc.DisableInput();
+            }
+            if (textBox.activeSelf == true) { Handler(interaction2ndYXO, false); }
         }
 
         if (LevelDataManager.Instance.GetKwyRoomKey())   
         {
             Handler(yxo, false);
             Handler(secondYxo, true);
-        }
-
-        if (Mathf.Abs(player.transform.position.x - secondYxo.transform.position.x) <= 5.0f)
-        {
-            Handler(interaction2ndYXO, true);
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Handler(textBox, true);
-                secondDialogueManagerYXO.GetComponentInChildren<DialogueManager>().enabled = true;
-                if (_pc != null) _pc.DisableInput();
-            }
-            if (textBox.activeSelf == true) { Handler(interaction2ndYXO, false); }
         }
     }
 

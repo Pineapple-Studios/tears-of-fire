@@ -64,6 +64,7 @@ public class BreakableBlock: MonoBehaviour
         _counter++;
         StoneParticle();
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.breakableWall, this.transform.position);
 
         if (_counter == _hitsToBreak)
         {

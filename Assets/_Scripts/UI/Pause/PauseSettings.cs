@@ -10,11 +10,14 @@ public class PauseSettings : MonoBehaviour
     [SerializeField] GameObject cvSettings;
     [SerializeField] GameObject cvAudio;
     [SerializeField] GameObject cvVideo;
+    [SerializeField] GameObject cvPopUp;
 
     [Header("Buttons")]
+    [SerializeField] Button btnMenu;
     [SerializeField] Button btnSettings;
     [SerializeField] Button btnAudio;
     [SerializeField] Button btnVideo;
+    [SerializeField] Button btnNo;
 
     void Start()
     {
@@ -23,16 +26,20 @@ public class PauseSettings : MonoBehaviour
 
     public void OnEnable()
     {
+        btnMenu.onClick.AddListener(delegate { PopUpConfirmation(); });
         btnSettings.onClick.AddListener(delegate { HandlerCanvasSettings(); });
         btnAudio.onClick.AddListener(delegate { HandlerCanvasAudio(); });
         btnVideo.onClick.AddListener(delegate { HandlerCanvasVideo(); });
+        btnNo.onClick.AddListener(delegate { HandlerCanvasStart(); });
     }
 
     public void OnDisable()
     {
+        btnMenu.onClick.RemoveListener(delegate { PopUpConfirmation(); });
         btnSettings.onClick.RemoveListener(delegate { HandlerCanvasSettings(); });
         btnAudio.onClick.RemoveListener(delegate { HandlerCanvasAudio(); });
         btnVideo.onClick.RemoveListener(delegate { HandlerCanvasVideo(); });
+        btnNo.onClick.RemoveListener(delegate { HandlerCanvasStart(); });
     }
 
     // Update is called once per frame
@@ -52,6 +59,7 @@ public class PauseSettings : MonoBehaviour
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, false);
         UiHandler(cvVideo, false);
+        UiHandler(cvPopUp, false);
     }
 
     public void HandlerCanvasSettings()
@@ -60,6 +68,7 @@ public class PauseSettings : MonoBehaviour
         UiHandler(cvSettings, true);
         UiHandler(cvAudio, false);
         UiHandler(cvVideo, false);
+        UiHandler(cvPopUp, false);
     }
 
     public void HandlerCanvasAudio()
@@ -68,6 +77,7 @@ public class PauseSettings : MonoBehaviour
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, true);
         UiHandler(cvVideo, false);
+        UiHandler(cvPopUp, false);
     }
 
     public void HandlerCanvasVideo()
@@ -76,5 +86,15 @@ public class PauseSettings : MonoBehaviour
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, false);
         UiHandler(cvVideo, true);
+        UiHandler(cvPopUp, false);
+    }
+
+    public void PopUpConfirmation()
+    {
+        cvMain.SetActive(false);
+        UiHandler(cvSettings, false);
+        UiHandler(cvAudio, false);
+        UiHandler(cvVideo, false);
+        UiHandler(cvPopUp, true);
     }
 }

@@ -47,9 +47,15 @@ public class LevelDataManager : MonoBehaviour
 
     private void Start()
     {
-        _deathTransition.SetActive(false);
+        InitStates();
     }
 
+    private void InitStates()
+    {
+        _deathTransition.SetActive(false);
+        SetKwyRoomKey(false);
+        SetDashState(false);
+    }
 
     private void OnEnable()
     {

@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class BatBullet : MonoBehaviour
 {
@@ -40,6 +42,13 @@ public class BatBullet : MonoBehaviour
         }
 
         transform.position += _direction * Speed * Time.deltaTime;
+        RotateToTarget();
+    }
+
+    private void RotateToTarget()
+    {
+        float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle + 90f);
     }
 
     public void SetTarget(Transform target, LayerMask mask, float damage)

@@ -94,6 +94,7 @@ public class PlayerProps : MonoBehaviour
         
         // Feedback
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.hitSvart, this.transform.position);
         CinemachineShakeManager.Instance.ShakeCamera();
 
         FreezingFeedback();

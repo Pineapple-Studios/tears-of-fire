@@ -286,6 +286,8 @@ public class PlayerController : MonoBehaviour
         if (onPlayerJumping != null) onPlayerJumping();
 
         JumpTimer = 0;
+
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.jumpSvart, this.transform.position);
     }
 
     /// <summary>

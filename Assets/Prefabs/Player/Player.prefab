@@ -234,7 +234,7 @@ MonoBehaviour:
   RecallColliderTime: 1
   _cooldownAfterHit: 1
   _timeScaleDuringHitPause: 0.1
-  _hitPauseDuration: 0.05
+  _hitPauseDuration: 0.139
   IsTakingDamage: 0
 --- !u!114 &1175420502187175053
 MonoBehaviour:
@@ -281,7 +281,7 @@ MonoBehaviour:
     m_Bits: 512
   _offset: {x: 0, y: 0.69, z: 0}
   _knockbackHitForce: 40
-  _indulgenceTimeBossHit: 0.5
+  _totalIndulgenceTime: 0.5
   IsAttacking: 0
   AttackRange: 2
 --- !u!114 &4084587884178894665

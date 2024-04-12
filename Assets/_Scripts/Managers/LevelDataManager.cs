@@ -58,7 +58,7 @@ public class LevelDataManager : MonoBehaviour
         SetKwyRoomKey(false);
         SetDashState(false);
         _player.transform.position = _levelData.lastCheckpoint;
-        _player.GetComponent<PlayerController>().Flip();
+        // _player.GetComponent<PlayerController>().Flip();
     }
 
     private void OnEnable()

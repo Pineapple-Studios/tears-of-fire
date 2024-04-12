@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 using FMODUnity;
-using FMOD.Studio;
 
 public class FMODAudioManager : MonoBehaviour
 {

@@ -24,6 +24,7 @@ public class LevelDataManager : MonoBehaviour
 
     public GameObject CurrentPlayerObject;
     private ECamAvailable _currentSelectedCam = ECamAvailable.PLAYER;
+    private GameObject _player;
 
     public static LevelDataManager Instance { get; private set; }
 
@@ -43,6 +44,7 @@ public class LevelDataManager : MonoBehaviour
         _levelData.EnemiesDead.Clear();
         // Set last checkpoint as the initial position
         _levelData.lastCheckpoint = new Vector3(14.5f,4.3f,0);
+        _player = FindAnyObjectByType<PlayerController>().gameObject;
     }
 
     private void Start()
@@ -55,6 +57,8 @@ public class LevelDataManager : MonoBehaviour
         _deathTransition.SetActive(false);
         SetKwyRoomKey(false);
         SetDashState(false);
+        _player.transform.position = _levelData.lastCheckpoint;
+        _player.GetComponent<PlayerController>().Flip();
     }
 
     private void OnEnable()

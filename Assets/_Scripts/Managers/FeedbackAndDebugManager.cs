@@ -79,7 +79,10 @@ public class FeedbackAndDebugManager : MonoBehaviour
     private void Update()
     {
         if (_debugPanel == null || _dataController == null) return;
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (
+            (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt)) && 
+            Input.GetKeyDown(KeyCode.F12)
+        )
         {
             _dataController.IsDebugPanelActive = !_dataController.IsDebugPanelActive;
             HandlePanel();

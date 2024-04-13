@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638484655854796161
+  lastModified: 638485456877404265
   FileSizes:
   - Name: Desktop
     Value: 4482976
@@ -116,7 +116,7 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638484655854806171
+  lastModified: 638485456877414264
   FileSizes:
   - Name: Desktop
     Value: 1480
@@ -180,7 +180,7 @@ MonoBehaviour:
   - {fileID: -8420140199389180468}
   StringsBanks:
   - {fileID: -1023458804885698849}
-  cacheTime: 638484655854806171
+  cacheTime: 638485456877414264
   cacheVersion: 131616
 --- !u!114 &21655246649258022
 MonoBehaviour:

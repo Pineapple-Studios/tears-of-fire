@@ -268,7 +268,7 @@ public class PlayerController : MonoBehaviour
     /// <summary>
     /// Inverte o sentido em que o svart est� olhando
     /// </summary>
-    void Flip()
+    public void Flip()
     {
         IsFacingRight = !IsFacingRight;
         transform.rotation = Quaternion.Euler(0, IsFacingRight ? 0 : 180, 0);

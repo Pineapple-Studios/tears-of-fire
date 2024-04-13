@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82892a90fc3a36e4a894e7a5deaea8a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScreen: MainMenu
+  NextScreen: ForBetterExperience
   TimeToGo: 7
 --- !u!1 &767754198
 GameObject:

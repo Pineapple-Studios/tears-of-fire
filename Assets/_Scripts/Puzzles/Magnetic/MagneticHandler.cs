@@ -33,8 +33,6 @@ public class MagneticHandler : MonoBehaviour
     {
         _tmpCurrentStep = GetCurrentStep();
         
-        if (_tmpCurrentStep == _totalSteps) return;
-        
         if (_tmpCurrentStep == 0 || _platform.anim_isAnimating)
         {
             _timer = 0f;

@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class PlayerController : MonoBehaviour
 {
     public static Action onPlayerJumping;
@@ -204,6 +204,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Idenfica sse devemos desabilitar os inputs
+    /// </summary>
     public bool ShouldDisbleInput()
     {
         return _playerDash.IsDashed || _isRespawning || _isInputDisabled;
@@ -353,4 +356,6 @@ public class PlayerController : MonoBehaviour
         _rb.gravityScale = GravityScale;
         if (onPlayerFreeze != null) onPlayerFreeze();
     }
+
+    public Vector2 GetCurrentVelocity() => _rb.velocity;
 }

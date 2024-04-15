@@ -21,5 +21,13 @@ public class Checkpoint : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (_anim.GetBool("IsOn") && _spawnPoint.position != LevelDataManager.Instance.LastCheckpoint())
+        {
+            _anim.SetBool("IsOn", false);
+        }
+    }
+
     public Transform GetSpawnPoint() => _spawnPoint;
 }

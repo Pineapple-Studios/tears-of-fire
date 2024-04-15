@@ -26,8 +26,6 @@ public class TucanoRexEndGameHandler : MonoBehaviour
     [SerializeField]
     private GameObject[] _elementsToActive;
 
-    
-
     private PlayerInputHandler _playerInputHandler;
 
     private void Awake()
@@ -60,6 +58,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private IEnumerator BossFightEndCoroutine()
     {
+        _playerInputHandler.DisableInputs();
         Time.timeScale = _finalTimeScale;
         CinemachineShakeManager.Instance.ShakeCamera(_finalHitAmplitude, _finalHitDuration, _finalHitFrequency);
         yield return new WaitForSeconds(_finalHitDuration);

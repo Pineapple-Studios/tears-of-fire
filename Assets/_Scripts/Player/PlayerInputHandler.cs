@@ -36,10 +36,12 @@ public class PlayerInputHandler : MonoBehaviour
     private InputAction _inventory;
     
 
+    private PlayerController _pc;
     private InputActionMap _gamePlayMap;
 
     private void Awake()
     {
+        _pc = FindAnyObjectByType<PlayerController>();
         _gamePlayMap = _actionsAsset.FindActionMap(GAMEPLAY_ACTIONS);
         if (_gamePlayMap == null) return;
 
@@ -64,15 +66,50 @@ public class PlayerInputHandler : MonoBehaviour
         _npcInteraction.canceled += OnKeyNPCInteractionUp;
     }
 
-    protected virtual void OnKeyJumpDown(InputAction.CallbackContext context) { KeyJumpDown?.Invoke(); }
-    protected virtual void OnKeyJumpUp(InputAction.CallbackContext context) { KeyJumpUp?.Invoke(); }
-    protected virtual void OnKeyAttackDown(InputAction.CallbackContext context) { KeyAttackDown?.Invoke(); }
-    protected virtual void OnKeyAttackUp(InputAction.CallbackContext context) { KeyAttackUp?.Invoke(); }
-    protected virtual void OnKeyDashDown(InputAction.CallbackContext context) { KeyDashDown?.Invoke(); }
-    protected virtual void OnKeyDashUp(InputAction.CallbackContext context) { KeyDashUp?.Invoke(); }
+    protected virtual void OnKeyJumpDown(InputAction.CallbackContext context) {
+        if (_pc != null && _pc.ShouldDisbleInput()) return;
+        KeyJumpDown?.Invoke(); 
+    }
+    protected virtual void OnKeyJumpUp(InputAction.CallbackContext context) {
+        if (_pc != null && _pc.ShouldDisbleInput()) return;
+        KeyJumpUp?.Invoke(); 
+    }
+    
+    protected virtual void OnKeyAttackDown(InputAction.CallbackContext context) {
+        if (_pc != null && _pc.ShouldDisbleInput()) return;
+        KeyAttackDown?.Invoke(); 
+    }
+
+    protected virtual void OnKeyAttackUp(InputAction.CallbackContext context) {
+        if (_pc != null && _pc.ShouldDisbleInput()) return; 
+        KeyAttackUp?.Invoke(); 
+    }
+
+    protected virtual void OnKeyDashDown(InputAction.CallbackContext context) {
+        if (_pc != null && _pc.ShouldDisbleInput()) return; 
+        KeyDashDown?.Invoke(); 
+    }
+
+    protected virtual void OnKeyDashUp(InputAction.CallbackContext context) {
+        if (_pc != null && _pc.ShouldDisbleInput()) return; 
+        KeyDashUp?.Invoke(); 
+    }
+
     protected virtual void OnKeyNPCInteractionDown(InputAction.CallbackContext context) { KeyNPCInteractionDown?.Invoke(); }
     protected virtual void OnKeyNPCInteractionUp(InputAction.CallbackContext context) { KeyNPCInteractionUp?.Invoke(); }
-    public Vector2 GetDirection() => _movement.ReadValue<Vector2>();
+    public Vector2 GetDirection()
+    {
+        if (_pc != null && _pc.ShouldDisbleInput()) return Vector2.zero;
+
+        return _movement.ReadValue<Vector2>();
+    }
+
+    public void DisableInputs()
+    {
+        if (_pc == null) return;
+        _pc.DisableInput();
+    }
+    
 
     private void OnEnable()
     {

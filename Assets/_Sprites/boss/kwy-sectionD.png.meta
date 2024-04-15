@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 9e002ede5ccb02245a948b865956a7a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45.87
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOSS_Attack0001
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 2308
+        width: 847
+        height: 656
+      alignment: 9
+      pivot: {x: 0.5655254, y: 0.6097561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256afbb6802205a4687084095bd2e798
+      internalID: 37609657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0002
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 2308
+        width: 847
+        height: 656
+      alignment: 9
+      pivot: {x: 0.5655254, y: 0.6097561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5d321f2cbf19e48aec67435aa01314
+      internalID: 2133891404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0003
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 2308
+        width: 847
+        height: 656
+      alignment: 9
+      pivot: {x: 0.5655254, y: 0.6097561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0473bd2a104dd46aeb4e1a5aadb117
+      internalID: -1922079582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0004
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 843
+        width: 795
+        height: 689
+      alignment: 9
+      pivot: {x: 0.5849057, y: 0.5834543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243a1fe7b1aecfb4abde1ddd752d60f0
+      internalID: 295006428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0005
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 843
+        width: 795
+        height: 689
+      alignment: 9
+      pivot: {x: 0.5849057, y: 0.5834543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d5ba793c477944b694e6d0e4f1d87
+      internalID: -1417833681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0006
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 843
+        width: 795
+        height: 689
+      alignment: 9
+      pivot: {x: 0.5849057, y: 0.5834543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de444c17d616f7d4b8955b871080db85
+      internalID: -823631342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0007
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 3471
+        width: 921
+        height: 620
+      alignment: 9
+      pivot: {x: 0.62975025, y: 0.6483871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2541aeb3409402e4ca6b98a09d504beb
+      internalID: -1280167061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0008
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 3471
+        width: 921
+        height: 620
+      alignment: 9
+      pivot: {x: 0.62975025, y: 0.6483871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c456fd43cf5046964d01d01d7c385
+      internalID: -745518527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0009
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 3471
+        width: 921
+        height: 620
+      alignment: 9
+      pivot: {x: 0.62975025, y: 0.6483871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff649b85f3fe6f4199104ccb02c130f
+      internalID: -477247053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0010
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 3433
+        width: 877
+        height: 658
+      alignment: 9
+      pivot: {x: 0.5461802, y: 0.61094224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7f3b2950131474e8f35b752a1fec3d
+      internalID: -535176192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0011
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 3433
+        width: 877
+        height: 658
+      alignment: 9
+      pivot: {x: 0.5461802, y: 0.61094224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7a001260df57144a1704ee3ef7b4ed
+      internalID: 753360553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0012
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5
+        width: 935
+        height: 712
+      alignment: 9
+      pivot: {x: 0.49304813, y: 0.56179774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dea1fa2592d48945bd33d5710795671
+      internalID: -1400905075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0013
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5
+        width: 935
+        height: 712
+      alignment: 9
+      pivot: {x: 0.49304813, y: 0.56179774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510afe5b41ead7e4eb0d16b0a4af42dc
+      internalID: -409152199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0014
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3134
+        width: 776
+        height: 957
+      alignment: 9
+      pivot: {x: 0.6688144, y: 0.4200627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634db73d023af7b448492c70e35ec3ec
+      internalID: 1064605604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0015
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3134
+        width: 776
+        height: 957
+      alignment: 9
+      pivot: {x: 0.6688144, y: 0.4200627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c701c6fbd3f4a614e88b0e1190670bca
+      internalID: 1419014558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0016
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2689
+        width: 743
+        height: 924
+      alignment: 9
+      pivot: {x: 0.70794076, y: 0.43506494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47625d5997c2cc44f80b46bf32d67b05
+      internalID: -1315974051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0017
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2689
+        width: 743
+        height: 924
+      alignment: 9
+      pivot: {x: 0.70794076, y: 0.43506494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576678b8fe6fba7468c426fa5b01fba5
+      internalID: 1265637429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0018
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 741
+        height: 922
+      alignment: 9
+      pivot: {x: 0.731444, y: 0.43600866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695b0e2fddbb2a3499ca2be58a78576e
+      internalID: 662498254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0019
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 741
+        height: 922
+      alignment: 9
+      pivot: {x: 0.731444, y: 0.43600866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe27a1857dd3904bba148a141832f7d
+      internalID: -2134618225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Attack0020
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 741
+        height: 922
+      alignment: 9
+      pivot: {x: 0.731444, y: 0.43600866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e4e58d5acfa140b0f47c31ddfdcd7
+      internalID: -1392634950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0001
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1260
+        width: 1009
+        height: 524
+      alignment: 9
+      pivot: {x: 0.5420218, y: 0.75591606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417932e951155e747a8b49ab42ff912e
+      internalID: -1642942570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0002
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1260
+        width: 1009
+        height: 524
+      alignment: 9
+      pivot: {x: 0.5420218, y: 0.75591606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce8b455f9324fc4eb81b1bd0f9703b8
+      internalID: 1710272963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0003
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2966
+        width: 1011
+        height: 519
+      alignment: 9
+      pivot: {x: 0.5379822, y: 0.76319844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74802ebe8d56fab4d8fabaf2d24ceee2
+      internalID: 55249103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0004
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2966
+        width: 1011
+        height: 519
+      alignment: 9
+      pivot: {x: 0.5379822, y: 0.76319844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b090969739b5d64685a66ad2a83a4b2
+      internalID: -271074464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0005
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 3573
+        width: 991
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5286579, y: 0.7646718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00ae61d7f8039a4fae7f91eec62d930
+      internalID: 793023109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0006
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 3573
+        width: 991
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5286579, y: 0.7646718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8903b0926ffb96e4abe09426f027469a
+      internalID: -719847981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0007
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 795
+        width: 910
+        height: 503
+      alignment: 9
+      pivot: {x: 0.6273626, y: 0.78747517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ceac2ef58d4454da0c7ed5c32c82d8
+      internalID: 1440933883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0008
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 795
+        width: 910
+        height: 503
+      alignment: 9
+      pivot: {x: 0.6273626, y: 0.78747517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd86a9a2c6fca9428556653aa7d4574
+      internalID: -1599232549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0009
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 1524
+        width: 765
+        height: 613
+      alignment: 9
+      pivot: {x: 0.68352944, y: 0.6461664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5432773302f4584ab15d8d498731cb5
+      internalID: 1408927063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0010
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 1524
+        width: 765
+        height: 613
+      alignment: 9
+      pivot: {x: 0.68352944, y: 0.6461664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b4fad0deaf8a343bfc79c0a1273018
+      internalID: -1861203003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0011
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5
+        width: 806
+        height: 788
+      alignment: 9
+      pivot: {x: 0.7008685, y: 0.502665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd64b823b86d8ca4b875aa5ae4ede1bb
+      internalID: -1527029821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0012
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5
+        width: 806
+        height: 788
+      alignment: 9
+      pivot: {x: 0.7008685, y: 0.502665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f2a44b51ee1ae4594b37d7758f2801
+      internalID: -2112935684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0013
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 5
+        width: 815
+        height: 840
+      alignment: 9
+      pivot: {x: 0.68699384, y: 0.47154763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c617cb8cff993e47a1ee343a24a1824
+      internalID: -1004559290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0014
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 5
+        width: 815
+        height: 840
+      alignment: 9
+      pivot: {x: 0.68699384, y: 0.47154763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cec4ffb90ee4c49943dd0ef201a9d4
+      internalID: -4727568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0015
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2572
+        width: 748
+        height: 932
+      alignment: 9
+      pivot: {x: 0.7378342, y: 0.425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec57b25a3293c44bac93c6da5d48a8e
+      internalID: -281489560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0016
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2572
+        width: 748
+        height: 932
+      alignment: 9
+      pivot: {x: 0.7378342, y: 0.425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5003ff9dd025b3c448f4538abc2fce9a
+      internalID: -1976366541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0017
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1759
+        width: 739
+        height: 927
+      alignment: 9
+      pivot: {x: 0.7576455, y: 0.42729235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e4cd1cecc4b74469a3f1b7a3bc64a4
+      internalID: -1853363349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0018
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1759
+        width: 739
+        height: 927
+      alignment: 9
+      pivot: {x: 0.7576455, y: 0.42729235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e94378c59a0deb4aad20dac35e4e63e
+      internalID: 277673561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_SCREAM0019
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 5
+        width: 739
+        height: 919
+      alignment: 9
+      pivot: {x: 0.7576455, y: 0.43101197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc80056ade54304d9720808d9002944
+      internalID: 1068020015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5d753af341a9435419a7f220b572b82c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BOSS_Attack0001: 37609657
+      BOSS_Attack0002: 2133891404
+      BOSS_Attack0003: -1922079582
+      BOSS_Attack0004: 295006428
+      BOSS_Attack0005: -1417833681
+      BOSS_Attack0006: -823631342
+      BOSS_Attack0007: -1280167061
+      BOSS_Attack0008: -745518527
+      BOSS_Attack0009: -477247053
+      BOSS_Attack0010: -535176192
+      BOSS_Attack0011: 753360553
+      BOSS_Attack0012: -1400905075
+      BOSS_Attack0013: -409152199
+      BOSS_Attack0014: 1064605604
+      BOSS_Attack0015: 1419014558
+      BOSS_Attack0016: -1315974051
+      BOSS_Attack0017: 1265637429
+      BOSS_Attack0018: 662498254
+      BOSS_Attack0019: -2134618225
+      BOSS_Attack0020: -1392634950
+      BOSS_SCREAM0001: -1642942570
+      BOSS_SCREAM0002: 1710272963
+      BOSS_SCREAM0003: 55249103
+      BOSS_SCREAM0004: -271074464
+      BOSS_SCREAM0005: 793023109
+      BOSS_SCREAM0006: -719847981
+      BOSS_SCREAM0007: 1440933883
+      BOSS_SCREAM0008: -1599232549
+      BOSS_SCREAM0009: 1408927063
+      BOSS_SCREAM0010: -1861203003
+      BOSS_SCREAM0011: -1527029821
+      BOSS_SCREAM0012: -2112935684
+      BOSS_SCREAM0013: -1004559290
+      BOSS_SCREAM0014: -4727568
+      BOSS_SCREAM0015: -281489560
+      BOSS_SCREAM0016: -1976366541
+      BOSS_SCREAM0017: -1853363349
+      BOSS_SCREAM0018: 277673561
+      BOSS_SCREAM0019: 1068020015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

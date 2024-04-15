@@ -1,7 +1,6 @@
 using Cinemachine;
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using static LevelDataScriptableObject;
 
@@ -202,4 +201,5 @@ public class LevelDataManager : MonoBehaviour
         player.GetComponentInChildren<PlayerAnimationController>().StartRespawn();
     }
 
+    public Vector3 LastCheckpoint() => _levelData.lastCheckpoint;
 }

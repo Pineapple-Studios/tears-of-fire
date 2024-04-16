@@ -15,6 +15,8 @@ public class MainMenuAnimationController : MonoBehaviour
     private const string FROM_AUDIO_TO_SETTINGS = "OnAudioToSettings";
     private const string FROM_EXTRAS_TO_HOME = "OnExtrasToHome";
     private const string FROM_CONTROLS_TO_HOME = "OnControlsToHome";
+    private const string FROM_SETTINGS_TO_LANGUAGE = "OnSettingsToLanguage";
+    private const string FROM_LANGUAGE_TO_SETTINGS = "OnLanguageToSettings";
 
     private Animator _an;
 
@@ -75,5 +77,15 @@ public class MainMenuAnimationController : MonoBehaviour
     public void GoFromControlsToHome()
     {
         _an.SetTrigger(FROM_CONTROLS_TO_HOME);
+    }
+
+    public void GoFromSettingsToLanguage()
+    {
+        _an.SetTrigger(FROM_SETTINGS_TO_LANGUAGE);
+    }
+
+    public void GoFromLanguageToSettings()
+    {
+        _an.SetTrigger(FROM_LANGUAGE_TO_SETTINGS);
     }
 }

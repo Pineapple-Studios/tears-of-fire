@@ -325,7 +325,7 @@
             <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_JUMP/BOSS_Jump0027.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.515,0.57</point_f>
                 <key>spriteScale</key>
                 <double>1</double>
                 <key>scale9Enabled</key>

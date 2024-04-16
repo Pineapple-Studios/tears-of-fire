@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: 14a5277fcee6a5b498c0e9fd5fd2369c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: default_dead
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 892
+        width: 256
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c546361c956c8154f801e008c0c42e75
+      internalID: -1667949974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: default_icon
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba464cea394c8842881702c7e637880
+      internalID: 616852441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0001
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 655
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dba7604843f94e8bdd39365355e94
+      internalID: 592167694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0002
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 655
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f09017449915c47acffb8b80bb649a
+      internalID: 2083368486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0003
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 655
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6831742c1e252b740951e7659aa9f56e
+      internalID: -112906754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0004
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 651
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecaea1b0221f094bbe54ae6d611cb99
+      internalID: 1302669011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0005
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 651
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d4f05bd4f92a4429d2a789d5f101c7
+      internalID: 511662663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0006
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 470
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f61a56c4fc638247a724507f929dfc8
+      internalID: 1496239359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0007
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 470
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68af49d7f63dc3941982b77bdefa6376
+      internalID: -1219312671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0008
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 466
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd77ec9a1dbc17847883156ae46a842d
+      internalID: -2067658125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0009
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 466
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0812fa242a3a3834cb873b9eb204c620
+      internalID: -881896091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0010
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 466
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed29e03872f35c4288472c312f91667
+      internalID: -1588915385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0011
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 645
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8964b390f71a6ed49a626fe54b764a35
+      internalID: 1900521534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0012
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 645
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589ea63306f9dd049a35a4fae9d775dd
+      internalID: 1072149802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0013
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 645
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f86754dbfcbe7468f11ebe7da3e475
+      internalID: -884091922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 512
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223ed1ef014f0254e9cb9f196c6d878e
+      internalID: -1076343350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 512
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a6b11197eb91740aad266586bda9bf
+      internalID: -1763926827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_BLink0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 512
+        width: 164
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a8d442f8d5f724191e47c00854a5b5
+      internalID: -1552892352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0001
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 836
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662b304bfe8e6c49ab52f5bbef4ec27
+      internalID: -627344269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0002
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 836
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449121df31ea0d949be49cf8b401524b
+      internalID: -1777094575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0003
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 836
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2393b172f2cc914cb7b384e74d5393d
+      internalID: -861933280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0004
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 840
+        width: 178
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241af70ed0be68049b9a64076c3b3d93
+      internalID: 352975340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0005
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 840
+        width: 178
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a761007ee55262459d45d0f80a3f5a3
+      internalID: 1365224853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0006
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 840
+        width: 178
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818cc13ac8358b24ea2e0ecdde729dcb
+      internalID: -2132021521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0007
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 830
+        width: 178
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f874f86fd777b246bdc35d18f81fa9e
+      internalID: -2051134259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0008
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 830
+        width: 178
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb461513183e2d42b8b3f70745aea7c
+      internalID: 1795381389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0009
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 830
+        width: 178
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5127394165d17b942a0cf27a8e9dcff1
+      internalID: -1182657907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0010
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 454
+        width: 163
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5092025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66934681a657514caedc491cfa87bab
+      internalID: -2020849598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0011
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 454
+        width: 163
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5092025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4b51673e871dd40ab4e008df691fab
+      internalID: -1025281509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0012
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 454
+        width: 163
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5092025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ccb06d1e340e4458a34c8fc40890ad
+      internalID: -1757490777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0013
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 651
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406fce1a184ecc44a53b1fa691f5d5e
+      internalID: 1931028347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0014
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 651
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28353571893f7645b6d7d5121dad5a8
+      internalID: -1120497429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0015
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 651
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d7f21abad1d1149970f9f9d9f27474
+      internalID: 645517774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0016
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 840
+        width: 178
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722be91487cb71b458a5f093b77c3ea2
+      internalID: -657000511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0017
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 840
+        width: 178
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a03626b3fa3b458c2a50488351d46
+      internalID: 892393674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0018
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 840
+        width: 178
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d96594da261a64bb73c14eec94343d
+      internalID: -1212626395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 697
+        width: 178
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513404f2602c2e9439f61d8679a9e06e
+      internalID: -1721316401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 697
+        width: 178
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751afe7b2754cd54d95c2cb8588c13e3
+      internalID: -236491651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 697
+        width: 178
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bbdf49414446f4b8a41fcd858e72b9
+      internalID: 1647095480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0022
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 448
+        width: 163
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5092025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d66daf0caa424c87544f6a45e0d26
+      internalID: -1994049645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0023
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 448
+        width: 163
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5092025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219e1de62f9a2a54ca8091f11ae88c80
+      internalID: -144862939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKGNOMON0024
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 448
+        width: 163
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5092025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080aad6198f04d141a6b49706568b212
+      internalID: -203177966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IDLE_BLink0001: 592167694
+      IDLE_BLink0002: 2083368486
+      IDLE_BLink0003: -112906754
+      IDLE_BLink0004: 1302669011
+      IDLE_BLink0005: 511662663
+      IDLE_BLink0006: 1496239359
+      IDLE_BLink0007: -1219312671
+      IDLE_BLink0008: -2067658125
+      IDLE_BLink0009: -881896091
+      IDLE_BLink0010: -1588915385
+      IDLE_BLink0011: 1900521534
+      IDLE_BLink0012: 1072149802
+      IDLE_BLink0013: -884091922
+      IDLE_BLink0014: -1076343350
+      IDLE_BLink0015: -1763926827
+      IDLE_BLink0016: -1552892352
+      WALKGNOMON0001: -627344269
+      WALKGNOMON0002: -1777094575
+      WALKGNOMON0003: -861933280
+      WALKGNOMON0004: 352975340
+      WALKGNOMON0005: 1365224853
+      WALKGNOMON0006: -2132021521
+      WALKGNOMON0007: -2051134259
+      WALKGNOMON0008: 1795381389
+      WALKGNOMON0009: -1182657907
+      WALKGNOMON0010: -2020849598
+      WALKGNOMON0011: -1025281509
+      WALKGNOMON0012: -1757490777
+      WALKGNOMON0013: 1931028347
+      WALKGNOMON0014: -1120497429
+      WALKGNOMON0015: 645517774
+      WALKGNOMON0016: -657000511
+      WALKGNOMON0017: 892393674
+      WALKGNOMON0018: -1212626395
+      WALKGNOMON0019: -1721316401
+      WALKGNOMON0020: -236491651
+      WALKGNOMON0021: 1647095480
+      WALKGNOMON0022: -1994049645
+      WALKGNOMON0023: -144862939
+      WALKGNOMON0024: -203177966
+      default_dead: -1667949974
+      default_icon: 616852441
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

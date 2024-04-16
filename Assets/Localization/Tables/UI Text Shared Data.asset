@@ -27,6 +27,82 @@ MonoBehaviour:
     m_Key: btnE
     m_Metadata:
       m_Items: []
+  - m_Id: 24399590453579776
+    m_Key: newGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24399822528614400
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24400013054873600
+    m_Key: extras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24400180072058880
+    m_Key: quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24402486184284160
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24402739054678016
+    m_Key: audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24403224654417920
+    m_Key: video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24404504722444288
+    m_Key: achievement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24404791939993600
+    m_Key: controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24406743419621376
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24407169422495744
+    m_Key: changeLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24587892653723648
+    m_Key: videoSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24588101538451456
+    m_Key: audioSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24590168487268352
+    m_Key: general
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24590337391890432
+    m_Key: music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24590465586597888
+    m_Key: sfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24749789743058944
+    m_Key: lead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24749949160165376
+    m_Key: artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24750057658421248
+    m_Key: programmer
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

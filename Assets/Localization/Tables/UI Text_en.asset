@@ -90,6 +90,18 @@ MonoBehaviour:
     m_Localized: SFX
     m_Metadata:
       m_Items: []
+  - m_Id: 24749789743058944
+    m_Localized: Lead Programmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24749949160165376
+    m_Localized: Game Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24750057658421248
+    m_Localized: Programmer
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

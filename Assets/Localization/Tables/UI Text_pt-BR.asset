@@ -90,6 +90,18 @@ MonoBehaviour:
     m_Localized: Sons de efeito
     m_Metadata:
       m_Items: []
+  - m_Id: 24749789743058944
+    m_Localized: "Programador L\xEDder"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24749949160165376
+    m_Localized: Ilustrador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24750057658421248
+    m_Localized: Programador
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

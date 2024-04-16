@@ -109,7 +109,13 @@ public class PlayerInputHandler : MonoBehaviour
         if (_pc == null) return;
         _pc.DisableInput();
     }
-    
+
+    public void EnableInputs()
+    {
+        if (_pc == null) return;
+        _pc.EnableInput();
+    }
+
 
     private void OnEnable()
     {

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using Ink.Runtime;
 using TMPro;
 using System;
@@ -25,7 +24,23 @@ public class DialogueManager : MonoBehaviour
     List<string> tags;
     //static Choice choiceSelected;
 
-    // Start is called before the first frame update
+    private PlayerInputHandler _pih;
+
+    private void Awake()
+    {
+        _pih = FindAnyObjectByType<PlayerInputHandler>();
+    }
+
+    private void OnEnable()
+    {
+        if (_pih != null) _pih.KeyNPCInteractionDown += OnNPCInteraction;
+    }
+
+    private void OnDisable()
+    {
+        if (_pih != null) _pih.KeyNPCInteractionDown -= OnNPCInteraction;
+    }
+
     void Start()
     {
         
@@ -40,39 +55,36 @@ public class DialogueManager : MonoBehaviour
         //choiceSelected = null;
     }
 
-    private void Update()
+    private void OnNPCInteraction()
     {
-
-        if (Input.GetKeyDown(KeyCode.E))
+        textBox.SetActive(true);
+        //Is there more to the story?
+        if (story.canContinue)
         {
-            textBox.SetActive(true);
-            //Is there more to the story?
-            if (story.canContinue)
-            {
-                nametag.text = npcName;
-                AdvanceDialogue();
+            nametag.text = npcName;
+            AdvanceDialogue();
 
-                //Are there any choices?
-                if (story.currentChoices.Count != 0)
-                {
-                    //StartCoroutine(ShowChoices());
-                }
-            }
-            else
+            //Are there any choices?
+            if (story.currentChoices.Count != 0)
             {
-                
-                GameObject yke = FindObjectOfType<DialogueHandler>().yke;
-                DialogueManager obj = yke.GetComponentInChildren<DialogueManager>();
-                if (obj == false) { 
-                    yke.SetActive(false);
-                    Debug.Log(yke.activeSelf);
-                }
-                FinishDialogue();
-                textBox.SetActive(false);
-                nametag.text = string.Empty;
-                message.text = string.Empty;
-                Time.timeScale = 1;
+                //StartCoroutine(ShowChoices());
             }
+        }
+        else
+        {
+
+            GameObject yke = FindObjectOfType<DialogueHandler>().yke;
+            DialogueManager obj = yke.GetComponentInChildren<DialogueManager>();
+            if (obj == false)
+            {
+                yke.SetActive(false);
+                Debug.Log(yke.activeSelf);
+            }
+            FinishDialogue();
+            textBox.SetActive(false);
+            nametag.text = string.Empty;
+            message.text = string.Empty;
+            Time.timeScale = 1;
         }
     }
 
@@ -178,6 +190,7 @@ public class DialogueManager : MonoBehaviour
         CharacterScript cs = GameObject.FindObjectOfType<CharacterScript>();
         cs.PlayAnimation(_name);
     }
+
     void SetTextColor(string _color)
     {
         switch (_color)

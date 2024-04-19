@@ -57,17 +57,36 @@ public class FMODAudioManager : MonoBehaviour
 
     private void Start()
     {
+        SetInitialValues();
     }
 
     private void Update()
     {
-        _masterBus.setVolume(masterVolume);
-        _ambienceBus.setVolume(ambienceVolume);
-        _foleyBus.setVolume(foleyVolume);
-        _musicBus.setVolume(musicVolume);
-        _sfxBus.setVolume(sfxVolume);
-        _uiBus.setVolume(uiVolume);
-        _voiceBus.setVolume(voiceVolume);
+        SaveVolumeToStorage(_masterBus, masterVolume, LocalStorage.GeneralMixerKey());
+        SaveVolumeToStorage(_ambienceBus, ambienceVolume, LocalStorage.AmbienceMixerKey());
+        SaveVolumeToStorage(_foleyBus, foleyVolume, LocalStorage.FoleyMixerKey());
+        SaveVolumeToStorage(_musicBus, musicVolume, LocalStorage.MusicMixerKey());
+        SaveVolumeToStorage(_sfxBus, sfxVolume, LocalStorage.SfxMixerKey());
+        SaveVolumeToStorage(_uiBus, uiVolume, LocalStorage.UiMixerKey());
+        SaveVolumeToStorage(_voiceBus, voiceVolume, LocalStorage.VoiceMixerKey());
+    }
+
+    private void SaveVolumeToStorage(Bus currentBus, float volume, string storageKey)
+    {
+        currentBus.setVolume(volume);
+        LocalStorage.SaveMixerValue(storageKey, volume);
+    }
+
+    private const float DEFAULT_VALUE = 0.6f;
+    private void SetInitialValues()
+    {
+        _masterBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
+        _ambienceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.AmbienceMixerKey(), DEFAULT_VALUE));
+        _foleyBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.FoleyMixerKey(), DEFAULT_VALUE));
+        _musicBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.MusicMixerKey(), DEFAULT_VALUE));
+        _sfxBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.SfxMixerKey(), DEFAULT_VALUE));
+        _uiBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.UiMixerKey(), DEFAULT_VALUE));
+        _voiceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.VoiceMixerKey(), DEFAULT_VALUE));
     }
 
     public void PlayOneShot(EventReference sound, Vector3 worldPos)

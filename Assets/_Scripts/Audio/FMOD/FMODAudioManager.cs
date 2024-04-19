@@ -78,7 +78,7 @@ public class FMODAudioManager : MonoBehaviour
     }
 
     private const float DEFAULT_VALUE = 0.6f;
-    private void SetInitialValues()
+    public void SetInitialValues()
     {
         _masterBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
         _ambienceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.AmbienceMixerKey(), DEFAULT_VALUE));

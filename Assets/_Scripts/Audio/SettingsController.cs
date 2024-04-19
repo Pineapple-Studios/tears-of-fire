@@ -93,7 +93,7 @@ public class SettingsController : MonoBehaviour
         //sld_VoicesVolume.onValueChanged.RemoveListener(this.OnChangeVoicesVolume);
     }
 
-    private void WarmUpGame()
+    public void WarmUpGame()
     {
         // General Volume
         float generalVolume = LocalStorage.GetGeneralVolume(0.6f);

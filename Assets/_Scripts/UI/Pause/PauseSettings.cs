@@ -22,6 +22,7 @@ public class PauseSettings : MonoBehaviour
     void Start()
     {
         HandlerCanvasStart();
+        FMODAudioManager.Instance.SetInitialValues();
     }
 
     public void OnEnable()

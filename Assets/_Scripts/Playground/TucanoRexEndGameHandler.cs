@@ -65,6 +65,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
         Time.timeScale = 0f;
         _cvFeedback.SetActive(true);
         DeactiveElements();
+        _playerInputHandler.EnableInputs();
     }
 
     private void DeactiveElements()

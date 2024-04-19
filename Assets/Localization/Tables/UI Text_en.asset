@@ -30,6 +30,78 @@ MonoBehaviour:
     m_Localized: English
     m_Metadata:
       m_Items: []
+  - m_Id: 24399590453579776
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24399822528614400
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24400013054873600
+    m_Localized: Extras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24400180072058880
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24402486184284160
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24402739054678016
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24403224654417920
+    m_Localized: Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24404791939993600
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24406743419621376
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24407169422495744
+    m_Localized: Change Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24587892653723648
+    m_Localized: Video Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24588101538451456
+    m_Localized: Audio Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24590168487268352
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24590337391890432
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24590465586597888
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24749789743058944
+    m_Localized: Lead Programmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24749949160165376
+    m_Localized: Game Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24750057658421248
+    m_Localized: Programmer
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

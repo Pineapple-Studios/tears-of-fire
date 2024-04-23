@@ -465,6 +465,7 @@ GameObject:
   - component: {fileID: 1035433065}
   - component: {fileID: 1035433064}
   - component: {fileID: 1035433063}
+  - component: {fileID: 1035433066}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -536,19 +537,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1035433064}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1164093989}
-        m_TargetAssemblyTypeName: MainMenuAnimationController, Assembly-CSharp
-        m_MethodName: GoToGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1035433064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,6 +576,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035433060}
   m_CullTransparentMesh: 1
+--- !u!114 &1035433066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035433060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6f39baea5b79a43b1ff9bf7329fbf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: 
+  clipName: clip_startGame
+  _goToScreenButton: {fileID: 1035433063}
+  transition: {fileID: 1164093987}
+  overlaidTxt: {fileID: 0}
 --- !u!1 &1152922641
 GameObject:
   m_ObjectHideFlags: 0

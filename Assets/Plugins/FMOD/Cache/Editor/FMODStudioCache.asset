@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638490461978193600
+  lastModified: 638494865072037198
   FileSizes:
   - Name: Desktop
-    Value: 4540672
+    Value: 4654048
   Exists: 1
 --- !u!114 &-8083423156330746367
 MonoBehaviour:
@@ -386,10 +386,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638490461978313713
+  lastModified: 638494865072087245
   FileSizes:
   - Name: Desktop
-    Value: 2820
+    Value: 2912
   Exists: 1
 --- !u!114 &-915055502589455541
 MonoBehaviour:
@@ -445,6 +445,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-408348559496032621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Jump/SFX_Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Jump/SFX_Jump
+  Guid:
+    Data1: 182069122
+    Data2: 1123652826
+    Data3: -46413161
+    Data4: 1387516164
+  Banks:
+  - {fileID: -8420140199389180468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-275860329839738310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,7 +520,6 @@ MonoBehaviour:
   - {fileID: 3463141904496561287}
   - {fileID: 8045582245280640588}
   - {fileID: 21655246649258022}
-  - {fileID: 2313149999675633255}
   - {fileID: 8624504374998437899}
   - {fileID: 6552325663276385844}
   - {fileID: -3403446655507673406}
@@ -528,12 +554,15 @@ MonoBehaviour:
   - {fileID: -8083423156330746367}
   - {fileID: 8792759615278055031}
   - {fileID: -915055502589455541}
+  - {fileID: 5350656457711455569}
+  - {fileID: -408348559496032621}
+  - {fileID: 2436516278705042755}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8420140199389180468}
   StringsBanks:
   - {fileID: -1023458804885698849}
-  cacheTime: 638490461978313713
+  cacheTime: 638494865072087245
   cacheVersion: 131616
 --- !u!114 &16006503043740688
 MonoBehaviour:
@@ -670,7 +699,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &2313149999675633255
+--- !u!114 &2436516278705042755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -680,14 +709,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Jump
+  m_Name: event:/Tutorial/Svart/SFX_Jump/SFX_Jump_Queda
   m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Jump
+  Path: event:/Tutorial/Svart/SFX_Jump/SFX_Jump_Queda
   Guid:
-    Data1: 182069122
-    Data2: 1123652826
-    Data3: -46413161
-    Data4: 1387516164
+    Data1: -1466444065
+    Data2: 1077371315
+    Data3: -302048578
+    Data4: 1758445081
   Banks:
   - {fileID: -8420140199389180468}
   IsStream: 0
@@ -696,7 +725,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 600
+  Length: 753
 --- !u!114 &3277831369253866282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,6 +834,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5350656457711455569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Steps
+  Guid:
+    Data1: -309723307
+    Data2: 1275302979
+    Data3: -624325222
+    Data4: -1501232357
+  Banks:
+  - {fileID: -8420140199389180468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 753
 --- !u!114 &5499836524454878012
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -102,6 +102,64 @@ MonoBehaviour:
     m_Localized: Programador
     m_Metadata:
       m_Items: []
+  - m_Id: 27151895359819776
+    m_Localized: Pular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27152408809738240
+    m_Localized: Confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27152520269172736
+    m_Localized: Cancelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27161912414736384
+    m_Localized: Retomar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162442738339840
+    m_Localized: Mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162517749272576
+    m_Localized: "Gloss\xE1rio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162731289677824
+    m_Localized: "Voc\xEA deseja voltar para o menu?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162980951429120
+    m_Localized: Em Progresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27163262741549056
+    m_Localized: Sim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27163374544916480
+    m_Localized: "N\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27185524534317056
+    m_Localized: Brilho de tela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27187173545906176
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27190080370544640
+    m_Localized: Escolha seu idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27197150612328448
+    m_Localized: 'Para uma melhor experiencia
+
+      Utilize o controle'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

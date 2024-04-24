@@ -570,7 +570,7 @@ RectTransform:
   - {fileID: 6184218216365638108}
   - {fileID: 97468115329149316}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -595,7 +595,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 7
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -892,7 +892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 168, y: -101}
+  m_AnchoredPosition: {x: 177.09998, y: -113.599976}
   m_SizeDelta: {x: 130, y: 125}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3326520707132240597
@@ -980,7 +980,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25, y: -23.899963}
+  m_AnchoredPosition: {x: 25, y: -34.099976}
   m_SizeDelta: {x: 525, y: 155}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1321909295923765387
@@ -1179,7 +1179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 168, y: -101}
+  m_AnchoredPosition: {x: 177.09998, y: -113.599976}
   m_SizeDelta: {x: 130, y: 125}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3408600359577150634
@@ -1267,7 +1267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.20001, y: -35.5}
+  m_AnchoredPosition: {x: 174.20001, y: -47.700012}
   m_SizeDelta: {x: 115, y: 56}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6853460218605756801
@@ -1309,5 +1309,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _life: {fileID: 4750996610709204464, guid: 15f1b27fa1c4d3847996709d5530e4fd, type: 3}
+  _offLife: {fileID: 4750996610709204464, guid: 6a31240583b4bf54e91e36b7fa5da0d1, type: 3}
   _playerProps: {fileID: 0}
   _lifeUnit: 20

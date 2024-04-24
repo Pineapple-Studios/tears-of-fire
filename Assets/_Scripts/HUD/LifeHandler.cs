@@ -1,14 +1,14 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering;
 
 public class LifeHandler : MonoBehaviour
 {
     [SerializeField]
     [Tooltip("GameObject que representa uma vida")]
     private GameObject _life;
+    [SerializeField]
+    [Tooltip("GameObject que representa uma vida vazia")]
+    private GameObject _offLife;
     [SerializeField]
     [Tooltip("Player")]
     private PlayerProps _playerProps;
@@ -40,6 +40,7 @@ public class LifeHandler : MonoBehaviour
     {
         _lifeList.Clear();
         Transform[] tList = gameObject.GetComponentsInChildren<Transform>();
+
         // Começa em um para remover o Transform do próprio objeto
         for (int j = 1; j < tList.Length; j++)
         {
@@ -49,6 +50,12 @@ public class LifeHandler : MonoBehaviour
         for (int i = 0; i < obj / _lifeUnit; i++)
         {
             _lifeList.Add(Instantiate(_life, transform));
+        }
+
+        float damegedLife = _playerProps.GetCurrentMaxLife() - obj;
+        for (int i = 0; i < damegedLife / _lifeUnit; i++)
+        {
+            _lifeList.Add(Instantiate(_offLife, transform));
         }
     }
 }

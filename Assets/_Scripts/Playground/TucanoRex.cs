@@ -32,6 +32,11 @@ public class TucanoRex : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        TriggerCollider(collision);
+    }
+
+    public void TriggerCollider(Collider2D collision)
+    {
         // Ignorando colisoes com as paredes
         if (((1 << collision.gameObject.layer) & _wallLayer) != 0)
         {

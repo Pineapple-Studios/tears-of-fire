@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +19,8 @@ public class PauseSettings : MonoBehaviour
     [SerializeField] Button btnAudio;
     [SerializeField] Button btnVideo;
     [SerializeField] Button btnNo;
+
+    [SerializeField] TMP_Text txtIP;
 
     void Start()
     {
@@ -70,6 +73,7 @@ public class PauseSettings : MonoBehaviour
         UiHandler(cvAudio, false);
         UiHandler(cvVideo, false);
         UiHandler(cvPopUp, false);
+        txtIP.gameObject.SetActive(false);
     }
 
     public void HandlerCanvasAudio()
@@ -97,5 +101,6 @@ public class PauseSettings : MonoBehaviour
         UiHandler(cvAudio, false);
         UiHandler(cvVideo, false);
         UiHandler(cvPopUp, true);
+        txtIP.gameObject.SetActive(false);
     }
 }

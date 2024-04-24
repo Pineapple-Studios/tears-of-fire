@@ -44,10 +44,12 @@ public class LifeItem : MonoBehaviour
     {
         _an.SetTrigger("OnCollision");
         _collider.enabled = false;
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.catchLifeItem, this.transform.position);
     }
 
     private void OnAnimationCannotGetLife()
     {
         _an.SetTrigger("OnFullLife");
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.denyLifeItem, this.transform.position);
     }
 }

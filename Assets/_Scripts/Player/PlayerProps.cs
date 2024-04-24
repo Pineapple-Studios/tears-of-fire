@@ -143,6 +143,7 @@ public class PlayerProps : MonoBehaviour
             IsTakingDamage = false;
             _isDead = true;
             onPlayerDead(gameObject.transform.parent.gameObject);
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.death, this.transform.position);
         }
     }
 

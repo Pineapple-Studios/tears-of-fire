@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class BtnGoToScreen : MonoBehaviour
 {
     [Tooltip("Nome da cena que esse botão irá navegar")]
-    [SerializeField] string SceneName;
+    [SerializeField] public string SceneName;
+    [SerializeField] public string clipName;
 
     [SerializeField] Button _goToScreenButton;
     [SerializeField] public Animator transition;
@@ -36,7 +37,7 @@ public class BtnGoToScreen : MonoBehaviour
         Debug.Log("TranitionFire");
         //transition.SetBool("is_Rotation", true);
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
-        transition.Play("clip_startGame");
-        SceneManager.LoadScene(SceneName);
+        transition.Play(clipName);
+        //SceneManager.LoadScene(SceneName);
     }
 }

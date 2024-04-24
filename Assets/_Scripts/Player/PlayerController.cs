@@ -196,6 +196,7 @@ public class PlayerController : MonoBehaviour
         // Se o personagem cair no ch�o 
         if (isFalling && _onGround)
         {
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.fallSvart, this.transform.position);
             onPlayerGround();
             isFalling = false;
             _rb.velocity = Vector2.zero;

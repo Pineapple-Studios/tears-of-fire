@@ -57,7 +57,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (((1 << collision.gameObject.layer) & _playerLayer) != 0)
+        if (((1 << collision.gameObject.layer) & _playerLayer) != 0 && !_isConversationStarted)
         {
             _isOnRightInteractbleArea = true;
             if (!_floatingButton.activeSelf) _floatingButton.SetActive(true);
@@ -80,6 +80,8 @@ public class NPC : MonoBehaviour
         DialogStory = GetStoryByLocale();
         StartDialogOf(this);
         _isConversationStarted = true;
+
+        _floatingButton.SetActive(false);
     }
 
     private Story GetStoryByLocale()

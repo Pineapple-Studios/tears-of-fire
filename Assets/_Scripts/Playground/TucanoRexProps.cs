@@ -54,6 +54,11 @@ public class TucanoRexProps : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        TriggerCollider(collision);
+    }
+
+    public void TriggerCollider(Collider2D collision)
+    {
         if (((1 << collision.gameObject.layer) & _playerLayer) != 0 && !_isCooldownDamage)
         {
             _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();

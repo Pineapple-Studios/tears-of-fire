@@ -32,10 +32,15 @@ public class TucanoRex : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        TriggerCollider(collision);
+    }
+
+    public void TriggerCollider(Collider2D collision)
+    {
         // Ignorando colisoes com as paredes
         if (((1 << collision.gameObject.layer) & _wallLayer) != 0)
         {
-            Physics2D.IgnoreCollision(collision, gameObject.GetComponent<CompositeCollider2D>());
+            Physics2D.IgnoreCollision(collision, gameObject.GetComponent<Collider2D>());
         }
 
         // Ignorando colisoes entre elementos com a mesma tag

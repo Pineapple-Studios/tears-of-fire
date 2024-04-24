@@ -40,7 +40,7 @@ public class TucanoRex : MonoBehaviour
         // Ignorando colisoes com as paredes
         if (((1 << collision.gameObject.layer) & _wallLayer) != 0)
         {
-            Physics2D.IgnoreCollision(collision, gameObject.GetComponent<CompositeCollider2D>());
+            Physics2D.IgnoreCollision(collision, gameObject.GetComponent<Collider2D>());
         }
 
         // Ignorando colisoes entre elementos com a mesma tag

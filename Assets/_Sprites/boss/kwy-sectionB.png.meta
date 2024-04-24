@@ -152,12 +152,12 @@ TextureImporter:
       name: BOSS_Jump0001
       rect:
         serializedVersion: 2
-        x: 3109
-        y: 773
-        width: 982
-        height: 520
+        x: 5
+        y: 5
+        width: 985
+        height: 525
       alignment: 9
-      pivot: {x: 0.5393381, y: 0.76407695}
+      pivot: {x: 0.5305888, y: 0.76089525}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: BOSS_Jump0002
       rect:
         serializedVersion: 2
-        x: 3109
-        y: 773
-        width: 982
-        height: 520
+        x: 5
+        y: 5
+        width: 985
+        height: 525
       alignment: 9
-      pivot: {x: 0.5393381, y: 0.76407695}
+      pivot: {x: 0.5305888, y: 0.76089525}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: BOSS_Jump0003
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 3105
         y: 937
-        width: 988
-        height: 487
+        width: 986
+        height: 486
       alignment: 9
-      pivot: {x: 0.5431478, y: 0.81585217}
+      pivot: {x: 0.5432353, y: 0.8219547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: BOSS_Jump0004
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 3105
         y: 937
-        width: 988
-        height: 487
+        width: 986
+        height: 486
       alignment: 9
-      pivot: {x: 0.5431478, y: 0.81585217}
+      pivot: {x: 0.5432353, y: 0.8219547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: BOSS_Jump0005
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 3105
         y: 937
-        width: 988
-        height: 487
+        width: 986
+        height: 486
       alignment: 9
-      pivot: {x: 0.5431478, y: 0.81585217}
+      pivot: {x: 0.5432353, y: 0.8219547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: BOSS_Jump0006
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1302
-        width: 969
-        height: 458
+        x: 2378
+        y: 2180
+        width: 977
+        height: 456
       alignment: 9
-      pivot: {x: 0.5537977, y: 0.8675109}
+      pivot: {x: 0.54926306, y: 0.8760307}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: BOSS_Jump0007
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1302
-        width: 969
-        height: 458
+        x: 2378
+        y: 2180
+        width: 977
+        height: 456
       alignment: 9
-      pivot: {x: 0.5537977, y: 0.8675109}
+      pivot: {x: 0.54926306, y: 0.8760307}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: BOSS_Jump0008
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1302
-        width: 969
-        height: 458
+        x: 2378
+        y: 2180
+        width: 977
+        height: 456
       alignment: 9
-      pivot: {x: 0.5537977, y: 0.8675109}
+      pivot: {x: 0.54926306, y: 0.8760307}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: BOSS_Jump0009
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1953
-        width: 746
-        height: 621
+        x: 1473
+        y: 2922
+        width: 749
+        height: 611
       alignment: 9
-      pivot: {x: 0.47537532, y: 0.39987117}
+      pivot: {x: 0.4761415, y: 0.39520457}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: BOSS_Jump0010
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1953
-        width: 746
-        height: 621
+        x: 1473
+        y: 2922
+        width: 749
+        height: 611
       alignment: 9
-      pivot: {x: 0.47537532, y: 0.39987117}
+      pivot: {x: 0.4761415, y: 0.39520457}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: BOSS_Jump0011
       rect:
         serializedVersion: 2
-        x: 3251
-        y: 2488
-        width: 840
-        height: 611
+        x: 3245
+        y: 2037
+        width: 846
+        height: 599
       alignment: 9
-      pivot: {x: 0.50789285, y: 0.19364975}
+      pivot: {x: 0.50310874, y: 0.17774624}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: BOSS_Jump0012
       rect:
         serializedVersion: 2
-        x: 3251
-        y: 2488
-        width: 840
-        height: 611
+        x: 3245
+        y: 2037
+        width: 846
+        height: 599
       alignment: 9
-      pivot: {x: 0.50789285, y: 0.19364975}
+      pivot: {x: 0.50310874, y: 0.17774624}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: BOSS_Jump0013
       rect:
         serializedVersion: 2
-        x: 1651
-        y: 2702
+        x: 1760
+        y: 3492
         width: 895
-        height: 596
+        height: 599
       alignment: 9
-      pivot: {x: 0.49791062, y: 0.11630873}
+      pivot: {x: 0.50126255, y: 0.115976624}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: BOSS_Jump0014
       rect:
         serializedVersion: 2
-        x: 1651
-        y: 2702
+        x: 1760
+        y: 3492
         width: 895
-        height: 596
+        height: 599
       alignment: 9
-      pivot: {x: 0.49791062, y: 0.11630873}
+      pivot: {x: 0.50126255, y: 0.115976624}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: BOSS_Jump0015
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2834
-        width: 976
-        height: 580
+        x: 792
+        y: 3489
+        width: 982
+        height: 602
       alignment: 9
-      pivot: {x: 0.52421105, y: 0.122965515}
+      pivot: {x: 0.52100813, y: 0.12038206}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: BOSS_Jump0016
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2834
-        width: 976
-        height: 580
+        x: 792
+        y: 3489
+        width: 982
+        height: 602
       alignment: 9
-      pivot: {x: 0.52421105, y: 0.122965515}
+      pivot: {x: 0.52100813, y: 0.12038206}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,12 +488,12 @@ TextureImporter:
       name: BOSS_Jump0017
       rect:
         serializedVersion: 2
-        x: 869
-        y: 2745
-        width: 940
-        height: 598
+        x: 474
+        y: 2131
+        width: 960
+        height: 613
       alignment: 9
-      pivot: {x: 0.46237233, y: 0.3650836}
+      pivot: {x: 0.4735729, y: 0.3286623}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,12 +509,12 @@ TextureImporter:
       name: BOSS_Jump0018
       rect:
         serializedVersion: 2
-        x: 869
-        y: 2745
-        width: 940
-        height: 598
+        x: 474
+        y: 2131
+        width: 960
+        height: 613
       alignment: 9
-      pivot: {x: 0.46237233, y: 0.3650836}
+      pivot: {x: 0.4735729, y: 0.3286623}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,12 +530,12 @@ TextureImporter:
       name: BOSS_Jump0019
       rect:
         serializedVersion: 2
-        x: 2504
-        y: 1458
+        x: 326
+        y: 1692
         width: 943
-        height: 512
+        height: 509
       alignment: 9
-      pivot: {x: 0.5616437, y: 0.77601564}
+      pivot: {x: 0.5616437, y: 0.78481334}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,12 +551,12 @@ TextureImporter:
       name: BOSS_Jump0020
       rect:
         serializedVersion: 2
-        x: 2504
-        y: 1458
+        x: 326
+        y: 1692
         width: 943
-        height: 512
+        height: 509
       alignment: 9
-      pivot: {x: 0.5616437, y: 0.77601564}
+      pivot: {x: 0.5616437, y: 0.78481334}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: BOSS_Jump0021
       rect:
         serializedVersion: 2
-        x: 767
-        y: 1085
-        width: 971
+        x: 2473
+        y: 1088
+        width: 976
         height: 482
       alignment: 9
-      pivot: {x: 0.55265707, y: 0.82431537}
+      pivot: {x: 0.54982585, y: 0.82877594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,12 +593,12 @@ TextureImporter:
       name: BOSS_Jump0022
       rect:
         serializedVersion: 2
-        x: 767
-        y: 1085
-        width: 971
+        x: 2473
+        y: 1088
+        width: 976
         height: 482
       alignment: 9
-      pivot: {x: 0.55265707, y: 0.82431537}
+      pivot: {x: 0.54982585, y: 0.82877594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,12 +614,12 @@ TextureImporter:
       name: BOSS_Jump0023
       rect:
         serializedVersion: 2
-        x: 691
-        y: 2237
-        width: 983
-        height: 551
+        x: 969
+        y: 1536
+        width: 982
+        height: 552
       alignment: 9
-      pivot: {x: 0.5286165, y: 0.72108895}
+      pivot: {x: 0.5301731, y: 0.7236775}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,12 +635,12 @@ TextureImporter:
       name: BOSS_Jump0024
       rect:
         serializedVersion: 2
-        x: 691
-        y: 2237
-        width: 983
-        height: 551
+        x: 969
+        y: 1536
+        width: 982
+        height: 552
       alignment: 9
-      pivot: {x: 0.5286165, y: 0.72108895}
+      pivot: {x: 0.5301731, y: 0.7236775}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: BOSS_Jump0025
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 3099
         y: 5
-        width: 985
-        height: 525
+        width: 992
+        height: 527
       alignment: 9
-      pivot: {x: 0.54074115, y: 0.7568}
+      pivot: {x: 0.5399496, y: 0.7580076}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,12 +677,12 @@ TextureImporter:
       name: BOSS_Jump0026
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 3099
         y: 5
-        width: 985
-        height: 525
+        width: 992
+        height: 527
       alignment: 9
-      pivot: {x: 0.54074115, y: 0.7568}
+      pivot: {x: 0.5399496, y: 0.7580076}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -698,12 +698,12 @@ TextureImporter:
       name: BOSS_Jump0027
       rect:
         serializedVersion: 2
-        x: 3109
-        y: 3571
-        width: 982
-        height: 520
+        x: 5
+        y: 5
+        width: 985
+        height: 525
       alignment: 9
-      pivot: {x: 0.5393381, y: 0.76407695}
+      pivot: {x: 0.5305888, y: 0.76089525}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -719,12 +719,12 @@ TextureImporter:
       name: BOSS_Preap0001
       rect:
         serializedVersion: 2
-        x: 783
+        x: 5
         y: 3341
-        width: 812
+        width: 854
         height: 750
       alignment: 9
-      pivot: {x: 0.41317734, y: 0.5273333}
+      pivot: {x: 0.39168617, y: 0.5273333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -740,12 +740,12 @@ TextureImporter:
       name: BOSS_Preap0002
       rect:
         serializedVersion: 2
-        x: 783
+        x: 5
         y: 3341
-        width: 812
+        width: 854
         height: 750
       alignment: 9
-      pivot: {x: 0.41317734, y: 0.5273333}
+      pivot: {x: 0.39168617, y: 0.5273333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -761,12 +761,12 @@ TextureImporter:
       name: BOSS_Preap0003
       rect:
         serializedVersion: 2
-        x: 783
+        x: 5
         y: 3341
-        width: 812
+        width: 854
         height: 750
       alignment: 9
-      pivot: {x: 0.41317734, y: 0.5273333}
+      pivot: {x: 0.39168617, y: 0.5273333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -782,12 +782,12 @@ TextureImporter:
       name: BOSS_Preap0004
       rect:
         serializedVersion: 2
-        x: 783
+        x: 5
         y: 3341
-        width: 812
+        width: 854
         height: 750
       alignment: 9
-      pivot: {x: 0.41317734, y: 0.5273333}
+      pivot: {x: 0.39168617, y: 0.5273333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: BOSS_Preap0005
       rect:
         serializedVersion: 2
-        x: 783
+        x: 5
         y: 3341
-        width: 812
+        width: 854
         height: 750
       alignment: 9
-      pivot: {x: 0.41317734, y: 0.5273333}
+      pivot: {x: 0.39168617, y: 0.5273333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -824,12 +824,12 @@ TextureImporter:
       name: BOSS_Preap0006
       rect:
         serializedVersion: 2
-        x: 3350
-        y: 5
-        width: 741
+        x: 1268
+        y: 2068
+        width: 764
         height: 782
       alignment: 9
-      pivot: {x: 0.39203778, y: 0.5057545}
+      pivot: {x: 0.3802356, y: 0.5057545}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -845,12 +845,12 @@ TextureImporter:
       name: BOSS_Preap0007
       rect:
         serializedVersion: 2
-        x: 3350
-        y: 5
-        width: 741
+        x: 1268
+        y: 2068
+        width: 764
         height: 782
       alignment: 9
-      pivot: {x: 0.39203778, y: 0.5057545}
+      pivot: {x: 0.3802356, y: 0.5057545}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -866,12 +866,12 @@ TextureImporter:
       name: BOSS_Preap0008
       rect:
         serializedVersion: 2
-        x: 1720
-        y: 3300
-        width: 738
+        x: 800
+        y: 2712
+        width: 790
         height: 791
       alignment: 9
-      pivot: {x: 0.40311652, y: 0.5}
+      pivot: {x: 0.39810127, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,12 +887,12 @@ TextureImporter:
       name: BOSS_Preap0009
       rect:
         serializedVersion: 2
-        x: 1720
-        y: 3300
-        width: 738
+        x: 800
+        y: 2712
+        width: 790
         height: 791
       alignment: 9
-      pivot: {x: 0.40311652, y: 0.5}
+      pivot: {x: 0.39810127, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -908,12 +908,12 @@ TextureImporter:
       name: BOSS_Preap0010
       rect:
         serializedVersion: 2
-        x: 1720
-        y: 3300
-        width: 738
+        x: 800
+        y: 2712
+        width: 790
         height: 791
       alignment: 9
-      pivot: {x: 0.40311652, y: 0.5}
+      pivot: {x: 0.39810127, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,12 +929,12 @@ TextureImporter:
       name: BOSS_Preap0011
       rect:
         serializedVersion: 2
-        x: 1720
-        y: 3300
-        width: 738
+        x: 800
+        y: 2712
+        width: 790
         height: 791
       alignment: 9
-      pivot: {x: 0.40311652, y: 0.5}
+      pivot: {x: 0.39810127, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -951,11 +951,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 3416
-        width: 914
+        y: 2808
+        width: 916
         height: 675
       alignment: 9
-      pivot: {x: 0.4513129, y: 0.58592594}
+      pivot: {x: 0.45032752, y: 0.58592594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -972,11 +972,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 3416
-        width: 914
+        y: 2808
+        width: 916
         height: 675
       alignment: 9
-      pivot: {x: 0.4513129, y: 0.58592594}
+      pivot: {x: 0.45032752, y: 0.58592594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,8 +992,8 @@ TextureImporter:
       name: BOSS_Preap0014
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 467
+        x: 3067
+        y: 3113
         width: 1023
         height: 468
       alignment: 9
@@ -1013,8 +1013,8 @@ TextureImporter:
       name: BOSS_Preap0015
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 467
+        x: 3067
+        y: 3113
         width: 1023
         height: 468
       alignment: 9
@@ -1034,8 +1034,8 @@ TextureImporter:
       name: BOSS_Preap0016
       rect:
         serializedVersion: 2
-        x: 3068
-        y: 3101
+        x: 2623
+        y: 467
         width: 1023
         height: 468
       alignment: 9
@@ -1055,8 +1055,8 @@ TextureImporter:
       name: BOSS_Preap0017
       rect:
         serializedVersion: 2
-        x: 3068
-        y: 3101
+        x: 2623
+        y: 467
         width: 1023
         height: 468
       alignment: 9
@@ -1076,8 +1076,8 @@ TextureImporter:
       name: BOSS_Preap0018
       rect:
         serializedVersion: 2
-        x: 3068
-        y: 3101
+        x: 2623
+        y: 467
         width: 1023
         height: 468
       alignment: 9
@@ -1097,7 +1097,7 @@ TextureImporter:
       name: BOSS_Preap0019
       rect:
         serializedVersion: 2
-        x: 979
+        x: 1963
         y: 5
         width: 1044
         height: 460
@@ -1118,7 +1118,7 @@ TextureImporter:
       name: BOSS_Preap0020
       rect:
         serializedVersion: 2
-        x: 979
+        x: 1963
         y: 5
         width: 1044
         height: 460
@@ -1139,7 +1139,7 @@ TextureImporter:
       name: BOSS_Preap0021
       rect:
         serializedVersion: 2
-        x: 979
+        x: 1963
         y: 5
         width: 1044
         height: 460
@@ -1160,7 +1160,7 @@ TextureImporter:
       name: BOSS_Preap0022
       rect:
         serializedVersion: 2
-        x: 979
+        x: 1963
         y: 5
         width: 1044
         height: 460
@@ -1181,12 +1181,12 @@ TextureImporter:
       name: BOSS_Preap0023
       rect:
         serializedVersion: 2
-        x: 591
-        y: 1762
-        width: 997
+        x: 2951
+        y: 2638
+        width: 1001
         height: 473
       alignment: 9
-      pivot: {x: 0.5110331, y: 0.8361522}
+      pivot: {x: 0.508991, y: 0.8361522}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1202,12 +1202,12 @@ TextureImporter:
       name: BOSS_Preap0024
       rect:
         serializedVersion: 2
-        x: 591
-        y: 1762
-        width: 997
+        x: 2951
+        y: 2638
+        width: 1001
         height: 473
       alignment: 9
-      pivot: {x: 0.5110331, y: 0.8361522}
+      pivot: {x: 0.508991, y: 0.8361522}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1223,12 +1223,12 @@ TextureImporter:
       name: BOSS_Preap0025
       rect:
         serializedVersion: 2
-        x: 3105
-        y: 1277
-        width: 986
+        x: 3103
+        y: 3583
+        width: 988
         height: 508
       alignment: 9
-      pivot: {x: 0.5238337, y: 0.7785433}
+      pivot: {x: 0.5258097, y: 0.7785433}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1244,12 +1244,12 @@ TextureImporter:
       name: BOSS_Preap0026
       rect:
         serializedVersion: 2
-        x: 3105
-        y: 1277
-        width: 986
+        x: 3103
+        y: 3583
+        width: 988
         height: 508
       alignment: 9
-      pivot: {x: 0.5238337, y: 0.7785433}
+      pivot: {x: 0.5258097, y: 0.7785433}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1265,12 +1265,12 @@ TextureImporter:
       name: BOSS_Preap0027
       rect:
         serializedVersion: 2
-        x: 5
+        x: 987
         y: 5
-        width: 985
+        width: 984
         height: 525
       alignment: 9
-      pivot: {x: 0.5335025, y: 0.75333333}
+      pivot: {x: 0.53404474, y: 0.75333333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1286,12 +1286,12 @@ TextureImporter:
       name: BOSS_Preap0028
       rect:
         serializedVersion: 2
-        x: 5
+        x: 987
         y: 5
-        width: 985
+        width: 984
         height: 525
       alignment: 9
-      pivot: {x: 0.5335025, y: 0.75333333}
+      pivot: {x: 0.53404474, y: 0.75333333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1307,12 +1307,12 @@ TextureImporter:
       name: BOSS_Preap0029
       rect:
         serializedVersion: 2
-        x: 5
+        x: 987
         y: 5
-        width: 985
+        width: 984
         height: 525
       alignment: 9
-      pivot: {x: 0.5335025, y: 0.75333333}
+      pivot: {x: 0.53404474, y: 0.75333333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

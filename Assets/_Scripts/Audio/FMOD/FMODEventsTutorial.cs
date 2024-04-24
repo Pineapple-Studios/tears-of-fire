@@ -9,12 +9,23 @@ public class FMODEventsTutorial : MonoBehaviour
 
     [Header("Jump")]
     [SerializeField] public EventReference jumpSvart;
+    [SerializeField] public EventReference fallSvart;
 
     [Header("Hit")]
     [SerializeField] public EventReference hitSvart;
 
     [Header("BreakableWall")]
     [SerializeField] public EventReference breakableWall;
+
+    [Header("LifeItem")]
+    [SerializeField] public EventReference catchLifeItem;
+    [SerializeField] public EventReference denyLifeItem;
+
+    [Header("Gotinha")]
+    [SerializeField] public EventReference leak;
+
+    [Header("Death")]
+    [SerializeField] public EventReference death;
 
 
     private void Awake()

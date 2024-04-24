@@ -5,6 +5,7 @@ using TMPro;
 
 public class PauseManager : MonoBehaviour
 {
+    public static PauseManager Instance;
     [Header("Inputs")]
     [SerializeField] public Canvas pauseMenu;
     [SerializeField] string sceneName;
@@ -16,7 +17,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] public Animator transition;
 
     [Header("Txt In Progress")]
-    [SerializeField] TMP_Text txtIP;
+    [SerializeField]public TMP_Text txtIP;
 
 
     private void Start()

@@ -102,6 +102,64 @@ MonoBehaviour:
     m_Localized: Programmer
     m_Metadata:
       m_Items: []
+  - m_Id: 27151895359819776
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27152408809738240
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27152520269172736
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27161912414736384
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162442738339840
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162517749272576
+    m_Localized: Glossary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162731289677824
+    m_Localized: Do you want to back to menu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162980951429120
+    m_Localized: In Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27163262741549056
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27163374544916480
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27185524534317056
+    m_Localized: BRIGHTNESS SCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27187173545906176
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27190080370544640
+    m_Localized: Choose your language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27197150612328448
+    m_Localized: 'For a better experience
+
+      Use the joystick'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -52,7 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7257cdc0c87f7fc43bc770c3d87e5d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damageOnTouch: 35
+  _damageOnTouch: 20
+  _maxLife: 35
   _life: 35
   _damageColldown: 1
   _col: {fileID: 2025559430105754488}

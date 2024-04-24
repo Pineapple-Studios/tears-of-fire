@@ -103,6 +103,62 @@ MonoBehaviour:
     m_Key: programmer
     m_Metadata:
       m_Items: []
+  - m_Id: 27151895359819776
+    m_Key: skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27152408809738240
+    m_Key: confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27152520269172736
+    m_Key: cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27161912414736384
+    m_Key: resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162442738339840
+    m_Key: map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162517749272576
+    m_Key: glossary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162731289677824
+    m_Key: popUpQuestion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27162980951429120
+    m_Key: progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27163262741549056
+    m_Key: yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27163374544916480
+    m_Key: no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27185524534317056
+    m_Key: bright
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27187173545906176
+    m_Key: p
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27190080370544640
+    m_Key: chooseLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27197150612328448
+    m_Key: betterXP
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

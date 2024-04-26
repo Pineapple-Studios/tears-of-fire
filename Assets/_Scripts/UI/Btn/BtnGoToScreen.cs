@@ -17,7 +17,8 @@ public class BtnGoToScreen : MonoBehaviour
     void Start()
     {
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
-        if(SceneManager.GetActiveScene().name == "BeforeGame" || SceneManager.GetActiveScene().name == "AfterGame") { Cursor.visible = true; }
+        if(SceneManager.GetActiveScene().name == "BeforeGame" || SceneManager.GetActiveScene().name == "AfterGame" || SceneManager.GetActiveScene().name == "SelectScreen") { Cursor.visible = true; }
+
     }
 
     private void OnEnable()

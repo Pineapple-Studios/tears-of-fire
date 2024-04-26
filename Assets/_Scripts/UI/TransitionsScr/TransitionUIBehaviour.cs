@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class TransitionUIBehaviour : StateMachineBehaviour
@@ -20,8 +21,8 @@ public class TransitionUIBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //PlayerPrefs.GetString("@tof/SceneName");
-        //Debug.Log(PlayerPrefs.GetString("@tof/SceneName"));
+        GameObject btnNewGame = animator.GetComponent<MainMenuAnimationController>().btnNewGame;
+        EventSystem.current.SetSelectedGameObject(btnNewGame);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

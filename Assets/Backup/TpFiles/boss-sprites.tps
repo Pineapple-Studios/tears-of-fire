@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.2.0</string>
+        <string>7.3.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -204,6 +204,70 @@
                 <rect>264,239,527,479</rect>
                 <key>scale9Paddings</key>
                 <rect>264,239,527,479</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0001.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0002.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0003.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0004.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0005.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0006.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0007.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0008.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0009.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0010.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0011.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>305,203,609,407</rect>
+                <key>scale9Paddings</key>
+                <rect>305,203,609,407</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0001.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0002.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0003.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0004.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0005.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0006.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0007.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0008.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0009.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0010.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0011.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0012.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0013.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0014.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0015.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0016.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0017.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0018.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0019.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0020.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0021.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0022.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0023.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0024.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0025.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>580,364,1160,729</rect>
+                <key>scale9Paddings</key>
+                <rect>580,364,1160,729</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -538,6 +602,70 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0001.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0002.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0003.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0004.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0005.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0006.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0007.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0008.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0009.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0010.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0011.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0012.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0013.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0014.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0015.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0016.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>279,233,559,467</rect>
+                <key>scale9Paddings</key>
+                <rect>279,233,559,467</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0001.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0002.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0003.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0004.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0005.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0006.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0007.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0008.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0009.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0010.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0011.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0012.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0013.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0014.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0015.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0016.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0017.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0018.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0019.png</key>
+            <key type="filename">G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0020.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,1</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>246,221,493,442</rect>
+                <key>scale9Paddings</key>
+                <rect>246,221,493,442</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileLists</key>
         <map type="SpriteSheetMap">
@@ -802,6 +930,84 @@
                     <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_ATTACK/BOSS_Attack0018.png</filename>
                     <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_ATTACK/BOSS_Attack0019.png</filename>
                     <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_ATTACK/BOSS_Attack0020.png</filename>
+                </array>
+            </struct>
+            <key>sectionE</key>
+            <struct type="SpriteSheet">
+                <key>files</key>
+                <array>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0001.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0002.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0003.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0004.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0005.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0006.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0007.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0008.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0009.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0010.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Death/BOSS_Death0011.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0001.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0002.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0003.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0004.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0005.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0006.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0007.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0008.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0009.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0010.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0011.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0012.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0013.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0014.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0015.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0016.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0017.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0018.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0019.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0020.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0021.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0022.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0023.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0024.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Dive/BOSS_DIVE0025.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0001.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0002.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0003.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0004.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0005.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0006.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0007.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0008.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0009.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0010.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0011.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0012.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0013.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0014.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0015.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_Turn/BOSS_Turn0016.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0001.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0002.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0003.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0004.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0005.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0006.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0007.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0008.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0009.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0010.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0011.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0012.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0013.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0014.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0015.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0016.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0017.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0018.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0019.png</filename>
+                    <filename>G:/My Drive/Melies - Jogos Digitais/4º Semestre/SVART_TEARS OF FIRE/ARTE/SPRITES/CHARACTERS/BOSS/BOSS_WallGrab/BOSS_WALLGRAB0020.png</filename>
                 </array>
             </struct>
         </map>

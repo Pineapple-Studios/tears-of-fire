@@ -28,7 +28,6 @@ public class Leak : MonoBehaviour
         for (int i = 0; i < _pollingSize; i++)
         {
             _tmpElement = Instantiate(_prefabDrop, _startPoint);
-            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.leak, this.transform.position);
             _tmpElement.SetActive(false);
             _instancesStack.Push(_tmpElement);
         }
@@ -43,6 +42,7 @@ public class Leak : MonoBehaviour
             if (instance.activeSelf == false)
             {
                 instance.SetActive(true);
+                FMODAudioManager.Instance.CreateInstance(FMODEventsTutorial.Instance.leak);
                 instance.GetComponent<Drop>().DropSpeed = _dropSpeed;
                 break;
             }

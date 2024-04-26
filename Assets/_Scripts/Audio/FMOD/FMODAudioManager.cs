@@ -2,10 +2,13 @@ using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 using UnityEngine.Rendering;
+using System.Collections.Generic;
 
 public class FMODAudioManager : MonoBehaviour
 {
     public static FMODAudioManager Instance;
+
+    private List<EventInstance> eventInstances;
 
     [Header("Volume")]
     [Range(0,1)]
@@ -45,6 +48,8 @@ public class FMODAudioManager : MonoBehaviour
         }
 
         Instance = this;
+
+        eventInstances = new List<EventInstance>();
 
         _masterBus = RuntimeManager.GetBus("bus:/");
         _ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
@@ -92,5 +97,26 @@ public class FMODAudioManager : MonoBehaviour
     public void PlayOneShot(EventReference sound, Vector3 worldPos)
     {
         RuntimeManager.PlayOneShot(sound, worldPos);
+    }
+
+    public EventInstance CreateInstance(EventReference eventReference)
+    {
+        EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);
+        eventInstances.Add(eventInstance);
+        return eventInstance;
+    } 
+
+    private void CleanUp()
+    {
+        foreach (EventInstance eventInstance in eventInstances)
+        {
+            eventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            eventInstance.release();
+        }
+    }
+
+    private void OnDestroy()
+    {
+        CleanUp();
     }
 }

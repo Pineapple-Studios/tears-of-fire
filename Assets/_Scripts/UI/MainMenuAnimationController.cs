@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MainMenuAnimationController : MonoBehaviour
 {
@@ -18,6 +19,16 @@ public class MainMenuAnimationController : MonoBehaviour
     private const string FROM_SETTINGS_TO_LANGUAGE = "OnSettingsToLanguage";
     private const string FROM_LANGUAGE_TO_SETTINGS = "OnLanguageToSettings";
 
+    [SerializeField] public GameObject btnNewGame;
+    [SerializeField] GameObject btnAudio;
+    [SerializeField] GameObject dpdResolution;
+    [SerializeField] GameObject sldGeneral;
+    [SerializeField] GameObject btnPT;
+    [SerializeField] GameObject btnBackControls;
+    [SerializeField] GameObject btnBackExtra;
+
+    GameObject goSelect;
+
     private Animator _an;
 
     private void Start()
@@ -29,41 +40,57 @@ public class MainMenuAnimationController : MonoBehaviour
     public void GoToSettings()
     {
         _an.SetTrigger(GO_TO_SETTINGS);
+        goSelect = btnAudio;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromSettingsToHome()
     {
         _an.SetTrigger(FROM_SETTINGS_TO_HOME);
+        goSelect = btnNewGame;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromSettingsToVideo()
     {
         _an.SetTrigger(FROM_SETTINGS_TO_VIDEO);
+        goSelect = dpdResolution;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromVideoToSettings()
     {
         _an.SetTrigger(FROM_VIDEO_TO_SETTINGS);
+        goSelect = btnAudio;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromSettingsToAudio()
     {
         _an.SetTrigger(FROM_SETTINGS_TO_AUDIO);
+        goSelect = sldGeneral;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromAudioToSettings()
     {
         _an.SetTrigger(FROM_AUDIO_TO_SETTINGS);
+        goSelect = btnAudio;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoToExtras()
     {
         _an.SetTrigger(GO_TO_EXTRAS);
+        goSelect = btnBackExtra;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromExtrasToHome()
     {
         _an.SetTrigger(FROM_EXTRAS_TO_HOME);
+        goSelect = btnNewGame;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoToGame()
@@ -73,19 +100,32 @@ public class MainMenuAnimationController : MonoBehaviour
     public void GoToControls()
     {
         _an.SetTrigger(GO_TO_CONTROLS);
+        goSelect = btnBackControls;
+        Invoke("ButtonSelect", 1);
     }
     public void GoFromControlsToHome()
     {
         _an.SetTrigger(FROM_CONTROLS_TO_HOME);
+        goSelect = btnNewGame;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromSettingsToLanguage()
     {
         _an.SetTrigger(FROM_SETTINGS_TO_LANGUAGE);
+        goSelect = btnPT;
+        Invoke("ButtonSelect", 1);
     }
 
     public void GoFromLanguageToSettings()
     {
         _an.SetTrigger(FROM_LANGUAGE_TO_SETTINGS);
+        goSelect = btnAudio;
+        Invoke("ButtonSelect", 1);
+    }
+
+    public void ButtonSelect()
+    {
+        EventSystem.current.SetSelectedGameObject(goSelect);
     }
 }

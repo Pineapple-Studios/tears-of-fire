@@ -13,15 +13,32 @@ public class PollingDrops : MonoBehaviour
 
     [Header("Positioning")]
     [SerializeField]
-    private Transform _instantiatePosition;
+    private GameObject _moveA;
     [SerializeField]
-    private Vector3 _offsetPosition;
+    private GameObject _moveB;
+    [SerializeField]
+    private GameObject _moveC;
+    [SerializeField]
+    private GameObject _moveD;
 
     private List<GameObject> _instancesStack = new List<GameObject>();
     private GameObject _tmpElement;
+    private List<Transform> _movePositionGroup = new List<Transform>();
+    private int _totalCount = 0;
+    private int _currentCount = 0;
+
+    private void Awake()
+    {
+        SavePositions(_moveA, _movePositionGroup);
+        SavePositions(_moveB, _movePositionGroup);
+        SavePositions(_moveC, _movePositionGroup);
+        SavePositions(_moveD, _movePositionGroup);
+    }
 
     private void Start()
     {
+        _totalCount = _movePositionGroup.Count;
+
         for (int i = 0; i < _pollingSize; i++)
         {
             _tmpElement = Instantiate(_prefabDrop, transform);
@@ -30,10 +47,21 @@ public class PollingDrops : MonoBehaviour
         }
     }
 
+    private void SavePositions(GameObject moviment, List<Transform> list)
+    {
+        DropPos[] _posList = moviment.GetComponentsInChildren<DropPos>();
+        List<Transform> _transList = new List<Transform>();
+        foreach (DropPos drop in _posList) _transList.Add(drop.transform);
+        foreach (Transform trans in _transList) list.Add(trans);
+    }
+
     public void StartDroping()
     {
         GameObject _drop = _instancesStack.FirstOrDefault(x => !x.activeSelf);
-        _drop.transform.position = _instantiatePosition.position + _offsetPosition;
+        _drop.transform.position = _movePositionGroup[_currentCount].position;
         _drop.SetActive(true);
+
+        if (_currentCount < _totalCount - 1) _currentCount++;
+        else _currentCount = 0;
     }
 }

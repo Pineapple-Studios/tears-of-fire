@@ -78,7 +78,7 @@ public class PlayerAnimationController : MonoBehaviour
         _animator.SetBool(ATTACK, true);
     }
 
-    private void ClearAllStates()
+    public void ClearAllStates()
     {
         _animator.SetBool(GROUND, false);
         _animator.SetBool(RUN, false);

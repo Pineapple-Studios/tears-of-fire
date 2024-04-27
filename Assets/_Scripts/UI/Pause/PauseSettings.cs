@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class PauseSettings : MonoBehaviour
@@ -14,11 +15,18 @@ public class PauseSettings : MonoBehaviour
     [SerializeField] GameObject cvPopUp;
 
     [Header("Buttons")]
+    [SerializeField] Button btnResume;
     [SerializeField] Button btnMenu;
     [SerializeField] Button btnSettings;
     [SerializeField] Button btnAudio;
     [SerializeField] Button btnVideo;
     [SerializeField] Button btnNo;
+
+    [Header("Slider")]
+    [SerializeField] Slider sldGeneral;
+
+    [Header("Dropdown")]
+    [SerializeField] TMP_Dropdown dpdResolution;
 
     [SerializeField] TMP_Text txtIP;
 
@@ -59,6 +67,7 @@ public class PauseSettings : MonoBehaviour
 
     public void HandlerCanvasStart()
     {
+        EventSystem.current.SetSelectedGameObject(btnResume.gameObject);
         cvMain.SetActive(true);
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, false);
@@ -68,6 +77,7 @@ public class PauseSettings : MonoBehaviour
 
     public void HandlerCanvasSettings()
     {
+        EventSystem.current.SetSelectedGameObject(btnAudio.gameObject);
         cvMain.SetActive(false);
         UiHandler(cvSettings, true);
         UiHandler(cvAudio, false);
@@ -78,6 +88,7 @@ public class PauseSettings : MonoBehaviour
 
     public void HandlerCanvasAudio()
     {
+        EventSystem.current.SetSelectedGameObject(sldGeneral.gameObject);
         cvMain.SetActive(false);
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, true);
@@ -87,6 +98,7 @@ public class PauseSettings : MonoBehaviour
 
     public void HandlerCanvasVideo()
     {
+        EventSystem.current.SetSelectedGameObject(dpdResolution.gameObject);
         cvMain.SetActive(false);
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, false);
@@ -96,6 +108,7 @@ public class PauseSettings : MonoBehaviour
 
     public void PopUpConfirmation()
     {
+        EventSystem.current.SetSelectedGameObject(btnNo.gameObject);
         cvMain.SetActive(false);
         UiHandler(cvSettings, false);
         UiHandler(cvAudio, false);

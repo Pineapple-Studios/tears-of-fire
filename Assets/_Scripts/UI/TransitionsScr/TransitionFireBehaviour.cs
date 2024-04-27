@@ -22,6 +22,7 @@ public class TransitionFireBehaviour : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         string sceneName = FindObjectOfType<BtnGoToScreen>().SceneName;
+        Debug.Log(sceneName);
         if (string.IsNullOrEmpty(sceneName)) { sceneName = "Tutorial"; }
         SceneManager.LoadScene(sceneName);
     }

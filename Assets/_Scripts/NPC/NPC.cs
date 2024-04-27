@@ -36,6 +36,7 @@ public class NPC : MonoBehaviour
 
     public Story DialogStory;
 
+    private bool _firstInteraction =  false;
     private bool _isOnRightInteractbleArea = false;
     private PlayerInputHandler _pih;
     private bool _isConversationStarted = false;
@@ -53,6 +54,16 @@ public class NPC : MonoBehaviour
     private void OnDisable()
     {
         if (_pih != null) _pih.KeyNPCInteractionDown -= OnNPCInteraction;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (((1 << collision.gameObject.layer) & _playerLayer) != 0 && !_firstInteraction)
+        {
+            _isOnRightInteractbleArea = true;
+            OnNPCInteraction();
+            _firstInteraction = true;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

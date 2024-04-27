@@ -34,13 +34,14 @@ public class PlayerInputHandler : MonoBehaviour
     private InputAction _npcInteraction;
     // TODO
     private InputAction _inventory;
-    
 
+    private PlayerAnimationController _pac;
     private PlayerController _pc;
     private InputActionMap _gamePlayMap;
 
     private void Awake()
     {
+        _pac = FindAnyObjectByType<PlayerAnimationController>();
         _pc = FindAnyObjectByType<PlayerController>();
         _gamePlayMap = _actionsAsset.FindActionMap(GAMEPLAY_ACTIONS);
         if (_gamePlayMap == null) return;
@@ -108,6 +109,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (_pc == null) return;
         _pc.DisableInput();
+        _pac.ClearAllStates();
     }
 
     public void EnableInputs()

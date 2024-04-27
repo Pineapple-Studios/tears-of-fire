@@ -39,6 +39,7 @@ public class BtnGoToScreen : MonoBehaviour
         //transition.SetBool("is_Rotation", true);
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
         transition.Play(clipName);
+        Debug.Log(clipName);
         //SceneManager.LoadScene(SceneName);
     }
 }

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PopUp_Tutorial : MonoBehaviour
 {
+    [SerializeField]
+    private TutorialController _tc;
     [SerializeField] 
     private GameObject _UIFeedback;
 
@@ -9,7 +11,9 @@ public class PopUp_Tutorial : MonoBehaviour
 
     void Start()
     {
-        _UIFeedback.SetActive(false);
+        _tc.Clean();
+
+        // _UIFeedback.SetActive(false);
         // _collider = GetComponent<Collider2D>();
     }
 
@@ -37,11 +41,11 @@ public class PopUp_Tutorial : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player") _UIFeedback.SetActive(true);   
+        if (collision.gameObject.tag == "Player") _tc.JumpTutorial();   
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player") _UIFeedback.SetActive(false);
+        if (collision.gameObject.tag == "Player") _tc.HiddenTutorial();
     }
 }

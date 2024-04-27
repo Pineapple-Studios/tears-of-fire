@@ -16,6 +16,7 @@ public class Platform : MonoBehaviour
     private Vector3 _initialPos = Vector3.zero;
     private float _exitTimer = 0f;
     private bool _startCounting = false;
+    private bool _endMoviment = false;
 
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -72,5 +73,19 @@ public class Platform : MonoBehaviour
 
         // Y force is applied based on collisions between platform and player
         _pc.IncreaseExternalVelocity(new Vector2(vel.x, 0));
+    }
+
+    /// <summary>
+    /// Método chamado ao acabar o movimento da animação
+    /// </summary>
+    public void EndPlatformMoviment()
+    {
+        _pc.IncreaseExternalVelocity(Vector2.zero);
+        _pc = null;
+    }
+
+    public void StartPlatformMoviment()
+    {
+        
     }
 }

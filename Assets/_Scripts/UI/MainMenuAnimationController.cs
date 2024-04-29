@@ -1,10 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 public class MainMenuAnimationController : MonoBehaviour
 {
+    public static MainMenuAnimationController Instance;
+
     private const string GO_TO_SETTINGS = "OnSettings";
     private const string GO_TO_EXTRAS = "OnExtras";
     private const string GO_TO_CONTROLS = "OnControls";
@@ -19,6 +21,7 @@ public class MainMenuAnimationController : MonoBehaviour
     private const string FROM_SETTINGS_TO_LANGUAGE = "OnSettingsToLanguage";
     private const string FROM_LANGUAGE_TO_SETTINGS = "OnLanguageToSettings";
 
+    [Header("Selectable Buttons")]
     [SerializeField] public GameObject btnNewGame;
     [SerializeField] GameObject btnAudio;
     [SerializeField] GameObject dpdResolution;
@@ -97,6 +100,7 @@ public class MainMenuAnimationController : MonoBehaviour
     {
         _an.SetTrigger(GO_TO_GAME);
     }
+
     public void GoToControls()
     {
         _an.SetTrigger(GO_TO_CONTROLS);

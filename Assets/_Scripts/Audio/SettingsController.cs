@@ -18,9 +18,9 @@ public class SettingsController : MonoBehaviour
     // Audio
     [SerializeField] AudioMixer amix_General;
     
-    [SerializeField] Slider sld_GeneralVolume;
-    [SerializeField] Slider sld_MusicVolume;
-    [SerializeField] Slider sld_SFXVolume;
+    //[SerializeField] Slider sld_GeneralVolume;
+    //[SerializeField] Slider sld_MusicVolume;
+    //[SerializeField] Slider sld_SFXVolume;
     //[SerializeField] Slider sld_VoicesVolume;
 
     private Resolution[] supportedResolutions;
@@ -30,9 +30,9 @@ public class SettingsController : MonoBehaviour
 
     //private bool isFullScreen = false;
 
-    private const string GENERAL_VOLUME = "MasterVolume";
-    private const string MUSIC_VOLUME = "MusicVolume";
-    private const string SFX_VOLUME = "SFXVolume";
+    //private const string GENERAL_VOLUME = "MasterVolume";
+    //private const string MUSIC_VOLUME = "MusicVolume";
+    //private const string SFX_VOLUME = "SFXVolume";
     //private const string VOICES_VOLUME = "VoicesVolume";
 
     private void Start()
@@ -42,25 +42,25 @@ public class SettingsController : MonoBehaviour
         //Debug.Log(supportedResolutions[0].width);
         for (int i = 0; i < supportedResolutions.Length; i++)
         {
-           // Debug.Log(ourResolutions.Length);
+            // Debug.Log(ourResolutions.Length);
             for (int j = 0; j < ourResolutions.Length; j++)
             {
-               // Debug.Log(supportedResolutions[i].width);
-               // Debug.Log((int)ourResolutions[j].x);
+                // Debug.Log(supportedResolutions[i].width);
+                // Debug.Log((int)ourResolutions[j].x);
 
                 if (supportedResolutions[i].width == (int)ourResolutions[j].x)
                 {
                     if (supportedResolutions[i].height == (int)ourResolutions[j].y)
                     {
                         //Debug.Log(supportedResolutions[i].height);
-                       // Debug.Log((int)ourResolutions[j].y);
+                        // Debug.Log((int)ourResolutions[j].y);
                         finalResolutions.Add(supportedResolutions[i]);
+                        Debug.Log(supportedResolutions[i]);
                     }
                 }
             }
         }
 
-        //Debug.Log(finalResolutions.Length);
         this.GetAllResolutions(finalResolutions);
 
         this.WarmUpGame();
@@ -73,46 +73,47 @@ public class SettingsController : MonoBehaviour
 
     private void OnEnable()
     {
-        //tgl_FullScreenOn.onClick.AddListener(this.ToggleFullScreen);
-        //tgl_FullScreenOff.onClick.AddListener(this.ToggleFullScreen);
-        sel_Resolutions.onValueChanged.AddListener(this.SetResolution);
-        sld_GeneralVolume.onValueChanged.AddListener(this.OnChangeGeneralVolume);
-        sld_MusicVolume.onValueChanged.AddListener(this.OnChangeMusicVolume);
-        sld_SFXVolume.onValueChanged.AddListener(this.OnChangeSFXVolume);
-        //sld_VoicesVolume.onValueChanged.AddListener(this.OnChangeVoicesVolume);
+        ////tgl_FullScreenOn.onClick.AddListener(this.ToggleFullScreen);
+        ////tgl_FullScreenOff.onClick.AddListener(this.ToggleFullScreen);
+        //sel_Resolutions.onValueChanged.AddListener(this.SetResolution);
+        //sld_GeneralVolume.onValueChanged.AddListener(this.OnChangeGeneralVolume);
+        //sld_MusicVolume.onValueChanged.AddListener(this.OnChangeMusicVolume);
+        //sld_SFXVolume.onValueChanged.AddListener(this.OnChangeSFXVolume);
+        ////sld_VoicesVolume.onValueChanged.AddListener(this.OnChangeVoicesVolume);
+        
     }
 
     private void OnDisable()
     {
-        //tgl_FullScreenOn.onClick.RemoveListener(this.ToggleFullScreen);
-        //tgl_FullScreenOff.onClick.RemoveListener(this.ToggleFullScreen);
-        sel_Resolutions.onValueChanged.RemoveListener(this.SetResolution);
-        sld_GeneralVolume.onValueChanged.RemoveListener(this.OnChangeGeneralVolume);
-        sld_MusicVolume.onValueChanged.RemoveListener(this.OnChangeMusicVolume);
-        sld_SFXVolume.onValueChanged.RemoveListener(this.OnChangeSFXVolume);
-        //sld_VoicesVolume.onValueChanged.RemoveListener(this.OnChangeVoicesVolume);
+        ////tgl_FullScreenOn.onClick.RemoveListener(this.ToggleFullScreen);
+        ////tgl_FullScreenOff.onClick.RemoveListener(this.ToggleFullScreen);
+        //sel_Resolutions.onValueChanged.RemoveListener(this.SetResolution);
+        //sld_GeneralVolume.onValueChanged.RemoveListener(this.OnChangeGeneralVolume);
+        //sld_MusicVolume.onValueChanged.RemoveListener(this.OnChangeMusicVolume);
+        //sld_SFXVolume.onValueChanged.RemoveListener(this.OnChangeSFXVolume);
+        ////sld_VoicesVolume.onValueChanged.RemoveListener(this.OnChangeVoicesVolume);
     }
 
     public void WarmUpGame()
     {
-        // General Volume
-        float generalVolume = LocalStorage.GetGeneralVolume(0.6f);
-        float generalVolumeUpdated = this.OnChangeVolume(GENERAL_VOLUME, generalVolume);
-        //Debug.Log(generalVolumeUpdated);
-        LocalStorage.SetGeneralVolume(generalVolumeUpdated);
-        sld_GeneralVolume.SetValueWithoutNotify(generalVolume);
+        //// General Volume
+        //float generalVolume = LocalStorage.GetGeneralVolume(0.6f);
+        //float generalVolumeUpdated = this.OnChangeVolume(GENERAL_VOLUME, generalVolume);
+        ////Debug.Log(generalVolumeUpdated);
+        //LocalStorage.SetGeneralVolume(generalVolumeUpdated);
+        //sld_GeneralVolume.SetValueWithoutNotify(generalVolume);
 
-        // Music Volume
-        float musicVolume = LocalStorage.GetMusicVolume(0.6f);
-        float musicVolumeUpdated = this.OnChangeVolume(MUSIC_VOLUME, musicVolume);
-        LocalStorage.SetMusicVolume(musicVolumeUpdated);
-        sld_MusicVolume.SetValueWithoutNotify(musicVolume);
+        //// Music Volume
+        //float musicVolume = LocalStorage.GetMusicVolume(0.6f);
+        //float musicVolumeUpdated = this.OnChangeVolume(MUSIC_VOLUME, musicVolume);
+        //LocalStorage.SetMusicVolume(musicVolumeUpdated);
+        //sld_MusicVolume.SetValueWithoutNotify(musicVolume);
 
-        // SFX Volume
-        float sfxVolume = LocalStorage.GetSFXVolume(0.6f);
-        float sfxVolumeUpdated = this.OnChangeVolume(SFX_VOLUME, sfxVolume);
-        LocalStorage.SetSFXVolume(sfxVolumeUpdated);
-        sld_SFXVolume.SetValueWithoutNotify(sfxVolume);
+        //// SFX Volume
+        //float sfxVolume = LocalStorage.GetSFXVolume(0.6f);
+        //float sfxVolumeUpdated = this.OnChangeVolume(SFX_VOLUME, sfxVolume);
+        //LocalStorage.SetSFXVolume(sfxVolumeUpdated);
+        //sld_SFXVolume.SetValueWithoutNotify(sfxVolume);
 
         // Voices Volume
         /**float voicesVolume = LocalStorage.GetVoicesVolume(0.6f);
@@ -122,7 +123,7 @@ public class SettingsController : MonoBehaviour
 
         // Resolution
         int resolution = LocalStorage.GetResolution(supportedResolutions.Length - 1);
-        this.SetResolution(resolution);
+        SetResolution(resolution);
         sel_Resolutions.SetValueWithoutNotify(resolution);
 
         // FullScreen
@@ -130,29 +131,29 @@ public class SettingsController : MonoBehaviour
         // Screen.fullScreen = this.isFullScreen;
     }
 
-    public void OnChangeGeneralVolume(float value)
-    {
-        float calculatedVolume = Mathf.Log10(value) * 20;
-        amix_General.SetFloat(GENERAL_VOLUME, calculatedVolume);
+    //public void OnChangeGeneralVolume(float value)
+    //{
+    //    float calculatedVolume = Mathf.Log10(value) * 20;
+    //    amix_General.SetFloat(GENERAL_VOLUME, calculatedVolume);
 
-        LocalStorage.SetGeneralVolume(value);
-    }
+    //    LocalStorage.SetGeneralVolume(value);
+    //}
 
-    public void OnChangeMusicVolume(float value)
-    {
-        float calculatedVolume = Mathf.Log10(value) * 20;
-        amix_General.SetFloat(MUSIC_VOLUME, calculatedVolume);
+    //public void OnChangeMusicVolume(float value)
+    //{
+    //    float calculatedVolume = Mathf.Log10(value) * 20;
+    //    amix_General.SetFloat(MUSIC_VOLUME, calculatedVolume);
 
-        LocalStorage.SetMusicVolume(value);
-    }
+    //    LocalStorage.SetMusicVolume(value);
+    //}
 
-    public void OnChangeSFXVolume(float value)
-    {
-        float calculatedVolume = Mathf.Log10(value) * 20;
-        amix_General.SetFloat(SFX_VOLUME, calculatedVolume);
+    //public void OnChangeSFXVolume(float value)
+    //{
+    //    float calculatedVolume = Mathf.Log10(value) * 20;
+    //    amix_General.SetFloat(SFX_VOLUME, calculatedVolume);
 
-        LocalStorage.SetSFXVolume(value);
-    }
+    //    LocalStorage.SetSFXVolume(value);
+    //}
 
     /*public void OnChangeVoicesVolume(float value)
     {
@@ -162,17 +163,18 @@ public class SettingsController : MonoBehaviour
         LocalStorage.SetVoicesVolume(value);
     }*/
 
-    private float OnChangeVolume(string exposedParamName, float value)
-    {
-        float calculatedVolume = Mathf.Log10(value) * 20;
-        amix_General.SetFloat(exposedParamName, calculatedVolume);
+    //private float OnChangeVolume(string exposedParamName, float value)
+    //{
+    //    float calculatedVolume = Mathf.Log10(value) * 20;
+    //    amix_General.SetFloat(exposedParamName, calculatedVolume);
 
-        return value;
-    }
+    //    return value;
+    //}
 
     private void GetAllResolutions(List<Resolution> resList)
     {
         List<string> resolutionList = new List<string>();
+        //supportedResolutions = Screen.resolutions;
 
         foreach (Resolution resolution in resList)
         {

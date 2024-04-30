@@ -1,4 +1,5 @@
 using Cinemachine;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -50,12 +51,12 @@ public class PlayerCombat : MonoBehaviour
     {
         instance = this;
         _pih = GetComponent<PlayerInputHandler>();
+        _pc = gameObject.transform.parent.gameObject.GetComponent<PlayerController>();
     }
 
     private void Start()
     {
         _pp = GetComponent<PlayerProps>();
-        _pc = gameObject.transform.parent.gameObject.GetComponent<PlayerController>();
         _rb = GetComponentInParent<Rigidbody2D>();
     }
 
@@ -84,6 +85,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void OnEnable()
     {
+        // TODO: PlayerController.onPlayerFlip += StopAttackWhenFlip;
         if (_pih != null)
         {
             _pih.KeyAttackDown += Attack; 
@@ -93,6 +95,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void OnDisable()
     {
+        // TODO: PlayerController.onPlayerFlip -= StopAttackWhenFlip;
         if (_pih != null)
         {
             _pih.KeyAttackDown -= Attack;
@@ -115,10 +118,10 @@ public class PlayerCombat : MonoBehaviour
         }
 
         if (currentY >= currentX)
-        {   
-            AttackPoint.localPosition = new Vector3(0, mag.y * _distanceToPlayer, 0);   
+        {
+            AttackPoint.localPosition = new Vector3(0, mag.y * _distanceToPlayer, 0);
         }
-        else 
+        else
         {
             AttackPoint.localPosition = new Vector3(_distanceToPlayer, AttackRange / 3, 0);
         }
@@ -229,5 +232,13 @@ public class PlayerCombat : MonoBehaviour
         _rb.velocity = Vector2.zero;
         _rb.gravityScale = _pc.GetGravityToKnockback();
         _rb.AddForce(direction.normalized * _knockbackHitForce, ForceMode2D.Impulse);
+    }
+
+    private void StopAttackWhenFlip()
+    {
+        IsAttacking = false;
+        _shouldEnemyReceiveAttack = false;
+        _indulgenceTimer = 0;
+        _shouldEnemyReceiveAttack = false;
     }
 }

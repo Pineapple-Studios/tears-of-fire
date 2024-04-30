@@ -25,9 +25,6 @@ public class DialogController : MonoBehaviour
     private string _npcName;
     private Story _story;
 
-    // TODO: Discutir com o renato
-    private List<string> _tags;
-
     private PlayerInputHandler _pih;
     private NPC _npc;
     private CinemachineVirtualCamera _cvc;
@@ -63,13 +60,26 @@ public class DialogController : MonoBehaviour
         {
             StartStory();
         }
+
+        UpdateCamOffSet();
+    }
+
+    private void UpdateCamOffSet()
+    {
+        if (_npc == null) return;
+        if (_npc.CameraOffset == Vector3.zero) return;
+
+        CinemachineFramingTransposer cft = _cvc.GetCinemachineComponent<CinemachineFramingTransposer>();
+        if (_npc.CameraOffset == cft.m_TrackedObjectOffset) return;
+
+        cft.m_TrackedObjectOffset = _npc.CameraOffset;
     }
 
     private void ContinueDialog()
     {
         if (!_isDialogStarted) return;
 
-        if (_story.canContinue)
+        if (_story != null && _story.canContinue)
         {
             _lblNpcName.text = _npcName;
             AdvanceDialogue();
@@ -89,7 +99,6 @@ public class DialogController : MonoBehaviour
         _story = null;
         _lblNpcName.text = string.Empty;
         _textArea.text = string.Empty;
-
     }
 
     private void SetupVirtualCamera()
@@ -124,6 +133,8 @@ public class DialogController : MonoBehaviour
         _story = npc.DialogStory;
 
         _pih.DisableInputs();
+        _pih.gameObject.transform.parent.GetComponent<PlayerController>().FreezeMovement();
+
         _anim.SetTrigger(ANIM_START);
     }
 
@@ -146,7 +157,7 @@ public class DialogController : MonoBehaviour
     private void AdvanceDialogue()
     {
         string currentSentence = _story.Continue();
-        // ParseTags();
+        
         StopAllCoroutines();
         StartCoroutine(TypeSentence(currentSentence));
     }

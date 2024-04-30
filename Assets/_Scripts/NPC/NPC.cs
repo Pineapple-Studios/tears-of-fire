@@ -17,6 +17,8 @@ public class NPC : MonoBehaviour
     [Header("Properties")]
     [SerializeField]
     public string NpcName;
+    [SerializeField]
+    public Vector3 CameraOffset = Vector3.zero;
     [Header("Art")]
     [SerializeField]
     public Sprite DialogConcept;

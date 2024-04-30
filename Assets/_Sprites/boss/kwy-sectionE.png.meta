@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45.87
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,8 +152,8 @@ TextureImporter:
       name: BOSS_Death0001
       rect:
         serializedVersion: 2
-        x: 5
-        y: 800
+        x: 1361
+        y: 1740
         width: 862
         height: 704
       alignment: 9
@@ -173,8 +173,8 @@ TextureImporter:
       name: BOSS_Death0002
       rect:
         serializedVersion: 2
-        x: 5
-        y: 800
+        x: 1361
+        y: 1740
         width: 862
         height: 704
       alignment: 9
@@ -194,8 +194,8 @@ TextureImporter:
       name: BOSS_Death0003
       rect:
         serializedVersion: 2
-        x: 5
-        y: 800
+        x: 1361
+        y: 1740
         width: 862
         height: 704
       alignment: 9
@@ -215,8 +215,8 @@ TextureImporter:
       name: BOSS_Death0004
       rect:
         serializedVersion: 2
-        x: 5
-        y: 800
+        x: 1361
+        y: 1740
         width: 862
         height: 704
       alignment: 9
@@ -236,8 +236,8 @@ TextureImporter:
       name: BOSS_Death0005
       rect:
         serializedVersion: 2
-        x: 2308
-        y: 1115
+        x: 2247
+        y: 1641
         width: 1139
         height: 327
       alignment: 9
@@ -257,8 +257,8 @@ TextureImporter:
       name: BOSS_Death0006
       rect:
         serializedVersion: 2
-        x: 2308
-        y: 1115
+        x: 2247
+        y: 1641
         width: 1139
         height: 327
       alignment: 9
@@ -278,8 +278,8 @@ TextureImporter:
       name: BOSS_Death0007
       rect:
         serializedVersion: 2
-        x: 614
-        y: 1685
+        x: 2355
+        y: 2921
         width: 1139
         height: 345
       alignment: 9
@@ -299,8 +299,8 @@ TextureImporter:
       name: BOSS_Death0008
       rect:
         serializedVersion: 2
-        x: 614
-        y: 1685
+        x: 2355
+        y: 2921
         width: 1139
         height: 345
       alignment: 9
@@ -320,8 +320,8 @@ TextureImporter:
       name: BOSS_Death0009
       rect:
         serializedVersion: 2
-        x: 1482
-        y: 3596
+        x: 2963
+        y: 3695
         width: 1128
         height: 396
       alignment: 9
@@ -341,8 +341,8 @@ TextureImporter:
       name: BOSS_Death0010
       rect:
         serializedVersion: 2
-        x: 1482
-        y: 3596
+        x: 2963
+        y: 3695
         width: 1128
         height: 396
       alignment: 9
@@ -362,8 +362,8 @@ TextureImporter:
       name: BOSS_Death0011
       rect:
         serializedVersion: 2
-        x: 2176
-        y: 608
+        x: 2054
+        y: 3247
         width: 1139
         height: 345
       alignment: 9
@@ -383,12 +383,12 @@ TextureImporter:
       name: BOSS_DIVE0001
       rect:
         serializedVersion: 2
-        x: 1753
-        y: 1587
-        width: 748
-        height: 759
+        x: 3256
+        y: 1096
+        width: 749
+        height: 762
       alignment: 9
-      pivot: {x: 1.5441177, y: -0.9077734}
+      pivot: {x: 0.5460614, y: -0.36614174}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: BOSS_DIVE0002
       rect:
         serializedVersion: 2
-        x: 1753
-        y: 1587
-        width: 748
-        height: 759
+        x: 3256
+        y: 1096
+        width: 749
+        height: 762
       alignment: 9
-      pivot: {x: 1.5441177, y: -0.9077734}
+      pivot: {x: 0.5460614, y: -0.36614174}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: BOSS_DIVE0003
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 937
+        x: 3384
+        y: 1720
         width: 707
-        height: 788
+        height: 792
       alignment: 9
-      pivot: {x: 1.6336634, y: -0.8489848}
+      pivot: {x: 0.5799151, y: -0.32449496}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: BOSS_DIVE0004
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 937
+        x: 3384
+        y: 1720
         width: 707
-        height: 788
+        height: 792
       alignment: 9
-      pivot: {x: 1.6336634, y: -0.8489848}
+      pivot: {x: 0.5799151, y: -0.32449496}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -468,11 +468,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 2700
+        y: 2474
         width: 828
-        height: 932
-      alignment: 9
-      pivot: {x: 1.4009662, y: -0.35407725}
+        height: 912
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -489,11 +489,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 2700
+        y: 2474
         width: 828
-        height: 932
-      alignment: 9
-      pivot: {x: 1.4009662, y: -0.35407725}
+        height: 912
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -510,11 +510,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 2700
+        y: 2474
         width: 828
-        height: 932
-      alignment: 9
-      pivot: {x: 1.4009662, y: -0.35407725}
+        height: 912
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -527,393 +527,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BOSS_DIVE0008
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 3185
-        width: 1009
-        height: 906
-      alignment: 9
-      pivot: {x: 1.1219028, y: -0.27041942}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9442051e8b9f0e44ada88bc124af789
-      internalID: 476042436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0009
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 3185
-        width: 1009
-        height: 906
-      alignment: 9
-      pivot: {x: 1.1219028, y: -0.27041942}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6282336994fa1f40ad7534c8e99ebdc
-      internalID: -67761169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0010
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 3185
-        width: 1009
-        height: 906
-      alignment: 9
-      pivot: {x: 1.1219028, y: -0.27041942}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e958506f67d532b47ac59360e0f6459b
-      internalID: -1794536283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0011
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 2026
-        width: 712
-        height: 971
-      alignment: 9
-      pivot: {x: 0.8581461, y: -0.0061791968}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f6b70a801115054ab75333e05099db4
-      internalID: 67089260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0012
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 2026
-        width: 712
-        height: 971
-      alignment: 9
-      pivot: {x: 0.8581461, y: -0.0061791968}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79fbf971f87d0dd40ac36f2fe68db1fb
-      internalID: -166060534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0013
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 2026
-        width: 712
-        height: 971
-      alignment: 9
-      pivot: {x: 0.8581461, y: -0.0061791968}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d81bd55bed295541a96b922ba64f985
-      internalID: 360511096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0014
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 3239
-        width: 901
-        height: 852
-      alignment: 9
-      pivot: {x: 0.6237514, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81506df3b67b53f40bec0d34adf85cec
-      internalID: 1313394177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0015
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 3239
-        width: 901
-        height: 852
-      alignment: 9
-      pivot: {x: 0.6237514, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 299dc528abf81c946b32a1e01be02177
-      internalID: 1802551647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0016
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 3239
-        width: 901
-        height: 852
-      alignment: 9
-      pivot: {x: 0.6237514, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69707c381199ddb4da9245b15f4adb63
-      internalID: -2109891485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0017
-      rect:
-        serializedVersion: 2
-        x: 3068
-        y: 5
-        width: 1023
-        height: 624
-      alignment: 9
-      pivot: {x: 0.4623656, y: -0.008012821}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51c4e4861c62a1c46834f47b647aaa38
-      internalID: -1017874728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0018
-      rect:
-        serializedVersion: 2
-        x: 3068
-        y: 5
-        width: 1023
-        height: 624
-      alignment: 9
-      pivot: {x: 0.4623656, y: -0.008012821}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf7d4b03e7620b84dbd8337ec8498b9d
-      internalID: -101715641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0019
-      rect:
-        serializedVersion: 2
-        x: 3068
-        y: 5
-        width: 1023
-        height: 624
-      alignment: 9
-      pivot: {x: 0.4623656, y: -0.008012821}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf9aceeb39bb8a240ab29ec3181d3fdc
-      internalID: 922575190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0020
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 2401
-        width: 917
-        height: 780
-      alignment: 9
-      pivot: {x: 0.39040348, y: -0.032051284}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b473b1d84da00c41a9b876be1fd2338
-      internalID: 987994838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0021
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 2401
-        width: 917
-        height: 780
-      alignment: 9
-      pivot: {x: 0.39040348, y: -0.032051284}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e370a151c9635640ad1d91bbe6d3ab5
-      internalID: -1402440264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0022
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 2401
-        width: 917
-        height: 780
-      alignment: 9
-      pivot: {x: 0.39040348, y: -0.032051284}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11d51d8688295a04391b2b4733219f62
-      internalID: 315820265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0023
-      rect:
-        serializedVersion: 2
-        x: 890
-        y: 1045
-        width: 728
-        height: 644
-      alignment: 9
-      pivot: {x: -0.0989011, y: -0.5714286}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89100769d7ccb804fa52aa38edaaf249
-      internalID: 691494280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0024
-      rect:
-        serializedVersion: 2
-        x: 890
-        y: 1045
-        width: 728
-        height: 644
-      alignment: 9
-      pivot: {x: -0.0989011, y: -0.5714286}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ba48530f6847764b947b43e9a0f4758
-      internalID: 1150192359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOSS_DIVE0025
-      rect:
-        serializedVersion: 2
-        x: 3116
-        y: 3489
-        width: 975
-        height: 602
-      alignment: 9
-      pivot: {x: -0.1897436, y: -1.0431894}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25c3a1db56da73f4aaf1dbe9db411787
-      internalID: 1423957544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BOSS_Turn0001
       rect:
         serializedVersion: 2
-        x: 5
-        y: 5
+        x: 1319
+        y: 2526
         width: 755
         height: 922
       alignment: 9
-      pivot: {x: 0.32516557, y: -0.0054229936}
+      pivot: {x: 0.39913908, y: -0.0054229936}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,12 +551,12 @@ TextureImporter:
       name: BOSS_Turn0002
       rect:
         serializedVersion: 2
-        x: 5
-        y: 5
+        x: 1319
+        y: 2526
         width: 755
         height: 922
       alignment: 9
-      pivot: {x: 0.32516557, y: -0.0054229936}
+      pivot: {x: 0.39913908, y: -0.0054229936}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -950,12 +572,12 @@ TextureImporter:
       name: BOSS_Turn0003
       rect:
         serializedVersion: 2
-        x: 5
-        y: 5
+        x: 1319
+        y: 2526
         width: 755
         height: 922
       alignment: 9
-      pivot: {x: 0.32516557, y: -0.0054229936}
+      pivot: {x: 0.39913908, y: -0.0054229936}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,12 +593,12 @@ TextureImporter:
       name: BOSS_Turn0004
       rect:
         serializedVersion: 2
-        x: 485
+        x: 3393
         y: 5
         width: 698
         height: 925
       alignment: 9
-      pivot: {x: 0.22707736, y: -0.008648649}
+      pivot: {x: 0.30709168, y: -0.008648649}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,12 +614,12 @@ TextureImporter:
       name: BOSS_Turn0005
       rect:
         serializedVersion: 2
-        x: 485
+        x: 3393
         y: 5
         width: 698
         height: 925
       alignment: 9
-      pivot: {x: 0.22707736, y: -0.008648649}
+      pivot: {x: 0.30709168, y: -0.008648649}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1013,12 +635,12 @@ TextureImporter:
       name: BOSS_Turn0006
       rect:
         serializedVersion: 2
-        x: 485
+        x: 3393
         y: 5
         width: 698
         height: 925
       alignment: 9
-      pivot: {x: 0.22707736, y: -0.008648649}
+      pivot: {x: 0.30709168, y: -0.008648649}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,12 +656,12 @@ TextureImporter:
       name: BOSS_Turn0007
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 2196
+        x: 798
+        y: 3166
         width: 758
         height: 925
       alignment: 9
-      pivot: {x: 0.26319262, y: 0}
+      pivot: {x: 0.33687335, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1055,12 +677,12 @@ TextureImporter:
       name: BOSS_Turn0008
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 2196
+        x: 798
+        y: 3166
         width: 758
         height: 925
       alignment: 9
-      pivot: {x: 0.26319262, y: 0}
+      pivot: {x: 0.33687335, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1076,12 +698,12 @@ TextureImporter:
       name: BOSS_Turn0009
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 2196
+        x: 798
+        y: 3166
         width: 758
         height: 925
       alignment: 9
-      pivot: {x: 0.26319262, y: 0}
+      pivot: {x: 0.33687335, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,12 +719,12 @@ TextureImporter:
       name: BOSS_Turn0010
       rect:
         serializedVersion: 2
-        x: 3304
-        y: 1920
+        x: 3303
+        y: 2370
         width: 787
         height: 684
       alignment: 9
-      pivot: {x: 0.31575602, y: -0.00877193}
+      pivot: {x: 0.38672173, y: -0.00877193}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1118,12 +740,12 @@ TextureImporter:
       name: BOSS_Turn0011
       rect:
         serializedVersion: 2
-        x: 3304
-        y: 1920
+        x: 3303
+        y: 2370
         width: 787
         height: 684
       alignment: 9
-      pivot: {x: 0.31575602, y: -0.00877193}
+      pivot: {x: 0.38672173, y: -0.00877193}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,12 +761,12 @@ TextureImporter:
       name: BOSS_Turn0012
       rect:
         serializedVersion: 2
-        x: 3304
-        y: 1920
-        width: 787
-        height: 684
+        x: 1854
+        y: 5
+        width: 752
+        height: 683
       alignment: 9
-      pivot: {x: 0.31575602, y: -0.00877193}
+      pivot: {x: 0.40472075, y: -0.008784773}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1160,12 +782,12 @@ TextureImporter:
       name: BOSS_Turn0013
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 3091
-        width: 982
-        height: 541
+        x: 1854
+        y: 5
+        width: 752
+        height: 683
       alignment: 9
-      pivot: {x: 0.56873727, y: -0.009242144}
+      pivot: {x: 0.40472075, y: -0.008784773}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1181,12 +803,12 @@ TextureImporter:
       name: BOSS_Turn0014
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 3091
+        x: 2860
+        y: 3193
         width: 982
         height: 541
       alignment: 9
-      pivot: {x: 0.56873727, y: -0.009242144}
+      pivot: {x: 0.625611, y: -0.009242144}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1202,12 +824,12 @@ TextureImporter:
       name: BOSS_Turn0015
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 3091
+        x: 2860
+        y: 3193
         width: 982
         height: 541
       alignment: 9
-      pivot: {x: 0.56873727, y: -0.009242144}
+      pivot: {x: 0.625611, y: -0.009242144}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1223,12 +845,12 @@ TextureImporter:
       name: BOSS_Turn0016
       rect:
         serializedVersion: 2
-        x: 978
-        y: 5
+        x: 300
+        y: 855
         width: 993
         height: 542
       alignment: 9
-      pivot: {x: 0.5120846, y: -0.009225092}
+      pivot: {x: 0.5683283, y: -0.009225092}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1244,8 +866,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0001
       rect:
         serializedVersion: 2
-        x: 3250
-        y: 1267
+        x: 2376
+        y: 2333
         width: 841
         height: 593
       alignment: 9
@@ -1265,8 +887,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0002
       rect:
         serializedVersion: 2
-        x: 3250
-        y: 1267
+        x: 2376
+        y: 2333
         width: 841
         height: 593
       alignment: 9
@@ -1286,8 +908,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0003
       rect:
         serializedVersion: 2
-        x: 1853
-        y: 2516
+        x: 1479
+        y: 3516
         width: 879
         height: 575
       alignment: 9
@@ -1307,8 +929,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0004
       rect:
         serializedVersion: 2
-        x: 1853
-        y: 2516
+        x: 1479
+        y: 3516
         width: 879
         height: 575
       alignment: 9
@@ -1328,8 +950,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0005
       rect:
         serializedVersion: 2
-        x: 2631
-        y: 1677
+        x: 772
+        y: 1602
         width: 722
         height: 803
       alignment: 9
@@ -1349,8 +971,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0006
       rect:
         serializedVersion: 2
-        x: 2631
-        y: 1677
+        x: 772
+        y: 1602
         width: 722
         height: 803
       alignment: 9
@@ -1370,8 +992,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0007
       rect:
         serializedVersion: 2
-        x: 2631
-        y: 1677
+        x: 772
+        y: 1602
         width: 722
         height: 803
       alignment: 9
@@ -1391,8 +1013,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0008
       rect:
         serializedVersion: 2
-        x: 2773
-        y: 2325
+        x: 1178
+        y: 496
         width: 758
         height: 777
       alignment: 9
@@ -1412,8 +1034,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0009
       rect:
         serializedVersion: 2
-        x: 2773
-        y: 2325
+        x: 1178
+        y: 496
         width: 758
         height: 777
       alignment: 9
@@ -1433,8 +1055,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0010
       rect:
         serializedVersion: 2
-        x: 2773
-        y: 2325
+        x: 1178
+        y: 496
         width: 758
         height: 777
       alignment: 9
@@ -1454,8 +1076,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0011
       rect:
         serializedVersion: 2
-        x: 3317
-        y: 571
+        x: 5
+        y: 2119
         width: 773
         height: 784
       alignment: 9
@@ -1475,8 +1097,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0012
       rect:
         serializedVersion: 2
-        x: 3317
-        y: 571
+        x: 5
+        y: 2119
         width: 773
         height: 784
       alignment: 9
@@ -1496,8 +1118,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0013
       rect:
         serializedVersion: 2
-        x: 3317
-        y: 571
+        x: 5
+        y: 2119
         width: 773
         height: 784
       alignment: 9
@@ -1517,8 +1139,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0014
       rect:
         serializedVersion: 2
-        x: 3317
-        y: 571
+        x: 5
+        y: 2119
         width: 773
         height: 784
       alignment: 9
@@ -1538,8 +1160,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0015
       rect:
         serializedVersion: 2
-        x: 2893
-        y: 2944
+        x: 5
+        y: 465
         width: 772
         height: 781
       alignment: 9
@@ -1559,8 +1181,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0016
       rect:
         serializedVersion: 2
-        x: 2893
-        y: 2944
+        x: 5
+        y: 465
         width: 772
         height: 781
       alignment: 9
@@ -1580,8 +1202,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0017
       rect:
         serializedVersion: 2
-        x: 2893
-        y: 2944
+        x: 5
+        y: 465
         width: 772
         height: 781
       alignment: 9
@@ -1601,8 +1223,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0018
       rect:
         serializedVersion: 2
-        x: 1856
-        y: 5
+        x: 2298
+        y: 764
         width: 751
         height: 779
       alignment: 9
@@ -1622,8 +1244,8 @@ TextureImporter:
       name: BOSS_WALLGRAB0019
       rect:
         serializedVersion: 2
-        x: 1856
-        y: 5
+        x: 2298
+        y: 764
         width: 751
         height: 779
       alignment: 9
@@ -1644,7 +1266,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 1408
+        y: 1499
         width: 756
         height: 779
       alignment: 9
@@ -1660,6 +1282,363 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0001
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2214
+        width: 710
+        height: 968
+      alignment: 9
+      pivot: {x: 1.1435353, y: -0.00006198347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7c7b5e93398b44fa4bead497409074
+      internalID: -1192846073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0002
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2214
+        width: 710
+        height: 968
+      alignment: 9
+      pivot: {x: 1.1435353, y: -0.00006198347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc88740cab99b040b787d5aedfba60d
+      internalID: -665395174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0003
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2214
+        width: 710
+        height: 968
+      alignment: 9
+      pivot: {x: 1.1435353, y: -0.00006198347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c34cdb8c27eb042999507c6d19f987
+      internalID: 1973546785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0004
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3251
+        width: 903
+        height: 840
+      alignment: 9
+      pivot: {x: 0.8016722, y: 0.0023095238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dea747161399a4eb21af805d066820
+      internalID: 2126318611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0005
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3251
+        width: 903
+        height: 840
+      alignment: 9
+      pivot: {x: 0.8016722, y: 0.0023095238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f91c9b173f6298499f2a7b4f60e5b6b
+      internalID: -1301399504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0006
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3251
+        width: 903
+        height: 840
+      alignment: 9
+      pivot: {x: 0.8016722, y: 0.0023095238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22887cc8c06784478642e2457342197
+      internalID: 1519539069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0007
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 5
+        width: 1033
+        height: 549
+      alignment: 9
+      pivot: {x: 0.5003969, y: 0.0035336977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8ab673c62caca46a3d4d6dd2a67fe3
+      internalID: -188327039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0008
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 5
+        width: 1033
+        height: 549
+      alignment: 9
+      pivot: {x: 0.5003969, y: 0.0035336977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ce7a8cfe646246ae6885f9bd5df29
+      internalID: 286691307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0009
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 5
+        width: 1033
+        height: 549
+      alignment: 9
+      pivot: {x: 0.5003969, y: 0.0035336977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d188c6ff1c1211940897cfcbfa93bbe9
+      internalID: -39495721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0010
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 640
+        width: 1008
+        height: 527
+      alignment: 9
+      pivot: {x: 0.50387895, y: 0.0017836812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb93715cd30d88479c6c3fd6b85688c
+      internalID: -1768845005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0011
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 640
+        width: 1008
+        height: 527
+      alignment: 9
+      pivot: {x: 0.50387895, y: 0.0017836812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e4961d21c55e846bb4ccea15bc3c40
+      internalID: -1830592905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0012
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 640
+        width: 1008
+        height: 527
+      alignment: 9
+      pivot: {x: 0.50387895, y: 0.0017836812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea0c32eccd12eb4291cedad1d1936ab
+      internalID: -1677507668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0013
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 640
+        width: 1008
+        height: 527
+      alignment: 9
+      pivot: {x: 0.50387895, y: 0.0017836812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6fd040562cb141a77b413942f43a3
+      internalID: -336386124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0014
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 5
+        width: 1029
+        height: 537
+      alignment: 9
+      pivot: {x: 0.49553937, y: 0.0017504656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e435eeb2971ccf14aa03b871d8079bb4
+      internalID: 1596422488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0015
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 5
+        width: 1029
+        height: 537
+      alignment: 9
+      pivot: {x: 0.49553937, y: 0.0017504656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b87461a1ca27ba4ba456b1446479fb1
+      internalID: -11023375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0016
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 5
+        width: 1029
+        height: 537
+      alignment: 9
+      pivot: {x: 0.49553937, y: 0.0017504656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a153adc0f8dd37a4096f297879a38360
+      internalID: -422694654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Chegada0017
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 1033
+        height: 539
+      alignment: 9
+      pivot: {x: 0.5003969, y: 0.003599258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eed8b08c0c13a542bdf60b138b5e844
+      internalID: 1453397855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1671,6 +1650,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      BOSS_Chegada0001: -1192846073
+      BOSS_Chegada0002: -665395174
+      BOSS_Chegada0003: 1973546785
+      BOSS_Chegada0004: 2126318611
+      BOSS_Chegada0005: -1301399504
+      BOSS_Chegada0006: 1519539069
+      BOSS_Chegada0007: -188327039
+      BOSS_Chegada0008: 286691307
+      BOSS_Chegada0009: -39495721
+      BOSS_Chegada0010: -1768845005
+      BOSS_Chegada0011: -1830592905
+      BOSS_Chegada0012: -1677507668
+      BOSS_Chegada0013: -336386124
+      BOSS_Chegada0014: 1596422488
+      BOSS_Chegada0015: -11023375
+      BOSS_Chegada0016: -422694654
+      BOSS_Chegada0017: 1453397855
       BOSS_DIVE0001: -571176467
       BOSS_DIVE0002: -434362217
       BOSS_DIVE0003: -808326746
@@ -1678,24 +1674,6 @@ TextureImporter:
       BOSS_DIVE0005: 1286194836
       BOSS_DIVE0006: 454990371
       BOSS_DIVE0007: 984127602
-      BOSS_DIVE0008: 476042436
-      BOSS_DIVE0009: -67761169
-      BOSS_DIVE0010: -1794536283
-      BOSS_DIVE0011: 67089260
-      BOSS_DIVE0012: -166060534
-      BOSS_DIVE0013: 360511096
-      BOSS_DIVE0014: 1313394177
-      BOSS_DIVE0015: 1802551647
-      BOSS_DIVE0016: -2109891485
-      BOSS_DIVE0017: -1017874728
-      BOSS_DIVE0018: -101715641
-      BOSS_DIVE0019: 922575190
-      BOSS_DIVE0020: 987994838
-      BOSS_DIVE0021: -1402440264
-      BOSS_DIVE0022: 315820265
-      BOSS_DIVE0023: 691494280
-      BOSS_DIVE0024: 1150192359
-      BOSS_DIVE0025: 1423957544
       BOSS_Death0001: -724643482
       BOSS_Death0002: -1927084039
       BOSS_Death0003: 1337412495

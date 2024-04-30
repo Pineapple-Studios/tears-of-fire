@@ -1,5 +1,3 @@
- using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class IdleBehaviour : StateMachineBehaviour
@@ -15,7 +13,7 @@ public class IdleBehaviour : StateMachineBehaviour
     {
         if (PlayerCombat.instance.IsAttacking)
         {
-            PlayerCombat.instance.animator.Play("attackA");
+            PlayerCombat.instance.animator.Play("attack");
         }
     }
 

@@ -836,6 +836,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e3ed38ff4c3ac4385545ede4409686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  btnNewGame: {fileID: 0}
+  btnAudio: {fileID: 0}
+  dpdResolution: {fileID: 0}
+  sldGeneral: {fileID: 0}
+  btnPT: {fileID: 0}
+  btnBackControls: {fileID: 0}
+  btnBackExtra: {fileID: 0}
+  _actionAsset: {fileID: 0}
 --- !u!114 &1164093990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,6 +857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cutscene: {fileID: 641046596}
+  _actionAsset: {fileID: -944628639613478452, guid: 3ccb6b62dc2484d48a6b8e93d225de44, type: 3}
 --- !u!1 &1435844524
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638496796981359778
+  lastModified: 638497597498011912
   FileSizes:
   - Name: Desktop
-    Value: 4765568
+    Value: 2499392
   Exists: 1
 --- !u!114 &-8083423156330746367
 MonoBehaviour:
@@ -204,11 +204,11 @@ MonoBehaviour:
   - {fileID: -8420140199389180468}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 146674
+  Length: 81818
 --- !u!114 &-5330774852669037086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,7 +413,7 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638496796981379795
+  lastModified: 638497597498031930
   FileSizes:
   - Name: Desktop
     Value: 2978
@@ -644,7 +644,7 @@ MonoBehaviour:
   - {fileID: -8420140199389180468}
   StringsBanks:
   - {fileID: -1023458804885698849}
-  cacheTime: 638496796981379795
+  cacheTime: 638497597498031930
   cacheVersion: 131616
 --- !u!114 &21655246649258022
 MonoBehaviour:
@@ -1266,7 +1266,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 158828
+  Length: 49090
 --- !u!114 &8792759615278055031
 MonoBehaviour:
   m_ObjectHideFlags: 0

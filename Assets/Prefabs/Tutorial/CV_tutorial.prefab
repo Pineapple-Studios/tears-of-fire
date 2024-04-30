@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7490196}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -190,7 +190,7 @@ RectTransform:
   - {fileID: 8759154806549171890}
   - {fileID: 7401058277518793164}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -211,6 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animatedElement: {fileID: 5329391161426953626}
   _anim: {fileID: 8935674518300789159}
+  _offset: {x: 0, y: 9.39, z: 0}
   _tutorialAttack: {fileID: 6981746160818371306, guid: b105fdf0353726b44a6bfa58e1863bde, type: 3}
   _tutorialJump: {fileID: 2973079919828090403, guid: 17ef84bbb3912cb4ea656af59a13135d, type: 3}
   _tutorialMovement: {fileID: 558983970500801491, guid: f48f8b7226b9eee41bc9d29e1ab30eb4, type: 3}

@@ -175,14 +175,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7449520609851264552, guid: b8baed40781fe8442986e559a7aa237f, type: 3}
-      propertyPath: JumpSpeed
-      value: 34
-      objectReference: {fileID: 0}
-    - target: {fileID: 7449520609851264552, guid: b8baed40781fe8442986e559a7aa237f, type: 3}
-      propertyPath: MoveSpeed
-      value: 19
-      objectReference: {fileID: 0}
     - target: {fileID: 8366031941466364038, guid: b8baed40781fe8442986e559a7aa237f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -885,6 +877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider
       objectReference: {fileID: 0}
+    - target: {fileID: 2834044176204927474, guid: 63eb77f607d3a214fbf7f136ef686f46, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6125552804104107155, guid: 63eb77f607d3a214fbf7f136ef686f46, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1016,7 +1012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8680496803898139969, guid: 2498b957541a4a8438912f9062d80fb3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

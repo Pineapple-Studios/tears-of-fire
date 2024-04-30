@@ -8,6 +8,10 @@ public class TutorialController : MonoBehaviour
     [SerializeField]
     private Animator _anim;
 
+    [Header("Setup")]
+    [SerializeField]
+    private Vector3 _offset = Vector3.zero;
+
     [Header("Tutorial keys")]
     [SerializeField]
     private GameObject _tutorialAttack;
@@ -21,6 +25,7 @@ public class TutorialController : MonoBehaviour
     private void PlayTutorial(GameObject tutorialElement)
     {
         GameObject obj = Instantiate(tutorialElement, _animatedElement.transform);
+        obj.transform.position += _offset;
         obj.transform.parent = _animatedElement.transform;
         _anim.Play("clip_show_tutorial");
     }
@@ -37,7 +42,8 @@ public class TutorialController : MonoBehaviour
 
     public void Clean()
     {
-        Destroy(_animatedElement.transform.GetChild(0).gameObject);
+        if (_animatedElement.transform.childCount > 0)
+            Destroy(_animatedElement.transform.GetChild(0).gameObject);
     }
 
 }

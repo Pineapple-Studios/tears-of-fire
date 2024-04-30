@@ -14,6 +14,8 @@ public class PlayerAnimationController : MonoBehaviour
     private const string GROUND = "onGround";
     private const string RUN = "isRunning";
     private const string ATTACK = "isAttacking";
+    private const string VERTICAL_ATTACK = "isVerticalAttack";
+    private const string VERTICAL_DIRECTION = "VerticalDirection";
     private const string JUMP = "isJump";
     private const string FALL = "isFalling";
     private const string DASH = "isDashing";
@@ -70,12 +72,29 @@ public class PlayerAnimationController : MonoBehaviour
         ClearAllStates();
     }
 
-    private void TriggerAttackAnimation()
+    private void TriggerVerticalAttackAnimation()
     {
         if (_animator.GetBool(DASH) == true) return;
-
         ClearAllStates();
+
+        _animator.SetFloat(VERTICAL_DIRECTION, _pih.GetDirection().y);
         _animator.SetBool(ATTACK, true);
+        _animator.SetBool(VERTICAL_ATTACK, true);
+    }
+
+    private void TriggerHorizontalAttackAnimation()
+    {
+        if (_animator.GetBool(DASH) == true) return;
+        ClearAllStates();
+
+        _animator.SetBool(ATTACK, true);
+        _animator.SetBool(VERTICAL_ATTACK, false);
+    }
+
+    private void TriggerAttackAnimation()
+    {
+        if (_pih.GetDirection().y != 0) TriggerVerticalAttackAnimation();
+        else TriggerHorizontalAttackAnimation();
     }
 
     public void ClearAllStates()

@@ -45,6 +45,6 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BlurAmount: 0.001
-    - _ShineIntensity: 2.41
+    - _ShineIntensity: 3.82
     m_Colors: []
   m_BuildTextureStacks: []

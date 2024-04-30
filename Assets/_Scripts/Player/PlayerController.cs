@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public static Action onPlayerGround;
     public static Action onPlayerRunning;
     public static Action onPlayerFreeze;
+    public static Action onPlayerFlip;
 
     [Header("Horizontal movement")]
     public float MoveSpeed = 10f;
@@ -196,7 +197,8 @@ public class PlayerController : MonoBehaviour
         // Se o personagem cair no ch�o 
         if (isFalling && _onGround)
         {
-            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.fallSvart, this.transform.position);
+            if (FMODAudioManager.Instance != null)
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.fallSvart, this.transform.position);
             onPlayerGround();
             isFalling = false;
             _rb.velocity = Vector2.zero;
@@ -274,10 +276,13 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public void Flip()
     {
+        if (onPlayerFlip != null) onPlayerFlip();
+
         IsFacingRight = !IsFacingRight;
         transform.rotation = Quaternion.Euler(0, IsFacingRight ? 0 : 180, 0);
 
         if (_cameraFollowObject != null) _cameraFollowObject.CallTurn();
+
     }
 
     /// <summary>
@@ -291,7 +296,8 @@ public class PlayerController : MonoBehaviour
 
         JumpTimer = 0;
 
-        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.jumpSvart, this.transform.position);
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.jumpSvart, this.transform.position);
     }
 
     /// <summary>
@@ -350,10 +356,10 @@ public class PlayerController : MonoBehaviour
 
     public float GetGravityToKnockback() => GravityScale + _fallVelocityMultiplayer;
 
-    public void FreezeMovement() {
-
+    public void FreezeMovement() 
+    {
         _externalVelocity = Vector2.zero;
-        _rb.velocity = Vector2.zero;
+        _rb.velocity = new Vector2(0f, _rb.velocity.y);
         _rb.gravityScale = GravityScale;
         if (onPlayerFreeze != null) onPlayerFreeze();
     }

@@ -1,6 +1,7 @@
 using Cinemachine;
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerProps))]
@@ -40,6 +41,7 @@ public class PlayerCombat : MonoBehaviour
 
     private bool _shouldEnemyReceiveAttack = false;
     private float _indulgenceTimer = 0f;
+    private Vector3 _tempAttackPosition = Vector3.zero;
 
 
     private void OnDrawGizmosSelected()
@@ -77,6 +79,7 @@ public class PlayerCombat : MonoBehaviour
             }
             else
             {
+                _tempAttackPosition = Vector3.zero;
                 _indulgenceTimer = 0;
                 _shouldEnemyReceiveAttack = false;
             }
@@ -132,6 +135,8 @@ public class PlayerCombat : MonoBehaviour
         // Play an attack animation
         IsAttacking = true;
 
+        if (_tempAttackPosition == Vector3.zero) _tempAttackPosition = AttackPoint.position;
+
         HitBlockByRaycast();
 
         _shouldEnemyReceiveAttack = true;
@@ -143,13 +148,15 @@ public class PlayerCombat : MonoBehaviour
         IsAttacking = false;
     }
 
+    
+
     /// <summary>
     /// Verifica se a �rea de dano tem algum inimigo e executa o dano no inimigo
     /// </summary>
     private void EnemyHit()
     {
         // Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _enemyLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_tempAttackPosition, AttackRange, _enemyLayer);
 
         // Damage them
         foreach (Collider2D enemy in hitEnemies)
@@ -208,7 +215,7 @@ public class PlayerCombat : MonoBehaviour
     /// </summary>
     private void TucanoRexHit()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _enemyLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_tempAttackPosition, AttackRange, _enemyLayer);
         
         foreach (Collider2D boss in hitEnemies)
         {

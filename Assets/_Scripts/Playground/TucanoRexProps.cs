@@ -28,6 +28,8 @@ public class TucanoRexProps : MonoBehaviour
     private float _colldownDamage = 2;
     [SerializeField]
     private float _colldownReceive = 2;
+    [SerializeField]
+    private Collider2D[] _colliderList;
 
     private PlayerProps _pp;
     private PlayerController _pc;
@@ -118,6 +120,7 @@ public class TucanoRexProps : MonoBehaviour
     {
         if (_life <= 0 && !_isDead)
         {
+            foreach (Collider2D col in _colliderList) col.enabled = false;
             if (onTucanoRexDead != null) onTucanoRexDead(gameObject.transform.parent.gameObject);
             _isDead = true;
         }

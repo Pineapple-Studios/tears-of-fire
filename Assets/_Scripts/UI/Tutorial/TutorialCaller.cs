@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-enum ETutorialAvailable
+public enum ETutorialAvailable
 {
     ATTACK,
     JUMP,
@@ -31,7 +31,7 @@ public class TutorialCaller : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player") _tc.HiddenTutorial();
+        if (collision.gameObject.tag == "Player") _tc.HiddenTutorial(_tutorial);
     }
 
     private void CallTutorial()

@@ -7,6 +7,7 @@ public class AttackTransitionBehaviour : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.attack, animator.transform.position);
         _isPreviouslyRunning = animator.GetBool("isRunning");
     }
 

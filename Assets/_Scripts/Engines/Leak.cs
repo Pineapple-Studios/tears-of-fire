@@ -42,7 +42,6 @@ public class Leak : MonoBehaviour
             if (instance.activeSelf == false)
             {
                 instance.SetActive(true);
-                FMODAudioManager.Instance.CreateInstance(FMODEventsTutorial.Instance.leak);
                 instance.GetComponent<Drop>().DropSpeed = _dropSpeed;
                 break;
             }

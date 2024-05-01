@@ -1,5 +1,7 @@
 using System;
+using UnityEditorInternal;
 using UnityEngine;
+using FMOD.Studio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -62,6 +64,8 @@ public class PlayerController : MonoBehaviour
     private float _coyoteCounter = 0f;
     private bool _isRespawning = false;
     private bool _isInputDisabled = false;
+
+    private EventInstance _footsteps;
 
     private Vector3 _knockPos;
     private Vector3 _enemyAttackPosition;
@@ -129,6 +133,9 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        // SFX Passos
+        _footsteps = FMODAudioManager.Instance.CreateInstance(FMODEventsTutorial.Instance.footsteps);
+
         // Fisica
         _rb = GetComponent<Rigidbody2D>();
 
@@ -205,6 +212,8 @@ public class PlayerController : MonoBehaviour
             // Zerando força externa ao cair no chão
             _externalVelocity = Vector2.zero;
         }
+
+        UpdateSound();
     }
 
     /// <summary>
@@ -327,6 +336,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void UpdateSound()
+    {
+        if (_rb.velocity.x != 0 && _onGround && _isInputDisabled == false)
+        {
+            PLAYBACK_STATE playbackState;
+            _footsteps.getPlaybackState(out playbackState);
+            if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            {
+                _footsteps.start();
+            }
+        }
+        else
+        {
+            _footsteps.stop(STOP_MODE.IMMEDIATE);
+        }
+    }
+
     public void SetAttackEnemyPosition(Vector3 pos)
     {
         _enemyAttackPosition = pos;
@@ -340,6 +366,7 @@ public class PlayerController : MonoBehaviour
     public void DisableInput()
     {
         _isInputDisabled = true;
+        _footsteps.stop(STOP_MODE.IMMEDIATE);
     }
 
     public void EnableInput()

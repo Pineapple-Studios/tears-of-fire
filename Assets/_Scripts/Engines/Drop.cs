@@ -49,6 +49,7 @@ public class Drop : MonoBehaviour
 
     private void Restart()
     {
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.leak, this.transform.position);
         gameObject.SetActive(false);
         transform.position = _initialPosition;
     }

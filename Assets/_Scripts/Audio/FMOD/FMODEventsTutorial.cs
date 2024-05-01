@@ -7,6 +7,12 @@ public class FMODEventsTutorial : MonoBehaviour
 {
     public static FMODEventsTutorial Instance;
 
+    [Header("Attack")]
+    [SerializeField] public EventReference attack;
+
+    [Header("Jump")]
+    [SerializeField] public EventReference footsteps;
+
     [Header("Jump")]
     [SerializeField] public EventReference jumpSvart;
     [SerializeField] public EventReference fallSvart;
@@ -27,6 +33,11 @@ public class FMODEventsTutorial : MonoBehaviour
     [Header("Death")]
     [SerializeField] public EventReference death;
 
+    [Header("Checkpoint")]
+    [SerializeField] public EventReference checkpoint;
+
+    [Header("Typing")]
+    [SerializeField] public EventReference typing;
 
     private void Awake()
     {

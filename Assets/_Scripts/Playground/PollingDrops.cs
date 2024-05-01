@@ -35,6 +35,16 @@ public class PollingDrops : MonoBehaviour
         SavePositions(_moveD, _movePositionGroup);
     }
 
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += ResetInstance;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= ResetInstance;
+    }
+
     private void Start()
     {
         _totalCount = _movePositionGroup.Count;
@@ -45,6 +55,11 @@ public class PollingDrops : MonoBehaviour
             _tmpElement.SetActive(false);
             _instancesStack.Add(_tmpElement);
         }
+    }
+
+    private void ResetInstance()
+    {
+         _currentCount = 0;
     }
 
     private void SavePositions(GameObject moviment, List<Transform> list)

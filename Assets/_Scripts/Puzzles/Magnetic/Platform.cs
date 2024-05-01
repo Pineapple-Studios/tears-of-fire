@@ -41,14 +41,14 @@ public class Platform : MonoBehaviour
         _initialPos = transform.position;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (_pc != null) UpdateVelocity();
         if (!_startCounting) return;
 
         if (_exitTimer < _delayToIdentifyExit && _pc != null)
         {
-            _exitTimer += Time.deltaTime;
+            _exitTimer += Time.fixedDeltaTime;
         }
         else
         {
@@ -66,7 +66,7 @@ public class Platform : MonoBehaviour
     private void UpdateVelocity()
     {
         // Calc velocity based on Position
-        Vector2 vel = (transform.position - _initialPos) / Time.deltaTime;
+        Vector2 vel = (transform.position - _initialPos) / Time.fixedDeltaTime;
         _initialPos = transform.position;
 
         if (!anim_isAnimating && vel != Vector2.zero) vel = Vector2.zero;
@@ -81,6 +81,8 @@ public class Platform : MonoBehaviour
     public void EndPlatformMoviment()
     {
         _pc.IncreaseExternalVelocity(Vector2.zero);
+        _exitTimer = 0f;
+        _startCounting = false;
         _pc = null;
     }
 

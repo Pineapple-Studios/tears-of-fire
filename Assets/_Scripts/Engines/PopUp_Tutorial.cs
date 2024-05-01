@@ -46,6 +46,6 @@ public class PopUp_Tutorial : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player") _tc.HiddenTutorial();
+        if (collision.gameObject.tag == "Player") _tc.HiddenTutorial(ETutorialAvailable.JUMP);
     }
 }

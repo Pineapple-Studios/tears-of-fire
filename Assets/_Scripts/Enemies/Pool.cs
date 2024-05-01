@@ -12,17 +12,29 @@ public class Pool : MonoBehaviour
     private PlayerProps _pp;
     private PlayerController _pc;
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
         {
-            _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
-            _pc = collision.gameObject.GetComponent<PlayerController>();
-            if (_pp == null) return;
-
-            _pc.SetAttackEnemyPosition(transform.position);
-            _pp.TakeDamage(_damageOnTouch);
+            HitPlayer(collision);
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
+        {
+            HitPlayer(collision);
+        }
+    }
+
+    private void HitPlayer(Collider2D collision)
+    {
+        _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
+        _pc = collision.gameObject.GetComponent<PlayerController>();
+        if (_pp == null) return;
+
+        _pc.SetAttackEnemyPosition(transform.position);
+        _pp.TakeDamage(_damageOnTouch);
     }
 }

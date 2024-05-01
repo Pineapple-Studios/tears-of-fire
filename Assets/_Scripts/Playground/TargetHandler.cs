@@ -12,16 +12,6 @@ public class TargetHandler : MonoBehaviour
 
     private int _currentPos = 0;
 
-    private void OnEnable()
-    {
-        LevelDataManager.onRestartElements += ResetInstance;
-    }
-
-    private void OnDisable()
-    {
-        LevelDataManager.onRestartElements -= ResetInstance;
-    }
-
     public void Initiate()
     {
         _currentPos = 0;
@@ -37,11 +27,6 @@ public class TargetHandler : MonoBehaviour
     }
 
     public void End()
-    {
-        gameObject.SetActive(false);
-    }
-
-    public void ResetInstance()
     {
         gameObject.SetActive(false);
     }

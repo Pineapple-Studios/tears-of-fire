@@ -33,6 +33,16 @@ public class CinemachineShakeManager : MonoBehaviour
     private float _shakeTimer = 0f;
     private CinemachineVirtualCamera _tmpCam;
 
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += ResetShakeProps;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= ResetShakeProps;
+    }
+
     private void Update()
     {
         if (_shakeTimer > 0)
@@ -40,7 +50,7 @@ public class CinemachineShakeManager : MonoBehaviour
             _shakeTimer -= Time.deltaTime;
             if (_shakeTimer <= 0)
             {
-                SetAmplitude(0f);
+                ResetShakeProps();
             }
         }
     }
@@ -55,6 +65,11 @@ public class CinemachineShakeManager : MonoBehaviour
     {
         CinemachineBasicMultiChannelPerlin cbmcp = _currentCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         cbmcp.m_FrequencyGain = frequency;
+    }
+
+    private void ResetShakeProps()
+    {
+        ShakeCamera(0f, 0.01f);
     }
 
     public void ShakeCamera(float amplitude, float time)

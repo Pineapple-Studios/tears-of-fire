@@ -88,6 +88,7 @@ public class SpiderPathVerifier : MonoBehaviour
 
     public void Jump()
     {
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.jumpSpider, this.transform.position);
         _anim.SetBool(JUMP_CLIP, true);
     }
 

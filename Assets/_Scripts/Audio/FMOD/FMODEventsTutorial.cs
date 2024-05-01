@@ -10,18 +10,29 @@ public class FMODEventsTutorial : MonoBehaviour
     [Header("Attack")]
     [SerializeField] public EventReference attack;
 
-    [Header("Jump")]
+    [Header("Footsteps")]
     [SerializeField] public EventReference footsteps;
 
-    [Header("Jump")]
+    [Header("Jump Svart")]
     [SerializeField] public EventReference jumpSvart;
     [SerializeField] public EventReference fallSvart;
+
 
     [Header("Hit")]
     [SerializeField] public EventReference hitSvart;
 
+    [Header("Jump Spider")]
+    [SerializeField] public EventReference jumpSpider;
+    [SerializeField] public EventReference fallSpider;
+
+    [Header("Bat")]
+    [SerializeField] public EventReference batShoot;
+
     [Header("BreakableWall")]
     [SerializeField] public EventReference breakableWall;
+
+    [Header("Magnetism")]
+    [SerializeField] public EventReference magnetism;
 
     [Header("LifeItem")]
     [SerializeField] public EventReference catchLifeItem;

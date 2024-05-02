@@ -14,7 +14,7 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Props")]
     [SerializeField]
-    private float _distanceToPlayer = 2f;
+    private Vector2 _distanceToPlayer = new Vector2(4, 1.5f);
     [SerializeField]
     private LayerMask _enemyLayer;
     [SerializeField]
@@ -41,7 +41,7 @@ public class PlayerCombat : MonoBehaviour
 
     private bool _shouldEnemyReceiveAttack = false;
     private float _indulgenceTimer = 0f;
-    private Vector3 _tempAttackPosition = Vector3.zero;
+    // private Vector3 _tempAttackPosition = Vector3.zero;
 
 
     private void OnDrawGizmosSelected()
@@ -79,7 +79,7 @@ public class PlayerCombat : MonoBehaviour
             }
             else
             {
-                _tempAttackPosition = Vector3.zero;
+                // _tempAttackPosition = Vector3.zero;
                 _indulgenceTimer = 0;
                 _shouldEnemyReceiveAttack = false;
             }
@@ -116,17 +116,18 @@ public class PlayerCombat : MonoBehaviour
 
         if (mag == Vector2.zero)
         {
-            AttackPoint.localPosition = new Vector3(_distanceToPlayer, AttackRange / 3, 0);
+            AttackPoint.localPosition = new Vector3(_distanceToPlayer.x, AttackRange / 3, 0);
             return;
         }
 
         if (currentY >= currentX)
         {
-            AttackPoint.localPosition = new Vector3(0, mag.y * _distanceToPlayer, 0);
+            float y = mag.y > 0 ? _distanceToPlayer.y : _distanceToPlayer.y - 1.8f;
+            AttackPoint.localPosition = new Vector3(0, mag.y * y, 0);
         }
         else
         {
-            AttackPoint.localPosition = new Vector3(_distanceToPlayer, AttackRange / 3, 0);
+            AttackPoint.localPosition = new Vector3(_distanceToPlayer.x, AttackRange / 3, 0);
         }
     }
 
@@ -135,7 +136,7 @@ public class PlayerCombat : MonoBehaviour
         // Play an attack animation
         IsAttacking = true;
 
-        if (_tempAttackPosition == Vector3.zero) _tempAttackPosition = AttackPoint.position;
+        // if (_tempAttackPosition == Vector3.zero) _tempAttackPosition = AttackPoint.position;
 
         HitBlockByRaycast();
 
@@ -156,7 +157,7 @@ public class PlayerCombat : MonoBehaviour
     private void EnemyHit()
     {
         // Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_tempAttackPosition, AttackRange, _enemyLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _enemyLayer);
 
         // Damage them
         foreach (Collider2D enemy in hitEnemies)
@@ -185,7 +186,7 @@ public class PlayerCombat : MonoBehaviour
         Vector3 origin = transform.position + _offset;
         Vector2 forward2D = new Vector2(transform.forward.z, transform.forward.y);  
 
-        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), Vector2.up, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D topBlocks = Physics2D.Raycast(origin + new Vector3(0, AttackRange / 2, 0), Vector2.up, _distanceToPlayer.y, _breakableBlockLayer);
         if (topBlocks.collider != null)
         {
             BreakableBlock b = topBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
@@ -193,7 +194,7 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
 
-        RaycastHit2D middleBlocks = Physics2D.Raycast(origin, forward2D, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D middleBlocks = Physics2D.Raycast(origin, forward2D, _distanceToPlayer.x, _breakableBlockLayer);
         if (middleBlocks.collider != null)
         {
             BreakableBlock b = middleBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
@@ -201,7 +202,7 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
 
-        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), Vector2.down, _distanceToPlayer, _breakableBlockLayer);
+        RaycastHit2D bottomBlocks = Physics2D.Raycast(origin + new Vector3(0, -(AttackRange / 2), 0), Vector2.down, _distanceToPlayer.y - 1.8f, _breakableBlockLayer);
         if (bottomBlocks.collider != null)
         {
             BreakableBlock b = bottomBlocks.collider.gameObject.transform.parent.gameObject.GetComponentInChildren<BreakableBlock>();
@@ -215,7 +216,7 @@ public class PlayerCombat : MonoBehaviour
     /// </summary>
     private void TucanoRexHit()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_tempAttackPosition, AttackRange, _enemyLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, _enemyLayer);
         
         foreach (Collider2D boss in hitEnemies)
         {

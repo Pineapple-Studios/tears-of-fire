@@ -167,6 +167,7 @@ public class DialogController : MonoBehaviour
         _textArea.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
+            //FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.typing, this.transform.position);
             _textArea.text += letter;
             yield return null;
         }

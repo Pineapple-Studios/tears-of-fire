@@ -16,6 +16,7 @@ public class Checkpoint : MonoBehaviour
     {
         if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
         {
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.checkpoint, this.transform.position);
             NewCheckpoint(_spawnPoint.position);
             _anim.SetBool("IsOn", true);
         }

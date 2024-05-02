@@ -68,6 +68,7 @@ public class Bat : MonoBehaviour
     private IEnumerator ShootRoutine()
     {
         Shoot();
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.batShoot, this.transform.position);
         yield return new WaitForSeconds(_reloadTime);
         _isShooting = false;
     }

@@ -112,6 +112,8 @@ public class TucanoRexProps : MonoBehaviour
         _isReceivingDamage = true;
         _feedbackAnimController.SetBool("isDamaged", true);
         _life -= damage;
+
+        if (RumbleManager.instance != null) RumbleManager.instance.RumbleBossDamage();
     }
 
     public float GetCurrentLife() => _life;

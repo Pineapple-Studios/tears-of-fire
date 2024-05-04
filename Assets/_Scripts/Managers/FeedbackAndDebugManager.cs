@@ -61,6 +61,11 @@ public class FeedbackAndDebugManager : MonoBehaviour
 
     private void Start()
     {
+        StartGame();
+    }
+
+    public void StartGame()
+    {
         SaveAllCheckpoints();
         HandlePanel();
         HandleSceneButtons();

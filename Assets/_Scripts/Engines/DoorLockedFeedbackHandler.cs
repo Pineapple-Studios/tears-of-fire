@@ -64,6 +64,9 @@ public class DoorLockedFeedbackHandler : MonoBehaviour
         {
             _interactionKey.SetActive(false);
             _cvFeedback.SetActive(false);
+            // ToDo: Renato
+            if (FMODAudioManager.Instance != null) FMODAudioManager.Instance.CleanUp();
+
             _doorAnim.Play("clip_open");
         }
     }

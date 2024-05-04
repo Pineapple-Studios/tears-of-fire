@@ -133,6 +133,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float hit)
     {
+        if (RumbleManager.instance != null) RumbleManager.instance.RumbleEnemyDamage();
         _life -= hit;
 
         if (_life <= 0)

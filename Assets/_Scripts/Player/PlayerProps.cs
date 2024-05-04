@@ -91,9 +91,9 @@ public class PlayerProps : MonoBehaviour
         // Knockback
         if (shouldKnock) _pc.BackImpulse();
         _hasDamaged = true;
-        
+
         // Feedback
-        RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+        if (RumbleManager.instance != null) RumbleManager.instance.RumblePlayerDamage();
         FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.hitSvart, this.transform.position);
         CinemachineShakeManager.Instance.ShakeCamera();
 

@@ -1031,6 +1031,7 @@ GameObject:
   - component: {fileID: 1882655116256631788}
   - component: {fileID: 4978975998553660796}
   - component: {fileID: 8038434569000852162}
+  - component: {fileID: 3369948318920438837}
   m_Layer: 7
   m_Name: Sprites
   m_TagString: Untagged
@@ -1127,6 +1128,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3369948318920438837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273014415527099802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e596d297a234cfa4aac64de245613a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dashPrefab: {fileID: 4618738129722023942, guid: 507c9c4c6c91f4b4f8b3db7efdc1bc46, type: 3}
+  _qtdProjection: 6
+  _gap: {x: 2, y: 0, z: 0}
+  _speed: 10
+  _spriteSource: {fileID: 4978975998553660796}
 --- !u!1 &2434931585082842031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7686,6 +7704,7 @@ MonoBehaviour:
   _leftRocks: {fileID: 7834347357895311800}
   _rightRocks: {fileID: 6404426214458905429}
   _targetHandler: {fileID: 7541559150952668557}
+  _vfxDash: {fileID: 3369948318920438837}
 --- !u!1 &5432418725826960166
 GameObject:
   m_ObjectHideFlags: 0

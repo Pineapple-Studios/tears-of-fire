@@ -13,6 +13,8 @@ public class BossFightScenarioHandler : MonoBehaviour
     private ParticleSystem _rightRocks;
     [SerializeField]
     private TargetHandler _targetHandler;
+    [SerializeField]
+    private VFXDash _vfxDash;
 
     private PlayerController _playerController;
 
@@ -75,5 +77,15 @@ public class BossFightScenarioHandler : MonoBehaviour
     public void FinishTucanoRexIntroduction()
     {
         _playerController.EnableInput();
+    }
+
+    public void StartDashEffect()
+    {
+        if (_vfxDash != null) _vfxDash.TriggerDash();
+    }
+
+    public void StopDashEffect()
+    {
+        if (_vfxDash != null) _vfxDash.TriggerStopDash();
     }
 }

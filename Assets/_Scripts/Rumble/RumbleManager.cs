@@ -21,6 +21,12 @@ public class RumbleManager : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Vibração do controle
+    /// </summary>
+    /// <param name="lowFrequency">lowFreq motor</param>
+    /// <param name="highFrequency">highFreq motor</param>
+    /// <param name="duration">Variação tempo segundos</param>
     public void RumblePulse(float lowFrequency, float highFrequency, float duration)
     {
         pad = Gamepad.current;
@@ -31,6 +37,22 @@ public class RumbleManager : MonoBehaviour
         }
 
         stopRumbleCoroutine = StartCoroutine(StopRumble(duration, pad));
+    }
+
+    public void RumblePlayerDamage() {
+        RumblePulse(0.55f, 2f, 0.25f);
+    }
+
+    public void RumbleEnemyDamage() {
+        RumblePulse(0.25f, 1f, 0.25f);
+    }
+
+    public void RumbleBossDamage() {
+        RumblePulse(0.45f, 1.5f, 0.25f);
+    }
+
+    public void RumbleBossDead() {
+        RumblePulse(1f, 2f, 0.5f);
     }
 
     private IEnumerator StopRumble(float duration, Gamepad pad)

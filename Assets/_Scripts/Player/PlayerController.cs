@@ -134,7 +134,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         // SFX Passos
-        _footsteps = FMODAudioManager.Instance.CreateInstance(FMODEventsTutorial.Instance.footsteps);
+        if (FMODAudioManager.Instance != null) 
+            _footsteps = FMODAudioManager.Instance.CreateInstance(FMODEventsTutorial.Instance.footsteps);
 
         // Fisica
         _rb = GetComponent<Rigidbody2D>();

@@ -6,6 +6,9 @@ using static LevelDataScriptableObject;
 
 public class LevelDataManager : MonoBehaviour
 {
+    // Set last checkpoint as the initial position
+    private readonly Vector3 INITIAL_POSITION = new Vector3(14.5f, 4.3f, 0);
+
     public static Action onRestartElements;
 
     [SerializeField]
@@ -41,8 +44,7 @@ public class LevelDataManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         _levelData.EnemiesDead.Clear();
-        // Set last checkpoint as the initial position
-        _levelData.lastCheckpoint = new Vector3(14.5f,4.3f,0);
+        _levelData.lastCheckpoint = INITIAL_POSITION;
         _player = FindAnyObjectByType<PlayerController>().gameObject;
     }
 
@@ -51,12 +53,12 @@ public class LevelDataManager : MonoBehaviour
         InitStates();
     }
 
-    private void InitStates()
+    public void InitStates()
     {
         _deathTransition.SetActive(false);
         SetKwyRoomKey(false);
         SetDashState(false);
-        _player.transform.position = _levelData.lastCheckpoint;
+        _player.transform.position = INITIAL_POSITION;
         // _player.GetComponent<PlayerController>().Flip();
     }
 

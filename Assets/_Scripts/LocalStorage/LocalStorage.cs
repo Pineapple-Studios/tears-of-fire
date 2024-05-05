@@ -11,6 +11,7 @@ public class LocalStorage
     const string RESOLUTION = "@TOF_RESOLUTION";
     const string FULL_SCREEN = "@TOF_FULL_SCREEN";
     const string INPUT_ACTIONS = "@TOF_INPUT_ACTIONS";
+    const string BRIGHTNESS = "@TOF_BRIGHTNESS";
 
     #region GeneralVolume
     public static void SetGeneralVolume(float currentValue)
@@ -125,5 +126,16 @@ public class LocalStorage
     }
     #endregion
 
+    #region Brightness
+    public static void SetBright(float currentValue)
+    {
+        PlayerPrefs.SetFloat(BRIGHTNESS, currentValue);
+    }
+
+    public static float GetBright(float defaultValue)
+    {
+        return PlayerPrefs.GetFloat(BRIGHTNESS, defaultValue);
+    }
+    #endregion
 
 }

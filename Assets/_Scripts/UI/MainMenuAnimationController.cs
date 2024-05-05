@@ -36,6 +36,7 @@ public class MainMenuAnimationController : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
         _an = GetComponent<Animator>();
         Time.timeScale = 1;
     }

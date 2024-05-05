@@ -150,17 +150,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""591f28df-33de-4d87-9d62-99bfe39c9b99"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Confirm"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""3f08e540-9e3a-4add-8660-7512cf16b2cb"",
                     ""path"": ""<Keyboard>/enter"",
                     ""interactions"": """",
@@ -491,6 +480,28 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
+                    ""id"": ""4ea89b98-2f02-4273-bfbf-8f437ac2f40e"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""35dbd472-a68f-4c14-9c96-df0f9f4c234c"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/hat/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
                     ""id"": ""582e665c-ca5a-437a-a54a-30dbcfa68cc7"",
                     ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/stick/up"",
                     ""interactions"": """",
@@ -515,6 +526,28 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""name"": ""down"",
                     ""id"": ""1b86626e-14e4-40ee-94d2-a3b5a81f18d8"",
                     ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""9b3fa06d-30b7-468d-acc8-1ad0795ae7d4"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""1a5c1287-29ea-4097-8a86-0d8963cc524c"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/hat/down"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -557,6 +590,28 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
+                    ""id"": ""70438f57-135c-45ac-87c7-acd4f85279cf"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""f1f04c57-3545-40a7-80c7-6f37992d366c"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/hat/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
                     ""id"": ""7eb024fc-1c73-4431-8f17-d728744be57a"",
                     ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/stick/left"",
                     ""interactions"": """",
@@ -590,8 +645,8 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""75eb07c2-b169-43a1-8bb3-0fed53990478"",
-                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/stick/right"",
+                    ""id"": ""8d1e3378-e1cd-4938-885a-f4dc22293c72"",
+                    ""path"": ""<Gamepad>/dpad/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -600,136 +655,26 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""1e7fe0cc-4f87-47b4-8198-66b225c2dbf9"",
-                    ""path"": ""<Mouse>/position"",
+                    ""name"": ""right"",
+                    ""id"": ""f5bfe759-eb6e-4b99-9077-7acc37fe346d"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/hat/right"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Point"",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""5c986e64-51eb-47b3-9e2d-51a887d1a58f"",
-                    ""path"": ""<Pen>/position"",
+                    ""name"": ""right"",
+                    ""id"": ""75eb07c2-b169-43a1-8bb3-0fed53990478"",
+                    ""path"": ""<HID::MY-POWER CO.,LTD. 2In1 USB Joystick>/stick/right"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Point"",
+                    ""groups"": """",
+                    ""action"": ""Navigation"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""ae1340eb-7093-4f52-ab19-1492e6902f57"",
-                    ""path"": ""<Touchscreen>/touch*/position"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touch"",
-                    ""action"": ""Point"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""2bb0c3fa-4ba2-4bdc-87a0-82dc0763066b"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""d642ea7c-211f-49d5-8f01-23b7e5ba0eca"",
-                    ""path"": ""<Pen>/tip"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""0e613d67-8502-4919-b3d9-e46cbefe1801"",
-                    ""path"": ""<Touchscreen>/touch*/press"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touch"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""3e0fa7e7-e1b7-4e8d-bfd2-5f749913ffbe"",
-                    ""path"": ""<XRController>/trigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""XR"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""b6c2ffc0-4229-4457-aaec-253ed17e76ab"",
-                    ""path"": ""<Mouse>/scroll"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ScrollWheel"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8a27494a-5b7e-4df1-8d90-4c776b905c98"",
-                    ""path"": ""<Mouse>/middleButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""MiddleClick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""f6a9c6b9-526f-46a4-8e30-08742ca82938"",
-                    ""path"": ""<Mouse>/rightButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""RightClick"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""311508c9-3c6a-4104-8978-361ba3491186"",
-                    ""path"": ""<XRController>/devicePosition"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""XR"",
-                    ""action"": ""TrackedDevicePosition"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""7202b50d-5c69-4038-8ebb-07d043d6d5b7"",
-                    ""path"": ""<XRController>/deviceRotation"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""XR"",
-                    ""action"": ""TrackedDeviceOrientation"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 }
             ]
         },

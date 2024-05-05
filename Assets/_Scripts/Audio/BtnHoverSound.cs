@@ -2,12 +2,16 @@ using FMODUnity;
 using FMOD.Studio;
 using UnityEngine.EventSystems;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using Unity.VisualScripting;
 
 public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHandler
 {
     //[SerializeField]
     //private string _fmodEventName;
-    
+
+    [SerializeField] Button btn;
     EventInstance moveEvent;
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -20,6 +24,16 @@ public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHand
         ExecuteSFX();
     }
 
+    private void OnEnable()
+    {
+        btn.onClick.AddListener(ConfirmSFX);
+    }
+
+    private void OnDisable()
+    {
+        btn.onClick.RemoveListener(ConfirmSFX);
+    }
+
     private void ExecuteSFX()
     {
         //if (_fmodEventName == null) return;
@@ -29,5 +43,10 @@ public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHand
         //moveEvent = RuntimeManager.CreateInstance(_fmodEventName);
         FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.moveUI, this.transform.position);
         moveEvent.start();
+    }
+
+    private void ConfirmSFX()
+    {
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.clickUI, this.transform.position);
     }
 }

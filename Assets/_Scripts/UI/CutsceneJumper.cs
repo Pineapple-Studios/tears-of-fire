@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class CutsceneJumper : MonoBehaviour
@@ -43,11 +44,11 @@ public class CutsceneJumper : MonoBehaviour
 
     void CutsceneHasEnded(VideoPlayer vp)
     {
-        MainMenuAnimationController.Instance.GoToGame();
+        SceneManager.LoadScene("Tutorial");
     }
 
     void CutsceneHasEnded(InputAction.CallbackContext context)
     {
-        MainMenuAnimationController.Instance.GoToGame();
+        SceneManager.LoadScene("Tutorial");
     }
 }

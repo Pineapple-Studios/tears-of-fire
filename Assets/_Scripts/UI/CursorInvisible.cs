@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class CursorInvisible : MonoBehaviour
 {
-    public static CursorInvisible Instance;
 
-    public void InvisibleCursor()
+    private void Start()
     {
         Cursor.visible = false;
     }

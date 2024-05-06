@@ -8,11 +8,6 @@ public class BtnPreMenu : MonoBehaviour
 {
     [SerializeField] Button btn;
 
-    private void Start()
-    {
-        CursorInvisible.Instance.InvisibleCursor();
-    }
-
     private void OnEnable()
     {
         btn.onClick.AddListener(GoToScene);

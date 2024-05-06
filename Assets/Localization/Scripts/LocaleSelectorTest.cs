@@ -6,10 +6,7 @@ using UnityEngine.Localization.Settings;
 public class LocaleSelectorTest : MonoBehaviour
 {
     private bool _active = false;
-    private void Start()
-    {
-        CursorInvisible.Instance.InvisibleCursor();
-    }
+
     public void ChangeLocale(int localeID)
     {
         if (_active == true) { return; }

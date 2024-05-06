@@ -18,7 +18,6 @@ public class Brightness : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CursorInvisible.Instance.InvisibleCursor();
         EventSystem.current.SetSelectedGameObject(brightnessSld.gameObject);
         profile.TryGetSettings(out exposure);
         float brightValue = LocalStorage.GetBright(0.6f);

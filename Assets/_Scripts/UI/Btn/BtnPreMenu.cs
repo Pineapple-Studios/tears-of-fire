@@ -7,9 +7,10 @@ using UnityEngine.UI;
 public class BtnPreMenu : MonoBehaviour
 {
     [SerializeField] Button btn;
-    void Start()
-    {
 
+    private void Start()
+    {
+        CursorInvisible.Instance.InvisibleCursor();
     }
 
     private void OnEnable()

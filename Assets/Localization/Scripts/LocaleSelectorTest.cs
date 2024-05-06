@@ -8,7 +8,7 @@ public class LocaleSelectorTest : MonoBehaviour
     private bool _active = false;
     private void Start()
     {
-        Cursor.visible = false;
+        CursorInvisible.Instance.InvisibleCursor();
     }
     public void ChangeLocale(int localeID)
     {

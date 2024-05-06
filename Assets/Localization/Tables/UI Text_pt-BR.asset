@@ -160,6 +160,22 @@ MonoBehaviour:
       Utilize o controle'
     m_Metadata:
       m_Items: []
+  - m_Id: 31178212271099904
+    m_Localized: Voltar para o menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31178360334225408
+    m_Localized: "Gostar\xEDamos de agradecer por jogar nosso jogo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31178535706464256
+    m_Localized: Fim de Jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31474754211188736
+    m_Localized: Ajuste seu brilho de tela
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

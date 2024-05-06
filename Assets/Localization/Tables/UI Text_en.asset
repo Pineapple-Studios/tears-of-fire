@@ -160,6 +160,22 @@ MonoBehaviour:
       Use the joystick'
     m_Metadata:
       m_Items: []
+  - m_Id: 31178212271099904
+    m_Localized: Back to the main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31178360334225408
+    m_Localized: We would like to thank you for your gameplay!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31178535706464256
+    m_Localized: End of the Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31474754211188736
+    m_Localized: ADJUST YOUR BRIGHTNESS
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

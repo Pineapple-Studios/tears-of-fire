@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9128565520969659761
 MonoBehaviour:
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
+  CollisionTag: NextLevel
   EventReference:
     Guid:
       Data1: 1139283869
@@ -54,7 +54,7 @@ MonoBehaviour:
     Path: event:/TutorialMusic
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 3
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0

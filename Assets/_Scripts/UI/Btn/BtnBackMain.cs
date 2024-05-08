@@ -40,6 +40,9 @@ public class BtnBackMain : MonoBehaviour
 
         Destroy(FeedbackAndDebugManager.Instance.gameObject);
         Destroy(LevelDataManager.Instance.gameObject);
+        Destroy(FMODAudioManager.Instance.gameObject);
+        Destroy(CinemachineShakeManager.Instance.gameObject);
+        Destroy(ScenarioColorManager.Instance.gameObject);
 
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneName);

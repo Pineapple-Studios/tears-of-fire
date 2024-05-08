@@ -8,6 +8,7 @@ TagManager:
   - HiddenPath
   - PuzzleElement
   - NPC
+  - NextLevel
   layers:
   - Default
   - TransparentFX

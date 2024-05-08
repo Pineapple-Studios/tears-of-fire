@@ -25,8 +25,12 @@ public class CinemachineShakeManager : MonoBehaviour
             Instance = this;
         }
 
-        _csdc = FindAnyObjectByType<CinemachineStateDrivenCamera>();
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void Start()
+    {
+        _csdc = FindAnyObjectByType<CinemachineStateDrivenCamera>();
     }
 
     private CinemachineVirtualCamera _currentCamera;

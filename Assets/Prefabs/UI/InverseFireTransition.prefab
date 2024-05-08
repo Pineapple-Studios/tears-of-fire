@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8244902531014623677}
   - component: {fileID: 4615220940243002249}
   - component: {fileID: 6085903595595849077}
+  - component: {fileID: 1886450628989817023}
   m_Layer: 0
   m_Name: InverseFireTransition
   m_TagString: Untagged
@@ -98,3 +99,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1886450628989817023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4185603975596597007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4d5b46c9e1aef42b22e94e3d74c2cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

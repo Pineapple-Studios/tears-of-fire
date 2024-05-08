@@ -39,8 +39,15 @@ public class RumbleManager : MonoBehaviour
         stopRumbleCoroutine = StartCoroutine(StopRumble(duration, pad));
     }
 
+    public void RumblePulse(float lowFrequency, float highFrequency, float duration, bool shouldOverride)
+    {
+        if (!shouldOverride) return;
+        StopAllCoroutines();
+        RumblePulse(lowFrequency, highFrequency, duration);
+    }
+
     public void RumblePlayerDamage() {
-        RumblePulse(0.55f, 2f, 0.25f);
+        RumblePulse(0.55f, 2f, 0.25f, true);
     }
 
     public void RumbleEnemyDamage() {
@@ -52,7 +59,7 @@ public class RumbleManager : MonoBehaviour
     }
 
     public void RumbleBossDead() {
-        RumblePulse(1f, 2f, 0.5f);
+        RumblePulse(1f, 2f, 0.5f, true);
     }
 
     private IEnumerator StopRumble(float duration, Gamepad pad)

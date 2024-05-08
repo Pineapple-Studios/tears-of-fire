@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class FeedbackAndDebugManager : MonoBehaviour
 { 
@@ -45,6 +46,14 @@ public class FeedbackAndDebugManager : MonoBehaviour
     [SerializeField]
     private TMP_Text _infinityLifeStateLabel;
 
+    //[Header("EventSytem")]
+    //[SerializeField]
+    private GameObject _mainEventSystem;
+
+    //[SerializeField]
+    private GameObject _debugEventSystem;
+
+
     public struct SCheckpoint
     {
         public string _name;
@@ -61,6 +70,18 @@ public class FeedbackAndDebugManager : MonoBehaviour
 
     private void Start()
     {
+        EventSystem[] allEvents = Resources.FindObjectsOfTypeAll<EventSystem>();
+        foreach (EventSystem eventSystem in allEvents)
+        {
+            if(eventSystem.gameObject.name == "MainES")
+            {
+               _mainEventSystem = eventSystem.gameObject;
+            }
+            if (eventSystem.gameObject.name == "DebugES")
+            {
+                _debugEventSystem = eventSystem.gameObject;
+            }
+        }
         StartGame();
     }
 
@@ -79,10 +100,28 @@ public class FeedbackAndDebugManager : MonoBehaviour
         _dataController.IsInifinityLife = false;
         _dataController.HasKwyRoomsKey = false;
         _dataController.IsDashEnabled = false;
+        _mainEventSystem.SetActive(true);
+        _debugEventSystem.SetActive(false);
     }
 
     private void Update()
     {
+        if(_mainEventSystem == null ||  _debugEventSystem == null)
+        {
+            EventSystem[] allEvents = Resources.FindObjectsOfTypeAll<EventSystem>();
+            foreach (EventSystem eventSystem in allEvents)
+            {
+                if (eventSystem.gameObject.name == "MainES")
+                {
+                    _mainEventSystem = eventSystem.gameObject;
+                }
+                if (eventSystem.gameObject.name == "DebugES")
+                {
+                    _debugEventSystem = eventSystem.gameObject;
+                }
+            }
+        }
+
         if (_debugPanel == null || _dataController == null) return;
         if (
             (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt)) && 
@@ -135,11 +174,15 @@ public class FeedbackAndDebugManager : MonoBehaviour
         {
             Cursor.visible = true;
             _debugPanel.SetActive(true);
+            _mainEventSystem.SetActive(false);
+            _debugEventSystem.SetActive(true);
         }
         else
         {
             _debugPanel.SetActive(false);
             Cursor.visible = false;
+            _mainEventSystem.SetActive(true);
+            _debugEventSystem.SetActive(false);
         }
     }
 

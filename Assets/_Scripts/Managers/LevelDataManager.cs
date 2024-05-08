@@ -20,16 +20,14 @@ public class LevelDataManager : MonoBehaviour
 
     [Header("Screen FX")]
     [SerializeField]
-    private GameObject _deathTransition;
-    [SerializeField]
     private float _waitTransitionSeconds;
 
     public GameObject CurrentPlayerObject;
     private ECamAvailable _currentSelectedCam = ECamAvailable.PLAYER;
     private GameObject _player;
+    private GameObject _deathTransition;
 
     public static LevelDataManager Instance { get; private set; }
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -44,8 +42,7 @@ public class LevelDataManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         _levelData.EnemiesDead.Clear();
-        _levelData.lastCheckpoint = INITIAL_POSITION;
-        _player = FindAnyObjectByType<PlayerController>().gameObject;
+        _levelData.lastCheckpoint = INITIAL_POSITION; 
     }
 
     private void Start()
@@ -55,6 +52,8 @@ public class LevelDataManager : MonoBehaviour
 
     public void InitStates()
     {
+        _deathTransition = FindAnyObjectByType<DeathUITransition>().gameObject;
+        _player = FindAnyObjectByType<PlayerController>().gameObject;
         _deathTransition.SetActive(false);
         SetKwyRoomKey(false);
         SetDashState(false);

@@ -20,7 +20,7 @@ public class Brightness : MonoBehaviour
     {
         EventSystem.current.SetSelectedGameObject(brightnessSld.gameObject);
         profile.TryGetSettings(out exposure);
-        float brightValue = LocalStorage.GetBright(0.6f);
+        float brightValue = LocalStorage.GetBright(1f);
         float brightValueUpdated = this.OnChangeValue(brightValue);
         LocalStorage.SetBright(brightValueUpdated);
         brightnessSld.SetValueWithoutNotify(brightValue);

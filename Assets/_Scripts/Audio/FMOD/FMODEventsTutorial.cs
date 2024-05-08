@@ -30,6 +30,7 @@ public class FMODEventsTutorial : MonoBehaviour
 
     [Header("BreakableWall")]
     [SerializeField] public EventReference breakableWall;
+    [SerializeField] public EventReference lastHitBreakableWall;
 
     [Header("Magnetism")]
     [SerializeField] public EventReference magnetism;

@@ -44,11 +44,13 @@ public class CutsceneJumper : MonoBehaviour
 
     void CutsceneHasEnded(VideoPlayer vp)
     {
-        SceneManager.LoadScene("Tutorial");
+        if (SceneManager.GetActiveScene().name == "BeforeGame")
+            SceneManager.LoadScene("Tutorial");
     }
 
     void CutsceneHasEnded(InputAction.CallbackContext context)
     {
-        SceneManager.LoadScene("Tutorial");
+        if(SceneManager.GetActiveScene().name == "BeforeGame")
+            SceneManager.LoadScene("Tutorial");
     }
 }

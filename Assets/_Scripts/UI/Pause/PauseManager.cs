@@ -19,12 +19,16 @@ public class PauseManager : MonoBehaviour
     [Header("Txt In Progress")]
     [SerializeField]public TMP_Text txtIP;
 
+    private PlayerInputHandler _pih;
+
 
     private void Start()
     {
         Cursor.visible = false;
         pauseMenu.gameObject.SetActive(false);
         txtIP.gameObject.SetActive(false);
+
+        _pih = FindAnyObjectByType<PlayerInputHandler>();
     }
     void Awake()
     {
@@ -63,6 +67,7 @@ public class PauseManager : MonoBehaviour
     public void Resume()
     {
         OnTransitionBack();
+        _pih.EnableInputs();
         Debug.Log("Despausou");
         Cursor.visible = false;
         Time.timeScale = 1;
@@ -72,6 +77,7 @@ public class PauseManager : MonoBehaviour
     private void Pause()
     {
         Debug.Log("Pausou");
+        _pih.DisableInputs();
         Cursor.visible = true;
         pauseMenu.gameObject.SetActive(true);
         txtIP.gameObject.SetActive(false);

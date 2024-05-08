@@ -15,6 +15,10 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private Collider2D _col;
 
+    [Header("VFX")]
+    [SerializeField]
+    private VFXPuff _puff;
+
     private PlayerProps _pp;
     private PlayerController _pc;
     private Animator _ac;
@@ -134,6 +138,8 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float hit)
     {
         if (RumbleManager.instance != null) RumbleManager.instance.RumbleEnemyDamage();
+        if (_puff != null) _puff.PlayPuff();
+
         _life -= hit;
 
         if (_life <= 0)

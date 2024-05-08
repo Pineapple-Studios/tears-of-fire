@@ -13,60 +13,35 @@ public class Platform : MonoBehaviour
     public bool anim_isAnimating = false;
         
     private PlayerController _pc;
+    private PlayerPuzzleHandler _pph;
+
     private Vector3 _initialPos = Vector3.zero;
     private float _exitTimer = 0f;
     private bool _startCounting = false;
     private bool _endMoviment = false;
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (_pc == null)
-        {
-            if ((((1 << collision.gameObject.layer) & _playerLayer) != 0))
-            {
-                _pc = collision.gameObject.GetComponent<PlayerController>();
-            }
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        _startCounting = true;
-        if (_pc != null) _pc.IncreaseExternalVelocity(Vector2.zero);
-    }
-
-
     void Start()
     {
+        _pph = FindAnyObjectByType<PlayerPuzzleHandler>();
+        _pc = FindAnyObjectByType<PlayerController>();
         _initialPos = transform.position;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (_pc != null) UpdateVelocity();
-        if (!_startCounting) return;
+        if (!_pph.IsInPlatform())
+        {
+            _pc.IncreaseExternalVelocity(Vector2.zero);
+            return;
+        }
 
-        if (_exitTimer < _delayToIdentifyExit && _pc != null)
-        {
-            _exitTimer += Time.fixedDeltaTime;
-        }
-        else
-        {
-            _pc = null;
-        }
-        
-
-        if (_pc == null)
-        {
-            _exitTimer = 0f;
-            _startCounting = false;
-        }
+        UpdateVelocity();
     }
 
     private void UpdateVelocity()
     {
         // Calc velocity based on Position
-        Vector2 vel = (transform.position - _initialPos) / Time.fixedDeltaTime;
+        Vector2 vel = (transform.position - _initialPos) / Time.deltaTime;
         _initialPos = transform.position;
 
         if (!anim_isAnimating && vel != Vector2.zero) vel = Vector2.zero;
@@ -81,9 +56,6 @@ public class Platform : MonoBehaviour
     public void EndPlatformMoviment()
     {
         _pc.IncreaseExternalVelocity(Vector2.zero);
-        _exitTimer = 0f;
-        _startCounting = false;
-        _pc = null;
     }
 
     public void StartPlatformMoviment()

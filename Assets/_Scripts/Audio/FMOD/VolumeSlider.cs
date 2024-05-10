@@ -36,9 +36,9 @@ public class VolumeSlider : MonoBehaviour
             case VolumeType.AMBIENCE:
                 _volumeSlider.value = FMODAudioManager.Instance.ambienceVolume;
                 break;
-            case VolumeType.FOLEY:
-                _volumeSlider.value = FMODAudioManager.Instance.foleyVolume;
-                break;
+            //case VolumeType.FOLEY:
+            //    _volumeSlider.value = FMODAudioManager.Instance.foleyVolume;
+            //    break;
             case VolumeType.MUSIC:
                 _volumeSlider.value = FMODAudioManager.Instance.musicVolume;
                 break;
@@ -67,9 +67,9 @@ public class VolumeSlider : MonoBehaviour
             case VolumeType.AMBIENCE:
                 FMODAudioManager.Instance.ambienceVolume = _volumeSlider.value;
                 break;
-            case VolumeType.FOLEY:
-                FMODAudioManager.Instance.foleyVolume = _volumeSlider.value;
-                break;
+            //case VolumeType.FOLEY:
+            //    FMODAudioManager.Instance.foleyVolume = _volumeSlider.value;
+            //    break;
             case VolumeType.MUSIC:
                 FMODAudioManager.Instance.musicVolume = _volumeSlider.value;
                 break;

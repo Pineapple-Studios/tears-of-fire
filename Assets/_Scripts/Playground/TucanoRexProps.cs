@@ -9,6 +9,10 @@ public class TucanoRexProps : MonoBehaviour
     [SerializeField]
     private LayerMask _playerLayer;
 
+    [Header("Feedbacks")]
+    [SerializeField]
+    private VFXPuff _puff;
+
     [Header("Setup")]
     [SerializeField]
     private Animator _gamePlayAnimController;
@@ -112,6 +116,7 @@ public class TucanoRexProps : MonoBehaviour
         _isReceivingDamage = true;
         _feedbackAnimController.SetBool("isDamaged", true);
         _life -= damage;
+        if (_puff != null) _puff.PlayPuff();
 
         if (RumbleManager.instance != null) RumbleManager.instance.RumbleBossDamage();
     }

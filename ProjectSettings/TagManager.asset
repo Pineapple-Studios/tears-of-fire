@@ -9,6 +9,7 @@ TagManager:
   - PuzzleElement
   - NPC
   - NextLevel
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - MagneticHook
   - VFX
   - PostProcessing
-  - 
+  - Platform
   - 
   - 
   - 

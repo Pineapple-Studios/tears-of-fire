@@ -213,6 +213,12 @@ MonoBehaviour:
   _magneticHookMask:
     serializedVersion: 2
     m_Bits: 1024
+  _colliderOffset: {x: 0, y: 0, z: 0}
+  _distanceToGround: 1.2
+  _platformMask:
+    serializedVersion: 2
+    m_Bits: 64
+  _tag: Platform
 --- !u!114 &4240762641039968727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 68879158681924596}
   AttackPoint: {fileID: 7639587385293568735}
-  _distanceToPlayer: 4
+  _distanceToPlayer: {x: 4, y: 1.5}
   _enemyLayer:
     serializedVersion: 2
     m_Bits: 128

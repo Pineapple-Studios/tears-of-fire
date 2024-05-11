@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerPuzzleHandler : MonoBehaviour
 {
@@ -16,13 +12,11 @@ public class PlayerPuzzleHandler : MonoBehaviour
     private float _distanceToGround = 2f;
     [SerializeField]
     private LayerMask _platformMask;
-    [SerializeField]
-    private string _tag;
-
 
     private Transform _attackPoint;
     private float _attackRange;
     private bool _isOnPlatform;
+    private RaycastHit2D _rd2D;
 
     private PlayerCombat _pc;
     private PlayerInputHandler _pih;
@@ -52,7 +46,7 @@ public class PlayerPuzzleHandler : MonoBehaviour
     {
         if (_pih != null)
         {
-            _pih.KeyAttackUp += CheckAllPuzzles;
+            _pih.KeyAttackDown += CheckAllPuzzles;
         }
     }
 
@@ -60,33 +54,26 @@ public class PlayerPuzzleHandler : MonoBehaviour
     {
         if (_pih != null)
         {
-            _pih.KeyAttackUp -= CheckAllPuzzles;
+            _pih.KeyAttackDown -= CheckAllPuzzles;
         }
     }
 
     private void CheckAllPuzzles()
     {
-        CheckPuzzleElements();
         CheckMagneticHitElement();
     }
 
     private void Update()
     {
-        RaycastHit2D rd = 
-            Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _distanceToGround, _platformMask);
-        _isOnPlatform = rd.collider != null && rd.collider.gameObject.tag == _tag;
-    }
-
-    private void CheckPuzzleElements()
-    {
-        Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange);
-
-        // Executar puzzle
-        foreach (Collider2D block in hitBlocks)
-        {
-            MagneticPuzzle mp = block.gameObject.GetComponentInParent<MagneticPuzzle>();
-            if (mp != null) mp.GoToNextPoint();
-        }
+        _rd2D = Physics2D.Raycast(
+            transform.position + _colliderOffset, 
+            Vector2.down, 
+            _distanceToGround, 
+            _platformMask
+        );
+        _isOnPlatform = _rd2D.collider != null;
+        
+        Debug.Log(transform.position + _colliderOffset);
     }
 
     /// <summary>

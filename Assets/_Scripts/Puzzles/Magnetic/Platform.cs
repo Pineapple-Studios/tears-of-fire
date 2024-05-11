@@ -1,14 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
     [SerializeField]
     private LayerMask _playerLayer;
-    [SerializeField]
-    private float _delayToIdentifyExit = 1f;
 
     public bool anim_isAnimating = false;
         
@@ -16,9 +11,6 @@ public class Platform : MonoBehaviour
     private PlayerPuzzleHandler _pph;
 
     private Vector3 _initialPos = Vector3.zero;
-    private float _exitTimer = 0f;
-    private bool _startCounting = false;
-    private bool _endMoviment = false;
 
     void Start()
     {

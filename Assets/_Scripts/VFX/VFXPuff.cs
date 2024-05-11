@@ -9,7 +9,7 @@ public class VFXPuff : MonoBehaviour
 
     public void PlayPuff()
     {
-        Debug.Log("PlayPuff");
+        //Debug.Log("PlayPuff");
         _bigPuff.Play();
         _littlePuff.Play();
     }

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BatWalkStart : MonoBehaviour, IWalkStart
 {
+    private const string DEATH_EVENT = "event:/Tutorial/Enemy/Bat/SFX_Death";
+
     private bool _isStarted = false;
 
     public void OnStartWalking()
@@ -26,4 +28,12 @@ public class BatWalkStart : MonoBehaviour, IWalkStart
         go.GetComponent<Collider2D>().enabled = true;
         _isStarted = false;
     }
+
+    public void PlayDeathSound()
+    {
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(DEATH_EVENT, this.transform.position);
+    }
+
+    public void PlayAttackSound() { }
 }

@@ -16,7 +16,12 @@ public class StartBoss : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            if (_groupHandler != null) _groupHandler.FirstInteractionActionDone();
+            if (_groupHandler != null)
+            {
+                _groupHandler.FirstInteractionActionDone();
+                _groupHandler.ActiveScenarioBlockers();
+            }
+
             _kwy.StartTucanoRex();
             gameObject.SetActive(false);
         }

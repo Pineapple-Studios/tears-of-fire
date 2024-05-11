@@ -86,7 +86,7 @@ public class Enemy : MonoBehaviour
             if (_pp == null) return;
 
             _isDamaging = true;
-            _ac.Play(ATTACK);
+            AttackFeedback();
 
             _pc.SetAttackEnemyPosition(transform.position);
             _pp.TakeDamage(_damageOnTouch);
@@ -98,6 +98,12 @@ public class Enemy : MonoBehaviour
         {
             Physics2D.IgnoreCollision(collision.collider, gameObject.GetComponent<Collider2D>());
         }
+    }
+
+    private void AttackFeedback()
+    {
+        _ws.PlayAttackSound();
+        _ac.Play(ATTACK);
     }
 
     private void Update()
@@ -145,6 +151,7 @@ public class Enemy : MonoBehaviour
         if (_life <= 0)
         {
             _col.enabled = false;
+            _ws.PlayDeathSound();
             _ac.Play(DEATH);
         }
         else

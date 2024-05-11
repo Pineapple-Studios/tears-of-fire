@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class JumperWalkStart : MonoBehaviour, IWalkStart
 {
+    private const string DEATH_EVENT = "event:/Tutorial/Enemy/Spider/SFX_Death";
+
+
     public void OnStartWalking()
     {
         
@@ -13,4 +16,12 @@ public class JumperWalkStart : MonoBehaviour, IWalkStart
     {
 
     }
+
+    public void PlayDeathSound()
+    {
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(DEATH_EVENT, this.transform.position);
+    }
+
+    public void PlayAttackSound() { }
 }

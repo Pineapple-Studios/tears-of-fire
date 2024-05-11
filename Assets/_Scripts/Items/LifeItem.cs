@@ -50,6 +50,8 @@ public class LifeItem : MonoBehaviour
     private void OnAnimationCannotGetLife()
     {
         _an.SetTrigger("OnFullLife");
-        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.denyLifeItem, this.transform.position);
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.denyLifeItem, this.transform.position);
+        CinemachineShakeManager.Instance.ShakeCamera(0.5f, 0.5f);
     }
 }

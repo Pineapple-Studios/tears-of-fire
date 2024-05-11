@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,22 @@ public class TargetHandler : MonoBehaviour
     private Animator _anim;
 
     private int _currentPos = 0;
+
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += OnRestart;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= OnRestart;
+    }
+
+    private void OnRestart()
+    {
+        _currentPos = 0;
+        gameObject.SetActive(false);
+    }
 
     public void Initiate()
     {

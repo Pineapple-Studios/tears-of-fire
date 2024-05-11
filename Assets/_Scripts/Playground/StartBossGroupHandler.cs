@@ -7,6 +7,9 @@ public class StartBossGroupHandler : MonoBehaviour
     [SerializeField]
     private StartBoss _second;
 
+    [SerializeField]
+    private GameObject _pathBlocker;
+
     private GameObject _firstGo;
     private GameObject _secondGo;
     private bool _hasFirstDone = false;
@@ -23,6 +26,7 @@ public class StartBossGroupHandler : MonoBehaviour
 
     private void Restart()
     {
+        _pathBlocker.SetActive(false);
         if (_hasFirstDone) FirstInteractionActionDone();
         else Initialize();
     }
@@ -46,5 +50,10 @@ public class StartBossGroupHandler : MonoBehaviour
         _hasFirstDone = true;
         _firstGo.SetActive(false);
         _secondGo.SetActive(true);
+    }
+
+    public void ActiveScenarioBlockers()
+    {
+        _pathBlocker.SetActive(true);
     }
 }

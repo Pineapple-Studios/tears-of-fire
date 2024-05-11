@@ -17,8 +17,8 @@ public class FMODAudioManager : MonoBehaviour
     [Range(0, 1)]
     public float ambienceVolume = 0.6f;
 
-    [Range(0, 1)]
-    public float foleyVolume = 0.6f;
+    //[Range(0, 1)]
+    //public float foleyVolume = 0.6f;
 
     [Range(0, 1)]
     public float musicVolume = 0.6f;
@@ -34,7 +34,7 @@ public class FMODAudioManager : MonoBehaviour
 
     private Bus _masterBus;
     private Bus _ambienceBus;
-    private Bus _foleyBus;
+    //private Bus _foleyBus;
     private Bus _musicBus;
     private Bus _sfxBus;
     private Bus _uiBus;
@@ -53,7 +53,7 @@ public class FMODAudioManager : MonoBehaviour
 
         _masterBus = RuntimeManager.GetBus("bus:/");
         _ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
-        _foleyBus = RuntimeManager.GetBus("bus:/Foley");
+        //_foleyBus = RuntimeManager.GetBus("bus:/Foley");
         _musicBus = RuntimeManager.GetBus("bus:/Music");
         _sfxBus = RuntimeManager.GetBus("bus:/SFX");
         _uiBus = RuntimeManager.GetBus("bus:/UI");
@@ -62,6 +62,7 @@ public class FMODAudioManager : MonoBehaviour
 
     private void Start()
     {
+        this.enabled = true;
         SetInitialValues();
     }
 
@@ -69,7 +70,7 @@ public class FMODAudioManager : MonoBehaviour
     {
         SaveVolumeToStorage(_masterBus, masterVolume, LocalStorage.GeneralMixerKey());
         SaveVolumeToStorage(_ambienceBus, ambienceVolume, LocalStorage.AmbienceMixerKey());
-        SaveVolumeToStorage(_foleyBus, foleyVolume, LocalStorage.FoleyMixerKey());
+        //SaveVolumeToStorage(_foleyBus, foleyVolume, LocalStorage.FoleyMixerKey());
         SaveVolumeToStorage(_musicBus, musicVolume, LocalStorage.MusicMixerKey());
         SaveVolumeToStorage(_sfxBus, sfxVolume, LocalStorage.SfxMixerKey());
         SaveVolumeToStorage(_uiBus, uiVolume, LocalStorage.UiMixerKey());
@@ -87,7 +88,7 @@ public class FMODAudioManager : MonoBehaviour
     {
         _masterBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
         _ambienceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.AmbienceMixerKey(), DEFAULT_VALUE));
-        _foleyBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.FoleyMixerKey(), DEFAULT_VALUE));
+        //_foleyBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.FoleyMixerKey(), DEFAULT_VALUE));
         _musicBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.MusicMixerKey(), DEFAULT_VALUE));
         _sfxBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.SfxMixerKey(), DEFAULT_VALUE));
         _uiBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.UiMixerKey(), DEFAULT_VALUE));

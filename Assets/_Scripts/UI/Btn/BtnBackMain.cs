@@ -38,13 +38,14 @@ public class BtnBackMain : MonoBehaviour
         //PlayerPrefs.SetString("@tof/SceneName", SceneName);
         //transition.Play("clip_home");
 
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneName);
+
         Destroy(FeedbackAndDebugManager.Instance.gameObject);
         Destroy(LevelDataManager.Instance.gameObject);
         Destroy(FMODAudioManager.Instance.gameObject);
         Destroy(CinemachineShakeManager.Instance.gameObject);
         Destroy(ScenarioColorManager.Instance.gameObject);
 
-        Time.timeScale = 1;
-        SceneManager.LoadScene(SceneName);
     }
 }

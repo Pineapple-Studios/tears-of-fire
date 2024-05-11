@@ -1,9 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WormWalkStart : MonoBehaviour, IWalkStart
 {
+    private const string DEATH_EVENT = "event:/Tutorial/Enemy/Crawler/SFX_Death";
+    private const string ATTACK_EVENT = "event:/Tutorial/Enemy/Crawler/SFX_Atk";
+
     [SerializeField]
     private float _delayToStartWalking = 0.5f;
 
@@ -24,5 +26,17 @@ public class WormWalkStart : MonoBehaviour, IWalkStart
     public void ResetWalk()
     {
         _isStarted = false;
+    }
+
+    public void PlayDeathSound()
+    {
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(DEATH_EVENT, this.transform.position);
+    }
+
+    public void PlayAttackSound()
+    {
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(ATTACK_EVENT, this.transform.position);
     }
 }

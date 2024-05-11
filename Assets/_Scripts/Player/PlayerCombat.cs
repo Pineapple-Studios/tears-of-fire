@@ -169,6 +169,7 @@ public class PlayerCombat : MonoBehaviour
             if (e != null)
             {
                 e.TakeDamage(_pp.GetCurrentDamage());
+                _pp.HitFreezeOnAttackEnemy();
                 if (_attackDirection.y < 0 && !_pc.IsOnGound()) KnockbackToDirection(Vector2.up);
             }
         }
@@ -236,13 +237,5 @@ public class PlayerCombat : MonoBehaviour
         _rb.velocity = Vector2.zero;
         _rb.gravityScale = _pc.GetGravityToKnockback();
         _rb.AddForce(direction.normalized * _knockbackHitForce, ForceMode2D.Impulse);
-    }
-
-    private void StopAttackWhenFlip()
-    {
-        IsAttacking = false;
-        _shouldEnemyReceiveAttack = false;
-        _indulgenceTimer = 0;
-        _shouldEnemyReceiveAttack = false;
     }
 }

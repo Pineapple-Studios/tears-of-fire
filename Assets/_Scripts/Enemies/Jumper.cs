@@ -198,6 +198,7 @@ public class Jumper : MonoBehaviour
     {
         if (!_isGrounded) return;
 
+        FeedbackSoundJump();
         _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
     }
 
@@ -215,4 +216,21 @@ public class Jumper : MonoBehaviour
         _jumpTimeCounter = 0;
         _rb.velocity = Vector2.zero;
     }
+
+    #region Sounds
+    private const string JUMP_EVENT = "event:/Tutorial/Enemy/Spider/SFX_Jump";
+    private const string FALL_EVENT = "event:/Tutorial/Enemy/Spider/SFX_Queda";
+
+    private void FeedbackSoundJump()
+    {
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(JUMP_EVENT, this.transform.position);
+    }
+
+    private void FeedbackSoundFall()
+    {
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(FALL_EVENT, this.transform.position);
+    }
+    #endregion
 }

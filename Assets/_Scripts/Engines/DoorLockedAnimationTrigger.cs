@@ -15,5 +15,6 @@ public class DoorLockedAnimationTrigger : MonoBehaviour
     {
         _sceneKey.SetActive(true);
         CinemachineShakeManager.Instance.ShakeCamera(2, 2);
+        RumbleManager.instance.RumbleOpenDoor();
     }
 }

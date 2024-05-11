@@ -151,6 +151,7 @@ public class PlayerProps : MonoBehaviour
     private void FreezingFeedback()
     {
         if (_isFreezing) return;
+        StopAllCoroutines();
         _isFreezing = true;
         StartCoroutine(HitPauseCoroutine());
     }
@@ -197,4 +198,20 @@ public class PlayerProps : MonoBehaviour
     }
 
     public float GetCurrentMaxLife() => _maxLife;
+
+    public void HitFreezeOnAttackEnemy()
+    {
+        StartCoroutine(HitFreezeOnAttackEnemyCoroutine());
+    }
+
+    private IEnumerator HitFreezeOnAttackEnemyCoroutine()
+    {
+        float originalTimeScale = Time.timeScale;
+        Time.timeScale = 0;
+
+        yield return new WaitForSecondsRealtime(0.05f);
+
+        Time.timeScale = originalTimeScale;
+        _isFreezing = false;
+    }
 }

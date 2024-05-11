@@ -62,6 +62,11 @@ public class RumbleManager : MonoBehaviour
         RumblePulse(1f, 2f, 0.5f, true);
     }
 
+    public void RumbleOpenDoor()
+    {
+        RumblePulse(1f, 2f, 2f, true);
+    }
+
     private IEnumerator StopRumble(float duration, Gamepad pad)
     {
         float elapsedTime = 0f;

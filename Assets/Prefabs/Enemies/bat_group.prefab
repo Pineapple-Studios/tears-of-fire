@@ -350,7 +350,7 @@ MonoBehaviour:
   _rangeToBullet: 20
   _targetComponent: Player
   _reloadTime: 2
-  _bulletPrefab: {fileID: 173585051193226979, guid: 5293dca7919850a429a093367d63d5fd, type: 3}
+  _bulletPrefab: {fileID: 7173493855992279500, guid: 5293dca7919850a429a093367d63d5fd, type: 3}
   _bulletTarget:
     serializedVersion: 2
     m_Bits: 8

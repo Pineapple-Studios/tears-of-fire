@@ -72,8 +72,6 @@ public class PlayerPuzzleHandler : MonoBehaviour
             _platformMask
         );
         _isOnPlatform = _rd2D.collider != null;
-        
-        Debug.Log(transform.position + _colliderOffset);
     }
 
     /// <summary>
@@ -81,6 +79,8 @@ public class PlayerPuzzleHandler : MonoBehaviour
     /// </summary>
     private void CheckMagneticHitElement()
     {
+        if (!_isOnPlatform) return;
+
         Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange);
 
         // Executar puzzle

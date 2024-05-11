@@ -8,26 +8,19 @@ public class Platform : MonoBehaviour
     public bool anim_isAnimating = false;
         
     private PlayerController _pc;
-    private PlayerPuzzleHandler _pph;
 
     private Vector3 _initialPos = Vector3.zero;
+    private bool isApplingForce = false;
 
     void Start()
     {
-        _pph = FindAnyObjectByType<PlayerPuzzleHandler>();
         _pc = FindAnyObjectByType<PlayerController>();
         _initialPos = transform.position;
     }
 
     private void Update()
     {
-        if (!_pph.IsInPlatform())
-        {
-            _pc.IncreaseExternalVelocity(Vector2.zero);
-            return;
-        }
-
-        UpdateVelocity();
+        if (isApplingForce) UpdateVelocity();
     }
 
     private void UpdateVelocity()
@@ -47,11 +40,12 @@ public class Platform : MonoBehaviour
     /// </summary>
     public void EndPlatformMoviment()
     {
+        isApplingForce = false;
         _pc.IncreaseExternalVelocity(Vector2.zero);
     }
 
     public void StartPlatformMoviment()
     {
-        
+        isApplingForce = true;
     }
 }

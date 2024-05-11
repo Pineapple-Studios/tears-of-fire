@@ -116,4 +116,6 @@ public class NPC : MonoBehaviour
         _isConversationStarted = false;
         if (_shouldNotifyOnFinish) FinishNPCDialog(this);
     }
+
+    public bool IsConversationStarted() => _isConversationStarted;
 }

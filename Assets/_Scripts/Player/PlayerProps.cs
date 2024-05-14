@@ -120,7 +120,7 @@ public class PlayerProps : MonoBehaviour
         if (_life == _maxLife) return;
 
         _life += amount;
-        Debug.Log($"Heal to {_life}");
+        // Debug.Log($"Heal to {_life}");
         onChangePlayerLife(_life);
     }
 
@@ -140,7 +140,7 @@ public class PlayerProps : MonoBehaviour
     {
         if (_life <= 0 && !_isDead)
         {
-            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.death, this.transform.position);
+            if (FMODAudioManager.Instance != null) FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.death, this.transform.position);
             IsTakingDamage = false;
             _isDead = true;
             onPlayerDead(gameObject.transform.parent.gameObject);
@@ -151,7 +151,6 @@ public class PlayerProps : MonoBehaviour
     private void FreezingFeedback()
     {
         if (_isFreezing) return;
-        StopAllCoroutines();
         _isFreezing = true;
         StartCoroutine(HitPauseCoroutine());
     }
@@ -198,20 +197,4 @@ public class PlayerProps : MonoBehaviour
     }
 
     public float GetCurrentMaxLife() => _maxLife;
-
-    public void HitFreezeOnAttackEnemy()
-    {
-        StartCoroutine(HitFreezeOnAttackEnemyCoroutine());
-    }
-
-    private IEnumerator HitFreezeOnAttackEnemyCoroutine()
-    {
-        float originalTimeScale = Time.timeScale;
-        Time.timeScale = 0;
-
-        yield return new WaitForSecondsRealtime(0.05f);
-
-        Time.timeScale = originalTimeScale;
-        _isFreezing = false;
-    }
 }

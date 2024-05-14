@@ -169,7 +169,6 @@ public class PlayerCombat : MonoBehaviour
             if (e != null)
             {
                 e.TakeDamage(_pp.GetCurrentDamage());
-                _pp.HitFreezeOnAttackEnemy();
                 if (_attackDirection.y < 0 && !_pc.IsOnGound()) KnockbackToDirection(Vector2.up);
             }
         }

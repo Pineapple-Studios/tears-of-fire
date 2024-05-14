@@ -71,6 +71,8 @@ public class MagneticHandler : MonoBehaviour
     }
     
     public void OnNextStep() {
+        _platform.OnStartMovementByTrigger();
+
         int step = GetCurrentStep();
         if (step >= _totalSteps || _platform.anim_isAnimating) return;
 
@@ -79,6 +81,8 @@ public class MagneticHandler : MonoBehaviour
     }
 
     public void OnPreviousStep() {
+        _platform.OnStartMovementByTrigger();
+
         int step = GetCurrentStep();
         if (step == 0 || _platform.anim_isAnimating) return;
 

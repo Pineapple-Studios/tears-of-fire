@@ -408,6 +408,7 @@ MonoBehaviour:
   _goToScreenButton: {fileID: 6988780534360160357}
   transition: {fileID: 0}
   canvas: {fileID: 0}
+  Actions: {fileID: 0}
 --- !u!1 &4098638571082189732
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +896,7 @@ MonoBehaviour:
   _goToScreenButton: {fileID: 5045870352805521705}
   transition: {fileID: 0}
   canvas: {fileID: 0}
+  Actions: {fileID: 0}
 --- !u!1 &7346795252612125323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,7 +1057,7 @@ PrefabInstance:
       objectReference: {fileID: 1705043086464029124}
     - target: {fileID: 2536324892518281150, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Navigation.m_Mode
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2536324892518281150, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
@@ -1074,6 +1076,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2536324892518281150, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+      propertyPath: m_Navigation.m_SelectOnUp
+      value: 
+      objectReference: {fileID: 6988780534360160357}
+    - target: {fileID: 2536324892518281150, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Colors.m_SelectedColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -1085,6 +1091,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_SelectedColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2536324892518281150, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
+      propertyPath: m_Navigation.m_SelectOnRight
+      value: 
+      objectReference: {fileID: 6988780534360160357}
     - target: {fileID: 2536324892518281150, guid: 096178397586d3d4797ef7a14113ef9e, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
       value: 1

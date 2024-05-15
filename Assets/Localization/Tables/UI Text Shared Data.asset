@@ -148,7 +148,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 27187173545906176
-    m_Key: p
+    m_Key: t
     m_Metadata:
       m_Items: []
   - m_Id: 27190080370544640
@@ -173,6 +173,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 31474754211188736
     m_Key: brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34492456521601024
+    m_Key: lblAdjust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34496218027954176
+    m_Key: helper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34795816969736192
+    m_Key: testers
     m_Metadata:
       m_Items: []
   m_Metadata:

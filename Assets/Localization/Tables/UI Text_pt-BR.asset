@@ -176,6 +176,18 @@ MonoBehaviour:
     m_Localized: Ajuste seu brilho de tela
     m_Metadata:
       m_Items: []
+  - m_Id: 34492456521601024
+    m_Localized: "Ajuste at\xE9 que o s\xEDmbolo fique quase inv\xEDsivel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34496218027954176
+    m_Localized: Pressione          para confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34795816969736192
+    m_Localized: Testadores
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

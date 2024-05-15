@@ -176,6 +176,18 @@ MonoBehaviour:
     m_Localized: ADJUST YOUR BRIGHTNESS
     m_Metadata:
       m_Items: []
+  - m_Id: 34492456521601024
+    m_Localized: Adjust until the symbol is almost invisible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34496218027954176
+    m_Localized: Press          to confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34795816969736192
+    m_Localized: Testers
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

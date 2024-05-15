@@ -17,6 +17,8 @@ public class MainMenuAnimationController : MonoBehaviour
     private const string FROM_SETTINGS_TO_AUDIO = "OnSettingsToAudio";
     private const string FROM_AUDIO_TO_SETTINGS = "OnAudioToSettings";
     private const string FROM_EXTRAS_TO_HOME = "OnExtrasToHome";
+    private const string FROM_EXTRAS_TO_TESTERS = "OnExtrasToTester";
+    private const string FROM_TESTERS_TO_EXTRAS = "OnTesterToExtras";
     private const string FROM_CONTROLS_TO_HOME = "OnControlsToHome";
     private const string FROM_SETTINGS_TO_LANGUAGE = "OnSettingsToLanguage";
     private const string FROM_LANGUAGE_TO_SETTINGS = "OnLanguageToSettings";
@@ -29,6 +31,8 @@ public class MainMenuAnimationController : MonoBehaviour
     [SerializeField] GameObject btnPT;
     [SerializeField] GameObject btnBackControls;
     [SerializeField] GameObject btnBackExtra;
+    [SerializeField] GameObject btnTesters;
+    [SerializeField] GameObject btnDevs;
 
     GameObject goSelect;
 
@@ -125,6 +129,20 @@ public class MainMenuAnimationController : MonoBehaviour
     {
         _an.SetTrigger(FROM_LANGUAGE_TO_SETTINGS);
         goSelect = btnAudio;
+        Invoke("ButtonSelect", 1);
+    }
+
+    public void GoFromExtrasToTester()
+    {
+        _an.SetTrigger(FROM_EXTRAS_TO_TESTERS);
+        goSelect = btnDevs;
+        Invoke("ButtonSelect", 1);
+    }
+
+    public void GoFromTesterToExtras()
+    {
+        _an.SetTrigger(FROM_TESTERS_TO_EXTRAS);
+        goSelect = btnTesters;
         Invoke("ButtonSelect", 1);
     }
 

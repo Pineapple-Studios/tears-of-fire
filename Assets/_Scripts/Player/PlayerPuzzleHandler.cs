@@ -79,15 +79,23 @@ public class PlayerPuzzleHandler : MonoBehaviour
     /// </summary>
     private void CheckMagneticHitElement()
     {
-        if (!_isOnPlatform) return;
-
         Collider2D[] hitBlocks = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange);
 
         // Executar puzzle
         foreach (Collider2D block in hitBlocks)
         {
             MagneticHitElement mp = block.gameObject.GetComponent<MagneticHitElement>();
-            if (mp != null) mp.OnNext();
+
+            if (mp != null)
+            {
+                if (!_isOnPlatform)
+                {
+                    FeedbackManagerHandler.Instance.NegativeFeedback();
+                    return;
+                }
+
+                mp.OnNext();
+            }
         }
     }
 

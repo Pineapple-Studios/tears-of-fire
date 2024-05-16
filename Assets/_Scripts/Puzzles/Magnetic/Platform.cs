@@ -12,6 +12,17 @@ public class Platform : MonoBehaviour
 
     private Vector3 _initialPos = Vector3.zero;
     private bool isApplingForce = false;
+    private bool isApplicable = false;
+
+    private void OnBecameVisible()
+    {
+        isApplicable = true;
+    }
+
+    private void OnBecameInvisible()
+    {
+        isApplicable = false;
+    }
 
     void Start()
     {
@@ -23,7 +34,7 @@ public class Platform : MonoBehaviour
     private void Update()
     {
         // Start
-        if (isApplingForce && _pph.IsInPlatform()) UpdateVelocity();
+        if (isApplicable && isApplingForce && _pph.IsInPlatform()) UpdateVelocity();
         // Stop
         if (isApplingForce && !_pph.IsInPlatform()) isApplingForce = false;
     }

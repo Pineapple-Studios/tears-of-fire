@@ -188,6 +188,14 @@ MonoBehaviour:
     m_Localized: Testers
     m_Metadata:
       m_Items: []
+  - m_Id: 35466604580343808
+    m_Localized: to confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35466706292215808
+    m_Localized: press
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

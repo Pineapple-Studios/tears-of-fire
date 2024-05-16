@@ -63,24 +63,30 @@ public class VolumeSlider : MonoBehaviour
         {
             case VolumeType.MASTER:
                 FMODAudioManager.Instance.masterVolume = _volumeSlider.value;
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             case VolumeType.AMBIENCE:
                 FMODAudioManager.Instance.ambienceVolume = _volumeSlider.value;
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             //case VolumeType.FOLEY:
             //    FMODAudioManager.Instance.foleyVolume = _volumeSlider.value;
             //    break;
             case VolumeType.MUSIC:
                 FMODAudioManager.Instance.musicVolume = _volumeSlider.value;
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             case VolumeType.SFX:
                 FMODAudioManager.Instance.sfxVolume = _volumeSlider.value;
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             case VolumeType.UI:
                 FMODAudioManager.Instance.uiVolume = _volumeSlider.value;
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             case VolumeType.VOICE:
                 FMODAudioManager.Instance.voiceVolume = _volumeSlider.value;
+                FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             default:
                 Debug.LogWarning("Volume type não suportado" + type);

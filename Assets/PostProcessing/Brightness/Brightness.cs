@@ -24,7 +24,7 @@ public class Brightness : MonoBehaviour
         float brightValueUpdated = this.OnChangeValue(brightValue);
         LocalStorage.SetBright(brightValueUpdated);
         brightnessSld.SetValueWithoutNotify(brightValue);
-        valueTxt.text = brightValueUpdated.ToString(@"0.0");
+        //valueTxt.text = brightValueUpdated.ToString(@"0.0");
     }
 
     public void AdjustBrightness(float value)
@@ -38,7 +38,7 @@ public class Brightness : MonoBehaviour
         {
             exposure.keyValue.value = 0.2f;
         }
-        valueTxt.text = value.ToString(@"0.0");
+        //valueTxt.text = value.ToString(@"0.0");
     }
 
     private float OnChangeValue(float value)
@@ -46,4 +46,6 @@ public class Brightness : MonoBehaviour
         exposure.keyValue.value = value;
         return value;
     }
+
+
 }

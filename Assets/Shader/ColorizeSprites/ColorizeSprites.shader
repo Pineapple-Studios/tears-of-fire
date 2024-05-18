@@ -27,7 +27,7 @@ Shader "Sprites/ColorizeSprites"
 			Cull Off
 			Lighting Off
 			ZWrite Off
-			Blend One OneMinusSrcAlpha
+			Blend SrcAlpha OneMinusSrcAlpha
 
 			CGPROGRAM
 			#pragma surface surf Lambert vertex:vert nolightmap nodynlightmap keepalpha noinstancing finalcolor:applyFog
@@ -54,7 +54,6 @@ Shader "Sprites/ColorizeSprites"
 				UNITY_INITIALIZE_OUTPUT(Input, o);
 
 				o.color = v.color * _Color * _RendererColor;
-				//o.fogCoord = UnityObjectToClipPos(v.vertex).z;
 				UNITY_TRANSFER_FOG(o, UnityObjectToClipPos(v.vertex));
 			}
 
@@ -67,15 +66,12 @@ Shader "Sprites/ColorizeSprites"
 
 			void applyFog(Input IN, SurfaceOutput o, inout fixed4 color)
 			{
-				// apply fog
 				UNITY_APPLY_FOG(IN.fogCoord, color.rgb);
-
-				color.rgb *= o.Alpha;
 			}
 
 
 			ENDCG
 		}
 
-			//Fallback "Transparent/VertexLit"
+		Fallback "Transparent/VertexLit"
 }

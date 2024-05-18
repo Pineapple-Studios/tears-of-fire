@@ -71,16 +71,28 @@ public class MagneticHandler : MonoBehaviour
     }
     
     public void OnNextStep() {
+        _platform.OnStartMovementByTrigger();
+
         int step = GetCurrentStep();
-        if (step >= _totalSteps || _platform.anim_isAnimating) return;
+        if (step >= _totalSteps || _platform.anim_isAnimating)
+        {
+            FeedbackManagerHandler.Instance.NegativeFeedback();
+            return;
+        }
 
         _timer = 0f;
         _platformAnimator.SetInteger(STEP_STATE_NAME, step + 1);
     }
 
     public void OnPreviousStep() {
+        _platform.OnStartMovementByTrigger();
+
         int step = GetCurrentStep();
-        if (step == 0 || _platform.anim_isAnimating) return;
+        if (step == 0 || _platform.anim_isAnimating)
+        {
+            FeedbackManagerHandler.Instance.NegativeFeedback();
+            return;
+        }
 
         _platformAnimator.SetInteger(STEP_STATE_NAME, step - 1);
     }

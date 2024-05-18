@@ -8,19 +8,35 @@ public class Platform : MonoBehaviour
     public bool anim_isAnimating = false;
         
     private PlayerController _pc;
+    private PlayerPuzzleHandler _pph;
 
     private Vector3 _initialPos = Vector3.zero;
     private bool isApplingForce = false;
+    private bool isApplicable = false;
+
+    private void OnBecameVisible()
+    {
+        isApplicable = true;
+    }
+
+    private void OnBecameInvisible()
+    {
+        isApplicable = false;
+    }
 
     void Start()
     {
         _pc = FindAnyObjectByType<PlayerController>();
+        _pph = FindAnyObjectByType<PlayerPuzzleHandler>();
         _initialPos = transform.position;
     }
 
     private void Update()
     {
-        if (isApplingForce) UpdateVelocity();
+        // Start
+        if (isApplicable && isApplingForce && _pph.IsInPlatform()) UpdateVelocity();
+        // Stop
+        if (isApplingForce && !_pph.IsInPlatform()) isApplingForce = false;
     }
 
     private void UpdateVelocity()
@@ -40,11 +56,18 @@ public class Platform : MonoBehaviour
     /// </summary>
     public void EndPlatformMoviment()
     {
-        isApplingForce = false;
         _pc.IncreaseExternalVelocity(Vector2.zero);
     }
 
     public void StartPlatformMoviment()
+    {
+        
+    }
+
+    /// <summary>
+    /// If player is in platform add force to player
+    /// </summary>
+    public void OnStartMovementByTrigger()
     {
         isApplingForce = true;
     }

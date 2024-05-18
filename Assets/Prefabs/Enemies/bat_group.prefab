@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1371684442047829694}
   - component: {fileID: 3119261515359109507}
   - component: {fileID: 2073988913773842335}
+  - component: {fileID: 400777315634978208}
   m_Layer: 7
   m_Name: Sprites
   m_TagString: Untagged
@@ -106,6 +107,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &400777315634978208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842568248645956264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa3089931c81a94bb13d51535021ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2045519039867693292
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +204,7 @@ MonoBehaviour:
   _life: 35
   _damageColldown: 1
   _col: {fileID: 7748598251754260364}
+  _puff: {fileID: 0}
 --- !u!114 &8455058681685143077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rangeToBullet: 20
   _targetComponent: Player
+  _anim: {fileID: 2073988913773842335}
   _reloadTime: 2
   _bulletPrefab: {fileID: 7173493855992279500, guid: 5293dca7919850a429a093367d63d5fd, type: 3}
   _bulletTarget:

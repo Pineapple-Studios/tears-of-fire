@@ -1,80 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8981950510819333103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/NPC/Voice_Kwy
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/NPC/Voice_Kwy
-  Guid:
-    Data1: 1472690888
-    Data2: 1138490416
-    Data3: 1905356214
-    Data4: -1442367699
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-8420140199389180468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../tof-sound-middleware/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638510403028694069
-  FileSizes:
-  - Name: Desktop
-    Value: 3302656
-  Exists: 1
---- !u!114 &-8083423156330746367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismStart
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismStart
-  Guid:
-    Data1: 85538531
-    Data2: 1252399707
-    Data3: -445467209
-    Data4: -1275424054
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7758854727100189144
+--- !u!114 &-9132002683676144041
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +19,7 @@ MonoBehaviour:
     Data3: -2068093053
     Data4: -45928917
   Banks:
-  - {fileID: -8420140199389180468}
+  - {fileID: -451307806154551115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -101,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
---- !u!114 &-7679757332396325478
+--- !u!114 &-9082667840935665459
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,928 +37,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Bat/SFX_Death
+  m_Name: event:/Tutorial/Boss/SFX_Steps
   m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Bat/SFX_Death
+  Path: event:/Tutorial/Boss/SFX_Steps
   Guid:
-    Data1: -1436478241
-    Data2: 1100747319
-    Data3: -2026106979
-    Data4: 1867005522
+    Data1: -883731669
+    Data2: 1084750155
+    Data3: -1735905903
+    Data4: -772552385
   Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 800
---- !u!114 &-7148747889964845378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/NPC/Voice_Yke
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/NPC/Voice_Yke
-  Guid:
-    Data1: 1111525837
-    Data2: 1092436869
-    Data3: 1121248160
-    Data4: -2104788770
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7001884409199719423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/NPC/Voice_Kwy
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/NPC/Voice_Kwy
-  Guid:
-    Data1: 1472690888
-    Data2: 1138490416
-    Data3: 1905356214
-    Data4: -1442367699
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5770941318122300715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Music_Tutorial/OST_BossFigth-Cave
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Music_Tutorial/OST_BossFigth-Cave
-  Guid:
-    Data1: 2031522192
-    Data2: 1145029049
-    Data3: 2051680899
-    Data4: 1764426739
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5420880640818305064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MainMenu/MUSIC_mainMenu
-  m_EditorClassIdentifier: 
-  Path: event:/MainMenu/MUSIC_mainMenu
-  Guid:
-    Data1: -886511447
-    Data2: 1306279306
-    Data3: 1022064540
-    Data4: -707577244
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 81818
---- !u!114 &-5330774852669037086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/NPC/Voice_Yxo
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/NPC/Voice_Yxo
-  Guid:
-    Data1: 1603409242
-    Data2: 1163479799
-    Data3: -1142008157
-    Data4: 2026974022
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5117088056840912734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismMov
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismMov
-  Guid:
-    Data1: 1364852862
-    Data2: 1104588947
-    Data3: -163747932
-    Data4: 1193751860
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4333848913373573525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Steps
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Steps
-  Guid:
-    Data1: -309723307
-    Data2: 1275302979
-    Data3: -624325222
-    Data4: -1501232357
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 340
---- !u!114 &-3469569719168014832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Dash
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Dash
-  Guid:
-    Data1: -568167393
-    Data2: 1109555953
-    Data3: -1609276245
-    Data4: -1706683636
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 450
---- !u!114 &-3467799302121733259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MainMenu/SFX_Negation
-  m_EditorClassIdentifier: 
-  Path: event:/MainMenu/SFX_Negation
-  Guid:
-    Data1: -803723041
-    Data2: 1327924175
-    Data3: -826573174
-    Data4: -660145889
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 210
---- !u!114 &-3265716682684674522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Spider/SFX_Jump
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Spider/SFX_Jump
-  Guid:
-    Data1: -888378059
-    Data2: 1093816047
-    Data3: -1124858206
-    Data4: -1433464457
-  Banks:
-  - {fileID: -8420140199389180468}
+  - {fileID: -451307806154551115}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 310
---- !u!114 &-2980174763885425709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/NPC/SFX_Text
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/NPC/SFX_Text
-  Guid:
-    Data1: 2076848186
-    Data2: 1203963246
-    Data3: 269179816
-    Data4: 556719492
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7000
---- !u!114 &-1231982438519156426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Bat/SFX_Fly
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Bat/SFX_Fly
-  Guid:
-    Data1: -774881761
-    Data2: 1246665255
-    Data3: 707010446
-    Data4: 581949922
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1023458804885698849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638510403028724073
-  FileSizes:
-  - Name: Desktop
-    Value: 3348
-  Exists: 1
---- !u!114 &-915055502589455541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Projetil
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Projetil
-  Guid:
-    Data1: -1703161349
-    Data2: 1336288905
-    Data3: 1608799899
-    Data4: 898343761
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-592215408815903794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MainMenu/SFX_GameStart
-  m_EditorClassIdentifier: 
-  Path: event:/MainMenu/SFX_GameStart
-  Guid:
-    Data1: -476200448
-    Data2: 1339066215
-    Data3: -928689488
-    Data4: 1460165323
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1750
---- !u!114 &-347947973463038633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Jump/SFX_Jump_Queda
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Jump/SFX_Jump_Queda
-  Guid:
-    Data1: -1466444065
-    Data2: 1077371315
-    Data3: -302048578
-    Data4: 1758445081
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 753
---- !u!114 &-275860329839738310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MainMenu/SFX_uiMove
-  m_EditorClassIdentifier: 
-  Path: event:/MainMenu/SFX_uiMove
-  Guid:
-    Data1: -2147236556
-    Data2: 1247379898
-    Data3: 623215755
-    Data4: -1453449455
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 42
---- !u!114 &-275083146658309947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismMov
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismMov
-  Guid:
-    Data1: 1364852862
-    Data2: 1104588947
-    Data3: -163747932
-    Data4: 1193751860
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-105775904546722998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Death/SFX_DeathWater
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Death/SFX_DeathWater
-  Guid:
-    Data1: 1567400869
-    Data2: 1171417580
-    Data3: -833333340
-    Data4: -2070193771
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2292
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -1023458804885698849}
-  - {fileID: -8420140199389180468}
-  EditorEvents:
-  - {fileID: -275860329839738310}
-  - {fileID: -5420880640818305064}
-  - {fileID: 3463141904496561287}
-  - {fileID: 21655246649258022}
-  - {fileID: 6552325663276385844}
-  - {fileID: -592215408815903794}
-  - {fileID: 8571066821154349265}
-  - {fileID: 8556040551364684367}
-  - {fileID: -1231982438519156426}
-  - {fileID: -3469569719168014832}
-  - {fileID: 1199419491619522216}
-  - {fileID: 8989793534305387407}
-  - {fileID: -3265716682684674522}
-  - {fileID: -2980174763885425709}
-  - {fileID: -5330774852669037086}
-  - {fileID: 5312556382708415784}
-  - {fileID: 8591174940502691765}
-  - {fileID: 8372947285326117394}
-  - {fileID: 7457507456394762657}
-  - {fileID: 6620881537829102394}
-  - {fileID: -5117088056840912734}
-  - {fileID: 5499836524454878012}
-  - {fileID: -7758854727100189144}
-  - {fileID: 2201425038649060946}
-  - {fileID: -7001884409199719423}
-  - {fileID: 7553877524991454180}
-  - {fileID: -7148747889964845378}
-  - {fileID: 1759680989250307453}
-  - {fileID: 7173870104619765562}
-  - {fileID: -7679757332396325478}
-  - {fileID: -8083423156330746367}
-  - {fileID: 8792759615278055031}
-  - {fileID: -915055502589455541}
-  - {fileID: -4333848913373573525}
-  - {fileID: 6928314286114811303}
-  - {fileID: 508164741428765949}
-  - {fileID: 2382041633056091722}
-  - {fileID: 4655101889772083644}
-  - {fileID: -105775904546722998}
-  - {fileID: 8582375681843337782}
-  - {fileID: -347947973463038633}
-  - {fileID: 4536895726015441010}
-  - {fileID: 217484690512080850}
-  - {fileID: -5770941318122300715}
-  - {fileID: 7515805386186295786}
-  - {fileID: 588465709403333732}
-  - {fileID: 2423285128933331538}
-  - {fileID: -3467799302121733259}
-  - {fileID: 3573124569569023378}
-  - {fileID: 5752984051606152077}
-  - {fileID: 8718386258955579917}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -8420140199389180468}
-  StringsBanks:
-  - {fileID: -1023458804885698849}
-  cacheTime: 638510403028724073
-  cacheVersion: 131616
---- !u!114 &21655246649258022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_StartBattle
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_StartBattle
-  Guid:
-    Data1: 188165740
-    Data2: 1261971458
-    Data3: 1059977908
-    Data4: -105382732
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2200
---- !u!114 &217484690512080850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/SFX_PowerUp_Transition
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/SFX_PowerUp_Transition
-  Guid:
-    Data1: -2005339631
-    Data2: 1174401451
-    Data3: 724507047
-    Data4: 1663596485
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3600
---- !u!114 &508164741428765949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_DashRoar
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_DashRoar
-  Guid:
-    Data1: 887195497
-    Data2: 1116875677
-    Data3: 870249885
-    Data4: 495284664
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1100
---- !u!114 &588465709403333732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Videos/Logo_Pineapple
-  m_EditorClassIdentifier: 
-  Path: event:/Videos/Logo_Pineapple
-  Guid:
-    Data1: 507453858
-    Data2: 1155175857
-    Data3: -451737715
-    Data4: -395556400
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3000
---- !u!114 &1199419491619522216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/NPC/Voice_Oce
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/NPC/Voice_Oce
-  Guid:
-    Data1: -254323936
-    Data2: 1338997970
-    Data3: 1376839319
-    Data4: -19275998
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &1759680989250307453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Hit
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Hit
-  Guid:
-    Data1: 1086662608
-    Data2: 1209797339
-    Data3: 1318573958
-    Data4: 1342371574
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &2201425038649060946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Stamp
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Stamp
-  Guid:
-    Data1: -527895865
-    Data2: 1114565215
-    Data3: -1959904074
-    Data4: -162530275
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &2382041633056091722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Jump/SFX_Jump
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Jump/SFX_Jump
-  Guid:
-    Data1: 182069122
-    Data2: 1123652826
-    Data3: -46413161
-    Data4: 1387516164
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 500
---- !u!114 &2423285128933331538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/SFX_PowerUp_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/SFX_PowerUp_Loop
-  Guid:
-    Data1: -1050049840
-    Data2: 1304078368
-    Data3: 519696047
-    Data4: 1816872767
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 27500
---- !u!114 &3463141904496561287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/SFX_Checkpoint
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/SFX_Checkpoint
-  Guid:
-    Data1: -613830647
-    Data2: 1204382955
-    Data3: 1253366698
-    Data4: 314382718
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 23000
---- !u!114 &3573124569569023378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MainMenu/SFX_Confirm
-  m_EditorClassIdentifier: 
-  Path: event:/MainMenu/SFX_Confirm
-  Guid:
-    Data1: -1688060705
-    Data2: 1192565119
-    Data3: 1019843485
-    Data4: 309638963
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 290
---- !u!114 &4536895726015441010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_C
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_C
-  Guid:
-    Data1: 932328679
-    Data2: 1110265429
-    Data3: 703049146
-    Data4: -434810172
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 790
---- !u!114 &4655101889772083644
+  Length: 560
+--- !u!114 &-7624296259814478316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1051,7 +73,7 @@ MonoBehaviour:
     Data3: 1716465291
     Data4: -1375112946
   Banks:
-  - {fileID: -8420140199389180468}
+  - {fileID: -451307806154551115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1059,142 +81,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2366
---- !u!114 &5312556382708415784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Crawler/SFX_Atk
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Crawler/SFX_Atk
-  Guid:
-    Data1: 1094957406
-    Data2: 1140561978
-    Data3: 1208562864
-    Data4: -150203053
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 400
---- !u!114 &5499836524454878012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_destroy
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_destroy
-  Guid:
-    Data1: -417522260
-    Data2: 1192648978
-    Data3: -2138466408
-    Data4: 2111180415
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2740
---- !u!114 &5752984051606152077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Atk/SFX_Atk
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Atk/SFX_Atk
-  Guid:
-    Data1: 2011589414
-    Data2: 1112312533
-    Data3: -61356397
-    Data4: -1986279657
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 740
---- !u!114 &6552325663276385844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Hit
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Hit
-  Guid:
-    Data1: -662167865
-    Data2: 1189278802
-    Data3: 1056504740
-    Data4: -1071039210
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 600
---- !u!114 &6620881537829102394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_RockFall
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_RockFall
-  Guid:
-    Data1: -1082180999
-    Data2: 1183135358
-    Data3: -1119114837
-    Data4: -1645965159
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &6928314286114811303
+--- !u!114 &-7363220588079900408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1213,7 +100,7 @@ MonoBehaviour:
     Data3: 1836422291
     Data4: 1433559328
   Banks:
-  - {fileID: -8420140199389180468}
+  - {fileID: -451307806154551115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1221,304 +108,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 520
---- !u!114 &7173870104619765562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Spider/SFX_Death
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Spider/SFX_Death
-  Guid:
-    Data1: 1263718357
-    Data2: 1332629377
-    Data3: -1762502501
-    Data4: -1659817120
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &7457507456394762657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Bat/SFX_Atk
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Bat/SFX_Atk
-  Guid:
-    Data1: 628023402
-    Data2: 1122072296
-    Data3: -936230984
-    Data4: -1749050479
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &7515805386186295786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Music_Tutorial/OST_Ambience-Cave
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Music_Tutorial/OST_Ambience-Cave
-  Guid:
-    Data1: 1139283869
-    Data2: 1287063919
-    Data3: -1581331315
-    Data4: -1465368045
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 49090
---- !u!114 &7553877524991454180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MainMenu/SFX_Slider
-  m_EditorClassIdentifier: 
-  Path: event:/MainMenu/SFX_Slider
-  Guid:
-    Data1: 1745206220
-    Data2: 1181709211
-    Data3: -411810626
-    Data4: 1087161232
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 29
---- !u!114 &8372947285326117394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_hit
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_hit
-  Guid:
-    Data1: 907752554
-    Data2: 1299290847
-    Data3: -729277559
-    Data4: 1054692229
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 400
---- !u!114 &8556040551364684367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Death
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Death
-  Guid:
-    Data1: 1543463965
-    Data2: 1245777523
-    Data3: -404498026
-    Data4: -754227649
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8571066821154349265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Crawler/SFX_Walk
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Crawler/SFX_Walk
-  Guid:
-    Data1: -1435237118
-    Data2: 1291667256
-    Data3: -21974139
-    Data4: 218120206
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8582375681843337782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_A
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_A
-  Guid:
-    Data1: 1901758420
-    Data2: 1155272463
-    Data3: 944867255
-    Data4: -507037154
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 575
---- !u!114 &8591174940502691765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Crawler/SFX_Death
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Crawler/SFX_Death
-  Guid:
-    Data1: -1407785631
-    Data2: 1197307017
-    Data3: -34608742
-    Data4: 1897648991
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 600
---- !u!114 &8718386258955579917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Spider/SFX_Queda
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Spider/SFX_Queda
-  Guid:
-    Data1: -1861566956
-    Data2: 1116624844
-    Data3: -1231111748
-    Data4: 762642724
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 162
---- !u!114 &8792759615278055031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/LifeItem/SFX_LifeItem_Catch
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/LifeItem/SFX_LifeItem_Catch
-  Guid:
-    Data1: 1118601703
-    Data2: 1124060007
-    Data3: 1497296526
-    Data4: 998758726
-  Banks:
-  - {fileID: -8420140199389180468}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &8989793534305387407
+--- !u!114 &-7354622314767316346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1537,11 +127,1395 @@ MonoBehaviour:
     Data3: -245244231
     Data4: -1669830282
   Banks:
-  - {fileID: -8420140199389180468}
+  - {fileID: -451307806154551115}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 180
+--- !u!114 &-6714693609638591575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/SFX_GameStart
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/SFX_GameStart
+  Guid:
+    Data1: -476200448
+    Data2: 1339066215
+    Data3: -928689488
+    Data4: 1460165323
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1750
+--- !u!114 &-5655878152173968008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/NPC/SFX_Text
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/NPC/SFX_Text
+  Guid:
+    Data1: 2076848186
+    Data2: 1203963246
+    Data3: 269179816
+    Data4: 556719492
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7000
+--- !u!114 &-5388983835846033744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/SFX_PowerUp_Transition
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/SFX_PowerUp_Transition
+  Guid:
+    Data1: -2005339631
+    Data2: 1174401451
+    Data3: 724507047
+    Data4: 1663596485
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3600
+--- !u!114 &-5276313887759896487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/LifeItem/SFX_LifeItem_Catch
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/LifeItem/SFX_LifeItem_Catch
+  Guid:
+    Data1: 1118601703
+    Data2: 1124060007
+    Data3: 1497296526
+    Data4: 998758726
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
   Length: 1000
+--- !u!114 &-5093201207496219897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/NPC/Voice_Yxo
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/NPC/Voice_Yxo
+  Guid:
+    Data1: 1603409242
+    Data2: 1163479799
+    Data3: -1142008157
+    Data4: 2026974022
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4948155756092147781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_Projetil
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_Projetil
+  Guid:
+    Data1: -1703161349
+    Data2: 1336288905
+    Data3: 1608799899
+    Data4: 898343761
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4572068197348699499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/SFX_Negation
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/SFX_Negation
+  Guid:
+    Data1: -803723041
+    Data2: 1327924175
+    Data3: -826573174
+    Data4: -660145889
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 210
+--- !u!114 &-4382158840599968897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Bat/SFX_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Bat/SFX_Death
+  Guid:
+    Data1: -1436478241
+    Data2: 1100747319
+    Data3: -2026106979
+    Data4: 1867005522
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-4311689424311033396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Spider/SFX_Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Spider/SFX_Jump
+  Guid:
+    Data1: -888378059
+    Data2: 1093816047
+    Data3: -1124858206
+    Data4: -1433464457
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 310
+--- !u!114 &-4053649650605001728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_RockFall
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_RockFall
+  Guid:
+    Data1: -1082180999
+    Data2: 1183135358
+    Data3: -1119114837
+    Data4: -1645965159
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3079705033343453938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Music_Tutorial/OST_BossFigth-Cave
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Music_Tutorial/OST_BossFigth-Cave
+  Guid:
+    Data1: 2031522192
+    Data2: 1145029049
+    Data3: 2051680899
+    Data4: 1764426739
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2987881648672089566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Atk/SFX_Atk
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Atk/SFX_Atk
+  Guid:
+    Data1: 2011589414
+    Data2: 1112312533
+    Data3: -61356397
+    Data4: -1986279657
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 740
+--- !u!114 &-2947886157856922128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/NPC/Voice_Yke
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/NPC/Voice_Yke
+  Guid:
+    Data1: 1111525837
+    Data2: 1092436869
+    Data3: 1121248160
+    Data4: -2104788770
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2558114200591408636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_hit
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_hit
+  Guid:
+    Data1: 907752554
+    Data2: 1299290847
+    Data3: -729277559
+    Data4: 1054692229
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-2505050146100683392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Crawler/SFX_Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Crawler/SFX_Walk
+  Guid:
+    Data1: -1435237118
+    Data2: 1291667256
+    Data3: -21974139
+    Data4: 218120206
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2388059804299702391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_Hit
+  Guid:
+    Data1: 1086662608
+    Data2: 1209797339
+    Data3: 1318573958
+    Data4: 1342371574
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-2304574825013609860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Dash
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Dash
+  Guid:
+    Data1: -568167393
+    Data2: 1109555953
+    Data3: -1609276245
+    Data4: -1706683636
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 450
+--- !u!114 &-1648078883561382213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Bat/SFX_Fly
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Bat/SFX_Fly
+  Guid:
+    Data1: -774881761
+    Data2: 1246665255
+    Data3: 707010446
+    Data4: 581949922
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1218153752587956940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Bat/SFX_Atk
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Bat/SFX_Atk
+  Guid:
+    Data1: 628023402
+    Data2: 1122072296
+    Data3: -936230984
+    Data4: -1749050479
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-571837732183616998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/SFX_Slider
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/SFX_Slider
+  Guid:
+    Data1: 1745206220
+    Data2: 1181709211
+    Data3: -411810626
+    Data4: 1087161232
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29
+--- !u!114 &-507342925203287744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_Stamp
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_Stamp
+  Guid:
+    Data1: -527895865
+    Data2: 1114565215
+    Data3: -1959904074
+    Data4: -162530275
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-451307806154551115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../tof-sound-middleware/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638515703045717120
+  FileSizes:
+  - Name: Desktop
+    Value: 3736192
+  Exists: 1
+--- !u!114 &-328074252107952706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_A
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_A
+  Guid:
+    Data1: 1901758420
+    Data2: 1155272463
+    Data3: 944867255
+    Data4: -507037154
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 575
+--- !u!114 &-202131399096136836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Death/SFX_DeathWater
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Death/SFX_DeathWater
+  Guid:
+    Data1: 1567400869
+    Data2: 1171417580
+    Data3: -833333340
+    Data4: -2070193771
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2292
+--- !u!114 &-141041533599504054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/SFX_uiMove
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/SFX_uiMove
+  Guid:
+    Data1: -2147236556
+    Data2: 1247379898
+    Data3: 623215755
+    Data4: -1453449455
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 4913739301051636614}
+  - {fileID: -451307806154551115}
+  EditorEvents:
+  - {fileID: -6714693609638591575}
+  - {fileID: -2505050146100683392}
+  - {fileID: 2975499176398693348}
+  - {fileID: -5388983835846033744}
+  - {fileID: 2928019828573075524}
+  - {fileID: 764310894114716816}
+  - {fileID: -1648078883561382213}
+  - {fileID: -2304574825013609860}
+  - {fileID: 6270974833928397345}
+  - {fileID: -7354622314767316346}
+  - {fileID: -2987881648672089566}
+  - {fileID: -9082667840935665459}
+  - {fileID: -141041533599504054}
+  - {fileID: -4311689424311033396}
+  - {fileID: -5655878152173968008}
+  - {fileID: 8967945311377941477}
+  - {fileID: -5093201207496219897}
+  - {fileID: -7363220588079900408}
+  - {fileID: 864131310866506556}
+  - {fileID: 1226329625507345984}
+  - {fileID: 1062277934262232338}
+  - {fileID: -2558114200591408636}
+  - {fileID: -1218153752587956940}
+  - {fileID: 6580019622159732204}
+  - {fileID: -4053649650605001728}
+  - {fileID: 5905984997015744769}
+  - {fileID: 156000021440743817}
+  - {fileID: -3079705033343453938}
+  - {fileID: -7624296259814478316}
+  - {fileID: 332518738990558542}
+  - {fileID: 6386606191843812228}
+  - {fileID: -202131399096136836}
+  - {fileID: 1520662724344806307}
+  - {fileID: 393165810180640391}
+  - {fileID: -9132002683676144041}
+  - {fileID: 4888152089821163054}
+  - {fileID: -507342925203287744}
+  - {fileID: 8565008424054102172}
+  - {fileID: -571837732183616998}
+  - {fileID: -2947886157856922128}
+  - {fileID: -2388059804299702391}
+  - {fileID: 6671868425477349773}
+  - {fileID: -328074252107952706}
+  - {fileID: 2185075697263872106}
+  - {fileID: -4382158840599968897}
+  - {fileID: -4572068197348699499}
+  - {fileID: 4319963787279194712}
+  - {fileID: 5536428896297733680}
+  - {fileID: 8813814870300839342}
+  - {fileID: 1240427115562312172}
+  - {fileID: -5276313887759896487}
+  - {fileID: -4948155756092147781}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -451307806154551115}
+  StringsBanks:
+  - {fileID: 4913739301051636614}
+  cacheTime: 638515703045747125
+  cacheVersion: 131616
+--- !u!114 &156000021440743817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Jump/SFX_Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Jump/SFX_Jump
+  Guid:
+    Data1: 182069122
+    Data2: 1123652826
+    Data3: -46413161
+    Data4: 1387516164
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &332518738990558542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Music_Tutorial/OST_Ambience-Cave
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Music_Tutorial/OST_Ambience-Cave
+  Guid:
+    Data1: 1139283869
+    Data2: 1287063919
+    Data3: -1581331315
+    Data4: -1465368045
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49090
+--- !u!114 &393165810180640391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_destroy
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_destroy
+  Guid:
+    Data1: -417522260
+    Data2: 1192648978
+    Data3: -2138466408
+    Data4: 2111180415
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2740
+--- !u!114 &764310894114716816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_Death
+  Guid:
+    Data1: 1543463965
+    Data2: 1245777523
+    Data3: -404498026
+    Data4: -754227649
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &864131310866506556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Crawler/SFX_Atk
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Crawler/SFX_Atk
+  Guid:
+    Data1: 1094957406
+    Data2: 1140561978
+    Data3: 1208562864
+    Data4: -150203053
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &1062277934262232338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_DashRoar
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_DashRoar
+  Guid:
+    Data1: 887195497
+    Data2: 1116875677
+    Data3: 870249885
+    Data4: 495284664
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &1226329625507345984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Crawler/SFX_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Crawler/SFX_Death
+  Guid:
+    Data1: -1407785631
+    Data2: 1197307017
+    Data3: -34608742
+    Data4: 1897648991
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &1240427115562312172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_C
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Atk/SFX_Atk_C
+  Guid:
+    Data1: 932328679
+    Data2: 1110265429
+    Data3: 703049146
+    Data4: -434810172
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 790
+--- !u!114 &1520662724344806307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/MUSIC_mainMenu
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/MUSIC_mainMenu
+  Guid:
+    Data1: -886511447
+    Data2: 1306279306
+    Data3: 1022064540
+    Data4: -707577244
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 81818
+--- !u!114 &2185075697263872106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Spider/SFX_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Spider/SFX_Death
+  Guid:
+    Data1: 1263718357
+    Data2: 1332629377
+    Data3: -1762502501
+    Data4: -1659817120
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2928019828573075524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Enemy/Spider/SFX_Queda
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Enemy/Spider/SFX_Queda
+  Guid:
+    Data1: -1861566956
+    Data2: 1116624844
+    Data3: -1231111748
+    Data4: 762642724
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 162
+--- !u!114 &2975499176398693348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/SFX_Checkpoint
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/SFX_Checkpoint
+  Guid:
+    Data1: -613830647
+    Data2: 1204382955
+    Data3: 1253366698
+    Data4: 314382718
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23000
+--- !u!114 &4319963787279194712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/SFX_Confirm
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/SFX_Confirm
+  Guid:
+    Data1: -1688060705
+    Data2: 1192565119
+    Data3: 1019843485
+    Data4: 309638963
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 290
+--- !u!114 &4888152089821163054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Hit
+  Guid:
+    Data1: -662167865
+    Data2: 1189278802
+    Data3: 1056504740
+    Data4: -1071039210
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &4913739301051636614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638515703045747125
+  FileSizes:
+  - Name: Desktop
+    Value: 3394
+  Exists: 1
+--- !u!114 &5536428896297733680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Jump/SFX_Jump_Queda
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Jump/SFX_Jump_Queda
+  Guid:
+    Data1: -1466444065
+    Data2: 1077371315
+    Data3: -302048578
+    Data4: 1758445081
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 753
+--- !u!114 &5905984997015744769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismMov
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismMov
+  Guid:
+    Data1: 1364852862
+    Data2: 1104588947
+    Data3: -163747932
+    Data4: 1193751860
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6270974833928397345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/NPC/Voice_Oce
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/NPC/Voice_Oce
+  Guid:
+    Data1: -254323936
+    Data2: 1338997970
+    Data3: 1376839319
+    Data4: -19275998
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6386606191843812228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Videos/Logo_Pineapple
+  m_EditorClassIdentifier: 
+  Path: event:/Videos/Logo_Pineapple
+  Guid:
+    Data1: 507453858
+    Data2: 1155175857
+    Data3: -451737715
+    Data4: -395556400
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &6580019622159732204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_StartBattle
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_StartBattle
+  Guid:
+    Data1: 188165740
+    Data2: 1261971458
+    Data3: 1059977908
+    Data4: -105382732
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2200
+--- !u!114 &6671868425477349773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/SFX_PowerUp_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/SFX_PowerUp_Loop
+  Guid:
+    Data1: -1050049840
+    Data2: 1304078368
+    Data3: 519696047
+    Data4: 1816872767
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27500
+--- !u!114 &8565008424054102172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/NPC/Voice_Kwy
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/NPC/Voice_Kwy
+  Guid:
+    Data1: 1472690888
+    Data2: 1138490416
+    Data3: 1905356214
+    Data4: -1442367699
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8813814870300839342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismStart
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/Magnetism/SFX_MagnetismStart
+  Guid:
+    Data1: 85538531
+    Data2: 1252399707
+    Data3: -445467209
+    Data4: -1275424054
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8967945311377941477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Svart/SFX_Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Svart/SFX_Steps
+  Guid:
+    Data1: -309723307
+    Data2: 1275302979
+    Data3: -624325222
+    Data4: -1501232357
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340

@@ -98,4 +98,9 @@ public class CinemachineShakeManager : MonoBehaviour
         _tmpCam = _csdc.LiveChild.VirtualCameraGameObject.GetComponent<CinemachineVirtualCamera>();
         if (_currentCamera != _tmpCam) _currentCamera = _tmpCam;
     }
+
+    public void NegativeFeedback()
+    {
+        ShakeCamera(1f, 0.5f, 5f);
+    }
 }

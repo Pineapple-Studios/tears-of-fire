@@ -24,7 +24,8 @@ public class Drop : MonoBehaviour
     {
         if ((((1 << collision.gameObject.layer) & _leakLayer) != 0))
         {
-            Restart();
+            Pool pool = collision.gameObject.GetComponent<Pool>();
+            Restart(pool);
         }
 
         if ((((1 << collision.gameObject.layer) & _targetLayer) != 0))
@@ -49,7 +50,19 @@ public class Drop : MonoBehaviour
 
     private void Restart()
     {
-        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.leak, this.transform.position);
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.leak, this.transform.position);
+
+        gameObject.SetActive(false);
+        transform.position = _initialPosition;
+    }
+
+    private void Restart(Pool pool)
+    {
+        pool.InstantiateSplashParticles();
+        if (FMODAudioManager.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.leak, this.transform.position);
+
         gameObject.SetActive(false);
         transform.position = _initialPosition;
     }

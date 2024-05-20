@@ -11,6 +11,7 @@ public class Pool : MonoBehaviour
 
     private PlayerProps _pp;
     private PlayerController _pc;
+    private ParticleSystem _splashParticle;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,6 +29,11 @@ public class Pool : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        _splashParticle = GetComponentInChildren<ParticleSystem>();
+    }
+
     private void HitPlayer(Collider2D collision)
     {
         _pp = collision.gameObject.GetComponentInChildren<PlayerProps>();
@@ -36,5 +42,10 @@ public class Pool : MonoBehaviour
 
         _pc.SetAttackEnemyPosition(transform.position);
         _pp.TakeDamage(_damageOnTouch);
+    }
+
+    public void InstantiateSplashParticles()
+    {
+        _splashParticle.Play();
     }
 }

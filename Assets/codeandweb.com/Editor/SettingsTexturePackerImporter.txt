@@ -7,6 +7,7 @@ tpsheetFileNames:
 - Assets/_Sprites/boss/kwy-sectionE.tpsheet
 - Assets/_Sprites/Enemies/crawler-0.tpsheet
 - Assets/_Sprites/Enemies/spider-flyer.tpsheet
+- Assets/_Sprites/Engines/BreakableBlock/rocks.tpsheet
 - Assets/_Sprites/NPC/Oce/oce.tpsheet
 - Assets/_Sprites/NPC/Yke/yke-boss-default.tpsheet
 - Assets/_Sprites/NPC/Yke/yke-boss-talk.tpsheet
@@ -32,6 +33,7 @@ textureFileNames:
 - Assets/_Sprites/boss/kwy-sectionE.png
 - Assets/_Sprites/Enemies/crawler-0.png
 - Assets/_Sprites/Enemies/spider-flyer.png
+- Assets/_Sprites/Engines/BreakableBlock/rocks.png
 - Assets/_Sprites/NPC/Oce/oce.png
 - Assets/_Sprites/NPC/Yke/yke-boss-default.png
 - Assets/_Sprites/NPC/Yke/yke-boss-talk.png
@@ -50,6 +52,7 @@ textureFileNames:
 - Assets/_Sprites/yke-boss-bossFight.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

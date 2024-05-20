@@ -12,6 +12,7 @@ public class LocalStorage
     const string FULL_SCREEN = "@TOF_FULL_SCREEN";
     const string INPUT_ACTIONS = "@TOF_INPUT_ACTIONS";
     const string BRIGHTNESS = "@TOF_BRIGHTNESS";
+    const string TOF_PREFIX = "@TOF_";
 
     #region GeneralVolume
     public static void SetGeneralVolume(float currentValue)
@@ -138,4 +139,14 @@ public class LocalStorage
     }
     #endregion
 
+    
+    public static void SetBool(string key, bool value)
+    {
+        PlayerPrefsX.SetBool(TOF_PREFIX + key, value);
+    }
+
+    public static bool GetBool(string key)
+    {
+        return PlayerPrefsX.GetBool(TOF_PREFIX + key);
+    }
 }

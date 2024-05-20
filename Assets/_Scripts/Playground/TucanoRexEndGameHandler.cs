@@ -27,10 +27,13 @@ public class TucanoRexEndGameHandler : MonoBehaviour
     private GameObject[] _elementsToActive;
 
     private PlayerInputHandler _playerInputHandler;
+    private AchievmentHandler _ah;
+
 
     private void Awake()
     {
         _playerInputHandler = FindAnyObjectByType<PlayerInputHandler>();
+        _ah = FindAnyObjectByType<AchievmentHandler>();
     }
 
     private void OnEnable()
@@ -58,7 +61,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private IEnumerator BossFightEndCoroutine()
     {
-        _playerInputHandler.DisableInputs();
+        _playerInputHandler.DisableInputsOnGameplay();
         Time.timeScale = _finalTimeScale;
         CinemachineShakeManager.Instance.ShakeCamera(_finalHitAmplitude, _finalHitDuration, _finalHitFrequency);
         yield return new WaitForSeconds(_finalHitDuration);
@@ -66,6 +69,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
         _cvFeedback.SetActive(true);
         DeactiveElements();
         _playerInputHandler.EnableInputs();
+        _ah.SetCompleteState(_ah.TUCANOREX);
     }
 
     private void DeactiveElements()

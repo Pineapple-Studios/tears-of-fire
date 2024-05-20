@@ -16,14 +16,20 @@ public class NextLevelDoor : MonoBehaviour
 
     private bool _mustStart = false;
     private Rigidbody2D _playerRb;
+    private PlayerInputHandler _pih;
+
+    private void Start()
+    {
+        _pih = FindAnyObjectByType<PlayerInputHandler>();
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             _playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
-            PlayerController _pc = collision.gameObject.GetComponent<PlayerController>();
-            _pc.DisableInput();
+            _pih.DisableInputsOnGameplay();
             _mustStart = true;
             StartCoroutine(GoToNextLevel());
         }

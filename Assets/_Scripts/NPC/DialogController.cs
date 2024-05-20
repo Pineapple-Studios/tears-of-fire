@@ -132,7 +132,7 @@ public class DialogController : MonoBehaviour
         _npcName = npc.NpcName;
         _story = npc.DialogStory;
 
-        _pih.DisableInputs();
+        _pih.DisableInputsOnDialog();
         _pih.gameObject.transform.parent.GetComponent<PlayerController>().FreezeMovement();
 
         _anim.SetTrigger(ANIM_START);

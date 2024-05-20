@@ -21,35 +21,34 @@ public class PauseManager : MonoBehaviour
 
     private PlayerInputHandler _pih;
 
-
     private void Start()
     {
         Cursor.visible = false;
         pauseMenu.gameObject.SetActive(false);
         txtIP.gameObject.SetActive(false);
-
-        _pih = FindAnyObjectByType<PlayerInputHandler>();
     }
+
     void Awake()
     {
-        Actions.FindActionMap("UI").FindAction("Pause").performed += OnPause;
         if (sceneName == "")
         {
             sceneName = SceneManager.GetActiveScene().name;
         }
+
+        _pih = FindAnyObjectByType<PlayerInputHandler>();
     }
 
     public void OnEnable()
     {
-        Actions.FindActionMap("UI").Enable();
+        if (_pih != null) { _pih.KeyPauseDown += OnPause; }
     }
 
     public void OnDisable()
     {
-        Actions.FindActionMap("UI").Disable();
+        if (_pih != null) { _pih.KeyPauseDown -= OnPause; }
     }
 
-    void OnPause(InputAction.CallbackContext context)
+    private void OnPause()
     {
         if (SceneManager.GetActiveScene().name.Contains(sceneName))
         {
@@ -68,16 +67,12 @@ public class PauseManager : MonoBehaviour
     {
         OnTransitionBack();
         _pih.EnableInputs();
-        Debug.Log("Despausou");
         Cursor.visible = false;
         Time.timeScale = 1;
-        //pauseMenu.gameObject.SetActive(false);
     }
 
     private void Pause()
     {
-        Debug.Log("Pausou");
-        _pih.DisableInputs();
         Cursor.visible = true;
         pauseMenu.gameObject.SetActive(true);
         txtIP.gameObject.SetActive(false);
@@ -87,13 +82,11 @@ public class PauseManager : MonoBehaviour
 
     public void OnTransition()
     {
-        Debug.Log("AnimPause");
         transition.Play("anim_Pause");
     }
 
     public void OnTransitionBack()
     {
-        Debug.Log("AnimReversePause");
         transition.Play("anim_ReversePause");
     }
 

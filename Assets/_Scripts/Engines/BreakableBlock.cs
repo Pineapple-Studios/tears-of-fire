@@ -70,8 +70,11 @@ public class BreakableBlock: MonoBehaviour
         _counter++;
         StoneParticle();
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
-        _vfx.ColorChange(_hitsToBreak, _counter);
-        _vfx.ShakeSprite();
+        if (_vfx != null)
+        {
+            _vfx.ColorChange(_hitsToBreak, _counter);
+            _vfx.ShakeSprite();
+        }
         
 
         if (_counter == _hitsToBreak)

@@ -11,6 +11,19 @@ public class WormWalkStart : MonoBehaviour, IWalkStart
 
     private bool _isStarted = false;
 
+    private AchievmentHandler _ah;
+
+    private void Awake()
+    {
+        _ah = FindAnyObjectByType<AchievmentHandler>();
+    }
+
+    public void OnDead()
+    {
+        _ah.SetCompleteState(_ah.WORM);
+    }
+
+
     public void OnStartWalking()
     {
         if (!_isStarted) StartCoroutine(DelayToStart());
@@ -39,4 +52,6 @@ public class WormWalkStart : MonoBehaviour, IWalkStart
         if (FMODAudioManager.Instance != null)
             FMODAudioManager.Instance.PlayOneShot(ATTACK_EVENT, this.transform.position);
     }
+
+    
 }

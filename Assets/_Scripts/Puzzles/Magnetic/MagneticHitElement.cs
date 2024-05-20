@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MagneticHitElement : MonoBehaviour
@@ -8,10 +6,12 @@ public class MagneticHitElement : MonoBehaviour
     private MagneticHandler _mh;
 
     private Animator _anim;
+    private AchievmentHandler _ah;
 
     private void Start()
     {
         _anim = GetComponent<Animator>();
+        _ah = FindAnyObjectByType<AchievmentHandler>();
     }
 
     public void OnNext()
@@ -23,6 +23,7 @@ public class MagneticHitElement : MonoBehaviour
             );
 
         _anim.SetTrigger("hasHitted");
+        _ah.SetCompleteState(_ah.TUTORIAL_TURN_ON);
         _mh.OnNextStep();
     }
 }

@@ -152,6 +152,7 @@ public class Enemy : MonoBehaviour
         {
             _col.enabled = false;
             _ws.PlayDeathSound();
+            _ws.OnDead();
             _ac.Play(DEATH);
         }
         else

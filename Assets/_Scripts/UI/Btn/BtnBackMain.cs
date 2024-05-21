@@ -39,13 +39,9 @@ public class BtnBackMain : MonoBehaviour
         //transition.Play("clip_home");
 
         Time.timeScale = 1;
+
+        StartEndGameController.Instance.ExitGame();
+
         SceneManager.LoadScene(SceneName);
-
-        Destroy(FeedbackAndDebugManager.Instance.gameObject);
-        Destroy(LevelDataManager.Instance.gameObject);
-        Destroy(FMODAudioManager.Instance.gameObject);
-        Destroy(CinemachineShakeManager.Instance.gameObject);
-        Destroy(ScenarioColorManager.Instance.gameObject);
-
     }
 }

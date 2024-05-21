@@ -37,11 +37,7 @@ public class NextLevelDoor : MonoBehaviour
 
     private IEnumerator GoToNextLevel()
     {
-        Destroy(FeedbackAndDebugManager.Instance.gameObject);
-        Destroy(LevelDataManager.Instance.gameObject);
-        Destroy(FMODAudioManager.Instance.gameObject);
-        Destroy(CinemachineShakeManager.Instance.gameObject);
-        Destroy(ScenarioColorManager.Instance.gameObject);
+        StartEndGameController.Instance.ExitGame();
 
         yield return new WaitForSeconds(_delayToGo);
         SceneManager.LoadScene(_nextLevel);

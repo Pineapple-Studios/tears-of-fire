@@ -30,6 +30,11 @@ public class CinemachineShakeManager : MonoBehaviour
 
     private void Start()
     {
+        StartManager();
+    }
+
+    public void StartManager()
+    {
         _csdc = FindAnyObjectByType<CinemachineStateDrivenCamera>();
     }
 

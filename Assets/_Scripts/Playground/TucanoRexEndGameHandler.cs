@@ -61,14 +61,13 @@ public class TucanoRexEndGameHandler : MonoBehaviour
 
     private IEnumerator BossFightEndCoroutine()
     {
-        _playerInputHandler.DisableInputsOnGameplay();
+        _playerInputHandler.DisableInputsOnDialog();
         Time.timeScale = _finalTimeScale;
         CinemachineShakeManager.Instance.ShakeCamera(_finalHitAmplitude, _finalHitDuration, _finalHitFrequency);
         yield return new WaitForSeconds(_finalHitDuration);
         Time.timeScale = 0f;
         _cvFeedback.SetActive(true);
         DeactiveElements();
-        _playerInputHandler.EnableInputs();
         _ah.SetCompleteState(_ah.TUCANOREX);
     }
 
@@ -89,6 +88,7 @@ public class TucanoRexEndGameHandler : MonoBehaviour
         ActiveElements();
         // Enable dash
         LevelDataManager.Instance.SetDashState(true);
+        _playerInputHandler.EnableInputs();
     }
 
     private void ActiveElements()

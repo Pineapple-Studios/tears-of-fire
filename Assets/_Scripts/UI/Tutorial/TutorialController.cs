@@ -59,7 +59,7 @@ public class TutorialController : MonoBehaviour
         if (_pih.GetDirection().x != 0 && !_isMovementFinished)
         {
             _isMovementFinished = true;
-            _anim.Play("clip_hidden_tutorial");
+            HiddenTutorialEffect();
             _ah.SetCompleteState(_ah.TUTORIAL_MOVE);
         }
     }
@@ -73,7 +73,7 @@ public class TutorialController : MonoBehaviour
         }
 
         if (!_isJumpFinished) _isJumpFinished = true;
-        _anim.Play("clip_hidden_tutorial");
+        HiddenTutorialEffect();
         _ah.SetCompleteState(_ah.TUTORIAL_JUMP);
     }
 
@@ -86,7 +86,7 @@ public class TutorialController : MonoBehaviour
         }
 
         if (!_isAttackFinished) _isAttackFinished = true;
-        _anim.Play("clip_hidden_tutorial");
+        HiddenTutorialEffect();
         _ah.SetCompleteState(_ah.TUTORIAL_ATTACK);
     }
 
@@ -112,13 +112,26 @@ public class TutorialController : MonoBehaviour
             (kindOf == ETutorialAvailable.TURN_ON && _isTurnOnFinished)
         ) return;
 
-        _anim.Play("clip_hidden_tutorial");
+        HiddenTutorialEffect();
     }
 
     public void Clean()
     {
         if (_animatedElement.transform.childCount > 0)
             Destroy(_animatedElement.transform.GetChild(0).gameObject);
+    }
+
+    private void HiddenTutorialEffect()
+    {
+        AnimatorClipInfo[] currentClips = _anim.GetCurrentAnimatorClipInfo(0);
+
+        foreach (AnimatorClipInfo clipInfo in currentClips)
+        {
+            if (clipInfo.clip.name == "clip_show_tutorial")
+            {
+                _anim.Play("clip_hidden_tutorial");
+            }
+        }
     }
 
 }

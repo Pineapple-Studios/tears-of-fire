@@ -14,6 +14,8 @@ public class PlayerInputHandler : MonoBehaviour
     public event Action KeyNPCInteractionUp;
     public event Action KeyPauseDown;
     public event Action KeyPauseUp;
+    public event Action KeyMissionDown;
+    public event Action KeyMissionUp;
 
     private const string GAMEPLAY_ACTIONS = "Gameplay";
     // ActionNames
@@ -21,6 +23,7 @@ public class PlayerInputHandler : MonoBehaviour
     private const string ATTACK_NAME = "Attack";
     private const string POWERUP_NAME = "PowerUp";
     private const string INVENTORY_NAME = "Inventory";
+    private const string MISSIONS_NAME = "Missions";
     private const string NPC_INTERACTION_NAME = "NPCInteraction";
     private const string JUMP_NAME = "Jump";
     private const string PAUSE_NAME = "Pause";
@@ -36,6 +39,7 @@ public class PlayerInputHandler : MonoBehaviour
     private InputAction _powerUp;
     private InputAction _npcInteraction;
     private InputAction _pause;
+    private InputAction _mission;
     // TODO
     private InputAction _inventory;
 
@@ -76,6 +80,10 @@ public class PlayerInputHandler : MonoBehaviour
         _pause = _gamePlayMap.FindAction(PAUSE_NAME);
         _pause.performed += OnKeyPauseDown;
         _pause.canceled += OnKeyPauseUp;
+
+        _mission = _gamePlayMap.FindAction(MISSIONS_NAME);
+        _mission.performed += OnKeyMissionDown;
+        _mission.canceled += OnKeyMissionUp;
     }
 
     protected virtual void OnKeyJumpDown(InputAction.CallbackContext context) {
@@ -121,6 +129,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     protected virtual void OnKeyNPCInteractionDown(InputAction.CallbackContext context) {
         if (_isDisablesInputGameplay) return;
+        if (_pc != null) _pc.FreezeMovement();
 
         KeyNPCInteractionDown?.Invoke(); 
     }
@@ -143,6 +152,20 @@ public class PlayerInputHandler : MonoBehaviour
         if (_isDisablesInputDialog) return;
 
         KeyPauseUp?.Invoke();
+    }
+
+    private void OnKeyMissionDown(InputAction.CallbackContext obj)
+    {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+
+        KeyMissionDown?.Invoke();
+    }
+
+    private void OnKeyMissionUp(InputAction.CallbackContext obj)
+    {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+
+        KeyMissionUp?.Invoke();
     }
 
     public Vector2 GetDirection()

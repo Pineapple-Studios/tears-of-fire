@@ -99,14 +99,14 @@ public class AchievmentHandler : MonoBehaviour
 
         if (HistoryCompleted() && !CheckCompletition(HISTORY_COMPLETED))
         {
-            _ahh.ShowToast("History", "Hist?ria completa com sucesso!");
+            _ahh.ShowToast("History", "Historia completa com sucesso!");
             SetCompleteState(HISTORY_COMPLETED);
             return;
         }
 
         if (BestiaryCompleted() && !CheckCompletition(BESTIARY_COMPLETED))
         {
-            _ahh.ShowToast("Bestiary", "Besti?rio completo com sucesso!");
+            _ahh.ShowToast("Bestiary", "Bestiario completo com sucesso!");
             SetCompleteState(BESTIARY_COMPLETED);
             return;
         }

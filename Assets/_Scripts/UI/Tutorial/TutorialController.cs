@@ -123,6 +123,8 @@ public class TutorialController : MonoBehaviour
 
     private void HiddenTutorialEffect()
     {
+        if (_anim == null) return;
+
         AnimatorClipInfo[] currentClips = _anim.GetCurrentAnimatorClipInfo(0);
 
         foreach (AnimatorClipInfo clipInfo in currentClips)

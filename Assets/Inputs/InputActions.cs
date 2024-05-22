@@ -760,7 +760,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Inventory"",
+                    ""name"": ""Missions"",
                     ""type"": ""Button"",
                     ""id"": ""807ca099-d65a-4d79-b769-f44b00ebf626"",
                     ""expectedControlType"": ""Button"",
@@ -1119,11 +1119,11 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""0a2a7764-bd10-40c9-aaf0-5d210db68bad"",
-                    ""path"": ""<Keyboard>/i"",
+                    ""path"": ""<Keyboard>/m"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Inventory"",
+                    ""action"": ""Missions"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1134,7 +1134,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Inventory"",
+                    ""action"": ""Missions"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1142,17 +1142,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""c50e0c4e-ff39-4751-95ec-141fe504d756"",
                     ""path"": ""<Gamepad>/buttonNorth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""NPCInteraction"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""52613257-3264-49e6-8775-2116104b1431"",
-                    ""path"": ""<Keyboard>/m"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -1634,7 +1623,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         m_Gameplay_Movement = m_Gameplay.FindAction("Movement", throwIfNotFound: true);
         m_Gameplay_Attack = m_Gameplay.FindAction("Attack", throwIfNotFound: true);
         m_Gameplay_PowerUp = m_Gameplay.FindAction("PowerUp", throwIfNotFound: true);
-        m_Gameplay_Inventory = m_Gameplay.FindAction("Inventory", throwIfNotFound: true);
+        m_Gameplay_Missions = m_Gameplay.FindAction("Missions", throwIfNotFound: true);
         m_Gameplay_NPCInteraction = m_Gameplay.FindAction("NPCInteraction", throwIfNotFound: true);
         m_Gameplay_Jump = m_Gameplay.FindAction("Jump", throwIfNotFound: true);
         m_Gameplay_Pause = m_Gameplay.FindAction("Pause", throwIfNotFound: true);
@@ -1891,7 +1880,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_Movement;
     private readonly InputAction m_Gameplay_Attack;
     private readonly InputAction m_Gameplay_PowerUp;
-    private readonly InputAction m_Gameplay_Inventory;
+    private readonly InputAction m_Gameplay_Missions;
     private readonly InputAction m_Gameplay_NPCInteraction;
     private readonly InputAction m_Gameplay_Jump;
     private readonly InputAction m_Gameplay_Pause;
@@ -1902,7 +1891,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         public InputAction @Movement => m_Wrapper.m_Gameplay_Movement;
         public InputAction @Attack => m_Wrapper.m_Gameplay_Attack;
         public InputAction @PowerUp => m_Wrapper.m_Gameplay_PowerUp;
-        public InputAction @Inventory => m_Wrapper.m_Gameplay_Inventory;
+        public InputAction @Missions => m_Wrapper.m_Gameplay_Missions;
         public InputAction @NPCInteraction => m_Wrapper.m_Gameplay_NPCInteraction;
         public InputAction @Jump => m_Wrapper.m_Gameplay_Jump;
         public InputAction @Pause => m_Wrapper.m_Gameplay_Pause;
@@ -1924,9 +1913,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @PowerUp.started += instance.OnPowerUp;
             @PowerUp.performed += instance.OnPowerUp;
             @PowerUp.canceled += instance.OnPowerUp;
-            @Inventory.started += instance.OnInventory;
-            @Inventory.performed += instance.OnInventory;
-            @Inventory.canceled += instance.OnInventory;
+            @Missions.started += instance.OnMissions;
+            @Missions.performed += instance.OnMissions;
+            @Missions.canceled += instance.OnMissions;
             @NPCInteraction.started += instance.OnNPCInteraction;
             @NPCInteraction.performed += instance.OnNPCInteraction;
             @NPCInteraction.canceled += instance.OnNPCInteraction;
@@ -1949,9 +1938,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @PowerUp.started -= instance.OnPowerUp;
             @PowerUp.performed -= instance.OnPowerUp;
             @PowerUp.canceled -= instance.OnPowerUp;
-            @Inventory.started -= instance.OnInventory;
-            @Inventory.performed -= instance.OnInventory;
-            @Inventory.canceled -= instance.OnInventory;
+            @Missions.started -= instance.OnMissions;
+            @Missions.performed -= instance.OnMissions;
+            @Missions.canceled -= instance.OnMissions;
             @NPCInteraction.started -= instance.OnNPCInteraction;
             @NPCInteraction.performed -= instance.OnNPCInteraction;
             @NPCInteraction.canceled -= instance.OnNPCInteraction;
@@ -2140,7 +2129,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnPowerUp(InputAction.CallbackContext context);
-        void OnInventory(InputAction.CallbackContext context);
+        void OnMissions(InputAction.CallbackContext context);
         void OnNPCInteraction(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);

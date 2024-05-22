@@ -20,6 +20,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField]public TMP_Text txtIP;
 
     private PlayerInputHandler _pih;
+    private PauseSettings _ps;
 
     private void Start()
     {
@@ -36,6 +37,7 @@ public class PauseManager : MonoBehaviour
         }
 
         _pih = FindAnyObjectByType<PlayerInputHandler>();
+        _ps = FindAnyObjectByType<PauseSettings>();
     }
 
     public void OnEnable()
@@ -78,6 +80,7 @@ public class PauseManager : MonoBehaviour
         txtIP.gameObject.SetActive(false);
         OnTransition();
         Time.timeScale = 0;
+        _ps.HandlerCanvasStart();
     }
 
     public void OnTransition()

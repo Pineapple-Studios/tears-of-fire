@@ -738,7 +738,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Inventory",
+                    "name": "Missions",
                     "type": "Button",
                     "id": "807ca099-d65a-4d79-b769-f44b00ebf626",
                     "expectedControlType": "Button",
@@ -1097,11 +1097,11 @@
                 {
                     "name": "",
                     "id": "0a2a7764-bd10-40c9-aaf0-5d210db68bad",
-                    "path": "<Keyboard>/i",
+                    "path": "<Keyboard>/m",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Inventory",
+                    "action": "Missions",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1112,7 +1112,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Inventory",
+                    "action": "Missions",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1120,17 +1120,6 @@
                     "name": "",
                     "id": "c50e0c4e-ff39-4751-95ec-141fe504d756",
                     "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "NPCInteraction",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "52613257-3264-49e6-8775-2116104b1431",
-                    "path": "<Keyboard>/m",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

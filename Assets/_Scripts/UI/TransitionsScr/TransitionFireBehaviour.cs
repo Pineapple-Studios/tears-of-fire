@@ -21,10 +21,21 @@ public class TransitionFireBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        string sceneName = FindObjectOfType<BtnGoToScreen>().SceneName;
-        Debug.Log(sceneName);
-        if (string.IsNullOrEmpty(sceneName)) { sceneName = "Tutorial"; }
-        SceneManager.LoadScene(sceneName);
+        BtnGoToScreen btnScene = FindObjectOfType<BtnGoToScreen>();
+        if (btnScene != null)
+        {
+            string sceneName = btnScene.SceneName;
+            Debug.Log(sceneName);
+            if (string.IsNullOrEmpty(sceneName)) { sceneName = "Tutorial"; }
+            SceneManager.LoadScene(sceneName);
+        }
+
+        CutsceneJumper cj = FindObjectOfType<CutsceneJumper>();
+        if (cj != null) 
+        {
+            cj.OnEndAnimation();
+        }
+
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

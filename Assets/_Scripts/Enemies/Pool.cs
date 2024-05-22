@@ -41,7 +41,7 @@ public class Pool : MonoBehaviour
         if (_pp == null) return;
 
         _pc.SetAttackEnemyPosition(transform.position);
-        _pp.TakeDamage(_damageOnTouch);
+        _pp.TakeDamageWhithoutKnockback(_damageOnTouch);
     }
 
     public void InstantiateSplashParticles()

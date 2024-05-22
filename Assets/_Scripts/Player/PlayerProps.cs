@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerProps : MonoBehaviour
 {
+    private const float LIFE_PART = 20f;
+
     public static Action<float> onChangePlayerLife;
     public static Action<GameObject> onPlayerDead;
     public static Action onPlayerDamaged;
@@ -166,10 +168,12 @@ public class PlayerProps : MonoBehaviour
         _isFreezing = false;
     }
 
-    public float GetLife()
-    {
-        return _life;
-    }
+    public float GetLife() =>_life;
+    public float GetLifeByUI() => _life / LIFE_PART;
+    public float GetCurrentDamage() => _hitDamage;
+    public bool IsFullLife() => _life == _maxLife;
+    public float GetCurrentMaxLife() => _maxLife;
+    public float GetCurrentMaxLifeByUI() => _maxLife / LIFE_PART;
 
     public void FullHeal()
     {
@@ -178,23 +182,12 @@ public class PlayerProps : MonoBehaviour
         _isDead = false;
     }
 
-    public float GetCurrentDamage()
-    {
-        return _hitDamage;
-    }
-
-    public bool IsFullLife()
-    {
-        return _life == _maxLife;
-    }
-
     public void AddMaxLife(int _addMaxContainer)
     {
-        float tmp = _maxLife / 20;
+        float tmp = _maxLife / LIFE_PART;
         tmp += _addMaxContainer;
-        _maxLife = (int)tmp * 20; // 20 � o divisor da UI
+        _maxLife = (int)tmp * LIFE_PART;
         FullHeal();
     }
 
-    public float GetCurrentMaxLife() => _maxLife;
 }

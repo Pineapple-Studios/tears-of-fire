@@ -4,4 +4,5 @@ public interface IWalkStart
     public void ResetWalk();
     public void PlayDeathSound();
     public void PlayAttackSound();
+    public void OnDead();
 }

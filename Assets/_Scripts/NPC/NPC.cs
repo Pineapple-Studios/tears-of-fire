@@ -42,6 +42,8 @@ public class NPC : MonoBehaviour
     private bool _isOnRightInteractbleArea = false;
     private PlayerInputHandler _pih;
     private bool _isConversationStarted = false;
+    // Please take care whenever you want to use this
+    private bool _forceDisabledNPC = false;
 
     private void Awake()
     {
@@ -70,6 +72,8 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (_forceDisabledNPC) return;
+
         if (((1 << collision.gameObject.layer) & _playerLayer) != 0 && !_isConversationStarted)
         {
             _isOnRightInteractbleArea = true;
@@ -86,8 +90,14 @@ public class NPC : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (_forceDisabledNPC && _floatingButton.activeSelf) _floatingButton.SetActive(false);
+    }
+
     private void OnNPCInteraction()
     {
+        if (_forceDisabledNPC) return;
         if (!_isOnRightInteractbleArea || _isConversationStarted) return;
 
         DialogStory = GetStoryByLocale();
@@ -118,4 +128,9 @@ public class NPC : MonoBehaviour
     }
 
     public bool IsConversationStarted() => _isConversationStarted;
+
+    public void ForceDisabledNPC()
+    {
+        _forceDisabledNPC = true;
+    }
 }

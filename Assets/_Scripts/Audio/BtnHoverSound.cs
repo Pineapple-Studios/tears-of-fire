@@ -41,12 +41,15 @@ public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHand
         moveEvent.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         moveEvent.release();
         //moveEvent = RuntimeManager.CreateInstance(_fmodEventName);
-        FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.moveUI, this.transform.position);
+        if (FMODAudioManager.Instance != null && FMODEventsUI.Instance != null) 
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.moveUI, this.transform.position);
+
         moveEvent.start();
     }
 
     private void ConfirmSFX()
     {
-        FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.clickUI, this.transform.position);
+        if (FMODAudioManager.Instance != null && FMODEventsUI.Instance != null)
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.clickUI, this.transform.position);
     }
 }

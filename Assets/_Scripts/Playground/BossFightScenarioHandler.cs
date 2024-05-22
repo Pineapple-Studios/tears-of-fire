@@ -16,11 +16,11 @@ public class BossFightScenarioHandler : MonoBehaviour
     [SerializeField]
     private VFXDash _vfxDash;
 
-    private PlayerController _playerController;
+    private PlayerInputHandler _pih;
 
     private void Awake()
     {
-        _playerController = FindFirstObjectByType<PlayerController>();
+        _pih = FindFirstObjectByType<PlayerInputHandler>();
     }
 
     private void Start()
@@ -33,6 +33,7 @@ public class BossFightScenarioHandler : MonoBehaviour
         _dynamicScenarioAnim.gameObject.SetActive(false);
         _dynamicScenarioAnim.Rebind();
         _dynamicScenarioAnim.Update(0f);
+        StopDashEffect();
     }
 
     public void TriggerDynamicScenario()
@@ -76,7 +77,7 @@ public class BossFightScenarioHandler : MonoBehaviour
 
     public void FinishTucanoRexIntroduction()
     {
-        _playerController.EnableInput();
+        _pih.EnableInputs();
     }
 
     public void StartDashEffect()

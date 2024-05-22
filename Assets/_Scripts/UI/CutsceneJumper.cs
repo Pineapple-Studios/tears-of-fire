@@ -9,6 +9,8 @@ public class CutsceneJumper : MonoBehaviour
 {
     [SerializeField]
     VideoPlayer cutscene;
+    [SerializeField]
+    private Animator _transitionAnimator;
 
     [Header("Joystick Inputs")]
     [SerializeField]
@@ -42,15 +44,17 @@ public class CutsceneJumper : MonoBehaviour
         cutscene.loopPointReached += CutsceneHasEnded;
     }
 
-    void CutsceneHasEnded(VideoPlayer vp)
+    void CutsceneHasEnded(VideoPlayer vp) { JumpCutscene(); }
+    void CutsceneHasEnded(InputAction.CallbackContext context) { JumpCutscene(); }
+
+    private void JumpCutscene()
     {
-        if (SceneManager.GetActiveScene().name == "BeforeGame")
-            SceneManager.LoadScene("Tutorial");
+        if (_transitionAnimator != null) _transitionAnimator.SetBool("is_FireTr", true);
     }
 
-    void CutsceneHasEnded(InputAction.CallbackContext context)
+    public void OnEndAnimation()
     {
-        if(SceneManager.GetActiveScene().name == "BeforeGame")
+        if (SceneManager.GetActiveScene().name == "BeforeGame")
             SceneManager.LoadScene("Tutorial");
     }
 }

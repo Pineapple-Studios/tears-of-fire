@@ -6,6 +6,18 @@ public class BatWalkStart : MonoBehaviour, IWalkStart
 
     private bool _isStarted = false;
 
+    private AchievmentHandler _ah;
+
+    private void Awake()
+    {
+        _ah = FindAnyObjectByType<AchievmentHandler>();
+    }
+
+    public void OnDead()
+    {
+        _ah.SetCompleteState(_ah.BAT);
+    }
+
     public void OnStartWalking()
     {
         if (!_isStarted && GetComponentInChildren<TrackedMoviment>().enabled)

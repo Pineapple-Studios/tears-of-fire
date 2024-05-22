@@ -12,6 +12,10 @@ public class PlayerInputHandler : MonoBehaviour
     public event Action KeyDashUp;
     public event Action KeyNPCInteractionDown;
     public event Action KeyNPCInteractionUp;
+    public event Action KeyPauseDown;
+    public event Action KeyPauseUp;
+    public event Action KeyMissionDown;
+    public event Action KeyMissionUp;
 
     private const string GAMEPLAY_ACTIONS = "Gameplay";
     // ActionNames
@@ -19,8 +23,10 @@ public class PlayerInputHandler : MonoBehaviour
     private const string ATTACK_NAME = "Attack";
     private const string POWERUP_NAME = "PowerUp";
     private const string INVENTORY_NAME = "Inventory";
+    private const string MISSIONS_NAME = "Missions";
     private const string NPC_INTERACTION_NAME = "NPCInteraction";
     private const string JUMP_NAME = "Jump";
+    private const string PAUSE_NAME = "Pause";
 
     [Header("Actions")]
     [SerializeField]
@@ -32,12 +38,17 @@ public class PlayerInputHandler : MonoBehaviour
     private InputAction _jump;
     private InputAction _powerUp;
     private InputAction _npcInteraction;
+    private InputAction _pause;
+    private InputAction _mission;
     // TODO
     private InputAction _inventory;
 
     private PlayerAnimationController _pac;
     private PlayerController _pc;
     private InputActionMap _gamePlayMap;
+
+    private bool _isDisablesInputDialog = false;
+    private bool _isDisablesInputGameplay = false;
 
     private void Awake()
     {
@@ -65,41 +76,101 @@ public class PlayerInputHandler : MonoBehaviour
         _npcInteraction = _gamePlayMap.FindAction(NPC_INTERACTION_NAME);
         _npcInteraction.performed += OnKeyNPCInteractionDown;
         _npcInteraction.canceled += OnKeyNPCInteractionUp;
+
+        _pause = _gamePlayMap.FindAction(PAUSE_NAME);
+        _pause.performed += OnKeyPauseDown;
+        _pause.canceled += OnKeyPauseUp;
+
+        _mission = _gamePlayMap.FindAction(MISSIONS_NAME);
+        _mission.performed += OnKeyMissionDown;
+        _mission.canceled += OnKeyMissionUp;
     }
 
     protected virtual void OnKeyJumpDown(InputAction.CallbackContext context) {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
         if (_pc != null && _pc.ShouldDisbleInput()) return;
+
         KeyJumpDown?.Invoke(); 
     }
     protected virtual void OnKeyJumpUp(InputAction.CallbackContext context) {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
         if (_pc != null && _pc.ShouldDisbleInput()) return;
+
         KeyJumpUp?.Invoke(); 
     }
     
     protected virtual void OnKeyAttackDown(InputAction.CallbackContext context) {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
         if (_pc != null && _pc.ShouldDisbleInput()) return;
+
         KeyAttackDown?.Invoke(); 
     }
 
     protected virtual void OnKeyAttackUp(InputAction.CallbackContext context) {
-        if (_pc != null && _pc.ShouldDisbleInput()) return; 
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+        if (_pc != null && _pc.ShouldDisbleInput()) return;
+
         KeyAttackUp?.Invoke(); 
     }
 
     protected virtual void OnKeyDashDown(InputAction.CallbackContext context) {
-        if (_pc != null && _pc.ShouldDisbleInput()) return; 
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+        if (_pc != null && _pc.ShouldDisbleInput()) return;
+
         KeyDashDown?.Invoke(); 
     }
 
     protected virtual void OnKeyDashUp(InputAction.CallbackContext context) {
-        if (_pc != null && _pc.ShouldDisbleInput()) return; 
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+        if (_pc != null && _pc.ShouldDisbleInput()) return;
+
         KeyDashUp?.Invoke(); 
     }
 
-    protected virtual void OnKeyNPCInteractionDown(InputAction.CallbackContext context) { KeyNPCInteractionDown?.Invoke(); }
-    protected virtual void OnKeyNPCInteractionUp(InputAction.CallbackContext context) { KeyNPCInteractionUp?.Invoke(); }
+    protected virtual void OnKeyNPCInteractionDown(InputAction.CallbackContext context) {
+        if (_isDisablesInputGameplay) return;
+        if (_pc != null) _pc.FreezeMovement();
+
+        KeyNPCInteractionDown?.Invoke(); 
+    }
+    protected virtual void OnKeyNPCInteractionUp(InputAction.CallbackContext context) {
+        if (_isDisablesInputGameplay) return;
+
+        KeyNPCInteractionUp?.Invoke(); 
+    }
+
+    protected virtual void OnKeyPauseDown(InputAction.CallbackContext context)
+    {
+        if (_isDisablesInputDialog) return;
+
+        DisableInputsOnGameplay();
+        KeyPauseDown?.Invoke();
+    }
+
+    protected virtual void OnKeyPauseUp(InputAction.CallbackContext context)
+    {
+        if (_isDisablesInputDialog) return;
+
+        KeyPauseUp?.Invoke();
+    }
+
+    private void OnKeyMissionDown(InputAction.CallbackContext obj)
+    {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+
+        KeyMissionDown?.Invoke();
+    }
+
+    private void OnKeyMissionUp(InputAction.CallbackContext obj)
+    {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return;
+
+        KeyMissionUp?.Invoke();
+    }
+
     public Vector2 GetDirection()
     {
+        if (_isDisablesInputDialog || _isDisablesInputGameplay) return Vector2.zero;
         if (_pc != null && _pc.ShouldDisbleInput()) return Vector2.zero;
 
         return _movement.ReadValue<Vector2>();
@@ -114,8 +185,23 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void EnableInputs()
     {
+        _isDisablesInputDialog = false;
+        _isDisablesInputGameplay = false;
+
         if (_pc == null) return;
         _pc.EnableInput();
+    }
+
+    public void DisableInputsOnDialog()
+    {
+        _isDisablesInputDialog = true;
+        DisableInputs();
+    }
+
+    public void DisableInputsOnGameplay()
+    {
+        _isDisablesInputGameplay = true;
+        DisableInputs();
     }
 
 

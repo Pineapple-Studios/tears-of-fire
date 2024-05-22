@@ -18,11 +18,13 @@ public class TucanoRex : MonoBehaviour
     private TucanoRexProps _trp;
     private int _tmpAnimLife = 0;
     private PlayerController _playerController;
+    private PlayerInputHandler _playerInputHandler;
     private bool _isStarted = false;
 
     private void Awake()
     {
         _playerController = FindFirstObjectByType<PlayerController>();
+        _playerInputHandler = FindFirstObjectByType<PlayerInputHandler>();
     }
 
     private void Start()
@@ -71,7 +73,7 @@ public class TucanoRex : MonoBehaviour
     public void StartTucanoRex()
     {
         _playerController.FreezeMovement();
-        _playerController.DisableInput();
+        _playerInputHandler.DisableInputsOnGameplay();
         _anim.SetBool("isStarted", true);
         _isStarted = true;
     }

@@ -25,6 +25,9 @@ public class BreakableBlock: MonoBehaviour
     private BoxCollider2D _col;
     private int _counter = 0;
     private Vector2[] _breackableDirectionsVectors = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
+    private SpriteRenderer _breakableSprite;
+    private GameObject _parent;
+    private VFXBreakableBlock _vfx;
 
     private void OnDrawGizmosSelected()
     {
@@ -40,6 +43,9 @@ public class BreakableBlock: MonoBehaviour
 
     private void Start()
     {
+        _parent = gameObject.transform.parent.gameObject;
+        _breakableSprite = _parent.GetComponentInChildren<SpriteRenderer>();
+        _vfx = _parent.GetComponentInChildren<VFXBreakableBlock>();
         SetColliderAccordingOfSprite();
     }
 
@@ -64,14 +70,18 @@ public class BreakableBlock: MonoBehaviour
         _counter++;
         StoneParticle();
         RumbleManager.instance.RumblePulse(0.25f, 1f, 0.25f);
+        if (_vfx != null)
+        {
+            _vfx.ColorChange(_hitsToBreak, _counter);
+            _vfx.ShakeSprite();
+        }
         
 
         if (_counter == _hitsToBreak)
         {
             FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.lastHitBreakableWall, this.transform.position);
-            GameObject parent = gameObject.transform.parent.gameObject;
             DestroyDependencies();
-            Destroy(parent);
+            Destroy(_parent);
         }
         else
         {
@@ -98,17 +108,13 @@ public class BreakableBlock: MonoBehaviour
     /// </summary>
     private void SetColliderAccordingOfSprite()
     {
-        GameObject parent = gameObject.transform.parent.gameObject;
-        SpriteRenderer spriteRenderer = parent.GetComponentInChildren<SpriteRenderer>();
-        GameObject element = spriteRenderer.gameObject;
+        GameObject element = _breakableSprite.gameObject;
         _col = element.AddComponent<BoxCollider2D>();
     }
 
     void StoneParticle()
     {
-
-        if(_breackableDirections == Directions.Left)
-        _particleSystemLeft.Play();
+        if(_breackableDirections == Directions.Left) _particleSystemLeft.Play();
         else if(_breackableDirections == Directions.Right) _particleSystemRight.Play();
     }
 }

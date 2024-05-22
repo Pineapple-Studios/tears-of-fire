@@ -28,10 +28,12 @@ public class TutorialController : MonoBehaviour
     private bool _isTurnOnFinished = false;
 
     private PlayerInputHandler _pih;
+    private AchievmentHandler _ah;
 
     private void Awake()
     {
         _pih = FindAnyObjectByType<PlayerInputHandler>();
+        _ah = FindAnyObjectByType<AchievmentHandler>();
     }
 
     private void OnEnable()
@@ -57,24 +59,35 @@ public class TutorialController : MonoBehaviour
         if (_pih.GetDirection().x != 0 && !_isMovementFinished)
         {
             _isMovementFinished = true;
-            _anim.Play("clip_hidden_tutorial");
+            HiddenTutorialEffect();
+            _ah.SetCompleteState(_ah.TUTORIAL_MOVE);
         }
     }
 
     private void AlreadyJump()
     {
-        if (_isJumpFinished) return;
+        if (_isJumpFinished)
+        {
+            _ah.SetCompleteState(_ah.TUTORIAL_JUMP);
+            return;
+        }
 
         if (!_isJumpFinished) _isJumpFinished = true;
-        _anim.Play("clip_hidden_tutorial");
+        HiddenTutorialEffect();
+        _ah.SetCompleteState(_ah.TUTORIAL_JUMP);
     }
 
     private void AlreadyAttack()
     {
-        if (_isAttackFinished) return;
+        if (_isAttackFinished)
+        {
+            _ah.SetCompleteState(_ah.TUTORIAL_ATTACK);
+            return;
+        }
 
         if (!_isAttackFinished) _isAttackFinished = true;
-        _anim.Play("clip_hidden_tutorial");
+        HiddenTutorialEffect();
+        _ah.SetCompleteState(_ah.TUTORIAL_ATTACK);
     }
 
     private void PlayTutorial(GameObject tutorialElement)
@@ -99,13 +112,28 @@ public class TutorialController : MonoBehaviour
             (kindOf == ETutorialAvailable.TURN_ON && _isTurnOnFinished)
         ) return;
 
-        _anim.Play("clip_hidden_tutorial");
+        HiddenTutorialEffect();
     }
 
     public void Clean()
     {
         if (_animatedElement.transform.childCount > 0)
             Destroy(_animatedElement.transform.GetChild(0).gameObject);
+    }
+
+    private void HiddenTutorialEffect()
+    {
+        if (_anim == null) return;
+
+        AnimatorClipInfo[] currentClips = _anim.GetCurrentAnimatorClipInfo(0);
+
+        foreach (AnimatorClipInfo clipInfo in currentClips)
+        {
+            if (clipInfo.clip.name == "clip_show_tutorial")
+            {
+                _anim.Play("clip_hidden_tutorial");
+            }
+        }
     }
 
 }

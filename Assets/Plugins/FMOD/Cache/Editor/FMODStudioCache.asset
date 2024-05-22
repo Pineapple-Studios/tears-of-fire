@@ -27,33 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
---- !u!114 &-9082667840935665459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Steps
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Steps
-  Guid:
-    Data1: -883731669
-    Data2: 1084750155
-    Data3: -1735905903
-    Data4: -772552385
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 560
 --- !u!114 &-7624296259814478316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +107,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 180
+  Length: 1000
 --- !u!114 &-6714693609638591575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +323,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 800
+  Length: 0
 --- !u!114 &-4311689424311033396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,13 +344,13 @@ MonoBehaviour:
     Data4: -1433464457
   Banks:
   - {fileID: -451307806154551115}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 310
+  Length: 0
 --- !u!114 &-4053649650605001728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,13 +533,13 @@ MonoBehaviour:
     Data4: 1342371574
   Banks:
   - {fileID: -451307806154551115}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 800
+  Length: 0
 --- !u!114 &-2304574825013609860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,7 +566,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 450
+  Length: 0
 --- !u!114 &-1648078883561382213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,7 +620,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 400
+  Length: 0
 --- !u!114 &-571837732183616998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,10 +690,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638515703045717120
+  lastModified: 638501162990627533
   FileSizes:
   - Name: Desktop
-    Value: 3736192
+    Value: 3159808
   Exists: 1
 --- !u!114 &-328074252107952706
 MonoBehaviour:
@@ -823,14 +796,12 @@ MonoBehaviour:
   - {fileID: -2505050146100683392}
   - {fileID: 2975499176398693348}
   - {fileID: -5388983835846033744}
-  - {fileID: 2928019828573075524}
   - {fileID: 764310894114716816}
   - {fileID: -1648078883561382213}
   - {fileID: -2304574825013609860}
   - {fileID: 6270974833928397345}
   - {fileID: -7354622314767316346}
   - {fileID: -2987881648672089566}
-  - {fileID: -9082667840935665459}
   - {fileID: -141041533599504054}
   - {fileID: -4311689424311033396}
   - {fileID: -5655878152173968008}
@@ -876,7 +847,7 @@ MonoBehaviour:
   - {fileID: -451307806154551115}
   StringsBanks:
   - {fileID: 4913739301051636614}
-  cacheTime: 638515703045747125
+  cacheTime: 638501162990657601
   cacheVersion: 131616
 --- !u!114 &156000021440743817
 MonoBehaviour:
@@ -1012,7 +983,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 400
+  Length: 0
 --- !u!114 &1062277934262232338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1033,13 +1004,13 @@ MonoBehaviour:
     Data4: 495284664
   Banks:
   - {fileID: -451307806154551115}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1000
+  Length: 1100
 --- !u!114 &1226329625507345984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1066,7 +1037,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 600
+  Length: 0
 --- !u!114 &1240427115562312172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,34 +1118,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1000
---- !u!114 &2928019828573075524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Enemy/Spider/SFX_Queda
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Enemy/Spider/SFX_Queda
-  Guid:
-    Data1: -1861566956
-    Data2: 1116624844
-    Data3: -1231111748
-    Data4: 762642724
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 162
+  Length: 0
 --- !u!114 &2975499176398693348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1271,10 +1215,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638515703045747125
+  lastModified: 638501162990657601
   FileSizes:
   - Name: Desktop
-    Value: 3394
+    Value: 3312
   Exists: 1
 --- !u!114 &5536428896297733680
 MonoBehaviour:

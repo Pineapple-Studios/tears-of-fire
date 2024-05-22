@@ -196,6 +196,10 @@ MonoBehaviour:
     m_Localized: Pressione
     m_Metadata:
       m_Items: []
+  - m_Id: 37297678788759552
+    m_Localized: "Voc\xEA deseja sair?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

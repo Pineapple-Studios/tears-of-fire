@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 4084587884178894665}
   - component: {fileID: 7063672120583145126}
   - component: {fileID: 1455273415433720936}
+  - component: {fileID: 3203401843889606813}
   m_Layer: 3
   m_Name: Engines
   m_TagString: Untagged
@@ -218,7 +219,6 @@ MonoBehaviour:
   _platformMask:
     serializedVersion: 2
     m_Bits: 64
-  _tag: Platform
 --- !u!114 &4240762641039968727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,6 +327,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e894edf5482474c8e6976c14a14dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3203401843889606813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127031463221335106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aeeb72802eb1d0488ed50dd0d37e57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minLightRange: 0.2
+  _maxLightRange: 0.4
 --- !u!1 &6187229064835379518
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,7 +5458,7 @@ Transform:
   - {fileID: 8647972027558830701}
   - {fileID: 3014031982445620537}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &6327985370641442998
 Rigidbody2D:

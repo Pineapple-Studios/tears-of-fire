@@ -7,6 +7,8 @@ public class AchievementUISetup : MonoBehaviour
     private Sprite _tutorialImage;
     [SerializeField]
     private Sprite _bestiaryImage;
+    [SerializeField]
+    private Sprite _historyImage;
 
     private AchievmentHandler _ah;
     private List<Mission> _missions = new List<Mission>();
@@ -41,6 +43,21 @@ public class AchievementUISetup : MonoBehaviour
         _missions.Add(ms);
     }
 
+    private void CreateHistoryMission()
+    {
+        Mission ms = new Mission(
+            "Historia",
+            "Contacte todos os NPCs",
+            "Para entender esse vasto mundo de XXX temos que conversar com todos os personagens perdidos nessa densa caverna",
+            _historyImage,
+            _historyImage,
+            _ah.HistoryCompleted()
+        );
+
+
+        _missions.Add(ms);
+    }
+
     private void Awake()
     {
         _ah = FindAnyObjectByType<AchievmentHandler>();
@@ -53,6 +70,7 @@ public class AchievementUISetup : MonoBehaviour
 
         CreateTutorialMission();
         CreateBestiaryMission();
+        CreateHistoryMission();
     }
 
     public List<Mission> GetMissionsRegistered() {

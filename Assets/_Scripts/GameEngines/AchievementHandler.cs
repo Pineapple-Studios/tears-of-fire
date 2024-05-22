@@ -58,8 +58,8 @@ public class AchievmentHandler : MonoBehaviour
             CheckCompletition(YXO_ONE) &&
             CheckCompletition(YKE_TWO) &&
             CheckCompletition(YKE) &&
-            CheckCompletition(OCE) &&
-            CheckCompletition(KWY);
+            CheckCompletition(OCE);
+            // CheckCompletition(KWY);
 
         return isComplete;
     }

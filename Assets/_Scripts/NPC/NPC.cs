@@ -18,6 +18,8 @@ public class NPC : MonoBehaviour
     [SerializeField]
     public string NpcName;
     [SerializeField]
+    public string NpcMissionID;
+    [SerializeField]
     public Vector3 CameraOffset = Vector3.zero;
     [Header("Art")]
     [SerializeField]
@@ -41,6 +43,7 @@ public class NPC : MonoBehaviour
     private bool _firstInteraction =  false;
     private bool _isOnRightInteractbleArea = false;
     private PlayerInputHandler _pih;
+    private AchievmentHandler _ah;
     private bool _isConversationStarted = false;
     // Please take care whenever you want to use this
     private bool _forceDisabledNPC = false;
@@ -48,6 +51,7 @@ public class NPC : MonoBehaviour
     private void Awake()
     {
         _pih = FindAnyObjectByType<PlayerInputHandler>();
+        _ah = FindAnyObjectByType<AchievmentHandler>();
     }
 
     private void OnEnable()
@@ -124,6 +128,7 @@ public class NPC : MonoBehaviour
     public void FinishDialog()
     {
         _isConversationStarted = false;
+        _ah.SetCompleteState(NpcMissionID);
         if (_shouldNotifyOnFinish) FinishNPCDialog(this);
     }
 

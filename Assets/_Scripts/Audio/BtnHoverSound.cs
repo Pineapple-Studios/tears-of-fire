@@ -12,6 +12,8 @@ public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHand
     //private string _fmodEventName;
 
     [SerializeField] Button btn;
+    [SerializeField] TMP_Dropdown dpd;
+    [SerializeField] Slider sld;
     EventInstance moveEvent;
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -26,12 +28,38 @@ public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHand
 
     private void OnEnable()
     {
-        btn.onClick.AddListener(ConfirmSFX);
+        if(btn != null)
+        {
+            btn.onClick.AddListener(ConfirmSFX);
+        }
+
+        if (dpd != null)
+        {
+            dpd.onValueChanged.AddListener(delegate { ConfirmSFX(); });
+        }
+
+        if (sld != null)
+        {
+            sld.onValueChanged.AddListener(delegate { SliderMove(); });
+        }
     }
 
     private void OnDisable()
     {
-        btn.onClick.RemoveListener(ConfirmSFX);
+        if(btn != null)
+        {
+            btn.onClick.RemoveListener(ConfirmSFX);
+        }
+
+        if (dpd != null)
+        {
+            dpd.onValueChanged.RemoveListener(delegate { ConfirmSFX(); });
+        }
+
+        if (sld != null)
+        {
+            sld.onValueChanged.RemoveListener(delegate { SliderMove(); });
+        }
     }
 
     private void ExecuteSFX()
@@ -48,5 +76,10 @@ public class ButtonHoverSound : MonoBehaviour, ISelectHandler, IPointerEnterHand
     private void ConfirmSFX()
     {
         FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.clickUI, this.transform.position);
+    }
+
+    private void SliderMove()
+    {
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
     }
 }

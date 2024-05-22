@@ -9,7 +9,7 @@ public class ResolutionController : MonoBehaviour
 
     private Resolution[] resolutions;
     private List<Resolution> filteredRes;
-    private Vector2[] ourResolutions = { new Vector2(1920, 1080), new Vector2(1600, 900), new Vector2(1366, 768), new Vector2(1280, 720) };
+    private Vector2[] ourResolutions = { new Vector2(3840, 2160), new Vector2 (2560, 1440), new Vector2(1920, 1080), new Vector2(1600, 900), new Vector2(1366, 768), new Vector2(1280, 720) };
 
     private double currentRefreshRate;
     private int currentResolutionIndex = 0;
@@ -43,7 +43,7 @@ public class ResolutionController : MonoBehaviour
 
         for(int i = 0; i < filteredRes.Count; i++)
         {
-            string resOptions = filteredRes[i].width + "x" + filteredRes[i].height + " " + filteredRes[i].refreshRateRatio.value.ToString("@00") + " Hz";
+            string resOptions = filteredRes[i].width + "x" + filteredRes[i].height + " " + filteredRes[i].refreshRateRatio.value.ToString("- 00") + " Hz";
             options.Add(resOptions);
 
             if (filteredRes[i].width == Screen.width && filteredRes[i].height == Screen.height)

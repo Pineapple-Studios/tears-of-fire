@@ -195,6 +195,10 @@ MonoBehaviour:
     m_Key: press
     m_Metadata:
       m_Items: []
+  - m_Id: 37297678788759552
+    m_Key: popUpQuit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

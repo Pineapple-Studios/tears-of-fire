@@ -1,6 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+using FMODUnity;
+using FMOD.Studio;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class VolumeSlider : MonoBehaviour

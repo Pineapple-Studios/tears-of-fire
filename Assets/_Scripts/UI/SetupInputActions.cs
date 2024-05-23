@@ -12,11 +12,12 @@ public class SetupInputActions : MonoBehaviour
     [SerializeField] 
     private InputActionAsset _actionAsset;
 
+    private InputAction _keyboard;
+    private InputAction _joystick;
+
     private InputActionMap _keyboardMap;
     private InputActionMap _joystickMap;
 
-    private InputAction _keyboard;
-    private InputAction _joystick;
 
     [Header("Images")]
     [SerializeField] 
@@ -38,12 +39,12 @@ public class SetupInputActions : MonoBehaviour
 
         _joystick = _joystickMap.FindAction("Joystick");
         _joystick.performed += OnJoystick;
+
     }
 
     void Start()
     {
-        image = gameObject.GetComponent<Image>();
-        image.sprite = LocalStorage.GetIsUsingKeyboard(false) ? ImageKeyboard : ImageJoystick;
+        SetSprite(LocalStorage.GetIsUsingKeyboard(false));
     }
 
     public void OnEnable()
@@ -60,14 +61,21 @@ public class SetupInputActions : MonoBehaviour
 
     private void OnKeyboard(InputAction.CallbackContext context)
     {
-        if (image != null) image.sprite = ImageKeyboard;
         LocalStorage.SetIsUsingKeyboard(true);
+        SetSprite(true);
     }
 
     private void OnJoystick(InputAction.CallbackContext context)
     {
-        if (image != null) image.sprite = ImageJoystick;
         LocalStorage.SetIsUsingKeyboard(false);
+        SetSprite(false);
+    }
+
+    private void SetSprite(bool state)
+    {
+        image = GetComponent<Image>();
+        image.sprite = state ? ImageKeyboard : ImageJoystick;
+        image.SetNativeSize();
     }
 }
 

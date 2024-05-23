@@ -1,0 +1,42 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:cd75b2b61dee597bc320edcc2ab088d6:8dc2d2296992b33c5a7acf4f97b2f4a5:2ac7ca022ec890f5dc97c03bdd564165$
+#
+:format=40300
+:texture=icons.png
+:size=512x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=KeepTransparentPixels
+
+joystick-down;389;167;42;44; 0.5;0.5; 0;0;0;0
+joystick-east;433;167;44;44; 0.5;0.5; 0;0;0;0
+joystick-left-analog;1;121;44;44; 0.5;0.5; 0;0;0;0
+joystick-left;47;213;44;42; 0.5;0.5; 0;0;0;0
+joystick-north;47;121;44;44; 0.5;0.5; 0;0;0;0
+joystick-pause;1;221;44;34; 0.5;0.5; 0;0;0;0
+joystick-r2;93;213;44;42; 0.5;0.5; 0;0;0;0
+joystick-right-analog;93;121;44;44; 0.5227272727272727;0.5; 0;0;0;0
+joystick-right;139;213;44;42; 0.5;0.5; 0;0;0;0
+joystick-south;139;121;44;44; 0.5;0.5; 0;0;0;0
+joystick-up;185;121;42;44; 0.5;0.5; 0;0;0;0
+joystick-west;229;121;44;44; 0.5;0.5; 0;0;0;0
+key-a;185;213;42;42; 0.5;0.5; 0;0;0;0
+key-d;229;213;42;42; 0.5;0.5; 0;0;0;0
+key-down;273;213;42;42; 0.5;0.5; 0;0;0;0
+key-e;317;213;42;42; 0.5;0.5; 0;0;0;0
+key-esc;361;213;42;42; 0.5;0.5; 0;0;0;0
+key-left;405;213;42;42; 0.5;0.5; 0;0;0;0
+key-m;449;213;42;42; 0.5;0.5; 0;0;0;0
+key-r;1;169;42;42; 0.5;0.5; 0;0;0;0
+key-return;45;169;42;42; 0.5;0.5; 0;0;0;0
+key-right;89;169;42;42; 0.5;0.5; 0;0;0;0
+key-s;133;169;42;42; 0.5;0.5; 0;0;0;0
+key-shift;177;169;60;42; 0.5;0.5; 0;0;0;0
+key-space;239;169;60;42; 0.5;0.5; 0;0;0;0
+key-up;301;169;42;42; 0.5;0.5; 0;0;0;0
+key-w;345;169;42;42; 0.5;0.5; 0;0;0;0

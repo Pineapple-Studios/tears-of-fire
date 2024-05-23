@@ -23,6 +23,7 @@ tpsheetFileNames:
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.tpsheet
 - Assets/_Sprites/tutorial-b.tpsheet
 - Assets/_Sprites/tutorial-default.tpsheet
+- Assets/_Sprites/UI/Icons/icons.tpsheet
 - Assets/_Sprites/yke-boss-bossFight.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
@@ -49,9 +50,11 @@ textureFileNames:
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.png
 - Assets/_Sprites/tutorial-b.png
 - Assets/_Sprites/tutorial-default.png
+- Assets/_Sprites/UI/Icons/icons.png
 - Assets/_Sprites/yke-boss-bossFight.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

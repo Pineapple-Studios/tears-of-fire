@@ -27,77 +27,60 @@ public class InGameMenuController : MonoBehaviour
 
     private void OnEnable()
     {
-        if (_pih != null) _pih.KeyMissionDown += OpenMissionMenu;
+        if (_pih != null) _pih.KeyMissionDown += ToggleMissionMenu;
     }
 
     private void OnDisable()
     {
-        if (_pih != null) _pih.KeyMissionDown -= OpenMissionMenu;
+        if (_pih != null) _pih.KeyMissionDown -= ToggleMissionMenu;
     }
 
-    private void OpenMissionMenu()
+    /// <summary>
+    /// Open and close the Mission Panel
+    /// </summary>
+    private void ToggleMissionMenu()
     {
         if (_isDialogRunning) return;
 
-        if (!_missionCanvas.activeSelf)
-        {
-            InitMissionPanel();
-        }
+        // Vai abrir
+        if (!_missionCanvas.activeSelf) InitMissionPanel();
+        // Vai fechar
+        else CleanMissionPanel();
 
+        // Ação de abrir ou fechar
         _missionCanvas.SetActive(!_missionCanvas.activeSelf);
 
+        // Se aberto
         if (_missionCanvas.activeSelf) _mc.FocusAtFirstElement();
     }
 
+    /// <summary>
+    /// Instantiate all buttons
+    /// </summary>
     private void InitMissionPanel()
     {
-        _aus.UpdateMissions();
         List<Mission> missionList = _aus.GetMissionsRegistered();
-        if (missionList.Count == _buttonGroup.transform.childCount)
-        {
-            ReloadAllButtons(missionList);
-            return;
+
+        foreach (Mission mission in missionList) {
+            if (mission.IsCompleted) InstantiateMissionButton(mission, _completedButton);
+            else InstantiateMissionButton(mission, _missionButton);
         }
-
-        foreach (Mission mission in missionList) { InstantiateMissionButton(mission, _missionButton); }
     }
 
-    private void ReloadAllButtons(List<Mission> missionList)
+    /// <summary>
+    /// Remove all existent buttons on panel
+    /// </summary>
+    private void CleanMissionPanel()
     {
-        MissionButton[] btns = _buttonGroup.GetComponentsInChildren<MissionButton>();
-        foreach (MissionButton mb in btns)
+        foreach (Transform child in _buttonGroup.transform)
         {
-            foreach (Mission mission in missionList)
-            {
-                if (mb.MissionTitle == mission.MissionTitle)
-                {
-                    if (mission.IsCompleted)
-                    {
-                        RemoveAndInstantiate(mission, mb.gameObject);
-                    }
-                    else
-                    {
-                        mb.MissionTitle = mission.MissionTitle;
-                        mb.ShortDescription = mission.ShortDescription;
-                        mb.FullDescription = mission.FullDescription;
-                        mb.Thumbnail = mission.Thumbnail;
-                        mb.Image = mission.Image;
-                        mb.SetIsCompleted(mission.IsCompleted);
-                        mb.InitializeButton();
-                    }
-                }
-            }
+            Destroy(child.gameObject);
         }
-
-        if (_missionCanvas.activeSelf) _mc.FocusAtFirstElement();
     }
 
-    private void RemoveAndInstantiate(Mission mission, GameObject gameObject)
-    {
-        Destroy(gameObject);
-        InstantiateMissionButton(mission, _completedButton);
-    }
-
+    /// <summary>
+    /// Instantiate mission buttons
+    /// </summary>
     private void InstantiateMissionButton(Mission mission, GameObject _button)
     {
         GameObject tmpGo = Instantiate(_button, _buttonGroup.transform);

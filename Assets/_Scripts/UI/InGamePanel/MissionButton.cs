@@ -39,6 +39,7 @@ public class MissionButton : MonoBehaviour, ISelectHandler
         {
             _fieldImage = imgs[0].name == "img_check" ? imgs[0] : imgs[1];
             _fieldImage.sprite = Thumbnail;
+            _fieldImage.SetNativeSize();
         }
 
         TMP_Text[] texts = GetComponentsInChildren<TMP_Text>();

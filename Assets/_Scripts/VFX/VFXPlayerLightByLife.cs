@@ -19,6 +19,42 @@ public class VFXPlayerLightByLife : MonoBehaviour
 
     // Player Properties
     private PlayerProps _pp;
+    private bool _isIgoreSetup = false;
+
+    private void OnEnable()
+    {
+        StartBoss.OnStartedBoss += SetDefaultPresets;
+        LevelDataManager.onRestartElements += Restart;
+        TucanoRexProps.onTucanoRexDead += Restart;
+
+    }
+
+    private void OnDisable()
+    {
+        StartBoss.OnStartedBoss -= SetDefaultPresets;
+        LevelDataManager.onRestartElements -= Restart;
+        TucanoRexProps.onTucanoRexDead -= Restart;
+        PlayerProps.onPlayerDead += Restart;
+    }
+
+    private void Restart()
+    {
+        Debug.Log("FAll me");
+        _isIgoreSetup = false;
+    }
+
+    private void Restart(GameObject go) { Restart(); }
+
+    private void SetDefaultPresets()
+    {
+        _isIgoreSetup = true;
+        if (_vignette == null) return;
+
+        _vignette.center.value = new Vector2(0.5f, 0.5f);
+        _vignette.intensity.value = Mathf.Lerp(
+            _vignette.intensity.value, 0.1f, Time.deltaTime * _transitionSpeed
+        );
+    }
 
     void Start()
     {
@@ -43,6 +79,8 @@ public class VFXPlayerLightByLife : MonoBehaviour
 
     void Update()
     {
+        if (_isIgoreSetup) return;
+
         if (activeCamera != null)
         {
             Vector3 screenPosition = activeCamera.WorldToScreenPoint(transform.position);

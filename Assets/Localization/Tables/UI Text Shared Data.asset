@@ -108,7 +108,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 27152408809738240
-    m_Key: confirm
+    m_Key: navigate
     m_Metadata:
       m_Items: []
   - m_Id: 27152520269172736
@@ -188,7 +188,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 35466604580343808
-    m_Key: New Entry
+    m_Key: toConfirm
     m_Metadata:
       m_Items: []
   - m_Id: 35466706292215808
@@ -197,6 +197,62 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 37297678788759552
     m_Key: popUpQuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38367960534257664
+    m_Key: jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368411438714880
+    m_Key: movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368650514042880
+    m_Key: attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368999161368576
+    m_Key: npcInteraction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369159102763008
+    m_Key: missionMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369352598589440
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369591434842112
+    m_Key: powerUp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370098861740032
+    m_Key: attackDirection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370277086105600
+    m_Key: confirmMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370403603091456
+    m_Key: extraMove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38372149381468160
+    m_Key: confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38373564539637760
+    m_Key: devs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38414330058149888
+    m_Key: mix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38414532819193856
+    m_Key: voice
     m_Metadata:
       m_Items: []
   m_Metadata:

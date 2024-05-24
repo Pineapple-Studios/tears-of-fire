@@ -107,7 +107,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 27152408809738240
-    m_Localized: Confirmar
+    m_Localized: "Navega\xE7\xE3o"
     m_Metadata:
       m_Items: []
   - m_Id: 27152520269172736
@@ -198,6 +198,58 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 37297678788759552
     m_Localized: "Voc\xEA deseja sair?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38367960534257664
+    m_Localized: Pulo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368411438714880
+    m_Localized: "Movimenta\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368650514042880
+    m_Localized: Ataque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368999161368576
+    m_Localized: "Intera\xE7\xE3o com NPC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369159102763008
+    m_Localized: "Menu de Miss\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369591434842112
+    m_Localized: Potencializador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370098861740032
+    m_Localized: "Dire\xE7\xE3o do Ataque"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370277086105600
+    m_Localized: "Confirma\xE7\xE3o do menu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370403603091456
+    m_Localized: "Movimenta\xE7\xE3o extra"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38372149381468160
+    m_Localized: Confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38373564539637760
+    m_Localized: Desenvolvedores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38414330058149888
+    m_Localized: "Mixagem e Composi\xE7\xE3o:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38414532819193856
+    m_Localized: "Atua\xE7\xE3o de Voz"
     m_Metadata:
       m_Items: []
   references:

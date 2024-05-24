@@ -39,7 +39,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24400013054873600
-    m_Localized: Extras
+    m_Localized: Credits
     m_Metadata:
       m_Items: []
   - m_Id: 24400180072058880
@@ -107,7 +107,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 27152408809738240
-    m_Localized: Confirm
+    m_Localized: Navigate
     m_Metadata:
       m_Items: []
   - m_Id: 27152520269172736
@@ -198,6 +198,58 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 37297678788759552
     m_Localized: Do you want to quit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38367960534257664
+    m_Localized: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368411438714880
+    m_Localized: Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368650514042880
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38368999161368576
+    m_Localized: NPC Interaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369159102763008
+    m_Localized: Mission Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38369591434842112
+    m_Localized: Power Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370098861740032
+    m_Localized: Attack Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370277086105600
+    m_Localized: Confirm menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38370403603091456
+    m_Localized: Extra Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38372149381468160
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38373564539637760
+    m_Localized: Developers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38414330058149888
+    m_Localized: Mixing and Composition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38414532819193856
+    m_Localized: 'Voice Acting:'
     m_Metadata:
       m_Items: []
   references:

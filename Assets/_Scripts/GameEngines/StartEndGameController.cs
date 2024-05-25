@@ -26,20 +26,23 @@ public class StartEndGameController : MonoBehaviour
 
         if (CinemachineShakeManager.Instance != null)
             CinemachineShakeManager.Instance.StartManager();
-
-        // ToDo: 
-        // Black screen
-        // DisableOnGamePlayInputs
-        // Trasição de chamas
-        // EnableOnGamePlayInputs
     }
 
     public void ExitGame()
     {
-        Destroy(FeedbackAndDebugManager.Instance.gameObject);
-        Destroy(LevelDataManager.Instance.gameObject);
-        Destroy(FMODAudioManager.Instance.gameObject);
-        Destroy(CinemachineShakeManager.Instance.gameObject);
-        Destroy(ScenarioColorManager.Instance.gameObject);
+        if (FeedbackAndDebugManager.Instance != null)
+            Destroy(FeedbackAndDebugManager.Instance.gameObject);
+
+        if (LevelDataManager.Instance != null)
+            Destroy(LevelDataManager.Instance.gameObject);
+
+        if (FMODAudioManager.Instance != null)
+            Destroy(FMODAudioManager.Instance.gameObject);
+
+        if (CinemachineShakeManager.Instance != null)
+            Destroy(CinemachineShakeManager.Instance.gameObject);
+
+        if (ScenarioColorManager.Instance != null)
+            Destroy(ScenarioColorManager.Instance.gameObject);
     }
 }

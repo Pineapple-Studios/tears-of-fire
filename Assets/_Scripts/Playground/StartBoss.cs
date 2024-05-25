@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
 
 public class StartBoss : MonoBehaviour
 {
+    public static Action OnStartedBoss;
+
     [SerializeField]
     private TucanoRex _kwy;
 
@@ -23,6 +26,7 @@ public class StartBoss : MonoBehaviour
             }
 
             _kwy.StartTucanoRex();
+            OnStartedBoss();
             gameObject.SetActive(false);
         }
     }

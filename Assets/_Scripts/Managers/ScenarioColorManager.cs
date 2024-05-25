@@ -11,6 +11,8 @@ public class ScenarioColorManager : MonoBehaviour
     [SerializeField]
     private Transform _followTo;
     [SerializeField]
+    private Vector3 _offset;
+    [SerializeField]
     private GameObject _spotLight;
     [SerializeField]
     private GameObject _directionalLight;
@@ -64,9 +66,7 @@ public class ScenarioColorManager : MonoBehaviour
 
          
         
-        transform.position = new Vector3(_followTo.position.x, _followTo.position.y, transform.position.z);
-        // Debug.Log("Position changed");
-        
+        transform.position = new Vector3(_followTo.position.x, _followTo.position.y, transform.position.z) + _offset;
     }
 
     private void SetEnvironmentColor()

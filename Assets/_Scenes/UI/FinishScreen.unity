@@ -167,13 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2782acda9c5eda498fd7f54883ba8b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveUI:
-    Guid:
-      Data1: -2147236556
-      Data2: 1247379898
-      Data3: 623215755
-      Data4: -1453449455
-    Path: event:/MainMenu/SFX_uiMove
   splashScreen:
     Guid:
       Data1: 507453858
@@ -181,6 +174,27 @@ MonoBehaviour:
       Data3: -451737715
       Data4: -395556400
     Path: event:/Videos/Logo_Pineapple
+  moveUI:
+    Guid:
+      Data1: -2147236556
+      Data2: 1247379898
+      Data3: 623215755
+      Data4: -1453449455
+    Path: event:/MainMenu/SFX_uiMove
+  clickUI:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sldMove:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &122110425 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 517147400763149183, guid: 356de61ff20806942b9e29451da445d8, type: 3}
@@ -374,7 +388,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   masterVolume: 0.6
   ambienceVolume: 0.6
-  foleyVolume: 0.6
   musicVolume: 0.6
   sfxVolume: 0.6
   uiVolume: 0.6
@@ -928,6 +941,50 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+--- !u!1 &1508588254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1508588256}
+  - component: {fileID: 1508588255}
+  m_Layer: 0
+  m_Name: StartEndGamecontroller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1508588255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508588254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5761f992889980041b6328460aaacc48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1508588256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508588254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18026923, y: 0.8336992, z: 1443.8419}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1600174186 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3237732919818349568, guid: 356de61ff20806942b9e29451da445d8, type: 3}
@@ -1216,6 +1273,13 @@ MonoBehaviour:
       Data3: -729277559
       Data4: 1054692229
     Path: event:/Tutorial/Mecanicas/BreakbleBlock/SFX_BreakbleBlock_hit
+  lastHitBreakableWall:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   magnetism:
     Guid:
       Data1: -1688060705

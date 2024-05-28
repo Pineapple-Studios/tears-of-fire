@@ -129,6 +129,7 @@ public class TucanoRexProps : MonoBehaviour
         {
             foreach (Collider2D col in _colliderList) col.enabled = false;
             if (onTucanoRexDead != null) onTucanoRexDead(gameObject.transform.parent.gameObject);
+            _gamePlayAnimController.Play("clip_dead");
             _isDead = true;
         }
     }

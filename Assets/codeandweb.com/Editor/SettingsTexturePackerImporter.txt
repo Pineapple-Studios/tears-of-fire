@@ -8,6 +8,7 @@ tpsheetFileNames:
 - Assets/_Sprites/Enemies/crawler-0.tpsheet
 - Assets/_Sprites/Enemies/spider-flyer.tpsheet
 - Assets/_Sprites/Engines/BreakableBlock/rocks.tpsheet
+- Assets/_Sprites/NPC/Kwy/kwy.tpsheet
 - Assets/_Sprites/NPC/Oce/oce.tpsheet
 - Assets/_Sprites/NPC/Yke/yke-boss-default.tpsheet
 - Assets/_Sprites/NPC/Yke/yke-boss-talk.tpsheet
@@ -19,6 +20,7 @@ tpsheetFileNames:
 - Assets/_Sprites/Player/svart-1.tpsheet
 - Assets/_Sprites/Player/svart-2.tpsheet
 - Assets/_Sprites/Player/svart-anims.tpsheet
+- Assets/_Sprites/Player/svart-attack.tpsheet
 - Assets/_Sprites/Player/svart-idle-extra.tpsheet
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.tpsheet
 - Assets/_Sprites/tutorial-b.tpsheet
@@ -35,6 +37,7 @@ textureFileNames:
 - Assets/_Sprites/Enemies/crawler-0.png
 - Assets/_Sprites/Enemies/spider-flyer.png
 - Assets/_Sprites/Engines/BreakableBlock/rocks.png
+- Assets/_Sprites/NPC/Kwy/kwy.png
 - Assets/_Sprites/NPC/Oce/oce.png
 - Assets/_Sprites/NPC/Yke/yke-boss-default.png
 - Assets/_Sprites/NPC/Yke/yke-boss-talk.png
@@ -46,6 +49,7 @@ textureFileNames:
 - Assets/_Sprites/Player/svart-1.png
 - Assets/_Sprites/Player/svart-2.png
 - Assets/_Sprites/Player/svart-anims.png
+- Assets/_Sprites/Player/svart-attack.png
 - Assets/_Sprites/Player/svart-idle-extra.png
 - Assets/_Sprites/Scenario/Tutorial/scenario_assets.png
 - Assets/_Sprites/tutorial-b.png
@@ -54,6 +58,8 @@ textureFileNames:
 - Assets/_Sprites/yke-boss-bossFight.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
 - 
 - 
 - 

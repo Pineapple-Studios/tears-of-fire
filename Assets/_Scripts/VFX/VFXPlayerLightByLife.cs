@@ -26,7 +26,7 @@ public class VFXPlayerLightByLife : MonoBehaviour
         StartBoss.OnStartedBoss += SetDefaultPresets;
         LevelDataManager.onRestartElements += Restart;
         TucanoRexProps.onTucanoRexDead += Restart;
-
+        PlayerProps.onPlayerDead += Restart;
     }
 
     private void OnDisable()
@@ -34,12 +34,11 @@ public class VFXPlayerLightByLife : MonoBehaviour
         StartBoss.OnStartedBoss -= SetDefaultPresets;
         LevelDataManager.onRestartElements -= Restart;
         TucanoRexProps.onTucanoRexDead -= Restart;
-        PlayerProps.onPlayerDead += Restart;
+        PlayerProps.onPlayerDead -= Restart;
     }
 
     private void Restart()
     {
-        Debug.Log("FAll me");
         _isIgoreSetup = false;
     }
 
@@ -54,6 +53,7 @@ public class VFXPlayerLightByLife : MonoBehaviour
         _vignette.intensity.value = Mathf.Lerp(
             _vignette.intensity.value, 0.1f, Time.deltaTime * _transitionSpeed
         );
+        _vignette.rounded.value = false;
     }
 
     void Start()
@@ -96,6 +96,7 @@ public class VFXPlayerLightByLife : MonoBehaviour
     {
         if (_vignette == null || _pp == null) return;
 
+        if (!_vignette.rounded.value) _vignette.rounded.value = true;
         _vignette.intensity.value = Mathf.Lerp(
             _vignette.intensity.value,
             _maxLightRange - (UnitOfLight() * _pp.GetLifeByUI()),

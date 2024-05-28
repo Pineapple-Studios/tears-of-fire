@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Platform : MonoBehaviour
@@ -21,6 +22,22 @@ public class Platform : MonoBehaviour
 
     private void OnBecameInvisible()
     {
+        isApplicable = false;
+    }
+
+    private void OnEnable()
+    {
+        LevelDataManager.onRestartElements += OnRestart;
+    }
+
+    private void OnDisable()
+    {
+        LevelDataManager.onRestartElements -= OnRestart;
+    }
+
+    private void OnRestart()
+    {
+        _pc.IncreaseExternalVelocity(Vector2.zero);
         isApplicable = false;
     }
 

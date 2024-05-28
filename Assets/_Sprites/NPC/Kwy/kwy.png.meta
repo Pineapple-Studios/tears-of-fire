@@ -1,0 +1,2300 @@
+fileFormatVersion: 2
+guid: b07d56278e84970478a825be78c95aba
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kwy CalmTalk0001
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1664
+        width: 334
+        height: 383
+      alignment: 9
+      pivot: {x: 0.56586826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213d8e4e033a47d41a6f1ccb4340130d
+      internalID: -859881821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0002
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1664
+        width: 334
+        height: 383
+      alignment: 9
+      pivot: {x: 0.56586826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924603a9574f869468a098e94cbd98c0
+      internalID: 1327745898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0003
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1664
+        width: 334
+        height: 383
+      alignment: 9
+      pivot: {x: 0.56586826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98899025f243a4e4d80ca844cb21f32c
+      internalID: -847551057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0004
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1664
+        width: 334
+        height: 383
+      alignment: 9
+      pivot: {x: 0.56586826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf78d03ef8ec3240b0194af3f2c09f3
+      internalID: -168578864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0005
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1664
+        width: 334
+        height: 383
+      alignment: 9
+      pivot: {x: 0.56586826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612d0440f113a14c9d7f0aee425fe62
+      internalID: 271586254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0006
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1664
+        width: 334
+        height: 383
+      alignment: 9
+      pivot: {x: 0.56586826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66c9cb7f3def7e478e2d1dcb3df0a76
+      internalID: 1137367646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 509
+        width: 335
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5492537, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765d10674d7e37d4ba99b6328be7186c
+      internalID: 1412838992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 509
+        width: 335
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5492537, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397e1578492e9aa40a3be9397867c8f1
+      internalID: -271684356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 509
+        width: 335
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5492537, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e832635ad395d4b8b9377714ffe953
+      internalID: -703114765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0010
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1
+        width: 335
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5492537, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348faed4c756fff48a378dc826b914b8
+      internalID: 1598187369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0011
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1
+        width: 335
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5492537, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501eb66b5c933b94791a85c3e9ded15d
+      internalID: -1119936679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0012
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1
+        width: 335
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5492537, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce804aa18cc9c934eabaacd38269c4d3
+      internalID: -418647126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 340
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a712d3bc25c9b46ac36dde5966f1fe
+      internalID: -962002492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 340
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9c97397cf8a1846b35b2089895b005
+      internalID: -325341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 340
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddf164e79fd72e44903e541d19ec966
+      internalID: -2106655398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 340
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1f7ce3e2f282346a2446506612630e
+      internalID: 775326214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 340
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db35e1f1398147f4ca172070c37ee8c5
+      internalID: 854256618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 340
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4730c1aac5ccf4d8386607feab9e6c
+      internalID: 2095361615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0019
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 519
+        width: 318
+        height: 380
+      alignment: 9
+      pivot: {x: 0.42767295, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c928b34a4defff42830975d9bdae9df
+      internalID: -1485004857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0020
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 519
+        width: 318
+        height: 380
+      alignment: 9
+      pivot: {x: 0.42767295, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336bf77bcff79ae4cb7e39fedb5c7704
+      internalID: 1822826890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0021
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 519
+        width: 318
+        height: 380
+      alignment: 9
+      pivot: {x: 0.42767295, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea5a67c597d0ca4dad7487b4a1c46a1
+      internalID: 2112791570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0022
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 901
+        width: 318
+        height: 380
+      alignment: 9
+      pivot: {x: 0.42767295, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f29b514362a2364ab9bc57e2e00334e
+      internalID: -1962768949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0023
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 901
+        width: 318
+        height: 380
+      alignment: 9
+      pivot: {x: 0.42767295, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c876a4eb780d448ff8f862e67c7d1
+      internalID: 442010394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0024
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 901
+        width: 318
+        height: 380
+      alignment: 9
+      pivot: {x: 0.42767295, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0995ab787746cc148b991ed32694ee36
+      internalID: 776717829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0025
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1320
+        width: 303
+        height: 376
+      alignment: 9
+      pivot: {x: 0.37623763, y: 0.5093085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7407932dfa3c1449ec9bb633cf3637
+      internalID: 1240013373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0026
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1320
+        width: 303
+        height: 376
+      alignment: 9
+      pivot: {x: 0.37623763, y: 0.5093085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3edfa2da694be48a30903f63c4b8c3
+      internalID: 859964259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0027
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1320
+        width: 303
+        height: 376
+      alignment: 9
+      pivot: {x: 0.37623763, y: 0.5093085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf0da2aff2c5bc41994a9b964e1bbc7
+      internalID: 799961584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0028
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 588
+        width: 303
+        height: 376
+      alignment: 9
+      pivot: {x: 0.37623763, y: 0.5093085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64c7537e6c32804fa72b353a2178645
+      internalID: -1138016240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0029
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 588
+        width: 303
+        height: 376
+      alignment: 9
+      pivot: {x: 0.37623763, y: 0.5093085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb0f66484505ce46997134da5c6da5a
+      internalID: 1479614055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0030
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 588
+        width: 303
+        height: 376
+      alignment: 9
+      pivot: {x: 0.37623763, y: 0.5093085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea56732da6353b40a030145feb0c3b3
+      internalID: -737271264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0031
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 648
+        width: 311
+        height: 373
+      alignment: 9
+      pivot: {x: 0.40836012, y: 0.51340485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a87202c37c7a4ba63900f82323062
+      internalID: -1411558991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0032
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 648
+        width: 311
+        height: 373
+      alignment: 9
+      pivot: {x: 0.40836012, y: 0.51340485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7943e58b980649c46ba5286dccfebfa5
+      internalID: 2091894736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0033
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 648
+        width: 311
+        height: 373
+      alignment: 9
+      pivot: {x: 0.40836012, y: 0.51340485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6199d1c900838d4b909825849975f39
+      internalID: -1224764304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0034
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 377
+        width: 311
+        height: 373
+      alignment: 9
+      pivot: {x: 0.40836012, y: 0.51340485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cde1ec66202cab4691c9a55085e7c11
+      internalID: 1603964044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0035
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 377
+        width: 311
+        height: 373
+      alignment: 9
+      pivot: {x: 0.40836012, y: 0.51340485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6682892e5fe61409a2a2f4e84bf70b
+      internalID: -1993055755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0036
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 377
+        width: 311
+        height: 373
+      alignment: 9
+      pivot: {x: 0.40836012, y: 0.51340485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31b6d0ddbbc0b44db3bfeac7a61542e
+      internalID: 352805341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0037
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1665
+        width: 331
+        height: 382
+      alignment: 9
+      pivot: {x: 0.46827793, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1809eefbf3593a49848d1b9d582c76d
+      internalID: -1828226713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0038
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1665
+        width: 331
+        height: 382
+      alignment: 9
+      pivot: {x: 0.46827793, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27276d0cef7893c4884064f0a69ff518
+      internalID: -1965853610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0039
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1665
+        width: 331
+        height: 382
+      alignment: 9
+      pivot: {x: 0.46827793, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c515d92b987924383ced9f73db4768
+      internalID: -1473531496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0040
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 927
+        width: 331
+        height: 382
+      alignment: 9
+      pivot: {x: 0.46827793, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061dffe3abde62448ba7157c39d83890
+      internalID: 512960433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0041
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 927
+        width: 331
+        height: 382
+      alignment: 9
+      pivot: {x: 0.46827793, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cd488c8fff59640ab07c2a99f9373c
+      internalID: 1035772136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0042
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 927
+        width: 331
+        height: 382
+      alignment: 9
+      pivot: {x: 0.46827793, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84030f5e7e1bc64aa7ccc8d340dc01f
+      internalID: -827401235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1279
+        width: 350
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5314286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39efddab7ee9d48438afcd1cd22086d4
+      internalID: -704141414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1279
+        width: 350
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5314286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1368a0577f8a54ca221d6f24245ece
+      internalID: 2049316562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1279
+        width: 350
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5314286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22845d4fb321b6e48929a8f95674cd74
+      internalID: 317777012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1664
+        width: 350
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5314286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e04eae8802a9f44b31028efe5584a0
+      internalID: -345282790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1664
+        width: 350
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5314286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c635f996104310845ba50115d3c0c1c4
+      internalID: -1548337087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy CalmTalk0048
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1664
+        width: 350
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5314286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ece17320bd9b9d409b6f64c1db9ab3f
+      internalID: -59317381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0001
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 759
+        width: 333
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edda416d765ebe4cbea1c2edfb60c45
+      internalID: 1736426610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0002
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 759
+        width: 333
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ace20538b41c7438921aafaa26fc0e
+      internalID: -1181152256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0003
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 759
+        width: 333
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4c88f67cfc26641b44c76e55944e20
+      internalID: 1215396514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0004
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1090
+        width: 335
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5656716, y: 0.5026247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056edd8c9c9d1f54daecd8aa9b574944
+      internalID: 1999496881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0005
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1090
+        width: 335
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5656716, y: 0.5026247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4208a8ad074dd7943b05264ca9afd031
+      internalID: 1240288673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0006
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1090
+        width: 335
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5656716, y: 0.5026247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c2893175b33446bdcb4c0cb25202f
+      internalID: 438287079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0007
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4347181, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc0c17ff12c2d41beb21b53a67a54a
+      internalID: -2065867940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0008
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4347181, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d7d09b61f6217499201e1bbf932373
+      internalID: 1331190269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0009
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4347181, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b71c5ab56754014cbb907830c000bb1
+      internalID: 1369777289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0010
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1423
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88fc6290e7e73b4cbada7fa318acfd6
+      internalID: -1128471450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0011
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1423
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37200c27c520904439090302ddfe88d3
+      internalID: 1311339313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0012
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1423
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b600cb7867bf94dae9ae8d2cfc97c3
+      internalID: -209863594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0013
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 581
+        width: 337
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43768546, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312e6682e2443c40b077f80a13ae065
+      internalID: 426607169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0014
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 581
+        width: 337
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43768546, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb80ac1af510d8641907981cb504cfb4
+      internalID: 952968757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0015
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 581
+        width: 337
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43768546, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138127d4b96b8a3428f0ea396b5a056e
+      internalID: -1061064950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0016
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1553
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be81ba74c9cf6e4684208a83bc0422f
+      internalID: -563228620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0017
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1553
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181be975ac59cca42809c39ef4f1cc8d
+      internalID: 616985994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0018
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1553
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cc5ca3d998d7a439c4da643f8d23b3
+      internalID: 2010954479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0019
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1
+        width: 340
+        height: 374
+      alignment: 9
+      pivot: {x: 0.44558823, y: 0.5120321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f714be904696754285e354300ac5fb2
+      internalID: -806513431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0020
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1
+        width: 340
+        height: 374
+      alignment: 9
+      pivot: {x: 0.44558823, y: 0.5120321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4adf2e455423b0419aee9792f35746b
+      internalID: 270979968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0021
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1
+        width: 340
+        height: 374
+      alignment: 9
+      pivot: {x: 0.44558823, y: 0.5120321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d6fc93b01182a458e89ced16d4759c
+      internalID: -549499875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0022
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1023
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb86e3be54b9d6543899baeec33d2db9
+      internalID: -1993217406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0023
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1023
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb3efd1b5fdc7a43925f516f60b25af
+      internalID: -1027909483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0024
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1023
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb544adff3db714c8bb64fe5ee867b1
+      internalID: -139771610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0025
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1153
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da4541cac497174f8852e88971242ba
+      internalID: 678326912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0026
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1153
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4261426b637e5478c4c8f6ea917961
+      internalID: -197559780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0027
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1153
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0778739c0672a5748ad1ed70e033c438
+      internalID: 135929302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0028
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 338
+        width: 337
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43768546, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834d065860ebdf40b56e2df7c803c23
+      internalID: 1635241970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0029
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 338
+        width: 337
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43768546, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2887a592b5daf443814d0a7dee916b4
+      internalID: 1060878298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0030
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 338
+        width: 337
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43768546, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4da5bbab531de44b9cda731cc1a7a18
+      internalID: -1366438774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0031
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1023
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857c39cfd7114b543aef8602c1eb9c4b
+      internalID: -310639386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0032
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1023
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f63100489d1c40b9453f1416331b2
+      internalID: 213408076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0033
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1023
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36b200c24a5ac046a4358d28e1c813b
+      internalID: 1475588022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0034
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1
+        width: 340
+        height: 374
+      alignment: 9
+      pivot: {x: 0.44558823, y: 0.5120321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c6dab466c93454b88bf2c2297e019b
+      internalID: 1283022710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0035
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1
+        width: 340
+        height: 374
+      alignment: 9
+      pivot: {x: 0.44558823, y: 0.5120321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfd75f6dec69ad4bb311c1dc81d5efd
+      internalID: -127463483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0036
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1
+        width: 340
+        height: 374
+      alignment: 9
+      pivot: {x: 0.44558823, y: 0.5120321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edef5526d53cca4fb8e2643a528edbc
+      internalID: -1402857823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0037
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1283
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4be9ea05b8014daf0ae1387e6687b
+      internalID: 1876565486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0038
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1283
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc80c3997ac35a44883f0fb034ead39
+      internalID: 1277319334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0039
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1283
+        width: 331
+        height: 380
+      alignment: 9
+      pivot: {x: 0.4305136, y: 0.5039474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ae534499009b418323592b4fad5f9
+      internalID: -934652800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0040
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1
+        width: 335
+        height: 379
+      alignment: 9
+      pivot: {x: 0.43432835, y: 0.50527704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f7939471385b448a61a1945a0b798c
+      internalID: -2073851984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0041
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1
+        width: 335
+        height: 379
+      alignment: 9
+      pivot: {x: 0.43432835, y: 0.50527704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f1d1407bb97db4a83d274fa387636b
+      internalID: 400914322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0042
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1
+        width: 335
+        height: 379
+      alignment: 9
+      pivot: {x: 0.43432835, y: 0.50527704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885cf74fad4cb9240b773713110d1551
+      internalID: 860835043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4347181, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ef6fd810ea48648b4b9c274845c37a
+      internalID: 1376301899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4347181, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4058c42cde0f0894ba9b774df7c9642d
+      internalID: 1977949481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4347181, y: 0.5013089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c4d2a58ddc3844f94dd5d27f9c2f90
+      internalID: -276277500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0046
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1313
+        width: 335
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5656716, y: 0.5026247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1498e61444ca654a85f320a59e75dc5
+      internalID: 1642006033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0047
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1313
+        width: 335
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5656716, y: 0.5026247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87d61bed6adc3d49917de8710c72a05
+      internalID: 886269702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0048
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1313
+        width: 335
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5656716, y: 0.5026247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4228d31f1732924c903ff03ca79208e
+      internalID: -1054233514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwy_Angry_Talk0049
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1664
+        width: 333
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd5c4d8ae4054f4c9abfa3617b5a5d6
+      internalID: -1539136733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 27d47809426bd4c4d98db6c522b33a5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kwy CalmTalk0001: -859881821
+      Kwy CalmTalk0002: 1327745898
+      Kwy CalmTalk0003: -847551057
+      Kwy CalmTalk0004: -168578864
+      Kwy CalmTalk0005: 271586254
+      Kwy CalmTalk0006: 1137367646
+      Kwy CalmTalk0007: 1412838992
+      Kwy CalmTalk0008: -271684356
+      Kwy CalmTalk0009: -703114765
+      Kwy CalmTalk0010: 1598187369
+      Kwy CalmTalk0011: -1119936679
+      Kwy CalmTalk0012: -418647126
+      Kwy CalmTalk0013: -962002492
+      Kwy CalmTalk0014: -325341
+      Kwy CalmTalk0015: -2106655398
+      Kwy CalmTalk0016: 775326214
+      Kwy CalmTalk0017: 854256618
+      Kwy CalmTalk0018: 2095361615
+      Kwy CalmTalk0019: -1485004857
+      Kwy CalmTalk0020: 1822826890
+      Kwy CalmTalk0021: 2112791570
+      Kwy CalmTalk0022: -1962768949
+      Kwy CalmTalk0023: 442010394
+      Kwy CalmTalk0024: 776717829
+      Kwy CalmTalk0025: 1240013373
+      Kwy CalmTalk0026: 859964259
+      Kwy CalmTalk0027: 799961584
+      Kwy CalmTalk0028: -1138016240
+      Kwy CalmTalk0029: 1479614055
+      Kwy CalmTalk0030: -737271264
+      Kwy CalmTalk0031: -1411558991
+      Kwy CalmTalk0032: 2091894736
+      Kwy CalmTalk0033: -1224764304
+      Kwy CalmTalk0034: 1603964044
+      Kwy CalmTalk0035: -1993055755
+      Kwy CalmTalk0036: 352805341
+      Kwy CalmTalk0037: -1828226713
+      Kwy CalmTalk0038: -1965853610
+      Kwy CalmTalk0039: -1473531496
+      Kwy CalmTalk0040: 512960433
+      Kwy CalmTalk0041: 1035772136
+      Kwy CalmTalk0042: -827401235
+      Kwy CalmTalk0043: -704141414
+      Kwy CalmTalk0044: 2049316562
+      Kwy CalmTalk0045: 317777012
+      Kwy CalmTalk0046: -345282790
+      Kwy CalmTalk0047: -1548337087
+      Kwy CalmTalk0048: -59317381
+      Kwy_Angry_Talk0001: 1736426610
+      Kwy_Angry_Talk0002: -1181152256
+      Kwy_Angry_Talk0003: 1215396514
+      Kwy_Angry_Talk0004: 1999496881
+      Kwy_Angry_Talk0005: 1240288673
+      Kwy_Angry_Talk0006: 438287079
+      Kwy_Angry_Talk0007: -2065867940
+      Kwy_Angry_Talk0008: 1331190269
+      Kwy_Angry_Talk0009: 1369777289
+      Kwy_Angry_Talk0010: -1128471450
+      Kwy_Angry_Talk0011: 1311339313
+      Kwy_Angry_Talk0012: -209863594
+      Kwy_Angry_Talk0013: 426607169
+      Kwy_Angry_Talk0014: 952968757
+      Kwy_Angry_Talk0015: -1061064950
+      Kwy_Angry_Talk0016: -563228620
+      Kwy_Angry_Talk0017: 616985994
+      Kwy_Angry_Talk0018: 2010954479
+      Kwy_Angry_Talk0019: -806513431
+      Kwy_Angry_Talk0020: 270979968
+      Kwy_Angry_Talk0021: -549499875
+      Kwy_Angry_Talk0022: -1993217406
+      Kwy_Angry_Talk0023: -1027909483
+      Kwy_Angry_Talk0024: -139771610
+      Kwy_Angry_Talk0025: 678326912
+      Kwy_Angry_Talk0026: -197559780
+      Kwy_Angry_Talk0027: 135929302
+      Kwy_Angry_Talk0028: 1635241970
+      Kwy_Angry_Talk0029: 1060878298
+      Kwy_Angry_Talk0030: -1366438774
+      Kwy_Angry_Talk0031: -310639386
+      Kwy_Angry_Talk0032: 213408076
+      Kwy_Angry_Talk0033: 1475588022
+      Kwy_Angry_Talk0034: 1283022710
+      Kwy_Angry_Talk0035: -127463483
+      Kwy_Angry_Talk0036: -1402857823
+      Kwy_Angry_Talk0037: 1876565486
+      Kwy_Angry_Talk0038: 1277319334
+      Kwy_Angry_Talk0039: -934652800
+      Kwy_Angry_Talk0040: -2073851984
+      Kwy_Angry_Talk0041: 400914322
+      Kwy_Angry_Talk0042: 860835043
+      Kwy_Angry_Talk0043: 1376301899
+      Kwy_Angry_Talk0044: 1977949481
+      Kwy_Angry_Talk0045: -276277500
+      Kwy_Angry_Talk0046: 1642006033
+      Kwy_Angry_Talk0047: 886269702
+      Kwy_Angry_Talk0048: -1054233514
+      Kwy_Angry_Talk0049: -1539136733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

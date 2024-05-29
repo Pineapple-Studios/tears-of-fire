@@ -1,3 +1,5 @@
+using FMOD.Studio;
+using FMODUnity;
 using System;
 using UnityEngine;
 
@@ -53,7 +55,7 @@ public class Platform : MonoBehaviour
         // Start
         if (isApplicable && isApplingForce && _pph.IsInPlatform()) UpdateVelocity();
         // Stop
-        if (isApplingForce && !_pph.IsInPlatform()) isApplingForce = false;
+        if (isApplingForce && !_pph.IsInPlatform()) isApplingForce = false; 
     }
 
     private void UpdateVelocity()
@@ -78,7 +80,7 @@ public class Platform : MonoBehaviour
 
     public void StartPlatformMoviment()
     {
-        
+
     }
 
     /// <summary>

@@ -105,6 +105,21 @@ public class FMODAudioManager : MonoBehaviour
         RuntimeManager.PlayOneShot(sound, worldPos);
     }
 
+    public EventInstance PlayOneShotWithParameters(string eventReference, Vector3 position, params (string name, float value)[] parameters)
+    {
+        EventInstance instance = RuntimeManager.CreateInstance(eventReference);
+
+        foreach (var (name, value) in parameters)
+        {
+            instance.setParameterByName(name, value);
+        }
+
+        instance.set3DAttributes(position.To3DAttributes());
+        instance.start();
+        //instance.release();
+        return instance;
+    }
+
     public EventInstance CreateInstance(EventReference eventReference)
     {
         EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);

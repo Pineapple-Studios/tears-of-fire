@@ -79,6 +79,8 @@ public class MagneticHandler : MonoBehaviour
             FeedbackManagerHandler.Instance.NegativeFeedback();
             return;
         }
+        
+        
 
         _timer = 0f;
         _platformAnimator.SetInteger(STEP_STATE_NAME, step + 1);

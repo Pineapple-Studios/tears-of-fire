@@ -252,6 +252,34 @@ MonoBehaviour:
     m_Localized: "Atua\xE7\xE3o de Voz"
     m_Metadata:
       m_Items: []
+  - m_Id: 39817538764705792
+    m_Localized: "Miss\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39817777944891392
+    m_Localized: para Navegar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39819311000752128
+    m_Localized: Mover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39819602261610496
+    m_Localized: Ativar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39819930327486464
+    m_Localized: para continuar...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39820637604581376
+    m_Localized: "Coleta da chave da pris\xE3o do Kwy  &  +1 de vida m\xE1xima"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39821574863753216
+    m_Localized: para dar dash
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

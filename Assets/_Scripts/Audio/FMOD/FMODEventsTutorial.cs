@@ -34,6 +34,7 @@ public class FMODEventsTutorial : MonoBehaviour
 
     [Header("Magnetism")]
     [SerializeField] public EventReference magnetism;
+    //[SerializeField] public EventReference endMagnetism;
 
     [Header("LifeItem")]
     [SerializeField] public EventReference catchLifeItem;

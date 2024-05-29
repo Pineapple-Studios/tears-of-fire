@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 105
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9128565520969659761
 MonoBehaviour:
@@ -51,7 +51,7 @@ MonoBehaviour:
       Data2: 1287063919
       Data3: -1581331315
       Data4: -1465368045
-    Path: event:/TutorialMusic
+    Path: event:/Tutorial/Music_Tutorial/OST_Ambience-Cave
   Event: 
   PlayEvent: 1
   StopEvent: 3

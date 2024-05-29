@@ -70,7 +70,6 @@ public class Platform : MonoBehaviour
         _pc.IncreaseExternalVelocity(new Vector2(vel.x, 0));
     }
 
-    EventInstance sound;
     /// <summary>
     /// Método chamado ao acabar o movimento da animação
     /// </summary>
@@ -82,12 +81,6 @@ public class Platform : MonoBehaviour
     public void StartPlatformMoviment()
     {
 
-    }
-
-    public void ReleaseSound()
-    {
-        sound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        sound.release();
     }
 
     /// <summary>

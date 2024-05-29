@@ -16,12 +16,6 @@ public class MagneticHitElement : MonoBehaviour
 
     public void OnNext()
     {
-        //if (FMODAudioManager.Instance != null)
-        //    FMODAudioManager.Instance.PlayOneShot(
-        //        FMODEventsTutorial.Instance.magnetism, 
-        //        this.transform.position
-        //    );
-
         _anim.SetTrigger("hasHitted");
         _ah.SetCompleteState(_ah.TUTORIAL_TURN_ON);
         _mh.OnNextStep();

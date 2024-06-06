@@ -100,13 +100,13 @@ public class LocalStorage
 
 
     #region FMOD Mixers
-    private const string GENERAL_MIXER = "@TOF/fmod-general-mixer";
-    private const string AMBIENCE_MIXER = "@TOF/fmod-ambience-mixer";
+    private const string GENERAL_MIXER = "@TOF-fmod-general-mixer";
+    private const string AMBIENCE_MIXER = "@TOF-fmod-ambience-mixer";
     //private const string FOLEY_MIXER = "@TOF/fmod-foley-mixer";
-    private const string MUSIC_MIXER = "@TOF/fmod-music-mixer";
-    private const string SFX_MIXER = "@TOF/fmod-sfx-mixer";
-    private const string UI_MIXER = "@TOF/fmod-ui-mixer";
-    private const string VOICE_MIXER = "@TOF/fmod-voice-mixer";
+    private const string MUSIC_MIXER = "@TOF-fmod-music-mixer";
+    private const string SFX_MIXER = "@TOF-fmod-sfx-mixer";
+    private const string UI_MIXER = "@TOF-fmod-ui-mixer";
+    private const string VOICE_MIXER = "@TOF-fmod-voice-mixer";
 
     //public static string FoleyMixerKey() => FOLEY_MIXER;
     public static string AmbienceMixerKey() => AMBIENCE_MIXER;

@@ -3,6 +3,7 @@ using FMODUnity;
 using FMOD.Studio;
 using UnityEngine.Rendering;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class FMODAudioManager : MonoBehaviour
 {
@@ -12,25 +13,25 @@ public class FMODAudioManager : MonoBehaviour
 
     [Header("Volume")]
     [Range(0,1)]
-    public float masterVolume = 0.6f;
+    public float masterVolume;
 
     [Range(0, 1)]
-    public float ambienceVolume = 0.6f;
+    public float ambienceVolume;
 
     //[Range(0, 1)]
     //public float foleyVolume = 0.6f;
 
     [Range(0, 1)]
-    public float musicVolume = 0.6f;
+    public float musicVolume;
 
     [Range(0, 1)]
-    public float sfxVolume = 0.6f;
+    public float sfxVolume;
 
     [Range(0, 1)]
-    public float uiVolume = 0.6f;
+    public float uiVolume;
 
     [Range(0, 1)]
-    public float voiceVolume = 0.6f;
+    public float voiceVolume;
 
     private Bus _masterBus;
     private Bus _ambienceBus;
@@ -42,12 +43,16 @@ public class FMODAudioManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null)
+        if (Instance != null && Instance != this)
         {
-            Debug.Log("Mais de um Audio Manager");
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
         }
 
-        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
         eventInstances = new List<EventInstance>();
 
@@ -58,6 +63,7 @@ public class FMODAudioManager : MonoBehaviour
         _sfxBus = RuntimeManager.GetBus("bus:/SFX");
         _uiBus = RuntimeManager.GetBus("bus:/UI");
         _voiceBus = RuntimeManager.GetBus("bus:/Voice");
+
     }
 
     private void Start()
@@ -86,6 +92,7 @@ public class FMODAudioManager : MonoBehaviour
     private const float DEFAULT_VALUE = 0.6f;
     public void SetInitialValues()
     {
+        Debug.Log(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
         _masterBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
         _ambienceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.AmbienceMixerKey(), DEFAULT_VALUE));
         //_foleyBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.FoleyMixerKey(), DEFAULT_VALUE));

@@ -23,7 +23,7 @@ MonoBehaviour:
     overrideState: 1
     value: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   center:
-    overrideState: 0
+    overrideState: 1
     value: {x: 0.48, y: 0.13}
   intensity:
     overrideState: 1

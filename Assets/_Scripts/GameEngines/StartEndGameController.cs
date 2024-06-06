@@ -36,8 +36,8 @@ public class StartEndGameController : MonoBehaviour
         if (LevelDataManager.Instance != null)
             Destroy(LevelDataManager.Instance.gameObject);
 
-        if (FMODAudioManager.Instance != null)
-            Destroy(FMODAudioManager.Instance.gameObject);
+        //if (FMODAudioManager.Instance != null)
+        //    Destroy(FMODAudioManager.Instance.gameObject);
 
         if (CinemachineShakeManager.Instance != null)
             Destroy(CinemachineShakeManager.Instance.gameObject);

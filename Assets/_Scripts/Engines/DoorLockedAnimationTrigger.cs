@@ -9,6 +9,7 @@ public class DoorLockedAnimationTrigger : MonoBehaviour
     {
         gameObject.SetActive(false);
         LevelDataManager.Instance.SetKwyRoomKey(false);
+        
     }
 
     public void PutKey()
@@ -16,5 +17,6 @@ public class DoorLockedAnimationTrigger : MonoBehaviour
         _sceneKey.SetActive(true);
         CinemachineShakeManager.Instance.ShakeCamera(2, 2);
         RumbleManager.instance.RumbleOpenDoor();
+        FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.door, this.transform.position);
     }
 }

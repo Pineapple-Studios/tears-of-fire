@@ -280,6 +280,10 @@ MonoBehaviour:
     m_Localized: to dash
     m_Metadata:
       m_Items: []
+  - m_Id: 42899870090432512
+    m_Localized: Door locked and Svart doesn't has the key!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

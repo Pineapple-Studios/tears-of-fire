@@ -280,6 +280,10 @@ MonoBehaviour:
     m_Localized: para dar dash
     m_Metadata:
       m_Items: []
+  - m_Id: 42899870090432512
+    m_Localized: "Porta fechada e Svart n\xE3o possui a chave!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

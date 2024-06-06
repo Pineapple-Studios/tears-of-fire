@@ -283,6 +283,10 @@ MonoBehaviour:
     m_Key: toDash
     m_Metadata:
       m_Items: []
+  - m_Id: 42899870090432512
+    m_Key: bossKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

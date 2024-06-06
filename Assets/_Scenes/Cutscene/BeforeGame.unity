@@ -304,6 +304,7 @@ GameObject:
   - component: {fileID: 641046595}
   - component: {fileID: 641046596}
   - component: {fileID: 641046597}
+  - component: {fileID: 641046598}
   m_Layer: 5
   m_Name: Cutscene
   m_TagString: Untagged
@@ -339,7 +340,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641046594}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4f3c6476070cec745b15baa4a46e19c8, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 82a3299a6681d3241845e2feceaa6da4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 408031446}
@@ -463,6 +464,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &641046598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641046594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cdc1b450f0d0f469f9b7bf730342e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cutsceneEn: {fileID: 32900000, guid: ceb9e29e502153f43adac93a0d7c4754, type: 3}
+  cutscenePt: {fileID: 32900000, guid: 82a3299a6681d3241845e2feceaa6da4, type: 3}
 --- !u!1 &1035433060
 GameObject:
   m_ObjectHideFlags: 0

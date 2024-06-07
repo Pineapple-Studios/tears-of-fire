@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -17,7 +16,6 @@ public class CutsceneJumper : MonoBehaviour
     private InputActionAsset _actionAsset;
 
     private InputActionMap _uiMap;
-
     private InputAction _confirm;
 
     private void Awake()
@@ -41,6 +39,16 @@ public class CutsceneJumper : MonoBehaviour
 
     void Start()
     {
+        if (SceneManager.GetActiveScene().name == "BeforeGame")
+        {
+            FMODAudioManager.Instance.PlayIntro(FMODEventsUI.Instance.voiceActing);
+            FMODAudioManager.Instance.PlayIntro(FMODEventsUI.Instance.introST);
+        }
+        else if (SceneManager.GetActiveScene().name == "AfterGame")
+        {
+            FMODAudioManager.Instance.PlayFinal(FMODEventsUI.Instance.finalST);
+        }
+
         cutscene.loopPointReached += CutsceneHasEnded;
     }
 
@@ -50,11 +58,14 @@ public class CutsceneJumper : MonoBehaviour
     private void JumpCutscene()
     {
         if (_transitionAnimator != null) _transitionAnimator.SetBool("is_FireTr", true);
+            FMODAudioManager.Instance.StopSound();
     }
 
     public void OnEndAnimation()
     {
         if (SceneManager.GetActiveScene().name == "BeforeGame")
             SceneManager.LoadScene("Tutorial");
+        else if (SceneManager.GetActiveScene().name == "AfterGame")
+            SceneManager.LoadScene("FinishScreen");
     }
 }

@@ -1,3 +1,5 @@
+using FMOD.Studio;
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +11,6 @@ public class TransitionFireBehaviour : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
-    //    
     //}
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -21,12 +22,15 @@ public class TransitionFireBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        FMODAudioManager.Instance.StopSound();
+
         BtnGoToScreen btnScene = FindObjectOfType<BtnGoToScreen>();
         if (btnScene != null)
         {
             string sceneName = btnScene.SceneName;
+
             Debug.Log(sceneName);
-            if (string.IsNullOrEmpty(sceneName)) { sceneName = "Tutorial"; }
+            if (string.IsNullOrEmpty(sceneName)) { sceneName = "Tutorial";}
             SceneManager.LoadScene(sceneName);
         }
 

@@ -17,6 +17,7 @@ public class DoorLockedAnimationTrigger : MonoBehaviour
         _sceneKey.SetActive(true);
         CinemachineShakeManager.Instance.ShakeCamera(2, 2);
         RumbleManager.instance.RumbleOpenDoor();
+        //FMODAudioManager.Instance.musicVolume = 0;
         FMODAudioManager.Instance.PlayOneShot(FMODEventsTutorial.Instance.door, this.transform.position);
     }
 }

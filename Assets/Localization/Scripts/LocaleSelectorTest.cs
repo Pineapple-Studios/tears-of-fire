@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class LocaleSelectorTest : MonoBehaviour
 {
-    [SerializeField] GameObject loading;
+    [SerializeField] Animator anim_loading;
 
     private bool _active = false;
     private bool _defined = false;
@@ -16,8 +16,7 @@ public class LocaleSelectorTest : MonoBehaviour
     {
         if (_defined == true && SceneManager.GetActiveScene().name == "SelectScreen")
         { 
-            SceneManager.LoadScene("BrightnessScreen"); 
-            loading.SetActive(true);
+            anim_loading.Play("clip_Loading");
         }
     }
 

@@ -9,6 +9,8 @@ public class JumpScene : MonoBehaviour
     [Header("Joystick Inputs")]
     [SerializeField] public InputActionAsset _actionAsset;
 
+    [SerializeField] Animator anim;
+
     private InputActionMap _uiMap;
 
     private InputAction _confirm;
@@ -37,7 +39,7 @@ public class JumpScene : MonoBehaviour
         if(SceneManager.GetActiveScene().name == "BrightnessScreen")
         {
             FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.clickUI, this.transform.position);
-            SceneManager.LoadScene("MainMenu");
+            anim.Play("clip_Loading");
         }
     }
 

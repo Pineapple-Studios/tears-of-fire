@@ -47,10 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   masterVolume: 0.6
   ambienceVolume: 0.6
-  foleyVolume: 0.6
   musicVolume: 0.6
   sfxVolume: 0.6
-  uiVolume: 0.6
   voiceVolume: 0.6
 --- !u!1 &8112111122728877145
 GameObject:
@@ -103,6 +101,13 @@ MonoBehaviour:
       Data3: -451737715
       Data4: -395556400
     Path: event:/Videos/Logo_Pineapple
+  forBetterExp:
+    Guid:
+      Data1: 173710163
+      Data2: 1242639073
+      Data3: 736016560
+      Data4: 1727710352
+    Path: event:/Videos/SFX_BetterExp
   moveUI:
     Guid:
       Data1: -2147236556
@@ -124,3 +129,24 @@ MonoBehaviour:
       Data3: -411810626
       Data4: 1087161232
     Path: event:/MainMenu/SFX_Slider
+  voiceActing:
+    Guid:
+      Data1: 1047080721
+      Data2: 1235504963
+      Data3: -1375521374
+      Data4: 333502644
+    Path: "event:/Videos/Cutscene/Cutscene_Introdu\xE7\xE3o/Narra\xE7\xE3o"
+  introST:
+    Guid:
+      Data1: 155616718
+      Data2: 1094160624
+      Data3: 1970420918
+      Data4: -37563867
+    Path: "event:/Videos/Cutscene/Cutscene_Introdu\xE7\xE3o/SoundTrack"
+  finalST:
+    Guid:
+      Data1: -184212813
+      Data2: 1313920409
+      Data3: 2011980458
+      Data4: -1460393903
+    Path: event:/Videos/Cutscene/Cutscene_Final

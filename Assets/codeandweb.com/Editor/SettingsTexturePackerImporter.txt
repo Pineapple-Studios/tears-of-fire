@@ -5,6 +5,10 @@ tpsheetFileNames:
 - Assets/_Sprites/boss/kwy-sectionC.tpsheet
 - Assets/_Sprites/boss/kwy-sectionD.tpsheet
 - Assets/_Sprites/boss/kwy-sectionE.tpsheet
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexdefault.tpsheet
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexsheet_03.tpsheet
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexsheet_04.tpsheet
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexsheet_2.tpsheet
 - Assets/_Sprites/Enemies/crawler-0.tpsheet
 - Assets/_Sprites/Enemies/spider-flyer.tpsheet
 - Assets/_Sprites/Engines/BreakableBlock/rocks.tpsheet
@@ -34,6 +38,10 @@ textureFileNames:
 - Assets/_Sprites/boss/kwy-sectionC.png
 - Assets/_Sprites/boss/kwy-sectionD.png
 - Assets/_Sprites/boss/kwy-sectionE.png
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexdefault.png
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexsheet_03.png
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexsheet_04.png
+- Assets/_Sprites/boss/tucanorex-60fps/tucanorexsheet_2.png
 - Assets/_Sprites/Enemies/crawler-0.png
 - Assets/_Sprites/Enemies/spider-flyer.png
 - Assets/_Sprites/Engines/BreakableBlock/rocks.png
@@ -58,6 +66,10 @@ textureFileNames:
 - Assets/_Sprites/yke-boss-bossFight.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
 - 
 - 
 - 

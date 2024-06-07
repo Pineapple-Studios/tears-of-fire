@@ -22,6 +22,8 @@ public class ScreenController : MonoBehaviour
         Cursor.visible = false;
         if (SceneManager.GetActiveScene().name == "SplashScreen")
             FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.splashScreen, this.transform.position);
+        else if (SceneManager.GetActiveScene().name == "ForBetterExperience")
+            FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.forBetterExp, this.transform.position);
     }
 
     void Update()

@@ -47,7 +47,7 @@ public class VolumeSlider : MonoBehaviour
                 _volumeSlider.value = FMODAudioManager.Instance.sfxVolume;
                 break;
             case VolumeType.UI:
-                _volumeSlider.value = FMODAudioManager.Instance.uiVolume;
+                //_volumeSlider.value = FMODAudioManager.Instance.uiVolume;
                 break;
             case VolumeType.VOICE:
                 _volumeSlider.value = FMODAudioManager.Instance.voiceVolume;
@@ -82,7 +82,7 @@ public class VolumeSlider : MonoBehaviour
                 FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             case VolumeType.UI:
-                FMODAudioManager.Instance.uiVolume = _volumeSlider.value;
+                //FMODAudioManager.Instance.uiVolume = _volumeSlider.value;
                 FMODAudioManager.Instance.PlayOneShot(FMODEventsUI.Instance.sldMove, this.transform.position);
                 break;
             case VolumeType.VOICE:

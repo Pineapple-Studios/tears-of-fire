@@ -91,15 +91,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24749789743058944
-    m_Localized: Lead Programmer
+    m_Localized: Lead Programmer and Producer
     m_Metadata:
       m_Items: []
   - m_Id: 24749949160165376
-    m_Localized: Game Artist
+    m_Localized: Game Artist and Sound Track
     m_Metadata:
       m_Items: []
   - m_Id: 24750057658421248
-    m_Localized: Programmer
+    m_Localized: Programmer and VFX
     m_Metadata:
       m_Items: []
   - m_Id: 27151895359819776
@@ -278,6 +278,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 39821574863753216
     m_Localized: to dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42899870090432512
+    m_Localized: Door locked and Svart doesn't has the key!
     m_Metadata:
       m_Items: []
   references:

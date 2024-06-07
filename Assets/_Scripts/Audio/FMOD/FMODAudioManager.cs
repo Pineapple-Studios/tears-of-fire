@@ -3,6 +3,7 @@ using FMODUnity;
 using FMOD.Studio;
 using UnityEngine.Rendering;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class FMODAudioManager : MonoBehaviour
 {
@@ -12,42 +13,51 @@ public class FMODAudioManager : MonoBehaviour
 
     [Header("Volume")]
     [Range(0,1)]
-    public float masterVolume = 0.6f;
+    public float masterVolume;
 
     [Range(0, 1)]
-    public float ambienceVolume = 0.6f;
+    public float ambienceVolume;
 
     //[Range(0, 1)]
     //public float foleyVolume = 0.6f;
 
     [Range(0, 1)]
-    public float musicVolume = 0.6f;
+    public float musicVolume;
 
     [Range(0, 1)]
-    public float sfxVolume = 0.6f;
+    public float sfxVolume;
+
+    //[Range(0, 1)]
+    //public float uiVolume;
 
     [Range(0, 1)]
-    public float uiVolume = 0.6f;
-
-    [Range(0, 1)]
-    public float voiceVolume = 0.6f;
+    public float voiceVolume;
 
     private Bus _masterBus;
     private Bus _ambienceBus;
     //private Bus _foleyBus;
     private Bus _musicBus;
     private Bus _sfxBus;
-    private Bus _uiBus;
+    //private Bus _uiBus;
     private Bus _voiceBus;
+
+    // Cutscene
+    private EventInstance introMusicInstance;
+    private EventInstance finalMusicInstance;
+
 
     private void Awake()
     {
-        if (Instance != null)
+        if (Instance != null && Instance != this)
         {
-            Debug.Log("Mais de um Audio Manager");
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
         }
 
-        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
         eventInstances = new List<EventInstance>();
 
@@ -56,8 +66,9 @@ public class FMODAudioManager : MonoBehaviour
         //_foleyBus = RuntimeManager.GetBus("bus:/Foley");
         _musicBus = RuntimeManager.GetBus("bus:/Music");
         _sfxBus = RuntimeManager.GetBus("bus:/SFX");
-        _uiBus = RuntimeManager.GetBus("bus:/UI");
+        //_uiBus = RuntimeManager.GetBus("bus:/UI");
         _voiceBus = RuntimeManager.GetBus("bus:/Voice");
+
     }
 
     private void Start()
@@ -73,7 +84,7 @@ public class FMODAudioManager : MonoBehaviour
         //SaveVolumeToStorage(_foleyBus, foleyVolume, LocalStorage.FoleyMixerKey());
         SaveVolumeToStorage(_musicBus, musicVolume, LocalStorage.MusicMixerKey());
         SaveVolumeToStorage(_sfxBus, sfxVolume, LocalStorage.SfxMixerKey());
-        SaveVolumeToStorage(_uiBus, uiVolume, LocalStorage.UiMixerKey());
+        //SaveVolumeToStorage(_uiBus, uiVolume, LocalStorage.UiMixerKey());
         SaveVolumeToStorage(_voiceBus, voiceVolume, LocalStorage.VoiceMixerKey());
     }
 
@@ -86,12 +97,13 @@ public class FMODAudioManager : MonoBehaviour
     private const float DEFAULT_VALUE = 0.6f;
     public void SetInitialValues()
     {
+        Debug.Log(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
         _masterBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.GeneralMixerKey(), DEFAULT_VALUE));
         _ambienceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.AmbienceMixerKey(), DEFAULT_VALUE));
         //_foleyBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.FoleyMixerKey(), DEFAULT_VALUE));
         _musicBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.MusicMixerKey(), DEFAULT_VALUE));
         _sfxBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.SfxMixerKey(), DEFAULT_VALUE));
-        _uiBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.UiMixerKey(), DEFAULT_VALUE));
+        //_uiBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.UiMixerKey(), DEFAULT_VALUE));
         _voiceBus.setVolume(LocalStorage.GetMixerValue(LocalStorage.VoiceMixerKey(), DEFAULT_VALUE));
     }
 
@@ -135,6 +147,29 @@ public class FMODAudioManager : MonoBehaviour
             eventInstance.release();
         }
     }
+
+    public void PlayIntro(EventReference sound)
+    {
+        introMusicInstance = RuntimeManager.CreateInstance(sound);
+        introMusicInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
+        introMusicInstance.start();
+    }
+
+    public void PlayFinal(EventReference sound)
+    {
+        finalMusicInstance = RuntimeManager.CreateInstance(sound);
+        finalMusicInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
+        finalMusicInstance.start();
+    }
+
+    public void StopSound()
+    {
+        introMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        introMusicInstance.release();
+        finalMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        finalMusicInstance.release();
+    }
+
 
     private void OnDestroy()
     {

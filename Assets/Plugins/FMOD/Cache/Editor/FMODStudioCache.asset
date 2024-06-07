@@ -27,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
---- !u!114 &-8521467830872177360
+--- !u!114 &-8809665813439591039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,21 +36,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SFX_Magnetism/Stop
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Tutorial/Boss/SFX_RaspaP\xE9_2x"
   m_EditorClassIdentifier: 
-  Name: Stop
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3634398498
-    data2: 2843330616
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: "event:/Tutorial/Boss/SFX_RaspaP\xE9_2x"
+  Guid:
+    Data1: -191124751
+    Data2: 1330893541
+    Data3: 368088249
+    Data4: -586410143
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-7815709774316805441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/3 Fase/SFX_Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/3 Fase/SFX_Jump
+  Guid:
+    Data1: 835850964
+    Data2: 1095775197
+    Data3: -359387979
+    Data4: -508201238
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
 --- !u!114 &-7624296259814478316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,6 +216,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 162
+--- !u!114 &-5774218090933055239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Videos/SFX_BetterExp
+  m_EditorClassIdentifier: 
+  Path: event:/Videos/SFX_BetterExp
+  Guid:
+    Data1: 173710163
+    Data2: 1242639073
+    Data3: 736016560
+    Data4: 1727710352
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 980
 --- !u!114 &-5655878152173968008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +270,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
+--- !u!114 &-5414069035969805785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Magnetism/Stop
+  m_EditorClassIdentifier: 
+  Name: Stop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3634398498
+    data2: 2843330616
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5388983835846033744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +321,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3600
+--- !u!114 &-5327643297886409483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/3 Fase/SFX_Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/3 Fase/SFX_Impact
+  Guid:
+    Data1: -527895865
+    Data2: 1114565215
+    Data3: -1959904074
+    Data4: -162530275
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
 --- !u!114 &-5276313887759896487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,33 +375,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &-5211123141476678964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Tutorial/Boss/SFX_RaspaP\xE9"
-  m_EditorClassIdentifier: 
-  Path: "event:/Tutorial/Boss/SFX_RaspaP\xE9"
-  Guid:
-    Data1: -191124751
-    Data2: 1330893541
-    Data3: 368088249
-    Data4: -586410143
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &-5093201207496219897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,33 +393,6 @@ MonoBehaviour:
     Data2: 1163479799
     Data3: -1142008157
     Data4: 2026974022
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4948155756092147781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Projetil
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Projetil
-  Guid:
-    Data1: -1703161349
-    Data2: 1336288905
-    Data3: 1608799899
-    Data4: 898343761
   Banks:
   - {fileID: -451307806154551115}
   IsStream: 0
@@ -429,7 +483,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 310
---- !u!114 &-4053649650605001728
+--- !u!114 &-3651132074380669144
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -439,50 +493,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_RockFall
+  m_Name: event:/Tutorial/Mecanicas/SFX_Magnetism
   m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_RockFall
+  Path: event:/Tutorial/Mecanicas/SFX_Magnetism
   Guid:
-    Data1: -1082180999
-    Data2: 1183135358
-    Data3: -1119114837
-    Data4: -1645965159
+    Data1: 1364852862
+    Data2: 1104588947
+    Data3: -163747932
+    Data4: 1193751860
   Banks:
   - {fileID: -451307806154551115}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -5414069035969805785}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &-3079705033343453938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Music_Tutorial/OST_BossFigth-Cave
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Music_Tutorial/OST_BossFigth-Cave
-  Guid:
-    Data1: 2031522192
-    Data2: 1145029049
-    Data3: 2051680899
-    Data4: 1764426739
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Length: 55000
 --- !u!114 &-2987881648672089566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,6 +754,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &-1075264545076442735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_RockFalling
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_RockFalling
+  Guid:
+    Data1: -1703161349
+    Data2: 1336288905
+    Data3: 1608799899
+    Data4: 898343761
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1700
 --- !u!114 &-571837732183616998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,33 +808,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29
---- !u!114 &-507342925203287744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Boss/SFX_Stamp
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Boss/SFX_Stamp
-  Guid:
-    Data1: -527895865
-    Data2: 1114565215
-    Data3: -1959904074
-    Data4: -162530275
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-451307806154551115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,10 +823,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638530433711093129
+  lastModified: 638533766150702732
   FileSizes:
   - Name: Desktop
-    Value: 4830016
+    Value: 9519008
   Exists: 1
 --- !u!114 &-328074252107952706
 MonoBehaviour:
@@ -827,6 +855,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 575
+--- !u!114 &-314177158219343053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_atk-Fase 2
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_atk-Fase 2
+  Guid:
+    Data1: -640757359
+    Data2: 1254717641
+    Data3: 335758265
+    Data4: 356833174
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1800
+--- !u!114 &-271168286983397597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Videos/Cutscene/Cutscene_Introdu\xE7\xE3o/Narra\xE7\xE3o"
+  m_EditorClassIdentifier: 
+  Path: "event:/Videos/Cutscene/Cutscene_Introdu\xE7\xE3o/Narra\xE7\xE3o"
+  Guid:
+    Data1: 1047080721
+    Data2: 1235504963
+    Data3: -1375521374
+    Data4: 333502644
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65853
 --- !u!114 &-202131399096136836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,6 +963,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 42
+--- !u!114 &-84966527610936057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/3 Fase/SFX_DashAtk
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/3 Fase/SFX_DashAtk
+  Guid:
+    Data1: -1141258709
+    Data2: 1265277368
+    Data3: 1218361787
+    Data4: 723083875
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,9 +1027,7 @@ MonoBehaviour:
   - {fileID: -2558114200591408636}
   - {fileID: -1218153752587956940}
   - {fileID: 6580019622159732204}
-  - {fileID: -4053649650605001728}
   - {fileID: 156000021440743817}
-  - {fileID: -3079705033343453938}
   - {fileID: -7624296259814478316}
   - {fileID: 332518738990558542}
   - {fileID: 6386606191843812228}
@@ -929,7 +1036,6 @@ MonoBehaviour:
   - {fileID: 393165810180640391}
   - {fileID: -9132002683676144041}
   - {fileID: 4888152089821163054}
-  - {fileID: -507342925203287744}
   - {fileID: 8565008424054102172}
   - {fileID: -571837732183616998}
   - {fileID: -2947886157856922128}
@@ -943,19 +1049,31 @@ MonoBehaviour:
   - {fileID: 5536428896297733680}
   - {fileID: 1240427115562312172}
   - {fileID: -5276313887759896487}
-  - {fileID: -4948155756092147781}
   - {fileID: -6556354331460344306}
   - {fileID: 7964605648834268134}
-  - {fileID: -1395121756184974849}
-  - {fileID: 5772879628184733541}
-  - {fileID: 64745372081744090}
-  - {fileID: -5211123141476678964}
+  - {fileID: 2398181560916137447}
+  - {fileID: -3651132074380669144}
+  - {fileID: -314177158219343053}
+  - {fileID: 4860158059220867383}
+  - {fileID: -271168286983397597}
+  - {fileID: -84966527610936057}
+  - {fileID: -5774218090933055239}
+  - {fileID: 1799700809857714571}
+  - {fileID: 2293571101268297452}
+  - {fileID: 4307563146529976239}
+  - {fileID: 1303983489198043194}
+  - {fileID: 7476972287118767726}
+  - {fileID: -5327643297886409483}
+  - {fileID: 4689681873788267190}
+  - {fileID: -7815709774316805441}
+  - {fileID: -8809665813439591039}
+  - {fileID: -1075264545076442735}
   EditorParameters: []
   MasterBanks:
   - {fileID: -451307806154551115}
   StringsBanks:
   - {fileID: 4913739301051636614}
-  cacheTime: 638530433711103135
+  cacheTime: 638533766150898010
   cacheVersion: 131616
 --- !u!114 &64745372081744090
 MonoBehaviour:
@@ -1173,6 +1291,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 790
+--- !u!114 &1303983489198043194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/3 Fase/SFX_First_Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/3 Fase/SFX_First_Jump
+  Guid:
+    Data1: -1092563795
+    Data2: 1273648346
+    Data3: -1480478835
+    Data4: -1735847208
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 950
 --- !u!114 &1520662724344806307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,6 +1345,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 81818
+--- !u!114 &1799700809857714571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Tutorial/Boss/SFX_RaspaP\xE9_1x"
+  m_EditorClassIdentifier: 
+  Path: "event:/Tutorial/Boss/SFX_RaspaP\xE9_1x"
+  Guid:
+    Data1: 49567843
+    Data2: 1080134407
+    Data3: 1130052224
+    Data4: 1894172155
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
 --- !u!114 &2185075697263872106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,6 +1399,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &2293571101268297452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Music_Tutorial/OST_Boss-Cave
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Music_Tutorial/OST_Boss-Cave
+  Guid:
+    Data1: 2031522192
+    Data2: 1145029049
+    Data3: 2051680899
+    Data4: 1764426739
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7223796042031133271}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 108000
+--- !u!114 &2398181560916137447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_atk-Fase 1
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_atk-Fase 1
+  Guid:
+    Data1: 887195497
+    Data2: 1116875677
+    Data3: 870249885
+    Data4: 495284664
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &2975499176398693348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,6 +1481,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 23000
+--- !u!114 &4307563146529976239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Mecanicas/SFX_Door
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Mecanicas/SFX_Door
+  Guid:
+    Data1: -1488004464
+    Data2: 1101234802
+    Data3: 319906744
+    Data4: 827816037
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1800
 --- !u!114 &4319963787279194712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,6 +1535,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 290
+--- !u!114 &4689681873788267190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Videos/Cutscene/Cutscene_Introdu\xE7\xE3o/SoundTrack"
+  m_EditorClassIdentifier: 
+  Path: "event:/Videos/Cutscene/Cutscene_Introdu\xE7\xE3o/SoundTrack"
+  Guid:
+    Data1: 155616718
+    Data2: 1094160624
+    Data3: 1970420918
+    Data4: -37563867
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &4860158059220867383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/SFX_Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/SFX_Ambience
+  Guid:
+    Data1: 1935127312
+    Data2: 1227849189
+    Data3: -778533489
+    Data4: 1735480095
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121000
 --- !u!114 &4888152089821163054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1323,10 +1631,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638530433711103135
+  lastModified: 638533766150898010
   FileSizes:
   - Name: Desktop
-    Value: 3460
+    Value: 3926
   Exists: 1
 --- !u!114 &5536428896297733680
 MonoBehaviour:
@@ -1354,35 +1662,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 753
---- !u!114 &5772879628184733541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tutorial/Mecanicas/SFX_Magnetism
-  m_EditorClassIdentifier: 
-  Path: event:/Tutorial/Mecanicas/SFX_Magnetism
-  Guid:
-    Data1: 1364852862
-    Data2: 1104588947
-    Data3: -163747932
-    Data4: 1193751860
-  Banks:
-  - {fileID: -451307806154551115}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -8521467830872177360}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 55000
+  Length: 540
 --- !u!114 &6270974833928397345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,6 +1771,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 27500
+--- !u!114 &7223796042031133271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OST_Boss-Cave/Stop
+  m_EditorClassIdentifier: 
+  Name: Stop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3634398498
+    data2: 2843330616
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7476972287118767726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Videos/Cutscene/Cutscene_Final
+  m_EditorClassIdentifier: 
+  Path: event:/Videos/Cutscene/Cutscene_Final
+  Guid:
+    Data1: -184212813
+    Data2: 1313920409
+    Data3: 2011980458
+    Data4: -1460393903
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27428
 --- !u!114 &7964605648834268134
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -91,15 +91,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24749789743058944
-    m_Localized: "Programador L\xEDder"
+    m_Localized: "Programador L\xEDder e Produtor"
     m_Metadata:
       m_Items: []
   - m_Id: 24749949160165376
-    m_Localized: Ilustrador
+    m_Localized: Ilustrador e Trilha Sonora
     m_Metadata:
       m_Items: []
   - m_Id: 24750057658421248
-    m_Localized: Programador
+    m_Localized: Programador e Efeitos Visuais
     m_Metadata:
       m_Items: []
   - m_Id: 27151895359819776
@@ -278,6 +278,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 39821574863753216
     m_Localized: para dar dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42899870090432512
+    m_Localized: "Porta fechada e Svart n\xE3o possui a chave!"
     m_Metadata:
       m_Items: []
   references:

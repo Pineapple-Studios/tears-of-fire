@@ -1,0 +1,6568 @@
+fileFormatVersion: 2
+guid: 38091aff7e6592846a5cf837ae5425ae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TEAR01A0070
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1908
+        width: 503
+        height: 298
+      alignment: 9
+      pivot: {x: 0.25646123, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09d50df223ef714bb0c4668a90af16c
+      internalID: -2143674300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0071
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 3799
+        width: 501
+        height: 296
+      alignment: 9
+      pivot: {x: 0.24550898, y: 1.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bd39728fb6cc447892175871950fe8
+      internalID: 1264127485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0072
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3799
+        width: 501
+        height: 296
+      alignment: 9
+      pivot: {x: 0.22554891, y: 1.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e78fd415582704db14803820d9b1ca
+      internalID: 778709153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0073
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2036
+        width: 489
+        height: 295
+      alignment: 9
+      pivot: {x: 0.21267894, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c5f5c7defcd84fb52b0862896b62f
+      internalID: 879924235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0074
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 3796
+        width: 497
+        height: 299
+      alignment: 9
+      pivot: {x: 0.1891348, y: 1.7391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13f69cf79743b458708bdbf0f24f6c
+      internalID: -2053870210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0075
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 2563
+        width: 407
+        height: 332
+      alignment: 9
+      pivot: {x: 0.01965602, y: 1.5572289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff3efcda9d29c545aeb2894fd911f44
+      internalID: -1639841554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0076
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1060
+        width: 413
+        height: 334
+      alignment: 9
+      pivot: {x: -0.0072639226, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c80c0d8c29d8f42a924ae9efcf87d7
+      internalID: -2068420925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0077
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 455
+        width: 419
+        height: 334
+      alignment: 9
+      pivot: {x: -0.00954654, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44f18cfa2e52ed4087418becd24bb20
+      internalID: -748892064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0078
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 3593
+        width: 419
+        height: 334
+      alignment: 9
+      pivot: {x: -0.03341289, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e301d22e195817418bcd679f8dba889
+      internalID: 949967355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0079
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 2405
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: -0.07524272, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5486b67081dcc74aa462b777d5e8df5
+      internalID: 794813870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0080
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1047
+        width: 395
+        height: 346
+      alignment: 9
+      pivot: {x: -0.103797466, y: 1.5086706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6bc9803f54cc845bd11be75f46fdf2
+      internalID: -1493303698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0081
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 1098
+        width: 392
+        height: 344
+      alignment: 9
+      pivot: {x: -0.125, y: 1.5087209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b083a7325bdc5b4782665f694177dcc
+      internalID: -1633314068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0082
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 1098
+        width: 392
+        height: 344
+      alignment: 9
+      pivot: {x: -0.1505102, y: 1.5087209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f5d1e43e86d804e9c074448c47f3e5
+      internalID: -1830729891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0083
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 882
+        width: 401
+        height: 346
+      alignment: 9
+      pivot: {x: -0.16957606, y: 1.5028902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8bd31eea770d247a26653a2668fe50
+      internalID: -1551425742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0084
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2838
+        width: 467
+        height: 316
+      alignment: 9
+      pivot: {x: -0.032119915, y: 1.6392405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278413f61fb8e1e45a1cc5f038331ce5
+      internalID: -1902298479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0085
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 2333
+        width: 467
+        height: 317
+      alignment: 9
+      pivot: {x: -0.059957173, y: 1.6403786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a2aea49941bc349a3f24788c8728e1
+      internalID: -489006671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0086
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 515
+        width: 467
+        height: 317
+      alignment: 9
+      pivot: {x: -0.08137045, y: 1.6403786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc0ef65bae9eb043a5f3d2a7a924987
+      internalID: 1960225411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0087
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 3559
+        width: 470
+        height: 317
+      alignment: 9
+      pivot: {x: -0.10425532, y: 1.6403786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3384fa0deaf17e3439b5029dac5845ca
+      internalID: 576604724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0088
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 1675
+        width: 440
+        height: 331
+      alignment: 9
+      pivot: {x: -0.25, y: 1.5619335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e110d17ec6dc5489b88f63483a3319
+      internalID: -557346034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0089
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 580
+        width: 440
+        height: 331
+      alignment: 9
+      pivot: {x: -0.27272728, y: 1.5619335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9181a4a6c808b9c41a7bbefece7d17a6
+      internalID: 1928475240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0090
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 1343
+        width: 437
+        height: 331
+      alignment: 9
+      pivot: {x: -0.3043478, y: 1.5619335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c8f7bc9c67c3f44a7b83be8cfb96cc
+      internalID: -492921661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0091
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1923
+        width: 438
+        height: 358
+      alignment: 9
+      pivot: {x: -0.413242, y: 1.4413408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2b88e7ace573c469315ffd6999ea20
+      internalID: -529887593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0092
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2059
+        width: 433
+        height: 356
+      alignment: 9
+      pivot: {x: -0.44341803, y: 1.4494382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20787167340504249aa2a26cfe904929
+      internalID: -560372397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0093
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2059
+        width: 433
+        height: 356
+      alignment: 9
+      pivot: {x: -0.4665127, y: 1.4494382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcc3d02f0ac14f46a0d8f0256e6e331
+      internalID: 1071371144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0094
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.39528796, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2abdfbb838c6d6428388811c37b0e5a
+      internalID: -1825243095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0095
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -0.448, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad68167fc1780ce4baa4d25ff77a80e7
+      internalID: -109635194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0096
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -0.47466666, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf604301fbbd2a949b9595e1053bdd25
+      internalID: -1036804538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0097
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -0.50133336, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5443d178dccb494ab5fcd94f698176c
+      internalID: 867267138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0098
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -0.5409836, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb868038400533044aa79dc7aed64111
+      internalID: -1435084727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0099
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2734
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.5235602, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9fc2fbd97c8e049a5cccd0474e51b4
+      internalID: -1458573956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.5497382, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240ebd000031300459d69106c31d1ce4
+      internalID: -1110354201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0101
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -0.6053333, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af32cd634e37904a8cf0168bb83e955
+      internalID: 1776314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0102
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -0.632, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db18ef9b1509be469f09be03f2adb71
+      internalID: 859784203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0103
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -0.6586667, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ecb127964b43242923dbc82c01012b
+      internalID: -972904560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0104
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -0.7021858, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4159ddfdfd508ac4bba181ac49025999
+      internalID: -1272373952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.67801046, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654fe78bf65c91a49a4a85e568e729e9
+      internalID: 1822537666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.70418847, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aefc1298a781044bb743820fe6fef09
+      internalID: 2145638898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0107
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -0.76266664, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232e713deec80804594433b4454e77be
+      internalID: -1990755751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0108
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -0.78933334, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60ac958a1a2e824aae1152768130f59
+      internalID: -1893024884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0109
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -0.8360656, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c5aac6bb0c50346a10640fcb7de986
+      internalID: 208385529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0110
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -0.863388, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a71ee0bcf37e4fa0f36a5841f1d44
+      internalID: 1266272137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.83246076, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f73ba009492b147a6a7c0c25998638
+      internalID: -330953981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0112
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -0.8933333, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aee2f8f9c7b37c4b8875ff56c22e4d6
+      internalID: -1992357045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0113
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -0.92, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc37b1b393b3af41a9eb4ef12e6d218
+      internalID: 211083222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0114
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -0.94666666, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2988dac933dde374d9f9778e86d71f79
+      internalID: 116191440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0115
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -0.9972678, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fcab125b188c048b469f796d2aba05
+      internalID: -2074416721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.960733, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d201c8ea28c3844b8705cd3f82cd28a
+      internalID: 1816874831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -0.986911, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4114dc499969fe545b86eb34d60dd97f
+      internalID: 161183025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0118
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -1.0506667, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af88cdf45341f84488e2e0cccd2d558f
+      internalID: -932185109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0119
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -1.0773333, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5513eff1f70d4348a60654ca6b18be8
+      internalID: 1713917367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0120
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2267
+        width: 375
+        height: 465
+      alignment: 9
+      pivot: {x: -1.104, y: 1.1096774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b558b1a8148c134b86be77573dad6ec
+      internalID: -2120466531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0001
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -1.104, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e296e86da34894ea85170e9f11f1eb
+      internalID: 1725782689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0002
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -1.12, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476aaae6401404499599c6d7466531d
+      internalID: -107935444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0003
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -1.136, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72a156ed4627444293f12000f47fae1
+      internalID: -989057016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0004
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2734
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -1.1125654, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e4c2945922094fbe0d80ec4d3e5b4
+      internalID: -1622902315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0005
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -1.1994536, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feddd074f5068764182e90d043ba7988
+      internalID: 98265437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0006
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -1.215847, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e6592dc111bea49814478bcab6973e
+      internalID: 110538826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0007
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -1.2026666, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9562ad03fcf3cc34a91d31e6e86765c6
+      internalID: -945489546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0008
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -1.2186667, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94b66af9fdc8b54c863d4a40f55fe5f
+      internalID: -827271415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0009
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2734
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -1.1937172, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091116089e1eb7342be8238a84cb7220
+      internalID: 819017635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -1.2094241, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b42eaf4d101b147815a9c4f1ee7e2a
+      internalID: -2011041547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0011
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -1.3005464, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf312050318b064fb360341008dd9fc
+      internalID: -600007587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0012
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -1.2853333, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f688ec94dd825488ecde74d5e5747d
+      internalID: 1460373963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0013
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -1.3013333, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f781450389ac85c41bb1bb9692c91d19
+      internalID: 1531786735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -1.2748691, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d51a7025a14a143b00ae4bf5ca8ed4
+      internalID: 57229046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -1.2905759, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a135add02ad65c46877609636977b63
+      internalID: -1254863238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0016
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -1.3852459, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888c53e5c814be64c85b1efa3f1ec992
+      internalID: -578801845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0017
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2624
+        width: 375
+        height: 466
+      alignment: 9
+      pivot: {x: -1.368, y: 1.1072961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826f2175c0f43ec4faaeddc88f109791
+      internalID: -177587545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0018
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -1.384, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39dd0b49a7451a4c93cf68e38b7f4ca
+      internalID: -1960422492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0019
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1
+        width: 375
+        height: 452
+      alignment: 9
+      pivot: {x: -1.4, y: 1.141593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a767b47430133498c4cd34ea0dfe2a
+      internalID: 175586764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0020
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2734
+        width: 382
+        height: 458
+      alignment: 9
+      pivot: {x: -1.3717277, y: 1.128821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa37ec3c4f4ae64f97c77e7e6860ce1
+      internalID: -1296826987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0021
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1
+        width: 366
+        height: 457
+      alignment: 9
+      pivot: {x: -1.4699453, y: 1.1291028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2675b4fd5366de748a63c1a598ff0317
+      internalID: -1500844122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0022
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2267
+        width: 375
+        height: 465
+      alignment: 9
+      pivot: {x: -1.4506667, y: 1.1096774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c9d69cb9800f547a43daa7f4da3f05
+      internalID: 1893951790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0023
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 2696
+        width: 383
+        height: 464
+      alignment: 9
+      pivot: {x: -1.3994778, y: 1.112069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca70142b3413494d9fbaea0de3957a2
+      internalID: 2027999980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0024
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 341
+        height: 468
+      alignment: 9
+      pivot: {x: -1.7419355, y: 1.1004274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f6f1ff2c13a5f4f944a83e07191cf6
+      internalID: -728987036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0025
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 341
+        height: 468
+      alignment: 9
+      pivot: {x: -1.7419355, y: 1.1004274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b5f05f17aa15a4691fb16320f209e8
+      internalID: 1531851008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0026
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 341
+        height: 468
+      alignment: 9
+      pivot: {x: -1.7419355, y: 1.1004274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68621117526a96849baea07aad220ef6
+      internalID: 764729860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0027
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2929
+        width: 381
+        height: 474
+      alignment: 9
+      pivot: {x: -1.4908136, y: 1.1054852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d38de45633886d4cb9bc94861707d93
+      internalID: 1564568148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0028
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2929
+        width: 381
+        height: 474
+      alignment: 9
+      pivot: {x: -1.4908136, y: 1.1054852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5112095ce1b96fe4ca4aece9f8ce1451
+      internalID: 163992492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0029
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2929
+        width: 381
+        height: 474
+      alignment: 9
+      pivot: {x: -1.4908136, y: 1.1054852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8adf6c341436794a80893fb79dd39aa
+      internalID: -2040494617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0030
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1981
+        width: 388
+        height: 342
+      alignment: 9
+      pivot: {x: -1.3994845, y: 1.5087719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35898c1cc57f7443a96d3fa9edbe460
+      internalID: -1877753308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0031
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1981
+        width: 388
+        height: 342
+      alignment: 9
+      pivot: {x: -1.3994845, y: 1.5087719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e38180487e6de542ad23e2c251e03d1
+      internalID: 413620600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0032
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1981
+        width: 388
+        height: 342
+      alignment: 9
+      pivot: {x: -1.3994845, y: 1.5087719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3dbea019ad8c148993ab2d73aaa996
+      internalID: 1811488594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0033
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2431
+        width: 378
+        height: 340
+      alignment: 9
+      pivot: {x: -1.4365079, y: 1.517647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd5ea5374bbbd543a497917147580e9
+      internalID: 1924881498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0034
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2431
+        width: 378
+        height: 340
+      alignment: 9
+      pivot: {x: -1.4365079, y: 1.517647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a48f879a27d4cb4fb2c30bb4c58c239
+      internalID: -671321113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0035
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2431
+        width: 378
+        height: 340
+      alignment: 9
+      pivot: {x: -1.4365079, y: 1.517647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9109d6f52295aef4c90a5f2cf9ab3435
+      internalID: 151317860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0036
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1
+        width: 421
+        height: 416
+      alignment: 9
+      pivot: {x: -1.0807601, y: 1.2403846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2c5eab30f93334c8506dfde4b0fee3
+      internalID: 555224192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0037
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1
+        width: 421
+        height: 416
+      alignment: 9
+      pivot: {x: -1.0807601, y: 1.2403846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a14ccf1e0107724cae0e95c3f098f4c
+      internalID: -110517239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0038
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1
+        width: 421
+        height: 416
+      alignment: 9
+      pivot: {x: -1.0807601, y: 1.2403846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49171203a4a9d80419a3c533a060fe1a
+      internalID: -583489231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0039
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1
+        width: 421
+        height: 416
+      alignment: 9
+      pivot: {x: -1.0807601, y: 1.2403846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cf767696d68b440b4fce69f3791aa9
+      internalID: -451374084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0040
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2295
+        width: 382
+        height: 457
+      alignment: 9
+      pivot: {x: -1.4240838, y: 1.131291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a362f5e810e23469de1a666fb0b8f3
+      internalID: 1189330986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0041
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2295
+        width: 382
+        height: 457
+      alignment: 9
+      pivot: {x: -1.4240838, y: 1.131291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050af60285f05a942a3aaa07a1b02db5
+      internalID: -1174168680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0042
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2295
+        width: 382
+        height: 457
+      alignment: 9
+      pivot: {x: -1.4240838, y: 1.131291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dc80dcf514bb741b9e1b2b4243e981
+      internalID: -101409698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0043
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2295
+        width: 382
+        height: 457
+      alignment: 9
+      pivot: {x: -1.4240838, y: 1.131291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c5307b6d4849c4e8c19f58078c5352
+      internalID: -1786352739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0044
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 3093
+        width: 400
+        height: 466
+      alignment: 9
+      pivot: {x: -1.3625, y: 1.1158798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7301fc455bc0af84fadbbd0fd196f4d7
+      internalID: 401494312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0045
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 3093
+        width: 400
+        height: 466
+      alignment: 9
+      pivot: {x: -1.3625, y: 1.1158798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf0511592139be47bc6377d1b19ae1b
+      internalID: 600594264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0046
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 3093
+        width: 400
+        height: 466
+      alignment: 9
+      pivot: {x: -1.3625, y: 1.1158798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362f8f0c1e621ab429420ab73d70e615
+      internalID: -1500863137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0047
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 3093
+        width: 400
+        height: 466
+      alignment: 9
+      pivot: {x: -1.3625, y: 1.1158798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc058e8add7854ba1218f1e6ba43b0
+      internalID: 1287884100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0048
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1093
+        width: 401
+        height: 358
+      alignment: 9
+      pivot: {x: -1.3740648, y: 1.4441341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74178482fcb344f9717cf17b18550a
+      internalID: 1608194687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0049
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1093
+        width: 401
+        height: 358
+      alignment: 9
+      pivot: {x: -1.3740648, y: 1.4441341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d570cbcd5d920cd409350d61e9ad77c3
+      internalID: -1443368478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1093
+        width: 401
+        height: 358
+      alignment: 9
+      pivot: {x: -1.3740648, y: 1.4441341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049ec5103675a2b4eb15293e6ca009a8
+      internalID: 1544511715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0051
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1093
+        width: 401
+        height: 358
+      alignment: 9
+      pivot: {x: -1.3740648, y: 1.4441341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec2245c207e4014dae051a5d6ecede4
+      internalID: 1548115932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0052
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3019
+        width: 415
+        height: 300
+      alignment: 9
+      pivot: {x: -1.2843374, y: 1.72}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7056d2d02898d26478e0fd9f96f2d5be
+      internalID: -1211063053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0053
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3019
+        width: 415
+        height: 300
+      alignment: 9
+      pivot: {x: -1.2843374, y: 1.72}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c8232b5842fee45873e18604a01078
+      internalID: -793795703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0054
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3019
+        width: 415
+        height: 300
+      alignment: 9
+      pivot: {x: -1.2843374, y: 1.72}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ce6d209d26e124a86f1fa90d49220d
+      internalID: 2104823463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0055
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3019
+        width: 415
+        height: 300
+      alignment: 9
+      pivot: {x: -1.2843374, y: 1.72}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb52f54cd00c70445bb0ebf0dde9756d
+      internalID: 488328975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0056
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 2327
+        width: 408
+        height: 301
+      alignment: 9
+      pivot: {x: -1.3235294, y: 1.717608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71101b838d1c01a4bad468812a5877a3
+      internalID: 1544832366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0057
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 2327
+        width: 408
+        height: 301
+      alignment: 9
+      pivot: {x: -1.3235294, y: 1.717608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f26d1b268094f9498f7c21928d5273a
+      internalID: -261608296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0058
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 2327
+        width: 408
+        height: 301
+      alignment: 9
+      pivot: {x: -1.3235294, y: 1.717608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882090407f609a24784cb643aab3eb6c
+      internalID: 1114503214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0059
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 2327
+        width: 408
+        height: 301
+      alignment: 9
+      pivot: {x: -1.3235294, y: 1.717608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10528392ffa5ba4e8c9e74f0a5dc88b
+      internalID: -462506821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01B0060
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 2327
+        width: 408
+        height: 301
+      alignment: 9
+      pivot: {x: -1.3235294, y: 1.717608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c51570e48702149aee5bc7b28c018d
+      internalID: 1025504504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0001
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3331
+        width: 395
+        height: 489
+      alignment: 9
+      pivot: {x: 2.341772, y: 1.0613497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae980f50a969f4b8ea9d0fed0638cc
+      internalID: 1004230634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0002
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2645
+        width: 363
+        height: 495
+      alignment: 9
+      pivot: {x: 2.6225896, y: 1.0464647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc996bdc8d10da14d83c7f971504b373
+      internalID: 270424884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0003
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2645
+        width: 363
+        height: 495
+      alignment: 9
+      pivot: {x: 2.6225896, y: 1.0464647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967a12b21e1e9fa4295d32c47e5ce67b
+      internalID: -1516155559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0004
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2645
+        width: 363
+        height: 495
+      alignment: 9
+      pivot: {x: 2.6225896, y: 1.0464647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399f16492bcbf814183a01c6ec4811bf
+      internalID: 931563086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0005
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3250
+        width: 399
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3984962, y: 1.0759754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d442a21d6194dda4488756c7a8144980
+      internalID: 2031445761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0006
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3250
+        width: 399
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3984962, y: 1.0759754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df305ca506b97ee43b973a2517320da4
+      internalID: -1264767057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0007
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3250
+        width: 399
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3984962, y: 1.0759754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5332f6353bfd37647a30045c6e9192bd
+      internalID: 665631615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 765
+        width: 412
+        height: 357
+      alignment: 9
+      pivot: {x: 2.2936893, y: 1.4509804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7c4b98f39f92d41942fe280c66af75
+      internalID: 1854345787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 765
+        width: 412
+        height: 357
+      alignment: 9
+      pivot: {x: 2.2936893, y: 1.4509804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29820ddf9770664bb998d334eeb9370
+      internalID: -1627008827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 765
+        width: 412
+        height: 357
+      alignment: 9
+      pivot: {x: 2.2936893, y: 1.4509804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9caa589a3f04614989f688c63b16977
+      internalID: 1747831261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0011
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 526
+        width: 391
+        height: 359
+      alignment: 9
+      pivot: {x: 2.3657289, y: 1.442897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c227cb955078f428c099238d6e1fad
+      internalID: -1689539245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0012
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 526
+        width: 391
+        height: 359
+      alignment: 9
+      pivot: {x: 2.3657289, y: 1.442897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5d0afd13d851e45a0b9830914c8784
+      internalID: 1655195501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0013
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 526
+        width: 391
+        height: 359
+      alignment: 9
+      pivot: {x: 2.3657289, y: 1.442897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ef9b52c7dbd6542b7a712442d60f62
+      internalID: 1010276361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0014
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 526
+        width: 391
+        height: 359
+      alignment: 9
+      pivot: {x: 2.3657289, y: 1.442897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f47d4a868fe184c914d7de1de9a691
+      internalID: -2020165119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0015
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85f71042eb6e494c9fa80c23963e433
+      internalID: 421694594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0016
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f833f3ea8a26f24f9cf124c185a5edb
+      internalID: 2144264176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0017
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe6268251d7b5b44ae32e2a1c152b3a
+      internalID: 1240784790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0018
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e848a7ef7da35499c240696e0ff9d0
+      internalID: -1920166512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0019
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e5d6989f1ea924daf0e25bf487de33
+      internalID: 1855591716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0020
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc27aa121457b3438113efbdf73c924
+      internalID: 2015290820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0021
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a47cf8be9f9c46bfc88cf9487e7fe
+      internalID: 373584036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0022
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43a9c1c941bf64eb2b59c3fb8c585b
+      internalID: -28949703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0023
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e614bbfdb65836749b663f0ff5b11e90
+      internalID: -1361484737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0024
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acbaacd24c50ae49995009dcd3f5b4d
+      internalID: -449889327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0025
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfa0b10bb5404a44a36853802af0930
+      internalID: 2091215768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0026
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc8322faef526f41bb46cb84f35e6fe
+      internalID: 1912495311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0027
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10fd6b4a8256154ea5527fc170bb7cc
+      internalID: -577721516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0028
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baf2a061852292439e24b7daebaea52
+      internalID: 767886538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0029
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979fcf41f3e9a38498c564fa02475c28
+      internalID: -823688897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0030
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269e7787d7ca8340bc91be0bc5b43f8
+      internalID: 620243409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0031
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d838b921c068a54880591b15a83e5ef
+      internalID: 805975034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0032
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f11737ba69c9047a0edf1da66bdd85
+      internalID: 33497736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0033
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975e82fc4107e2d46a6671a5823fa7de
+      internalID: -157407049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0034
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd347e45a3594740967218e9aca3a9a
+      internalID: -1566389520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0035
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b12e4e41d0ac9f469646212f3ef7548
+      internalID: 437621707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0036
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8418ac4536fd89d468bcaed745125efe
+      internalID: -902393247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0037
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007f04489efe8614f98976b8b6f68777
+      internalID: 2001188137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0038
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d4787e8a97b4d49a5a29a60a4f1388
+      internalID: 119418616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0039
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54912ab388f988743875d1917d44df75
+      internalID: 1532172713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0040
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0feffa72840ff41852463402bc4446
+      internalID: 912434161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0041
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19835eb5fa177804887698da67ff72f2
+      internalID: 748322604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0042
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4572fd42ab964d8c29c751f97d64d
+      internalID: 1483233457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0043
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d452277af5203e4b8a6f771314cbaa7
+      internalID: 1516559948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0044
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4018668354edd14a8c0165deeef86e7
+      internalID: -1268530725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0045
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082be9f08689fcb449ca67b3fd177604
+      internalID: -1153031053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0046
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5571d4fa318904c9b761641309280c
+      internalID: -1793050881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0047
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98cd4ef58e93dd4b86408b7a06559f8
+      internalID: 766659919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0048
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d2978022e29714bb12aa7f9db5d214
+      internalID: -1260193843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0049
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b9aeb40adb074d9bc17bf564ceab6
+      internalID: 1602367636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0050
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea8fbe1bc6bab24f9aad0c9e071bae6
+      internalID: 1242432736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0051
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cb0a132aa5d5f4aac6617a711c6a4e
+      internalID: -1862450631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0052
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de057080b9b26fc4d9911f8f165ea57a
+      internalID: -858217494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0053
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf68170ca6841d04684c726ee547e40c
+      internalID: -161644363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0054
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d15b74e887617b4c9cf2af1c23df6e6
+      internalID: -470321841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0055
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5a803c508cc041a7a66026d3812aa
+      internalID: -717317457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0056
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0370a81f925840a43a25ff81666dc878
+      internalID: 736579336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0057
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3a38aeb1cc8d9448ccb417b11b8edf
+      internalID: 254263225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0058
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73a2ebef5e2b9d40ba6a57d2e6fd158
+      internalID: -669690766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0059
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677f1359dc74450449df50133ae3abfb
+      internalID: -156297852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0060
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a599985315532a147aa5f36016c84776
+      internalID: 225719969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0061
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe1997f5ae77464496f5234d5364448
+      internalID: -307055588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0062
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1
+        width: 551
+        height: 270
+      alignment: 9
+      pivot: {x: 1.7422868, y: 1.9222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78a4e1a5c9b85642af73e7d5a147277
+      internalID: 97800915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0063
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505b72724282da54cb20a5bc5f699eff
+      internalID: 861333132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0064
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae61b969efdca4eb0a67b31198eb95
+      internalID: 1855700794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0065
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7260434bf9604cd42963e53d1a390244
+      internalID: 1360120815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0066
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1611
+        width: 506
+        height: 274
+      alignment: 9
+      pivot: {x: 1.7806324, y: 1.8941606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98181725246341d4ab0f88360cd0fac9
+      internalID: 178972797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0067
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0db65a2e67c0b4e931b5e85ad99415
+      internalID: 2002393300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0068
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853af31c77a0eab4a8189f723d6b38d4
+      internalID: 1674955366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0069
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe96b7afb7397704bb4c5e807c0d0fcf
+      internalID: 1737200928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0070
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 2730
+        width: 477
+        height: 284
+      alignment: 9
+      pivot: {x: 1.8532494, y: 1.8521127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afc6343610c6be458510554a288b12d
+      internalID: -157732836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0071
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d5991d89b1bb44b8ccc587a34c383
+      internalID: 840553694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0072
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1b65a359ba5ef47a7048fbd36d71a9
+      internalID: -1685377952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0073
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f73029926262e7438964df4eca9a375
+      internalID: 594719966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0074
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1609
+        width: 469
+        height: 297
+      alignment: 9
+      pivot: {x: 1.7846482, y: 1.7407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad5801f22929af449f1c7396a53b257
+      internalID: -1065365223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0075
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41c0a1565b60184f8467093768d5c47
+      internalID: -899856946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0076
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32349c3e5bd9ccf479863a486245c513
+      internalID: 776912287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0077
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf082db85f96be148b4168b39676c1a7
+      internalID: 19144400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0078
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1396
+        width: 455
+        height: 325
+      alignment: 9
+      pivot: {x: 1.7648351, y: 1.5938462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ee8c2b00fd0574d9ae85706fd6ff56
+      internalID: -128655541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0079
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2ac21bd6c9c5443993ff28ccff4777
+      internalID: -58234484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0080
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114800a11ec0c5646abadc4f24ea386a
+      internalID: 1207316832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0081
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a459a23e0bc6b43b93386d4635fa94
+      internalID: -1588924386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0082
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 285
+        width: 462
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7142857, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c187aebddc15344951758525ff8767
+      internalID: 1937709170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0083
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66186f5137e90804592429d19a151f40
+      internalID: -1545117675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0084
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be518c3cbb0ba49add906189e4f77c
+      internalID: -1009820657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0085
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9ecf1aba7227d499eb757756f69b79
+      internalID: 842111735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0086
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1
+        width: 552
+        height: 262
+      alignment: 9
+      pivot: {x: 1.7391304, y: 1.9923664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484ddeacaa7f252499b88f227a28b59a
+      internalID: 512272564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0087
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1
+        width: 518
+        height: 290
+      alignment: 9
+      pivot: {x: 1.7683398, y: 1.7896552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f71495e3a10e2d408e832cef5b383fc
+      internalID: -1404843820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0088
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 3815
+        width: 524
+        height: 280
+      alignment: 9
+      pivot: {x: 1.7423664, y: 1.8535714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1447945fbe4e9154d90572322514212b
+      internalID: -689348347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0089
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 3815
+        width: 524
+        height: 280
+      alignment: 9
+      pivot: {x: 1.7423664, y: 1.8535714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bba2f0c34bebd48a9b758adf71ec0f
+      internalID: 1963362521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0090
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 273
+        width: 522
+        height: 271
+      alignment: 9
+      pivot: {x: 1.7413793, y: 1.9114391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a3857364f8f894ab2d95ac3ec415c6
+      internalID: -1906701430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0091
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 273
+        width: 522
+        height: 271
+      alignment: 9
+      pivot: {x: 1.7413793, y: 1.9114391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3229eadadaaa3498a5f7c90bbc333f
+      internalID: -609440819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0092
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 651
+        width: 503
+        height: 260
+      alignment: 9
+      pivot: {x: 1.9085487, y: 1.9923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4598462b0a89fd240addf32b167164a4
+      internalID: -1520221499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0093
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 651
+        width: 503
+        height: 260
+      alignment: 9
+      pivot: {x: 1.9085487, y: 1.9923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2624c9544df67d74a8ea1dc25c2ef5db
+      internalID: -2017214743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0094
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 651
+        width: 503
+        height: 260
+      alignment: 9
+      pivot: {x: 1.9085487, y: 1.9923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54a19cef99acf04482bd05daf7e2480
+      internalID: 1616342007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0095
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 2141
+        width: 400
+        height: 326
+      alignment: 9
+      pivot: {x: 2.27, y: 1.595092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ad5d7ff5bbc04daed31e0faf1c22f
+      internalID: 1442848835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0096
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 2141
+        width: 400
+        height: 326
+      alignment: 9
+      pivot: {x: 2.27, y: 1.595092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2688318df3529418105c9f4c707b60
+      internalID: -1020050462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0097
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 2141
+        width: 400
+        height: 326
+      alignment: 9
+      pivot: {x: 2.27, y: 1.595092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72076cb9ed4f8c74e83688d19399ccfc
+      internalID: -843093734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0098
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2207
+        width: 424
+        height: 416
+      alignment: 9
+      pivot: {x: 2.1957548, y: 1.2475961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c65d1c5a8546449135b159866a886
+      internalID: -1334872285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0099
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2207
+        width: 424
+        height: 416
+      alignment: 9
+      pivot: {x: 2.1957548, y: 1.2475961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a09739872d4d4f8591caeacd2766d
+      internalID: -669170303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0100
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2207
+        width: 424
+        height: 416
+      alignment: 9
+      pivot: {x: 2.1957548, y: 1.2475961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdab01eef8ca24c40b8c24b06d21fa56
+      internalID: 962062134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0101
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 3653
+        width: 430
+        height: 442
+      alignment: 9
+      pivot: {x: 2.155814, y: 1.1719457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e509c40e89070542af238265013c8f3
+      internalID: -1693051538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0102
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 3653
+        width: 430
+        height: 442
+      alignment: 9
+      pivot: {x: 2.155814, y: 1.1719457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4b32a6f229aa4598e840ddd654ce8
+      internalID: -17547918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0103
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 3653
+        width: 430
+        height: 442
+      alignment: 9
+      pivot: {x: 2.155814, y: 1.1719457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4342779254a415941ace93e6e3d9a261
+      internalID: -12556574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3604
+        width: 404
+        height: 491
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0549898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff471640a29a5843b5f1e9063adbce0
+      internalID: -608455442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3604
+        width: 404
+        height: 491
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0549898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffd1fe54d83e8e4db706810a6b1da9f
+      internalID: 101199356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3604
+        width: 404
+        height: 491
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0549898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2994f20d6543e384dbcf28b2074ad70a
+      internalID: 737750541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0107
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 3616
+        width: 404
+        height: 479
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0835073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d41683cbade954aa873d399e2bb4f1
+      internalID: 1923349354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0108
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 3616
+        width: 404
+        height: 479
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0835073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd578991cd63d044aa52e52ffd1ab021
+      internalID: -1945216330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0109
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 3616
+        width: 404
+        height: 479
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0835073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660cb3fff8ce31d4a9f87f9a8f564597
+      internalID: -505604941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3115
+        width: 404
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0657084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a341dffed73ed44b5648d8690883c2
+      internalID: -483332122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3115
+        width: 404
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0657084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1dfcdcdccc7b742bfa1ec676a7bb85
+      internalID: 939328954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3115
+        width: 404
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0657084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a3dfa89cbbbb44d8cced73573cf48b
+      internalID: 1847126605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0113
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3115
+        width: 404
+        height: 487
+      alignment: 9
+      pivot: {x: 2.3143563, y: 1.0657084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432c2355eb02c444f8fd900765966a8e
+      internalID: -629690641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0114
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 3139
+        width: 394
+        height: 476
+      alignment: 9
+      pivot: {x: 2.3730965, y: 1.0903361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06ad2e84e1bbc84c9946fbd4ccf0aff
+      internalID: 1467765429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0115
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 3139
+        width: 394
+        height: 476
+      alignment: 9
+      pivot: {x: 2.3730965, y: 1.0903361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d421d69adaa4494ba46d95ef671c76c
+      internalID: -1378939947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0116
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 3139
+        width: 394
+        height: 476
+      alignment: 9
+      pivot: {x: 2.3730965, y: 1.0903361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18c08c677f4a6145b883087ad01774a
+      internalID: -1760794557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0117
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3644
+        width: 442
+        height: 451
+      alignment: 9
+      pivot: {x: 2.162896, y: 1.1485587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0890f92823c0447bcead2155b13871
+      internalID: -723299998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0118
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3644
+        width: 442
+        height: 451
+      alignment: 9
+      pivot: {x: 2.162896, y: 1.1485587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034872583bb50a845954bff4723a1eda
+      internalID: 988715629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0119
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 455
+        width: 424
+        height: 379
+      alignment: 9
+      pivot: {x: 2.2547169, y: 1.3667547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed06f5854c4ef94da5c23a7dae43256
+      internalID: 2097929969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0120
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 455
+        width: 424
+        height: 379
+      alignment: 9
+      pivot: {x: 2.2547169, y: 1.3667547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dec000d89f8504d85d687f3ec46782
+      internalID: 1907846994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0121
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 882
+        width: 450
+        height: 306
+      alignment: 9
+      pivot: {x: 2.1288888, y: 1.6960784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44a8e9ae7805e24cbd2cd32d901d369
+      internalID: 790852284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0122
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 882
+        width: 450
+        height: 306
+      alignment: 9
+      pivot: {x: 2.1288888, y: 1.6960784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c812b3c4cc3e74c9c83d7d5a16874b
+      internalID: -1895170999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0123
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3861ea181cf2874bab6dc50f56aa0c4
+      internalID: -291750038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0124
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83e30116a606ba4da39d6a0bc923f90
+      internalID: 1414533614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0125
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d0959ac0f18d4eaf3ba9c45576dd4
+      internalID: 2119061654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0126
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a16311b3d3b0e84fbba06e42a9d42a3
+      internalID: 1218481538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0127
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a00f9c16362f5f41a14ae12bffa9287
+      internalID: -1842765895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0128
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df891e3443116d54f822597516f923d6
+      internalID: -2073264977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0129
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42cf713103e98f4b861dd09663899f3
+      internalID: 575341292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02A0130
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 546
+        width: 434
+        height: 314
+      alignment: 9
+      pivot: {x: 2.202765, y: 1.6528662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a42feefcdec304eba8f9c9c46ea38e
+      internalID: -978042371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0001
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2023
+        width: 401
+        height: 326
+      alignment: 9
+      pivot: {x: 2.394015, y: 1.5858896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb64c2c5d3460de4ca5ccf7165ec5ffd
+      internalID: 1127813800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0002
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 1692
+        width: 399
+        height: 328
+      alignment: 9
+      pivot: {x: 2.3433583, y: 1.5762196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2852cefb461b1464a83f6b2ad0d4ec2d
+      internalID: 1168296817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0003
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 904
+        width: 405
+        height: 330
+      alignment: 9
+      pivot: {x: 2.2518518, y: 1.569697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29844761bdc8bd641ae90d2567b35223
+      internalID: 2007040090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0004
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 1618
+        width: 401
+        height: 326
+      alignment: 9
+      pivot: {x: 2.201995, y: 1.5858896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752baa6a00695d942931f96c01f153ea
+      internalID: -1232567735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0005
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1006
+        width: 396
+        height: 348
+      alignment: 9
+      pivot: {x: 2.1565657, y: 1.5172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3f3df694a67884b911da27c04a723d
+      internalID: -527066867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0006
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 717
+        width: 400
+        height: 341
+      alignment: 9
+      pivot: {x: 2.08, y: 1.5366569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed0fc7c13537784a9b1c6012806473c
+      internalID: -1406776490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0007
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 753
+        width: 396
+        height: 348
+      alignment: 9
+      pivot: {x: 2.0227273, y: 1.5172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbdee5eb1d7c3c42a208dc8f203063b
+      internalID: -471871625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0008
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 717
+        width: 400
+        height: 341
+      alignment: 9
+      pivot: {x: 1.9475, y: 1.5366569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aa5da1d366351449fc66bd06fbd932
+      internalID: -1070149663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0009
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 2873
+        width: 463
+        height: 290
+      alignment: 9
+      pivot: {x: 1.7537796, y: 1.7862068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8133f533416fd5c4bba6d54504574459
+      internalID: -1737508837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0010
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3021
+        width: 464
+        height: 292
+      alignment: 9
+      pivot: {x: 1.6918104, y: 1.7773973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f22df89d1180b49a7c407b6864e0bd
+      internalID: 1505956238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0011
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 3230
+        width: 465
+        height: 290
+      alignment: 9
+      pivot: {x: 1.6365591, y: 1.7862068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fcb3f8aba26cf4d8f9c3f3df74b922
+      internalID: 747825666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0012
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 3230
+        width: 465
+        height: 290
+      alignment: 9
+      pivot: {x: 1.5784947, y: 1.7862068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c48f5608ec2bb24388d2348d073b1f9
+      internalID: -1998619144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0013
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 2651
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 1.5873786, y: 1.5718563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1c817b00ea28a41bff8f51b01e69f8
+      internalID: 1037580985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0014
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2006
+        width: 412
+        height: 328
+      alignment: 9
+      pivot: {x: 1.5169903, y: 1.5823171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68df9264d2cd0f42ad9ba6426c8d8e7
+      internalID: 872869184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0015
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 2651
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 1.4563106, y: 1.5718563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097df0982dcb82143a7f690eeddd7f7c
+      internalID: -1359637061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0016
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 2651
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 1.3907768, y: 1.5718563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb6b513e3aa6fe45b57c9beb7e4911e
+      internalID: -807164890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0017
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1
+        width: 460
+        height: 347
+      alignment: 9
+      pivot: {x: 1.297826, y: 1.5043228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4bdc54fd88ea8499f1a94173ab7f05
+      internalID: -56163702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0018
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 278
+        width: 447
+        height: 347
+      alignment: 9
+      pivot: {x: 1.246085, y: 1.4985591}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff53389da64d4f4290ee82282b8c442
+      internalID: 51806038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0019
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 305
+        width: 447
+        height: 349
+      alignment: 9
+      pivot: {x: 1.1856823, y: 1.495702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee212b11a22fc5346ba432837c943d7a
+      internalID: 97956277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0020
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 409
+        width: 451
+        height: 353
+      alignment: 9
+      pivot: {x: 1.1241685, y: 1.490085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b8770c4f5ef7840a721e0f51d9b7ad
+      internalID: 306196327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0021
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 3607
+        width: 496
+        height: 292
+      alignment: 9
+      pivot: {x: 1.0120968, y: 1.7739726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d50393a4901eb4ebb69bee12cfd6ac
+      internalID: -1058176490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0022
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 3607
+        width: 496
+        height: 292
+      alignment: 9
+      pivot: {x: 0.9576613, y: 1.7739726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5b3788dc4b1a64d82e8fc3e8185015
+      internalID: 1344569148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0023
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 3362
+        width: 483
+        height: 294
+      alignment: 9
+      pivot: {x: 0.9254658, y: 1.7687075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718b7db8ffce95a448aaae1537fb2c96
+      internalID: -178799693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0024
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 3069
+        width: 484
+        height: 291
+      alignment: 9
+      pivot: {x: 0.8677686, y: 1.7869415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b149707db001d40a94c92652d39d66
+      internalID: 164000376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0025
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1208
+        width: 404
+        height: 327
+      alignment: 9
+      pivot: {x: 0.78960395, y: 1.5871559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a2d4225a880dd4b930b11cdbce72f0
+      internalID: 1652783987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0026
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1190
+        width: 403
+        height: 327
+      alignment: 9
+      pivot: {x: 0.7146402, y: 1.590214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e57fcb91cf1ed4296f2c54f7932418
+      internalID: 1539832002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0027
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 758
+        width: 407
+        height: 329
+      alignment: 9
+      pivot: {x: 0.65110564, y: 1.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc86789d37cb2c489ff03699a03bc32
+      internalID: 215083630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0028
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1256
+        width: 405
+        height: 327
+      alignment: 9
+      pivot: {x: 0.5901235, y: 1.5871559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79853f3a1173aa64fb45aadf920c32e7
+      internalID: -1541661376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0029
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1821
+        width: 395
+        height: 346
+      alignment: 9
+      pivot: {x: 0.51898736, y: 1.5231214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ba610dcd47e7d4f87104186e3188bb
+      internalID: 1743540369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0030
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1360
+        width: 392
+        height: 335
+      alignment: 9
+      pivot: {x: 0.4489796, y: 1.5611941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd9f78d26a73d4409ddf053b11e657a
+      internalID: -977778475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0031
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1360
+        width: 392
+        height: 335
+      alignment: 9
+      pivot: {x: 0.38010204, y: 1.5611941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9a9822aa790734a8195d72cb321b4a
+      internalID: 1468862184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0032
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1572
+        width: 392
+        height: 343
+      alignment: 9
+      pivot: {x: 0.3112245, y: 1.5335277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb12cb4a4ded3a4c9966ab8f814c3a4
+      internalID: -449887849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0033
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 3315
+        width: 470
+        height: 293
+      alignment: 9
+      pivot: {x: 0.34680852, y: 1.774744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6408b44461bfb5c42a702b7476b52846
+      internalID: -1695850955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0034
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 3315
+        width: 470
+        height: 293
+      alignment: 9
+      pivot: {x: 0.28936172, y: 1.774744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d31d2970f4592438d0783dbec7c00b
+      internalID: -1046648087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0035
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 250
+        width: 468
+        height: 318
+      alignment: 9
+      pivot: {x: 0.19871795, y: 1.644654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b86bcef58f7b0a44ab31a708b5fe98d
+      internalID: -1230660940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0036
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1859
+        width: 467
+        height: 319
+      alignment: 9
+      pivot: {x: 0.16488223, y: 1.6269592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153279b7e1af29846ac401c70cf505c4
+      internalID: -1007632691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0037
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 3052
+        width: 467
+        height: 315
+      alignment: 9
+      pivot: {x: 0.13490364, y: 1.647619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887c90df15c80c340960f091d71c0101
+      internalID: -2071519476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0038
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 216
+        width: 469
+        height: 308
+      alignment: 9
+      pivot: {x: 0.10660981, y: 1.6883117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95341e492f3fbb4fa4ed454038a3222
+      internalID: 1095337056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0039
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 3603
+        width: 443
+        height: 339
+      alignment: 9
+      pivot: {x: -0.047404062, y: 1.539823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71105fdca35aae448ab4a6f92a50928d
+      internalID: 962110163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0040
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 3224
+        width: 440
+        height: 333
+      alignment: 9
+      pivot: {x: -0.086363636, y: 1.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33253ff97e42f9f4f9b1f91f7f64f071
+      internalID: 1890519956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0041
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 862
+        width: 443
+        height: 336
+      alignment: 9
+      pivot: {x: -0.10835215, y: 1.5446428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54eda6dedb20c745bbc942df048fd23
+      internalID: 1532056121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0042
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 2404
+        width: 435
+        height: 332
+      alignment: 9
+      pivot: {x: -0.16091955, y: 1.563253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2032fb268c8ca43a277d974623a28e
+      internalID: -1912538678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0043
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 1066
+        width: 438
+        height: 361
+      alignment: 9
+      pivot: {x: -0.4634703, y: 1.432133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77d5fe515fc1784b898b8e40bf513da
+      internalID: 1147522761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0044
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 1397
+        width: 435
+        height: 360
+      alignment: 9
+      pivot: {x: -0.50344825, y: 1.4388889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4ae0a44168fe440931ca0fba41c282
+      internalID: 1224203411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0045
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 3476
+        width: 440
+        height: 363
+      alignment: 9
+      pivot: {x: -0.5318182, y: 1.4269973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e347a91ba14d44cac1a90b4809b83d
+      internalID: 98729110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0046
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1729
+        width: 433
+        height: 359
+      alignment: 9
+      pivot: {x: -0.57505774, y: 1.442897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639da42aefd42704c91f59204ccae5c3
+      internalID: -1465435416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0047
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 736
+        width: 439
+        height: 363
+      alignment: 9
+      pivot: {x: -0.594533, y: 1.4297521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b9620181b5d1248be6c00a4d4eb7f8
+      internalID: -307027254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0048
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2806
+        width: 380
+        height: 463
+      alignment: 9
+      pivot: {x: -0.73157895, y: 1.1166307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71498345acafdd340a5e842ecf35d7bf
+      internalID: -2123953131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0049
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2322
+        width: 382
+        height: 462
+      alignment: 9
+      pivot: {x: -0.7643979, y: 1.1190476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adf8479cbb70164ca174a286f7251f7
+      internalID: -1382769589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR02B0050
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2499
+        width: 382
+        height: 464
+      alignment: 9
+      pivot: {x: -0.8036649, y: 1.1163793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf286332f22f0c4e95d3632b3ca6d90
+      internalID: -219568894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9170b2c1e3a68c642b031d65815aa0ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TEAR01A0070: -2143674300
+      TEAR01A0071: 1264127485
+      TEAR01A0072: 778709153
+      TEAR01A0073: 879924235
+      TEAR01A0074: -2053870210
+      TEAR01A0075: -1639841554
+      TEAR01A0076: -2068420925
+      TEAR01A0077: -748892064
+      TEAR01A0078: 949967355
+      TEAR01A0079: 794813870
+      TEAR01A0080: -1493303698
+      TEAR01A0081: -1633314068
+      TEAR01A0082: -1830729891
+      TEAR01A0083: -1551425742
+      TEAR01A0084: -1902298479
+      TEAR01A0085: -489006671
+      TEAR01A0086: 1960225411
+      TEAR01A0087: 576604724
+      TEAR01A0088: -557346034
+      TEAR01A0089: 1928475240
+      TEAR01A0090: -492921661
+      TEAR01A0091: -529887593
+      TEAR01A0092: -560372397
+      TEAR01A0093: 1071371144
+      TEAR01A0094: -1825243095
+      TEAR01A0095: -109635194
+      TEAR01A0096: -1036804538
+      TEAR01A0097: 867267138
+      TEAR01A0098: -1435084727
+      TEAR01A0099: -1458573956
+      TEAR01A0100: -1110354201
+      TEAR01A0101: 1776314
+      TEAR01A0102: 859784203
+      TEAR01A0103: -972904560
+      TEAR01A0104: -1272373952
+      TEAR01A0105: 1822537666
+      TEAR01A0106: 2145638898
+      TEAR01A0107: -1990755751
+      TEAR01A0108: -1893024884
+      TEAR01A0109: 208385529
+      TEAR01A0110: 1266272137
+      TEAR01A0111: -330953981
+      TEAR01A0112: -1992357045
+      TEAR01A0113: 211083222
+      TEAR01A0114: 116191440
+      TEAR01A0115: -2074416721
+      TEAR01A0116: 1816874831
+      TEAR01A0117: 161183025
+      TEAR01A0118: -932185109
+      TEAR01A0119: 1713917367
+      TEAR01A0120: -2120466531
+      TEAR01B0001: 1725782689
+      TEAR01B0002: -107935444
+      TEAR01B0003: -989057016
+      TEAR01B0004: -1622902315
+      TEAR01B0005: 98265437
+      TEAR01B0006: 110538826
+      TEAR01B0007: -945489546
+      TEAR01B0008: -827271415
+      TEAR01B0009: 819017635
+      TEAR01B0010: -2011041547
+      TEAR01B0011: -600007587
+      TEAR01B0012: 1460373963
+      TEAR01B0013: 1531786735
+      TEAR01B0014: 57229046
+      TEAR01B0015: -1254863238
+      TEAR01B0016: -578801845
+      TEAR01B0017: -177587545
+      TEAR01B0018: -1960422492
+      TEAR01B0019: 175586764
+      TEAR01B0020: -1296826987
+      TEAR01B0021: -1500844122
+      TEAR01B0022: 1893951790
+      TEAR01B0023: 2027999980
+      TEAR01B0024: -728987036
+      TEAR01B0025: 1531851008
+      TEAR01B0026: 764729860
+      TEAR01B0027: 1564568148
+      TEAR01B0028: 163992492
+      TEAR01B0029: -2040494617
+      TEAR01B0030: -1877753308
+      TEAR01B0031: 413620600
+      TEAR01B0032: 1811488594
+      TEAR01B0033: 1924881498
+      TEAR01B0034: -671321113
+      TEAR01B0035: 151317860
+      TEAR01B0036: 555224192
+      TEAR01B0037: -110517239
+      TEAR01B0038: -583489231
+      TEAR01B0039: -451374084
+      TEAR01B0040: 1189330986
+      TEAR01B0041: -1174168680
+      TEAR01B0042: -101409698
+      TEAR01B0043: -1786352739
+      TEAR01B0044: 401494312
+      TEAR01B0045: 600594264
+      TEAR01B0046: -1500863137
+      TEAR01B0047: 1287884100
+      TEAR01B0048: 1608194687
+      TEAR01B0049: -1443368478
+      TEAR01B0050: 1544511715
+      TEAR01B0051: 1548115932
+      TEAR01B0052: -1211063053
+      TEAR01B0053: -793795703
+      TEAR01B0054: 2104823463
+      TEAR01B0055: 488328975
+      TEAR01B0056: 1544832366
+      TEAR01B0057: -261608296
+      TEAR01B0058: 1114503214
+      TEAR01B0059: -462506821
+      TEAR01B0060: 1025504504
+      TEAR02A0001: 1004230634
+      TEAR02A0002: 270424884
+      TEAR02A0003: -1516155559
+      TEAR02A0004: 931563086
+      TEAR02A0005: 2031445761
+      TEAR02A0006: -1264767057
+      TEAR02A0007: 665631615
+      TEAR02A0008: 1854345787
+      TEAR02A0009: -1627008827
+      TEAR02A0010: 1747831261
+      TEAR02A0011: -1689539245
+      TEAR02A0012: 1655195501
+      TEAR02A0013: 1010276361
+      TEAR02A0014: -2020165119
+      TEAR02A0015: 421694594
+      TEAR02A0016: 2144264176
+      TEAR02A0017: 1240784790
+      TEAR02A0018: -1920166512
+      TEAR02A0019: 1855591716
+      TEAR02A0020: 2015290820
+      TEAR02A0021: 373584036
+      TEAR02A0022: -28949703
+      TEAR02A0023: -1361484737
+      TEAR02A0024: -449889327
+      TEAR02A0025: 2091215768
+      TEAR02A0026: 1912495311
+      TEAR02A0027: -577721516
+      TEAR02A0028: 767886538
+      TEAR02A0029: -823688897
+      TEAR02A0030: 620243409
+      TEAR02A0031: 805975034
+      TEAR02A0032: 33497736
+      TEAR02A0033: -157407049
+      TEAR02A0034: -1566389520
+      TEAR02A0035: 437621707
+      TEAR02A0036: -902393247
+      TEAR02A0037: 2001188137
+      TEAR02A0038: 119418616
+      TEAR02A0039: 1532172713
+      TEAR02A0040: 912434161
+      TEAR02A0041: 748322604
+      TEAR02A0042: 1483233457
+      TEAR02A0043: 1516559948
+      TEAR02A0044: -1268530725
+      TEAR02A0045: -1153031053
+      TEAR02A0046: -1793050881
+      TEAR02A0047: 766659919
+      TEAR02A0048: -1260193843
+      TEAR02A0049: 1602367636
+      TEAR02A0050: 1242432736
+      TEAR02A0051: -1862450631
+      TEAR02A0052: -858217494
+      TEAR02A0053: -161644363
+      TEAR02A0054: -470321841
+      TEAR02A0055: -717317457
+      TEAR02A0056: 736579336
+      TEAR02A0057: 254263225
+      TEAR02A0058: -669690766
+      TEAR02A0059: -156297852
+      TEAR02A0060: 225719969
+      TEAR02A0061: -307055588
+      TEAR02A0062: 97800915
+      TEAR02A0063: 861333132
+      TEAR02A0064: 1855700794
+      TEAR02A0065: 1360120815
+      TEAR02A0066: 178972797
+      TEAR02A0067: 2002393300
+      TEAR02A0068: 1674955366
+      TEAR02A0069: 1737200928
+      TEAR02A0070: -157732836
+      TEAR02A0071: 840553694
+      TEAR02A0072: -1685377952
+      TEAR02A0073: 594719966
+      TEAR02A0074: -1065365223
+      TEAR02A0075: -899856946
+      TEAR02A0076: 776912287
+      TEAR02A0077: 19144400
+      TEAR02A0078: -128655541
+      TEAR02A0079: -58234484
+      TEAR02A0080: 1207316832
+      TEAR02A0081: -1588924386
+      TEAR02A0082: 1937709170
+      TEAR02A0083: -1545117675
+      TEAR02A0084: -1009820657
+      TEAR02A0085: 842111735
+      TEAR02A0086: 512272564
+      TEAR02A0087: -1404843820
+      TEAR02A0088: -689348347
+      TEAR02A0089: 1963362521
+      TEAR02A0090: -1906701430
+      TEAR02A0091: -609440819
+      TEAR02A0092: -1520221499
+      TEAR02A0093: -2017214743
+      TEAR02A0094: 1616342007
+      TEAR02A0095: 1442848835
+      TEAR02A0096: -1020050462
+      TEAR02A0097: -843093734
+      TEAR02A0098: -1334872285
+      TEAR02A0099: -669170303
+      TEAR02A0100: 962062134
+      TEAR02A0101: -1693051538
+      TEAR02A0102: -17547918
+      TEAR02A0103: -12556574
+      TEAR02A0104: -608455442
+      TEAR02A0105: 101199356
+      TEAR02A0106: 737750541
+      TEAR02A0107: 1923349354
+      TEAR02A0108: -1945216330
+      TEAR02A0109: -505604941
+      TEAR02A0110: -483332122
+      TEAR02A0111: 939328954
+      TEAR02A0112: 1847126605
+      TEAR02A0113: -629690641
+      TEAR02A0114: 1467765429
+      TEAR02A0115: -1378939947
+      TEAR02A0116: -1760794557
+      TEAR02A0117: -723299998
+      TEAR02A0118: 988715629
+      TEAR02A0119: 2097929969
+      TEAR02A0120: 1907846994
+      TEAR02A0121: 790852284
+      TEAR02A0122: -1895170999
+      TEAR02A0123: -291750038
+      TEAR02A0124: 1414533614
+      TEAR02A0125: 2119061654
+      TEAR02A0126: 1218481538
+      TEAR02A0127: -1842765895
+      TEAR02A0128: -2073264977
+      TEAR02A0129: 575341292
+      TEAR02A0130: -978042371
+      TEAR02B0001: 1127813800
+      TEAR02B0002: 1168296817
+      TEAR02B0003: 2007040090
+      TEAR02B0004: -1232567735
+      TEAR02B0005: -527066867
+      TEAR02B0006: -1406776490
+      TEAR02B0007: -471871625
+      TEAR02B0008: -1070149663
+      TEAR02B0009: -1737508837
+      TEAR02B0010: 1505956238
+      TEAR02B0011: 747825666
+      TEAR02B0012: -1998619144
+      TEAR02B0013: 1037580985
+      TEAR02B0014: 872869184
+      TEAR02B0015: -1359637061
+      TEAR02B0016: -807164890
+      TEAR02B0017: -56163702
+      TEAR02B0018: 51806038
+      TEAR02B0019: 97956277
+      TEAR02B0020: 306196327
+      TEAR02B0021: -1058176490
+      TEAR02B0022: 1344569148
+      TEAR02B0023: -178799693
+      TEAR02B0024: 164000376
+      TEAR02B0025: 1652783987
+      TEAR02B0026: 1539832002
+      TEAR02B0027: 215083630
+      TEAR02B0028: -1541661376
+      TEAR02B0029: 1743540369
+      TEAR02B0030: -977778475
+      TEAR02B0031: 1468862184
+      TEAR02B0032: -449887849
+      TEAR02B0033: -1695850955
+      TEAR02B0034: -1046648087
+      TEAR02B0035: -1230660940
+      TEAR02B0036: -1007632691
+      TEAR02B0037: -2071519476
+      TEAR02B0038: 1095337056
+      TEAR02B0039: 962110163
+      TEAR02B0040: 1890519956
+      TEAR02B0041: 1532056121
+      TEAR02B0042: -1912538678
+      TEAR02B0043: 1147522761
+      TEAR02B0044: 1224203411
+      TEAR02B0045: 98729110
+      TEAR02B0046: -1465435416
+      TEAR02B0047: -307027254
+      TEAR02B0048: -2123953131
+      TEAR02B0049: -1382769589
+      TEAR02B0050: -219568894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

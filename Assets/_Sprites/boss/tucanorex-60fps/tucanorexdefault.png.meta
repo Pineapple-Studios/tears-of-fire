@@ -1,0 +1,6986 @@
+fileFormatVersion: 2
+guid: 57a4a43dc5eceb8479fcc0d78f112a87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PREAP0001
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b23c5ef4c2af544bddffb48faba25d
+      internalID: -1741701069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0002
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb2fcbb9898a604c95347d54056130c
+      internalID: 753104119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0003
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23249d0d72813341b5b87fd358c0154
+      internalID: -1298172897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0004
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab991e36b77e75c47b9e579faacb2026
+      internalID: -171187984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0005
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 3685
+        width: 440
+        height: 410
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2682927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f97b0ef58ec3342a55e759a08b6068
+      internalID: -68998361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0006
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 3685
+        width: 440
+        height: 410
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2682927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2f82e2eccc5604a99fbdc086d2da79
+      internalID: -2077951005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0007
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 3685
+        width: 440
+        height: 410
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2682927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea9aae4913f1804e83709e0a8666135
+      internalID: 633320061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0008
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 3685
+        width: 440
+        height: 410
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2682927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2210d3c6affbb2748876e6e9c9f34b1a
+      internalID: -1815006284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0009
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2580
+        width: 449
+        height: 409
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.2713937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835247b1bd946a54aa10ee4d0405f26e
+      internalID: 381014889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0010
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2580
+        width: 449
+        height: 409
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.2713937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67af2a82e9d623648a9a7b49c40ec9cc
+      internalID: 753064932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0011
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2580
+        width: 449
+        height: 409
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.2713937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319a2d64e0b00d344add7275b42cb934
+      internalID: 412457158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0012
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2580
+        width: 449
+        height: 409
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.2713937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9475d34162876c458f6cfaf54decd0a
+      internalID: 1423937635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0013
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2524
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6859689, y: 1.2821782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ed7bce35c92614583e7feecd6d94b2
+      internalID: -1715695383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0014
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2524
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6859689, y: 1.2821782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35e4f4f5e6bae844b1b354d428f02ea
+      internalID: -164391149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0015
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2524
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6859689, y: 1.2821782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771e0cee461e84440961bdf9f137f468
+      internalID: -392492024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0016
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2524
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6859689, y: 1.2821782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662e09d97b1e2d4188fb08fa2810747
+      internalID: -941637304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0017
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2930
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.279703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e8b6dd1f85d04408dff809c316b6f0
+      internalID: 1555256473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0018
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2930
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.279703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409d6db9d7b6b5f4bbd38f72572464c0
+      internalID: 676633155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0019
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2930
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.279703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb36a63ed46375478c7740fb7683ff9
+      internalID: -1440038995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0020
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2930
+        width: 449
+        height: 404
+      alignment: 9
+      pivot: {x: 1.6904231, y: 1.279703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ccfc1afc6734843808611adc5df05a
+      internalID: -1562754608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0021
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2887
+        width: 444
+        height: 398
+      alignment: 9
+      pivot: {x: 1.704955, y: 1.3015076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8549a445601f342a9f7d80bb8fa139
+      internalID: -437798259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0022
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2887
+        width: 444
+        height: 398
+      alignment: 9
+      pivot: {x: 1.704955, y: 1.3015076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b08ccb620d96704d829eacfb06e70b5
+      internalID: 64326662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0023
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2887
+        width: 444
+        height: 398
+      alignment: 9
+      pivot: {x: 1.704955, y: 1.3015076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54188b3f04b81cd4dafd5f55c9369289
+      internalID: 1953516412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0024
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2887
+        width: 444
+        height: 398
+      alignment: 9
+      pivot: {x: 1.704955, y: 1.3015076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f1acbfc3889a7498fc5b0db4fc518d
+      internalID: 771043377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0025
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3284
+        width: 446
+        height: 400
+      alignment: 9
+      pivot: {x: 1.7017937, y: 1.2975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be42701190f008c4391d748c3c36e3ff
+      internalID: -1527564582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0026
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3284
+        width: 446
+        height: 400
+      alignment: 9
+      pivot: {x: 1.7017937, y: 1.2975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221be753c0d812243bac016a2fbf9e79
+      internalID: 489434459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0027
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3284
+        width: 446
+        height: 400
+      alignment: 9
+      pivot: {x: 1.7017937, y: 1.2975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebed5f475e5f7447b91fc4fb0a41130
+      internalID: 25656898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0028
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3284
+        width: 446
+        height: 400
+      alignment: 9
+      pivot: {x: 1.7017937, y: 1.2975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671b780a05a2a0840b01e2ba95042c46
+      internalID: -344180617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0029
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349f906bcd5db88429d8633710049f16
+      internalID: 1957279880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0030
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14247e84aac6a334080239ac36695562
+      internalID: -2110478820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0031
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c3d7db280271441a0feacbc5e3b24f
+      internalID: 822094620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0032
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2220
+        width: 440
+        height: 403
+      alignment: 9
+      pivot: {x: 1.7045455, y: 1.2903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90817da55f4a91478ef880e12f1ae0e
+      internalID: -1147909619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0033
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 2485
+        width: 441
+        height: 400
+      alignment: 9
+      pivot: {x: 1.7006803, y: 1.295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3722ebc961b0ea44ab9fd4a83489b578
+      internalID: 290127560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0034
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2492
+        width: 401
+        height: 429
+      alignment: 9
+      pivot: {x: 1.8154614, y: 1.2144523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2f2acf675346a49ba0ef10a5d02171
+      internalID: -1607126340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0035
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2492
+        width: 401
+        height: 429
+      alignment: 9
+      pivot: {x: 1.8154614, y: 1.2144523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61cc45269fb1e54795f84c30cb2e20f
+      internalID: 186243630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0036
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 3059
+        width: 404
+        height: 435
+      alignment: 9
+      pivot: {x: 1.8415842, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682ae9e3b35379b4d87ba2a020ebab7f
+      internalID: -1795781042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0037
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 3059
+        width: 404
+        height: 435
+      alignment: 9
+      pivot: {x: 1.8415842, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272b52af9c9a8434996548bf91f4e5fc
+      internalID: -259103169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0038
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 3059
+        width: 404
+        height: 435
+      alignment: 9
+      pivot: {x: 1.8415842, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247bc2ccbf2c56548995f3628218a268
+      internalID: 1991722521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0039
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 3059
+        width: 404
+        height: 435
+      alignment: 9
+      pivot: {x: 1.8415842, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5550889c051c15046a262e3bcc83a5a6
+      internalID: -1980317469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0040
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3371
+        width: 501
+        height: 373
+      alignment: 9
+      pivot: {x: 1.5988024, y: 1.391421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f02138fc3490544957405d6e720228
+      internalID: 1027048047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0041
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3371
+        width: 501
+        height: 373
+      alignment: 9
+      pivot: {x: 1.5988024, y: 1.391421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd9f13b80fadd41995ff58c1575050
+      internalID: 341709044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0042
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2140
+        width: 580
+        height: 258
+      alignment: 9
+      pivot: {x: 1.4844828, y: 2.003876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53edb84cff38dd458100bec901553b1
+      internalID: -1140715715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0043
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2140
+        width: 580
+        height: 258
+      alignment: 9
+      pivot: {x: 1.4844828, y: 2.003876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e745b1f7a89684a94063914d10c898
+      internalID: -1114724557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0044
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2800
+        width: 580
+        height: 261
+      alignment: 9
+      pivot: {x: 1.4844828, y: 1.9923371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c972084d2e31a0347855e178fb1bca51
+      internalID: 795489602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0045
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2800
+        width: 580
+        height: 261
+      alignment: 9
+      pivot: {x: 1.4844828, y: 1.9923371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f938e42de9bf4994f8e8c0f1b73d6f5c
+      internalID: -1894117867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0046
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2800
+        width: 580
+        height: 261
+      alignment: 9
+      pivot: {x: 1.4844828, y: 1.9923371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd784ff2585a1f24b9ada041deffe04f
+      internalID: -1038346554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0047
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b2b91e7fa70534d807dee5868b5316
+      internalID: 1656019269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0048
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9087a4fa0c52c4da1926b315086996
+      internalID: -55697997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0049
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee4b380544807248ad64a9c15ce6054
+      internalID: -1697596389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0050
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361ebabc9c4985941a771327f78461d4
+      internalID: 1797808020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0051
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b36e040277e1dd4491a33cfa55f49ef
+      internalID: 1254722609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0052
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11c1af43ff501349a7fbaca641c9eec
+      internalID: -1095768396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0053
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701755105885bdf4f94c99cef886a162
+      internalID: 1500054154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0054
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37a4fd50074359409901b3f4ab04996
+      internalID: 1126987765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0055
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3553612c9bad4249b57b53bcb5d62c2
+      internalID: 577828703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0056
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bbaa85d26bce343b68e5e9d13e818e
+      internalID: 454609093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0057
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1929fc4315084484585148094081d143
+      internalID: -245646527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0058
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1edf1a230e8e7c4c981ffafe6b202bf
+      internalID: -1827333832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0059
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac7cb3d711f09245bba64199d8985d7
+      internalID: -583742024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0060
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb993fb9831745141a68db4c6d169a51
+      internalID: -1950400732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0061
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ea1c810b8aac44d8460661670f5f19
+      internalID: 2013990842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0062
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3786eaad063c3e45b9e65c162afd197
+      internalID: -2008948005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0063
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504cba239bc3a7842ae54a5f3c8ae2f9
+      internalID: -1015707727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0064
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c53ff062e81504ea3117e6d37e5ebb
+      internalID: -1213854648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0065
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75d949dc7744de4dae84eb1ffbff682
+      internalID: 1444602985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0066
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b29c69778e9a58499d66f5d6c26d5e0
+      internalID: 1966398451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0067
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38177486694f7f4ab810f094f5d07a5
+      internalID: -1144459706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0068
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7cd2a5b68f5a2489340f8acff94c98
+      internalID: -1616250926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0069
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c44d86fec4aa3f419e47e1700168d18
+      internalID: -905281157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0070
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373c98c82e1bbb04d921895bba9584c8
+      internalID: 719067031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0071
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aac1079a96106428b6ead61de97855
+      internalID: 2034476626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0072
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dd26167d0d0004abf3cccbe92747ae
+      internalID: -1287503542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0073
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7381221c94e48404b9ac99c6437cb13c
+      internalID: -1381814471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0074
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fefcd1232cc37408cfa7316f1aa6df
+      internalID: -191408904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0075
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801457e2f3d2098428beb2b177a90ac6
+      internalID: 1219671458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0076
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c765feecb2b74db923365793e30be
+      internalID: -1326319240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0077
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e3e813e0f89b428d5df4c948a93d7
+      internalID: 1966254066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0078
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fb007145bec134da4f0c5290703ff2
+      internalID: -757478339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0079
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2511e23d5e8e95c41b151155729981c9
+      internalID: -264527571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0080
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e2fe1d488884a42987c0bd67fcd3d9
+      internalID: -1424764771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0081
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cac85f925fdf84fbf8b4e8fc6d26e5
+      internalID: 693800104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0082
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2186fb25beba0f14ca2b8eb083547367
+      internalID: 677238549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0083
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9806d4c2c0dbb458e86bc52dd8a768
+      internalID: 375258096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0084
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126dd6829e42bd04497087b31473229e
+      internalID: -2038466399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0085
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ede59eade568834bae2f6a24c1540e7
+      internalID: -858353941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0086
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e5f1cb734658449bd240dda7611b5d
+      internalID: 404277231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0087
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5b76a01fd732346845ed0c29537159
+      internalID: -1077436695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0088
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8224e24cb0cf9214b9fb8ba54c754cf3
+      internalID: 952307656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0089
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8493ab9490c94b829e48cb0b25b94
+      internalID: -1361882763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0090
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866628965f5d33040a95f5cd20da4292
+      internalID: 1361566183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0091
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebc6088a2d1c364691b1a093023ebcf
+      internalID: -213048717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0092
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb4e5fa6b7d6cc4bacb3af95fa5bc9a
+      internalID: 1190786417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0093
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9590e83817e2f449c6cc388083af73
+      internalID: 1573131023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0094
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8947e4ceca4e341bd9e4d5a1ec75ea
+      internalID: 928153624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0095
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bc0267588f51043aef58ca0c20af09
+      internalID: -1313981955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0096
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6939178d36ae164c82b3d1784fa2ba3
+      internalID: -948103281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0097
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b65d7ff672cc54bbfeabc20a88fcaa
+      internalID: -1786128542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0098
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a2f5203dcf8764bb18afbc10e65811
+      internalID: 2123814275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0099
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee1503fb614d1449f994cb105c81c1
+      internalID: -1323735118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0100
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa497cc5843b54e8561bb977cbf551
+      internalID: 13215222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0101
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49d28ff23b67094c9a0ca371e7b6e2c
+      internalID: 1927544291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0102
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2ee20849aee2348aa48c52328194be
+      internalID: 1145811146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0103
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b618988ce25844790804a2f415469a
+      internalID: 748894304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0104
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7487f08bc35d08241b0d7358248a1ccf
+      internalID: -1676924928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0105
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8345e74788e8f64fa5bc5c97208315c
+      internalID: -255810632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0106
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc034679bf284349b00bd4b9d82ef5d
+      internalID: 1768797891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0107
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57e9c917060fa44080cb1b14a9924ef
+      internalID: -1219748019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0108
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a843c17638bc13844829cdb570dbd758
+      internalID: 1817739890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0109
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d32b9bfdbf4785469adde19ea2e3fc7
+      internalID: -430339017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0110
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee0b549cc97aa8418e2cfa69a31d46c
+      internalID: -1982442302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0111
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efcf64b5ba5c41439c5bc37bc45d661
+      internalID: 977515373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0112
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47e4d1b4da5e484c88a3c8567123565
+      internalID: 25952796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0113
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325a18caa4b7a9f418bd720a73d3e305
+      internalID: -933728577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0114
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011090ea9c44bb747866d16acfab2299
+      internalID: 796290470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0115
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d375b2a93c61b824ba0f391d18a92608
+      internalID: 781726948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0116
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951879cabfe98614798c515ec0593871
+      internalID: 576354353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0117
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c1d5b171bc484688f5ad486530b47
+      internalID: -395851459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0118
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ba3e068e0e3243bc11e6f0c5c459f
+      internalID: -970637892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0119
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4f9300534cfbc409b63239a958df02
+      internalID: -1060707226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0120
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a09fbc9f41d36b49a5eae6a893e9b38
+      internalID: -474764448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0121
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 1
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af38fc45b0f66d847a3115b3dca4e690
+      internalID: -1205221225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0122
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490169a9a6e3e7e43ab33401931ecae7
+      internalID: 619280008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0123
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17f3f6f537d9a14aa894ee31f7d7559
+      internalID: 1162976940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0124
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c92ef0f0a33f64689585d4625a63fc
+      internalID: 482579132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0125
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea37383e0704374f904c90814c25bfa
+      internalID: 1055410113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0126
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392dc59342878dd4789534b77e020a70
+      internalID: 107175191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0127
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f741f5fe62b8d2a4998c1d2790bbce13
+      internalID: -1033838559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0128
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4b75f2dd293604db759af268315c38
+      internalID: -642548492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0129
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a19cbc1fb704141b55f40ff520421a
+      internalID: 824945510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0130
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5010ed5a783abc4da13541bd4c8e30b
+      internalID: -154176416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0131
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a499201dc9e7478716af9cf04691d
+      internalID: -197961651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0132
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0643355751ca947900406a8fd5d3a5
+      internalID: -1225050715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0133
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362edf1d9340dd740b9eb8fb420cef0c
+      internalID: -139314630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0134
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c3e8e3980a2a84d810da44dcdb7656
+      internalID: -1507121707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0135
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ad76d7e8b023d4e8612ca780cf6151
+      internalID: 1167716775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0136
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8cde7f5e832b24ea99b28da3d25b3b
+      internalID: 1312142213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0137
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d139804c2b8db44ca1ef8f545155c96
+      internalID: 439642542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0138
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85fb2d76226c254f89cdb721f60d304
+      internalID: -1681744990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0139
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4661ec18a8be84e49b1ebd723d5302fe
+      internalID: -2122695712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0140
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f92c87f660af843945486ba15564d1
+      internalID: -1467151696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0141
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2902
+        width: 569
+        height: 258
+      alignment: 9
+      pivot: {x: 1.5026362, y: 2.011628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e97da9a3ae3d4597a3d73830afc84
+      internalID: -1325821827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0142
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1
+        width: 556
+        height: 265
+      alignment: 9
+      pivot: {x: 1.5449641, y: 1.9584906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf28f791f0543ec459bde46db7853c69
+      internalID: -389192102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0143
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1
+        width: 556
+        height: 265
+      alignment: 9
+      pivot: {x: 1.5449641, y: 1.9584906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6c3239820dc0f4cae8eddf4b4df44b
+      internalID: 2042614296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0144
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 3819
+        width: 540
+        height: 276
+      alignment: 9
+      pivot: {x: 1.5870371, y: 1.8804348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e228490dd7a410b429655d2d60757e8d
+      internalID: -615805281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0145
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 3819
+        width: 540
+        height: 276
+      alignment: 9
+      pivot: {x: 1.5870371, y: 1.8804348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe31efd479d4ee49b6919a0d1c24fb8
+      internalID: -1242538039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0146
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2209
+        width: 542
+        height: 287
+      alignment: 9
+      pivot: {x: 1.6051661, y: 1.804878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4ba1ef2eef93a40922c1b46e628051
+      internalID: 38513474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0147
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2209
+        width: 542
+        height: 287
+      alignment: 9
+      pivot: {x: 1.6051661, y: 1.804878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037f6c6390787a84f91284789e80d6d5
+      internalID: 342148379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0148
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2209
+        width: 542
+        height: 287
+      alignment: 9
+      pivot: {x: 1.6051661, y: 1.804878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562177558c1d40a48a08efae14cfc56d
+      internalID: -1856498024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea471148dc7ad6443942e2217a7eae44
+      internalID: -2120557701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33614bf89eea4b449b8aa7fc32e915a
+      internalID: -405481405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0151
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a5b503b00cd37429f6da94d5eb3cd0
+      internalID: 1897073662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0152
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84efe5734759888488c87119d45f368f
+      internalID: -1125009895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0153
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2215
+        width: 532
+        height: 295
+      alignment: 9
+      pivot: {x: 1.6184211, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ebc69d3fcc86a44ae5d58f597d1290
+      internalID: -1134486040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0154
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2215
+        width: 532
+        height: 295
+      alignment: 9
+      pivot: {x: 1.6184211, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dbdcefcac116449ae3537be3ebb90c
+      internalID: -1322537787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0155
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2215
+        width: 532
+        height: 295
+      alignment: 9
+      pivot: {x: 1.6184211, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a883113c0d72d41ab4319213ceeac6
+      internalID: -1502804686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0156
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2215
+        width: 532
+        height: 295
+      alignment: 9
+      pivot: {x: 1.6184211, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397c03692b1f57148b347f47f5c41875
+      internalID: 2003725242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0157
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2215
+        width: 532
+        height: 295
+      alignment: 9
+      pivot: {x: 1.6184211, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdd9a7f881a70247b617a260265e866
+      internalID: -2093347379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0158
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 257
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa03aae2925d9a46a699f7d6f4a7845
+      internalID: -1485336732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0159
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 257
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68658ac3175209941bfd5527b6869c3a
+      internalID: 599794929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0160
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 257
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e5d144850a15a45b02b6822d68ba9f
+      internalID: -1353758959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0161
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 257
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103a59502d05bae44b39ca7b32e37c45
+      internalID: -737583080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0162
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 257
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8a6aeb1c8b6194190cbd2fbca21f3f
+      internalID: -2024584108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0163
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 257
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657f85774f895314d8061de507c924c0
+      internalID: 379000723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0164
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3814
+        width: 529
+        height: 281
+      alignment: 9
+      pivot: {x: 1.6294897, y: 1.8398577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37167d88a4fb21242ae77c939e265440
+      internalID: 265582070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0165
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3814
+        width: 529
+        height: 281
+      alignment: 9
+      pivot: {x: 1.6294897, y: 1.8398577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6818c88adc492da40ae96863d920c632
+      internalID: 420517446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0166
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3814
+        width: 529
+        height: 281
+      alignment: 9
+      pivot: {x: 1.6294897, y: 1.8398577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84436705bb05c24fb4091940a52affe
+      internalID: 578823192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0167
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3814
+        width: 529
+        height: 281
+      alignment: 9
+      pivot: {x: 1.6294897, y: 1.8398577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c593e036f872f047a75fdb375d44abd
+      internalID: -1291792277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0168
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3814
+        width: 529
+        height: 281
+      alignment: 9
+      pivot: {x: 1.6294897, y: 1.8398577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecbe6a1199ebe74fb42bc763133a9db
+      internalID: -680362300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0169
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3814
+        width: 529
+        height: 281
+      alignment: 9
+      pivot: {x: 1.6294897, y: 1.8398577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d7f7683d153a245a40a6dfbeb89a0d
+      internalID: -1529930581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0170
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 1
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9229e3c13be734dac2b17bc68bb66c
+      internalID: 964405957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0171
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 1
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eea0a31f87559c4f80d59e3b1b10d1f
+      internalID: -1275593057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0172
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 1
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c84a267209354ab8713fb74d764bf
+      internalID: 2023712917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0173
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 1
+        width: 531
+        height: 288
+      alignment: 9
+      pivot: {x: 1.6233522, y: 1.7951388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decb909bce276a14199bd94667af03fe
+      internalID: 1629825030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0174
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590eb38805811c64bb73853fbe3bdaf2
+      internalID: -1924299499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0175
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71087fddef5a4c945bcbc7abf33bbb13
+      internalID: -1846798549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0176
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1136ac64589dc4db28e38930b6aaf1
+      internalID: 2036500541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0177
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 528
+        height: 298
+      alignment: 9
+      pivot: {x: 1.6306819, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e19d2823fb18b4e91894fe20564469
+      internalID: -769727672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0178
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1
+        width: 532
+        height: 290
+      alignment: 9
+      pivot: {x: 1.6240602, y: 1.7862068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f8b0bf3a1ea8f43ade3ad51c106aea
+      internalID: -1393629982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0179
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 537
+        height: 288
+      alignment: 9
+      pivot: {x: 1.5996276, y: 1.7986112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af06a2327b668542a57ac941c51ce57
+      internalID: -50677488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0180
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 537
+        height: 288
+      alignment: 9
+      pivot: {x: 1.5996276, y: 1.7986112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5313b534ab0b214ba631383071433f2
+      internalID: 1045556532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0181
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 541
+        width: 530
+        height: 285
+      alignment: 9
+      pivot: {x: 1.6075472, y: 1.814035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e98ae6d3ccb404db1ada2531fc1ec9
+      internalID: 309011965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0182
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 541
+        width: 530
+        height: 285
+      alignment: 9
+      pivot: {x: 1.6075472, y: 1.814035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cfb68d14d997f4da53941f070eaaf2
+      internalID: 519522887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0183
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 2667
+        width: 511
+        height: 278
+      alignment: 9
+      pivot: {x: 1.7592955, y: 1.8633094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764596107f99fac409cb371991ccd835
+      internalID: -1265264443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0184
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 2667
+        width: 511
+        height: 278
+      alignment: 9
+      pivot: {x: 1.7592955, y: 1.8633094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded56de3b53aa15418b875a37e7a9b80
+      internalID: 883405384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0185
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2116
+        width: 411
+        height: 338
+      alignment: 9
+      pivot: {x: 2.0705595, y: 1.5295858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47af749ea6f5484e8885b7de8f1a853
+      internalID: 122101141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0186
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2116
+        width: 411
+        height: 338
+      alignment: 9
+      pivot: {x: 2.0705595, y: 1.5295858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66444612b3721ae4f897bfdfbc32985c
+      internalID: 1812796749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0187
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 3664
+        width: 438
+        height: 429
+      alignment: 9
+      pivot: {x: 2.0068493, y: 1.2051282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e5042f9cbe9e442be5020b0311a797
+      internalID: 826510083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0188
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 3664
+        width: 438
+        height: 429
+      alignment: 9
+      pivot: {x: 2.0068493, y: 1.2051282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0cdfc24e86059488041bab2f4bb704
+      internalID: 1578293189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0189
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3640
+        width: 441
+        height: 455
+      alignment: 9
+      pivot: {x: 1.9818594, y: 1.1362637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d753768328158f40a9709ee7ff05ff8
+      internalID: -1067603051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0190
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3640
+        width: 441
+        height: 455
+      alignment: 9
+      pivot: {x: 1.9818594, y: 1.1362637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a566a72b9817adb4a8d605afb7fec920
+      internalID: 1152999594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0191
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3125
+        width: 401
+        height: 512
+      alignment: 9
+      pivot: {x: 2.1845386, y: 1.0097656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34862292c9eff241af44fd59f2b6217
+      internalID: -558749931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3125
+        width: 401
+        height: 512
+      alignment: 9
+      pivot: {x: 2.1845386, y: 1.0097656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e12b093ecca5a4586634643df1b91a
+      internalID: -1397729124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0193
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2624
+        width: 403
+        height: 500
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678255442536f9c44b4954b57aadb9fb
+      internalID: 228273615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0194
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2624
+        width: 403
+        height: 500
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069718f427291de45b630c2822a6fbd4
+      internalID: 661176049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0195
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e619120760417c9459b24a0d85ec0ac7
+      internalID: -2122169127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0196
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f611e945a16da614d9e5fc16cb2e8f97
+      internalID: -484699356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0197
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ec5ee38f911ca418367f638264c67f
+      internalID: -1593492887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0198
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f09b90c7e18c64090aa8d1cdda315e
+      internalID: -1009710662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0199
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc9651bef76af44796740b20be23978
+      internalID: 648559104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0200
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dc9102053c9cf4bbb03a2063e00eb4
+      internalID: 1803442038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0201
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1476b79129e965640aa10c491abebfcf
+      internalID: -234815114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0202
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a03c5565c6d2af4d9690c1895c44c03
+      internalID: 20460656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0203
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb17445301a24b24394ce13483c73c30
+      internalID: -951820804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0204
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1e00aef4cffef44a183fc459ec2057
+      internalID: 777208614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0205
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8095eb7a903570648b547fb6275d161f
+      internalID: 1992699427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0206
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67248516371f24c43a53d7699de08f74
+      internalID: -899786917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0207
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3d25d079722fa4389060c40c8e32f0
+      internalID: -1971536393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0208
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5375ead22f978944ba138a848c097b37
+      internalID: 997958548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0209
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79699ad47bfc6ef4e889cb6b3e0df578
+      internalID: 110807833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0210
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41ca35124bcb54c9332813d052a103
+      internalID: -924932746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0211
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c894fd6193b8a42a757ad07fc2e398
+      internalID: -2003450286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0212
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70462a60329b8b24cb481787f5db7f72
+      internalID: 689969035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0213
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e946695291676f4ebb997fd3be144b9
+      internalID: -2140709934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0214
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635d9418ed62a941966ff5053ded2d9
+      internalID: -1316085878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0215
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7341e4fba51b06f4ea39d30306ae6ae2
+      internalID: 578248631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0216
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2990
+        width: 403
+        height: 499
+      alignment: 9
+      pivot: {x: 2.1786602, y: 1.0360721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ecd4db19916a145be9bc27c0fabb5c
+      internalID: 148036392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0217
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3336
+        width: 397
+        height: 491
+      alignment: 9
+      pivot: {x: 2.1914358, y: 1.0529531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974b153dc8a19844ca499cbf0e358efc
+      internalID: -1883123835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0218
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3336
+        width: 397
+        height: 491
+      alignment: 9
+      pivot: {x: 2.1914358, y: 1.0529531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d514ae04b0c2849b3bace110e8b380
+      internalID: 82094866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0219
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3336
+        width: 397
+        height: 491
+      alignment: 9
+      pivot: {x: 2.1914358, y: 1.0529531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5a0f28451d0884d84929b843fb4dc9
+      internalID: -260605115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3631
+        width: 456
+        height: 464
+      alignment: 9
+      pivot: {x: 1.9824561, y: 1.1163793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3846b841f2f6146bf19ae87aa56983
+      internalID: 418172586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0221
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3631
+        width: 456
+        height: 464
+      alignment: 9
+      pivot: {x: 1.9824561, y: 1.1163793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69773911cc02f14ea839862c2ebaf56
+      internalID: 913939961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0222
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 1
+        width: 431
+        height: 389
+      alignment: 9
+      pivot: {x: 2.0974479, y: 1.3316195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a445c4fa69b10a4998ea80dddc62bc2
+      internalID: -2053892951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0223
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 1
+        width: 431
+        height: 389
+      alignment: 9
+      pivot: {x: 2.0974479, y: 1.3316195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145d760b7cbd30340a270acf1ecc0f49
+      internalID: -1741335717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0224
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1086
+        width: 455
+        height: 320
+      alignment: 9
+      pivot: {x: 1.9648352, y: 1.615625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4712b3b60f47248b7809a6ac7d13f9
+      internalID: 2068364105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0225
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1086
+        width: 455
+        height: 320
+      alignment: 9
+      pivot: {x: 1.9648352, y: 1.615625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aac26ea1a97e84b9c9fb5ce8f232c5
+      internalID: 296290172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0226
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524276c44e390c54297f762751d54ee5
+      internalID: -2067606750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0227
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7e1245f83dbfd4ea5ecbecf0fd3f5e
+      internalID: -957022709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0228
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65dd582131df234e86d1b7bdb5ae4a6
+      internalID: -839721594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0229
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d337148d3d9e184a8251bf7b7b970d2
+      internalID: 1702937372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0230
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd1da2eac0a4af4d9f7293aaa9d1206
+      internalID: -3536115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0231
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00606f26c1535444094a29b198bbec13
+      internalID: 1395836741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0232
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c883fa87bb48e24697479ee45b33d7a
+      internalID: 160299136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0233
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf50c286b78873149a7d4b5f744ef683
+      internalID: -2092344578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0234
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe7a6a7fcf4a2449f8487286737db8
+      internalID: -1902809883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0235
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db94bb55e1e45743b6d3448fc672cde
+      internalID: 143809144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0236
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014fb7155f549246b34edf2181bfe72
+      internalID: -808873983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0237
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b745b60c1b0231e45be8c3b51c4b903b
+      internalID: -942381722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0238
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0a3ff070651c349ac69155161564b8
+      internalID: -1966547688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0239
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2461efc98492389478c9060585a0a734
+      internalID: 1723485009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0240
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78762c2e42aa71479d963b08bf7fab0
+      internalID: -808180949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PREAP0241
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 2495
+        width: 438
+        height: 319
+      alignment: 9
+      pivot: {x: 2.041096, y: 1.6175549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814bf263fd7f71544bd4e1c716c53261
+      internalID: 1542190754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0001
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 3374
+        width: 413
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7530266, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cc9e7b08d6fc444a1a7985f0f0716b
+      internalID: -2111837782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0002
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1737
+        width: 413
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7530266, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed33350d2199f040a1ffb1abd648ae8
+      internalID: 1397934108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0003
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 2967
+        width: 419
+        height: 334
+      alignment: 9
+      pivot: {x: 1.725537, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3331864c884987d49b3c050984f1808a
+      internalID: 1509775210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0004
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 562
+        width: 419
+        height: 334
+      alignment: 9
+      pivot: {x: 1.7016706, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eabf6c21bb3f134c98488e2943b3ade
+      internalID: 1785316723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0005
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1154
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 1.6893204, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daaec3c0933d6b44ab2730955ef5e7f
+      internalID: -1978340740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0006
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1823
+        width: 401
+        height: 350
+      alignment: 9
+      pivot: {x: 1.6932669, y: 1.4971429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efac0affc1c4b543b63e061581a4166
+      internalID: -1727110424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0007
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1893
+        width: 400
+        height: 350
+      alignment: 9
+      pivot: {x: 1.665, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba931a8d7eb2f14889c545bb4e31f6f
+      internalID: -1474948476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0008
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1106
+        width: 405
+        height: 347
+      alignment: 9
+      pivot: {x: 1.6345679, y: 1.5100864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2aa1b5e1b3e5c4cb587bb5180411a2
+      internalID: -2027558623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0009
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 838
+        width: 401
+        height: 345
+      alignment: 9
+      pivot: {x: 1.6234413, y: 1.515942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821425b125278f54c9dff9ebe00b10b2
+      internalID: 355749560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0010
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 3252
+        width: 472
+        height: 295
+      alignment: 9
+      pivot: {x: 1.5, y: 1.759322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17efb3f61339c2648adb0813544c810d
+      internalID: -1172189727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0011
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1127
+        width: 473
+        height: 296
+      alignment: 9
+      pivot: {x: 1.473573, y: 1.7567568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635ad636913350847806bc0894e0dd81
+      internalID: -344140027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0012
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 811
+        width: 483
+        height: 300
+      alignment: 9
+      pivot: {x: 1.426501, y: 1.7366667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7bbe118ff58c2478a3e181b26e11b2
+      internalID: -495883683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0013
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 829
+        width: 479
+        height: 296
+      alignment: 9
+      pivot: {x: 1.4154489, y: 1.7533784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b97c3ce1ad9ca4081c674d51c86d05
+      internalID: 943670621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0014
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 1297
+        width: 429
+        height: 343
+      alignment: 9
+      pivot: {x: 1.4498835, y: 1.5335277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e234ec5280190d458f59ab095e93b93
+      internalID: 1067343801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0015
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1063
+        width: 424
+        height: 337
+      alignment: 9
+      pivot: {x: 1.4386792, y: 1.5430267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0b01da07f316e469d15e9331c92c5c
+      internalID: -706581944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0016
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1419
+        width: 423
+        height: 340
+      alignment: 9
+      pivot: {x: 1.4160757, y: 1.5382353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef17caf2d800804cb001e4150d9c0e7
+      internalID: -1929758577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0017
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1419
+        width: 423
+        height: 340
+      alignment: 9
+      pivot: {x: 1.392435, y: 1.5382353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd77d2666f8a13042bf20c7ab24e5c62
+      internalID: -254703984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0018
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 272
+        width: 455
+        height: 359
+      alignment: 9
+      pivot: {x: 1.3538462, y: 1.4679666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df4d1843f9d74740839de0b39088592
+      internalID: 1784445094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0019
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 867
+        width: 456
+        height: 355
+      alignment: 9
+      pivot: {x: 1.3333334, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33098cba3366d7b4cba5f00119d05570
+      internalID: 1247666905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0020
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 271
+        width: 456
+        height: 355
+      alignment: 9
+      pivot: {x: 1.3114035, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991834dfd0622d48aad76d725e90f1b
+      internalID: 2052241334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0021
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 581
+        width: 461
+        height: 355
+      alignment: 9
+      pivot: {x: 1.2841649, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd79d17d81a842e47bfd69c53cb920d0
+      internalID: -2067593071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0022
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 1006
+        width: 489
+        height: 295
+      alignment: 9
+      pivot: {x: 1.2372189, y: 1.7559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364df394a01c5b648a196a67348ac4b2
+      internalID: -958446386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0023
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 589
+        width: 497
+        height: 299
+      alignment: 9
+      pivot: {x: 1.1971831, y: 1.7391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bdb4020ecd3f14b9d2c3c63f6c2df6
+      internalID: -1065590346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0024
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 589
+        width: 497
+        height: 299
+      alignment: 9
+      pivot: {x: 1.1770624, y: 1.7391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3958dddb7d0c444ad050c53b0db4f2
+      internalID: -1690749744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0025
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2414
+        width: 503
+        height: 298
+      alignment: 9
+      pivot: {x: 1.1351888, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a391432af8604e9893b9104aed876
+      internalID: -1136995351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0026
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 1330
+        width: 419
+        height: 334
+      alignment: 9
+      pivot: {x: 1.1861575, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dd2de0a31f7e7408c91f6d1afdde75
+      internalID: -358400296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0027
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 2722
+        width: 419
+        height: 334
+      alignment: 9
+      pivot: {x: 1.1622912, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997977354e4f63a4e81296a17eaa8b03
+      internalID: 559632544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0028
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 2055
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 1.1407768, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98966619a9c315e4197b54744fdc82f1
+      internalID: 1714502782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0029
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1430
+        width: 407
+        height: 332
+      alignment: 9
+      pivot: {x: 1.1302211, y: 1.5572289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cbab8e17a6ccd458e3cd24350c5486
+      internalID: 602578719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0030
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1638
+        width: 400
+        height: 350
+      alignment: 9
+      pivot: {x: 1.1, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762c3ce00846db3488735100bd1d16bc
+      internalID: 1550309328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0031
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 3212
+        width: 405
+        height: 347
+      alignment: 9
+      pivot: {x: 1.0765432, y: 1.5100864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e51a62a00f1c4a8ef3e682d73440b
+      internalID: -494738280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0032
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 2441
+        width: 401
+        height: 345
+      alignment: 9
+      pivot: {x: 1.0598503, y: 1.515942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082553586eba0204da3eea16fcffc270
+      internalID: 986017512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0033
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1303
+        width: 401
+        height: 350
+      alignment: 9
+      pivot: {x: 1.032419, y: 1.4971429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a77f7c016c56a84cac492d9785714c5
+      internalID: 950230365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0034
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 3522
+        width: 473
+        height: 296
+      alignment: 9
+      pivot: {x: 0.99577165, y: 1.7567568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce55742a9c4f441a1ea121f749e9b9
+      internalID: -1240130546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0035
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3795
+        width: 483
+        height: 300
+      alignment: 9
+      pivot: {x: 0.9585921, y: 1.7366667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3b02119cef0bb4aa310a592b452941
+      internalID: 1550833970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0036
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 788
+        width: 479
+        height: 296
+      alignment: 9
+      pivot: {x: 0.94363254, y: 1.7533784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410a6210c9ad3e845a4d3be32c690994
+      internalID: -42094021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0037
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 788
+        width: 479
+        height: 296
+      alignment: 9
+      pivot: {x: 0.9227557, y: 1.7533784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a831d5183584d44e98d8cba8d13a19d
+      internalID: -718444874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0038
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 529
+        width: 424
+        height: 337
+      alignment: 9
+      pivot: {x: 0.9056604, y: 1.5430267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bc14a7d4aa33844b75851395eabf0d
+      internalID: -1028195516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0039
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 3151
+        width: 423
+        height: 340
+      alignment: 9
+      pivot: {x: 0.8817967, y: 1.5382353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee4f40b0fb2dd4e8a4642943a92a40
+      internalID: 1012526088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0040
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 2931
+        width: 426
+        height: 338
+      alignment: 9
+      pivot: {x: 0.87089205, y: 1.5473373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ac72b5354071f41b7a65b367e235f4
+      internalID: -916964837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0041
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 2931
+        width: 426
+        height: 338
+      alignment: 9
+      pivot: {x: 0.84741783, y: 1.5473373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce78b62da6b1d0347acba3bf80d1e5b2
+      internalID: 1381827181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0042
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 780
+        width: 456
+        height: 355
+      alignment: 9
+      pivot: {x: 0.8377193, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875507a7e81325c4a8375512521c8510
+      internalID: 1539929377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0043
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 278
+        width: 461
+        height: 355
+      alignment: 9
+      pivot: {x: 0.8156182, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a6166197f1380449c5d111a41deaaa
+      internalID: -1748459447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0044
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 278
+        width: 461
+        height: 355
+      alignment: 9
+      pivot: {x: 0.79392624, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29213b15934f6b6439cf8b309bbaaeb0
+      internalID: 401875053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0045
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 231
+        width: 463
+        height: 354
+      alignment: 9
+      pivot: {x: 0.7688985, y: 1.4774011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a0d0c4b01b47946972f0489fdcc67b
+      internalID: -1381339999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0046
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 608
+        width: 497
+        height: 299
+      alignment: 9
+      pivot: {x: 0.7424547, y: 1.7391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799374bd2daf2b943851eae28ab538c9
+      internalID: 42644678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0047
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 2604
+        width: 503
+        height: 298
+      alignment: 9
+      pivot: {x: 0.7057654, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c5e95f4a0659d4db5726ca6e879fa0
+      internalID: 1781543723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0048
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 573
+        width: 503
+        height: 298
+      alignment: 9
+      pivot: {x: 0.6858847, y: 1.7416108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea62a09d34d707469391a955e5e5150
+      internalID: 20416239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0049
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 439
+        width: 501
+        height: 296
+      alignment: 9
+      pivot: {x: 0.6766467, y: 1.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198ee6b408ebc8b47955120372d312a2
+      internalID: 307130865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0050
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 2659
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 0.61650485, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0b1ed9e4e445249bb58f9597c855f7
+      internalID: -2090639605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0051
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 2659
+        width: 412
+        height: 334
+      alignment: 9
+      pivot: {x: 0.592233, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6539b3a362a9a4e88d664c4a9ee5b4
+      internalID: -1237741714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0052
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1166
+        width: 407
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5749386, y: 1.5572289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91512f475a68a6f4fade92c1efc7e275
+      internalID: -2108704131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0053
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2904
+        width: 413
+        height: 334
+      alignment: 9
+      pivot: {x: 0.53995156, y: 1.5479041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0705ef5e9d8d84d89f5f438e56d670
+      internalID: 1074949047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0054
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1575
+        width: 405
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5185185, y: 1.5100864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d4025b8ff0e80499eae85e3d2ed1bd
+      internalID: -1383689711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0055
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 2148
+        width: 401
+        height: 345
+      alignment: 9
+      pivot: {x: 0.49625936, y: 1.515942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea08ca33369794b81e6f809f8fc11e
+      internalID: -1981778520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0056
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 1396
+        width: 401
+        height: 350
+      alignment: 9
+      pivot: {x: 0.46882793, y: 1.4971429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4017c7c4f4f7b40ab173b822694fe7
+      internalID: -1084666082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0057
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 3150
+        width: 400
+        height: 350
+      alignment: 9
+      pivot: {x: 0.4375, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83aa90577a1836438891024744cb79b
+      internalID: -2022104680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0058
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 3795
+        width: 483
+        height: 300
+      alignment: 9
+      pivot: {x: 0.49068323, y: 1.7366667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45701f2233ac6d45a08cf92dc3339b0
+      internalID: 1753377882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0059
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 3516
+        width: 479
+        height: 296
+      alignment: 9
+      pivot: {x: 0.47181627, y: 1.7533784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753155a85fb33234a94f34e7035f008a
+      internalID: 59352668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0060
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 1618
+        width: 472
+        height: 295
+      alignment: 9
+      pivot: {x: 0.45974576, y: 1.759322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bacff446dd2d8647b1681b06a2eb336
+      internalID: -353008647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0061
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 1892
+        width: 472
+        height: 295
+      alignment: 9
+      pivot: {x: 0.43855932, y: 1.759322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7532c355440dc6458d608e47fb9fdc4
+      internalID: 175324999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0062
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 3574
+        width: 423
+        height: 340
+      alignment: 9
+      pivot: {x: 0.34751773, y: 1.5382353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a411f2ae0a1a941ab848d1fa1a56f1
+      internalID: -581578499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0063
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 2183
+        width: 426
+        height: 338
+      alignment: 9
+      pivot: {x: 0.34037557, y: 1.5473373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433292cf2e69f6a4fac87fa4fe3e5925
+      internalID: 1517963202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0064
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 887
+        width: 429
+        height: 343
+      alignment: 9
+      pivot: {x: 0.3053613, y: 1.5335277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52efbd6565d9a704d9d5ceb1aa83b0c9
+      internalID: 328887668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0065
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 887
+        width: 429
+        height: 343
+      alignment: 9
+      pivot: {x: 0.2820513, y: 1.5335277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a406cb27b76385140ae84279c4273d53
+      internalID: -1340635827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0066
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 304
+        width: 461
+        height: 355
+      alignment: 9
+      pivot: {x: 0.3253796, y: 1.4732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7382ca004156b442853c7637e761c2c
+      internalID: -1346382769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0067
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 1
+        width: 463
+        height: 354
+      alignment: 9
+      pivot: {x: 0.30237582, y: 1.4774011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4a409fda9b98341a2b4a74be34053e
+      internalID: 1650363420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0068
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 1
+        width: 463
+        height: 354
+      alignment: 9
+      pivot: {x: 0.28077754, y: 1.4774011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36195cab64efa4a49ab8545ca0f2338a
+      internalID: 1661023902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEAR01A0069
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 605
+        width: 455
+        height: 359
+      alignment: 9
+      pivot: {x: 0.25274727, y: 1.4679666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751427246cc5f0440bf71607b232d92d
+      internalID: -1816074866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a891860b5267a4343b24dc0db4634c0e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PREAP0001: -1741701069
+      PREAP0002: 753104119
+      PREAP0003: -1298172897
+      PREAP0004: -171187984
+      PREAP0005: -68998361
+      PREAP0006: -2077951005
+      PREAP0007: 633320061
+      PREAP0008: -1815006284
+      PREAP0009: 381014889
+      PREAP0010: 753064932
+      PREAP0011: 412457158
+      PREAP0012: 1423937635
+      PREAP0013: -1715695383
+      PREAP0014: -164391149
+      PREAP0015: -392492024
+      PREAP0016: -941637304
+      PREAP0017: 1555256473
+      PREAP0018: 676633155
+      PREAP0019: -1440038995
+      PREAP0020: -1562754608
+      PREAP0021: -437798259
+      PREAP0022: 64326662
+      PREAP0023: 1953516412
+      PREAP0024: 771043377
+      PREAP0025: -1527564582
+      PREAP0026: 489434459
+      PREAP0027: 25656898
+      PREAP0028: -344180617
+      PREAP0029: 1957279880
+      PREAP0030: -2110478820
+      PREAP0031: 822094620
+      PREAP0032: -1147909619
+      PREAP0033: 290127560
+      PREAP0034: -1607126340
+      PREAP0035: 186243630
+      PREAP0036: -1795781042
+      PREAP0037: -259103169
+      PREAP0038: 1991722521
+      PREAP0039: -1980317469
+      PREAP0040: 1027048047
+      PREAP0041: 341709044
+      PREAP0042: -1140715715
+      PREAP0043: -1114724557
+      PREAP0044: 795489602
+      PREAP0045: -1894117867
+      PREAP0046: -1038346554
+      PREAP0047: 1656019269
+      PREAP0048: -55697997
+      PREAP0049: -1697596389
+      PREAP0050: 1797808020
+      PREAP0051: 1254722609
+      PREAP0052: -1095768396
+      PREAP0053: 1500054154
+      PREAP0054: 1126987765
+      PREAP0055: 577828703
+      PREAP0056: 454609093
+      PREAP0057: -245646527
+      PREAP0058: -1827333832
+      PREAP0059: -583742024
+      PREAP0060: -1950400732
+      PREAP0061: 2013990842
+      PREAP0062: -2008948005
+      PREAP0063: -1015707727
+      PREAP0064: -1213854648
+      PREAP0065: 1444602985
+      PREAP0066: 1966398451
+      PREAP0067: -1144459706
+      PREAP0068: -1616250926
+      PREAP0069: -905281157
+      PREAP0070: 719067031
+      PREAP0071: 2034476626
+      PREAP0072: -1287503542
+      PREAP0073: -1381814471
+      PREAP0074: -191408904
+      PREAP0075: 1219671458
+      PREAP0076: -1326319240
+      PREAP0077: 1966254066
+      PREAP0078: -757478339
+      PREAP0079: -264527571
+      PREAP0080: -1424764771
+      PREAP0081: 693800104
+      PREAP0082: 677238549
+      PREAP0083: 375258096
+      PREAP0084: -2038466399
+      PREAP0085: -858353941
+      PREAP0086: 404277231
+      PREAP0087: -1077436695
+      PREAP0088: 952307656
+      PREAP0089: -1361882763
+      PREAP0090: 1361566183
+      PREAP0091: -213048717
+      PREAP0092: 1190786417
+      PREAP0093: 1573131023
+      PREAP0094: 928153624
+      PREAP0095: -1313981955
+      PREAP0096: -948103281
+      PREAP0097: -1786128542
+      PREAP0098: 2123814275
+      PREAP0099: -1323735118
+      PREAP0100: 13215222
+      PREAP0101: 1927544291
+      PREAP0102: 1145811146
+      PREAP0103: 748894304
+      PREAP0104: -1676924928
+      PREAP0105: -255810632
+      PREAP0106: 1768797891
+      PREAP0107: -1219748019
+      PREAP0108: 1817739890
+      PREAP0109: -430339017
+      PREAP0110: -1982442302
+      PREAP0111: 977515373
+      PREAP0112: 25952796
+      PREAP0113: -933728577
+      PREAP0114: 796290470
+      PREAP0115: 781726948
+      PREAP0116: 576354353
+      PREAP0117: -395851459
+      PREAP0118: -970637892
+      PREAP0119: -1060707226
+      PREAP0120: -474764448
+      PREAP0121: -1205221225
+      PREAP0122: 619280008
+      PREAP0123: 1162976940
+      PREAP0124: 482579132
+      PREAP0125: 1055410113
+      PREAP0126: 107175191
+      PREAP0127: -1033838559
+      PREAP0128: -642548492
+      PREAP0129: 824945510
+      PREAP0130: -154176416
+      PREAP0131: -197961651
+      PREAP0132: -1225050715
+      PREAP0133: -139314630
+      PREAP0134: -1507121707
+      PREAP0135: 1167716775
+      PREAP0136: 1312142213
+      PREAP0137: 439642542
+      PREAP0138: -1681744990
+      PREAP0139: -2122695712
+      PREAP0140: -1467151696
+      PREAP0141: -1325821827
+      PREAP0142: -389192102
+      PREAP0143: 2042614296
+      PREAP0144: -615805281
+      PREAP0145: -1242538039
+      PREAP0146: 38513474
+      PREAP0147: 342148379
+      PREAP0148: -1856498024
+      PREAP0149: -2120557701
+      PREAP0150: -405481405
+      PREAP0151: 1897073662
+      PREAP0152: -1125009895
+      PREAP0153: -1134486040
+      PREAP0154: -1322537787
+      PREAP0155: -1502804686
+      PREAP0156: 2003725242
+      PREAP0157: -2093347379
+      PREAP0158: -1485336732
+      PREAP0159: 599794929
+      PREAP0160: -1353758959
+      PREAP0161: -737583080
+      PREAP0162: -2024584108
+      PREAP0163: 379000723
+      PREAP0164: 265582070
+      PREAP0165: 420517446
+      PREAP0166: 578823192
+      PREAP0167: -1291792277
+      PREAP0168: -680362300
+      PREAP0169: -1529930581
+      PREAP0170: 964405957
+      PREAP0171: -1275593057
+      PREAP0172: 2023712917
+      PREAP0173: 1629825030
+      PREAP0174: -1924299499
+      PREAP0175: -1846798549
+      PREAP0176: 2036500541
+      PREAP0177: -769727672
+      PREAP0178: -1393629982
+      PREAP0179: -50677488
+      PREAP0180: 1045556532
+      PREAP0181: 309011965
+      PREAP0182: 519522887
+      PREAP0183: -1265264443
+      PREAP0184: 883405384
+      PREAP0185: 122101141
+      PREAP0186: 1812796749
+      PREAP0187: 826510083
+      PREAP0188: 1578293189
+      PREAP0189: -1067603051
+      PREAP0190: 1152999594
+      PREAP0191: -558749931
+      PREAP0192: -1397729124
+      PREAP0193: 228273615
+      PREAP0194: 661176049
+      PREAP0195: -2122169127
+      PREAP0196: -484699356
+      PREAP0197: -1593492887
+      PREAP0198: -1009710662
+      PREAP0199: 648559104
+      PREAP0200: 1803442038
+      PREAP0201: -234815114
+      PREAP0202: 20460656
+      PREAP0203: -951820804
+      PREAP0204: 777208614
+      PREAP0205: 1992699427
+      PREAP0206: -899786917
+      PREAP0207: -1971536393
+      PREAP0208: 997958548
+      PREAP0209: 110807833
+      PREAP0210: -924932746
+      PREAP0211: -2003450286
+      PREAP0212: 689969035
+      PREAP0213: -2140709934
+      PREAP0214: -1316085878
+      PREAP0215: 578248631
+      PREAP0216: 148036392
+      PREAP0217: -1883123835
+      PREAP0218: 82094866
+      PREAP0219: -260605115
+      PREAP0220: 418172586
+      PREAP0221: 913939961
+      PREAP0222: -2053892951
+      PREAP0223: -1741335717
+      PREAP0224: 2068364105
+      PREAP0225: 296290172
+      PREAP0226: -2067606750
+      PREAP0227: -957022709
+      PREAP0228: -839721594
+      PREAP0229: 1702937372
+      PREAP0230: -3536115
+      PREAP0231: 1395836741
+      PREAP0232: 160299136
+      PREAP0233: -2092344578
+      PREAP0234: -1902809883
+      PREAP0235: 143809144
+      PREAP0236: -808873983
+      PREAP0237: -942381722
+      PREAP0238: -1966547688
+      PREAP0239: 1723485009
+      PREAP0240: -808180949
+      PREAP0241: 1542190754
+      TEAR01A0001: -2111837782
+      TEAR01A0002: 1397934108
+      TEAR01A0003: 1509775210
+      TEAR01A0004: 1785316723
+      TEAR01A0005: -1978340740
+      TEAR01A0006: -1727110424
+      TEAR01A0007: -1474948476
+      TEAR01A0008: -2027558623
+      TEAR01A0009: 355749560
+      TEAR01A0010: -1172189727
+      TEAR01A0011: -344140027
+      TEAR01A0012: -495883683
+      TEAR01A0013: 943670621
+      TEAR01A0014: 1067343801
+      TEAR01A0015: -706581944
+      TEAR01A0016: -1929758577
+      TEAR01A0017: -254703984
+      TEAR01A0018: 1784445094
+      TEAR01A0019: 1247666905
+      TEAR01A0020: 2052241334
+      TEAR01A0021: -2067593071
+      TEAR01A0022: -958446386
+      TEAR01A0023: -1065590346
+      TEAR01A0024: -1690749744
+      TEAR01A0025: -1136995351
+      TEAR01A0026: -358400296
+      TEAR01A0027: 559632544
+      TEAR01A0028: 1714502782
+      TEAR01A0029: 602578719
+      TEAR01A0030: 1550309328
+      TEAR01A0031: -494738280
+      TEAR01A0032: 986017512
+      TEAR01A0033: 950230365
+      TEAR01A0034: -1240130546
+      TEAR01A0035: 1550833970
+      TEAR01A0036: -42094021
+      TEAR01A0037: -718444874
+      TEAR01A0038: -1028195516
+      TEAR01A0039: 1012526088
+      TEAR01A0040: -916964837
+      TEAR01A0041: 1381827181
+      TEAR01A0042: 1539929377
+      TEAR01A0043: -1748459447
+      TEAR01A0044: 401875053
+      TEAR01A0045: -1381339999
+      TEAR01A0046: 42644678
+      TEAR01A0047: 1781543723
+      TEAR01A0048: 20416239
+      TEAR01A0049: 307130865
+      TEAR01A0050: -2090639605
+      TEAR01A0051: -1237741714
+      TEAR01A0052: -2108704131
+      TEAR01A0053: 1074949047
+      TEAR01A0054: -1383689711
+      TEAR01A0055: -1981778520
+      TEAR01A0056: -1084666082
+      TEAR01A0057: -2022104680
+      TEAR01A0058: 1753377882
+      TEAR01A0059: 59352668
+      TEAR01A0060: -353008647
+      TEAR01A0061: 175324999
+      TEAR01A0062: -581578499
+      TEAR01A0063: 1517963202
+      TEAR01A0064: 328887668
+      TEAR01A0065: -1340635827
+      TEAR01A0066: -1346382769
+      TEAR01A0067: 1650363420
+      TEAR01A0068: 1661023902
+      TEAR01A0069: -1816074866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

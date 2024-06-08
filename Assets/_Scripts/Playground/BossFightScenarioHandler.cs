@@ -14,7 +14,7 @@ public class BossFightScenarioHandler : MonoBehaviour
     [SerializeField]
     private TargetHandler _targetHandler;
     [SerializeField]
-    private VFXDash _vfxDash;
+    private VFXTucanorexDash _vfxDash;
 
     private PlayerInputHandler _pih;
 

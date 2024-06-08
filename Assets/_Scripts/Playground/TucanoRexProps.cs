@@ -117,8 +117,9 @@ public class TucanoRexProps : MonoBehaviour
         _feedbackAnimController.SetBool("isDamaged", true);
         _life -= damage;
         if (_puff != null) _puff.PlayPuff();
-
+        if (FMODAudioManager.Instance) FMODAudioManager.Instance.PlayOneShot("event:/Tutorial/Boss/SFX_Hit", transform.position);
         if (RumbleManager.instance != null) RumbleManager.instance.RumbleBossDamage();
+
     }
 
     public float GetCurrentLife() => _life;

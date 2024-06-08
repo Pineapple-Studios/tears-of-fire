@@ -700,6 +700,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1395121756184974849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_atk-Fase 1
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_atk-Fase 1
+  Guid:
+    Data1: 887195497
+    Data2: 1116875677
+    Data3: 870249885
+    Data4: 495284664
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &-1218153752587956940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,10 +823,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638533856720083828
+  lastModified: 638533906338246280
   FileSizes:
   - Name: Desktop
-    Value: 9519488
+    Value: 9519136
   Exists: 1
 --- !u!114 &-328074252107952706
 MonoBehaviour:
@@ -1046,8 +1073,35 @@ MonoBehaviour:
   - {fileID: -451307806154551115}
   StringsBanks:
   - {fileID: 4913739301051636614}
-  cacheTime: 638533856720126492
+  cacheTime: 638533906338276286
   cacheVersion: 131616
+--- !u!114 &64745372081744090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tutorial/Boss/SFX_atk-Fase 2
+  m_EditorClassIdentifier: 
+  Path: event:/Tutorial/Boss/SFX_atk-Fase 2
+  Guid:
+    Data1: -640757359
+    Data2: 1254717641
+    Data3: 335758265
+    Data4: 356833174
+  Banks:
+  - {fileID: -451307806154551115}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1800
 --- !u!114 &156000021440743817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1577,7 +1631,7 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638533856720126492
+  lastModified: 638533906338276286
   FileSizes:
   - Name: Desktop
     Value: 3926

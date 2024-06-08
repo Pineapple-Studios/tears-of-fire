@@ -823,10 +823,10 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638533766150702732
+  lastModified: 638533906338246280
   FileSizes:
   - Name: Desktop
-    Value: 9519008
+    Value: 9519136
   Exists: 1
 --- !u!114 &-328074252107952706
 MonoBehaviour:
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   - {fileID: -451307806154551115}
   StringsBanks:
   - {fileID: 4913739301051636614}
-  cacheTime: 638533766150898010
+  cacheTime: 638533906338276286
   cacheVersion: 131616
 --- !u!114 &64745372081744090
 MonoBehaviour:
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   - {fileID: -451307806154551115}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   Path: ../tof-sound-middleware/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638533766150898010
+  lastModified: 638533906338276286
   FileSizes:
   - Name: Desktop
     Value: 3926

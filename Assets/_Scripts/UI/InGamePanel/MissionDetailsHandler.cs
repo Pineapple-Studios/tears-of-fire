@@ -24,6 +24,7 @@ public class MissionDetailsHandler : MonoBehaviour
     private void RenderData(string title, string description, Sprite image, bool isCompleted)
     {
         _thumbnail.sprite = image;
+        _thumbnail.SetNativeSize();
         _title.text = title;
         _description.text = description;
     }

@@ -124,7 +124,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
 
         if (_debugPanel == null || _dataController == null) return;
         if (
-            (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt)) && 
+            (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt)) &&
             Input.GetKeyDown(KeyCode.F12)
         )
         {
@@ -132,7 +132,7 @@ public class FeedbackAndDebugManager : MonoBehaviour
             HandlePanel();
         }
 
-        
+
         ShowFeedbackPlayerEngines();
     }
 

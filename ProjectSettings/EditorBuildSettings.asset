@@ -37,16 +37,19 @@ EditorBuildSettings:
     guid: aa15ac74f58d6b14ab024ce2ffdb415c
   - enabled: 1
     path: Assets/_Scenes/Cutscene/AfterGame.unity
-    guid: f6ad8e60a90123144970bdf8e5da015a
+    guid: 726d006a7b1bae648b60a149f61278a2
   - enabled: 1
     path: Assets/_Scenes/UI/FinishScreen.unity
     guid: 88508e083e632ef41bff12c286be9524
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/Playground/BossRoom.unity
     guid: 6294347554e0d0245ba9df0dc6213987
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/Playground/NarrativeRoom.unity
     guid: 97a190aaf5e400a45b6eb226085a7713
+  - enabled: 1
+    path: Assets/_Scenes/Levels/Apresentacao.unity
+    guid: af35073780a204149b84895d3a93b9d3
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 583c361fe9d33414d931dd93ef5e0fb8, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 0e692ec524dad3740941ff549262ca03, type: 2}

@@ -11,6 +11,9 @@ public class CinemachineSwitcher : MonoBehaviour
     [SerializeField]
     private Animator _anim;
 
+    [SerializeField]
+    GameObject cv;
+
     [Header("Props")]
     [SerializeField]
     private ECamAvailable _goToCam;
@@ -33,6 +36,11 @@ public class CinemachineSwitcher : MonoBehaviour
         }
     }
 
+    private void CanvasOff(bool on)
+    {
+        cv.SetActive(on);
+    }
+
     private void SwitchCam()
     {        
         if (_goToCam == LevelDataManager.Instance.GetCamState()) return;
@@ -41,9 +49,11 @@ public class CinemachineSwitcher : MonoBehaviour
         {
             case ECamAvailable.SCENARIO:
                 _anim.Play(SCEARIO_CAM_STATE);
+                CanvasOff(false);
                 break;
             case ECamAvailable.BOSS:
                 _anim.Play(BOSS_CAM_STATE);
+                CanvasOff(false);
                 break;
             case ECamAvailable.YAMSE:
                 _anim.Play(YAMSE_CAM_STATE);
@@ -63,6 +73,7 @@ public class CinemachineSwitcher : MonoBehaviour
             case ECamAvailable.PLAYER:
             default:
                 _anim.Play(PLAYER_CAM_STATE);
+                CanvasOff(true);
                 break;
         }
 
